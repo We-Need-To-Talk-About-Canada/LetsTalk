@@ -882,6 +882,8 @@
   // ================= MAP VIEW (Leaflet) =================
   let mapBuilt = false;
   let leafletMap = null;
+  let markerByKey = new Map();
+  function locKey(loc){ return loc.place || (loc.lat.toFixed(1) + ',' + loc.lon.toFixed(1)); }
   function buildMap(){
     mapBuilt = true;
     const withLoc = events.map((e,i) => ({e, i, loc: e.location})).filter(x => x.loc && typeof x.loc.lat === 'number');
@@ -897,10 +899,11 @@
     // cluster events sharing (near-)identical coordinates into one marker
     const clusters = new Map();
     withLoc.forEach(x => {
-      const key = x.loc.place || (x.loc.lat.toFixed(1) + ',' + x.loc.lon.toFixed(1));
+      const key = locKey(x.loc);
       if (!clusters.has(key)) clusters.set(key, []);
       clusters.get(key).push(x);
     });
+    markerByKey = new Map();
 
     leafletMap = L.map('leaflet-map', { scrollWheelZoom: true, worldCopyJump: true });
     L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
@@ -950,6 +953,7 @@
         });
       });
       markers.push(marker);
+      markerByKey.set(key, marker);
     });
 
     if (markers.length){
@@ -984,7 +988,11 @@
         btn.className = 'revent'; btn.type = 'button';
         btn.innerHTML = '<span class="ry">' + x.e.start_date.year + '</span>' + esc(x.e.text.headline);
         btn.addEventListener('click', () => {
-          setView('timeline'); go(x.i);
+          const marker = markerByKey.get(locKey(x.loc));
+          if (marker && leafletMap){
+            leafletMap.flyTo(marker.getLatLng(), Math.max(leafletMap.getZoom(), 7), { duration: 0.6 });
+            marker.openPopup();
+          }
         });
         box.appendChild(btn);
       });
