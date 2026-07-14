@@ -8,39 +8,27 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Lora:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="theme.css">
 <style>
-  :root{
-    --cream:#EDE8DF;
-    --paper:#F7F4EE;
-    --ink:#201C16;
-    --red:#B5261E;
-    --red-deep:#8C1B15;
-    --brass:#A6874F;
-    --line:#D9D2C2;
-    --white:#FFFFFF;
-    --silent:#8C8474;
-    --answered:#3F6B4C;
-    --ack:#A6874F;
-  }
   *{box-sizing:border-box; margin:0; padding:0;}
   html{scroll-behavior:smooth;}
   body{
-    background:var(--cream);
-    color:var(--ink);
+    background:var(--color-bg);
+    color:var(--color-fg);
     font-family:'Lora', serif;
     line-height:1.6;
     -webkit-font-smoothing:antialiased;
   }
-  ::selection{background:var(--red); color:var(--white);}
+  ::selection{background:var(--color-accent); color:var(--color-on-accent);}
   a{color:inherit;}
   .wrap{max-width:1080px; margin:0 auto; padding:0 24px;}
 
   /* ---------- MASTHEAD ---------- */
   header.masthead{
-    border-bottom:3px solid var(--ink);
+    border-bottom:3px solid var(--color-border-strong);
     background:
       repeating-linear-gradient(180deg, rgba(0,0,0,0.02) 0px, rgba(0,0,0,0.02) 1px, transparent 1px, transparent 3px),
-      var(--paper);
+      var(--color-bg-elevated);
     padding:56px 0 40px;
   }
   .eyebrow{
@@ -49,7 +37,7 @@
     font-size:13px;
     letter-spacing:.14em;
     text-transform:uppercase;
-    color:var(--red);
+    color:var(--color-accent);
     display:flex;
     align-items:center;
     gap:10px;
@@ -58,7 +46,7 @@
   .eyebrow::before{
     content:"";
     width:28px; height:2px;
-    background:var(--red);
+    background:var(--color-accent);
     display:inline-block;
   }
   h1.title{
@@ -72,27 +60,27 @@
   }
   h1.title em{
     font-style:normal;
-    color:var(--red);
+    color:var(--color-accent);
   }
   .dek{
     font-family:'Lora', serif;
     font-size:19px;
     max-width:640px;
-    color:#3a352c;
+    color:var(--color-fg-secondary);
     margin-bottom:28px;
   }
-  .dek strong{color:var(--ink);}
+  .dek strong{color:var(--color-fg);}
   .masthead-meta{
     display:flex; flex-wrap:wrap; gap:28px;
     font-family:'Poppins', sans-serif;
     font-size:12px;
     letter-spacing:.06em;
     text-transform:uppercase;
-    color:var(--silent);
-    border-top:1px solid var(--line);
+    color:var(--color-fg-muted);
+    border-top:1px solid var(--color-border);
     padding-top:18px;
   }
-  .masthead-meta b{color:var(--ink);}
+  .masthead-meta b{color:var(--color-fg);}
 
   /* ---------- SECTION GENERIC ---------- */
   section{padding:56px 0;}
@@ -104,7 +92,7 @@
     margin-bottom:8px;
   }
   .section-sub{
-    color:#4a4438;
+    color:var(--color-fg-secondary);
     max-width:680px;
     margin-bottom:28px;
   }
@@ -114,29 +102,29 @@
     display:grid;
     grid-template-columns:repeat(3, 1fr);
     gap:1px;
-    background:var(--ink);
-    border:1px solid var(--ink);
+    background:var(--color-border-strong);
+    border:1px solid var(--color-border-strong);
     margin-top:8px;
   }
   .principle{
-    background:var(--paper);
+    background:var(--color-bg-elevated);
     padding:26px 24px;
   }
   .principle .num{
     font-family:'Poppins', sans-serif;
     font-weight:800;
     font-size:13px;
-    color:var(--red);
+    color:var(--color-accent);
     letter-spacing:.08em;
     margin-bottom:10px;
   }
-  .principle p{font-size:15.5px; color:#3a352c;}
-  .principle strong{color:var(--ink); font-family:'Poppins',sans-serif; font-size:17px; display:block; margin-bottom:6px;}
+  .principle p{font-size:15.5px; color:var(--color-fg-secondary);}
+  .principle strong{color:var(--color-fg); font-family:'Poppins',sans-serif; font-size:17px; display:block; margin-bottom:6px;}
 
   /* ---------- THE QUESTIONS ---------- */
   .questions-block{
-    background:var(--ink);
-    color:var(--cream);
+    background:var(--color-surface-emphasis);
+    color:var(--color-on-emphasis);
     padding:44px 36px;
     position:relative;
   }
@@ -144,14 +132,14 @@
     content:"";
     position:absolute; top:0; left:0; bottom:0;
     width:6px;
-    background:var(--red);
+    background:var(--color-accent);
   }
   .questions-block h3{
     font-family:'Poppins', sans-serif;
     font-size:12px;
     letter-spacing:.14em;
     text-transform:uppercase;
-    color:var(--brass);
+    color:var(--color-accent-2);
     margin-bottom:18px;
   }
   .q-list{list-style:none;}
@@ -159,7 +147,7 @@
     display:flex;
     gap:16px;
     padding:16px 0;
-    border-top:1px solid rgba(255,255,255,.14);
+    border-top:1px solid var(--color-border-on-emphasis);
     font-size:16.5px;
   }
   .q-list li:first-child{border-top:none;}
@@ -167,13 +155,13 @@
     font-family:'Poppins', sans-serif;
     font-weight:800;
     font-size:20px;
-    color:var(--red);
+    color:var(--color-accent);
     min-width:28px;
   }
   .questions-note{
     margin-top:22px;
     font-size:14px;
-    color:#c9c2b2;
+    color:var(--color-on-emphasis-secondary);
     font-family:'Poppins', sans-serif;
     line-height:1.6;
   }
@@ -190,38 +178,38 @@
     font-size:12px;
     text-transform:uppercase;
     letter-spacing:.08em;
-    color:var(--silent);
+    color:var(--color-fg-muted);
     margin-right:6px;
   }
   button.filter-btn, input.search-box{
     font-family:'Poppins', sans-serif;
     font-size:13px;
     font-weight:500;
-    border:1.5px solid var(--ink);
+    border:1.5px solid var(--color-border-strong);
     background:transparent;
-    color:var(--ink);
+    color:var(--color-fg);
     padding:8px 16px;
     border-radius:20px;
     cursor:pointer;
     transition:.15s;
   }
-  button.filter-btn:hover{background:var(--ink); color:var(--cream);}
-  button.filter-btn.active{background:var(--red); border-color:var(--red); color:var(--white);}
+  button.filter-btn:hover{background:var(--color-surface-emphasis); color:var(--color-on-emphasis);}
+  button.filter-btn.active{background:var(--color-accent); border-color:var(--color-accent); color:var(--color-on-accent);}
   input.search-box{
     border-radius:20px;
     padding:8px 18px;
     min-width:220px;
-    background:var(--white);
+    background:var(--color-bg-elevated-strong);
   }
-  input.search-box:focus{outline:2px solid var(--red); outline-offset:1px;}
+  input.search-box:focus{outline:2px solid var(--color-accent); outline-offset:1px;}
 
   .count-line{
     font-family:'Poppins', sans-serif;
     font-size:13px;
-    color:var(--silent);
+    color:var(--color-fg-muted);
     margin-bottom:18px;
   }
-  .count-line b{color:var(--ink);}
+  .count-line b{color:var(--color-fg);}
 
   /* ---------- MP GRID ---------- */
   .mp-grid{
@@ -230,9 +218,9 @@
     gap:18px;
   }
   .mp-card{
-    background:var(--white);
-    border:1px solid var(--line);
-    border-top:4px solid var(--brass);
+    background:var(--color-bg-elevated-strong);
+    border:1px solid var(--color-border);
+    border-top:4px solid var(--color-accent-2);
     padding:0 20px 20px;
     display:flex;
     flex-direction:column;
@@ -247,8 +235,8 @@
     margin:0 -20px 4px;
     aspect-ratio:4/5;
     overflow:hidden;
-    background:var(--cream);
-    border-bottom:1px solid var(--line);
+    background:var(--color-bg);
+    border-bottom:1px solid var(--color-border);
   }
   .mp-photo{
     width:100%; height:100%;
@@ -266,10 +254,10 @@
     font-family:'Poppins', sans-serif;
     font-weight:700;
     font-size:42px;
-    color:var(--brass);
+    color:var(--color-accent-2);
     background:
       repeating-linear-gradient(135deg, rgba(0,0,0,0.03) 0px, rgba(0,0,0,0.03) 2px, transparent 2px, transparent 12px),
-      var(--cream);
+      var(--color-bg);
   }
 
   .status-stamp{
@@ -282,13 +270,13 @@
     text-transform:uppercase;
     padding:3px 9px;
     background:rgba(255,255,255,.95);
-    border:1.5px solid var(--silent);
-    color:var(--silent);
+    border:1.5px solid var(--color-fg-muted);
+    color:var(--color-fg-muted);
     border-radius:3px;
     transform:rotate(2deg);
   }
-  .status-stamp.answered{border-color:var(--answered); color:var(--answered);}
-  .status-stamp.acknowledged{border-color:var(--ack); color:var(--ack);}
+  .status-stamp.answered{border-color:var(--color-status-answered); color:var(--color-status-answered);}
+  .status-stamp.acknowledged{border-color:var(--color-status-acknowledged); color:var(--color-status-acknowledged);}
 
   .mp-name{
     font-family:'Poppins', sans-serif;
@@ -298,7 +286,7 @@
   }
   .mp-riding{
     font-size:14.5px;
-    color:#4a4438;
+    color:var(--color-fg-secondary);
   }
   .mp-meta{
     display:flex; gap:8px; align-items:center;
@@ -306,7 +294,7 @@
     font-size:11px;
     text-transform:uppercase;
     letter-spacing:.05em;
-    color:var(--silent);
+    color:var(--color-fg-muted);
     margin-bottom:4px;
   }
   .party-tag{
@@ -320,7 +308,7 @@
   .mp-actions{
     display:flex; flex-direction:column; gap:8px;
     margin-top:8px;
-    border-top:1px solid var(--line);
+    border-top:1px solid var(--color-border);
     padding-top:14px;
   }
   .btn{
@@ -335,19 +323,19 @@
     transition:.15s;
   }
   .btn-primary{
-    background:var(--red);
-    color:var(--white);
+    background:var(--color-accent);
+    color:var(--color-on-accent);
   }
-  .btn-primary:hover{background:var(--red-deep);}
+  .btn-primary:hover{background:var(--color-accent-strong);}
   .btn-ghost{
-    border:1.5px solid var(--line);
-    color:var(--ink);
+    border:1.5px solid var(--color-border);
+    color:var(--color-fg);
   }
-  .btn-ghost:hover{border-color:var(--ink);}
+  .btn-ghost:hover{border-color:var(--color-border-strong);}
 
   .no-results{
     font-family:'Poppins', sans-serif;
-    color:var(--silent);
+    color:var(--color-fg-muted);
     padding:40px 0;
     text-align:center;
     grid-column:1/-1;
@@ -364,22 +352,22 @@
     display:inline-block; width:10px; height:10px; border-radius:50%;
     margin-right:6px;
   }
-  .dot-silent{background:var(--silent);}
-  .dot-ack{background:var(--ack);}
-  .dot-answered{background:var(--answered);}
+  .dot-silent{background:var(--color-status-silent);}
+  .dot-ack{background:var(--color-status-acknowledged);}
+  .dot-answered{background:var(--color-status-answered);}
 
   table.tracker{
     width:100%;
     border-collapse:collapse;
     font-family:'Poppins', sans-serif;
     font-size:14px;
-    background:var(--white);
+    background:var(--color-bg-elevated-strong);
   }
   table.tracker th{
     text-align:left;
     padding:12px 14px;
-    background:var(--ink);
-    color:var(--cream);
+    background:var(--color-surface-emphasis);
+    color:var(--color-on-emphasis);
     font-weight:600;
     font-size:12px;
     letter-spacing:.05em;
@@ -387,7 +375,7 @@
   }
   table.tracker td{
     padding:11px 14px;
-    border-bottom:1px solid var(--line);
+    border-bottom:1px solid var(--color-border);
   }
   table.tracker tr:last-child td{border-bottom:none;}
   .tstatus{
@@ -396,14 +384,14 @@
     text-transform:uppercase;
     letter-spacing:.04em;
   }
-  .tstatus.silent{color:var(--silent);}
-  .tstatus.acknowledged{color:var(--ack);}
-  .tstatus.answered{color:var(--answered);}
+  .tstatus.silent{color:var(--color-status-silent);}
+  .tstatus.acknowledged{color:var(--color-status-acknowledged);}
+  .tstatus.answered{color:var(--color-status-answered);}
 
   /* ---------- FOOTER ---------- */
   footer{
-    background:var(--ink);
-    color:var(--cream);
+    background:var(--color-surface-emphasis);
+    color:var(--color-on-emphasis);
     padding:52px 0 36px;
     margin-top:24px;
   }
@@ -413,7 +401,7 @@
     font-size:22px;
     margin-bottom:10px;
   }
-  footer p{color:#c9c2b2; max-width:600px; margin-bottom:20px; font-size:15px;}
+  footer p{color:var(--color-on-emphasis-secondary); max-width:600px; margin-bottom:20px; font-size:15px;}
   footer .foot-links{
     display:flex; gap:24px; flex-wrap:wrap;
     font-family:'Poppins', sans-serif;
@@ -421,16 +409,16 @@
     margin-bottom:28px;
   }
   footer .foot-links a{
-    color:var(--brass);
+    color:var(--color-link);
     text-decoration:none;
     border-bottom:1px solid transparent;
   }
-  footer .foot-links a:hover{border-color:var(--brass);}
+  footer .foot-links a:hover{border-color:var(--color-link);}
   .foot-sources{
     font-family:'Poppins', sans-serif;
     font-size:11.5px;
-    color:#8a8272;
-    border-top:1px solid rgba(255,255,255,.12);
+    color:var(--color-on-emphasis-muted);
+    border-top:1px solid var(--color-border-on-emphasis);
     padding-top:20px;
     line-height:1.8;
   }
@@ -438,7 +426,7 @@
     font-family:'Poppins', sans-serif;
     font-weight:700;
     font-size:14px;
-    color:var(--cream);
+    color:var(--color-on-emphasis);
     letter-spacing:.04em;
     margin-top:24px;
   }
@@ -462,7 +450,7 @@
 <header class="masthead">
   <div class="wrap">
     <div class="eyebrow">We Need to Talk About Canada &nbsp;·&nbsp; Part VII</div>
-    <a href="index.html" style="font-family:'Poppins',sans-serif; font-size:12.5px; color:var(--silent); text-decoration:none; display:inline-block; margin-bottom:14px;">&#8592; Back to Home</a><br>
+    <a href="index.html" style="font-family:'Poppins',sans-serif; font-size:12.5px; color:var(--color-fg-muted); text-decoration:none; display:inline-block; margin-bottom:14px;">&#8592; Back to Home</a><br>
     <h1 class="title">Every Sikh MP. <em>One standard.</em></h1>
     <p class="dek">Six parts of this series showed what happens when Canadians wait for politicians to lead. Nothing happens until someone makes noise. <strong>This is the noise, organized.</strong> Every sitting Sikh Member of Parliament, their official contact, and four questions they haven't had to answer on the record.</p>
     <div class="masthead-meta">

@@ -1,0 +1,190 @@
+/* ==========================================================================
+   theme.css — shared design-token system for We Need to Talk About Canada
+   (index.html, directory.html, timeline.html)
+   ==========================================================================
+
+   WHAT THIS FILE IS
+   Every color used by any page lives here as a semantic CSS custom
+   property, named by ROLE ("--color-fg-muted") never by literal hue
+   ("--color-gray"). Component CSS in each page's own <style> block should
+   only ever reference these variables — it should contain no color literals
+   of its own (a few self-contained brand chips, like political-party tag
+   colors in directory.html, are an intentional exception; see the note at
+   the bottom of this file).
+
+   TOKEN LAYERS
+     1. Surfaces   --color-bg, --color-bg-elevated, --color-bg-elevated-strong
+                   plus the "emphasis surface" family (--color-surface-emphasis,
+                   --color-on-emphasis*, --color-border-on-emphasis) used for
+                   the dark banner/footer bands that sit inside an otherwise
+                   light page (or, in dark mode, the raised dark-chrome bands).
+     2. Text       --color-fg, --color-fg-secondary, --color-fg-muted
+     3. Borders    --color-border, --color-border-strong
+     4. Accent     --color-accent, --color-accent-strong, --color-accent-2,
+                   --color-on-accent, --color-on-accent-2, --color-accent-glow,
+                   --color-accent-dim, --color-link
+     5. Status     --color-status-silent, --color-status-acknowledged,
+                   --color-status-answered (directory.html's reply tracker)
+
+   HOW THEMING WORKS (no JS required for correct first paint)
+     - :root defines the LIGHT theme (the index.html / directory.html
+       "newspaper" look) as the default.
+     - A `@media (prefers-color-scheme: dark)` block overrides every token
+       with the DARK theme (the timeline.html "chronicle" look) whenever the
+       OS/browser prefers dark — this applies automatically, before any
+       script runs.
+     - `:not([data-theme="light"])` inside that media query lets a page (or a
+       future toggle button) force light mode even on a dark OS, by setting
+       `<html data-theme="light">`.
+     - A `[data-theme="dark"]` block gives the same dark override so a toggle
+       can force dark mode even on a light OS, by setting
+       `<html data-theme="dark">`.
+     - No toggle is wired up today — both attribute blocks are here so one
+       can be added later purely as progressive enhancement (flip
+       `documentElement.dataset.theme`), without ever touching this file's
+       token values or any page's component CSS.
+
+   HOW TO ADD A THIRD THEME (e.g. "sepia" or "high-contrast")
+     1. Pick an attribute value, e.g. `data-theme="sepia"`.
+     2. Add one more block at the bottom of this file:
+          [data-theme="sepia"] { --color-bg: ...; --color-fg: ...; ... }
+        reusing exactly the token names already declared under :root — do
+        NOT invent new names. Define every token listed above so the theme
+        is complete.
+     3. Nothing in index.html / directory.html / timeline.html needs to
+        change. Any element already changes color for free.
+   ========================================================================== */
+
+:root {
+  /* ---- 1. Surfaces (light / "newspaper") ---- */
+  --color-bg: #EDE8DF;
+  --color-bg-elevated: #F7F4EE;
+  --color-bg-elevated-strong: #FFFFFF;
+
+  --color-surface-emphasis: #201C16;
+  --color-on-emphasis: #EDE8DF;
+  --color-on-emphasis-secondary: #C9C2B2;
+  --color-on-emphasis-muted: #8A8272;
+  --color-border-on-emphasis: rgba(255, 255, 255, 0.14);
+
+  /* ---- 2. Text ---- */
+  --color-fg: #201C16;
+  --color-fg-secondary: #3A352C;
+  --color-fg-muted: #8C8474;
+
+  /* ---- 3. Borders ---- */
+  --color-border: #D9D2C2;
+  --color-border-strong: #201C16;
+
+  /* ---- 4. Accent ---- */
+  --color-accent: #B5261E;
+  --color-accent-strong: #8C1B15;
+  --color-accent-2: #A6874F;
+  --color-on-accent: #FFFFFF;
+  --color-on-accent-2: #FFFFFF;
+  --color-accent-glow: rgba(181, 38, 30, 0.14);
+  --color-accent-dim: rgba(181, 38, 30, 0.35);
+  --color-link: #A6874F;
+
+  /* ---- 5. Status (directory.html reply tracker) ---- */
+  --color-status-silent: #8C8474;
+  --color-status-acknowledged: #A6874F;
+  --color-status-answered: #3F6B4C;
+}
+
+/* Follow the OS/browser preference automatically, with zero JS, unless a
+   page or toggle has explicitly forced light mode via data-theme="light". */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    /* ---- 1. Surfaces (dark / "chronicle") ---- */
+    --color-bg: #06080C;
+    --color-bg-elevated: rgba(255, 255, 255, 0.035);
+    --color-bg-elevated-strong: rgba(255, 255, 255, 0.065);
+
+    --color-surface-emphasis: #12161F;
+    --color-on-emphasis: #EDEDE6;
+    --color-on-emphasis-secondary: #B8BCC2;
+    --color-on-emphasis-muted: #7E848C;
+    --color-border-on-emphasis: rgba(255, 255, 255, 0.14);
+
+    /* ---- 2. Text ---- */
+    --color-fg: #EDEDE6;
+    --color-fg-secondary: #B8BCC2;
+    --color-fg-muted: #7E848C;
+
+    /* ---- 3. Borders ---- */
+    --color-border: rgba(255, 255, 255, 0.07);
+    --color-border-strong: rgba(255, 255, 255, 0.15);
+
+    /* ---- 4. Accent ---- */
+    --color-accent: #E9A13B;
+    --color-accent-strong: #C6842B;
+    --color-accent-2: #C0392B;
+    --color-on-accent: #111111;
+    --color-on-accent-2: #FFFFFF;
+    --color-accent-glow: rgba(233, 161, 59, 0.12);
+    --color-accent-dim: rgba(233, 161, 59, 0.35);
+    --color-link: #E9A13B;
+
+    /* ---- 5. Status ---- */
+    --color-status-silent: #7E848C;
+    --color-status-acknowledged: #E9A13B;
+    --color-status-answered: #5B8F6B;
+  }
+}
+
+/* Explicit manual override: wins over the OS preference in either
+   direction. Add `data-theme="dark"` on <html> (e.g. from a toggle) to
+   force dark mode even when the OS prefers light. */
+[data-theme="dark"] {
+  /* ---- 1. Surfaces (dark / "chronicle") ---- */
+  --color-bg: #06080C;
+  --color-bg-elevated: rgba(255, 255, 255, 0.035);
+  --color-bg-elevated-strong: rgba(255, 255, 255, 0.065);
+
+  --color-surface-emphasis: #12161F;
+  --color-on-emphasis: #EDEDE6;
+  --color-on-emphasis-secondary: #B8BCC2;
+  --color-on-emphasis-muted: #7E848C;
+  --color-border-on-emphasis: rgba(255, 255, 255, 0.14);
+
+  /* ---- 2. Text ---- */
+  --color-fg: #EDEDE6;
+  --color-fg-secondary: #B8BCC2;
+  --color-fg-muted: #7E848C;
+
+  /* ---- 3. Borders ---- */
+  --color-border: rgba(255, 255, 255, 0.07);
+  --color-border-strong: rgba(255, 255, 255, 0.15);
+
+  /* ---- 4. Accent ---- */
+  --color-accent: #E9A13B;
+  --color-accent-strong: #C6842B;
+  --color-accent-2: #C0392B;
+  --color-on-accent: #111111;
+  --color-on-accent-2: #FFFFFF;
+  --color-accent-glow: rgba(233, 161, 59, 0.12);
+  --color-accent-dim: rgba(233, 161, 59, 0.35);
+  --color-link: #E9A13B;
+
+  /* ---- 5. Status ---- */
+  --color-status-silent: #7E848C;
+  --color-status-acknowledged: #E9A13B;
+  --color-status-answered: #5B8F6B;
+}
+
+/* `[data-theme="light"]` needs no rule of its own — :root above already
+   holds the light values, and it wins by default whenever prefers-color-
+   scheme:dark is not both active and unforced (see the media query above). */
+
+/* ==========================================================================
+   NOTE ON SCOPE: a few colors were intentionally left as literal hex values
+   in each page's component CSS rather than promoted to tokens here, because
+   they are self-contained (their own background+text pair, never placed
+   against a themed page background) and represent fixed real-world brand
+   identifiers rather than this site's own palette:
+     - directory.html's political party chips/borders (Liberal red #A2001D,
+       Conservative blue #1A4782, and their pale chip backgrounds).
+     - index.html's inline SVG "cycle" diagram, which is a static illustration
+       rather than themed UI chrome.
+   ========================================================================== */

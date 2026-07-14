@@ -8,37 +8,27 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Lora:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="theme.css">
 <style>
-  :root{
-    --cream:#EDE8DF;
-    --paper:#F7F4EE;
-    --ink:#201C16;
-    --red:#B5261E;
-    --red-deep:#8C1B15;
-    --brass:#A6874F;
-    --line:#D9D2C2;
-    --white:#FFFFFF;
-    --silent:#8C8474;
-  }
   *{box-sizing:border-box; margin:0; padding:0;}
   html{scroll-behavior:smooth;}
   body{
-    background:var(--cream);
-    color:var(--ink);
+    background:var(--color-bg);
+    color:var(--color-fg);
     font-family:'Lora', serif;
     line-height:1.65;
     -webkit-font-smoothing:antialiased;
   }
-  ::selection{background:var(--red); color:var(--white);}
+  ::selection{background:var(--color-accent); color:var(--color-on-accent);}
   a{color:inherit;}
   .wrap{max-width:960px; margin:0 auto; padding:0 24px;}
 
   /* ---------- MASTHEAD ---------- */
   header.masthead{
-    border-bottom:3px solid var(--ink);
+    border-bottom:3px solid var(--color-border-strong);
     background:
       repeating-linear-gradient(180deg, rgba(0,0,0,0.02) 0px, rgba(0,0,0,0.02) 1px, transparent 1px, transparent 3px),
-      var(--paper);
+      var(--color-bg-elevated);
     padding:64px 0 48px;
   }
   .eyebrow{
@@ -47,7 +37,7 @@
     font-size:13px;
     letter-spacing:.14em;
     text-transform:uppercase;
-    color:var(--red);
+    color:var(--color-accent);
     display:flex;
     align-items:center;
     gap:10px;
@@ -56,7 +46,7 @@
   .eyebrow::before{
     content:"";
     width:28px; height:2px;
-    background:var(--red);
+    background:var(--color-accent);
     display:inline-block;
   }
   h1.title{
@@ -70,16 +60,16 @@
   }
   h1.title em{
     font-style:normal;
-    color:var(--red);
+    color:var(--color-accent);
   }
   .dek{
     font-family:'Lora', serif;
     font-size:19px;
     max-width:640px;
-    color:#3a352c;
+    color:var(--color-fg-secondary);
     margin-bottom:32px;
   }
-  .dek strong{color:var(--ink);}
+  .dek strong{color:var(--color-fg);}
 
   .cta-row{
     display:flex; flex-wrap:wrap; gap:14px;
@@ -95,10 +85,10 @@
     display:inline-block;
     transition:.15s;
   }
-  .btn-primary{background:var(--red); color:var(--white);}
-  .btn-primary:hover{background:var(--red-deep);}
-  .btn-ghost{border:1.5px solid var(--ink); color:var(--ink);}
-  .btn-ghost:hover{background:var(--ink); color:var(--cream);}
+  .btn-primary{background:var(--color-accent); color:var(--color-on-accent);}
+  .btn-primary:hover{background:var(--color-accent-strong);}
+  .btn-ghost{border:1.5px solid var(--color-border-strong); color:var(--color-fg);}
+  .btn-ghost:hover{background:var(--color-surface-emphasis); color:var(--color-on-emphasis);}
 
   /* ---------- SECTION GENERIC ---------- */
   section{padding:60px 0;}
@@ -110,7 +100,7 @@
     margin-bottom:14px;
   }
   .section-sub{
-    color:#4a4438;
+    color:var(--color-fg-secondary);
     max-width:680px;
     margin-bottom:8px;
   }
@@ -120,7 +110,7 @@
   }
   .lede p{margin-bottom:18px;}
   .lede strong{
-    background:linear-gradient(transparent 60%, rgba(181,38,30,0.14) 60%);
+    background:linear-gradient(transparent 60%, var(--color-accent-glow) 60%);
   }
 
   /* ---------- DEFINITION CARDS ---------- */
@@ -128,12 +118,12 @@
     display:grid;
     grid-template-columns:1fr 1fr;
     gap:1px;
-    background:var(--ink);
-    border:1px solid var(--ink);
+    background:var(--color-border-strong);
+    border:1px solid var(--color-border-strong);
     margin-top:32px;
   }
   .def-card{
-    background:var(--paper);
+    background:var(--color-bg-elevated);
     padding:28px 26px;
   }
   .def-card .term{
@@ -142,18 +132,18 @@
     font-size:12px;
     letter-spacing:.1em;
     text-transform:uppercase;
-    color:var(--red);
+    color:var(--color-accent);
     margin-bottom:10px;
   }
-  .def-card p{font-size:16px; color:#3a352c;}
+  .def-card p{font-size:16px; color:var(--color-fg-secondary);}
 
   /* ---------- CYCLE ---------- */
   .cycle-section{
-    background:var(--ink);
+    background:var(--color-surface-emphasis);
     padding:60px 0 70px;
   }
-  .cycle-section .section-title, .cycle-section .section-sub{color:var(--cream);}
-  .cycle-section .section-sub{color:#c9c2b2;}
+  .cycle-section .section-title, .cycle-section .section-sub{color:var(--color-on-emphasis);}
+  .cycle-section .section-sub{color:var(--color-on-emphasis-secondary);}
   .cycle-wrap{
     max-width:640px;
     margin:20px auto 0;
@@ -164,7 +154,7 @@
     font-weight:600;
     font-size:14px;
     line-height:1.3;
-    color:var(--cream);
+    color:var(--color-on-emphasis);
     text-align:center;
     display:flex;
     align-items:center;
@@ -179,19 +169,19 @@
     font-family:'Lora', serif;
     font-style:italic;
     font-size:17px;
-    color:#c9c2b2;
-    border-top:1px solid rgba(255,255,255,.14);
+    color:var(--color-on-emphasis-secondary);
+    border-top:1px solid var(--color-border-on-emphasis);
     padding-top:28px;
   }
-  .cycle-punchline strong{color:var(--brass); font-style:normal;}
+  .cycle-punchline strong{color:var(--color-accent-2); font-style:normal;}
 
   /* ---------- FAQ ---------- */
   .faq-list{
     margin-top:28px;
-    border-top:1px solid var(--line);
+    border-top:1px solid var(--color-border);
   }
   details.faq-item{
-    border-bottom:1px solid var(--line);
+    border-bottom:1px solid var(--color-border);
     padding:20px 0;
   }
   details.faq-item summary{
@@ -211,7 +201,7 @@
     font-family:'Poppins', sans-serif;
     font-weight:400;
     font-size:24px;
-    color:var(--red);
+    color:var(--color-accent);
     flex-shrink:0;
     transition:transform .15s;
   }
@@ -221,16 +211,16 @@
   details.faq-item .faq-answer{
     margin-top:14px;
     font-size:16px;
-    color:#3a352c;
+    color:var(--color-fg-secondary);
     max-width:680px;
   }
   details.faq-item .faq-answer p + p{margin-top:12px;}
 
   /* ---------- CTA BAND ---------- */
   .cta-band{
-    background:var(--paper);
-    border-top:1px solid var(--line);
-    border-bottom:1px solid var(--line);
+    background:var(--color-bg-elevated);
+    border-top:1px solid var(--color-border);
+    border-bottom:1px solid var(--color-border);
     padding:56px 0;
     text-align:center;
   }
@@ -243,20 +233,20 @@
   .cta-band p{
     max-width:560px;
     margin:0 auto 26px;
-    color:#4a4438;
+    color:var(--color-fg-secondary);
   }
   .cta-band.dark{
-    background:var(--ink);
-    border-top-color:rgba(255,255,255,.14);
-    border-bottom-color:rgba(255,255,255,.14);
+    background:var(--color-surface-emphasis);
+    border-top-color:var(--color-border-on-emphasis);
+    border-bottom-color:var(--color-border-on-emphasis);
   }
-  .cta-band.dark h2{color:var(--cream);}
-  .cta-band.dark p{color:#c9c2b2;}
+  .cta-band.dark h2{color:var(--color-on-emphasis);}
+  .cta-band.dark p{color:var(--color-on-emphasis-secondary);}
 
   /* ---------- FOOTER ---------- */
   footer{
-    background:var(--ink);
-    color:var(--cream);
+    background:var(--color-surface-emphasis);
+    color:var(--color-on-emphasis);
     padding:52px 0 36px;
   }
   footer .foot-title{
@@ -265,7 +255,7 @@
     font-size:22px;
     margin-bottom:10px;
   }
-  footer p{color:#c9c2b2; max-width:600px; margin-bottom:20px; font-size:15px;}
+  footer p{color:var(--color-on-emphasis-secondary); max-width:600px; margin-bottom:20px; font-size:15px;}
   footer .foot-links{
     display:flex; gap:24px; flex-wrap:wrap;
     font-family:'Poppins', sans-serif;
@@ -273,24 +263,24 @@
     margin-bottom:28px;
   }
   footer .foot-links a{
-    color:var(--brass);
+    color:var(--color-link);
     text-decoration:none;
     border-bottom:1px solid transparent;
   }
-  footer .foot-links a:hover{border-color:var(--brass);}
+  footer .foot-links a:hover{border-color:var(--color-link);}
   .until-next-time{
     font-family:'Poppins', sans-serif;
     font-weight:700;
     font-size:14px;
-    color:var(--cream);
+    color:var(--color-on-emphasis);
     letter-spacing:.04em;
     margin-top:8px;
   }
   .foot-sources{
     font-family:'Poppins', sans-serif;
     font-size:11.5px;
-    color:#8a8272;
-    border-top:1px solid rgba(255,255,255,.12);
+    color:var(--color-on-emphasis-muted);
+    border-top:1px solid var(--color-border-on-emphasis);
     padding-top:20px;
     margin-top:20px;
     line-height:1.8;
