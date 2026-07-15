@@ -180,13 +180,18 @@
     width: 100%; text-align: left; font-family: inherit; cursor: pointer;
     background: none; border: none; color: var(--plate-ink);
     padding: 12px 8px 12px 10px; display: grid;
-    grid-template-columns: 26px 1fr auto; align-items: center; gap: 10px;
+    grid-template-columns: 16px 28px 1fr auto; align-items: center; gap: 10px;
   }
   .seq-header:hover { background: rgba(255,255,255,.05); }
   .seq-num {
     font-size: 11px; letter-spacing: .05em; color: var(--plate-dim);
     font-variant-numeric: tabular-nums; text-align: center;
   }
+  /* procedurally generated seal — a stand-in for per-sequence artwork we
+     can't source (no external requests are permitted in this sandbox) */
+  .seq-seal { width: 28px; height: 28px; flex: 0 0 auto; color: var(--blood-hot); opacity: .75; }
+  .seq-header[aria-expanded="true"] .seq-seal { opacity: 1; }
+  .seq-seal svg { display: block; width: 100%; height: 100%; }
   .seq-titlewrap { min-width: 0; }
   .seq-eyebrow {
     font-size: 9.5px; letter-spacing: .16em; color: var(--blood-hot);
@@ -249,6 +254,7 @@
   :root:not(.panel-collapsed) .detail { left: var(--panel-w); justify-content: flex-start; }
   .detail.show { display: flex; }
   .detail__card {
+    position: relative;
     pointer-events: auto; max-width: 620px; width: 100%;
     background: linear-gradient(160deg, var(--plate-2), var(--plate));
     backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);
@@ -256,6 +262,13 @@
     color: var(--plate-ink); box-shadow: 0 24px 60px rgba(0,0,0,.4);
     overflow: hidden;
   }
+  .detail__seal {
+    position: absolute; z-index: 0; right: -18px; bottom: -18px;
+    width: 200px; height: 200px; color: var(--blood-hot); opacity: .1;
+    pointer-events: none;
+  }
+  .detail__seal svg { display: block; width: 100%; height: 100%; }
+  .detail__accent, .detail__body { position: relative; z-index: 1; }
   .detail__accent {
     height: 46px; position: relative;
     background: linear-gradient(180deg, var(--blood-deep) 0%, var(--blood) 55%, var(--blood-hot) 100%);
@@ -451,6 +464,7 @@
 <!-- MEMORY DETAIL -->
 <div class="detail" id="detail" role="dialog" aria-modal="false" aria-labelledby="detailName" aria-hidden="true">
   <div class="detail__card">
+    <div class="detail__seal" id="detailSeal" aria-hidden="true"></div>
     <div class="detail__accent"><span class="eb" id="detailEyebrow">SEQUENCE 1</span><span class="diamond"></span></div>
     <div class="detail__body">
       <div class="detail__mnum" id="detailMnum">MEMORY 1</div>
@@ -1425,6 +1439,43 @@
       plexusCanvas = null;
     }
 
+    // ---------------- hit-testing: click/hover directly on a disc ----------------
+    var hitScratch = new Float32Array(12);
+    function pointInHex(x, y, verts) {
+      var inside = false;
+      for (var i = 0, j = 5; i < 6; j = i++) {
+        var xi = verts[i * 2], yi = verts[i * 2 + 1];
+        var xj = verts[j * 2], yj = verts[j * 2 + 1];
+        if (((yi > y) !== (yj > y)) && (x < (xj - xi) * (y - yi) / (yj - yi) + xi)) inside = !inside;
+      }
+      return inside;
+    }
+
+    function pickSegmentAt(clientX, clientY) {
+      if (!lastCam.valid || !state.width || !state.height) return null;
+      var rect = canvas.getBoundingClientRect();
+      var px = (clientX - rect.left), py = (clientY - rect.top);
+      var n = geo.discCount;
+      var best = -1, bestZ = Infinity;
+      var tmp = [0, 0];
+      for (var i = 0; i < n; i++) {
+        var cx = geo.discCenter[i * 3], cy = geo.discCenter[i * 3 + 1], cz = geo.discCenter[i * 3 + 2];
+        var vz = viewZ(cx, cy, cz);
+        if (vz < 0.15 || vz > bestZ) continue;
+        project(cx, cy, cz, tmp, 0);
+        var dx = tmp[0] - px, dy = tmp[1] - py;
+        if (dx * dx + dy * dy > 7000) continue; // cheap radius reject before precise poly test
+        var tx = geo.discTangent[i * 3], ty = geo.discTangent[i * 3 + 1], tz = geo.discTangent[i * 3 + 2];
+        var toCamX = lastCam.pos[0] - cx, toCamY = lastCam.pos[1] - cy, toCamZ = lastCam.pos[2] - cz;
+        var facingFront = (tx * toCamX + ty * toCamY + tz * toCamZ) > 0;
+        var capVerts = facingFront ? geo.discFrontVerts : geo.discBackVerts;
+        var base = i * 18;
+        for (var k = 0; k < 6; k++) project(capVerts[base + k * 3], capVerts[base + k * 3 + 1], capVerts[base + k * 3 + 2], hitScratch, k * 2);
+        if (pointInHex(px, py, hitScratch)) { best = i; bestZ = vz; }
+      }
+      return best >= 0 ? geo.discSegmentIndex[best] : null;
+    }
+
     // initial sizing
     resize();
 
@@ -1437,6 +1488,7 @@
       destroy: destroy,
       tick: tick,
       getSegmentScreenPos: getSegmentScreenPos,
+      pickSegmentAt: pickSegmentAt,
       get segments() { return segments; },
       get discsPerSegment() { return discsPerSegment; }
     };
@@ -1500,6 +1552,20 @@
   var seqEls = [];   // per-sequence element records
   function esc(s) { return String(s); }
 
+  // Procedurally generated crest per sequence — a hexagon (echoing the
+  // spire's own disc shape) with a rotated diamond (echoing the marker
+  // motif), rotation offset deterministically by sequence number so each
+  // one reads as distinct. Stands in for artwork we have no way to source.
+  function seqSeal(n) {
+    var rot = (n * 137) % 360;
+    return '<svg viewBox="0 0 100 100" aria-hidden="true">' +
+      '<g transform="rotate(' + rot + ' 50 50)">' +
+        '<polygon points="50,6 91,28 91,72 50,94 9,72 9,28" fill="none" stroke="currentColor" stroke-width="6"/>' +
+      '</g>' +
+      '<rect x="36" y="36" width="28" height="28" transform="rotate(45 50 50)" fill="currentColor"/>' +
+    '</svg>';
+  }
+
   SEQUENCES.forEach(function (seq, si) {
     var wrap = document.createElement('div');
     wrap.className = 'seq';
@@ -1516,6 +1582,7 @@
     header.dataset.seq = si;
     header.innerHTML =
       '<span class="chev" aria-hidden="true">▸</span>' +
+      '<span class="seq-seal">' + seqSeal(seq.n) + '</span>' +
       '<span class="seq-titlewrap">' +
         '<span class="seq-eyebrow">SEQUENCE ' + seq.n + '</span>' +
         '<span class="seq-title" data-field="title">' + esc(seq.title) + '</span>' +
@@ -1574,20 +1641,22 @@
     updateAnnotation(si);
   }
 
-  function toggleSequence(si, opts) {
+  function openSequence(si, opts) {
     opts = opts || {};
     var rec = seqEls[si];
+    if (expandedSeq !== null && expandedSeq !== si) collapseSequence(expandedSeq);
+    rec.header.setAttribute('aria-expanded', 'true');
+    rec.region.hidden = false;
+    expandedSeq = si;
+    setSequenceCamera(si);
+    if (!opts.noScroll) rec.header.scrollIntoView({ block: 'nearest', behavior: reduceMotion ? 'auto' : 'smooth' });
+  }
+
+  function toggleSequence(si, opts) {
+    var rec = seqEls[si];
     var isOpen = rec.header.getAttribute('aria-expanded') === 'true';
-    if (isOpen) {
-      collapseSequence(si);
-    } else {
-      if (expandedSeq !== null && expandedSeq !== si) collapseSequence(expandedSeq);
-      rec.header.setAttribute('aria-expanded', 'true');
-      rec.region.hidden = false;
-      expandedSeq = si;
-      setSequenceCamera(si);
-      if (!opts.noScroll) rec.header.scrollIntoView({ block: 'nearest', behavior: reduceMotion ? 'auto' : 'smooth' });
-    }
+    if (isOpen) collapseSequence(si);
+    else openSequence(si, opts);
   }
 
   function collapseSequence(si) {
@@ -1606,6 +1675,7 @@
   var detailName = document.getElementById('detailName');
   var detailLoc = document.getElementById('detailLoc');
   var detailDesc = document.getElementById('detailDesc');
+  var detailSeal = document.getElementById('detailSeal');
   var lastMemTrigger = null;
   var activeMemEl = null;
 
@@ -1627,6 +1697,7 @@
     }
     setSequenceCamera(si);
 
+    detailSeal.innerHTML = seqSeal(seq.n);
     detailEyebrow.textContent = 'SEQUENCE ' + seq.n;
     detailMnum.textContent = 'MEMORY ' + mem.n;
     detailName.textContent = mem.title;
@@ -1848,6 +1919,27 @@
     e.preventDefault();
     setCameraT(cameraT + normalizedDeltaY(e) * 0.0011);
   }, { passive: false });
+
+  // ---------------------------------------------------------------
+  // Click/hover directly on a disc in the spire — the tiles themselves
+  // are hit-testable, not just the sidebar list.
+  // ---------------------------------------------------------------
+  var hoverSeg = null;
+  canvas.addEventListener('mousemove', function (e) {
+    var seg = spire.pickSegmentAt(e.clientX, e.clientY);
+    if (seg !== hoverSeg) {
+      hoverSeg = seg;
+      canvas.style.cursor = seg !== null ? 'pointer' : '';
+    }
+  });
+  canvas.addEventListener('mouseleave', function () { hoverSeg = null; canvas.style.cursor = ''; });
+  canvas.addEventListener('click', function (e) {
+    var seg = spire.pickSegmentAt(e.clientX, e.clientY);
+    if (seg === null) return;
+    setPanelCollapsed(false);
+    openSequence(seg);
+    seqEls[seg].header.focus();
+  });
 
   // ---------------------------------------------------------------
   // Scrub rail: draggable + clickable + keyboard-operable position
