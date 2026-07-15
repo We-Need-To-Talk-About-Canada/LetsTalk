@@ -1,0 +1,1843 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Assassin's Creed II — DNA Memory Browser</title>
+<style>
+  /* ---------------------------------------------------------------
+     Theme tokens. Manual [data-theme] overrides win over the OS
+     media query via higher specificity (:root[data-theme] = 0,2,0
+     vs :root inside @media = 0,1,0).
+  ---------------------------------------------------------------- */
+  :root {
+    --ground:#e8e7e4; --ground-hi:#f4f3f1; --ink:#3a3833; --ink-soft:#8d897f;
+    --plate:rgba(84,80,72,.90); --plate-2:rgba(70,66,59,.94); --plate-ink:#f2f1ee;
+    --plate-dim:rgba(242,241,238,.62);
+    --blood:#c0281c; --blood-deep:#7a1004; --blood-hot:#d94a2a;
+    --line:rgba(0,0,0,.16); --line-soft:rgba(0,0,0,.09);
+    --key-bg:rgba(84,80,72,.90); --key-ink:#f2f1ee; --key-border:rgba(255,255,255,.28);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ground:#17181a; --ground-hi:#101113; --ink:#d9d8d4; --ink-soft:#93908a;
+      --plate:rgba(28,28,31,.92); --plate-2:rgba(20,20,23,.95); --plate-ink:#f2f1ee;
+      --plate-dim:rgba(242,241,238,.58);
+      --blood:#d9382a; --blood-deep:#8f1607; --blood-hot:#ea5a34;
+      --line:rgba(255,255,255,.16); --line-soft:rgba(255,255,255,.08);
+      --key-bg:rgba(28,28,31,.92); --key-ink:#f2f1ee; --key-border:rgba(255,255,255,.22);
+    }
+  }
+  :root[data-theme="dark"] {
+    --ground:#17181a; --ground-hi:#101113; --ink:#d9d8d4; --ink-soft:#93908a;
+    --plate:rgba(28,28,31,.92); --plate-2:rgba(20,20,23,.95); --plate-ink:#f2f1ee;
+    --plate-dim:rgba(242,241,238,.58);
+    --blood:#d9382a; --blood-deep:#8f1607; --blood-hot:#ea5a34;
+    --line:rgba(255,255,255,.16); --line-soft:rgba(255,255,255,.08);
+    --key-bg:rgba(28,28,31,.92); --key-ink:#f2f1ee; --key-border:rgba(255,255,255,.22);
+  }
+  :root[data-theme="light"] {
+    --ground:#e8e7e4; --ground-hi:#f4f3f1; --ink:#3a3833; --ink-soft:#8d897f;
+    --plate:rgba(84,80,72,.90); --plate-2:rgba(70,66,59,.94); --plate-ink:#f2f1ee;
+    --plate-dim:rgba(242,241,238,.62);
+    --blood:#c0281c; --blood-deep:#7a1004; --blood-hot:#d94a2a;
+    --line:rgba(0,0,0,.16); --line-soft:rgba(0,0,0,.09);
+    --key-bg:rgba(84,80,72,.90); --key-ink:#f2f1ee; --key-border:rgba(255,255,255,.28);
+  }
+
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; padding: 0; width: 100%; height: 100%;
+    overflow: hidden; background: var(--ground);
+    font-family: "Arial Narrow","Helvetica Neue","Segoe UI",system-ui,sans-serif;
+    color: var(--ink);
+    -webkit-font-smoothing: antialiased;
+  }
+  body { position: fixed; inset: 0; }
+
+  .uppercase {
+    text-transform: uppercase; letter-spacing: .1em;
+    font-stretch: condensed;
+  }
+  .tnum { font-variant-numeric: tabular-nums; }
+
+  /* ---- canvas stage ---- */
+  #stage { position: fixed; inset: 0; z-index: 0; }
+  canvas#spireCanvas { display: block; width: 100%; height: 100%; }
+
+  /* floating diamond marker over the active clump */
+  #markerLayer { position: fixed; inset: 0; z-index: 1; pointer-events: none; }
+  .marker {
+    position: absolute; width: 11px; height: 11px; margin: -6px 0 0 -6px;
+    transform: rotate(45deg); background: var(--blood-hot);
+    box-shadow: 0 0 10px rgba(217,74,42,.75); opacity: 0;
+    transition: opacity .25s;
+  }
+  .marker .stem {
+    position: absolute; left: 50%; top: 100%; width: 1px; height: 30px;
+    background: linear-gradient(to bottom, var(--blood-hot), transparent);
+    transform: translateX(-50%) rotate(-45deg); transform-origin: top center;
+  }
+
+  /* year / subject float annotation */
+  #annotation {
+    position: fixed; z-index: 1; pointer-events: none;
+    font-size: 12px; color: var(--ink-soft);
+    text-shadow: 0 1px 3px rgba(0,0,0,.25);
+    opacity: 0; transition: opacity .3s;
+  }
+
+  /* ---- side panel ---- */
+  .panel {
+    position: fixed; z-index: 3; top: 0; left: 0; bottom: 0;
+    width: 372px; max-width: 100%;
+    display: flex; flex-direction: column;
+    background: linear-gradient(180deg, var(--plate-2), var(--plate));
+    backdrop-filter: blur(7px); -webkit-backdrop-filter: blur(7px);
+    border-right: 1px solid var(--line);
+    color: var(--plate-ink);
+    box-shadow: 6px 0 30px rgba(0,0,0,.22);
+  }
+  .panel__head {
+    padding: 16px 18px 12px; border-bottom: 1px solid rgba(255,255,255,.10);
+    flex: 0 0 auto;
+  }
+  .brandrow { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; }
+  .wordmark {
+    font-size: 22px; font-weight: 700; letter-spacing: .34em;
+    color: var(--plate-ink); text-transform: uppercase; font-stretch: condensed;
+  }
+  .subject {
+    margin-top: 3px; font-size: 12px; letter-spacing: .18em;
+    color: var(--plate-dim); text-transform: uppercase;
+  }
+  .subject b { color: var(--blood-hot); font-weight: 700; }
+
+  .iconbtn {
+    font-family: inherit; cursor: pointer; color: var(--plate-ink);
+    background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.22);
+    border-radius: 3px; font-size: 10px; letter-spacing: .1em; padding: 6px 9px;
+    text-transform: uppercase; white-space: nowrap; line-height: 1;
+  }
+  .iconbtn:hover { background: rgba(255,255,255,.13); }
+
+  .searchwrap { padding: 12px 18px 10px; flex: 0 0 auto; }
+  .searchbox { position: relative; }
+  .searchbox svg { position: absolute; left: 10px; top: 50%; transform: translateY(-50%); width: 15px; height: 15px; opacity: .55; pointer-events: none; }
+  #search {
+    width: 100%; font-family: inherit; font-size: 14px;
+    padding: 10px 12px 10px 32px; border-radius: 4px;
+    background: rgba(0,0,0,.28); color: var(--plate-ink);
+    border: 1px solid rgba(255,255,255,.18); letter-spacing: .04em;
+  }
+  #search::placeholder { color: rgba(242,241,238,.5); letter-spacing: .06em; }
+  .searchmeta {
+    margin-top: 7px; font-size: 11px; letter-spacing: .12em;
+    color: var(--plate-dim); text-transform: uppercase;
+    display: flex; justify-content: space-between; align-items: center; gap: 8px;
+  }
+  .searchmeta .clearbtn {
+    font-family: inherit; background: none; border: none; cursor: pointer;
+    color: var(--blood-hot); letter-spacing: .1em; text-transform: uppercase;
+    font-size: 11px; padding: 0; visibility: hidden;
+  }
+  .searchmeta .clearbtn.show { visibility: visible; }
+
+  /* ---- accordion list ---- */
+  .seqlist {
+    flex: 1 1 auto; overflow-y: auto; overflow-x: hidden;
+    padding: 4px 10px 72px; overscroll-behavior: contain;
+  }
+  .seqlist::-webkit-scrollbar { width: 9px; }
+  .seqlist::-webkit-scrollbar-thumb { background: rgba(255,255,255,.16); border-radius: 6px; }
+
+  .seq { border-bottom: 1px solid rgba(255,255,255,.08); }
+  .seq.hidden { display: none; }
+  .seq-header {
+    width: 100%; text-align: left; font-family: inherit; cursor: pointer;
+    background: none; border: none; color: var(--plate-ink);
+    padding: 12px 8px 12px 10px; display: grid;
+    grid-template-columns: 26px 1fr auto; align-items: center; gap: 10px;
+  }
+  .seq-header:hover { background: rgba(255,255,255,.05); }
+  .seq-num {
+    font-size: 11px; letter-spacing: .05em; color: var(--plate-dim);
+    font-variant-numeric: tabular-nums; text-align: center;
+  }
+  .seq-titlewrap { min-width: 0; }
+  .seq-eyebrow {
+    font-size: 9.5px; letter-spacing: .16em; color: var(--blood-hot);
+    text-transform: uppercase; margin-bottom: 2px; font-weight: 700;
+  }
+  .seq-title {
+    font-size: 14px; letter-spacing: .05em; text-transform: uppercase;
+    font-stretch: condensed; line-height: 1.15;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+  .seq-year {
+    font-size: 12px; color: var(--plate-dim); letter-spacing: .06em;
+    font-variant-numeric: tabular-nums; text-align: right;
+  }
+  .chev { transition: transform .2s; opacity: .7; }
+  .seq-header[aria-expanded="true"] .chev { transform: rotate(90deg); }
+  .seq-header[aria-expanded="true"] .seq-title { color: #fff; }
+
+  mark {
+    background: rgba(217,74,42,.34); color: inherit; border-radius: 2px;
+    padding: 0 1px; box-shadow: inset 0 -1px 0 rgba(217,74,42,.6);
+  }
+
+  .seq-region { padding: 0 4px 8px 8px; }
+  .seq-region[hidden] { display: none; }
+  .mem-row {
+    width: 100%; text-align: left; font-family: inherit; cursor: pointer;
+    background: rgba(0,0,0,.16); border: 1px solid transparent;
+    border-left: 2px solid rgba(255,255,255,.14);
+    color: var(--plate-ink); padding: 8px 10px; margin: 4px 0 4px 26px;
+    border-radius: 0 4px 4px 0; display: block; width: calc(100% - 26px);
+  }
+  .mem-row.hidden { display: none; }
+  .mem-row:hover { background: rgba(0,0,0,.28); border-left-color: var(--blood-hot); }
+  .mem-row.active { border-left-color: var(--blood-hot); background: rgba(122,16,4,.30); }
+  .mem-row .m-top { display: flex; justify-content: space-between; gap: 8px; align-items: baseline; }
+  .mem-row .m-title {
+    font-size: 12.5px; letter-spacing: .05em; text-transform: uppercase;
+    font-stretch: condensed; line-height: 1.2;
+  }
+  .mem-row .m-num { font-size: 10px; color: var(--plate-dim); letter-spacing: .1em; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .mem-row .m-sub {
+    margin-top: 3px; font-size: 10.5px; letter-spacing: .1em; text-transform: uppercase;
+    color: var(--plate-dim);
+  }
+
+  .emptystate {
+    padding: 30px 18px; text-align: center; color: var(--plate-dim);
+    font-size: 12px; letter-spacing: .1em; text-transform: uppercase; display: none;
+  }
+  .emptystate.show { display: block; }
+
+  /* ---- memory detail overlay plate ---- */
+  .detail {
+    position: fixed; z-index: 4; left: 372px; top: 0; bottom: 64px;
+    display: none; align-items: center; pointer-events: none;
+    padding: 40px clamp(24px, 6vw, 96px);
+  }
+  .detail.show { display: flex; }
+  .detail__card {
+    pointer-events: auto; max-width: 620px; width: 100%;
+    background: linear-gradient(160deg, var(--plate-2), var(--plate));
+    backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);
+    border: 1px solid rgba(255,255,255,.12); border-radius: 6px;
+    color: var(--plate-ink); box-shadow: 0 24px 60px rgba(0,0,0,.4);
+    overflow: hidden;
+  }
+  .detail__accent {
+    height: 46px; position: relative;
+    background: linear-gradient(180deg, var(--blood-deep) 0%, var(--blood) 55%, var(--blood-hot) 100%);
+  }
+  .detail__accent .diamond {
+    position: absolute; right: 22px; top: 50%; width: 16px; height: 16px;
+    transform: translateY(-50%) rotate(45deg); background: #fff;
+    box-shadow: 0 0 12px rgba(255,255,255,.65);
+  }
+  .detail__accent .eb {
+    position: absolute; left: 24px; top: 50%; transform: translateY(-50%);
+    color: #fff; font-size: 11px; letter-spacing: .22em; text-transform: uppercase; font-weight: 700;
+  }
+  .detail__body { padding: 22px 26px 26px; }
+  .detail__mnum {
+    font-size: clamp(30px, 5vw, 46px); font-weight: 700; letter-spacing: .06em;
+    text-transform: uppercase; font-stretch: condensed; line-height: .98; color: #fff;
+  }
+  .detail__name {
+    margin-top: 10px; font-size: clamp(16px, 2.4vw, 22px); letter-spacing: .08em;
+    text-transform: uppercase; font-stretch: condensed; color: var(--blood-hot); font-weight: 700;
+  }
+  .detail__loc {
+    margin-top: 14px; padding-top: 12px; border-top: 1px solid rgba(255,255,255,.14);
+    font-size: 12px; letter-spacing: .18em; text-transform: uppercase; color: var(--plate-dim);
+    font-variant-numeric: tabular-nums;
+  }
+  .detail__desc {
+    margin-top: 12px; font-size: 15px; line-height: 1.55; letter-spacing: .01em;
+    color: var(--plate-ink); max-width: 60ch; text-transform: none;
+  }
+  .detail__actions { margin-top: 20px; display: flex; gap: 10px; }
+  .btn {
+    font-family: inherit; cursor: pointer; font-size: 11px; letter-spacing: .12em;
+    text-transform: uppercase; padding: 9px 16px; border-radius: 4px;
+    background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.24); color: var(--plate-ink);
+  }
+  .btn:hover { background: rgba(255,255,255,.15); }
+  .btn--primary { background: var(--blood-deep); border-color: var(--blood-hot); }
+  .btn--primary:hover { background: var(--blood); }
+
+  /* ---- bottom bar ---- */
+  .bottombar {
+    position: fixed; z-index: 3; left: 0; right: 0; bottom: 0; height: 56px;
+    display: flex; align-items: center; justify-content: space-between; gap: 12px;
+    padding: 0 18px 0 clamp(18px, 2vw, 24px);
+    background: linear-gradient(to top, rgba(0,0,0,.30), transparent);
+    pointer-events: none;
+  }
+  .bb-left { display: flex; align-items: center; gap: 12px; color: var(--ink); pointer-events: none; }
+  .bb-word { font-size: 15px; font-weight: 700; letter-spacing: .3em; text-transform: uppercase; font-stretch: condensed; }
+  .diamonds { display: flex; gap: 5px; align-items: center; }
+  .diamonds i { width: 7px; height: 7px; transform: rotate(45deg); background: var(--ink-soft); display: block; }
+  .diamonds i.red { background: var(--blood-hot); box-shadow: 0 0 6px rgba(217,74,42,.6); }
+  .legend { display: flex; gap: 8px; flex-wrap: wrap; justify-content: flex-end; pointer-events: none; }
+  .keyhint { display: inline-flex; align-items: center; gap: 6px; font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--ink); }
+  .keycap {
+    display: inline-flex; align-items: center; justify-content: center; min-width: 20px; height: 20px;
+    padding: 0 6px; border-radius: 4px; font-size: 11px; font-weight: 700;
+    background: var(--key-bg); color: var(--key-ink); border: 1px solid var(--key-border);
+    box-shadow: 0 1px 2px rgba(0,0,0,.3); letter-spacing: 0;
+  }
+
+  /* mobile panel toggle */
+  .paneltoggle {
+    position: fixed; z-index: 5; display: none;
+    top: 12px; right: 12px;
+  }
+
+  /* ---- focus states (red, offset) ---- */
+  a:focus-visible, button:focus-visible, input:focus-visible, [tabindex]:focus-visible {
+    outline: 2px solid var(--blood-hot); outline-offset: 2px; border-radius: 3px;
+  }
+  /* fallback for browsers without :focus-visible */
+  button:focus, input:focus { outline: 2px solid var(--blood-hot); outline-offset: 2px; }
+  button:focus:not(:focus-visible), input:focus:not(:focus-visible) { outline: none; }
+
+  .visually-hidden {
+    position: absolute !important; width: 1px; height: 1px; padding: 0; margin: -1px;
+    overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+  }
+
+  /* ---------------- responsive ---------------- */
+  @media (max-width: 760px) {
+    .panel {
+      width: 100%; bottom: auto; max-height: 62vh; height: auto;
+      box-shadow: 0 12px 30px rgba(0,0,0,.35);
+      border-right: none; border-bottom: 1px solid var(--line);
+      transition: transform .28s ease;
+    }
+    .panel.collapsed { transform: translateY(calc(-100% + 116px)); }
+    .detail { left: 0; right: 0; top: auto; bottom: 56px;
+      align-items: flex-end; padding: 12px; }
+    .detail__card { max-width: 100%; }
+    .paneltoggle { display: inline-flex; }
+    .panel__head { padding-right: 86px; }
+    .legend .keyhint span.lbl { display: none; }
+    .bb-word { display: none; }
+  }
+  @media (max-width: 420px) {
+    .wordmark { font-size: 19px; letter-spacing: .26em; }
+    .panel { max-height: 68vh; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .marker, #annotation, .chev, .panel { transition: none; }
+  }
+</style>
+</head>
+<body>
+
+<div id="stage">
+  <canvas id="spireCanvas" aria-hidden="true"></canvas>
+</div>
+
+<div id="markerLayer" aria-hidden="true">
+  <div class="marker" id="marker"><span class="stem"></span></div>
+</div>
+<div id="annotation" aria-hidden="true"></div>
+
+<button class="iconbtn paneltoggle" id="paneltoggle" type="button" aria-expanded="true" aria-controls="panel">MENU</button>
+
+<!-- LEFT PANEL -->
+<section class="panel" id="panel" aria-label="DNA memory browser">
+  <div class="panel__head">
+    <div class="brandrow">
+      <div>
+        <div class="wordmark">DNA</div>
+        <div class="subject">SUBJECT · <b id="subjectName">EZIO AUDITORE</b></div>
+      </div>
+      <button class="iconbtn" id="themeToggle" type="button" aria-pressed="false">DARK</button>
+    </div>
+  </div>
+
+  <div class="searchwrap">
+    <div class="searchbox" role="search">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+      <label for="search" class="visually-hidden">Search sequences and memories</label>
+      <input id="search" type="text" autocomplete="off" spellcheck="false"
+             placeholder="Search sequences & memories" aria-describedby="searchCount">
+    </div>
+    <div class="searchmeta">
+      <span id="searchCount" aria-live="polite">14 sequences, 66 memories</span>
+      <button class="clearbtn" id="clearBtn" type="button">Clear</button>
+    </div>
+  </div>
+
+  <div class="seqlist" id="seqList" aria-label="Sequences"></div>
+  <div class="emptystate" id="emptyState" role="status">No memories match your search</div>
+</section>
+
+<!-- MEMORY DETAIL -->
+<div class="detail" id="detail" role="dialog" aria-modal="false" aria-labelledby="detailName" aria-hidden="true">
+  <div class="detail__card">
+    <div class="detail__accent"><span class="eb" id="detailEyebrow">SEQUENCE 1</span><span class="diamond"></span></div>
+    <div class="detail__body">
+      <div class="detail__mnum" id="detailMnum">MEMORY 1</div>
+      <div class="detail__name" id="detailName">TITLE</div>
+      <div class="detail__loc tnum" id="detailLoc">LOCATION, YEAR</div>
+      <p class="detail__desc" id="detailDesc">Description.</p>
+      <div class="detail__actions">
+        <button class="btn btn--primary" id="detailBack" type="button">Back</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- BOTTOM BAR -->
+<div class="bottombar" aria-hidden="true">
+  <div class="bb-left">
+    <span class="bb-word">DNA</span>
+    <span class="diamonds"><i></i><i class="red"></i><i></i><i></i></span>
+  </div>
+  <div class="legend">
+    <span class="keyhint"><span class="keycap">↑↓</span><span class="lbl">Browse</span></span>
+    <span class="keyhint"><span class="keycap">↵</span><span class="lbl">Select</span></span>
+    <span class="keyhint"><span class="keycap">/</span><span class="lbl">Search</span></span>
+    <span class="keyhint"><span class="keycap">Esc</span><span class="lbl">Back</span></span>
+  </div>
+</div>
+
+<!-- dataset -->
+<script type="application/json" id="ac-data">
+{
+  "subject": "EZIO AUDITORE",
+  "sequences": [
+    {
+      "n": 1,
+      "title": "IGNORANCE IS BLISS",
+      "year": "1476",
+      "memories": [
+        { "n": 1, "title": "BOYS WILL BE BOYS", "location": "FLORENCE", "year": "1476", "desc": "Chase down Vieri de' Pazzi's gang through the rooftops after a street brawl." },
+        { "n": 2, "title": "YOU SHOULD SEE THE OTHER GUY", "location": "FLORENCE", "year": "1476", "desc": "Beat Vieri's crew in the streets to settle the score between the two families." },
+        { "n": 3, "title": "SIBLING RIVALRY", "location": "FLORENCE", "year": "1476", "desc": "Race Federico across the rooftops of Florence to prove your climbing skill." },
+        { "n": 4, "title": "NIGHTCAP", "location": "FLORENCE", "year": "1476", "desc": "Sneak into Cristina's window for a secret nighttime rendezvous." },
+        { "n": 5, "title": "PAPERBOY", "location": "FLORENCE", "year": "1476", "desc": "Deliver Giovanni Auditore's letter across the city before it falls into the wrong hands." },
+        { "n": 6, "title": "FRIEND OF THE FAMILY", "location": "FLORENCE", "year": "1476", "desc": "Recover the incriminating documents Giovanni entrusted to Uberto Alberti." },
+        { "n": 7, "title": "JAILBIRD", "location": "FLORENCE", "year": "1476", "desc": "Race to the Palazzo della Signoria to save your father and brothers from the gallows." },
+        { "n": 8, "title": "LAST MAN STANDING", "location": "FLORENCE", "year": "1476", "desc": "Escape the guards after watching your father and brothers hanged as traitors." }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "ESCAPE PLANS",
+      "year": "1476",
+      "memories": [
+        { "n": 1, "title": "FITTING IN", "location": "FLORENCE", "year": "1476", "desc": "Blend with a group of nobles to slip past the guards hunting the Auditore name." },
+        { "n": 2, "title": "ACE UP MY SLEEVE", "location": "FLORENCE", "year": "1476", "desc": "Let Uncle Mario's tailor fit you with your father's hidden blade." },
+        { "n": 3, "title": "JUDGE, JURY, AND EXECUTIONER", "location": "FLORENCE", "year": "1476", "desc": "Assassinate Uberto Alberti at the Palazzo della Signoria for betraying your family." },
+        { "n": 4, "title": "LAYING LOW", "location": "TUSCANY", "year": "1476", "desc": "Flee Florence with your mother and sister to the safety of Monteriggioni." }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "REQUIESCAT IN PACE",
+      "year": "1477",
+      "memories": [
+        { "n": 1, "title": "ROADSIDE ASSISTANCE", "location": "TUSCANY", "year": "1477", "desc": "Fend off the bandits ambushing Mario Auditore's caravan on the road." },
+        { "n": 2, "title": "CASA DOLCE CASA", "location": "MONTERIGGIONI", "year": "1477", "desc": "Explore the Villa Auditore and train with Mario in the arts of the Assassins." },
+        { "n": 3, "title": "PRACTISE MAKES PERFECT", "location": "MONTERIGGIONI", "year": "1477", "desc": "Complete Mario's training course to master the hidden blade and combat basics." },
+        { "n": 4, "title": "WHAT GOES AROUND", "location": "SAN GIMIGNANO", "year": "1477", "desc": "Track down and assassinate the guard captain who arrested your father in Florence." },
+        { "n": 5, "title": "A CHANGE OF PLANS", "location": "SAN GIMIGNANO", "year": "1477", "desc": "Interrogate a corrupt guard to uncover the Pazzi family's next move." }
+      ]
+    },
+    {
+      "n": 4,
+      "title": "THE PAZZI CONSPIRACY",
+      "year": "1478",
+      "memories": [
+        { "n": 1, "title": "PRACTICE WHAT YOU PREACH", "location": "SAN GIMIGNANO", "year": "1478", "desc": "Eavesdrop on a corrupt priest to learn the details of the Pazzi plot." },
+        { "n": 2, "title": "FOX HUNT", "location": "SAN GIMIGNANO", "year": "1478", "desc": "Track down La Volpe's stolen goods to win the thieves' trust." },
+        { "n": 3, "title": "SEE YOU THERE", "location": "FLORENCE", "year": "1478", "desc": "Deliver a warning to Lorenzo de' Medici before the conspirators can strike." },
+        { "n": 4, "title": "NOVELLA'S SECRET", "location": "FLORENCE", "year": "1478", "desc": "Infiltrate Santa Maria Novella's catacombs to reach the Templars' secret meeting." },
+        { "n": 5, "title": "WOLVES IN SHEEP'S CLOTHING", "location": "FLORENCE", "year": "1478", "desc": "Stop the Pazzi conspirators from murdering Lorenzo during Mass at the Duomo." },
+        { "n": 6, "title": "FAREWELL FRANCESCO", "location": "FLORENCE", "year": "1478", "desc": "Chase down the wounded Francesco de' Pazzi and finish him before he escapes." },
+        { "n": 7, "title": "ARRIVEDERCI", "location": "FLORENCE", "year": "1478", "desc": "Report back to Lorenzo de' Medici now that the conspiracy has been crushed." }
+      ]
+    },
+    {
+      "n": 5,
+      "title": "LOOSE ENDS",
+      "year": "1478",
+      "memories": [
+        { "n": 1, "title": "A CONSPIRACY REVEALED", "location": "FLORENCE", "year": "1478", "desc": "Question Lorenzo to learn the names of the remaining Pazzi conspirators." },
+        { "n": 2, "title": "BENVENUTO", "location": "FLORENCE", "year": "1478", "desc": "Visit Leonardo's workshop so he can upgrade your hidden blade to carry poison." },
+        { "n": 3, "title": "THE COWL DOES NOT MAKE THE MONK", "location": "FLORENCE", "year": "1478", "desc": "Steal smoke bombs from a monastery to aid your hunt for the conspirators." },
+        { "n": 4, "title": "VIA DEI SERVI", "location": "FLORENCE", "year": "1478", "desc": "Pursue and assassinate Bernardo Baroncelli before he flees the city." },
+        { "n": 5, "title": "LOOSE ENDS", "location": "SAN GIMIGNANO", "year": "1478", "desc": "Corner Jacopo de' Pazzi among the ruins to end the conspiracy for good." }
+      ]
+    },
+    {
+      "n": 6,
+      "title": "ROCKY ROAD",
+      "year": "1478",
+      "memories": [
+        { "n": 1, "title": "ROAD TRIP", "location": "APENNINE MOUNTAINS", "year": "1478", "desc": "Cross the mountains east of Florence to learn Leonardo has left for Venice." },
+        { "n": 2, "title": "ROMAGNA HOLIDAY", "location": "ROMAGNA", "year": "1478", "desc": "Ferry a stranded traveler back to the docks before continuing your journey." },
+        { "n": 3, "title": "TUTTI A BORDO", "location": "ROMAGNA", "year": "1478", "desc": "Board the ship at the docks and set sail for Venice." }
+      ]
+    },
+    {
+      "n": 7,
+      "title": "THE MERCHANT OF VENICE",
+      "year": "1481",
+      "memories": [
+        { "n": 1, "title": "BENVENUTO", "location": "VENICE", "year": "1481", "desc": "Find Leonardo da Vinci's new workshop after arriving in Venice." },
+        { "n": 2, "title": "THAT'S GONNA LEAVE A MARK", "location": "VENICE", "year": "1481", "desc": "Rough up a merchant to send a message to the local Templar agents." },
+        { "n": 3, "title": "BUILDING BLOCKS", "location": "VENICE", "year": "1481", "desc": "Recover the stolen building plans Leonardo needs from a Templar courier." },
+        { "n": 4, "title": "BREAKOUT", "location": "VENICE", "year": "1481", "desc": "Free Antonio de Magianis's man from the guards holding him captive." },
+        { "n": 5, "title": "MONKEY SEE, MONKEY DO", "location": "VENICE", "year": "1481", "desc": "Tail a Templar agent through the canals without being spotted." },
+        { "n": 6, "title": "EVERYTHING MUST GO", "location": "VENICE", "year": "1481", "desc": "Rob the corrupt merchant's warehouse to fund Antonio's thieves' guild." }
+      ]
+    },
+    {
+      "n": 8,
+      "title": "NECESSITY IS THE MOTHER OF INVENTION",
+      "year": "1481",
+      "memories": [
+        { "n": 1, "title": "PLAYING WITH FIRE", "location": "VENICE", "year": "1481", "desc": "Clear the guards from three rooftops so the thieves can set them ablaze." },
+        { "n": 2, "title": "DA VINCI'S FLYING MACHINE", "location": "VENICE", "year": "1481", "desc": "Test Leonardo's flying machine and crash it safely onto a nearby rooftop." },
+        { "n": 3, "title": "THE PALAZZO DUCALE", "location": "VENICE", "year": "1481", "desc": "Scout the Palazzo Ducale with Antonio to plan the assassination of Carlo Grimaldi." },
+        { "n": 4, "title": "A KNIFE IN THE DARK", "location": "VENICE", "year": "1481", "desc": "Slip into the Palazzo Ducale and assassinate the traitor Carlo Grimaldi." }
+      ]
+    },
+    {
+      "n": 9,
+      "title": "CARNEVALE",
+      "year": "1481",
+      "memories": [
+        { "n": 1, "title": "THE RECRUIT", "location": "VENICE", "year": "1481", "desc": "Prove yourself to Antonio's thieves' guild to earn their full trust." },
+        { "n": 2, "title": "PIECE OF MIND", "location": "VENICE", "year": "1481", "desc": "Collect the pistol Leonardo has crafted from a captured Templar design." },
+        { "n": 3, "title": "TRIAL BY FIRE", "location": "VENICE", "year": "1481", "desc": "Win the Carnevale mask competition to gain entry to the Doge's private party." },
+        { "n": 4, "title": "CARNEVALE", "location": "VENICE", "year": "1481", "desc": "Assassinate Marco Barbarigo during his address, timed to the fireworks' report." }
+      ]
+    },
+    {
+      "n": 10,
+      "title": "FORCE MAJEURE",
+      "year": "1481",
+      "memories": [
+        { "n": 1, "title": "FREE AT LAST", "location": "VENICE", "year": "1481", "desc": "Break Bartolomeo d'Alviano out of the cage the Templars are holding him in." },
+        { "n": 2, "title": "UNITED WE STAND", "location": "VENICE", "year": "1481", "desc": "Free the caged mercenaries throughout Castello to swell Bartolomeo's ranks." },
+        { "n": 3, "title": "TWO BIRDS, ONE BLADE", "location": "VENICE", "year": "1481", "desc": "Hunt down Dante Moro and Silvio Barbarigo before they flee Venice." }
+      ]
+    },
+    {
+      "n": 11,
+      "title": "ALTER EGOS",
+      "year": "1481",
+      "memories": [
+        { "n": 1, "title": "THE ARSENALE", "location": "VENICE", "year": "1481", "desc": "Steal the shipbuilding plans from the heavily guarded Arsenale di Venezia." },
+        { "n": 2, "title": "A COSTLY DISGUISE", "location": "VENICE", "year": "1481", "desc": "Don a courier's uniform to slip past Emilio Barbarigo's guards unnoticed." },
+        { "n": 3, "title": "EMILIO'S END", "location": "VENICE", "year": "1481", "desc": "Scale the Palazzo at night and assassinate the tyrant Emilio Barbarigo." }
+      ]
+    },
+    {
+      "n": 12,
+      "title": "BATTLE OF FORLÌ",
+      "year": "1488",
+      "memories": [
+        { "n": 1, "title": "STORMING THE CITADEL", "location": "FORLÌ", "year": "1488", "desc": "Open the citadel gates from within so Caterina's forces can retake Forlì." },
+        { "n": 2, "title": "CITY UNDER ATTACK", "location": "FORLÌ", "year": "1488", "desc": "Drive back the soldiers flooding the streets during the siege of Forlì." },
+        { "n": 3, "title": "RACE AGAINST TIME", "location": "FORLÌ", "year": "1488", "desc": "Rescue Caterina Sforza's children before their captors can harm them." },
+        { "n": 4, "title": "THE ABBEY'S SECRET", "location": "ROMAGNA", "year": "1488", "desc": "Search the abbey archives for intelligence on the conspiracy against Forlì." },
+        { "n": 5, "title": "A BLADE IN THE CROWD", "location": "FORLÌ", "year": "1488", "desc": "Root out and eliminate the conspirator plotting against Caterina Sforza." }
+      ]
+    },
+    {
+      "n": 13,
+      "title": "BONFIRE OF THE VANITIES",
+      "year": "1497",
+      "memories": [
+        { "n": 1, "title": "HOMECOMING", "location": "FLORENCE", "year": "1497", "desc": "Return to a Florence gripped by fear under Savonarola's fanatic rule." },
+        { "n": 2, "title": "THE CORRUPTED", "location": "FLORENCE", "year": "1497", "desc": "Investigate the nine lieutenants using the Apple of Eden to control the city." },
+        { "n": 3, "title": "RECLAIMING THE STREETS", "location": "FLORENCE", "year": "1497", "desc": "Assassinate Savonarola's lieutenants one by one to free their districts." },
+        { "n": 4, "title": "PIETY AND POLITICS", "location": "FLORENCE", "year": "1497", "desc": "Recover the Apple of Eden that Savonarola has used to sway the populace." },
+        { "n": 5, "title": "BONFIRE OF THE VANITIES", "location": "FLORENCE", "year": "1497", "desc": "Assassinate Girolamo Savonarola at the Piazza della Signoria as the people revolt." }
+      ]
+    },
+    {
+      "n": 14,
+      "title": "VENI, VIDI, VICI",
+      "year": "1499",
+      "memories": [
+        { "n": 1, "title": "THE VAULT BENEATH", "location": "ROME", "year": "1499", "desc": "Arrange the recovered Codex pages at the villa to reveal the vault's location." },
+        { "n": 2, "title": "INTO THE VATICAN", "location": "ROME", "year": "1499", "desc": "Infiltrate the Vatican's restricted grounds under cover of night." },
+        { "n": 3, "title": "THE SISTINE CONGREGATION", "location": "ROME", "year": "1499", "desc": "Cross the hanging platforms above the Sistine Chapel to reach Rodrigo Borgia." },
+        { "n": 4, "title": "VENI, VIDI, VICI", "location": "ROME", "year": "1499", "desc": "Confront Rodrigo Borgia and the power of the Staff of Eden in the vault below." }
+      ]
+    }
+  ]
+}
+</script>
+
+<!-- ==================== spire.js (inlined) ==================== -->
+<script>
+/*!
+ * spire.js — dependency-free canvas2D "DNA spire" renderer
+ * (Assassin's Creed II Animus menu homage)
+ *
+ * No WebGL, no Three.js, no external requests. Pure canvas 2D + a small
+ * hand-rolled pinhole projection.
+ *
+ * Usage:
+ *   const spire = Spire.create(canvas, { segments: 14, discsPerSegment: 12, theme: {...} });
+ *   spire.setCamera(0.3);
+ *   spire.setActiveSegment(3);
+ *   spire.setTheme({ ground: '#111', discLow: '#444', discHigh: '#666', redLow:'#7a1004', redHigh:'#d94a2a' });
+ *   spire.resize();
+ *   spire.getSegmentScreenPos(3); // -> {x,y,visible}
+ *   spire.destroy();
+ */
+(function (root, factory) {
+  if (typeof module === 'object' && module.exports) {
+    module.exports = factory();
+  } else {
+    root.Spire = factory();
+  }
+})(typeof self !== 'undefined' ? self : this, function () {
+  'use strict';
+
+  // ---------------------------------------------------------------------
+  // small math helpers (build-time only — fine to allocate here)
+  // ---------------------------------------------------------------------
+  function v3(x, y, z) { return [x, y, z]; }
+  function add(a, b) { return [a[0] + b[0], a[1] + b[1], a[2] + b[2]]; }
+  function sub(a, b) { return [a[0] - b[0], a[1] - b[1], a[2] - b[2]]; }
+  function scale(a, s) { return [a[0] * s, a[1] * s, a[2] * s]; }
+  function dot(a, b) { return a[0] * b[0] + a[1] * b[1] + a[2] * b[2]; }
+  function cross(a, b) {
+    return [
+      a[1] * b[2] - a[2] * b[1],
+      a[2] * b[0] - a[0] * b[2],
+      a[0] * b[1] - a[1] * b[0]
+    ];
+  }
+  function length(a) { return Math.sqrt(dot(a, a)); }
+  function normalize(a) {
+    var l = length(a);
+    if (l < 1e-8) return [0, 0, 1];
+    return [a[0] / l, a[1] / l, a[2] / l];
+  }
+  function lerp(a, b, t) { return a + (b - a) * t; }
+  function lerp3(a, b, t) { return [lerp(a[0], b[0], t), lerp(a[1], b[1], t), lerp(a[2], b[2], t)]; }
+  function clamp(v, lo, hi) { return v < lo ? lo : (v > hi ? hi : v); }
+
+  function hexToRgb(hex) {
+    var h = hex.replace('#', '');
+    if (h.length === 3) h = h[0] + h[0] + h[1] + h[1] + h[2] + h[2];
+    var n = parseInt(h, 16);
+    return [(n >> 16) & 255, (n >> 8) & 255, n & 255];
+  }
+
+  // deterministic pseudo-random (mulberry32) so re-creating a spire with the
+  // same config gives the same jitter every time.
+  function makeRng(seed) {
+    var s = seed >>> 0;
+    return function () {
+      s |= 0; s = (s + 0x6D2B79F5) | 0;
+      var t = Math.imul(s ^ (s >>> 15), 1 | s);
+      t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+      return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+    };
+  }
+
+  // ---------------------------------------------------------------------
+  // Catmull-Rom curve + arc-length parametrization + parallel-transport
+  // frames. All build-time, precomputed once per spire instance.
+  // ---------------------------------------------------------------------
+  function catmullRomPoint(p0, p1, p2, p3, t) {
+    var t2 = t * t, t3 = t2 * t;
+    var out = [0, 0, 0];
+    for (var i = 0; i < 3; i++) {
+      var a0 = p0[i], a1 = p1[i], a2 = p2[i], a3 = p3[i];
+      out[i] = 0.5 * (
+        (2 * a1) +
+        (-a0 + a2) * t +
+        (2 * a0 - 5 * a1 + 4 * a2 - a3) * t2 +
+        (-a0 + 3 * a1 - 3 * a2 + a3) * t3
+      );
+    }
+    return out;
+  }
+
+  function makeCurve(points) {
+    var n = points.length;
+    var segs = n - 1;
+
+    function pointAtRaw(t) {
+      // t in [0,1] across the whole spline
+      var scaled = clamp(t, 0, 1) * segs;
+      var i = Math.floor(scaled);
+      if (i >= segs) i = segs - 1;
+      var localT = scaled - i;
+      var p0 = points[Math.max(i - 1, 0)];
+      var p1 = points[i];
+      var p2 = points[Math.min(i + 1, segs)];
+      var p3 = points[Math.min(i + 2, segs)];
+      return catmullRomPoint(p0, p1, p2, p3, localT);
+    }
+
+    // build arc-length lookup table
+    var ALRES = 800;
+    var cum = new Float64Array(ALRES + 1);
+    var prev = pointAtRaw(0);
+    cum[0] = 0;
+    for (var s = 1; s <= ALRES; s++) {
+      var tt = s / ALRES;
+      var p = pointAtRaw(tt);
+      cum[s] = cum[s - 1] + length(sub(p, prev));
+      prev = p;
+    }
+    var totalLen = cum[ALRES] || 1;
+
+    function uToRawT(u) {
+      var target = clamp(u, 0, 1) * totalLen;
+      // binary search
+      var lo = 0, hi = ALRES;
+      while (lo < hi) {
+        var mid = (lo + hi) >> 1;
+        if (cum[mid] < target) lo = mid + 1; else hi = mid;
+      }
+      var i1 = lo, i0 = Math.max(0, i1 - 1);
+      var span = cum[i1] - cum[i0];
+      var frac = span > 1e-9 ? (target - cum[i0]) / span : 0;
+      return (i0 + frac) / ALRES;
+    }
+
+    function pointAtU(u) { return pointAtRaw(uToRawT(u)); }
+
+    return { pointAtRaw: pointAtRaw, pointAtU: pointAtU, totalLength: totalLen };
+  }
+
+  // Build a table of position/tangent/right/up frames uniformly sampled by
+  // arc-length parameter u in [0,1], using a rotation-minimizing (parallel
+  // transport) frame so the discs don't flip/twist unpredictably.
+  function buildFrameTable(curve, resolution) {
+    var pos = new Float64Array(resolution * 3);
+    var tan = new Float64Array(resolution * 3);
+    var right = new Float64Array(resolution * 3);
+    var up = new Float64Array(resolution * 3);
+
+    var eps = 1 / (resolution * 4);
+    var worldUp = [0, 1, 0];
+
+    for (var i = 0; i < resolution; i++) {
+      var u = i / (resolution - 1);
+      var p = curve.pointAtU(u);
+      var uPrev = clamp(u - eps, 0, 1);
+      var uNext = clamp(u + eps, 0, 1);
+      var t = normalize(sub(curve.pointAtU(uNext), curve.pointAtU(uPrev)));
+      pos[i * 3] = p[0]; pos[i * 3 + 1] = p[1]; pos[i * 3 + 2] = p[2];
+      tan[i * 3] = t[0]; tan[i * 3 + 1] = t[1]; tan[i * 3 + 2] = t[2];
+
+      var r;
+      if (i === 0) {
+        var ref = Math.abs(dot(t, worldUp)) > 0.98 ? [1, 0, 0] : worldUp;
+        r = normalize(cross(ref, t));
+      } else {
+        var prevR = [right[(i - 1) * 3], right[(i - 1) * 3 + 1], right[(i - 1) * 3 + 2]];
+        // project previous right onto plane perpendicular to new tangent
+        var proj = sub(prevR, scale(t, dot(prevR, t)));
+        if (length(proj) < 1e-6) {
+          var ref2 = Math.abs(dot(t, worldUp)) > 0.98 ? [1, 0, 0] : worldUp;
+          proj = cross(ref2, t);
+        }
+        r = normalize(proj);
+      }
+      var u3 = normalize(cross(t, r));
+      right[i * 3] = r[0]; right[i * 3 + 1] = r[1]; right[i * 3 + 2] = r[2];
+      up[i * 3] = u3[0]; up[i * 3 + 1] = u3[1]; up[i * 3 + 2] = u3[2];
+    }
+
+    return { pos: pos, tan: tan, right: right, up: up, resolution: resolution };
+  }
+
+  // interpolate the frame table at arbitrary u -> {pos, tangent, right, up} (fresh arrays; build-time/camera-time use only)
+  function sampleFrame(table, u) {
+    var res = table.resolution;
+    var idx = clamp(u, 0, 1) * (res - 1);
+    var i0 = Math.floor(idx);
+    var i1 = Math.min(i0 + 1, res - 1);
+    var f = idx - i0;
+
+    function get3(arr, i) { return [arr[i * 3], arr[i * 3 + 1], arr[i * 3 + 2]]; }
+
+    var pos = lerp3(get3(table.pos, i0), get3(table.pos, i1), f);
+    var tangent = normalize(lerp3(get3(table.tan, i0), get3(table.tan, i1), f));
+    var rightRaw = lerp3(get3(table.right, i0), get3(table.right, i1), f);
+    var right = normalize(sub(rightRaw, scale(tangent, dot(rightRaw, tangent))));
+    var up = normalize(cross(tangent, right));
+    return { pos: pos, tangent: tangent, right: right, up: up };
+  }
+
+  // ---------------------------------------------------------------------
+  // Geometry build: discs baked into flat typed arrays for a fast render loop
+  // ---------------------------------------------------------------------
+  var LIGHT_DIR = normalize([0.35, 0.82, -0.46]);
+
+  function buildGeometry(opts) {
+    var segments = opts.segments;
+    var discsPerSegment = opts.discsPerSegment;
+    var discCount = segments * discsPerSegment;
+    var rng = makeRng(opts.seed || 1337);
+
+    // Scaled up from the original snake path so discs have enough breathing
+    // room along the curve relative to their radius (dense enough to read
+    // as an overlapping stacked-coin ridge, not a solid fused tube).
+    var controlPoints = opts.controlPoints || [
+      [0, 0, 0],
+      [6.7, -4.8, -20.8],
+      [-7.4, -10.2, -43.2],
+      [5.4, -16.8, -65.6],
+      [-6.1, -22.7, -88],
+      [8.3, -29.4, -110.4],
+      [-3.8, -36.2, -132.8],
+      [1.9, -42.4, -155.2],
+      [-5.8, -48.3, -177.6],
+      [0, -54.4, -200]
+    ];
+
+    var curve = makeCurve(controlPoints);
+    var frameTable = buildFrameTable(curve, 900);
+
+    var radius = opts.radius || 1.15;
+    var thickness = opts.thickness || 0.2;
+    var twistPerDisc = opts.twistPerDisc != null ? opts.twistPerDisc : 0.085;
+
+    var discCenter = new Float32Array(discCount * 3);
+    var discTangent = new Float32Array(discCount * 3);
+    var discFrontVerts = new Float32Array(discCount * 18);
+    var discBackVerts = new Float32Array(discCount * 18);
+    var discSideNormals = new Float32Array(discCount * 18);
+    var discCapBrightFront = new Float32Array(discCount);
+    var discCapBrightBack = new Float32Array(discCount);
+    var discSideBright = new Float32Array(discCount * 6);
+    var discSegmentIndex = new Int32Array(discCount);
+    var discGreyJitter = new Float32Array(discCount);
+    var discRedJitter = new Float32Array(discCount);
+    var discU = new Float32Array(discCount);
+
+    var HEX_ANGLE = Math.PI / 3;
+
+    for (var i = 0; i < discCount; i++) {
+      var u = discCount > 1 ? i / (discCount - 1) : 0;
+      discU[i] = u;
+      var fr = sampleFrame(frameTable, u);
+      var jitterR = radius * (0.94 + rng() * 0.14);
+      var jitterTh = thickness * (0.85 + rng() * 0.4);
+      var twist = i * twistPerDisc;
+
+      discCenter[i * 3] = fr.pos[0];
+      discCenter[i * 3 + 1] = fr.pos[1];
+      discCenter[i * 3 + 2] = fr.pos[2];
+      discTangent[i * 3] = fr.tangent[0];
+      discTangent[i * 3 + 1] = fr.tangent[1];
+      discTangent[i * 3 + 2] = fr.tangent[2];
+
+      var frontCenter = add(fr.pos, scale(fr.tangent, jitterTh * 0.5));
+      var backCenter = add(fr.pos, scale(fr.tangent, -jitterTh * 0.5));
+
+      for (var k = 0; k < 6; k++) {
+        var ang = twist + k * HEX_ANGLE;
+        var ca = Math.cos(ang), sa = Math.sin(ang);
+        var offset = add(scale(fr.right, ca * jitterR), scale(fr.up, sa * jitterR));
+        var fv = add(frontCenter, offset);
+        var bv = add(backCenter, offset);
+        discFrontVerts[i * 18 + k * 3] = fv[0];
+        discFrontVerts[i * 18 + k * 3 + 1] = fv[1];
+        discFrontVerts[i * 18 + k * 3 + 2] = fv[2];
+        discBackVerts[i * 18 + k * 3] = bv[0];
+        discBackVerts[i * 18 + k * 3 + 1] = bv[1];
+        discBackVerts[i * 18 + k * 3 + 2] = bv[2];
+
+        // side normal: mid-angle radial direction for edge k -> k+1
+        var midAng = twist + (k + 0.5) * HEX_ANGLE;
+        var sn = add(scale(fr.right, Math.cos(midAng)), scale(fr.up, Math.sin(midAng)));
+        discSideNormals[i * 18 + k * 3] = sn[0];
+        discSideNormals[i * 18 + k * 3 + 1] = sn[1];
+        discSideNormals[i * 18 + k * 3 + 2] = sn[2];
+        // ambient + clamped diffuse: never crushes to near-black, still
+        // reads a clear light/shadow gradient across facets.
+        var sb = 0.52 + clamp(dot(sn, LIGHT_DIR), 0, 1) * 0.58;
+        discSideBright[i * 6 + k] = clamp(sb, 0.4, 1.12);
+      }
+
+      var bf = 0.55 + clamp(dot(fr.tangent, LIGHT_DIR), 0, 1) * 0.62;
+      var bb = 0.55 + clamp(dot(scale(fr.tangent, -1), LIGHT_DIR), 0, 1) * 0.62;
+      discCapBrightFront[i] = clamp(bf, 0.42, 1.18);
+      discCapBrightBack[i] = clamp(bb, 0.42, 1.18);
+
+      discSegmentIndex[i] = Math.min(segments - 1, Math.floor(i / discsPerSegment));
+      discGreyJitter[i] = rng();
+      discRedJitter[i] = rng();
+    }
+
+    var repDisc = new Int32Array(segments);
+    for (var s = 0; s < segments; s++) {
+      repDisc[s] = Math.min(discCount - 1, s * discsPerSegment + (discsPerSegment >> 1));
+    }
+
+    // polyline of the curve for the faint center wire
+    var wireRes = 180;
+    var wire = new Float32Array(wireRes * 3);
+    for (var w = 0; w < wireRes; w++) {
+      var p2 = curve.pointAtU(w / (wireRes - 1));
+      wire[w * 3] = p2[0]; wire[w * 3 + 1] = p2[1]; wire[w * 3 + 2] = p2[2];
+    }
+
+    return {
+      discCount: discCount, segments: segments, discsPerSegment: discsPerSegment,
+      curve: curve, frameTable: frameTable,
+      discCenter: discCenter, discTangent: discTangent,
+      discFrontVerts: discFrontVerts, discBackVerts: discBackVerts,
+      discSideNormals: discSideNormals,
+      discCapBrightFront: discCapBrightFront, discCapBrightBack: discCapBrightBack,
+      discSideBright: discSideBright,
+      discSegmentIndex: discSegmentIndex,
+      discGreyJitter: discGreyJitter, discRedJitter: discRedJitter,
+      discU: discU,
+      repDisc: repDisc,
+      wire: wire, wireRes: wireRes
+    };
+  }
+
+  // ---------------------------------------------------------------------
+  // Background "plexus" — cheap decorative dot/line mesh rendered once to
+  // an offscreen canvas and blitted every frame.
+  // ---------------------------------------------------------------------
+  function buildPlexus(w, h, dpr, rng, colorRgb) {
+    var off = document.createElement('canvas');
+    off.width = Math.max(1, Math.round(w * dpr));
+    off.height = Math.max(1, Math.round(h * dpr));
+    var ctx = off.getContext('2d');
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+
+    var count = 40;
+    var pts = [];
+    for (var i = 0; i < count; i++) {
+      pts.push({ x: rng() * w, y: rng() * h });
+    }
+    var r = colorRgb[0], g = colorRgb[1], b = colorRgb[2];
+
+    // connecting lines to nearby points
+    ctx.lineWidth = 1;
+    for (i = 0; i < count; i++) {
+      for (var j = i + 1; j < count; j++) {
+        var dx = pts[i].x - pts[j].x, dy = pts[i].y - pts[j].y;
+        var d = Math.sqrt(dx * dx + dy * dy);
+        var maxD = Math.min(w, h) * 0.18;
+        if (d < maxD) {
+          var a = (1 - d / maxD) * 0.10;
+          ctx.strokeStyle = 'rgba(' + r + ',' + g + ',' + b + ',' + a.toFixed(3) + ')';
+          ctx.beginPath();
+          ctx.moveTo(pts[i].x, pts[i].y);
+          ctx.lineTo(pts[j].x, pts[j].y);
+          ctx.stroke();
+        }
+      }
+    }
+    // soft diamond glints on a subset of points
+    for (i = 0; i < count; i++) {
+      if (rng() > 0.4) continue;
+      var s = 2.5 + rng() * 4;
+      var p = pts[i];
+      var alpha = 0.08 + rng() * 0.10;
+      ctx.save();
+      ctx.translate(p.x, p.y);
+      ctx.rotate(Math.PI / 4);
+      ctx.fillStyle = 'rgba(' + r + ',' + g + ',' + b + ',' + alpha.toFixed(3) + ')';
+      ctx.fillRect(-s / 2, -s / 2, s, s);
+      ctx.restore();
+    }
+    return off;
+  }
+
+  // ---------------------------------------------------------------------
+  // Spire instance
+  // ---------------------------------------------------------------------
+  function create(canvas, options) {
+    options = options || {};
+    var segments = options.segments || 14;
+    var discsPerSegment = options.discsPerSegment || 12;
+
+    var theme = Object.assign({
+      ground: '#e8e7e4',
+      discLow: '#8f8d88',
+      discHigh: '#b9b7b2',
+      redLow: '#7a1004',
+      redHigh: '#d94a2a'
+    }, options.theme || {});
+
+    var geo = buildGeometry({
+      segments: segments,
+      discsPerSegment: discsPerSegment,
+      radius: options.radius,
+      thickness: options.thickness,
+      twistPerDisc: options.twistPerDisc,
+      controlPoints: options.controlPoints,
+      seed: options.seed
+    });
+
+    var ctx = canvas.getContext('2d');
+
+    // ------------- mutable render state -------------
+    var state = {
+      camT: 0, camTTarget: 0,
+      segmentRedness: new Float32Array(segments),
+      segmentRednessTarget: new Float32Array(segments),
+      activeSegment: null,
+      width: 0, height: 0, dpr: 1,
+      fovDeg: options.fov || 75,
+      fogStart: options.fogStart != null ? options.fogStart : 27,
+      fogEnd: options.fogEnd != null ? options.fogEnd : 66,
+      camRightOffset: options.camRightOffset != null ? options.camRightOffset : 4.4,
+      camUpOffset: options.camUpOffset != null ? options.camUpOffset : 2.6,
+      camPullback: options.camPullback != null ? options.camPullback : 4.2,
+      lookAhead: options.lookAhead != null ? options.lookAhead : 0.05,
+      reducedMotion: !!options.reducedMotion
+    };
+
+    var groundRgb = hexToRgb(theme.ground);
+    var discLowRgb = hexToRgb(theme.discLow);
+    var discHighRgb = hexToRgb(theme.discHigh);
+    var redLowRgb = hexToRgb(theme.redLow);
+    var redHighRgb = hexToRgb(theme.redHigh);
+
+    // last camera basis, refreshed every render — used by getSegmentScreenPos
+    var lastCam = {
+      pos: [0, 0, 0], forward: [0, 0, 1], right: [1, 0, 0], up: [0, 1, 0],
+      f: 1, aspect: 1, valid: false
+    };
+
+    var plexusCanvas = null;
+    var rngBg = makeRng(4242);
+
+    var dirty = true;
+    var rafId = null;
+    var destroyed = false;
+    var lastTime = null;
+
+    // reusable scratch buffers (no per-frame allocation in hot loops)
+    var order = new Int32Array(geo.discCount);
+    var zbuf = new Float32Array(geo.discCount);
+    var scratch12 = new Float32Array(24); // 12 verts * (x,y)
+
+    function resolveColor(low, high, jitter) {
+      return [
+        lerp(low[0], high[0], jitter),
+        lerp(low[1], high[1], jitter),
+        lerp(low[2], high[2], jitter)
+      ];
+    }
+
+    function rebuildPlexus() {
+      if (!state.width || !state.height) return;
+      // ground-tinted low contrast: use ink-ish tone relative to ground brightness
+      var brightness = (groundRgb[0] + groundRgb[1] + groundRgb[2]) / 3;
+      var lineTint = brightness > 128 ? [60, 58, 52] : [230, 228, 222];
+      plexusCanvas = buildPlexus(state.width, state.height, state.dpr, rngBg, lineTint);
+    }
+
+    function resize() {
+      var rect = canvas.getBoundingClientRect();
+      var w = Math.max(1, rect.width || canvas.clientWidth || canvas.width || 1);
+      var h = Math.max(1, rect.height || canvas.clientHeight || canvas.height || 1);
+      var dpr = Math.min(2, window.devicePixelRatio || 1);
+      state.width = w; state.height = h; state.dpr = dpr;
+      canvas.width = Math.round(w * dpr);
+      canvas.height = Math.round(h * dpr);
+      rebuildPlexus();
+      markDirty();
+    }
+
+    function markDirty() {
+      dirty = true;
+      if (rafId === null && !destroyed) {
+        lastTime = null;
+        rafId = requestAnimationFrame(loop);
+      }
+    }
+
+    function setCamera(t) {
+      state.camTTarget = clamp(t, 0, 1);
+      markDirty();
+    }
+
+    function setActiveSegment(i) {
+      state.activeSegment = (i === null || i === undefined) ? null : clamp(i | 0, 0, segments - 1);
+      for (var s = 0; s < segments; s++) {
+        state.segmentRednessTarget[s] = (s === state.activeSegment) ? 1 : 0;
+      }
+      markDirty();
+    }
+
+    function setTheme(next) {
+      Object.assign(theme, next || {});
+      groundRgb = hexToRgb(theme.ground);
+      discLowRgb = hexToRgb(theme.discLow);
+      discHighRgb = hexToRgb(theme.discHigh);
+      redLowRgb = hexToRgb(theme.redLow);
+      redHighRgb = hexToRgb(theme.redHigh);
+      rebuildPlexus();
+      markDirty();
+    }
+
+    // ---------------- camera & projection ----------------
+    function updateCameraBasis(dt) {
+      if (state.reducedMotion) {
+        state.camT = state.camTTarget;
+        for (var rms = 0; rms < segments; rms++) state.segmentRedness[rms] = state.segmentRednessTarget[rms];
+      }
+      var camRate = 6.0; // higher = snappier easing
+      var diffCam = state.camTTarget - state.camT;
+      var camMoving = Math.abs(diffCam) > 0.0004;
+      if (camMoving) {
+        var factor = 1 - Math.exp(-camRate * dt);
+        state.camT += diffCam * factor;
+        if (Math.abs(state.camTTarget - state.camT) < 0.0004) state.camT = state.camTTarget;
+      } else {
+        state.camT = state.camTTarget;
+      }
+
+      var segRate = 5.0;
+      var segAnimating = false;
+      for (var s = 0; s < segments; s++) {
+        var diff = state.segmentRednessTarget[s] - state.segmentRedness[s];
+        if (Math.abs(diff) > 0.001) {
+          segAnimating = true;
+          var f = 1 - Math.exp(-segRate * dt);
+          state.segmentRedness[s] += diff * f;
+        } else {
+          state.segmentRedness[s] = state.segmentRednessTarget[s];
+        }
+      }
+
+      var frame = sampleFrame(geo.frameTable, state.camT);
+      var camPos = add(
+        add(frame.pos, scale(frame.right, state.camRightOffset)),
+        add(scale(frame.up, state.camUpOffset), scale(frame.tangent, -state.camPullback))
+      );
+      var lookT = clamp(state.camT + state.lookAhead, 0, 1);
+      var lookFrame = sampleFrame(geo.frameTable, lookT);
+      var forward = normalize(sub(lookFrame.pos, camPos));
+      var worldUp = [0, 1, 0];
+      if (Math.abs(dot(forward, worldUp)) > 0.995) worldUp = [1, 0, 0];
+      var right = normalize(cross(forward, worldUp));
+      var up = cross(right, forward);
+
+      var fovRad = state.fovDeg * Math.PI / 180;
+      var f = 1 / Math.tan(fovRad / 2);
+      var aspect = state.width / state.height || 1;
+
+      lastCam.pos = camPos; lastCam.forward = forward; lastCam.right = right; lastCam.up = up;
+      lastCam.f = f; lastCam.aspect = aspect; lastCam.valid = true;
+
+      return camMoving || segAnimating;
+    }
+
+    function project(px, py, pz, outArr, outIdx) {
+      var dx = px - lastCam.pos[0], dy = py - lastCam.pos[1], dz = pz - lastCam.pos[2];
+      var vx = dx * lastCam.right[0] + dy * lastCam.right[1] + dz * lastCam.right[2];
+      var vy = dx * lastCam.up[0] + dy * lastCam.up[1] + dz * lastCam.up[2];
+      var vz = dx * lastCam.forward[0] + dy * lastCam.forward[1] + dz * lastCam.forward[2];
+      if (vz < 0.05) vz = 0.05;
+      var ndcX = (vx * lastCam.f) / (vz * lastCam.aspect);
+      var ndcY = (vy * lastCam.f) / vz;
+      outArr[outIdx] = (ndcX * 0.5 + 0.5) * state.width;
+      outArr[outIdx + 1] = (1 - (ndcY * 0.5 + 0.5)) * state.height;
+      return vz;
+    }
+
+    function viewZ(px, py, pz) {
+      var dx = px - lastCam.pos[0], dy = py - lastCam.pos[1], dz = pz - lastCam.pos[2];
+      return dx * lastCam.forward[0] + dy * lastCam.forward[1] + dz * lastCam.forward[2];
+    }
+
+    // ---------------- rendering ----------------
+    function colorStr(r, g, b, a) {
+      r = r < 0 ? 0 : (r > 255 ? 255 : r) | 0;
+      g = g < 0 ? 0 : (g > 255 ? 255 : g) | 0;
+      b = b < 0 ? 0 : (b > 255 ? 255 : b) | 0;
+      if (a === undefined) return 'rgb(' + r + ',' + g + ',' + b + ')';
+      return 'rgba(' + r + ',' + g + ',' + b + ',' + a.toFixed(3) + ')';
+    }
+
+    function render() {
+      var w = state.width, h = state.height, dpr = state.dpr;
+      if (!w || !h) return;
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      ctx.clearRect(0, 0, w, h);
+
+      // background ground fill + plexus
+      ctx.fillStyle = colorStr(groundRgb[0], groundRgb[1], groundRgb[2]);
+      ctx.fillRect(0, 0, w, h);
+      if (plexusCanvas) {
+        ctx.save();
+        ctx.setTransform(1, 0, 0, 1, 0, 0);
+        ctx.drawImage(plexusCanvas, 0, 0, w * dpr, h * dpr);
+        ctx.restore();
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      }
+
+      var fogRgb = groundRgb;
+      var fogStart = state.fogStart, fogEnd = state.fogEnd;
+
+      // thin center wire (drawn behind the discs, low alpha)
+      ctx.strokeStyle = colorStr(groundRgb[0] * 0.4, groundRgb[1] * 0.4, groundRgb[2] * 0.4, 0.18);
+      ctx.lineWidth = 1;
+      ctx.beginPath();
+      var wireStarted = false;
+      for (var wi = 0; wi < geo.wireRes; wi++) {
+        var wx = geo.wire[wi * 3], wy = geo.wire[wi * 3 + 1], wz = geo.wire[wi * 3 + 2];
+        var vz0 = viewZ(wx, wy, wz);
+        if (vz0 < 0.1) { wireStarted = false; continue; }
+        var sx = 0, sy = 0;
+        var dx = wx - lastCam.pos[0], dy = wy - lastCam.pos[1], dz = wz - lastCam.pos[2];
+        var vx = dx * lastCam.right[0] + dy * lastCam.right[1] + dz * lastCam.right[2];
+        var vy = dx * lastCam.up[0] + dy * lastCam.up[1] + dz * lastCam.up[2];
+        var ndcX = (vx * lastCam.f) / (vz0 * lastCam.aspect);
+        var ndcY = (vy * lastCam.f) / vz0;
+        sx = (ndcX * 0.5 + 0.5) * w;
+        sy = (1 - (ndcY * 0.5 + 0.5)) * h;
+        if (!wireStarted) { ctx.moveTo(sx, sy); wireStarted = true; }
+        else ctx.lineTo(sx, sy);
+      }
+      ctx.stroke();
+
+      // ---- z-sort discs (back to front) ----
+      var n = geo.discCount;
+      var visibleCount = 0;
+      for (var i = 0; i < n; i++) {
+        var cx = geo.discCenter[i * 3], cy = geo.discCenter[i * 3 + 1], cz = geo.discCenter[i * 3 + 2];
+        var vz = viewZ(cx, cy, cz);
+        if (vz < 0.15) continue; // behind camera
+        var dxf = cx - lastCam.pos[0], dyf = cy - lastCam.pos[1], dzf = cz - lastCam.pos[2];
+        var dist = Math.sqrt(dxf * dxf + dyf * dyf + dzf * dzf);
+        if (dist > fogEnd + 4) continue; // beyond fog, cull
+        order[visibleCount] = i;
+        zbuf[i] = vz;
+        visibleCount++;
+      }
+      var orderSlice = order.subarray(0, visibleCount);
+      Array.prototype.sort.call(orderSlice, function (a, b) { return zbuf[b] - zbuf[a]; });
+
+      for (var oi = 0; oi < visibleCount; oi++) {
+        drawDisc(orderSlice[oi], fogRgb, fogStart, fogEnd);
+      }
+    }
+
+    function drawDisc(i, fogRgb, fogStart, fogEnd) {
+      var cx = geo.discCenter[i * 3], cy = geo.discCenter[i * 3 + 1], cz = geo.discCenter[i * 3 + 2];
+      var dxf = cx - lastCam.pos[0], dyf = cy - lastCam.pos[1], dzf = cz - lastCam.pos[2];
+      var dist = Math.sqrt(dxf * dxf + dyf * dyf + dzf * dzf);
+      var fogT = clamp((dist - fogStart) / Math.max(0.001, fogEnd - fogStart), 0, 1);
+      if (fogT >= 0.985) return;
+
+      var segIdx = geo.discSegmentIndex[i];
+      var redness = state.segmentRedness[segIdx];
+      var baseGrey = resolveColor(discLowRgb, discHighRgb, geo.discGreyJitter[i]);
+      var baseRed = resolveColor(redLowRgb, redHighRgb, geo.discRedJitter[i]);
+      var baseColor = redness > 0.001 ? lerp3(baseGrey, baseRed, redness) : baseGrey;
+      var alpha = lerp(1.0, 0.88, redness);
+
+      // decide which cap faces the camera
+      var tx = geo.discTangent[i * 3], ty = geo.discTangent[i * 3 + 1], tz = geo.discTangent[i * 3 + 2];
+      var toCam = [lastCam.pos[0] - cx, lastCam.pos[1] - cy, lastCam.pos[2] - cz];
+      var facingFront = (tx * toCam[0] + ty * toCam[1] + tz * toCam[2]) > 0;
+      var capBright = facingFront ? geo.discCapBrightFront[i] : geo.discCapBrightBack[i];
+      var capVerts = facingFront ? geo.discFrontVerts : geo.discBackVerts;
+      var otherVerts = facingFront ? geo.discBackVerts : geo.discFrontVerts;
+
+      // project the 12 verts (6 near cap + 6 far cap) into scratch buffer
+      var base = i * 18;
+      for (var k = 0; k < 6; k++) {
+        project(capVerts[base + k * 3], capVerts[base + k * 3 + 1], capVerts[base + k * 3 + 2], scratch12, k * 2);
+        project(otherVerts[base + k * 3], otherVerts[base + k * 3 + 1], otherVerts[base + k * 3 + 2], scratch12, 12 + k * 2);
+      }
+
+      var fMix = 1 - fogT;
+
+      // side quads (culled to those facing roughly toward camera), drawn first
+      for (var e = 0; e < 6; e++) {
+        var nx = geo.discSideNormals[base + e * 3], ny = geo.discSideNormals[base + e * 3 + 1], nz = geo.discSideNormals[base + e * 3 + 2];
+        var faceDot = nx * toCam[0] + ny * toCam[1] + nz * toCam[2];
+        if (faceDot <= 0) continue;
+        var e2 = (e + 1) % 6;
+        var sideBright = geo.discSideBright[i * 6 + e] * 0.82; // sides read a touch darker than the cap
+        var sr = lerp(fogRgb[0], baseColor[0] * sideBright, fMix);
+        var sg = lerp(fogRgb[1], baseColor[1] * sideBright, fMix);
+        var sb = lerp(fogRgb[2], baseColor[2] * sideBright, fMix);
+        ctx.fillStyle = colorStr(sr, sg, sb, alpha);
+        ctx.beginPath();
+        ctx.moveTo(scratch12[e * 2], scratch12[e * 2 + 1]);
+        ctx.lineTo(scratch12[e2 * 2], scratch12[e2 * 2 + 1]);
+        ctx.lineTo(scratch12[12 + e2 * 2], scratch12[12 + e2 * 2 + 1]);
+        ctx.lineTo(scratch12[12 + e * 2], scratch12[12 + e * 2 + 1]);
+        ctx.closePath();
+        ctx.fill();
+      }
+
+      // near cap (the hex face)
+      var cr = lerp(fogRgb[0], baseColor[0] * capBright, fMix);
+      var cg = lerp(fogRgb[1], baseColor[1] * capBright, fMix);
+      var cb = lerp(fogRgb[2], baseColor[2] * capBright, fMix);
+      ctx.fillStyle = colorStr(cr, cg, cb, alpha);
+      ctx.beginPath();
+      ctx.moveTo(scratch12[0], scratch12[1]);
+      for (var kk = 1; kk < 6; kk++) ctx.lineTo(scratch12[kk * 2], scratch12[kk * 2 + 1]);
+      ctx.closePath();
+      ctx.fill();
+
+      // subtle rim highlight scaled by how lit the cap is
+      var rimAlpha = clamp((capBright - 0.6) * 0.35, 0, 0.32) * fMix;
+      if (rimAlpha > 0.01) {
+        ctx.strokeStyle = 'rgba(255,252,245,' + rimAlpha.toFixed(3) + ')';
+        ctx.lineWidth = 1;
+        ctx.stroke();
+      }
+    }
+
+    // ---------------- main loop ----------------
+    function loop(time) {
+      if (destroyed) return;
+      if (lastTime === null) lastTime = time;
+      var dt = Math.min(0.05, Math.max(0, (time - lastTime) / 1000));
+      lastTime = time;
+
+      var animating = updateCameraBasis(dt);
+      if (dirty || animating) {
+        render();
+        dirty = false;
+      }
+
+      if (animating) {
+        rafId = requestAnimationFrame(loop);
+      } else {
+        rafId = null; // battery-friendly: stop the loop until something changes
+      }
+    }
+
+    function tick() {
+      updateCameraBasis(0.016);
+      render();
+    }
+
+    function getSegmentScreenPos(index) {
+      index = clamp(index | 0, 0, segments - 1);
+      if (!lastCam.valid) tick();
+      var di = geo.repDisc[index];
+      var cx = geo.discCenter[di * 3], cy = geo.discCenter[di * 3 + 1], cz = geo.discCenter[di * 3 + 2];
+      var vz = viewZ(cx, cy, cz);
+      var out = { x: 0, y: 0, visible: false };
+      var tmp = [0, 0];
+      project(cx, cy, cz, tmp, 0);
+      out.x = tmp[0]; out.y = tmp[1];
+      out.visible = vz > 0.15 && out.x > -0.1 * state.width && out.x < 1.1 * state.width &&
+        out.y > -0.1 * state.height && out.y < 1.1 * state.height;
+      return out;
+    }
+
+    function destroy() {
+      destroyed = true;
+      if (rafId !== null) cancelAnimationFrame(rafId);
+      rafId = null;
+      plexusCanvas = null;
+    }
+
+    // initial sizing
+    resize();
+
+    return {
+      setCamera: setCamera,
+      setActiveSegment: setActiveSegment,
+      setTheme: setTheme,
+      setReducedMotion: function (v) { state.reducedMotion = !!v; markDirty(); },
+      resize: resize,
+      destroy: destroy,
+      tick: tick,
+      getSegmentScreenPos: getSegmentScreenPos,
+      get segments() { return segments; },
+      get discsPerSegment() { return discsPerSegment; }
+    };
+  }
+
+  return { create: create };
+});
+
+</script>
+
+<!-- ==================== application ==================== -->
+<script>
+(function () {
+  'use strict';
+  var DATA = JSON.parse(document.getElementById('ac-data').textContent);
+  var SEQUENCES = DATA.sequences;
+  var SEG_COUNT = SEQUENCES.length;
+  var DISCS_PER = 12;
+  var TOTAL_DISCS = SEG_COUNT * DISCS_PER;
+  var TOTAL_MEMORIES = SEQUENCES.reduce(function (a, s) { return a + s.memories.length; }, 0);
+
+  var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  var CANVAS_THEME = {
+    light: { ground:'#e8e7e4', discLow:'#8f8d88', discHigh:'#b9b7b2', redLow:'#7a1004', redHigh:'#d94a2a' },
+    dark:  { ground:'#17181a', discLow:'#4a4a4d', discHigh:'#6d6d6f', redLow:'#8f1607', redHigh:'#ea5a34' }
+  };
+
+  var canvas = document.getElementById('spireCanvas');
+  var spire = Spire.create(canvas, {
+    segments: SEG_COUNT,
+    discsPerSegment: DISCS_PER,
+    reducedMotion: reduceMotion,
+    // Camera pulled back with a slightly narrower FOV so the current
+    // clump reads clearly without giant foreground discs.
+    fov: 58,
+    camPullback: 16.5,
+    camUpOffset: 5.2,
+    camRightOffset: 7.4,
+    lookAhead: 0.055,
+    fogStart: 38,
+    fogEnd: 96,
+    theme: (window.matchMedia('(prefers-color-scheme: dark)').matches ? CANVAS_THEME.dark : CANVAS_THEME.light)
+  });
+
+  // ---- camera parameterisation ----
+  // representative disc u for a segment matches spire's internal repDisc.
+  function segToCamT(i) {
+    var repU = (i * DISCS_PER + (DISCS_PER >> 1)) / (TOTAL_DISCS - 1);
+    return Math.max(0, Math.min(1, repU - 0.055));
+  }
+  var cameraT = segToCamT(0);
+  spire.setCamera(cameraT);
+
+  // ---------------------------------------------------------------
+  // Build the accordion from data
+  // ---------------------------------------------------------------
+  var seqList = document.getElementById('seqList');
+  document.getElementById('subjectName').textContent = DATA.subject;
+
+  var seqEls = [];   // per-sequence element records
+  function esc(s) { return String(s); }
+
+  SEQUENCES.forEach(function (seq, si) {
+    var wrap = document.createElement('div');
+    wrap.className = 'seq';
+
+    var regionId = 'region-' + seq.n;
+    var headerId = 'seqbtn-' + seq.n;
+
+    var header = document.createElement('button');
+    header.type = 'button';
+    header.className = 'seq-header';
+    header.id = headerId;
+    header.setAttribute('aria-expanded', 'false');
+    header.setAttribute('aria-controls', regionId);
+    header.dataset.seq = si;
+    header.innerHTML =
+      '<span class="chev" aria-hidden="true">▸</span>' +
+      '<span class="seq-titlewrap">' +
+        '<span class="seq-eyebrow">SEQUENCE ' + seq.n + '</span>' +
+        '<span class="seq-title" data-field="title">' + esc(seq.title) + '</span>' +
+      '</span>' +
+      '<span class="seq-year tnum">' + esc(seq.year) + '</span>';
+
+    var region = document.createElement('div');
+    region.className = 'seq-region';
+    region.id = regionId;
+    region.setAttribute('role', 'region');
+    region.setAttribute('aria-labelledby', headerId);
+    region.hidden = true;
+
+    var memEls = [];
+    seq.memories.forEach(function (mem, mi) {
+      var row = document.createElement('button');
+      row.type = 'button';
+      row.className = 'mem-row';
+      row.dataset.seq = si;
+      row.dataset.mem = mi;
+      row.innerHTML =
+        '<span class="m-top">' +
+          '<span class="m-title" data-field="mtitle">' + esc(mem.title) + '</span>' +
+          '<span class="m-num tnum">MEM ' + mem.n + '</span>' +
+        '</span>' +
+        '<span class="m-sub"><span data-field="mloc">' + esc(mem.location) + '</span> · <span class="tnum">' + esc(mem.year) + '</span></span>';
+      row.addEventListener('click', function () { selectMemory(si, mi); });
+      region.appendChild(row);
+      memEls.push({ el: row, mem: mem, titleEl: row.querySelector('[data-field="mtitle"]'), locEl: row.querySelector('[data-field="mloc"]') });
+    });
+
+    header.addEventListener('click', function () { toggleSequence(si); });
+
+    wrap.appendChild(header);
+    wrap.appendChild(region);
+    seqList.appendChild(wrap);
+
+    seqEls.push({
+      wrap: wrap, header: header, region: region, seq: seq,
+      titleEl: header.querySelector('[data-field="title"]'), mems: memEls
+    });
+  });
+
+  // ---------------------------------------------------------------
+  // Sequence expand / collapse (single-open accordion)
+  // ---------------------------------------------------------------
+  var expandedSeq = null;
+
+  function setSequenceCamera(si) {
+    cameraT = segToCamT(si);
+    spire.setActiveSegment(si);
+    spire.setCamera(cameraT);
+    updateAnnotation(si);
+  }
+
+  function toggleSequence(si, opts) {
+    opts = opts || {};
+    var rec = seqEls[si];
+    var isOpen = rec.header.getAttribute('aria-expanded') === 'true';
+    if (isOpen) {
+      collapseSequence(si);
+    } else {
+      if (expandedSeq !== null && expandedSeq !== si) collapseSequence(expandedSeq);
+      rec.header.setAttribute('aria-expanded', 'true');
+      rec.region.hidden = false;
+      expandedSeq = si;
+      setSequenceCamera(si);
+      if (!opts.noScroll) rec.header.scrollIntoView({ block: 'nearest', behavior: reduceMotion ? 'auto' : 'smooth' });
+    }
+  }
+
+  function collapseSequence(si) {
+    var rec = seqEls[si];
+    rec.header.setAttribute('aria-expanded', 'false');
+    rec.region.hidden = true;
+    if (expandedSeq === si) expandedSeq = null;
+  }
+
+  // ---------------------------------------------------------------
+  // Memory detail
+  // ---------------------------------------------------------------
+  var detail = document.getElementById('detail');
+  var detailEyebrow = document.getElementById('detailEyebrow');
+  var detailMnum = document.getElementById('detailMnum');
+  var detailName = document.getElementById('detailName');
+  var detailLoc = document.getElementById('detailLoc');
+  var detailDesc = document.getElementById('detailDesc');
+  var lastMemTrigger = null;
+  var activeMemEl = null;
+
+  function selectMemory(si, mi) {
+    var seq = SEQUENCES[si];
+    var mem = seq.memories[mi];
+    lastMemTrigger = seqEls[si].mems[mi].el;
+
+    if (activeMemEl) activeMemEl.classList.remove('active');
+    activeMemEl = lastMemTrigger;
+    activeMemEl.classList.add('active');
+
+    // make sure the containing sequence is open & camera aligned
+    if (expandedSeq !== si) {
+      if (expandedSeq !== null) collapseSequence(expandedSeq);
+      seqEls[si].header.setAttribute('aria-expanded', 'true');
+      seqEls[si].region.hidden = false;
+      expandedSeq = si;
+    }
+    setSequenceCamera(si);
+
+    detailEyebrow.textContent = 'SEQUENCE ' + seq.n;
+    detailMnum.textContent = 'MEMORY ' + mem.n;
+    detailName.textContent = mem.title;
+    detailLoc.textContent = mem.location + ', ' + mem.year;
+    detailDesc.textContent = mem.desc;
+    detail.classList.add('show');
+    detail.setAttribute('aria-hidden', 'false');
+    document.getElementById('detailBack').focus();
+  }
+
+  function closeDetail(returnFocus) {
+    if (!detail.classList.contains('show')) return false;
+    detail.classList.remove('show');
+    detail.setAttribute('aria-hidden', 'true');
+    if (activeMemEl) { activeMemEl.classList.remove('active'); }
+    if (returnFocus && lastMemTrigger) lastMemTrigger.focus();
+    activeMemEl = null;
+    return true;
+  }
+  document.getElementById('detailBack').addEventListener('click', function () { closeDetail(true); });
+
+  // ---------------------------------------------------------------
+  // Search / filter
+  // ---------------------------------------------------------------
+  var searchInput = document.getElementById('search');
+  var searchCount = document.getElementById('searchCount');
+  var clearBtn = document.getElementById('clearBtn');
+  var emptyState = document.getElementById('emptyState');
+
+  function highlight(el, text, q) {
+    if (!q) { el.textContent = text; return; }
+    var lower = text.toLowerCase();
+    var idx = lower.indexOf(q);
+    if (idx < 0) { el.textContent = text; return; }
+    el.innerHTML = '';
+    var before = document.createTextNode(text.slice(0, idx));
+    var mk = document.createElement('mark');
+    mk.textContent = text.slice(idx, idx + q.length);
+    var after = document.createTextNode(text.slice(idx + q.length));
+    el.appendChild(before); el.appendChild(mk); el.appendChild(after);
+  }
+
+  function applyFilter() {
+    var q = searchInput.value.trim().toLowerCase();
+    clearBtn.classList.toggle('show', q.length > 0);
+
+    if (!q) {
+      // reset
+      seqEls.forEach(function (rec, si) {
+        rec.wrap.classList.remove('hidden');
+        rec.titleEl.textContent = rec.seq.title;
+        rec.mems.forEach(function (m) {
+          m.el.classList.remove('hidden');
+          m.titleEl.textContent = m.mem.title;
+          m.locEl.textContent = m.mem.location;
+        });
+        if (si !== expandedSeq) collapseSequence(si);
+      });
+      searchCount.textContent = SEG_COUNT + ' sequences, ' + TOTAL_MEMORIES + ' memories';
+      emptyState.classList.remove('show');
+      return;
+    }
+
+    var seqMatches = 0, memMatches = 0;
+    seqEls.forEach(function (rec, si) {
+      var seq = rec.seq;
+      var titleHit = seq.title.toLowerCase().indexOf(q) >= 0 ||
+                     ('sequence ' + seq.n).indexOf(q) >= 0;
+      var anyMemHit = false;
+      rec.mems.forEach(function (m) {
+        var mem = m.mem;
+        var hit = mem.title.toLowerCase().indexOf(q) >= 0 ||
+                  mem.location.toLowerCase().indexOf(q) >= 0 ||
+                  mem.desc.toLowerCase().indexOf(q) >= 0 ||
+                  String(mem.year).indexOf(q) >= 0;
+        // when the sequence title matches, show all its memories
+        var show = hit || titleHit;
+        m.el.classList.toggle('hidden', !show);
+        highlight(m.titleEl, mem.title, q);
+        highlight(m.locEl, mem.location, q);
+        if (hit) { anyMemHit = true; memMatches++; }
+      });
+
+      var seqVisible = titleHit || anyMemHit;
+      rec.wrap.classList.toggle('hidden', !seqVisible);
+      highlight(rec.titleEl, seq.title, q);
+
+      if (seqVisible) {
+        seqMatches++;
+        // auto-expand matching sequences
+        rec.header.setAttribute('aria-expanded', 'true');
+        rec.region.hidden = false;
+      } else {
+        rec.header.setAttribute('aria-expanded', 'false');
+        rec.region.hidden = true;
+      }
+    });
+
+    // filtering breaks the single-open invariant intentionally; clear tracker
+    expandedSeq = null;
+
+    searchCount.textContent = (seqMatches + memMatches === 0)
+      ? 'No matches'
+      : seqMatches + (seqMatches === 1 ? ' sequence' : ' sequences') + ', ' +
+        memMatches + (memMatches === 1 ? ' memory' : ' memories');
+    emptyState.classList.toggle('show', seqMatches === 0);
+  }
+
+  searchInput.addEventListener('input', applyFilter);
+  clearBtn.addEventListener('click', function () {
+    searchInput.value = '';
+    applyFilter();
+    searchInput.focus();
+  });
+
+  // ---------------------------------------------------------------
+  // Keyboard: arrow navigation among visible headers + memory rows
+  // ---------------------------------------------------------------
+  function visibleFocusables() {
+    var out = [];
+    seqEls.forEach(function (rec) {
+      if (rec.wrap.classList.contains('hidden')) return;
+      out.push(rec.header);
+      if (!rec.region.hidden) {
+        rec.mems.forEach(function (m) {
+          if (!m.el.classList.contains('hidden')) out.push(m.el);
+        });
+      }
+    });
+    return out;
+  }
+
+  seqList.addEventListener('keydown', function (e) {
+    if (e.key !== 'ArrowDown' && e.key !== 'ArrowUp' && e.key !== 'Home' && e.key !== 'End') return;
+    var items = visibleFocusables();
+    if (!items.length) return;
+    var idx = items.indexOf(document.activeElement);
+    var next;
+    if (e.key === 'ArrowDown') next = idx < 0 ? 0 : Math.min(items.length - 1, idx + 1);
+    else if (e.key === 'ArrowUp') next = idx < 0 ? 0 : Math.max(0, idx - 1);
+    else if (e.key === 'Home') next = 0;
+    else next = items.length - 1;
+    e.preventDefault();
+    items[next].focus();
+  });
+
+  // ---------------------------------------------------------------
+  // Global keyboard: "/" focus search, Esc cascade
+  // ---------------------------------------------------------------
+  function isTextField(el) {
+    return el && (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA' || el.isContentEditable);
+  }
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key === '/' && !isTextField(document.activeElement)) {
+      e.preventDefault();
+      searchInput.focus();
+      searchInput.select();
+      return;
+    }
+    if (e.key === 'Escape') {
+      // 1) close detail
+      if (closeDetail(true)) { e.preventDefault(); return; }
+      // 2) if focused in search & has text -> clear
+      if (document.activeElement === searchInput && searchInput.value) {
+        searchInput.value = ''; applyFilter(); e.preventDefault(); return;
+      }
+      // 3) collapse expanded sequence
+      if (expandedSeq !== null) {
+        var toFocus = seqEls[expandedSeq].header;
+        collapseSequence(expandedSeq);
+        toFocus.focus();
+        e.preventDefault(); return;
+      }
+      // 4) clear any search text
+      if (searchInput.value) {
+        searchInput.value = ''; applyFilter();
+        searchInput.focus();
+        e.preventDefault(); return;
+      }
+    }
+  });
+
+  // ---------------------------------------------------------------
+  // Wheel over canvas nudges camera along the spire
+  // ---------------------------------------------------------------
+  var stage = document.getElementById('stage');
+  stage.addEventListener('wheel', function (e) {
+    e.preventDefault();
+    cameraT = Math.max(0, Math.min(1, cameraT + e.deltaY * 0.00045));
+    spire.setCamera(cameraT);
+  }, { passive: false });
+
+  // ---------------------------------------------------------------
+  // Floating diamond marker + year annotation
+  // ---------------------------------------------------------------
+  var marker = document.getElementById('marker');
+  var annotation = document.getElementById('annotation');
+
+  function updateAnnotation(si) {
+    if (si === null || si === undefined) { annotation.style.opacity = '0'; return; }
+    var seq = SEQUENCES[si];
+    annotation.textContent = seq.year + ' · ' + DATA.subject;
+  }
+
+  var markerRAF = null;
+  function markerLoop() {
+    var si = expandedSeq;
+    if (si === null || si === undefined) {
+      marker.style.opacity = '0';
+      annotation.style.opacity = '0';
+    } else {
+      var pos = spire.getSegmentScreenPos(si);
+      if (pos.visible) {
+        marker.style.opacity = '1';
+        marker.style.left = pos.x + 'px';
+        marker.style.top = (pos.y - 44) + 'px';
+        annotation.style.opacity = '1';
+        annotation.style.left = (pos.x + 16) + 'px';
+        annotation.style.top = (pos.y - 6) + 'px';
+      } else {
+        marker.style.opacity = '0';
+        annotation.style.opacity = '0';
+      }
+    }
+    markerRAF = requestAnimationFrame(markerLoop);
+  }
+  markerRAF = requestAnimationFrame(markerLoop);
+
+  // ---------------------------------------------------------------
+  // Theme toggle
+  // ---------------------------------------------------------------
+  var themeToggle = document.getElementById('themeToggle');
+  var osDark = window.matchMedia('(prefers-color-scheme: dark)');
+  var manualTheme = null; // null = follow OS
+
+  function effectiveTheme() {
+    if (manualTheme) return manualTheme;
+    return osDark.matches ? 'dark' : 'light';
+  }
+  function applyTheme() {
+    var t = effectiveTheme();
+    if (manualTheme) document.documentElement.setAttribute('data-theme', manualTheme);
+    else document.documentElement.removeAttribute('data-theme');
+    spire.setTheme(CANVAS_THEME[t]);
+    var isDark = t === 'dark';
+    themeToggle.textContent = isDark ? 'LIGHT' : 'DARK';
+    themeToggle.setAttribute('aria-pressed', String(isDark));
+    themeToggle.setAttribute('aria-label', isDark ? 'Switch to light theme' : 'Switch to dark theme');
+  }
+  themeToggle.addEventListener('click', function () {
+    manualTheme = (effectiveTheme() === 'dark') ? 'light' : 'dark';
+    applyTheme();
+  });
+  osDark.addEventListener('change', function () { if (!manualTheme) applyTheme(); });
+  applyTheme();
+
+  // ---------------------------------------------------------------
+  // Mobile panel toggle
+  // ---------------------------------------------------------------
+  var panel = document.getElementById('panel');
+  var paneltoggle = document.getElementById('paneltoggle');
+  paneltoggle.addEventListener('click', function () {
+    var collapsed = panel.classList.toggle('collapsed');
+    paneltoggle.setAttribute('aria-expanded', String(!collapsed));
+    paneltoggle.textContent = collapsed ? 'MENU' : 'CLOSE';
+  });
+
+  // ---------------------------------------------------------------
+  // Resize
+  // ---------------------------------------------------------------
+  var resizeRAF = null;
+  window.addEventListener('resize', function () {
+    if (resizeRAF) cancelAnimationFrame(resizeRAF);
+    resizeRAF = requestAnimationFrame(function () { spire.resize(); });
+  });
+
+  // initial state: open sequence 1 softly? Keep collapsed but position camera.
+  spire.resize();
+})();
+</script>
+</body>
+</html>
