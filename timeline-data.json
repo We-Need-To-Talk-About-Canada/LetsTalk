@@ -1948,7 +1948,7 @@
    "display_date": "Vaisakhi, April 13, 1978",
    "text": {
     "headline": "Nirankari clash kills 13 Sikhs in Amritsar",
-    "text": "On Vaisakhi 1978, clashes in Amritsar between Sikhs of the Akhand Kirtani Jatha and Damdami Taksal and the government-backed Sant Nirankari sect left 13 Sikhs dead. Baaz writers cite the episode as a key radicalizing moment preceding the rise of Sant Jarnail Singh Bhindranwale."
+    "text": "On Vaisakhi 1978, clashes in Amritsar between Sikhs of the Akhand Kirtani Jatha and Damdami Taksal and the government-backed Sant Nirankari sect left 13 Sikhs dead. Baaz writers cite the episode as a key radicalizing moment preceding the rise of Sant Jarnail Singh Bhindranwale. Mahmood records that the subsequent acquittal of all 62 accused Nirankaris, in a closed-door trial moved to Haryana, convinced many Sikhs that justice through Indian courts was unattainable — a keystone moment in the turn toward armed struggle."
    },
    "group": "Partition & Post-Independence (1947-1983)",
    "category": "Human Rights",
@@ -1963,6 +1963,11 @@
     {
      "title": "Jagjit Singh: Parkash Badal's Marred Legacy (Baaz)",
      "url": "https://www.baaznews.org/p/parkash-badal-marred-legacy-sikhs"
+    },
+    {
+     "title": "Fighting for Faith and Nation: Dialogues with Sikh Militants",
+     "url": "https://www.pennpress.org/9780812215922/fighting-for-faith-and-nation/",
+     "ref": "mahmood-1996"
     }
    ],
    "confidence": "high",
@@ -1971,6 +1976,41 @@
     "region": "Punjab/India",
     "lat": 31.63,
     "lon": 74.87
+   }
+  },
+  {
+   "unique_id": "nirankari-retaliation-1980-1981",
+   "start_date": {
+    "year": 1980
+   },
+   "display_date": "1980–1981",
+   "text": {
+    "headline": "Retaliatory killings of Baba Gurbachan Singh and Lala Jagat Narain",
+    "text": "Following the 1978 Amritsar clash and the acquittal of those accused, Sikh militant groups formed to avenge the thirteen Sikhs killed. Nirankari leader Baba Gurbachan Singh was assassinated in 1980, followed in 1981 by Lala Jagat Narain, a prominent Hindu newspaper editor who had publicly supported the Nirankaris and testified on their behalf. Mahmood records these killings as the point at which the conflict moved decisively into armed retaliation."
+   },
+   "group": "Partition & Post-Independence (1947-1983)",
+   "category": "Movements",
+   "media": {
+    "url": "",
+    "caption": "",
+    "credit": ""
+   },
+   "sources": [
+    {
+     "title": "Fighting for Faith and Nation: Dialogues with Sikh Militants",
+     "url": "https://www.pennpress.org/9780812215922/fighting-for-faith-and-nation/",
+     "ref": "mahmood-1996"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Panjab, India",
+    "region": "Punjab/India",
+    "lat": 31.15,
+    "lon": 75.34
+   },
+   "end_date": {
+    "year": 1981
    }
   },
   {
@@ -2007,6 +2047,39 @@
    }
   },
   {
+   "unique_id": "dharm-yudh-morcha-1982",
+   "start_date": {
+    "year": 1982,
+    "month": 8
+   },
+   "display_date": "August–September 1982",
+   "text": {
+    "headline": "Dharm Yudh Morcha launched; Sikhs searched at the Asian Games",
+    "text": "Sant Jarnail Singh Bhindranwale and the Akali Dal launched the Dharm Yudh Morcha to press demands for greater Panjabi autonomy, and thousands of Sikhs courted arrest in the campaign. A related bus-train accident killed 38 Akali protestors. During the Asian Games in New Delhi that year, Sikhs travelling to the capital were subjected to heavy and, in Mahmood's account, humiliating security screening that further alienated the community."
+   },
+   "group": "Partition & Post-Independence (1947-1983)",
+   "category": "Movements",
+   "media": {
+    "url": "",
+    "caption": "",
+    "credit": ""
+   },
+   "sources": [
+    {
+     "title": "Fighting for Faith and Nation: Dialogues with Sikh Militants",
+     "url": "https://www.pennpress.org/9780812215922/fighting-for-faith-and-nation/",
+     "ref": "mahmood-1996"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "New Delhi, India",
+    "region": "Punjab/India",
+    "lat": 28.61,
+    "lon": 77.21
+   }
+  },
+  {
    "unique_id": "bhindranwale-darbar-sahib-1984",
    "start_date": {
     "year": 1984
@@ -2027,6 +2100,11 @@
     {
      "title": "Why Was Bhindranwale There? (SikhRI)",
      "url": "https://sikhri.org/articles/why-was-bhindranwale-there"
+    },
+    {
+     "title": "Fighting for Faith and Nation: Dialogues with Sikh Militants",
+     "url": "https://www.pennpress.org/9780812215922/fighting-for-faith-and-nation/",
+     "ref": "mahmood-1996"
     }
    ],
    "confidence": "medium",
@@ -2046,7 +2124,7 @@
    "display_date": "June 1984",
    "text": {
     "headline": "Operation Blue Star: Indian Army assault on the Golden Temple",
-    "text": "In early June 1984, the Indian Army launched Operation Blue Star, storming Sri Harimandar Sahib and the Akal Takht in Amritsar along with dozens of other gurdwaras across Panjab. The assault, ordered under Prime Minister Indira Gandhi during a major Sikh commemoration, killed large numbers of pilgrims and severely damaged Sikhism's holiest site. It became a central trauma of modern Sikh history, marked annually across the global diaspora."
+    "text": "In early June 1984, the Indian Army launched Operation Blue Star, storming Sri Harimandar Sahib and the Akal Takht in Amritsar along with dozens of other gurdwaras across Panjab. The assault, ordered under Prime Minister Indira Gandhi during a major Sikh commemoration, killed large numbers of pilgrims and severely damaged Sikhism's holiest site. It became a central trauma of modern Sikh history, marked annually across the global diaspora. Mahmood's interviews record the destruction of the Sikh Reference Library and the lasting trauma of the assault as central to the escalation that followed."
    },
    "group": "1984 & Aftermath (1984-1999)",
    "category": "Battles",
@@ -2065,6 +2143,16 @@
     {
      "title": "Kiran Gill: Why Sikh Americans Are Protesting Modi's Visit (Baaz)",
      "url": "https://www.baaznews.org/p/modi-state-visit-joint-congress-sikh-protest"
+    },
+    {
+     "title": "Fighting for Faith and Nation: Dialogues with Sikh Militants",
+     "url": "https://www.pennpress.org/9780812215922/fighting-for-faith-and-nation/",
+     "ref": "mahmood-1996"
+    },
+    {
+     "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
+     "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
+     "ref": "sikhri-special-report-2023"
     }
    ],
    "confidence": "high",
@@ -2100,6 +2188,11 @@
     {
      "title": "Jasjit Singh: Understanding Sidhu Moose Wala's \"SYL\" (Baaz)",
      "url": "https://www.baaznews.org/p/sidhu-moosewala-syl-understanding"
+    },
+    {
+     "title": "Fighting for Faith and Nation: Dialogues with Sikh Militants",
+     "url": "https://www.pennpress.org/9780812215922/fighting-for-faith-and-nation/",
+     "ref": "mahmood-1996"
     }
    ],
    "confidence": "high",
@@ -2119,7 +2212,7 @@
    "display_date": "November 1984",
    "text": {
     "headline": "Anti-Sikh pogroms across Delhi and northern India",
-    "text": "In the days following Indira Gandhi's assassination, mobs organized by sections of the ruling Congress party killed thousands of Sikhs in Delhi and other cities, with tens of thousands more displaced. Baaz and Sikh advocates describe the state's response, and decades of subsequent inquiry commissions that failed to deliver accountability, as a continuing denial of justice for what the community terms the 1984 Sikh Genocide."
+    "text": "In the days following Indira Gandhi's assassination, mobs organized by sections of the ruling Congress party killed thousands of Sikhs in Delhi and other cities, with tens of thousands more displaced. Baaz and Sikh advocates describe the state's response, and decades of subsequent inquiry commissions that failed to deliver accountability, as a continuing denial of justice for what the community terms the 1984 Sikh Genocide. Independent human rights commissions found the violence to be organized, with police complicity and Congress party politicians inciting the mobs."
    },
    "group": "1984 & Aftermath (1984-1999)",
    "category": "Martyrdom",
@@ -2136,6 +2229,16 @@
     {
      "title": "How Various Indian Commissions On November 1984 Failed Sikhs (Baaz)",
      "url": "https://www.baaznews.org/p/indian-commissions-on-1984-failed-sikhs"
+    },
+    {
+     "title": "Fighting for Faith and Nation: Dialogues with Sikh Militants",
+     "url": "https://www.pennpress.org/9780812215922/fighting-for-faith-and-nation/",
+     "ref": "mahmood-1996"
+    },
+    {
+     "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
+     "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
+     "ref": "sikhri-special-report-2023"
     }
    ],
    "confidence": "high",
@@ -2156,7 +2259,7 @@
    "display_date": "June 23, 1985",
    "text": {
     "headline": "Air India Flight 182 bombing",
-    "text": "On 23 June 1985, a bomb destroyed Air India Flight 182 over the Atlantic, killing all 329 people aboard, most of them Canadian citizens of Indian origin. The bombing, and the 2005 acquittal of Ripudaman Singh Malik and Ajaib Singh Bagri, remained a recurring reference point in Canadian coverage of Sikh political activity for decades afterward. Canada's later public inquiry attributed the plot to Sikh militants based in British Columbia, naming Talwinder Singh Parmar as its mastermind, and found catastrophic failures by Canadian security agencies."
+    "text": "On 23 June 1985, a bomb destroyed Air India Flight 182 over the Atlantic, killing all 329 people aboard, most of them Canadian citizens of Indian origin. The bombing, and the 2005 acquittal of Ripudaman Singh Malik and Ajaib Singh Bagri, remained a recurring reference point in Canadian coverage of Sikh political activity for decades afterward. Canada's later public inquiry attributed the plot to Sikh militants based in British Columbia, naming Talwinder Singh Parmar as its mastermind, and found catastrophic failures by Canadian security agencies. Canadian intelligence operative Michel Juneau-Katsuya later reported evidence of undercover agents from India's embassy infiltrating Canada's Sikh community around this period."
    },
    "group": "1984 & Aftermath (1984-1999)",
    "category": "Justice",
@@ -2171,6 +2274,16 @@
     {
      "title": "Jaskaran Sandhu: The Problematic Media Coverage Concerning Ripudaman Singh Malik's Death (Baaz)",
      "url": "https://www.baaznews.org/p/ripudaman-singh-malik-death-media"
+    },
+    {
+     "title": "Fighting for Faith and Nation: Dialogues with Sikh Militants",
+     "url": "https://www.pennpress.org/9780812215922/fighting-for-faith-and-nation/",
+     "ref": "mahmood-1996"
+    },
+    {
+     "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
+     "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
+     "ref": "sikhri-special-report-2023"
     }
    ],
    "confidence": "high",
@@ -2215,6 +2328,181 @@
    }
   },
   {
+   "unique_id": "khalistan-declaration-1986",
+   "start_date": {
+    "year": 1986,
+    "month": 4,
+    "day": 29
+   },
+   "display_date": "April 29, 1986",
+   "text": {
+    "headline": "Panthic Committee declares Khalistan at the Golden Temple",
+    "text": "A five-member Panthic Committee convened a press conference at the Golden Temple complex and formally declared the independence of a sovereign Sikh state, Khalistan. The committee asserted that armed struggle had become the only viable route to Sikh self-determination. The declaration followed the 1984 assault on the complex and the pogroms that succeeded it."
+   },
+   "group": "1984 & Aftermath (1984-1999)",
+   "category": "Movements",
+   "media": {
+    "url": "",
+    "caption": "",
+    "credit": ""
+   },
+   "sources": [
+    {
+     "title": "Fighting for Faith and Nation: Dialogues with Sikh Militants",
+     "url": "https://www.pennpress.org/9780812215922/fighting-for-faith-and-nation/",
+     "ref": "mahmood-1996"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Amritsar, Panjab, India",
+    "region": "Punjab/India",
+    "lat": 31.63,
+    "lon": 74.87
+   }
+  },
+  {
+   "unique_id": "kps-gill-first-term-1988",
+   "start_date": {
+    "year": 1988
+   },
+   "display_date": "1988–1990",
+   "text": {
+    "headline": "K.P.S. Gill's first term as Director General of Panjab Police",
+    "text": "K.P.S. Gill served his first term as Panjab's Director General of Police. The SikhRI report identifies this period as one in which human rights violations against Sikhs peaked, under a counter-insurgency doctrine later documented in detail by human rights investigators."
+   },
+   "group": "1984 & Aftermath (1984-1999)",
+   "category": "Human Rights",
+   "media": {
+    "url": "",
+    "caption": "",
+    "credit": ""
+   },
+   "sources": [
+    {
+     "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
+     "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
+     "ref": "sikhri-special-report-2023"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Chandigarh, India",
+    "region": "Punjab/India",
+    "lat": 30.73,
+    "lon": 76.78
+   },
+   "end_date": {
+    "year": 1990
+   }
+  },
+  {
+   "unique_id": "operation-black-thunder-1988",
+   "start_date": {
+    "year": 1988,
+    "month": 5
+   },
+   "display_date": "May 1988",
+   "text": {
+    "headline": "Operation Black Thunder II",
+    "text": "The Indian government mounted a second operation against militants inside the Golden Temple complex, this time relying on sustained sniper fire and a siege rather than a full military assault. The operation ended with the surrender of 192 militants. Mahmood records that it triggered severe in-fighting and a wholesale reorganization among the Khalistani factions."
+   },
+   "group": "1984 & Aftermath (1984-1999)",
+   "category": "Battles",
+   "media": {
+    "url": "",
+    "caption": "",
+    "credit": ""
+   },
+   "sources": [
+    {
+     "title": "Fighting for Faith and Nation: Dialogues with Sikh Militants",
+     "url": "https://www.pennpress.org/9780812215922/fighting-for-faith-and-nation/",
+     "ref": "mahmood-1996"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Amritsar, Panjab, India",
+    "region": "Punjab/India",
+    "lat": 31.63,
+    "lon": 74.87
+   }
+  },
+  {
+   "unique_id": "punjab-elections-1989",
+   "start_date": {
+    "year": 1989,
+    "month": 11
+   },
+   "display_date": "November 1989",
+   "text": {
+    "headline": "Militants and victims' relatives win Panjab's parliamentary seats",
+    "text": "Parliamentary elections returned several militants and relatives of militants from Panjab, a result read as a measure of Sikh alienation after 1984. The detained activist Simranjit Singh Mann was elected, as were the widow and the father of one of Indira Gandhi's assassins. According to the SikhRI report, ten of the thirteen MPs elected from Panjab advocated Sikh self-determination."
+   },
+   "group": "1984 & Aftermath (1984-1999)",
+   "category": "Politics",
+   "media": {
+    "url": "",
+    "caption": "",
+    "credit": ""
+   },
+   "sources": [
+    {
+     "title": "Fighting for Faith and Nation: Dialogues with Sikh Militants",
+     "url": "https://www.pennpress.org/9780812215922/fighting-for-faith-and-nation/",
+     "ref": "mahmood-1996"
+    },
+    {
+     "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
+     "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
+     "ref": "sikhri-special-report-2023"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Panjab, India",
+    "region": "Punjab/India",
+    "lat": 31.15,
+    "lon": 75.34
+   }
+  },
+  {
+   "unique_id": "kps-gill-second-term-1991",
+   "start_date": {
+    "year": 1991
+   },
+   "display_date": "1991–1995",
+   "text": {
+    "headline": "Gill's second term; killing of Kulwant Singh Khukhrana",
+    "text": "K.P.S. Gill returned as Director General of Panjab Police for a second term spanning the most intense years of the counter-insurgency. The SikhRI report records the killing of Kulwant Singh Khukhrana in a police encounter in 1991 among the abuses of this period."
+   },
+   "group": "1984 & Aftermath (1984-1999)",
+   "category": "Human Rights",
+   "media": {
+    "url": "",
+    "caption": "",
+    "credit": ""
+   },
+   "sources": [
+    {
+     "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
+     "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
+     "ref": "sikhri-special-report-2023"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Chandigarh, India",
+    "region": "Punjab/India",
+    "lat": 30.73,
+    "lon": 76.78
+   },
+   "end_date": {
+    "year": 1995
+   }
+  },
+  {
    "unique_id": "punjab-counterinsurgency-1992",
    "start_date": {
     "year": 1992
@@ -2222,7 +2510,7 @@
    "display_date": "1992",
    "text": {
     "headline": "Panjab's 1992 election and the counter-insurgency killings",
-    "text": "Panjab's 1992 state election, held amid a widespread Sikh boycott, brought Beant Singh's Congress government to power. Baaz writers hold that government responsible for a subsequent campaign of extrajudicial killings and enforced disappearances of Sikh youth, later documented by human rights defender Jaswant Singh Khalra."
+    "text": "Panjab's 1992 state election, held amid a widespread Sikh boycott, brought Beant Singh's Congress government to power. Baaz writers hold that government responsible for a subsequent campaign of extrajudicial killings and enforced disappearances of Sikh youth, later documented by human rights defender Jaswant Singh Khalra. Militant groups urged a boycott of the election; turnout fell to roughly 21 percent, which undercut the legitimacy of the government it produced."
    },
    "group": "1984 & Aftermath (1984-1999)",
    "category": "Human Rights",
@@ -2235,6 +2523,16 @@
     {
      "title": "Jagjit Singh: Parkash Badal's Marred Legacy (Baaz)",
      "url": "https://www.baaznews.org/p/parkash-badal-marred-legacy-sikhs"
+    },
+    {
+     "title": "Fighting for Faith and Nation: Dialogues with Sikh Militants",
+     "url": "https://www.pennpress.org/9780812215922/fighting-for-faith-and-nation/",
+     "ref": "mahmood-1996"
+    },
+    {
+     "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
+     "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
+     "ref": "sikhri-special-report-2023"
     }
    ],
    "confidence": "medium",
@@ -2243,6 +2541,135 @@
     "region": "Punjab/India",
     "lat": 30.9,
     "lon": 75.85
+   }
+  },
+  {
+   "unique_id": "badal-un-memorandum-1992",
+   "start_date": {
+    "year": 1992
+   },
+   "display_date": "1992",
+   "text": {
+    "headline": "Parkash Singh Badal petitions the UN Secretary-General",
+    "text": "Parkash Singh Badal handed a memorandum seeking independence for Sikhs to the United Nations Secretary-General during a visit to Delhi. The SikhRI report cites the episode as evidence that sovereignty demands were, at the time, voiced by mainstream Akali leadership rather than only by militant factions."
+   },
+   "group": "1984 & Aftermath (1984-1999)",
+   "category": "Politics",
+   "media": {
+    "url": "",
+    "caption": "",
+    "credit": ""
+   },
+   "sources": [
+    {
+     "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
+     "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
+     "ref": "sikhri-special-report-2023"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "New Delhi, India",
+    "region": "Punjab/India",
+    "lat": 28.61,
+    "lon": 77.21
+   }
+  },
+  {
+   "unique_id": "amritsar-declaration-1994",
+   "start_date": {
+    "year": 1994
+   },
+   "display_date": "1994",
+   "text": {
+    "headline": "The Amritsar Declaration on Sikh sovereignty",
+    "text": "Amarinder Singh and nearly all leading Sikh political figures signed the Amritsar Declaration in support of Sikh sovereignty. The SikhRI report presents the declaration as a further instance of sovereignty claims being advanced through constitutional and political channels."
+   },
+   "group": "1984 & Aftermath (1984-1999)",
+   "category": "Politics",
+   "media": {
+    "url": "",
+    "caption": "",
+    "credit": ""
+   },
+   "sources": [
+    {
+     "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
+     "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
+     "ref": "sikhri-special-report-2023"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Amritsar, Panjab, India",
+    "region": "Punjab/India",
+    "lat": 31.63,
+    "lon": 74.87
+   }
+  },
+  {
+   "unique_id": "supreme-court-khalistan-slogans-1995",
+   "start_date": {
+    "year": 1995
+   },
+   "display_date": "1995",
+   "text": {
+    "headline": "Supreme Court rules pro-Khalistan slogans are not sedition",
+    "text": "As the militancy phase of the Khalistan movement drew to a close, the Supreme Court of India ruled that raising slogans in favour of Khalistan does not by itself amount to sedition. The SikhRI report notes that later prosecutions and official reports have proceeded as though this ruling did not exist."
+   },
+   "group": "1984 & Aftermath (1984-1999)",
+   "category": "Justice",
+   "media": {
+    "url": "",
+    "caption": "",
+    "credit": ""
+   },
+   "sources": [
+    {
+     "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
+     "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
+     "ref": "sikhri-special-report-2023"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "New Delhi, India",
+    "region": "Punjab/India",
+    "lat": 28.61,
+    "lon": 77.21
+   }
+  },
+  {
+   "unique_id": "khalra-last-speech-1995",
+   "start_date": {
+    "year": 1995,
+    "month": 4
+   },
+   "display_date": "April 1995",
+   "text": {
+    "headline": "Jaswant Singh Khalra's final address in Canada",
+    "text": "Human rights defender Jaswant Singh Khalra delivered his last public speech during a visit to Canada, months before his abduction. He had devoted himself to documenting thousands of disappearances, unlawful killings, and secret cremations carried out by Panjab Police."
+   },
+   "group": "1984 & Aftermath (1984-1999)",
+   "category": "Human Rights",
+   "media": {
+    "url": "",
+    "caption": "",
+    "credit": ""
+   },
+   "sources": [
+    {
+     "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
+     "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
+     "ref": "sikhri-special-report-2023"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Toronto, Ontario, Canada",
+    "region": "Canada",
+    "lat": 43.65,
+    "lon": -79.38
    }
   },
   {
@@ -2268,6 +2695,16 @@
     {
      "title": "Sandeep Singh: Who Are Some Of The Faces Behind The Kaumi Insaaf Morcha? (Baaz)",
      "url": "https://www.baaznews.org/p/kaumi-insaaf-morcha-faces"
+    },
+    {
+     "title": "Fighting for Faith and Nation: Dialogues with Sikh Militants",
+     "url": "https://www.pennpress.org/9780812215922/fighting-for-faith-and-nation/",
+     "ref": "mahmood-1996"
+    },
+    {
+     "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
+     "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
+     "ref": "sikhri-special-report-2023"
     }
    ],
    "confidence": "medium",
@@ -2301,6 +2738,11 @@
     {
      "title": "Shamsher Singh: Can Diljit Dosanjh Portray Shaheed Bhai Jaswant Singh Khalra? (Baaz)",
      "url": "https://www.baaznews.org/p/diljit-dosanjh-khalra-movie"
+    },
+    {
+     "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
+     "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
+     "ref": "sikhri-special-report-2023"
     }
    ],
    "confidence": "high",
@@ -2309,6 +2751,38 @@
     "region": "Punjab/India",
     "lat": 31.63,
     "lon": 74.87
+   }
+  },
+  {
+   "unique_id": "cbi-khalra-prosecution-1996",
+   "start_date": {
+    "year": 1996
+   },
+   "display_date": "1996",
+   "text": {
+    "headline": "CBI recommends prosecuting nine officers over Khalra's killing",
+    "text": "The Central Bureau of Investigation found evidence that Jaswant Singh Khalra had been held at a Tarn Taran police station and recommended the prosecution of nine Panjab police officials. According to the SikhRI report, the accused were not actually charged for another ten years."
+   },
+   "group": "1984 & Aftermath (1984-1999)",
+   "category": "Justice",
+   "media": {
+    "url": "",
+    "caption": "",
+    "credit": ""
+   },
+   "sources": [
+    {
+     "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
+     "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
+     "ref": "sikhri-special-report-2023"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Tarn Taran, Panjab, India",
+    "region": "Punjab/India",
+    "lat": 31.45,
+    "lon": 74.93
    }
   },
   {
@@ -2343,6 +2817,70 @@
    }
   },
   {
+   "unique_id": "air-india-acquittals-2005",
+   "start_date": {
+    "year": 2005
+   },
+   "display_date": "2005",
+   "text": {
+    "headline": "Acquittals in the Air India Flight 182 prosecution",
+    "text": "The accused in the 1985 Air India bombing were acquitted, the court citing factual errors and credibility problems with key witnesses. The collapse of the prosecution left the largest mass murder in Canadian history without a conviction for the bombing itself."
+   },
+   "group": "Contemporary & Diaspora (2000-2026)",
+   "category": "Justice",
+   "media": {
+    "url": "",
+    "caption": "",
+    "credit": ""
+   },
+   "sources": [
+    {
+     "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
+     "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
+     "ref": "sikhri-special-report-2023"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Surrey, British Columbia, Canada",
+    "region": "Canada",
+    "lat": 49.19,
+    "lon": -122.85
+   }
+  },
+  {
+   "unique_id": "nest-of-spies-2009",
+   "start_date": {
+    "year": 2009
+   },
+   "display_date": "2009",
+   "text": {
+    "headline": "Nest of Spies published on foreign infiltration in Canada",
+    "text": "Former Canadian intelligence operative Michel Juneau-Katsuya published Nest of Spies, describing foreign agents operating inside Canadian communities. He had earlier noted evidence of undercover agents from India's embassy infiltrating Canada's Sikh community around the time of the 1985 Air India bombing."
+   },
+   "group": "Contemporary & Diaspora (2000-2026)",
+   "category": "Transnational Repression",
+   "media": {
+    "url": "",
+    "caption": "",
+    "credit": ""
+   },
+   "sources": [
+    {
+     "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
+     "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
+     "ref": "sikhri-special-report-2023"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Ottawa, Ontario, Canada",
+    "region": "Canada",
+    "lat": 45.42,
+    "lon": -75.7
+   }
+  },
+  {
    "unique_id": "oak-creek-massacre-2012",
    "start_date": {
     "year": 2012,
@@ -2373,6 +2911,38 @@
     "region": "USA",
     "lat": 42.89,
     "lon": -87.9
+   }
+  },
+  {
+   "unique_id": "germany-espionage-2014",
+   "start_date": {
+    "year": 2014
+   },
+   "display_date": "2014",
+   "text": {
+    "headline": "German court jails an agent for spying on Sikhs",
+    "text": "A German court sentenced a man identified as Ranjit S. to nine months in jail for collecting information on the Sikh community and reporting it to the Consulate General of India in Frankfurt. It is among the earliest European convictions cited in the SikhRI report as documented transnational repression."
+   },
+   "group": "Contemporary & Diaspora (2000-2026)",
+   "category": "Transnational Repression",
+   "media": {
+    "url": "",
+    "caption": "",
+    "credit": ""
+   },
+   "sources": [
+    {
+     "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
+     "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
+     "ref": "sikhri-special-report-2023"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Frankfurt, Germany",
+    "region": "Other/Global",
+    "lat": 50.11,
+    "lon": 8.68
    }
   },
   {
@@ -2441,6 +3011,70 @@
    }
   },
   {
+   "unique_id": "germany-raw-agents-2019",
+   "start_date": {
+    "year": 2019
+   },
+   "display_date": "2019",
+   "text": {
+    "headline": "Two sentenced in Germany for spying on Sikhs for RAW",
+    "text": "Manmohan S. and Kanwal Jit K. were sentenced to prison in Germany for acting as foreign intelligence agents, having been recruited by India's Research and Analysis Wing to spy on Sikh and Kashmiri opposition figures."
+   },
+   "group": "Contemporary & Diaspora (2000-2026)",
+   "category": "Transnational Repression",
+   "media": {
+    "url": "",
+    "caption": "",
+    "credit": ""
+   },
+   "sources": [
+    {
+     "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
+     "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
+     "ref": "sikhri-special-report-2023"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Berlin, Germany",
+    "region": "Other/Global",
+    "lat": 52.52,
+    "lon": 13.4
+   }
+  },
+  {
+   "unique_id": "panjab-literature-arrests-2019",
+   "start_date": {
+    "year": 2019
+   },
+   "display_date": "2019",
+   "text": {
+    "headline": "Life sentences for possessing Khalistan literature",
+    "text": "Three young men in Indian Panjab were given life imprisonment for keeping freely available Khalistan literature. The SikhRI report cites the case against the Supreme Court's 1995 finding that pro-Khalistan expression is not itself seditious."
+   },
+   "group": "Contemporary & Diaspora (2000-2026)",
+   "category": "Human Rights",
+   "media": {
+    "url": "",
+    "caption": "",
+    "credit": ""
+   },
+   "sources": [
+    {
+     "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
+     "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
+     "ref": "sikhri-special-report-2023"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Panjab, India",
+    "region": "Punjab/India",
+    "lat": 31.15,
+    "lon": 75.34
+   }
+  },
+  {
    "unique_id": "kartarpur-corridor-2019",
    "start_date": {
     "year": 2019,
@@ -2472,6 +3106,103 @@
     "region": "Pakistan",
     "lat": 32.03,
     "lon": 75.02
+   }
+  },
+  {
+   "unique_id": "germany-balvir-trial-2020",
+   "start_date": {
+    "year": 2020
+   },
+   "display_date": "2020",
+   "text": {
+    "headline": "Balvir S. tried in Germany over RAW surveillance of Sikhs",
+    "text": "Balvir S. went on trial in Germany accused of working with India's Research and Analysis Wing to obtain information about Sikh opposition figures, continuing a pattern of German prosecutions documented in the SikhRI report."
+   },
+   "group": "Contemporary & Diaspora (2000-2026)",
+   "category": "Transnational Repression",
+   "media": {
+    "url": "",
+    "caption": "",
+    "credit": ""
+   },
+   "sources": [
+    {
+     "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
+     "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
+     "ref": "sikhri-special-report-2023"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Frankfurt, Germany",
+    "region": "Other/Global",
+    "lat": 50.11,
+    "lon": 8.68
+   }
+  },
+  {
+   "unique_id": "dgp-saini-fugitive-2020",
+   "start_date": {
+    "year": 2020
+   },
+   "display_date": "2020",
+   "text": {
+    "headline": "Panjab's former police chief evades arrest",
+    "text": "For several weeks, Indian Panjab's former Director General of Police S.S. Saini evaded arrest in cases concerning fake encounters and enforced disappearances. The SikhRI report presents the episode as an illustration of delayed accountability for counter-insurgency-era abuses."
+   },
+   "group": "Contemporary & Diaspora (2000-2026)",
+   "category": "Justice",
+   "media": {
+    "url": "",
+    "caption": "",
+    "credit": ""
+   },
+   "sources": [
+    {
+     "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
+     "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
+     "ref": "sikhri-special-report-2023"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Chandigarh, India",
+    "region": "Punjab/India",
+    "lat": 30.73,
+    "lon": 76.78
+   }
+  },
+  {
+   "unique_id": "wso-social-media-report-2020",
+   "start_date": {
+    "year": 2020,
+    "month": 7
+   },
+   "display_date": "July 2020",
+   "text": {
+    "headline": "WSO report on the targeting of Sikhs via social media",
+    "text": "The World Sikh Organization of Canada released a report documenting how Indian authorities target and persecute Sikhs using social media, the first of two studies it published on the subject."
+   },
+   "group": "Contemporary & Diaspora (2000-2026)",
+   "category": "Transnational Repression",
+   "media": {
+    "url": "",
+    "caption": "",
+    "credit": ""
+   },
+   "sources": [
+    {
+     "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
+     "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
+     "ref": "sikhri-special-report-2023"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Ottawa, Ontario, Canada",
+    "region": "Canada",
+    "lat": 45.42,
+    "lon": -75.7
    }
   },
   {
@@ -2540,6 +3271,39 @@
     "region": "Punjab/India",
     "lat": 28.656,
     "lon": 77.241
+   }
+  },
+  {
+   "unique_id": "wso-disinformation-report-2021",
+   "start_date": {
+    "year": 2021,
+    "month": 2
+   },
+   "display_date": "February 2021",
+   "text": {
+    "headline": "WSO report on disinformation targeting Canadian Sikhs",
+    "text": "The World Sikh Organization released a second report examining India's use of disinformation to target Canadians and to marginalize Sikhs through narratives of extremism."
+   },
+   "group": "Contemporary & Diaspora (2000-2026)",
+   "category": "Transnational Repression",
+   "media": {
+    "url": "",
+    "caption": "",
+    "credit": ""
+   },
+   "sources": [
+    {
+     "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
+     "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
+     "ref": "sikhri-special-report-2023"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Ottawa, Ontario, Canada",
+    "region": "Canada",
+    "lat": 45.42,
+    "lon": -75.7
    }
   },
   {
@@ -2794,7 +3558,7 @@
    "display_date": "September 29, 2022",
    "text": {
     "headline": "Amritpal Singh named head of Waris Punjab De",
-    "text": "Following Deep Sidhu's death, Amritpal Singh Sandhu was formally appointed leader of Waris Punjab De in a ceremony at Rode village in September 2022. Adopting the style of Sant Jarnail Singh Bhindranwale, he led a rapid Amrit Sanchar and anti-drug revival campaign that drew both large followings and government alarm."
+    "text": "Following Deep Sidhu's death, Amritpal Singh Sandhu was formally appointed leader of Waris Punjab De in a ceremony at Rode village in September 2022. Adopting the style of Sant Jarnail Singh Bhindranwale, he led a rapid Amrit Sanchar and anti-drug revival campaign that drew both large followings and government alarm. The SikhRI report notes that UK Sikh activist Avtar Singh Khanda played a role in his rise."
    },
    "group": "Contemporary & Diaspora (2000-2026)",
    "category": "Politics",
@@ -2807,6 +3571,11 @@
     {
      "title": "Sandeep Singh: In Conversation with WPD's new leader, Amritpal Singh Sandhu (Baaz)",
      "url": "https://www.baaznews.org/p/amritpal-deep-sidhu-wpd"
+    },
+    {
+     "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
+     "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
+     "ref": "sikhri-special-report-2023"
     }
    ],
    "confidence": "medium",
@@ -2981,6 +3750,105 @@
    }
   },
   {
+   "unique_id": "orf-khalistan-report-2023",
+   "start_date": {
+    "year": 2023,
+    "month": 6
+   },
+   "display_date": "June 2023",
+   "text": {
+    "headline": "Indian think tank publishes report on diaspora Khalistan activity",
+    "text": "India's Observer Research Foundation published a report on Khalistan activity in the diaspora. The SikhRI report characterizes it as heavily speculative and as disregarding the Supreme Court's 1995 ruling that pro-Khalistan expression is not sedition."
+   },
+   "group": "Contemporary & Diaspora (2000-2026)",
+   "category": "Politics",
+   "media": {
+    "url": "",
+    "caption": "",
+    "credit": ""
+   },
+   "sources": [
+    {
+     "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
+     "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
+     "ref": "sikhri-special-report-2023"
+    }
+   ],
+   "confidence": "medium",
+   "location": {
+    "place": "New Delhi, India",
+    "region": "Punjab/India",
+    "lat": 28.61,
+    "lon": 77.21
+   }
+  },
+  {
+   "unique_id": "uapa-sikhs-charged-2023",
+   "start_date": {
+    "year": 2023,
+    "month": 6
+   },
+   "display_date": "June 2023",
+   "text": {
+    "headline": "Two Sikhs charged under the UAPA over online videos",
+    "text": "A driver and a labourer were accused under India's Unlawful Activities Prevention Act of attempting to revive the Khalistan movement by posting videos, an application of anti-terror law the SikhRI report cites as disproportionate."
+   },
+   "group": "Contemporary & Diaspora (2000-2026)",
+   "category": "Human Rights",
+   "media": {
+    "url": "",
+    "caption": "",
+    "credit": ""
+   },
+   "sources": [
+    {
+     "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
+     "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
+     "ref": "sikhri-special-report-2023"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Panjab, India",
+    "region": "Punjab/India",
+    "lat": 31.15,
+    "lon": 75.34
+   }
+  },
+  {
+   "unique_id": "raw-chief-goel-retires-2023",
+   "start_date": {
+    "year": 2023,
+    "month": 6
+   },
+   "display_date": "June 2023",
+   "text": {
+    "headline": "RAW chief Samant Kumar Goel retires amid international scrutiny",
+    "text": "Samant Kumar Goel retired as head of India's Research and Analysis Wing as the agency faced mounting criticism across the Global North over alleged operations targeting Sikhs abroad."
+   },
+   "group": "Contemporary & Diaspora (2000-2026)",
+   "category": "Transnational Repression",
+   "media": {
+    "url": "",
+    "caption": "",
+    "credit": ""
+   },
+   "sources": [
+    {
+     "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
+     "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
+     "ref": "sikhri-special-report-2023"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "New Delhi, India",
+    "region": "Punjab/India",
+    "lat": 28.61,
+    "lon": 77.21
+   }
+  },
+  {
    "unique_id": "khanda-death-2023",
    "start_date": {
     "year": 2023,
@@ -3003,6 +3871,11 @@
     {
      "title": "Unravelling The Enigma Of Bhai Avtar Singh Khanda's Death (Baaz)",
      "url": "https://www.baaznews.org/p/avtar-singh-khanda-death-report"
+    },
+    {
+     "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
+     "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
+     "ref": "sikhri-special-report-2023"
     }
    ],
    "confidence": "medium",
@@ -3038,6 +3911,11 @@
     {
      "title": "US Indictment Also Exposes Indian Assassination Program in Canada (Baaz)",
      "url": "https://www.baaznews.org/p/us-indictment-exposes-indian-assassination-program-canada"
+    },
+    {
+     "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
+     "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
+     "ref": "sikhri-special-report-2023"
     }
    ],
    "confidence": "high",
@@ -3082,6 +3960,237 @@
    }
   },
   {
+   "unique_id": "khalistan-referendum-toronto-2023",
+   "start_date": {
+    "year": 2023,
+    "month": 7
+   },
+   "display_date": "July 2023",
+   "text": {
+    "headline": "42,000 vote in the Toronto Khalistan Referendum",
+    "text": "Some 42,000 Sikhs cast ballots in a non-binding Khalistan Referendum held in Toronto, Ontario, one of a series of diaspora votes organized by Sikhs for Justice."
+   },
+   "group": "Contemporary & Diaspora (2000-2026)",
+   "category": "Politics",
+   "media": {
+    "url": "",
+    "caption": "",
+    "credit": ""
+   },
+   "sources": [
+    {
+     "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
+     "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
+     "ref": "sikhri-special-report-2023"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Toronto, Ontario, Canada",
+    "region": "Canada",
+    "lat": 43.65,
+    "lon": -79.38
+   }
+  },
+  {
+   "unique_id": "us-politician-warning-2023",
+   "start_date": {
+    "year": 2023,
+    "month": 7
+   },
+   "display_date": "July 2023",
+   "text": {
+    "headline": "US politician warns India against targeting Sikh Americans",
+    "text": "Former US Representative Trent Franks publicly warned the Indian government against targeting Sikh Americans, an early instance of US political figures raising transnational repression before the Pannun plot became public."
+   },
+   "group": "Contemporary & Diaspora (2000-2026)",
+   "category": "Transnational Repression",
+   "media": {
+    "url": "",
+    "caption": "",
+    "credit": ""
+   },
+   "sources": [
+    {
+     "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
+     "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
+     "ref": "sikhri-special-report-2023"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Washington, D.C., United States",
+    "region": "USA",
+    "lat": 38.9,
+    "lon": -77.04
+   }
+  },
+  {
+   "unique_id": "nia-raids-uk-sikh-families-2023",
+   "start_date": {
+    "year": 2023,
+    "month": 8
+   },
+   "display_date": "August 2023",
+   "text": {
+    "headline": "NIA raids the Indian family homes of UK Sikh leaders",
+    "text": "India's National Investigation Agency raided the family homes of two prominent UK-based Sikh Federation leaders, interrogating relatives for hours. The SikhRI report presents such raids as pressure applied to diaspora activists through relatives still in India."
+   },
+   "group": "Contemporary & Diaspora (2000-2026)",
+   "category": "Transnational Repression",
+   "media": {
+    "url": "",
+    "caption": "",
+    "credit": ""
+   },
+   "sources": [
+    {
+     "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
+     "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
+     "ref": "sikhri-special-report-2023"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Panjab, India",
+    "region": "Punjab/India",
+    "lat": 31.15,
+    "lon": 75.34
+   }
+  },
+  {
+   "unique_id": "dhesi-detained-amritsar-2023",
+   "start_date": {
+    "year": 2023,
+    "month": 8
+   },
+   "display_date": "August 2023",
+   "text": {
+    "headline": "UK MP Tanmanjeet Singh Dhesi held at Amritsar airport",
+    "text": "Tanmanjeet Singh Dhesi, a Sikh member of the UK Parliament, was held for more than two hours by Indian immigration authorities at Amritsar airport. The SikhRI report reads the incident as an attempt to intimidate foreign elected representatives."
+   },
+   "group": "Contemporary & Diaspora (2000-2026)",
+   "category": "Transnational Repression",
+   "media": {
+    "url": "",
+    "caption": "",
+    "credit": ""
+   },
+   "sources": [
+    {
+     "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
+     "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
+     "ref": "sikhri-special-report-2023"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Amritsar, Panjab, India",
+    "region": "Punjab/India",
+    "lat": 31.63,
+    "lon": 74.87
+   }
+  },
+  {
+   "unique_id": "g20-biden-modi-2023",
+   "start_date": {
+    "year": 2023,
+    "month": 9
+   },
+   "display_date": "September 2023",
+   "text": {
+    "headline": "Biden raises human rights with Modi at the G20",
+    "text": "After the G20 summit in New Delhi, US President Joe Biden said he had raised the issue of human rights and civil society with Indian Prime Minister Narendra Modi, days before Canada's public allegations over the Nijjar killing."
+   },
+   "group": "Contemporary & Diaspora (2000-2026)",
+   "category": "Politics",
+   "media": {
+    "url": "",
+    "caption": "",
+    "credit": ""
+   },
+   "sources": [
+    {
+     "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
+     "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
+     "ref": "sikhri-special-report-2023"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "New Delhi, India",
+    "region": "Punjab/India",
+    "lat": 28.61,
+    "lon": 77.21
+   }
+  },
+  {
+   "unique_id": "khalistan-referendum-surrey-2023",
+   "start_date": {
+    "year": 2023,
+    "month": 9
+   },
+   "display_date": "September 2023",
+   "text": {
+    "headline": "More than 130,000 vote in the Surrey Khalistan Referendum",
+    "text": "Over 130,000 ballots were cast in a Khalistan Referendum held in Surrey, British Columbia, months after Hardeep Singh Nijjar was killed outside the city's Guru Nanak Sikh Gurdwara."
+   },
+   "group": "Contemporary & Diaspora (2000-2026)",
+   "category": "Politics",
+   "media": {
+    "url": "",
+    "caption": "",
+    "credit": ""
+   },
+   "sources": [
+    {
+     "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
+     "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
+     "ref": "sikhri-special-report-2023"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Surrey, British Columbia, Canada",
+    "region": "Canada",
+    "lat": 49.19,
+    "lon": -122.85
+   }
+  },
+  {
+   "unique_id": "khanda-inquest-call-2023",
+   "start_date": {
+    "year": 2023,
+    "month": 9
+   },
+   "display_date": "September 2023",
+   "text": {
+    "headline": "Barrister urges a formal inquest into Avtar Singh Khanda's death",
+    "text": "UK barrister Michael Polak urged the chief coroner for England and Wales to direct a formal inquest into the death of the Sikh activist Avtar Singh Khanda in Birmingham, which his family and Sikh organizations consider suspicious."
+   },
+   "group": "Contemporary & Diaspora (2000-2026)",
+   "category": "Justice",
+   "media": {
+    "url": "",
+    "caption": "",
+    "credit": ""
+   },
+   "sources": [
+    {
+     "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
+     "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
+     "ref": "sikhri-special-report-2023"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Birmingham, United Kingdom",
+    "region": "UK",
+    "lat": 52.48,
+    "lon": -1.9
+   }
+  },
+  {
    "unique_id": "trudeau-parliament-nijjar-2023",
    "start_date": {
     "year": 2023,
@@ -3106,6 +4215,11 @@
     {
      "title": "How Indian Agents Are Operating Out Of Indian Consulates To Target Sikhs In The West (Baaz)",
      "url": "https://www.baaznews.org/p/indian-consulates-indian-intelligence-nexus"
+    },
+    {
+     "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
+     "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
+     "ref": "sikhri-special-report-2023"
     }
    ],
    "confidence": "high",
@@ -3114,6 +4228,175 @@
     "region": "Canada",
     "lat": 45.42,
     "lon": -75.7
+   }
+  },
+  {
+   "unique_id": "nijjar-murder-footage-2023",
+   "start_date": {
+    "year": 2023,
+    "month": 9,
+    "day": 28
+   },
+   "display_date": "September 28, 2023",
+   "text": {
+    "headline": "Security footage shows Nijjar's killing was a coordinated attack",
+    "text": "The Washington Post obtained security camera footage of Hardeep Singh Nijjar's murder, which showed a coordinated attack involving at least six men and two vehicles. The footage undercut early characterizations of the killing as an isolated act."
+   },
+   "group": "Contemporary & Diaspora (2000-2026)",
+   "category": "Transnational Repression",
+   "media": {
+    "url": "",
+    "caption": "",
+    "credit": ""
+   },
+   "sources": [
+    {
+     "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
+     "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
+     "ref": "sikhri-special-report-2023"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Surrey, British Columbia, Canada",
+    "region": "Canada",
+    "lat": 49.19,
+    "lon": -122.85
+   }
+  },
+  {
+   "unique_id": "kamaljit-ram-irb-2023",
+   "start_date": {
+    "year": 2023,
+    "month": 10
+   },
+   "display_date": "October 2023",
+   "text": {
+    "headline": "Canadian tribunal rejects inadmissibility finding against Kamaljit Ram",
+    "text": "Canada's Immigration and Refugee Board ruled that the government lacked reasonable grounds to declare the Indian citizen Kamaljit Ram inadmissible, despite his past support for militants in the 1980s."
+   },
+   "group": "Contemporary & Diaspora (2000-2026)",
+   "category": "Justice",
+   "media": {
+    "url": "",
+    "caption": "",
+    "credit": ""
+   },
+   "sources": [
+    {
+     "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
+     "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
+     "ref": "sikhri-special-report-2023"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Ottawa, Ontario, Canada",
+    "region": "Canada",
+    "lat": 45.42,
+    "lon": -75.7
+   }
+  },
+  {
+   "unique_id": "india-demands-diplomat-withdrawal-2023",
+   "start_date": {
+    "year": 2023,
+    "month": 10,
+    "day": 3
+   },
+   "display_date": "October 3, 2023",
+   "text": {
+    "headline": "India orders Canada to withdraw 41 diplomats",
+    "text": "India demanded that Canada withdraw 41 diplomats from the country as relations deteriorated following Prime Minister Trudeau's statement in the House of Commons about the Nijjar killing."
+   },
+   "group": "Contemporary & Diaspora (2000-2026)",
+   "category": "Politics",
+   "media": {
+    "url": "",
+    "caption": "",
+    "credit": ""
+   },
+   "sources": [
+    {
+     "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
+     "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
+     "ref": "sikhri-special-report-2023"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "New Delhi, India",
+    "region": "Punjab/India",
+    "lat": 28.61,
+    "lon": 77.21
+   }
+  },
+  {
+   "unique_id": "diplomat-deadline-visa-delays-2023",
+   "start_date": {
+    "year": 2023,
+    "month": 10,
+    "day": 20
+   },
+   "display_date": "October 20, 2023",
+   "text": {
+    "headline": "Canada pulls diplomats; Panjabi student visas stall",
+    "text": "Canada withdrew its diplomats by India's deadline. Visa centres were handed to the contractor VFS while Immigration, Refugees and Citizenship Canada sharply reduced staff, delaying visas for hundreds of thousands of Panjabi students."
+   },
+   "group": "Contemporary & Diaspora (2000-2026)",
+   "category": "Politics",
+   "media": {
+    "url": "",
+    "caption": "",
+    "credit": ""
+   },
+   "sources": [
+    {
+     "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
+     "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
+     "ref": "sikhri-special-report-2023"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Ottawa, Ontario, Canada",
+    "region": "Canada",
+    "lat": 45.42,
+    "lon": -75.7
+   }
+  },
+  {
+   "unique_id": "india-accuses-canadian-visas-2023",
+   "start_date": {
+    "year": 2023,
+    "month": 10,
+    "day": 25
+   },
+   "display_date": "October 25, 2023",
+   "text": {
+    "headline": "India accuses Canadian diplomats of visa misuse",
+    "text": "The Indian government accused Canadian diplomats of misusing their powers to issue visas to Khalistan supporters, part of an escalating exchange of allegations between the two governments."
+   },
+   "group": "Contemporary & Diaspora (2000-2026)",
+   "category": "Politics",
+   "media": {
+    "url": "",
+    "caption": "",
+    "credit": ""
+   },
+   "sources": [
+    {
+     "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
+     "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
+     "ref": "sikhri-special-report-2023"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "New Delhi, India",
+    "region": "Punjab/India",
+    "lat": 28.61,
+    "lon": 77.21
    }
   },
   {
@@ -3139,6 +4422,11 @@
     {
      "title": "US Dept of Justice Charges Indian National For Assassination Attempt on Pannun (Baaz)",
      "url": "https://www.baaznews.org/p/us-doj-charges-indian-national-pannun-assassination"
+    },
+    {
+     "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
+     "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
+     "ref": "sikhri-special-report-2023"
     }
    ],
    "confidence": "high",
@@ -3147,6 +4435,141 @@
     "region": "USA",
     "lat": 40.71,
     "lon": -74.01
+   }
+  },
+  {
+   "unique_id": "australia-parliament-sikh-safety-2023",
+   "start_date": {
+    "year": 2023,
+    "month": 12,
+    "day": 5
+   },
+   "display_date": "December 5, 2023",
+   "text": {
+    "headline": "Australian senator demands assurances on Sikh safety",
+    "text": "Australian parliamentarian David Shoebridge called on his government to give a clear and direct assurance regarding the safety of Sikhs in Australia, following the foiled assassination plot in the United States."
+   },
+   "group": "Contemporary & Diaspora (2000-2026)",
+   "category": "Transnational Repression",
+   "media": {
+    "url": "",
+    "caption": "",
+    "credit": ""
+   },
+   "sources": [
+    {
+     "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
+     "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
+     "ref": "sikhri-special-report-2023"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Canberra, Australia",
+    "region": "Australia",
+    "lat": -35.28,
+    "lon": 149.13
+   }
+  },
+  {
+   "unique_id": "cardin-statement-2023",
+   "start_date": {
+    "year": 2023,
+    "month": 12,
+    "day": 6
+   },
+   "display_date": "December 6, 2023",
+   "text": {
+    "headline": "Senator Cardin calls the Pannun plot an act of transnational repression",
+    "text": "US Senator Ben Cardin publicly described the attempted assassination of Gurpatwant Singh Pannun as disturbing and cited it as an example of rising transnational repression."
+   },
+   "group": "Contemporary & Diaspora (2000-2026)",
+   "category": "Transnational Repression",
+   "media": {
+    "url": "",
+    "caption": "",
+    "credit": ""
+   },
+   "sources": [
+    {
+     "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
+     "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
+     "ref": "sikhri-special-report-2023"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Washington, D.C., United States",
+    "region": "USA",
+    "lat": 38.9,
+    "lon": -77.04
+   }
+  },
+  {
+   "unique_id": "sikhri-special-report-2023",
+   "start_date": {
+    "year": 2023,
+    "month": 12,
+    "day": 11
+   },
+   "display_date": "December 11, 2023",
+   "text": {
+    "headline": "SikhRI publishes 'Locating the Current Crisis'",
+    "text": "Jasleen Kaur and Jasmeet Kaur published Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis through the Sikh Research Institute. The special report traces the current crisis through post-1947 grievances, the events of 1984, unresolved human rights violations, and the transnational repression of the diaspora. It is one of the two works whose findings are woven through this timeline."
+   },
+   "group": "Contemporary & Diaspora (2000-2026)",
+   "category": "Commemoration",
+   "media": {
+    "url": "",
+    "caption": "",
+    "credit": ""
+   },
+   "sources": [
+    {
+     "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
+     "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
+     "ref": "sikhri-special-report-2023"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Toronto, Ontario, Canada",
+    "region": "Canada",
+    "lat": 43.65,
+    "lon": -79.38
+   }
+  },
+  {
+   "unique_id": "california-referendum-2024",
+   "start_date": {
+    "year": 2024,
+    "month": 1
+   },
+   "display_date": "January 2024",
+   "text": {
+    "headline": "Khalistan Referendum voting opens in California",
+    "text": "Sikhs in California were scheduled to vote in the next round of the non-binding Khalistan Referendum, continuing the series of diaspora ballots held in Canada, the UK, and Australia."
+   },
+   "group": "Contemporary & Diaspora (2000-2026)",
+   "category": "Politics",
+   "media": {
+    "url": "",
+    "caption": "",
+    "credit": ""
+   },
+   "sources": [
+    {
+     "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
+     "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
+     "ref": "sikhri-special-report-2023"
+    }
+   ],
+   "confidence": "medium",
+   "location": {
+    "place": "California, United States",
+    "region": "USA",
+    "lat": 36.78,
+    "lon": -119.42
    }
   },
   {
@@ -4760,5 +6183,30 @@
     }
    ]
   }
- ]
+ ],
+ "references": {
+  "mahmood-1996": {
+   "type": "Book",
+   "title": "Fighting for Faith and Nation: Dialogues with Sikh Militants",
+   "author": "Cynthia Keppley Mahmood",
+   "publisher": "University of Pennsylvania Press",
+   "year": "1996",
+   "detail": "Contemporary Ethnography series · 328 pages · ISBN 978-0-8122-1592-2",
+   "note": "An anthropologist's ethnography built on first-hand interviews with Sikh militants, recording their accounts of human rights abuses in India alongside the Sikh philosophical tradition of martyrdom.",
+   "url": "https://www.pennpress.org/9780812215922/fighting-for-faith-and-nation/",
+   "cover": "assets/img/mahmood-fighting-for-faith-and-nation.jpg",
+   "cover_fallback": "https://m.media-amazon.com/images/I/61iTxGqcy2L._SL1350_.jpg"
+  },
+  "sikhri-special-report-2023": {
+   "type": "Special Report",
+   "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
+   "author": "Jasleen Kaur & Jasmeet Kaur",
+   "publisher": "Sikh Research Institute (SikhRI)",
+   "year": "2023",
+   "detail": "A Special Report on Historical Context, 1984–2023 · published 11 December 2023",
+   "note": "Traces the roots of the present crisis through post-1947 grievances, the 1984 Sikh Genocide, unresolved human rights violations, and the transnational repression of the diaspora.",
+   "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
+   "pdf": "https://cdn.prod.website-files.com/5e29591964852b5d27d96ea4/65778c73531f144b5a1bfdf6_A%20Special%20Report%20on%20Historical%20Context%201984-2023.pdf"
+  }
+ }
 }

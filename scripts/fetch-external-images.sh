@@ -19,5 +19,9 @@ echo "-> Jagtar Singh Johal"
 curl -fSL --retry 3 -o "assets/img/jagtar-singh-johal.jpg" \
   'https://substackcdn.com/image/fetch/$s_!tv-g!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3ed1da79-deef-4ff3-b70e-8b4722bd577c_634x356.jpeg'
 
+echo "-> Mahmood, Fighting for Faith and Nation (book cover)"
+curl -fSL --retry 3 -o "assets/img/mahmood-fighting-for-faith-and-nation.jpg" \
+  'https://m.media-amazon.com/images/I/61iTxGqcy2L._SL1350_.jpg'
+
 echo
 echo "Done. Now commit the files in assets/img/."

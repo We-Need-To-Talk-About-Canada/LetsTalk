@@ -18,3 +18,4 @@ URL for each image, so the page still renders correctly — just more slowly.
 | `parmjit-singh-panjwar.jpg` | Parmjit Singh Panjwar |
 | `gurdip-singh-chaggar.jpg`  | Gurdip Singh Chaggar |
 | `jagtar-singh-johal.jpg`    | Jagtar Singh Johal |
+| `mahmood-fighting-for-faith-and-nation.jpg` | Book cover — Mahmood, *Fighting for Faith and Nation* (shown in the cited-work hover card) |

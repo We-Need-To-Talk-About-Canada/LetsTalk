@@ -227,6 +227,61 @@
     return img;
   }
 
+  // ---------- cited-work hover card ----------
+  const references = DATA.references || {};
+  const refCard = document.createElement('div');
+  refCard.className = 'refcard';
+  document.body.appendChild(refCard);
+  let refHideTimer = null;
+
+  function showRefCard(anchor, refId){
+    const r = references[refId];
+    if (!r) return;
+    clearTimeout(refHideTimer);
+    const meta = [r.publisher, r.year].filter(Boolean).join(' · ');
+    refCard.classList.toggle('no-cover', !r.cover && !r.cover_fallback);
+    refCard.innerHTML =
+        '<div class="rc-cover"><div class="rc-noimg">&#9636;</div></div>'
+      + '<div>'
+      +   (r.type ? '<span class="rc-type">' + esc(r.type) + '</span>' : '')
+      +   '<div class="rc-title">' + esc(r.title) + '</div>'
+      +   (r.author ? '<div class="rc-author">' + esc(r.author) + '</div>' : '')
+      +   (meta ? '<div class="rc-meta">' + esc(meta) + '</div>' : '')
+      +   (r.detail ? '<div class="rc-meta">' + esc(r.detail) + '</div>' : '')
+      +   (r.note ? '<div class="rc-note">' + esc(r.note) + '</div>' : '')
+      +   '<div class="rc-go">Click to open &#8599;</div>'
+      + '</div>';
+    if (r.cover || r.cover_fallback){
+      const box = refCard.querySelector('.rc-cover');
+      const img = makeImg({ url: r.cover || r.cover_fallback, fallback: r.cover_fallback },
+                          'full', r.title, () => {});
+      box.insertBefore(img, box.firstChild);
+    }
+    refCard.classList.add('show');
+
+    // position beside the chip, flipping when it would leave the viewport
+    const a = anchor.getBoundingClientRect();
+    const c = refCard.getBoundingClientRect();
+    const pad = 10;
+    let left = a.left;
+    let top  = a.bottom + 8;
+    if (left + c.width > innerWidth - pad)  left = Math.max(pad, innerWidth - c.width - pad);
+    if (top + c.height > innerHeight - pad) top  = Math.max(pad, a.top - c.height - 8);
+    refCard.style.left = left + 'px';
+    refCard.style.top  = top + 'px';
+  }
+  function hideRefCard(){ refHideTimer = setTimeout(() => refCard.classList.remove('show'), 90); }
+
+  function attachRef(anchor, refId){
+    if (!references[refId]) return;
+    anchor.classList.add('has-ref');
+    anchor.addEventListener('mouseenter', () => showRefCard(anchor, refId));
+    anchor.addEventListener('focus',      () => showRefCard(anchor, refId));
+    anchor.addEventListener('mouseleave', hideRefCard);
+    anchor.addEventListener('blur',       hideRefCard);
+  }
+  addEventListener('scroll', () => refCard.classList.remove('show'), true);
+
   const personByName = new Map(persons.map(p => [p.name, p]));
   function findPerson(name){
     if (personByName.has(name)) return personByName.get(name);
@@ -392,6 +447,7 @@
         const a = document.createElement('a');
         a.href = s.url; a.target = '_blank'; a.rel = 'noopener';
         a.textContent = s.title.length > 60 ? s.title.slice(0,57) + '…' : s.title;
+        if (s.ref) attachRef(a, s.ref);
         src.appendChild(a);
       });
     }
