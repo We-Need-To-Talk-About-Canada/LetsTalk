@@ -44,8 +44,26 @@
     <div class="tab-indicator" id="tab-indicator"></div>
   </div>
 
+  <!-- ============ SEARCH (global) ============ -->
+  <div class="searchwrap">
+    <div class="searchbar">
+      <span class="s-icon" aria-hidden="true">&#9906;</span>
+      <input id="q" type="search" autocomplete="off" spellcheck="false"
+             placeholder="Search events, people, places&hellip;" aria-label="Search the chronicle"
+             aria-expanded="false" aria-controls="q-results" role="combobox">
+      <kbd class="s-kbd">/</kbd>
+      <button class="s-clear" id="q-clear" aria-label="Clear search" hidden>&#10005;</button>
+    </div>
+    <div class="q-results" id="q-results" role="listbox" hidden></div>
+  </div>
+
   <!-- ============ TIMELINE VIEW ============ -->
   <section class="view active" id="view-timeline">
+    <div class="band" id="band">
+      <div class="lbl"><span>Memory Stream</span><span class="hint">click a marker &middot; &#8592;/&#8594; keys navigate &middot; Home/End jump</span></div>
+      <div class="band-scroll" id="band-scroll"><div class="band-track" id="band-track"></div></div>
+    </div>
+
     <div class="stage">
       <nav class="rail" id="rail" aria-label="Eras">
         <div class="rail-title"><span class="khanda">&#9772;</span> Eras</div>
@@ -94,11 +112,6 @@
           <div id="chips"></div>
         </div>
       </aside>
-    </div>
-
-    <div class="band" id="band">
-      <div class="lbl"><span>Memory Stream</span><span class="hint">click a marker &middot; &#8592;/&#8594; keys navigate &middot; Home/End jump</span></div>
-      <div class="band-scroll" id="band-scroll"><div class="band-track" id="band-track"></div></div>
     </div>
   </section>
 
@@ -335,7 +348,7 @@
                 + '<span class="count">' + count + ' memories</span>';
     b.addEventListener('click', () => {
       const idx = events.findIndex(ev => ev.group === n && (!activeCats.size || activeCats.has(ev.category)));
-      if (idx >= 0) go(idx);
+      if (idx >= 0) goTo(idx);
     });
     rail.appendChild(b);
   });
@@ -358,7 +371,7 @@
       t.dataset.idx = i;
       t.dataset.tip = ev.display_date + ' — ' + ev.text.headline;
       t.setAttribute('aria-label', ev.display_date + ': ' + ev.text.headline);
-      t.addEventListener('click', () => go(i));
+      t.addEventListener('click', () => goTo(i));
       ticks.appendChild(t);
       tickEls[i] = t;
     });
@@ -395,7 +408,7 @@
       const tr = document.createElement('tr');
       tr.tabIndex = 0;
       tr.innerHTML = '<td class="yr">' + esc(ev.display_date) + '</td><td class="hl">' + esc(ev.text.headline) + '</td><td class="er">' + esc(ev.group.replace(/\s*\(.*\)/,'')) + '</td>';
-      const open = () => { setView('timeline'); go(i); window.scrollTo({top:0}); };
+      const open = () => goTo(i);
       tr.addEventListener('click', open);
       tr.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(); } });
       listBody.appendChild(tr);
@@ -574,7 +587,7 @@
       marker.bindPopup(popupHTML);
       marker.on('popupopen', () => {
         document.querySelectorAll('.map-popup-ev').forEach(btn => {
-          btn.onclick = () => { setView('timeline'); go(parseInt(btn.dataset.idx, 10)); };
+          btn.onclick = () => goTo(parseInt(btn.dataset.idx, 10));
         });
       });
       markers.push(marker);
@@ -691,7 +704,7 @@
         const tag = document.createElement('button');
         tag.className = 'ptag'; tag.type = 'button';
         tag.textContent = ev.display_date + ' · ' + ev.text.headline;
-        tag.addEventListener('click', () => { closeModal(); setView('timeline'); go(events.indexOf(ev)); });
+        tag.addEventListener('click', () => { closeModal(); goTo(events.indexOf(ev)); });
         relBox.appendChild(tag);
       });
     } else { relWrap.hidden = true; }
@@ -743,6 +756,158 @@
       return;
     }
     if (e.key === 'Escape') closeModal();
+  });
+
+  // ================= SEARCH =================
+  // Bring the current event into view after jumping to it from elsewhere.
+  // Without this, selecting a result on a phone leaves you mid-page with no
+  // sense of where you landed.
+  function revealSlide(){
+    const el = $('slide');
+    if (!el) return;
+    const r = el.getBoundingClientRect();
+    // already sitting comfortably in view - don't yank the page around
+    if (r.top >= 0 && r.top < window.innerHeight * 0.45) return;
+    const top = r.top + window.scrollY - 12;
+    window.scrollTo({ top: Math.max(0, top), behavior: 'smooth' });
+  }
+  function goTo(i){ setView('timeline'); go(i); revealSlide(); }
+
+  const searchIndex = events.map((e, i) => ({
+      kind: 'event', idx: i,
+      date: e.display_date,
+      head: e.text.headline,
+      sub: [e.group.replace(/\s*\(.*\)/, ''), e.category, e.location && e.location.place]
+             .filter(Boolean).join(' · '),
+      hay: [e.text.headline, e.text.text, e.display_date, e.category, e.group,
+            e.location && e.location.place].filter(Boolean).join(' ').toLowerCase()
+    })).concat(persons.map(p => ({
+      kind: 'person', name: p.name,
+      date: p.years || '',
+      head: p.name,
+      sub: p.profession || '',
+      hay: [p.name, p.profession, p.bio, p.years].filter(Boolean).join(' ').toLowerCase()
+    })));
+
+  const qInput = $('q'), qResults = $('q-results'), qClear = $('q-clear');
+  let qMatches = [], qSel = -1;
+
+  function scoreOf(rec, terms){
+    const head = rec.head.toLowerCase(), sub = (rec.sub || '').toLowerCase();
+    let score = 0;
+    for (const t of terms){
+      if (!rec.hay.includes(t)) return 0;          // every term must appear somewhere
+      if (head.startsWith(t))     score += 100;
+      else if (head.includes(t))  score += 50;
+      else if (sub.includes(t))   score += 12;
+      else                        score += 3;
+    }
+    return score;
+  }
+
+  function highlight(text, terms){
+    let out = esc(text);
+    for (const t of terms){
+      if (!t) continue;
+      const re = new RegExp('(' + t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'ig');
+      out = out.replace(re, '<mark>$1</mark>');
+    }
+    return out;
+  }
+
+  function runSearch(){
+    const raw = qInput.value.trim();
+    qClear.hidden = !raw;
+    if (raw.length < 2){ closeResults(); return; }
+    const terms = raw.toLowerCase().split(/\s+/).filter(Boolean);
+
+    const scored = [];
+    for (const rec of searchIndex){
+      const s = scoreOf(rec, terms);
+      if (s) scored.push({ rec, s });
+    }
+    scored.sort((a, b) => b.s - a.s);
+
+    const evs = scored.filter(x => x.rec.kind === 'event');
+    const ppl = scored.filter(x => x.rec.kind === 'person');
+    const shownEv = evs.slice(0, 8), shownPp = ppl.slice(0, 5);
+    qMatches = shownEv.concat(shownPp).map(x => x.rec);
+    qSel = -1;
+
+    if (!qMatches.length){
+      qResults.innerHTML = '<div class="q-empty">No matches for &ldquo;' + esc(raw) + '&rdquo;</div>';
+      openResults();
+      return;
+    }
+
+    let html = '';
+    const row = (rec, n) =>
+      '<button class="q-item" role="option" data-n="' + n + '">'
+      + '<span class="qi-date">' + esc(rec.date || '—') + '</span>'
+      + '<span class="qi-main"><span class="qi-head">' + highlight(rec.head, terms) + '</span>'
+      + (rec.sub ? '<span class="qi-sub">' + esc(rec.sub) + '</span>' : '') + '</span></button>';
+
+    let n = 0;
+    if (shownEv.length){
+      html += '<div class="q-group">Events &middot; ' + evs.length + '</div>';
+      shownEv.forEach(x => { html += row(x.rec, n++); });
+      if (evs.length > shownEv.length)
+        html += '<div class="q-more">+ ' + (evs.length - shownEv.length) + ' more events</div>';
+    }
+    if (shownPp.length){
+      html += '<div class="q-group">People &middot; ' + ppl.length + '</div>';
+      shownPp.forEach(x => { html += row(x.rec, n++); });
+      if (ppl.length > shownPp.length)
+        html += '<div class="q-more">+ ' + (ppl.length - shownPp.length) + ' more people</div>';
+    }
+    qResults.innerHTML = html;
+    qResults.querySelectorAll('.q-item').forEach(btn => {
+      btn.addEventListener('click', () => choose(parseInt(btn.dataset.n, 10)));
+    });
+    openResults();
+  }
+
+  function openResults(){ qResults.hidden = false; qInput.setAttribute('aria-expanded', 'true'); }
+  function closeResults(){
+    qResults.hidden = true; qInput.setAttribute('aria-expanded', 'false');
+    qMatches = []; qSel = -1;
+  }
+  function moveSel(d){
+    if (!qMatches.length) return;
+    qSel = (qSel + d + qMatches.length) % qMatches.length;
+    const items = qResults.querySelectorAll('.q-item');
+    items.forEach((el, i) => el.classList.toggle('sel', i === qSel));
+    const el = items[qSel];
+    if (el) el.scrollIntoView({ block: 'nearest' });
+  }
+  function choose(n){
+    const rec = qMatches[n];
+    if (!rec) return;
+    closeResults();
+    qInput.blur();
+    if (rec.kind === 'event') goTo(rec.idx);
+    else { setView('codex'); openPerson(rec.name); }
+  }
+
+  qInput.addEventListener('input', runSearch);
+  qInput.addEventListener('focus', () => { if (qInput.value.trim().length >= 2) runSearch(); });
+  qClear.addEventListener('click', () => { qInput.value = ''; qClear.hidden = true; closeResults(); qInput.focus(); });
+  qInput.addEventListener('keydown', e => {
+    if (e.key === 'ArrowDown'){ e.preventDefault(); moveSel(1); }
+    else if (e.key === 'ArrowUp'){ e.preventDefault(); moveSel(-1); }
+    else if (e.key === 'Enter'){ e.preventDefault(); choose(qSel >= 0 ? qSel : 0); }
+    else if (e.key === 'Escape'){
+      if (!qResults.hidden) closeResults();
+      else { qInput.value = ''; qClear.hidden = true; qInput.blur(); }
+    }
+  });
+  document.addEventListener('click', e => {
+    if (!e.target.closest('.searchwrap')) closeResults();
+  });
+  document.addEventListener('keydown', e => {
+    if (e.key === '/' && !e.target.closest('input,textarea,select')){
+      e.preventDefault(); qInput.focus(); qInput.select();
+    }
   });
 
   // ================= INIT =================
