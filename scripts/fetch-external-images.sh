@@ -23,5 +23,9 @@ echo "-> Mahmood, Fighting for Faith and Nation (book cover)"
 curl -fSL --retry 3 -o "assets/img/mahmood-fighting-for-faith-and-nation.jpg" \
   'https://m.media-amazon.com/images/I/61iTxGqcy2L._SL1350_.jpg'
 
+echo "-> Bhindranwale & Kapur Singh in discussion (SikhRI)"
+curl -fSL --retry 3 -o "assets/img/bhindranwale-kapur-singh-discussion.jpg" \
+  'https://cdn.prod.website-files.com/5e29591964852b5d27d96ea4/665de0239f5bda3af84e8d7b_DrB7Ssfl294VyaJNk93XGpxDSWW6nvd-mz3w3RPWmNFtt7cUBpCqH-nSFKsZ0VbSGwSYQVTgZaOTivlNSMnRzgoH4KdZuY_7Qkg5YtgexyaIsUkrcYFN-il7G-7JAm2iaTHhg6ESvqqoFakuf1-U-r8.jpeg'
+
 echo
 echo "Done. Now commit the files in assets/img/."
