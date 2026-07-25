@@ -10,7 +10,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Space+Mono&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
-<link rel="stylesheet" href="timeline.css">
+<!-- ASSET VERSION: bump this token in BOTH places below (the stylesheet href and
+     the timeline-data.json fetch) whenever timeline.css or timeline-data.json
+     changes, otherwise browsers keep serving the previously cached copy. -->
+<link rel="stylesheet" href="timeline.css?v=20260725d">
 </head>
 <body>
 <div class="hud-sweep" aria-hidden="true"></div>
@@ -194,7 +197,7 @@
 
   let DATA;
   try {
-    const res = await fetch('timeline-data.json', { cache: 'force-cache' });
+    const res = await fetch('timeline-data.json?v=20260725d');
     if (!res.ok) throw new Error('HTTP ' + res.status);
     DATA = await res.json();
   } catch (err) {
@@ -284,6 +287,10 @@
     refCard.style.top  = top + 'px';
   }
   function hideRefCard(){ refHideTimer = setTimeout(() => refCard.classList.remove('show'), 90); }
+  // Immediate, unconditional teardown. Needed because re-rendering the slide
+  // destroys the anchor the pointer was over, so its mouseleave never fires and
+  // the card would otherwise stay pinned on screen over the next event's text.
+  function killRefCard(){ clearTimeout(refHideTimer); refCard.classList.remove('show'); }
 
   function attachRef(anchor, refId){
     if (!references[refId]) return;
@@ -316,12 +323,16 @@
     tabIndicator.style.transform = 'translateX(' + btn.offsetLeft + 'px)';
   }
   function setView(name){
+    if (typeof killRefCard === 'function') killRefCard();
     currentView = name;
     document.querySelectorAll('.tab').forEach(t => t.classList.toggle('active', t.dataset.view === name));
     document.querySelectorAll('.view').forEach(v => v.classList.toggle('active', v.id === 'view-' + name));
     const btn = document.querySelector('.tab[data-view="' + name + '"]');
     if (btn) placeIndicator(btn);
-    if (name === 'map' && !mapBuilt) buildMap();
+    if (name === 'map'){
+      if (!mapBuilt) buildMap();
+      else if (leafletMap) setTimeout(() => leafletMap.invalidateSize(), 30);
+    }
     if (name === 'codex' && !codexBuilt) buildCodex();
   }
   tabbar.addEventListener('click', e => {
@@ -416,6 +427,7 @@
   }
 
   function render(withTransition){
+    killRefCard();
     const ev = events[cur];
     const er = eraOf(ev);
     const content = $('slide-content');
@@ -523,7 +535,6 @@
   let markerByKey = new Map();
   function locKey(loc){ return loc.place || (loc.lat.toFixed(1) + ',' + loc.lon.toFixed(1)); }
   function buildMap(){
-    mapBuilt = true;
     const withLoc = events.map((e,i) => ({e, i, loc: e.location})).filter(x => x.loc && typeof x.loc.lat === 'number');
     if (!withLoc.length) return;
 
@@ -531,7 +542,7 @@
       document.getElementById('leaflet-map').innerHTML =
         '<div style="padding:40px; text-align:center; color:var(--ink-3); font-family:var(--sans); font-size:13px;">Map library failed to load. Check your internet connection and reload the page.</div>';
       buildRegionSide(withLoc);
-      return;
+      return;   // leave mapBuilt false so a later visit can retry
     }
 
     // cluster events sharing (near-)identical coordinates into one marker
@@ -603,6 +614,7 @@
     setTimeout(() => leafletMap.invalidateSize(), 60);
 
     buildRegionSide(withLoc);
+    mapBuilt = true;
   }
 
   function buildRegionSide(withLoc){
