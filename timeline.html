@@ -13,7 +13,7 @@
 <!-- ASSET VERSION: bump this token in BOTH places below (the stylesheet href and
      the timeline-data.json fetch) whenever timeline.css or timeline-data.json
      changes, otherwise browsers keep serving the previously cached copy. -->
-<link rel="stylesheet" href="timeline.css?v=20260725e">
+<link rel="stylesheet" href="timeline.css?v=20260725f">
 </head>
 <body>
 <div class="hud-sweep" aria-hidden="true"></div>
@@ -44,6 +44,7 @@
     <button class="tab" data-view="map" role="tab"><span class="tnum">02</span>Map</button>
     <button class="tab" data-view="codex" role="tab"><span class="tnum">03</span>Codex</button>
     <button class="tab" data-view="index" role="tab"><span class="tnum">04</span>Index</button>
+    <button class="tab" data-view="dossier" role="tab"><span class="tnum">05</span>Dossier</button>
     <div class="tab-indicator" id="tab-indicator"></div>
   </div>
 
@@ -134,6 +135,15 @@
     <div class="codex-grid" id="codex-grid"></div>
   </section>
 
+  <!-- ============ DOSSIER VIEW ============ -->
+  <section class="view" id="view-dossier">
+    <div class="dossier-intro">
+      <p>Works cited throughout this chronicle, each followed by every entry drawn from it, in date order.</p>
+    </div>
+    <div class="dossier-nav" id="dossier-nav"></div>
+    <div id="dossier-body"></div>
+  </section>
+
   <!-- ============ INDEX VIEW ============ -->
   <section class="view" id="view-index">
     <div class="indexview">
@@ -197,7 +207,7 @@
 
   let DATA;
   try {
-    const res = await fetch('timeline-data.json?v=20260725e');
+    const res = await fetch('timeline-data.json?v=20260725f');
     if (!res.ok) throw new Error('HTTP ' + res.status);
     DATA = await res.json();
   } catch (err) {
@@ -334,6 +344,7 @@
       else if (leafletMap) setTimeout(() => leafletMap.invalidateSize(), 30);
     }
     if (name === 'codex' && !codexBuilt) buildCodex();
+    if (name === 'dossier' && !dossierBuilt) buildDossier();
   }
   tabbar.addEventListener('click', e => {
     const btn = e.target.closest('.tab');
@@ -769,6 +780,97 @@
     }
     if (e.key === 'Escape') closeModal();
   });
+
+  // ================= DOSSIER (source reading view) =================
+  // Presents each cited work as a bibliographic header followed by every entry
+  // drawn from it, in date order - a linear read rather than the slide-by-slide
+  // timeline.
+  let dossierBuilt = false;
+  function buildDossier(){
+    dossierBuilt = true;
+    const nav = $('dossier-nav'), body = $('dossier-body');
+    nav.innerHTML = ''; body.innerHTML = '';
+
+    const works = Object.keys(references).map(id => ({
+      id, ref: references[id],
+      items: events.filter(e => (e.sources || []).some(s => s.ref === id))
+    })).filter(w => w.items.length);
+
+    if (!works.length){
+      body.innerHTML = '<div class="q-empty">No cited works yet.</div>';
+      return;
+    }
+
+    works.forEach(w => {
+      const jump = document.createElement('button');
+      jump.type = 'button';
+      jump.textContent = w.ref.title.length > 46 ? w.ref.title.slice(0, 43) + '…' : w.ref.title;
+      jump.addEventListener('click', () => {
+        const el = document.getElementById('work-' + w.id);
+        if (el) window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY - 12, behavior: 'smooth' });
+      });
+      nav.appendChild(jump);
+    });
+
+    works.forEach(w => {
+      const r = w.ref;
+      const sec = document.createElement('section');
+      sec.className = 'dossier-work';
+      sec.id = 'work-' + w.id;
+
+      const hasCover = !!(r.cover || r.cover_fallback);
+      const meta = [r.publisher, r.year].filter(Boolean).join(' · ');
+      const head = document.createElement('div');
+      head.className = 'dw-head' + (hasCover ? '' : ' no-cover');
+      head.innerHTML =
+          '<div class="dw-cover"><div class="noimg">&#9636;</div></div>'
+        + '<div>'
+        +   (r.type ? '<span class="dw-type">' + esc(r.type) + '</span>' : '')
+        +   '<div class="dw-title">' + esc(r.title) + '</div>'
+        +   (r.author ? '<div class="dw-author">' + esc(r.author) + '</div>' : '')
+        +   (meta ? '<div class="dw-meta">' + esc(meta) + '</div>' : '')
+        +   (r.detail ? '<div class="dw-meta">' + esc(r.detail) + '</div>' : '')
+        +   (r.note ? '<div class="dw-note">' + esc(r.note) + '</div>' : '')
+        +   '<div class="dw-links">'
+        +     (r.url ? '<a href="' + esc(r.url) + '" target="_blank" rel="noopener">View the work &#8599;</a>' : '')
+        +     (r.pdf ? '<a href="' + esc(r.pdf) + '" target="_blank" rel="noopener">Read the PDF &#8599;</a>' : '')
+        +   '</div>'
+        + '</div>';
+      if (hasCover){
+        const box = head.querySelector('.dw-cover');
+        box.insertBefore(makeImg({ url: r.cover || r.cover_fallback, fallback: r.cover_fallback },
+                                 'full', r.title, () => {}), box.firstChild);
+      }
+      sec.appendChild(head);
+
+      const count = document.createElement('div');
+      count.className = 'dw-count';
+      count.textContent = w.items.length + (w.items.length === 1 ? ' entry drawn from this work' : ' entries drawn from this work');
+      sec.appendChild(count);
+
+      w.items.forEach(ev => {
+        const row = document.createElement('article');
+        row.className = 'dw-entry';
+        row.innerHTML =
+            '<div class="dw-when">' + esc(ev.display_date)
+          +   '<span class="dw-era">' + esc(ev.group.replace(/\s*\(.*\)/, '')) + '</span></div>'
+          + '<div>'
+          +   '<h4>' + esc(ev.text.headline) + '</h4>'
+          +   '<p>' + esc(ev.text.text) + '</p>'
+          +   (ev.location && ev.location.place
+                ? '<div class="dw-where"><span class="pin">&#9670;</span>' + esc(ev.location.place) + '</div>' : '')
+          + '</div>';
+        const open = document.createElement('button');
+        open.className = 'dw-open'; open.type = 'button';
+        open.textContent = 'Open on the timeline →';
+        open.addEventListener('click', () => goTo(events.indexOf(ev)));
+        row.lastElementChild.appendChild(open);
+        sec.appendChild(row);
+      });
+
+      body.appendChild(sec);
+    });
+  }
 
   // ================= SEARCH =================
   // Bring the current event into view after jumping to it from elsewhere.
