@@ -7045,42 +7045,129 @@
   {
    "n": 1,
    "id": "instant-labelling",
-   "name": "Label first, before anyone can check",
-   "what": "A crime is given an ideological identity within hours, long before any investigator has established a motive.",
-   "how": "Speed is the point. The first framing of an event is the one that travels, and a correction days later never catches up with it. Attaching a familiar label to an unexplained crime turns an open question into a settled story while the facts are still unknown.",
-   "case": "After the July 2025 shooting outside Kap's Cafe in Surrey, a Germany-based man reportedly claimed responsibility online. Indian outlets almost immediately described him as a “Khalistani terrorist” tied to Babbar Khalsa International, citing a reward notice from India's National Investigation Agency. As Baaz noted, he had not mentioned that group, and no Canadian law enforcement agency identified any ideological motive — only that a crime had been committed.",
+   "name": "Label it before anyone can check",
+   "what": "A crime is given an ideological identity within hours, before any investigator has established a motive.",
+   "how": "Speed is the point: the first framing is the one that travels, and a correction days later never catches it.",
+   "case": "Hours after the July 2025 shooting outside Kap's Cafe in Surrey, a Germany-based man reportedly claimed responsibility online. Indian outlets called him a “Khalistani terrorist” tied to Babbar Khalsa International, citing a reward notice from India's National Investigation Agency. Baaz noted he had never mentioned that group, and no Canadian agency had identified any ideological motive.",
+   "icon": "<path d=\"M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z\" /> <circle cx=\"7.5\" cy=\"7.5\" r=\".5\" fill=\"currentColor\" />",
    "sources": [
     {
      "title": "Kapil Sharma Cafe Shooting: How a Wave Of Extortions & Violence From India Is Shaking B.C.’s Punjabi Community",
      "url": "https://www.baaznews.org/p/kapil-sharma-cafe-shooting-kaps-cafe",
      "date": "2025-07-10"
     }
-   ],
-   "icon": "<path d=\"M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z\" /> <circle cx=\"7.5\" cy=\"7.5\" r=\".5\" fill=\"currentColor\" />"
+   ]
   },
   {
    "n": 2,
    "id": "crime-as-extremism",
-   "name": "Recast ordinary crime as political extremism",
-   "what": "Extortion and gang violence are presented to the public as evidence of a political or religious movement.",
-   "how": "The underlying acts are real, which is what makes the reframing effective. Money-driven crime is stripped of its motive and re-labelled as ideology, so that a community becomes the story rather than the criminals do.",
-   "case": "Baaz set the Kap's Cafe shooting alongside shootings at the properties of Gippy Grewal in November 2023, AP Dhillon in April 2024 and Karan Aujla in June 2025. The common thread reported in each was extortion linked to the India-based Lawrence Bishnoi network — Bishnoi associate Goldy Brar was quoted saying the AP Dhillon attack was “purely for extortion.” Indian officials nonetheless presented the pattern as rising “Khalistani extremism.”",
+   "name": "Recast ordinary crime as extremism",
+   "what": "Extortion and gang violence are presented as evidence of a political or religious movement.",
+   "how": "The underlying acts are real, which is what makes the swap work. Strip out the motive, add an ideology, and the community becomes the story instead of the criminals.",
+   "case": "Baaz set the Kap's Cafe shooting beside attacks on the properties of Gippy Grewal (November 2023), AP Dhillon (April 2024) and Karan Aujla (June 2025). Each was reported as extortion linked to the India-based Lawrence Bishnoi network; Bishnoi associate Goldy Brar said the Dhillon attack was “purely for extortion.” Indian officials still presented the pattern as rising “Khalistani extremism.”",
+   "icon": "<path d=\"M14 4a1 1 0 0 1 1-1\" /> <path d=\"M15 10a1 1 0 0 1-1-1\" /> <path d=\"M21 4a1 1 0 0 0-1-1\" /> <path d=\"M21 9a1 1 0 0 1-1 1\" /> <path d=\"m3 7 3 3 3-3\" /> <path d=\"M6 10V5a2 2 0 0 1 2-2h2\" /> <rect x=\"3\" y=\"14\" width=\"7\" height=\"7\" rx=\"1\" />",
    "sources": [
     {
      "title": "Kapil Sharma Cafe Shooting: How a Wave Of Extortions & Violence From India Is Shaking B.C.’s Punjabi Community",
      "url": "https://www.baaznews.org/p/kapil-sharma-cafe-shooting-kaps-cafe",
      "date": "2025-07-10"
     }
-   ],
-   "icon": "<path d=\"M14 4a1 1 0 0 1 1-1\" /> <path d=\"M15 10a1 1 0 0 1-1-1\" /> <path d=\"M21 4a1 1 0 0 0-1-1\" /> <path d=\"M21 9a1 1 0 0 1-1 1\" /> <path d=\"m3 7 3 3 3-3\" /> <path d=\"M6 10V5a2 2 0 0 1 2-2h2\" /> <rect x=\"3\" y=\"14\" width=\"7\" height=\"7\" rx=\"1\" />"
+   ]
   },
   {
    "n": 3,
+   "id": "fabricated-incident",
+   "name": "Fabricate the incident itself",
+   "what": "An event that never happened is put into circulation, and the response to it becomes the story.",
+   "how": "Nobody reports the absence of a thing. Once agencies or reporters chase the claim, the community has already been treated in public as a danger.",
+   "case": "In October 2021 a think tank called IFFRAS reported that the Taliban had ordered Afghan Sikhs to convert; Indian outlets ran it, and Baaz found no such ultimatum had been given. IFFRAS had been dissolved in 2014, listed an address in a building housing consular offices, and had been tied by EU DisinfoLab and CBC to a pro-India fake news network. Kashmeri and McAndrew record the same move in the 1980s: claims of a Sikh training camp in the B.C. woods that CSIS searched for and never found.",
+   "icon": "<path d=\"M7 18v-6a5 5 0 1 1 10 0v6\" /> <path d=\"M5 21a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-1a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2z\" /> <path d=\"M21 12h1\" /> <path d=\"M18.5 4.5 18 5\" /> <path d=\"M2 12h1\" /> <path d=\"M12 2v1\" /> <path d=\"m4.929 4.929.707.707\" /> <path d=\"M12 12v6\" />",
+   "sources": [
+    {
+     "title": "Jaskaran Sandhu: Pro-India Disinfo Network At Centre Of Fake Taliban Ultimatum Report",
+     "url": "https://www.baaznews.org/p/proindia-disinfo-afghan-sikhs-taliban-ultimatum",
+     "date": "2021-10-25"
+    }
+   ],
+   "refs": [
+    "softtarget-1989"
+   ]
+  },
+  {
+   "n": 4,
+   "id": "impersonation",
+   "name": "Impersonate the community itself",
+   "what": "Fake accounts pose as Sikhs so the message appears to come from inside the community.",
+   "how": "An argument sounds different coming from the people it is about. The personas also crowd the space, so anyone searching the subject meets the operation before they meet the community.",
+   "case": "In November 2021 the Centre for Information Resilience published an analysis of the #RealSikhs influence operation: a core network of about 80 fake accounts running Sikh personas across platforms. Its investigator Benjamin Strick said the network promoted the Indian government and labelled Sikh activists terrorists, targeting Khalistan, Sikh sovereignty and the Farmers' Protest.",
+   "icon": "<path d=\"M18 11c-1.5 0-2.5.5-3 2\" /> <path d=\"M4 6a2 2 0 0 0-2 2v4a5 5 0 0 0 5 5 8 8 0 0 1 5 2 8 8 0 0 1 5-2 5 5 0 0 0 5-5V8a2 2 0 0 0-2-2h-3a8 8 0 0 0-5 2 8 8 0 0 0-5-2z\" /> <path d=\"M6 11c1.5 0 2.5.5 3 2\" />",
+   "sources": [
+    {
+     "title": "Shamsher Singh: Condemning Khalistan In An Age Of Disinformation",
+     "url": "https://www.baaznews.org/p/real-sikhs-khalistan-disinformation",
+     "date": "2021-11-24"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "domestic-voices",
+   "name": "Launder it through a local voice",
+   "what": "The claim reaches the public through someone with domestic standing rather than a foreign official.",
+   "how": "Carried by a former premier or a national columnist, the same narrative stops reading as foreign messaging and starts reading as domestic debate.",
+   "case": "Baaz criticised a June 2025 National Post opinion piece by Ujjal Dosanjh and Joe Adam George, arguing it contained serious factual errors, leaned on discredited sources and repeated narratives long promoted by the Government of India.",
+   "icon": "<path d=\"M11 6a13 13 0 0 0 8.4-2.8A1 1 0 0 1 21 4v12a1 1 0 0 1-1.6.8A13 13 0 0 0 11 14H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z\" /> <path d=\"M6 14a12 12 0 0 0 2.4 7.2 2 2 0 0 0 3.2-2.4A8 8 0 0 1 10 14\" /> <path d=\"M8 6v8\" />",
+   "sources": [
+    {
+     "title": "The National Post Gave A Platform To Indian Disinfo",
+     "url": "https://www.baaznews.org/p/national-post-ujjal-dosanjh-indian-disinfo-sikhs",
+     "date": "2025-06-26"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "mainstream-seeding",
+   "name": "Get the frame into the mainstream",
+   "what": "Established outlets adopt the framing, and it stops looking like anyone's agenda.",
+   "how": "Everything downstream then cites the newspaper rather than the original source.",
+   "case": "A July 2024 Baaz analysis argued the Globe and Mail had repeatedly recycled old tropes and questionable sourcing on Sikh issues, pointing to a World Sikh Organization archival series showing Canadian media have long covered Sikhs through an Indian state lens.",
+   "icon": "<path d=\"M15 18h-5\" /> <path d=\"M18 14h-8\" /> <path d=\"M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-4 0v-9a2 2 0 0 1 2-2h2\" /> <rect width=\"8\" height=\"4\" x=\"10\" y=\"6\" rx=\"1\" />",
+   "sources": [
+    {
+     "title": "Globe & Mail's Reporting Has Repeatedly Fueled Anti-Sikh Rhetoric",
+     "url": "https://www.baaznews.org/p/globe-and-mail-sikh-reporting",
+     "date": "2024-07-16"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "diplomatic-cover",
+   "name": "Run it from inside a consulate",
+   "what": "Intelligence officers work under diplomatic accreditation, which puts them beyond ordinary policing.",
+   "how": "Diplomatic status supplies deniability, a budget and a legitimate address all at once.",
+   "case": "A December 2023 Baaz investigation reported RAW and IB officers operating out of Indian consulates and high commissions in Canada, the United States and the United Kingdom. Kashmeri and McAndrew documented the same pattern in the 1980s, tracing a Toronto vice-consul's role in gurdwara politics and in the finances of a Sikh newspaper.",
+   "icon": "<path d=\"M10 18v-7\" /> <path d=\"M11.119 2.205a2 2 0 0 1 1.762 0l7.84 3.846A.5.5 0 0 1 20.5 7h-17a.5.5 0 0 1-.22-.949z\" /> <path d=\"M14 18v-7\" /> <path d=\"M18 18v-7\" /> <path d=\"M3 22h18\" /> <path d=\"M6 18v-7\" />",
+   "sources": [
+    {
+     "title": "How Indian Agents Are Operating Out Of Indian Consulates To Target Sikhs In The West",
+     "url": "https://www.baaznews.org/p/indian-consulates-indian-intelligence-nexus",
+     "date": "2023-12-11"
+    }
+   ],
+   "refs": [
+    "softtarget-1989"
+   ]
+  },
+  {
+   "n": 8,
    "id": "criminal-proxies",
-   "name": "Use criminal proxies so the state's hand stays hidden",
-   "what": "Organised crime networks carry out the acts, leaving no official fingerprints on them.",
-   "how": "A gang provides both deniability and a ready-made alternative explanation. The violence is genuine, the fear it creates is genuine, and the state that benefits from it can point at ordinary criminality if anyone asks.",
-   "case": "Canada's National Security Adviser Nathalie Drouin testified before parliamentarians that India gathered intelligence on Sikhs in Canada through diplomatic channels and proxies and passed it to Indian authorities, who worked with the Lawrence Bishnoi gang. Public hearings of Canada's Foreign Interference Commission heard allegations that Indian intelligence used criminal gangs to create an impression of lawlessness in Sikh spaces.",
+   "name": "Let criminals do the work",
+   "what": "Organised crime carries out the acts, so no official fingerprints are left on them.",
+   "how": "A gang supplies both deniability and a ready alternative explanation. The violence is real, the fear is real, and the state that benefits can point at ordinary criminality.",
+   "case": "Canada's National Security Adviser Nathalie Drouin testified that India gathered intelligence on Sikhs in Canada through diplomatic channels and proxies and passed it to Indian authorities, who worked with the Lawrence Bishnoi gang. Public hearings of the Foreign Interference Commission heard that Indian intelligence used gangs to create an impression of lawlessness in Sikh spaces.",
+   "icon": "<path d=\"m11 17 2 2a1 1 0 1 0 3-3\" /> <path d=\"m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4\" /> <path d=\"m21 3 1 11h-2\" /> <path d=\"M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3\" /> <path d=\"M3 4h8\" />",
    "sources": [
     {
      "title": "Kapil Sharma Cafe Shooting: How a Wave Of Extortions & Violence From India Is Shaking B.C.’s Punjabi Community",
@@ -7092,120 +7179,39 @@
      "url": "https://www.baaznews.org/p/nsicop-report-india-foreign-interference-sikhs",
      "date": "2024-06-05"
     }
-   ],
-   "icon": "<path d=\"M18 11c-1.5 0-2.5.5-3 2\" /> <path d=\"M4 6a2 2 0 0 0-2 2v4a5 5 0 0 0 5 5 8 8 0 0 1 5 2 8 8 0 0 1 5-2 5 5 0 0 0 5-5V8a2 2 0 0 0-2-2h-3a8 8 0 0 0-5 2 8 8 0 0 0-5-2z\" /> <path d=\"M6 11c1.5 0 2.5.5 3 2\" />"
+   ]
   },
   {
-   "n": 4,
-   "id": "diplomatic-cover",
-   "name": "Run the operation from inside a consulate",
-   "what": "Intelligence officers work under diplomatic accreditation, which shields them from ordinary policing.",
-   "how": "Diplomatic status makes surveillance of a diaspora community difficult to investigate and awkward to prosecute. It also gives the operation a legitimate address, a budget and a cover story.",
-   "case": "A December 2023 Baaz investigation reported RAW and IB officers operating out of Indian consulates and high commissions in Canada, the United States and the United Kingdom. The same pattern was documented decades earlier: Kashmeri and McAndrew's 1989 book Soft Target traced a Toronto vice-consul's involvement in gurdwara politics and in the finances of a Sikh newspaper.",
-   "sources": [
-    {
-     "title": "How Indian Agents Are Operating Out Of Indian Consulates To Target Sikhs In The West",
-     "url": "https://www.baaznews.org/p/indian-consulates-indian-intelligence-nexus",
-     "date": "2023-12-11"
-    }
-   ],
-   "refs": [
-    "softtarget-1989"
-   ],
-   "icon": "<path d=\"M10 18v-7\" /> <path d=\"M11.119 2.205a2 2 0 0 1 1.762 0l7.84 3.846A.5.5 0 0 1 20.5 7h-17a.5.5 0 0 1-.22-.949z\" /> <path d=\"M14 18v-7\" /> <path d=\"M18 18v-7\" /> <path d=\"M3 22h18\" /> <path d=\"M6 18v-7\" />"
-  },
-  {
-   "n": 5,
-   "id": "domestic-voices",
-   "name": "Launder the message through a local, credible voice",
-   "what": "The claim reaches the public through someone with domestic standing rather than a foreign official.",
-   "how": "A message carried by a former premier, a national newspaper columnist or a think tank does not read as foreign messaging. The same narrative that would be dismissed coming from a foreign ministry becomes a legitimate domestic debate.",
-   "case": "Baaz criticised a June 2025 National Post opinion piece by Ujjal Dosanjh and Joe Adam George, arguing it contained serious factual errors, relied on discredited sources, and repeated narratives long promoted by the Government of India — with Baaz describing Dosanjh as a consistent conduit for Indian state disinformation.",
-   "sources": [
-    {
-     "title": "The National Post Gave A Platform To Indian Disinfo",
-     "url": "https://www.baaznews.org/p/national-post-ujjal-dosanjh-indian-disinfo-sikhs",
-     "date": "2025-06-26"
-    }
-   ],
-   "icon": "<path d=\"M11 6a13 13 0 0 0 8.4-2.8A1 1 0 0 1 21 4v12a1 1 0 0 1-1.6.8A13 13 0 0 0 11 14H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z\" /> <path d=\"M6 14a12 12 0 0 0 2.4 7.2 2 2 0 0 0 3.2-2.4A8 8 0 0 1 10 14\" /> <path d=\"M8 6v8\" />"
-  },
-  {
-   "n": 6,
-   "id": "mainstream-seeding",
-   "name": "Get the frame into mainstream reporting",
-   "what": "Established outlets adopt the framing, and it stops looking like anyone's agenda.",
-   "how": "Once a national newspaper runs the story, everything downstream cites the newspaper rather than the original source. The claim gains the credibility of the outlet that carried it.",
-   "case": "A July 2024 Baaz analysis argued the Globe and Mail had repeatedly recycled old tropes and questionable sourcing on Sikh issues, and pointed to a World Sikh Organization archival series showing Canadian media have long covered Sikhs through an Indian state lens.",
-   "sources": [
-    {
-     "title": "Globe & Mail's Reporting Has Repeatedly Fueled Anti-Sikh Rhetoric",
-     "url": "https://www.baaznews.org/p/globe-and-mail-sikh-reporting",
-     "date": "2024-07-16"
-    }
-   ],
-   "icon": "<path d=\"M15 18h-5\" /> <path d=\"M18 14h-8\" /> <path d=\"M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-4 0v-9a2 2 0 0 1 2-2h2\" /> <rect width=\"8\" height=\"4\" x=\"10\" y=\"6\" rx=\"1\" />"
-  },
-  {
-   "n": 7,
+   "n": 9,
    "id": "silence-the-record",
-   "name": "Remove the reporting that contradicts it",
+   "name": "Erase the reporting that contradicts it",
    "what": "Rather than argue with an inconvenient article, get it taken down or made unfindable.",
-   "how": "Takedown attempts do not need to succeed to work. Legal threats, spoofed removal notices and de-indexing requests impose cost and risk on small outlets, and the reporting that survives is the reporting someone was willing to fight for.",
-   "case": "Baaz reported that after publishing its consulates investigation in December 2023, it faced repeated attempts over roughly two months to de-index, unpublish or delete the piece — beginning in February 2024 with an email spoofing official Google correspondence and demanding removal on national security grounds.",
+   "how": "Takedown attempts do not have to succeed to work. Legal threats and de-indexing requests impose cost and risk on small outlets.",
+   "case": "After publishing its consulates investigation in December 2023, Baaz faced roughly two months of attempts to de-index, unpublish or delete it — starting in February 2024 with an email spoofing official Google correspondence and demanding removal on national security grounds.",
+   "icon": "<path d=\"M21 21H8a2 2 0 0 1-1.42-.587l-3.994-3.999a2 2 0 0 1 0-2.828l10-10a2 2 0 0 1 2.829 0l5.999 6a2 2 0 0 1 0 2.828L12.834 21\" /> <path d=\"m5.082 11.09 8.828 8.828\" />",
    "sources": [
     {
      "title": "How Indian Operatives Attempted To Remove Baaz Article Revealing The Indian Consulates-Intelligence Nexus",
      "url": "https://www.baaznews.org/p/india-fails-to-silence-baaz-investigation",
      "date": "2024-04-10"
     }
-   ],
-   "icon": "<path d=\"M21 21H8a2 2 0 0 1-1.42-.587l-3.994-3.999a2 2 0 0 1 0-2.828l10-10a2 2 0 0 1 2.829 0l5.999 6a2 2 0 0 1 0 2.828L12.834 21\" /> <path d=\"m5.082 11.09 8.828 8.828\" />"
+   ]
   },
   {
-   "n": 8,
+   "n": 10,
    "id": "platform-censorship",
-   "name": "Have the platforms do the silencing",
-   "what": "Accounts and posts are withheld through the platform's own compliance process.",
-   "how": "A government request to a platform removes speech without any court, and often without a stated reason. To everyone else the account simply disappears.",
-   "case": "Baaz contributor Amaan Bali wrote that his account was withheld in India in June 2022 at the request of the Indian government, and that many other Sikh accounts — including those connected to the Farmers' Protest — were withheld around the same time, with no reason given beyond preserving India's integrity.",
+   "name": "Have the platform do the silencing",
+   "what": "Accounts and posts are withheld through a platform's own government-request process.",
+   "how": "No court is involved and often no reason is given. To everyone else the account simply disappears.",
+   "case": "Baaz contributor Amaan Bali wrote that his account was withheld in India in June 2022 at the request of the Indian government, alongside many other Sikh accounts including those tied to the Farmers' Protest, with no reason given beyond preserving India's integrity.",
+   "icon": "<circle cx=\"12\" cy=\"12\" r=\"10\" /> <path d=\"M4.929 4.929 19.07 19.071\" />",
    "sources": [
     {
      "title": "Amaan Bali: Censored For Supporting The Sikh Nation & Questioning The Indian State",
      "url": "https://www.baaznews.org/p/amaan-bali-twitter-withheld-sikh",
      "date": "2022-06-30"
     }
-   ],
-   "icon": "<circle cx=\"12\" cy=\"12\" r=\"10\" /> <path d=\"M4.929 4.929 19.07 19.071\" />"
-  },
-  {
-   "n": 9,
-   "id": "manufactured-threat",
-   "name": "Manufacture the threat you want investigated",
-   "what": "A dramatic allegation is supplied to security agencies and the press, and the search itself becomes the story.",
-   "how": "An investigation into a claim looks identical, from outside, to an investigation into a real danger. Even when nothing is found, the community has been publicly treated as a security problem — and no one reports the absence of a camp.",
-   "case": "Kashmeri and McAndrew documented claims in the 1980s of a Sikh terrorist training camp in the British Columbia woods, amplified by Indian media and fringe outlets. CSIS searched and found nothing. The book records agencies repeatedly chasing allegations that originated with the Indian government.",
-   "sources": [],
-   "refs": [
-    "softtarget-1989"
-   ],
-   "icon": "<path d=\"M7 18v-6a5 5 0 1 1 10 0v6\" /> <path d=\"M5 21a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-1a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2z\" /> <path d=\"M21 12h1\" /> <path d=\"M18.5 4.5 18 5\" /> <path d=\"M2 12h1\" /> <path d=\"M12 2v1\" /> <path d=\"m4.929 4.929.707.707\" /> <path d=\"M12 12v6\" />"
-  },
-  {
-   "n": 10,
-   "id": "official-confirmation",
-   "name": "What the official record now says",
-   "what": "The pattern above is no longer only a community's account of itself.",
-   "how": "Two Canadian bodies with access to classified intelligence have described India's activity in Canada in their own words, which makes the preceding techniques a matter of public record rather than allegation.",
-   "case": "The National Security and Intelligence Committee of Parliamentarians reported in June 2024 that India was the second-most significant foreign interference threat to Canada's democratic institutions and a “primary perpetrator” of transnational repression against diaspora communities. Canada's Foreign Interference Commission reported in January 2025 that India was among the states attempting to sway Canadian politics and intimidate diaspora communities through disinformation and covert operations.",
-   "sources": [
-    {
-     "title": "Explosive NSICOP Report Exposes Depth Of Indian Foreign Interference In Canada",
-     "url": "https://www.baaznews.org/p/nsicop-report-india-foreign-interference-sikhs",
-     "date": "2024-06-05"
-    }
-   ],
-   "icon": "<path d=\"M14 13V8.5C14 7 15 7 15 5a3 3 0 0 0-6 0c0 2 1 2 1 3.5V13\" /> <path d=\"M20 15.5a2.5 2.5 0 0 0-2.5-2.5h-11A2.5 2.5 0 0 0 4 15.5V17a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1z\" /> <path d=\"M5 22h14\" />"
+   ]
   }
  ],
  "credits": {
@@ -7215,5 +7221,18 @@
    "licence": "ISC",
    "url": "https://lucide.dev/"
   }
+ },
+ "playbook_closing": {
+  "id": "on-the-record",
+  "name": "What the official record says",
+  "text": "These are not only the community's account of itself. Two Canadian bodies with access to classified intelligence have described India's activity in their own words. The National Security and Intelligence Committee of Parliamentarians reported in June 2024 that India was the second-most significant foreign interference threat to Canada's democratic institutions and a “primary perpetrator” of transnational repression against diaspora communities. Canada's Foreign Interference Commission reported in January 2025 that India was among the states attempting to sway Canadian politics and intimidate diaspora communities through disinformation and covert operations.",
+  "icon": "<path d=\"M14 13V8.5C14 7 15 7 15 5a3 3 0 0 0-6 0c0 2 1 2 1 3.5V13\" /> <path d=\"M20 15.5a2.5 2.5 0 0 0-2.5-2.5h-11A2.5 2.5 0 0 0 4 15.5V17a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1z\" /> <path d=\"M5 22h14\" />",
+  "sources": [
+   {
+    "title": "Explosive NSICOP Report Exposes Depth Of Indian Foreign Interference In Canada",
+    "url": "https://www.baaznews.org/p/nsicop-report-india-foreign-interference-sikhs",
+    "date": "2024-06-05"
+   }
+  ]
  }
 }
