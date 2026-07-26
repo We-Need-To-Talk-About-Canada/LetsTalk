@@ -13,7 +13,7 @@
 <!-- ASSET VERSION: bump this token in BOTH places below (the stylesheet href and
      the timeline-data.json fetch) whenever timeline.css or timeline-data.json
      changes, otherwise browsers keep serving the previously cached copy. -->
-<link rel="stylesheet" href="timeline.css?v=20260726h">
+<link rel="stylesheet" href="timeline.css?v=20260726i">
 </head>
 <body>
 <div class="hud-sweep" aria-hidden="true"></div>
@@ -225,7 +225,7 @@
 
   let DATA;
   try {
-    const res = await fetch('timeline-data.json?v=20260726h');
+    const res = await fetch('timeline-data.json?v=20260726i');
     if (!res.ok) throw new Error('HTTP ' + res.status);
     DATA = await res.json();
   } catch (err) {
@@ -997,10 +997,18 @@
     nav.innerHTML = ''; body.innerHTML = '';
     if (!items.length){ body.innerHTML = '<div class="q-empty">Nothing recorded yet.</div>'; return; }
 
+    // Icons are inlined (not <img>) so they inherit the accent colour and add
+    // no extra requests. The markup is vendored Lucide - see assets/icons/.
+    const icon = t => t.icon
+      ? '<svg class="pb-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" '
+        + 'stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" '
+        + 'aria-hidden="true" focusable="false">' + t.icon + '</svg>'
+      : '';
+
     items.forEach(t => {
       const jump = document.createElement('button');
       jump.type = 'button';
-      jump.innerHTML = '<span class="pbn">' + String(t.n).padStart(2, '0') + '</span>' + esc(t.name);
+      jump.innerHTML = icon(t) + '<span class="pbn">' + String(t.n).padStart(2, '0') + '</span>' + esc(t.name);
       jump.addEventListener('click', () => {
         const el = document.getElementById('pb-' + t.id);
         if (el) window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY - 12, behavior: 'smooth' });
@@ -1026,8 +1034,11 @@
       });
 
       card.innerHTML =
-          '<span class="pb-num">Technique ' + String(t.n).padStart(2, '0') + '</span>'
-        + '<h3>' + esc(t.name) + '</h3>'
+          '<div class="pb-head">'
+        +   '<span class="pb-badge">' + icon(t) + '</span>'
+        +   '<div><span class="pb-num">Technique ' + String(t.n).padStart(2, '0') + '</span>'
+        +   '<h3>' + esc(t.name) + '</h3></div>'
+        + '</div>'
         + '<div class="pb-what">' + esc(t.what) + '</div>'
         + '<div class="pb-lbl">How it works</div>'
         + '<p class="pb-how">' + esc(t.how) + '</p>'
