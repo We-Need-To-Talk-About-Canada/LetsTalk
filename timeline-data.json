@@ -1962,7 +1962,7 @@
    "display_date": "Vaisakhi, April 13, 1978",
    "text": {
     "headline": "Nirankari clash kills 13 Sikhs in Amritsar",
-    "text": "On Vaisakhi 1978, clashes in Amritsar between Sikhs of the Akhand Kirtani Jatha and Damdami Taksal and the government-backed Sant Nirankari sect left 13 Sikhs dead. Baaz writers cite the episode as a key radicalizing moment preceding the rise of Sant Jarnail Singh Bhindranwale. Mahmood records that the subsequent acquittal of all 62 accused Nirankaris, in a closed-door trial moved to Haryana, convinced many Sikhs that justice through Indian courts was unattainable — a keystone moment in the turn toward armed struggle."
+    "text": "On Vaisakhi 1978, clashes in Amritsar between Sikhs of the Akhand Kirtani Jatha and Damdami Taksal and the government-backed Sant Nirankari sect left 13 Sikhs dead. Baaz writers cite the episode as a key radicalizing moment preceding the rise of Sant Jarnail Singh Bhindranwale. Mahmood records that the subsequent acquittal of all 62 accused Nirankaris, in a closed-door trial moved to Haryana, convinced many Sikhs that justice through Indian courts was unattainable — a keystone moment in the turn toward armed struggle. Soft Target records that the killings were what turned Talwinder Singh Parmar, later leader of the Babbar Khalsa in Canada, towards militancy."
    },
    "group": "Partition & Post-Independence (1947-1983)",
    "category": "Human Rights",
@@ -1982,6 +1982,11 @@
      "title": "Fighting for Faith and Nation: Dialogues with Sikh Militants",
      "url": "https://www.pennpress.org/9780812215922/fighting-for-faith-and-nation/",
      "ref": "mahmood-1996"
+    },
+    {
+     "title": "Soft Target: How the Indian Intelligence Service Penetrated Canada",
+     "url": "https://archive.org/details/SoftTarget",
+     "ref": "softtarget-1989"
     }
    ],
    "confidence": "high",
@@ -2027,6 +2032,105 @@
    },
    "end_date": {
     "year": 1981
+   }
+  },
+  {
+   "unique_id": "zail-singh-expatriate-campaign-1981",
+   "start_date": {
+    "year": 1981,
+    "month": 4,
+    "day": 9
+   },
+   "display_date": "April 9, 1981",
+   "text": {
+    "headline": "India announces a campaign against Khalistan supporters abroad",
+    "text": "Home Minister Zail Singh announced a campaign directed at Khalistan supporters living outside India, including in Canada. Kashmeri and McAndrew treat this announcement as the opening of a sustained effort to monitor and discredit diaspora Sikh political activity, and trace much of what followed in Canada back to it."
+   },
+   "group": "Partition & Post-Independence (1947-1983)",
+   "category": "Transnational Repression",
+   "media": {
+    "url": "",
+    "caption": "",
+    "credit": ""
+   },
+   "sources": [
+    {
+     "title": "Soft Target: How the Indian Intelligence Service Penetrated Canada",
+     "url": "https://archive.org/details/SoftTarget",
+     "ref": "softtarget-1989"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "New Delhi, India",
+    "region": "Punjab/India",
+    "lat": 28.61,
+    "lon": 77.21
+   }
+  },
+  {
+   "unique_id": "india-diplomatic-cover-spies-1982",
+   "start_date": {
+    "year": 1982
+   },
+   "display_date": "From 1982",
+   "text": {
+    "headline": "Indian intelligence officers posted abroad under diplomatic cover",
+    "text": "Kashmeri and McAndrew report that from about 1982 India placed intelligence officers in foreign postings under diplomatic cover, including at its missions in Canada. The book documents a Toronto vice-consul, Surinder Malik Ahluwalia, taking an unexplained interest in gurdwara politics, in a Sikh newspaper's finances, and in individual community figures."
+   },
+   "group": "Partition & Post-Independence (1947-1983)",
+   "category": "Transnational Repression",
+   "media": {
+    "url": "",
+    "caption": "",
+    "credit": ""
+   },
+   "sources": [
+    {
+     "title": "Soft Target: How the Indian Intelligence Service Penetrated Canada",
+     "url": "https://archive.org/details/SoftTarget",
+     "ref": "softtarget-1989"
+    }
+   ],
+   "confidence": "medium",
+   "location": {
+    "place": "Toronto, Ontario, Canada",
+    "region": "Canada",
+    "lat": 43.65,
+    "lon": -79.38
+   }
+  },
+  {
+   "unique_id": "osgoode-hall-shootings-1982",
+   "start_date": {
+    "year": 1982,
+    "month": 3
+   },
+   "display_date": "March 1982",
+   "text": {
+    "headline": "Courtroom shooting at Osgoode Hall, Toronto",
+    "text": "Two people were shot dead and another wounded inside an Ontario Supreme Court courtroom at Osgoode Hall during litigation over control of a Toronto gurdwara. The suspect, Kuldip Singh Samra, fled to India and evaded capture for years. Soft Target argues the killings hardened Canadian public opinion against Sikhs and were subsequently used to characterise the whole community as prone to violence."
+   },
+   "group": "Partition & Post-Independence (1947-1983)",
+   "category": "Justice",
+   "media": {
+    "url": "",
+    "caption": "",
+    "credit": ""
+   },
+   "sources": [
+    {
+     "title": "Soft Target: How the Indian Intelligence Service Penetrated Canada",
+     "url": "https://archive.org/details/SoftTarget",
+     "ref": "softtarget-1989"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Toronto, Ontario, Canada",
+    "region": "Canada",
+    "lat": 43.65,
+    "lon": -79.38
    }
   },
   {
@@ -2100,6 +2204,40 @@
    }
   },
   {
+   "unique_id": "metro-police-warning-rcmp-1982",
+   "start_date": {
+    "year": 1982,
+    "month": 12,
+    "day": 29
+   },
+   "display_date": "December 29, 1982",
+   "text": {
+    "headline": "Toronto police warn the RCMP about Indian consular activity",
+    "text": "Two Metro Toronto Police intelligence officers met the RCMP Security Service at its Ontario headquarters to raise concerns about the activities of Indian diplomats among Toronto's Sikhs. According to the book, the warning was set aside, as was a later proposal for an investigation from a senior member of the service itself — a reluctance the authors attribute partly to concern for trade relations with India."
+   },
+   "group": "Partition & Post-Independence (1947-1983)",
+   "category": "Transnational Repression",
+   "media": {
+    "url": "",
+    "caption": "",
+    "credit": ""
+   },
+   "sources": [
+    {
+     "title": "Soft Target: How the Indian Intelligence Service Penetrated Canada",
+     "url": "https://archive.org/details/SoftTarget",
+     "ref": "softtarget-1989"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Toronto, Ontario, Canada",
+    "region": "Canada",
+    "lat": 43.65,
+    "lon": -79.38
+   }
+  },
+  {
    "unique_id": "bhindranwale-darbar-sahib-1984",
    "start_date": {
     "year": 1984
@@ -2135,6 +2273,38 @@
     "region": "Punjab/India",
     "lat": 31.62,
     "lon": 74.876
+   }
+  },
+  {
+   "unique_id": "csis-sikh-investigation-1984",
+   "start_date": {
+    "year": 1984
+   },
+   "display_date": "Late 1984",
+   "text": {
+    "headline": "Newly created CSIS takes over surveillance of Canadian Sikhs",
+    "text": "The Canadian Security Intelligence Service, created that year out of the RCMP Security Service, inherited an investigation into a small number of Canadian Sikh activists. The book argues the young agency lacked the language skills and community knowledge the work required, and was repeatedly sent chasing allegations that originated with the Indian government."
+   },
+   "group": "1984 & Aftermath (1984-1999)",
+   "category": "Transnational Repression",
+   "media": {
+    "url": "",
+    "caption": "",
+    "credit": ""
+   },
+   "sources": [
+    {
+     "title": "Soft Target: How the Indian Intelligence Service Penetrated Canada",
+     "url": "https://archive.org/details/SoftTarget",
+     "ref": "softtarget-1989"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Ottawa, Ontario, Canada",
+    "region": "Canada",
+    "lat": 45.42,
+    "lon": -75.7
    }
   },
   {
@@ -2175,6 +2345,11 @@
      "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
      "ref": "sikhri-special-report-2023"
+    },
+    {
+     "title": "Soft Target: How the Indian Intelligence Service Penetrated Canada",
+     "url": "https://archive.org/details/SoftTarget",
+     "ref": "softtarget-1989"
     }
    ],
    "confidence": "high",
@@ -2215,6 +2390,11 @@
      "title": "Fighting for Faith and Nation: Dialogues with Sikh Militants",
      "url": "https://www.pennpress.org/9780812215922/fighting-for-faith-and-nation/",
      "ref": "mahmood-1996"
+    },
+    {
+     "title": "Soft Target: How the Indian Intelligence Service Penetrated Canada",
+     "url": "https://archive.org/details/SoftTarget",
+     "ref": "softtarget-1989"
     }
    ],
    "confidence": "high",
@@ -2274,6 +2454,105 @@
    }
   },
   {
+   "unique_id": "camper-mercenary-affair-1984",
+   "start_date": {
+    "year": 1984,
+    "month": 11
+   },
+   "display_date": "November 1984",
+   "text": {
+    "headline": "The Camper affair: Sikhs approach a US mercenary trainer",
+    "text": "A group of Sikhs seeking guerrilla warfare training approached Frank Camper, a Vietnam veteran running a mercenary school in Alabama who was himself later jailed on bombing charges. The episode was widely publicised as proof of a North American Sikh terror network; Soft Target presents it as a case where the trainees' own competence and intentions were far less clear than the coverage suggested."
+   },
+   "group": "1984 & Aftermath (1984-1999)",
+   "category": "Transnational Repression",
+   "media": {
+    "url": "",
+    "caption": "",
+    "credit": ""
+   },
+   "sources": [
+    {
+     "title": "Soft Target: How the Indian Intelligence Service Penetrated Canada",
+     "url": "https://archive.org/details/SoftTarget",
+     "ref": "softtarget-1989"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Alabama, United States",
+    "region": "USA",
+    "lat": 33.52,
+    "lon": -86.81
+   }
+  },
+  {
+   "unique_id": "ahluwalia-leaves-canada-1985",
+   "start_date": {
+    "year": 1985
+   },
+   "display_date": "1985",
+   "text": {
+    "headline": "The Toronto vice-consul leaves the Indian foreign service",
+    "text": "Surinder Malik Ahluwalia, the Indian vice-consul in Toronto whose involvement in Sikh community affairs is a central thread of Soft Target, quit the Indian foreign service and disappeared from Canada. Police and intelligence officers interviewed for the book were never able to account fully for his relationships with figures on several sides of the conflict."
+   },
+   "group": "1984 & Aftermath (1984-1999)",
+   "category": "Transnational Repression",
+   "media": {
+    "url": "",
+    "caption": "",
+    "credit": ""
+   },
+   "sources": [
+    {
+     "title": "Soft Target: How the Indian Intelligence Service Penetrated Canada",
+     "url": "https://archive.org/details/SoftTarget",
+     "ref": "softtarget-1989"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Toronto, Ontario, Canada",
+    "region": "Canada",
+    "lat": 43.65,
+    "lon": -79.38
+   }
+  },
+  {
+   "unique_id": "duncan-woods-test-1985",
+   "start_date": {
+    "year": 1985,
+    "month": 6,
+    "day": 4
+   },
+   "display_date": "June 4, 1985",
+   "text": {
+    "headline": "Test explosion in the woods outside Duncan, British Columbia",
+    "text": "Talwinder Singh Parmar and Inderjit Singh Reyat went into woods outside Duncan on Vancouver Island carrying a twelve-volt battery and other components, watched by a CSIS surveillance team that heard a loud report and did not understand what it had witnessed. It was two days before the first anniversary of the attack on the Golden Temple and nineteen days before Air India Flight 182 was destroyed."
+   },
+   "group": "1984 & Aftermath (1984-1999)",
+   "category": "Justice",
+   "media": {
+    "url": "",
+    "caption": "",
+    "credit": ""
+   },
+   "sources": [
+    {
+     "title": "Soft Target: How the Indian Intelligence Service Penetrated Canada",
+     "url": "https://archive.org/details/SoftTarget",
+     "ref": "softtarget-1989"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Duncan, Vancouver Island, Canada",
+    "region": "Canada",
+    "lat": 48.78,
+    "lon": -123.7
+   }
+  },
+  {
    "unique_id": "air-india-182-1985",
    "start_date": {
     "year": 1985,
@@ -2283,7 +2562,7 @@
    "display_date": "June 23, 1985",
    "text": {
     "headline": "Air India Flight 182 bombing",
-    "text": "On 23 June 1985, a bomb destroyed Air India Flight 182 over the Atlantic, killing all 329 people aboard, most of them Canadian citizens of Indian origin. The bombing, and the 2005 acquittal of Ripudaman Singh Malik and Ajaib Singh Bagri, remained a recurring reference point in Canadian coverage of Sikh political activity for decades afterward. Canada's later public inquiry attributed the plot to Sikh militants based in British Columbia, naming Talwinder Singh Parmar as its mastermind, and found catastrophic failures by Canadian security agencies. Canadian intelligence operative Michel Juneau-Katsuya later reported evidence of undercover agents from India's embassy infiltrating Canada's Sikh community around this period."
+    "text": "On 23 June 1985, a bomb destroyed Air India Flight 182 over the Atlantic, killing all 329 people aboard, most of them Canadian citizens of Indian origin. The bombing, and the 2005 acquittal of Ripudaman Singh Malik and Ajaib Singh Bagri, remained a recurring reference point in Canadian coverage of Sikh political activity for decades afterward. Canada's later public inquiry attributed the plot to Sikh militants based in British Columbia, naming Talwinder Singh Parmar as its mastermind, and found catastrophic failures by Canadian security agencies. Canadian intelligence operative Michel Juneau-Katsuya later reported evidence of undercover agents from India's embassy infiltrating Canada's Sikh community around this period. Kashmeri and McAndrew's Soft Target, published in 1989, argued that Indian intelligence had penetrated Canadian Sikh institutions during this period and that Canadian agencies discounted evidence pointing that way; Canada's later public inquiry reached different conclusions about responsibility for the bombing."
    },
    "group": "1984 & Aftermath (1984-1999)",
    "category": "Justice",
@@ -2308,6 +2587,11 @@
      "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
      "ref": "sikhri-special-report-2023"
+    },
+    {
+     "title": "Soft Target: How the Indian Intelligence Service Penetrated Canada",
+     "url": "https://archive.org/details/SoftTarget",
+     "ref": "softtarget-1989"
     }
    ],
    "confidence": "high",
@@ -2316,6 +2600,137 @@
     "region": "Other/Global",
     "lat": 51.0,
     "lon": -12.4
+   }
+  },
+  {
+   "unique_id": "narita-airport-bombing-1985",
+   "start_date": {
+    "year": 1985,
+    "month": 6,
+    "day": 23
+   },
+   "display_date": "June 23, 1985",
+   "text": {
+    "headline": "Bomb kills two baggage handlers at Narita Airport",
+    "text": "Fifty-five minutes before Air India Flight 182 came down off the Irish coast, a bomb exploded in a baggage transit building at Narita Airport outside Tokyo, killing two Japanese workers. The luggage was being moved from a Canadian Pacific flight out of Vancouver to an onward Air India service, indicating two devices dispatched from Canada the same day."
+   },
+   "group": "1984 & Aftermath (1984-1999)",
+   "category": "Justice",
+   "media": {
+    "url": "",
+    "caption": "",
+    "credit": ""
+   },
+   "sources": [
+    {
+     "title": "Soft Target: How the Indian Intelligence Service Penetrated Canada",
+     "url": "https://archive.org/details/SoftTarget",
+     "ref": "softtarget-1989"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Narita Airport, Tokyo, Japan",
+    "region": "Other/Global",
+    "lat": 35.76,
+    "lon": 140.39
+   }
+  },
+  {
+   "unique_id": "khalsa-credit-union-founded-1985",
+   "start_date": {
+    "year": 1985,
+    "month": 11
+   },
+   "display_date": "November 1985",
+   "text": {
+    "headline": "Khalsa Credit Union founded in British Columbia",
+    "text": "Talwinder Singh Parmar and Ripudaman Singh Malik assembled some fifty members to found the Khalsa Credit Union in British Columbia. The book traces how the institution's lending later underwrote property development connected to Parmar, and how its growth gave the Babbar Khalsa a durable financial base within the community."
+   },
+   "group": "1984 & Aftermath (1984-1999)",
+   "category": "Institutions",
+   "media": {
+    "url": "",
+    "caption": "",
+    "credit": ""
+   },
+   "sources": [
+    {
+     "title": "Soft Target: How the Indian Intelligence Service Penetrated Canada",
+     "url": "https://archive.org/details/SoftTarget",
+     "ref": "softtarget-1989"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Vancouver, British Columbia, Canada",
+    "region": "Canada",
+    "lat": 49.28,
+    "lon": -123.12
+   }
+  },
+  {
+   "unique_id": "external-affairs-consulate-documents-1986",
+   "start_date": {
+    "year": 1986
+   },
+   "display_date": "1986",
+   "text": {
+    "headline": "Ottawa reviews documents linking the Indian consulate to the bombing",
+    "text": "Material said to connect the Indian consulate to the 1985 Air India bombing was passed to External Affairs for review during 1986. Soft Target reports that the department did not pursue it, and links that reluctance to Canadian commercial interests then being negotiated with India, including a major pipeline contract."
+   },
+   "group": "1984 & Aftermath (1984-1999)",
+   "category": "Transnational Repression",
+   "media": {
+    "url": "",
+    "caption": "",
+    "credit": ""
+   },
+   "sources": [
+    {
+     "title": "Soft Target: How the Indian Intelligence Service Penetrated Canada",
+     "url": "https://archive.org/details/SoftTarget",
+     "ref": "softtarget-1989"
+    }
+   ],
+   "confidence": "medium",
+   "location": {
+    "place": "Ottawa, Ontario, Canada",
+    "region": "Canada",
+    "lat": 45.42,
+    "lon": -75.7
+   }
+  },
+  {
+   "unique_id": "csis-identifies-indian-operative-1986",
+   "start_date": {
+    "year": 1986
+   },
+   "display_date": "Early 1986",
+   "text": {
+    "headline": "CSIS identifies an Indian intelligence operative in Canada",
+    "text": "CSIS concluded in early 1986 that a man the book calls Lal was working in Canada as an Indian intelligence operative, running paid informants inside the Sikh community. According to the authors, no action was taken against him, a decision they connect to External Affairs' concern for a pending commercial agreement with India."
+   },
+   "group": "1984 & Aftermath (1984-1999)",
+   "category": "Transnational Repression",
+   "media": {
+    "url": "",
+    "caption": "",
+    "credit": ""
+   },
+   "sources": [
+    {
+     "title": "Soft Target: How the Indian Intelligence Service Penetrated Canada",
+     "url": "https://archive.org/details/SoftTarget",
+     "ref": "softtarget-1989"
+    }
+   ],
+   "confidence": "medium",
+   "location": {
+    "place": "Toronto, Ontario, Canada",
+    "region": "Canada",
+    "lat": 43.65,
+    "lon": -79.38
    }
   },
   {
@@ -2351,6 +2766,40 @@
     "region": "Punjab/India",
     "lat": 31.13,
     "lon": 75.47
+   }
+  },
+  {
+   "unique_id": "parmar-babbar-khalsa-acquitted-1986",
+   "start_date": {
+    "year": 1986,
+    "month": 4,
+    "day": 14
+   },
+   "display_date": "April 14, 1986",
+   "text": {
+    "headline": "Parmar and Babbar Khalsa members acquitted in Hamilton",
+    "text": "Talwinder Singh Parmar and other Babbar Khalsa members were acquitted at the Hamilton courthouse of conspiring to commit terrorist acts in India. The prosecution had rested substantially on wiretap material, and the acquittal became a significant setback for the Canadian agencies pursuing the group in the months after the Air India bombing."
+   },
+   "group": "1984 & Aftermath (1984-1999)",
+   "category": "Justice",
+   "media": {
+    "url": "",
+    "caption": "",
+    "credit": ""
+   },
+   "sources": [
+    {
+     "title": "Soft Target: How the Indian Intelligence Service Penetrated Canada",
+     "url": "https://archive.org/details/SoftTarget",
+     "ref": "softtarget-1989"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Hamilton, Ontario, Canada",
+    "region": "Canada",
+    "lat": 43.26,
+    "lon": -79.87
    }
   },
   {
@@ -2459,6 +2908,72 @@
     "region": "Punjab/India",
     "lat": 31.63,
     "lon": 74.87
+   }
+  },
+  {
+   "unique_id": "balkar-singh-returns-1988",
+   "start_date": {
+    "year": 1988,
+    "month": 10,
+    "day": 26
+   },
+   "display_date": "October 26, 1988",
+   "text": {
+    "headline": "Balkar Singh returns to Toronto after a year in a Punjab jail",
+    "text": "Balkar Singh landed at Toronto's Pearson Airport having spent a year imprisoned at Mal Mandi in Amritsar, an interrogation centre with a reputation for torture, on accusations the book describes as fabricated. Soft Target presents his case as an example of Canadian residents detained in India on evidence obtained under duress, with little protection from Ottawa."
+   },
+   "group": "1984 & Aftermath (1984-1999)",
+   "category": "Human Rights",
+   "media": {
+    "url": "",
+    "caption": "",
+    "credit": ""
+   },
+   "sources": [
+    {
+     "title": "Soft Target: How the Indian Intelligence Service Penetrated Canada",
+     "url": "https://archive.org/details/SoftTarget",
+     "ref": "softtarget-1989"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Panjab, India",
+    "region": "Punjab/India",
+    "lat": 31.15,
+    "lon": 75.34
+   }
+  },
+  {
+   "unique_id": "soft-target-published-1989",
+   "start_date": {
+    "year": 1989
+   },
+   "display_date": "1989",
+   "text": {
+    "headline": "Soft Target published in Toronto",
+    "text": "Zuhair Kashmeri of the Globe and Mail and Brian McAndrew of the Toronto Star published Soft Target: How the Indian Intelligence Service Penetrated Canada. Drawing on police, intelligence and community sources, it argued that Indian intelligence had operated inside Canadian Sikh institutions through the 1980s and that Canadian agencies had discounted the evidence. It remains a contested but frequently cited account of the period."
+   },
+   "group": "1984 & Aftermath (1984-1999)",
+   "category": "Commemoration",
+   "media": {
+    "url": "",
+    "caption": "",
+    "credit": ""
+   },
+   "sources": [
+    {
+     "title": "Soft Target: How the Indian Intelligence Service Penetrated Canada",
+     "url": "https://archive.org/details/SoftTarget",
+     "ref": "softtarget-1989"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Toronto, Ontario, Canada",
+    "region": "Canada",
+    "lat": 43.65,
+    "lon": -79.38
    }
   },
   {
@@ -2894,6 +3409,11 @@
      "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
      "ref": "sikhri-special-report-2023"
+    },
+    {
+     "title": "Soft Target: How the Indian Intelligence Service Penetrated Canada",
+     "url": "https://archive.org/details/SoftTarget",
+     "ref": "softtarget-1989"
     }
    ],
    "confidence": "high",
@@ -2928,6 +3448,11 @@
      "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
      "ref": "sikhri-special-report-2023"
+    },
+    {
+     "title": "Soft Target: How the Indian Intelligence Service Penetrated Canada",
+     "url": "https://archive.org/details/SoftTarget",
+     "ref": "softtarget-1989"
     }
    ],
    "confidence": "high",
@@ -6371,6 +6896,17 @@
    "note": "Traces the roots of the present crisis through post-1947 grievances, the 1984 Sikh Genocide, unresolved human rights violations, and the transnational repression of the diaspora.",
    "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
    "pdf": "https://cdn.prod.website-files.com/5e29591964852b5d27d96ea4/65778c73531f144b5a1bfdf6_A%20Special%20Report%20on%20Historical%20Context%201984-2023.pdf"
+  },
+  "softtarget-1989": {
+   "type": "Book",
+   "title": "Soft Target: How the Indian Intelligence Service Penetrated Canada",
+   "author": "Zuhair Kashmeri & Brian McAndrew",
+   "publisher": "James Lorimer & Company",
+   "year": "1989",
+   "detail": "183 pages · ISBN 1-55028-221-2 · reprinted 2005",
+   "note": "Two Canadian journalists — Kashmeri of the Globe and Mail, McAndrew of the Toronto Star — investigate Indian intelligence activity inside Canada in the 1980s, and argue that Ottawa's security services and External Affairs consistently discounted warnings about it while deferring to New Delhi.",
+   "url": "https://archive.org/details/SoftTarget",
+   "pdf": "https://archive.org/download/SoftTarget/SoftTarget.pdf"
   }
  }
 }
