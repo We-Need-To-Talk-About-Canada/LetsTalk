@@ -2578,7 +2578,7 @@
    "display_date": "June 23, 1985",
    "text": {
     "headline": "Air India Flight 182 bombing",
-    "text": "On 23 June 1985, a bomb destroyed Air India Flight 182 over the Atlantic, killing all 329 people aboard, most of them Canadian citizens of Indian origin. The bombing, and the 2005 acquittal of Ripudaman Singh Malik and Ajaib Singh Bagri, remained a recurring reference point in Canadian coverage of Sikh political activity for decades afterward. Canada's later public inquiry attributed the plot to Sikh militants based in British Columbia, naming Talwinder Singh Parmar as its mastermind, and found catastrophic failures by Canadian security agencies. Canadian intelligence operative Michel Juneau-Katsuya later reported evidence of undercover agents from India's embassy infiltrating Canada's Sikh community around this period. Kashmeri and McAndrew's Soft Target, published in 1989, argued that Indian intelligence had penetrated Canadian Sikh institutions during this period and that Canadian agencies discounted evidence pointing that way; Canada's later public inquiry reached different conclusions about responsibility for the bombing."
+    "text": "On 23 June 1985 a bomb destroyed Air India Flight 182 over the Atlantic, killing all 329 people aboard, most of them Canadian citizens of Indian origin. It remains the deadliest terrorist attack in Canadian history. Ripudaman Singh Malik and Ajaib Singh Bagri were acquitted in 2005, and no one has been convicted of the bombing itself. Kashmeri and McAndrew argued in Soft Target (1989) that Indian intelligence had penetrated Canadian Sikh institutions during this period and that Canadian agencies discounted evidence pointing that way; the intelligence officer Michel Juneau-Katsuya later reported similar findings about agents working out of India's missions."
    },
    "group": "1984 & Aftermath (1984-1999)",
    "category": "Justice",
@@ -3485,6 +3485,35 @@
      "ref": "softtarget-1989"
     }
    ],
+   "confidence": "high",
+   "location": {
+    "place": "Ottawa, Ontario, Canada",
+    "region": "Canada",
+    "lat": 45.42,
+    "lon": -75.7
+   }
+  },
+  {
+   "unique_id": "air-india-inquiry-report-2010",
+   "start_date": {
+    "year": 2010,
+    "month": 6
+   },
+   "display_date": "June 2010",
+   "text": {
+    "headline": "The Air India Inquiry reports on Canada's failures",
+    "text": "The Commission of Inquiry into the Investigation of the Bombing of Air India Flight 182, chaired by former Supreme Court Justice John Major, delivered its final report. It found the bombing had been preventable and described a cascading series of errors across CSIS, the RCMP and Transport Canada, including the erasure of wiretap tapes and a rivalry between the two agencies that crippled the investigation. It attributed the plot to Babbar Khalsa members in British Columbia and named Talwinder Singh Parmar as its mastermind. The Commission's mandate was the conduct of the Canadian investigation rather than the question of foreign state involvement, and a substantial part of the material before it was never made public."
+   },
+   "group": "Contemporary & Diaspora (2000-2026)",
+   "category": "Justice",
+   "media": {
+    "caption": "Centre Block on Parliament Hill, Ottawa — representative image of the federal government that commissioned the inquiry, not of the inquiry itself.",
+    "credit": "Wikimedia Commons",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Centre_Block_-_Parliament_Hill.jpg/1024px-Centre_Block_-_Parliament_Hill.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Centre_Block_-_Parliament_Hill.jpg/480px-Centre_Block_-_Parliament_Hill.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Centre_Block_-_Parliament_Hill.jpg?width=1024"
+   },
+   "sources": [],
    "confidence": "high",
    "location": {
     "place": "Ottawa, Ontario, Canada",
@@ -5383,6 +5412,41 @@
    }
   },
   {
+   "unique_id": "yadav-indictment-2024",
+   "start_date": {
+    "year": 2024,
+    "month": 10,
+    "day": 17
+   },
+   "display_date": "October 17, 2024",
+   "text": {
+    "headline": "US names a serving Indian intelligence officer in the Pannun plot",
+    "text": "The US Justice Department unsealed a superseding indictment identifying Vikash Yadav, a former officer of India's Research and Analysis Wing described in the filings as an official of the Cabinet Secretariat, as the man who directed the plot to assassinate the Sikh American attorney Gurpatwant Singh Pannun in New York. He was charged with murder-for-hire, conspiracy to commit murder-for-hire and money laundering conspiracy. India's foreign ministry said he was no longer a government employee. He has never been arrested and is believed to remain in India."
+   },
+   "group": "Contemporary & Diaspora (2000-2026)",
+   "category": "Transnational Repression",
+   "media": {
+    "caption": "The Robert F. Kennedy Department of Justice Building, Washington, D.C. — representative image of the department that unsealed the indictment, not of the proceedings.",
+    "credit": "Wikimedia Commons",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Robert_F._Kennedy_Department_of_Justice_Building%2C_Washington%2C_D.C.jpg/1024px-Robert_F._Kennedy_Department_of_Justice_Building%2C_Washington%2C_D.C.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Robert_F._Kennedy_Department_of_Justice_Building%2C_Washington%2C_D.C.jpg/480px-Robert_F._Kennedy_Department_of_Justice_Building%2C_Washington%2C_D.C.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Robert_F._Kennedy_Department_of_Justice_Building%2C_Washington%2C_D.C.jpg?width=1024"
+   },
+   "sources": [
+    {
+     "title": "Justice Department charges former Indian intelligence official (NPR)",
+     "url": "https://www.npr.org/2024/10/17/g-s1-28835/justice-department-charges-sikh-separatist-assassination-plot"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "New York City, United States",
+    "region": "USA",
+    "lat": 40.71,
+    "lon": -74.01
+   }
+  },
+  {
    "unique_id": "canada-foreign-interference-commission-2025",
    "start_date": {
     "year": 2025,
@@ -5586,6 +5650,44 @@
     "region": "UK",
     "lat": 51.51,
     "lon": -0.375
+   }
+  },
+  {
+   "unique_id": "rcmp-no-evidence-hardball-2026",
+   "start_date": {
+    "year": 2026,
+    "month": 7
+   },
+   "display_date": "July 2026",
+   "text": {
+    "headline": "RCMP says no evidence ties Indian officials to Nijjar's killing",
+    "text": "Operation Hardball, a joint Canadian, US and European investigation, produced charges against 37 people, with the gang leader Lawrence Bishnoi and Satinderjeet Singh, known as Goldy Brar, accused of orchestrating the killing of Hardeep Singh Nijjar. RCMP Deputy Commissioner Lisa Moreland said the investigation had produced no evidence that Indian officials were involved, and that the Indian government had cooperated. CBC News reported that the remark appeared to contradict earlier statements by the RCMP Commissioner and by Prime Minister Justin Trudeau, and it sits against US court filings naming a serving Indian intelligence officer in the related Pannun plot. Sikh Canadian organisations asked publicly what had become of the evidence cited in 2023."
+   },
+   "group": "Contemporary & Diaspora (2000-2026)",
+   "category": "Transnational Repression",
+   "media": {
+    "caption": "Badge of the Royal Canadian Mounted Police — representative image of the force whose deputy commissioner made the statement, not of the announcement.",
+    "credit": "Wikimedia Commons",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Badge_of_the_Royal_Canadian_Mounted_Police.png/1024px-Badge_of_the_Royal_Canadian_Mounted_Police.png",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Badge_of_the_Royal_Canadian_Mounted_Police.png/480px-Badge_of_the_Royal_Canadian_Mounted_Police.png",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Badge_of_the_Royal_Canadian_Mounted_Police.png?width=1024"
+   },
+   "sources": [
+    {
+     "title": "Senior RCMP officer's 'no evidence' comment seems to contradict past statements (CBC)",
+     "url": "https://www.cbc.ca/news/politics/operation-hardball-rcmp-india-modi-nijjar-9.7272978"
+    },
+    {
+     "title": "Sikh Canadians ask what happened to the evidence of Indian government involvement (The Pointer)",
+     "url": "https://thepointer.com/article/2026-07-15/after-sweeping-us-charges-linked-to-nijjar-assassination-sikh-canadians-ask-what-happened-to-evidence-of-indian-government-involvement"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Ottawa, Ontario, Canada",
+    "region": "Canada",
+    "lat": 45.42,
+    "lon": -75.7
    }
   }
  ],
