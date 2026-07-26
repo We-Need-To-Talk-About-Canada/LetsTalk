@@ -13,7 +13,7 @@
 <!-- ASSET VERSION: bump this token in BOTH places below (the stylesheet href and
      the timeline-data.json fetch) whenever timeline.css or timeline-data.json
      changes, otherwise browsers keep serving the previously cached copy. -->
-<link rel="stylesheet" href="timeline.css?v=20260726c">
+<link rel="stylesheet" href="timeline.css?v=20260726f">
 </head>
 <body>
 <div class="hud-sweep" aria-hidden="true"></div>
@@ -100,6 +100,7 @@
           <div class="slide-pos" id="s-pos"></div>
           <button class="navbtn" id="btn-next" style="text-align:right" aria-label="Next event">Next &#8594;<small id="next-label"></small></button>
         </div>
+        <div class="swipe-hint"><span class="arw">&#8592;</span> Swipe to move between memories <span class="arw">&#8594;</span></div>
       </article>
 
       <aside class="side">
@@ -138,7 +139,11 @@
   <!-- ============ DOSSIER VIEW ============ -->
   <section class="view" id="view-dossier">
     <div class="dossier-intro">
-      <p>Works cited throughout this chronicle, each followed by every entry drawn from it, in date order.</p>
+      <p>Works cited throughout this chronicle. Open a work to see every entry drawn from it, in date order; open an entry to read it.</p>
+    </div>
+    <div class="dossier-controls">
+      <button type="button" id="dw-expand-all">Expand all</button>
+      <button type="button" id="dw-collapse-all">Collapse all</button>
     </div>
     <div class="dossier-nav" id="dossier-nav"></div>
     <div id="dossier-body"></div>
@@ -207,7 +212,7 @@
 
   let DATA;
   try {
-    const res = await fetch('timeline-data.json?v=20260726c');
+    const res = await fetch('timeline-data.json?v=20260726f');
     if (!res.ok) throw new Error('HTTP ' + res.status);
     DATA = await res.json();
   } catch (err) {
@@ -781,6 +786,75 @@
     if (e.key === 'Escape') closeModal();
   });
 
+  // ================= MOBILE SWIPE =================
+  // Card-style left/right swipe over the event slide on touch devices.
+  // Only claims the gesture once horizontal intent is clear, so vertical
+  // scrolling through a long entry still works normally.
+  function initSwipe(){
+    const slide = $('slide');
+    if (!slide || !window.matchMedia('(hover:none) and (pointer:coarse)').matches) return;
+    const reduce = window.matchMedia('(prefers-reduced-motion:reduce)').matches;
+    const THRESHOLD = 60;     // px of travel needed to commit
+    const CLAIM = 12;         // px before we decide the gesture is horizontal
+    let x0 = 0, y0 = 0, t0 = 0, dx = 0, horizontal = null, active = false;
+
+    const neighbour = dir => {
+      const v = visible(), i = v.indexOf(cur);
+      if (i < 0) return null;
+      const n = i + dir;
+      return (n >= 0 && n < v.length) ? v[n] : null;
+    };
+    const reset = () => {
+      slide.classList.remove('swiping');
+      if (!reduce) slide.classList.add('swipe-settle');
+      slide.style.transform = '';
+      slide.style.opacity = '';
+      setTimeout(() => slide.classList.remove('swipe-settle'), 240);
+    };
+
+    slide.addEventListener('touchstart', e => {
+      if (e.touches.length !== 1 || currentView !== 'timeline') return;
+      // let genuinely scrollable children (the source chips row) keep their gesture
+      if (e.target.closest('.sources, .related-people, a, button')) { active = false; return; }
+      const t = e.touches[0];
+      x0 = t.clientX; y0 = t.clientY; t0 = Date.now();
+      dx = 0; horizontal = null; active = true;
+      slide.classList.remove('swipe-settle');
+    }, { passive: true });
+
+    slide.addEventListener('touchmove', e => {
+      if (!active || e.touches.length !== 1) return;
+      const t = e.touches[0];
+      dx = t.clientX - x0;
+      const dy = t.clientY - y0;
+      if (horizontal === null){
+        if (Math.abs(dx) < CLAIM && Math.abs(dy) < CLAIM) return;
+        horizontal = Math.abs(dx) > Math.abs(dy);
+        if (horizontal) slide.classList.add('swiping');
+      }
+      if (!horizontal) return;
+      e.preventDefault();                       // stop the page rubber-banding sideways
+      const dir = dx < 0 ? 1 : -1;
+      const resist = neighbour(dir) === null ? 0.25 : 1;   // drag against a dead end
+      slide.style.transform = 'translateX(' + (dx * resist) + 'px)';
+      slide.style.opacity = String(Math.max(0.45, 1 - Math.abs(dx) / 420));
+    }, { passive: false });
+
+    slide.addEventListener('touchend', () => {
+      if (!active) return;
+      active = false;
+      if (!horizontal){ reset(); return; }
+      const quick = Date.now() - t0 < 500 && Math.abs(dx) > 30;
+      if (Math.abs(dx) > THRESHOLD || quick){
+        const dir = dx < 0 ? 1 : -1;
+        const target = neighbour(dir);
+        if (target !== null){ reset(); go(target); return; }
+      }
+      reset();
+    }, { passive: true });
+    slide.addEventListener('touchcancel', () => { active = false; reset(); }, { passive: true });
+  }
+
   // ================= DOSSIER (source reading view) =================
   // Presents each cited work as a bibliographic header followed by every entry
   // drawn from it, in date order - a linear read rather than the slide-by-slide
@@ -806,6 +880,7 @@
       jump.type = 'button';
       jump.textContent = w.ref.title.length > 46 ? w.ref.title.slice(0, 43) + '…' : w.ref.title;
       jump.addEventListener('click', () => {
+        if (w.setOpen) w.setOpen(true, false);
         const el = document.getElementById('work-' + w.id);
         if (el) window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY - 12, behavior: 'smooth' });
       });
@@ -843,33 +918,58 @@
       }
       sec.appendChild(head);
 
-      const count = document.createElement('div');
-      count.className = 'dw-count';
-      count.textContent = w.items.length + (w.items.length === 1 ? ' entry drawn from this work' : ' entries drawn from this work');
-      sec.appendChild(count);
+      const toggle = document.createElement('button');
+      toggle.className = 'dw-toggle'; toggle.type = 'button';
+      toggle.setAttribute('aria-expanded', 'false');
+      toggle.innerHTML = '<span class="chev">&#9654;</span><span>' + w.items.length
+        + (w.items.length === 1 ? ' entry drawn from this work' : ' entries drawn from this work')
+        + '</span><span class="dw-readall">Read all</span>';
+      sec.appendChild(toggle);
+
+      const wrap = document.createElement('div');
+      wrap.className = 'dw-entries';
+      wrap.hidden = true;
+      wrap.id = 'entries-' + w.id;
+      toggle.setAttribute('aria-controls', wrap.id);
 
       w.items.forEach(ev => {
-        const row = document.createElement('article');
+        const row = document.createElement('details');
         row.className = 'dw-entry';
         row.innerHTML =
-            '<div class="dw-when">' + esc(ev.display_date)
-          +   '<span class="dw-era">' + esc(ev.group.replace(/\s*\(.*\)/, '')) + '</span></div>'
-          + '<div>'
-          +   '<h4>' + esc(ev.text.headline) + '</h4>'
-          +   '<p>' + esc(ev.text.text) + '</p>'
+            '<summary><span class="dw-when">' + esc(ev.display_date)
+          +   '<span class="dw-era">' + esc(ev.group.replace(/\s*\(.*\)/, '')) + '</span></span>'
+          +   '<span class="dw-eh">' + esc(ev.text.headline) + '</span></summary>'
+          + '<div class="dw-body"><p>' + esc(ev.text.text) + '</p>'
           +   (ev.location && ev.location.place
                 ? '<div class="dw-where"><span class="pin">&#9670;</span>' + esc(ev.location.place) + '</div>' : '')
           + '</div>';
         const open = document.createElement('button');
         open.className = 'dw-open'; open.type = 'button';
-        open.textContent = 'Open on the timeline →';
+        open.textContent = 'Open on the timeline \u2192';
         open.addEventListener('click', () => goTo(events.indexOf(ev)));
-        row.lastElementChild.appendChild(open);
-        sec.appendChild(row);
+        row.querySelector('.dw-body').appendChild(open);
+        wrap.appendChild(row);
       });
+      sec.appendChild(wrap);
+
+      // work-level open/close; "Read all" also opens every entry inside it
+      const setOpen = (on, alsoEntries) => {
+        wrap.hidden = !on;
+        toggle.setAttribute('aria-expanded', on ? 'true' : 'false');
+        if (alsoEntries) wrap.querySelectorAll('.dw-entry').forEach(r => { r.open = on; });
+      };
+      toggle.addEventListener('click', e => {
+        const readAll = !!e.target.closest('.dw-readall');
+        const isOpen = toggle.getAttribute('aria-expanded') === 'true';
+        setOpen(readAll ? true : !isOpen, readAll);
+      });
+      w.setOpen = setOpen;
 
       body.appendChild(sec);
     });
+
+    $('dw-expand-all').onclick   = () => works.forEach(w => w.setOpen && w.setOpen(true, true));
+    $('dw-collapse-all').onclick = () => works.forEach(w => w.setOpen && w.setOpen(false, false));
   }
 
   // ================= SEARCH =================
@@ -1026,6 +1126,7 @@
 
   // ================= INIT =================
   buildIndex();
+  initSwipe();
   const hash = decodeURIComponent(location.hash.slice(1));
   const hi = hash ? events.findIndex(e => e.unique_id === hash) : -1;
   go(hi >= 0 ? hi : 0, false);
