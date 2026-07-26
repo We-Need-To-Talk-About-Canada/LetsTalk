@@ -13,7 +13,7 @@
 <!-- ASSET VERSION: bump this token in BOTH places below (the stylesheet href and
      the timeline-data.json fetch) whenever timeline.css or timeline-data.json
      changes, otherwise browsers keep serving the previously cached copy. -->
-<link rel="stylesheet" href="timeline.css?v=20260726f">
+<link rel="stylesheet" href="timeline.css?v=20260726g">
 </head>
 <body>
 <div class="hud-sweep" aria-hidden="true"></div>
@@ -212,7 +212,7 @@
 
   let DATA;
   try {
-    const res = await fetch('timeline-data.json?v=20260726f');
+    const res = await fetch('timeline-data.json?v=20260726g');
     if (!res.ok) throw new Error('HTTP ' + res.status);
     DATA = await res.json();
   } catch (err) {
