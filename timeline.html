@@ -13,7 +13,7 @@
 <!-- ASSET VERSION: bump this token in BOTH places below (the stylesheet href and
      the timeline-data.json fetch) whenever timeline.css or timeline-data.json
      changes, otherwise browsers keep serving the previously cached copy. -->
-<link rel="stylesheet" href="timeline.css?v=20260726g">
+<link rel="stylesheet" href="timeline.css?v=20260726h">
 </head>
 <body>
 <div class="hud-sweep" aria-hidden="true"></div>
@@ -45,6 +45,7 @@
     <button class="tab" data-view="codex" role="tab"><span class="tnum">03</span>Codex</button>
     <button class="tab" data-view="index" role="tab"><span class="tnum">04</span>Index</button>
     <button class="tab" data-view="dossier" role="tab"><span class="tnum">05</span>Dossier</button>
+    <button class="tab" data-view="playbook" role="tab"><span class="tnum">06</span>Playbook</button>
     <div class="tab-indicator" id="tab-indicator"></div>
   </div>
 
@@ -149,6 +150,18 @@
     <div id="dossier-body"></div>
   </section>
 
+  <!-- ============ PLAYBOOK VIEW ============ -->
+  <section class="view" id="view-playbook">
+    <div class="pb-intro">
+      <h2>How the story gets shaped</h2>
+      <p>Ten techniques used to spread disinformation about Sikhs abroad, each with a documented case and
+         the reporting it comes from. Nothing here is inferred: every claim is attributed to the outlet,
+         investigator or official body that made it.</p>
+    </div>
+    <div class="pb-nav" id="pb-nav"></div>
+    <div id="pb-body"></div>
+  </section>
+
   <!-- ============ INDEX VIEW ============ -->
   <section class="view" id="view-index">
     <div class="indexview">
@@ -212,7 +225,7 @@
 
   let DATA;
   try {
-    const res = await fetch('timeline-data.json?v=20260726g');
+    const res = await fetch('timeline-data.json?v=20260726h');
     if (!res.ok) throw new Error('HTTP ' + res.status);
     DATA = await res.json();
   } catch (err) {
@@ -350,6 +363,7 @@
     }
     if (name === 'codex' && !codexBuilt) buildCodex();
     if (name === 'dossier' && !dossierBuilt) buildDossier();
+    if (name === 'playbook' && !playbookBuilt) buildPlaybook();
   }
   tabbar.addEventListener('click', e => {
     const btn = e.target.closest('.tab');
@@ -970,6 +984,58 @@
 
     $('dw-expand-all').onclick   = () => works.forEach(w => w.setOpen && w.setOpen(true, true));
     $('dw-collapse-all').onclick = () => works.forEach(w => w.setOpen && w.setOpen(false, false));
+  }
+
+  // ================= PLAYBOOK =================
+  // Each technique is stated plainly, then evidenced. Sources are rendered with
+  // their publication date so a reader can see when the claim was made.
+  let playbookBuilt = false;
+  function buildPlaybook(){
+    playbookBuilt = true;
+    const items = DATA.playbook || [];
+    const nav = $('pb-nav'), body = $('pb-body');
+    nav.innerHTML = ''; body.innerHTML = '';
+    if (!items.length){ body.innerHTML = '<div class="q-empty">Nothing recorded yet.</div>'; return; }
+
+    items.forEach(t => {
+      const jump = document.createElement('button');
+      jump.type = 'button';
+      jump.innerHTML = '<span class="pbn">' + String(t.n).padStart(2, '0') + '</span>' + esc(t.name);
+      jump.addEventListener('click', () => {
+        const el = document.getElementById('pb-' + t.id);
+        if (el) window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY - 12, behavior: 'smooth' });
+      });
+      nav.appendChild(jump);
+    });
+
+    items.forEach(t => {
+      const card = document.createElement('article');
+      card.className = 'pb-card';
+      card.id = 'pb-' + t.id;
+
+      let srcHTML = '';
+      (t.sources || []).forEach(s => {
+        srcHTML += '<a href="' + esc(s.url) + '" target="_blank" rel="noopener">'
+                 + (s.date ? '<span class="pbd">' + esc(s.date) + '</span>' : '')
+                 + '<span class="pbt">' + esc(s.title) + '</span></a>';
+      });
+      (t.refs || []).forEach(id => {
+        const r = references[id];
+        if (r) srcHTML += '<span class="pb-book">' + esc(r.title.split(':')[0])
+                        + (r.year ? ' (' + esc(r.year) + ')' : '') + '</span>';
+      });
+
+      card.innerHTML =
+          '<span class="pb-num">Technique ' + String(t.n).padStart(2, '0') + '</span>'
+        + '<h3>' + esc(t.name) + '</h3>'
+        + '<div class="pb-what">' + esc(t.what) + '</div>'
+        + '<div class="pb-lbl">How it works</div>'
+        + '<p class="pb-how">' + esc(t.how) + '</p>'
+        + '<div class="pb-case"><div class="pb-lbl">Documented case</div><p>' + esc(t.case) + '</p>'
+        +   (srcHTML ? '<div class="pb-src">' + srcHTML + '</div>' : '')
+        + '</div>';
+      body.appendChild(card);
+    });
   }
 
   // ================= SEARCH =================
