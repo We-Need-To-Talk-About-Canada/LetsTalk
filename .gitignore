@@ -1,0 +1,16 @@
+# This repository is public and is served as-is by GitHub Pages: anything
+# committed here is downloadable by anyone who guesses the filename, whether or
+# not the site links to it. A private course reading pack was committed by
+# accident once and had to be taken back out, so source documents are kept out
+# by default.
+#
+# The site itself needs no local PDF or Office file: works are cited by their
+# original publication in SOURCES-AND-QUOTES.md, and the two PDFs referenced in
+# timeline-data.json are links to archive.org and to SikhRI's own CDN.
+#
+# If you genuinely mean to publish one, override with:  git add -f <file>
+*.pdf
+*.docx
+*.doc
+*.pptx
+*.epub

@@ -1,9 +1,10 @@
 # Sources and quotes from the course readings
 
-A set of PDFs was added to this repository: the reading pack for **Sikhi 201**, a course
-in SikhRI's Sidak programme. Those PDFs are a private compilation and are **not cited
-anywhere on the site, and are not linked from it.** What the chronicle cites is the
-*original publication* each excerpt was taken from.
+The findings below were drawn from the reading pack for **Sikhi 201**, a course in SikhRI's
+Sidak programme. That pack is a private compilation: it was read to extract these findings
+and has since been removed from this repository, and it is **neither cited nor linked
+anywhere on the site.** What the chronicle cites is the *original publication* each excerpt
+was taken from.
 
 This file is the working record of that: for each reading, where it actually comes from,
 how that was established, and — where a finding was folded into the chronicle — the
