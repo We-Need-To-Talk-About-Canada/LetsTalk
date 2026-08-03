@@ -281,6 +281,52 @@
   .tog:hover{color:var(--ink-2);}
   .tog.on{color:var(--accent); border-color:var(--accent-dim);}
   .tog.on .dot{background:var(--accent); border-color:var(--accent); box-shadow:0 0 7px var(--accent-dim);}
+  /* some outlets on, some off */
+  .tog.partial .dot{background:linear-gradient(90deg, var(--accent) 50%, transparent 50%);}
+
+  /* ---------- source picker ---------- */
+  .srcpick{position:relative;}
+  .src-panel{
+    position:absolute; z-index:40; top:calc(100% + 6px); left:0; width:min(340px, 84vw);
+    background:#0C1017; border:1px solid var(--line); box-shadow:0 18px 40px rgba(0,0,0,.6);
+    text-transform:none; letter-spacing:0;
+    animation:spin-fade .16s ease-out;
+  }
+  @keyframes spin-fade{ from{opacity:0; transform:translateY(-4px);} to{opacity:1; transform:none;} }
+  .sp-head{
+    font-family:var(--sans); font-size:10px; font-weight:600; letter-spacing:.18em;
+    text-transform:uppercase; color:var(--ink-3); padding:12px 14px 9px; border-bottom:1px solid var(--line-dim);
+  }
+  .sp-row{
+    display:flex; align-items:flex-start; gap:11px; width:100%; text-align:left;
+    background:none; border:none; border-bottom:1px solid var(--line-dim);
+    padding:11px 14px; cursor:pointer; color:var(--ink-3); transition:background .15s;
+  }
+  .sp-row:hover{background:rgba(255,255,255,0.035);}
+  .sp-row .box{
+    flex-shrink:0; width:14px; height:14px; margin-top:2px; border:1px solid var(--line);
+    display:grid; place-items:center; transition:background .15s, border-color .15s;
+  }
+  .sp-row.on .box{background:var(--accent); border-color:var(--accent);}
+  .sp-row.on .box::after{content:"\2713"; font-size:10px; color:#0C1017; line-height:1;}
+  .sp-txt{flex:1; min-width:0;}
+  .sp-txt b{
+    display:block; font-family:var(--sans); font-size:12px; font-weight:600;
+    letter-spacing:.04em; color:var(--ink-2); transition:color .15s;
+  }
+  .sp-row.on .sp-txt b{color:var(--ink);}
+  .sp-txt small{display:block; font-size:11px; line-height:1.45; color:var(--ink-3); margin-top:2px;}
+  .sp-n{
+    flex-shrink:0; font-family:var(--mono); font-size:10.5px; color:var(--accent); opacity:.65;
+  }
+  .sp-row.on .sp-n{opacity:1;}
+  .sp-foot{display:flex; gap:8px; padding:10px 14px;}
+  .sp-foot button{
+    flex:1; font-family:var(--sans); font-size:9.5px; font-weight:600; letter-spacing:.14em;
+    text-transform:uppercase; background:none; border:1px solid var(--line-dim);
+    color:var(--ink-3); padding:7px 8px; cursor:pointer; transition:all .18s;
+  }
+  .sp-foot button:hover{border-color:var(--accent-dim); color:var(--accent);}
 
   /* a sub-entry points back up; a major entry lists what sits under it */
   .parent-crumb{
@@ -308,8 +354,10 @@
   .subtag .d{font-family:var(--mono); font-size:10px; color:var(--accent); margin-right:10px;}
   .subtag:hover{border-color:var(--accent-dim); color:var(--accent); transform:translateX(2px);}
 
+  /* says plainly when the filter is holding something back */
   .cite-peek{
-    font-family:var(--sans); font-size:11px; letter-spacing:.1em;
+    display:inline-block; margin-top:6px;
+    font-family:var(--sans); font-size:11px; letter-spacing:.04em;
     background:none; border:1px dashed var(--line-dim); color:var(--ink-3);
     padding:7px 12px; cursor:pointer; transition:border-color .18s, color .18s;
   }
@@ -656,6 +704,11 @@
     .band .lbl{flex-wrap:wrap; gap:10px;}
     .stream-opts{width:100%; justify-content:flex-start;}
     .seg button, .tog{padding:8px 10px; font-size:9px; letter-spacing:.1em;}
+    /* anchor the panel to the whole control strip, not to the button, so it
+       cannot hang off either edge whatever the buttons above it wrap to */
+    .stream-opts{position:relative;}
+    .srcpick{position:static;}
+    .src-panel{left:0; right:auto; width:100%;}
     .subtag{font-size:11.5px;}
     .q-item{grid-template-columns:minmax(0,1fr);}
     .q-item .qi-date{margin-bottom:2px;}

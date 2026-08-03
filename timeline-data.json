@@ -114,11 +114,13 @@
    "sources": [
     {
      "title": "Guru Nanak Today",
-     "url": "https://sikhri.org/articles/guru-nanak-today"
+     "url": "https://sikhri.org/articles/guru-nanak-today",
+     "outlet": "sikhri"
     },
     {
      "title": "Sikhs Are Not Hindus, Sikhs Are A Distinct People (Baaz)",
-     "url": "https://www.baaznews.org/p/sikhs-are-not-hindus-sikhs-are-a-distinct-people"
+     "url": "https://www.baaznews.org/p/sikhs-are-not-hindus-sikhs-are-a-distinct-people",
+     "outlet": "baaz"
     }
    ],
    "confidence": "high",
@@ -152,11 +154,13 @@
    "sources": [
     {
      "title": "What happened at Kartarpur Sahib?",
-     "url": "https://sikhri.org/articles/what-happened-at-kartarpur-sahib"
+     "url": "https://sikhri.org/articles/what-happened-at-kartarpur-sahib",
+     "outlet": "sikhri"
     },
     {
      "title": "Guru Angad, the Epitome of Obedience",
-     "url": "https://sikhri.org/articles/guru-angad-the-epitome-of-obedience"
+     "url": "https://sikhri.org/articles/guru-angad-the-epitome-of-obedience",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -190,7 +194,8 @@
    "sources": [
     {
      "title": "How May I Visualize Guru Gobind Singh Sahib?",
-     "url": "https://sikhri.org/articles/how-may-i-visualize-guru-gobind-singh-sahib"
+     "url": "https://sikhri.org/articles/how-may-i-visualize-guru-gobind-singh-sahib",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "medium",
@@ -224,7 +229,8 @@
    "sources": [
     {
      "title": "How May I Visualize Guru Gobind Singh Sahib?",
-     "url": "https://sikhri.org/articles/how-may-i-visualize-guru-gobind-singh-sahib"
+     "url": "https://sikhri.org/articles/how-may-i-visualize-guru-gobind-singh-sahib",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "medium",
@@ -258,7 +264,8 @@
    "sources": [
     {
      "title": "The Golden Temple: Its Theo-Political Status",
-     "url": "https://sikhri.org/articles/the-golden-temple-its-theo-political-status"
+     "url": "https://sikhri.org/articles/the-golden-temple-its-theo-political-status",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -292,12 +299,14 @@
    "sources": [
     {
      "title": "The Golden Temple: Its Theo-Political Status",
-     "url": "https://sikhri.org/articles/the-golden-temple-its-theo-political-status"
+     "url": "https://sikhri.org/articles/the-golden-temple-its-theo-political-status",
+     "outlet": "sikhri"
     },
     {
      "title": "The Golden Temple: Its Theo-Politica… (Sirdar Kapur Singh)",
      "ref": "kapur-singh-golden-temple",
-     "url": "https://sikhri.org/articles/the-golden-temple-its-theo-political-status"
+     "url": "https://sikhri.org/articles/the-golden-temple-its-theo-political-status",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "medium",
@@ -331,7 +340,8 @@
    "sources": [
     {
      "title": "Harpreet Singh: Sikh Humanitarian Seva Is Neither Partial Nor Transactional (Baaz)",
-     "url": "https://www.baaznews.org/p/sikh-humanitarian-neither-partial-transactional"
+     "url": "https://www.baaznews.org/p/sikh-humanitarian-neither-partial-transactional",
+     "outlet": "baaz"
     }
    ],
    "confidence": "medium",
@@ -366,7 +376,8 @@
    "sources": [
     {
      "title": "From Pothi to Guru Granth Sahib",
-     "url": "https://sikhri.org/articles/from-pothi-to-guru-granth-sahib"
+     "url": "https://sikhri.org/articles/from-pothi-to-guru-granth-sahib",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -402,11 +413,13 @@
    "sources": [
     {
      "title": "Guru Arjan Sahib: The Sovereign-Martyr",
-     "url": "https://sikhri.org/articles/guru-arjan-sahib-the-sovereign-martyr"
+     "url": "https://sikhri.org/articles/guru-arjan-sahib-the-sovereign-martyr",
+     "outlet": "sikhri"
     },
     {
      "title": "Unpacking Far-Right UK Violence (Baaz)",
-     "url": "https://www.baaznews.org/p/uk-far-right-islamophobia-sikh-standpoint"
+     "url": "https://www.baaznews.org/p/uk-far-right-islamophobia-sikh-standpoint",
+     "outlet": "baaz"
     }
    ],
    "confidence": "high",
@@ -441,7 +454,8 @@
    "sources": [
     {
      "title": "Akal Takht Sahib: Timeless Sovereign Throne",
-     "url": "https://sikhri.org/articles/akal-takht-sahib-timeless-sovereign-throne"
+     "url": "https://sikhri.org/articles/akal-takht-sahib-timeless-sovereign-throne",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -475,7 +489,8 @@
    "sources": [
     {
      "title": "One Creative Power, Permanent Reality, Grace of the Guru",
-     "url": "https://sikhri.org/articles/one-creative-power-permanent-reality-grace-of-the-guru"
+     "url": "https://sikhri.org/articles/one-creative-power-permanent-reality-grace-of-the-guru",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "medium",
@@ -509,7 +524,8 @@
    "sources": [
     {
      "title": "Guru Harikrishan Sahib: Capacity, Care, and the Rights of Children",
-     "url": "https://sikhri.org/articles/guru-harikrishan-sahib-capacity-care-and-the-rights-of-children"
+     "url": "https://sikhri.org/articles/guru-harikrishan-sahib-capacity-care-and-the-rights-of-children",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -543,7 +559,8 @@
    "sources": [
     {
      "title": "Guru Ka Bagh Morcha",
-     "url": "https://sikhri.org/articles/guru-ka-bagh-morcha"
+     "url": "https://sikhri.org/articles/guru-ka-bagh-morcha",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "medium",
@@ -577,7 +594,8 @@
    "sources": [
     {
      "title": "Joy as Refusal",
-     "url": "https://sikhri.org/articles/joy-as-refusal"
+     "url": "https://sikhri.org/articles/joy-as-refusal",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "medium",
@@ -611,7 +629,8 @@
    "sources": [
     {
      "title": "How May I Visualize Guru Gobind Singh Sahib?",
-     "url": "https://sikhri.org/articles/how-may-i-visualize-guru-gobind-singh-sahib"
+     "url": "https://sikhri.org/articles/how-may-i-visualize-guru-gobind-singh-sahib",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -645,11 +664,13 @@
    "sources": [
     {
      "title": "Top Ten Truths About Guru Teghbahadar Sahib",
-     "url": "https://sikhri.org/articles/top-ten-truths-about-guru-teghbahadar-sahib"
+     "url": "https://sikhri.org/articles/top-ten-truths-about-guru-teghbahadar-sahib",
+     "outlet": "sikhri"
     },
     {
      "title": "Unpacking Far-Right UK Violence (Baaz)",
-     "url": "https://www.baaznews.org/p/uk-far-right-islamophobia-sikh-standpoint"
+     "url": "https://www.baaznews.org/p/uk-far-right-islamophobia-sikh-standpoint",
+     "outlet": "baaz"
     }
    ],
    "confidence": "high",
@@ -684,16 +705,19 @@
    "sources": [
     {
      "title": "Vaisakhi: A Celebration of Harvest, Revolution, & Renewal",
-     "url": "https://sikhri.org/articles/vaisakhi-a-celebration-of-harvest-revolution-renewal"
+     "url": "https://sikhri.org/articles/vaisakhi-a-celebration-of-harvest-revolution-renewal",
+     "outlet": "sikhri"
     },
     {
      "title": "Sikhs Are Not Hindus, Sikhs Are A Distinct People (Baaz)",
-     "url": "https://www.baaznews.org/p/sikhs-are-not-hindus-sikhs-are-a-distinct-people"
+     "url": "https://www.baaznews.org/p/sikhs-are-not-hindus-sikhs-are-a-distinct-people",
+     "outlet": "baaz"
     },
     {
      "title": "Nash Doctrine: Five Freedoms of Vaisakhi… (Harinder Singh)",
      "ref": "sikhri-nash-doctrine",
-     "url": "https://sikhri.org/articles/nash-doctrine-five-freedoms-of-vaisakhi-1699"
+     "url": "https://sikhri.org/articles/nash-doctrine-five-freedoms-of-vaisakhi-1699",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -731,12 +755,14 @@
    "sources": [
     {
      "title": "Are You Ready to Be a Decision-maker for Sikhs?",
-     "url": "https://sikhri.org/articles/are-you-ready-to-be-a-decision-maker-for-sikhs"
+     "url": "https://sikhri.org/articles/are-you-ready-to-be-a-decision-maker-for-sikhs",
+     "outlet": "sikhri"
     },
     {
      "title": "Sovereignty in Motion: Sikh Governance Mo… (Santbir Singh)",
      "ref": "sikhri-sovereignty-in-motion",
-     "url": "https://sikhri.org/articles/sovereignty-in-motion-sikh-governance-models"
+     "url": "https://sikhri.org/articles/sovereignty-in-motion-sikh-governance-models",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "medium",
@@ -772,7 +798,8 @@
    "sources": [
     {
      "title": "It is December 27.",
-     "url": "https://sikhri.org/articles/it-is-december-27"
+     "url": "https://sikhri.org/articles/it-is-december-27",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "medium",
@@ -807,7 +834,8 @@
    "sources": [
     {
      "title": "Sahibzade: The Ultimate Role Models",
-     "url": "https://sikhri.org/articles/sahibzade-the-ultimate-role-models"
+     "url": "https://sikhri.org/articles/sahibzade-the-ultimate-role-models",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "medium",
@@ -841,7 +869,8 @@
    "sources": [
     {
      "title": "From Pothi to Guru Granth Sahib",
-     "url": "https://sikhri.org/articles/from-pothi-to-guru-granth-sahib"
+     "url": "https://sikhri.org/articles/from-pothi-to-guru-granth-sahib",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -875,7 +904,8 @@
    "sources": [
     {
      "title": "Banda Singh Bahadar",
-     "url": "https://sikhri.org/articles/banda-singh-bahadar"
+     "url": "https://sikhri.org/articles/banda-singh-bahadar",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "medium",
@@ -909,7 +939,8 @@
    "sources": [
     {
      "title": "The Khalsa Raj – Banda, Battles & Body Politic",
-     "url": "https://sikhri.org/articles/the-khalsa-raj-banda-battles-body-politic-harinder-singh-sikhri"
+     "url": "https://sikhri.org/articles/the-khalsa-raj-banda-battles-body-politic-harinder-singh-sikhri",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "medium",
@@ -943,7 +974,8 @@
    "sources": [
     {
      "title": "The Indomitable Spirit of Banda Singh Bahadar",
-     "url": "https://sikhri.org/articles/the-indomitable-spirit-of-banda-singh-bahadar"
+     "url": "https://sikhri.org/articles/the-indomitable-spirit-of-banda-singh-bahadar",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -977,7 +1009,8 @@
    "sources": [
     {
      "title": "Santbir Singh: How The Oppressor Subverts Shahidi (Baaz)",
-     "url": "https://www.baaznews.org/p/oppressor-subverts-sikh-shahidi-shaheeds"
+     "url": "https://www.baaznews.org/p/oppressor-subverts-sikh-shahidi-shaheeds",
+     "outlet": "baaz"
     }
    ],
    "confidence": "medium",
@@ -1012,7 +1045,8 @@
    "sources": [
     {
      "title": "Excerpts from The Sikhs in History (Sangat Singh)",
-     "ref": "sangat-singh-sikhs-in-history"
+     "ref": "sangat-singh-sikhs-in-history",
+     "outlet": "scholarship"
     }
    ],
    "confidence": "high",
@@ -1046,7 +1080,8 @@
    "sources": [
     {
      "title": "Amar Singh: The Real Heroic History Of Sikhs At \"12 O'Clock\" (Baaz)",
-     "url": "https://www.baaznews.org/p/sikhs-12-oclock-midday-midnight-truth"
+     "url": "https://www.baaznews.org/p/sikhs-12-oclock-midday-midnight-truth",
+     "outlet": "baaz"
     }
    ],
    "confidence": "high",
@@ -1082,7 +1117,8 @@
     {
      "title": "The Golden Temple: Its Theo-Politica… (Sirdar Kapur Singh)",
      "ref": "kapur-singh-golden-temple",
-     "url": "https://sikhri.org/articles/the-golden-temple-its-theo-political-status"
+     "url": "https://sikhri.org/articles/the-golden-temple-its-theo-political-status",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -1118,7 +1154,8 @@
    "sources": [
     {
      "title": "Excerpts from The Sikhs in History (Sangat Singh)",
-     "ref": "sangat-singh-sikhs-in-history"
+     "ref": "sangat-singh-sikhs-in-history",
+     "outlet": "scholarship"
     }
    ],
    "confidence": "high",
@@ -1152,7 +1189,8 @@
    "sources": [
     {
      "title": "Ghallugharas & Raj",
-     "url": "https://sikhri.org/articles/ghallugharas-raj"
+     "url": "https://sikhri.org/articles/ghallugharas-raj",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "medium",
@@ -1188,7 +1226,8 @@
    "sources": [
     {
      "title": "Excerpts from The Sikhs in History (Sangat Singh)",
-     "ref": "sangat-singh-sikhs-in-history"
+     "ref": "sangat-singh-sikhs-in-history",
+     "outlet": "scholarship"
     }
    ],
    "confidence": "high",
@@ -1223,7 +1262,8 @@
     {
      "title": "The Golden Temple: Its Theo-Politica… (Sirdar Kapur Singh)",
      "ref": "kapur-singh-golden-temple",
-     "url": "https://sikhri.org/articles/the-golden-temple-its-theo-political-status"
+     "url": "https://sikhri.org/articles/the-golden-temple-its-theo-political-status",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -1257,7 +1297,8 @@
    "sources": [
     {
      "title": "Ghallugharas & Raj",
-     "url": "https://sikhri.org/articles/ghallugharas-raj"
+     "url": "https://sikhri.org/articles/ghallugharas-raj",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -1291,7 +1332,8 @@
    "sources": [
     {
      "title": "Excerpts from The Sikhs in History (Sangat Singh)",
-     "ref": "sangat-singh-sikhs-in-history"
+     "ref": "sangat-singh-sikhs-in-history",
+     "outlet": "scholarship"
     }
    ],
    "confidence": "high",
@@ -1325,7 +1367,8 @@
    "sources": [
     {
      "title": "Jassa Singh Ahluwalia",
-     "url": "https://sikhri.org/articles/jassa-singh-ahluwalia"
+     "url": "https://sikhri.org/articles/jassa-singh-ahluwalia",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -1362,15 +1405,18 @@
    "sources": [
     {
      "title": "Hari Singh Nalua",
-     "url": "https://sikhri.org/articles/hari-singh-nalua"
+     "url": "https://sikhri.org/articles/hari-singh-nalua",
+     "outlet": "sikhri"
     },
     {
      "title": "Pieter Friedrich: Sikh Caucus (Baaz)",
-     "url": "https://www.baaznews.org/p/pieter-friedrich-sikh-caucus-excerpt"
+     "url": "https://www.baaznews.org/p/pieter-friedrich-sikh-caucus-excerpt",
+     "outlet": "baaz"
     },
     {
      "title": "Excerpts from Empire of the Sikhs (Patwant Singh)",
-     "ref": "empire-of-the-sikhs-2008"
+     "ref": "empire-of-the-sikhs-2008",
+     "outlet": "scholarship"
     }
    ],
    "confidence": "high",
@@ -1404,7 +1450,8 @@
    "sources": [
     {
      "title": "Honorable Commander-in-Chief Hari Singh Nalua",
-     "url": "https://sikhri.org/articles/honorable-commander-in-chief-hari-singh-nalua"
+     "url": "https://sikhri.org/articles/honorable-commander-in-chief-hari-singh-nalua",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "medium",
@@ -1438,7 +1485,8 @@
    "sources": [
     {
      "title": "Maharani Jind Kaur: The Last Queen of Panjab",
-     "url": "https://sikhri.org/articles/maharani-jind-kaur-the-last-queen-of-panjab"
+     "url": "https://sikhri.org/articles/maharani-jind-kaur-the-last-queen-of-panjab",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -1472,7 +1520,8 @@
    "sources": [
     {
      "title": "Maharani Jind Kaur: The Last Queen of Panjab",
-     "url": "https://sikhri.org/articles/maharani-jind-kaur-the-last-queen-of-panjab"
+     "url": "https://sikhri.org/articles/maharani-jind-kaur-the-last-queen-of-panjab",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "medium",
@@ -1509,15 +1558,18 @@
    "sources": [
     {
      "title": "Maharani Jind Kaur: The Last Queen of Panjab",
-     "url": "https://sikhri.org/articles/maharani-jind-kaur-the-last-queen-of-panjab"
+     "url": "https://sikhri.org/articles/maharani-jind-kaur-the-last-queen-of-panjab",
+     "outlet": "sikhri"
     },
     {
      "title": "Khalsa Values Must Guide Sikh Political Engagement In The West (Baaz)",
-     "url": "https://www.baaznews.org/p/khalsa-values-sikh-political-engagement"
+     "url": "https://www.baaznews.org/p/khalsa-values-sikh-political-engagement",
+     "outlet": "baaz"
     },
     {
      "title": "Sikhs Under British R… (Religion and History of the Sikhs)",
-     "ref": "sikhs-under-british-rule"
+     "ref": "sikhs-under-british-rule",
+     "outlet": "scholarship"
     }
    ],
    "confidence": "high",
@@ -1553,7 +1605,8 @@
    "sources": [
     {
      "title": "Bhai Maharaj Singh: Freedom Fighter for Panjab",
-     "url": "https://sikhri.org/articles/bhai-maharaj-singh-freedom-fighter-for-panjab"
+     "url": "https://sikhri.org/articles/bhai-maharaj-singh-freedom-fighter-for-panjab",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -1587,15 +1640,18 @@
    "sources": [
     {
      "title": "Fakiri Surat – The Fragrance of Bhai Vir Singh",
-     "url": "https://sikhri.org/articles/fakiri-surat-the-fragrance-of-bhai-vir-singh"
+     "url": "https://sikhri.org/articles/fakiri-surat-the-fragrance-of-bhai-vir-singh",
+     "outlet": "sikhri"
     },
     {
      "title": "Singh Sabha Movement - A Reviv… (Gurdarshan Singh Dhillon)",
-     "ref": "dhillon-singh-sabha-revival"
+     "ref": "dhillon-singh-sabha-revival",
+     "outlet": "scholarship"
     },
     {
      "title": "The Singh Sabha Movement (Teja Singh)",
-     "ref": "teja-singh-singh-sabha"
+     "ref": "teja-singh-singh-sabha",
+     "outlet": "scholarship"
     }
    ],
    "confidence": "high",
@@ -1631,7 +1687,8 @@
    "sources": [
     {
      "title": "Sikhs Under British R… (Religion and History of the Sikhs)",
-     "ref": "sikhs-under-british-rule"
+     "ref": "sikhs-under-british-rule",
+     "outlet": "scholarship"
     }
    ],
    "confidence": "high",
@@ -1666,7 +1723,8 @@
    "sources": [
     {
      "title": "Sikhs Under British R… (Religion and History of the Sikhs)",
-     "ref": "sikhs-under-british-rule"
+     "ref": "sikhs-under-british-rule",
+     "outlet": "scholarship"
     }
    ],
    "confidence": "high",
@@ -1702,7 +1760,8 @@
    "sources": [
     {
      "title": "The Singh Sabha Movement (Teja Singh)",
-     "ref": "teja-singh-singh-sabha"
+     "ref": "teja-singh-singh-sabha",
+     "outlet": "scholarship"
     }
    ],
    "confidence": "high",
@@ -1737,7 +1796,8 @@
    "sources": [
     {
      "title": "Journey to The Gur Sikh Temple",
-     "url": "https://sikhri.org/articles/journey-to-the-gur-sikh-temple"
+     "url": "https://sikhri.org/articles/journey-to-the-gur-sikh-temple",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "medium",
@@ -1771,7 +1831,8 @@
    "sources": [
     {
      "title": "Singh Sabha Movement - A Reviv… (Gurdarshan Singh Dhillon)",
-     "ref": "dhillon-singh-sabha-revival"
+     "ref": "dhillon-singh-sabha-revival",
+     "outlet": "scholarship"
     }
    ],
    "confidence": "high",
@@ -1809,7 +1870,8 @@
    "sources": [
     {
      "title": "Ranveer Singh: All Roads Lead To Anandpur (Baaz)",
-     "url": "https://www.baaznews.org/p/anandpur-amritpal-singh"
+     "url": "https://www.baaznews.org/p/anandpur-amritpal-singh",
+     "outlet": "baaz"
     }
    ],
    "confidence": "high",
@@ -1843,7 +1905,8 @@
    "sources": [
     {
      "title": "Rupinder Kaur: Remember Sikh Soldiers Like Private Buckam Singh (Baaz)",
-     "url": "https://www.baaznews.org/p/remembrance-day-private-buckam-singh-sikh"
+     "url": "https://www.baaznews.org/p/remembrance-day-private-buckam-singh-sikh",
+     "outlet": "baaz"
     }
    ],
    "confidence": "high",
@@ -1879,7 +1942,8 @@
    "sources": [
     {
      "title": "Harman Kandola: Remembering Mewa Singh's Defiant Statement (Baaz)",
-     "url": "https://www.baaznews.org/p/remembering-mewa-singh-defiant-speech"
+     "url": "https://www.baaznews.org/p/remembering-mewa-singh-defiant-speech",
+     "outlet": "baaz"
     }
    ],
    "confidence": "high",
@@ -1915,7 +1979,8 @@
    "sources": [
     {
      "title": "Navyug Gill: Discrepancy Haunts The Question Of Violence In Modern India (Baaz)",
-     "url": "https://www.baaznews.org/p/book-review-mallika-kaur-wheat-fields"
+     "url": "https://www.baaznews.org/p/book-review-mallika-kaur-wheat-fields",
+     "outlet": "baaz"
     }
    ],
    "confidence": "high",
@@ -1950,7 +2015,8 @@
    "sources": [
     {
      "title": "Rupinder Kaur: Remember Sikh Soldiers Like Private Buckam Singh (Baaz)",
-     "url": "https://www.baaznews.org/p/remembrance-day-private-buckam-singh-sikh"
+     "url": "https://www.baaznews.org/p/remembrance-day-private-buckam-singh-sikh",
+     "outlet": "baaz"
     }
    ],
    "confidence": "high",
@@ -1984,12 +2050,14 @@
    "sources": [
     {
      "title": "Can the next SGPC President be of the Panth?",
-     "url": "https://sikhri.org/articles/can-the-next-sgpc-president-be-of-the-panth"
+     "url": "https://sikhri.org/articles/can-the-next-sgpc-president-be-of-the-panth",
+     "outlet": "sikhri"
     },
     {
      "title": "Guru Ka Bagh Morcha: The Indomitable… (Surender Pal Singh)",
      "ref": "sikhri-guru-ka-bagh-morcha",
-     "url": "https://sikhri.org/articles/guru-ka-bagh-morcha"
+     "url": "https://sikhri.org/articles/guru-ka-bagh-morcha",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -2026,7 +2094,8 @@
     {
      "title": "Electoral Politics in Indian Punjab: A N… (Ashutosh Kumar)",
      "ref": "ashutosh-kumar-electoral-politics-2017",
-     "url": "https://doi.org/10.1177/0262728016675528"
+     "url": "https://doi.org/10.1177/0262728016675528",
+     "outlet": "scholarship"
     }
    ],
    "confidence": "high",
@@ -2063,7 +2132,8 @@
    "sources": [
     {
      "title": "Jodh Singh: With Struggles Come Sikh Valour And Victory",
-     "url": "https://www.baaznews.org/p/jodh-singh-with-struggles-come-sikh"
+     "url": "https://www.baaznews.org/p/jodh-singh-with-struggles-come-sikh",
+     "outlet": "baaz"
     }
    ],
    "confidence": "high",
@@ -2101,12 +2171,14 @@
    "sources": [
     {
      "title": "The Forgotten Babbars",
-     "url": "https://sikhri.org/articles/the-forgotten-babbars"
+     "url": "https://sikhri.org/articles/the-forgotten-babbars",
+     "outlet": "sikhri"
     },
     {
      "title": "The Forgotten Babbars (Harinder Singh)",
      "ref": "sikhri-forgotten-babbars",
-     "url": "https://sikhri.org/articles/the-forgotten-babbars"
+     "url": "https://sikhri.org/articles/the-forgotten-babbars",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -2140,12 +2212,14 @@
    "sources": [
     {
      "title": "Guru Ka Bagh Morcha",
-     "url": "https://sikhri.org/articles/guru-ka-bagh-morcha"
+     "url": "https://sikhri.org/articles/guru-ka-bagh-morcha",
+     "outlet": "sikhri"
     },
     {
      "title": "Guru Ka Bagh Morcha: The Indomitable… (Surender Pal Singh)",
      "ref": "sikhri-guru-ka-bagh-morcha",
-     "url": "https://sikhri.org/articles/guru-ka-bagh-morcha"
+     "url": "https://sikhri.org/articles/guru-ka-bagh-morcha",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -2182,7 +2256,8 @@
     {
      "title": "Guru Ka Bagh Morcha: The Indomitable… (Surender Pal Singh)",
      "ref": "sikhri-guru-ka-bagh-morcha",
-     "url": "https://sikhri.org/articles/guru-ka-bagh-morcha"
+     "url": "https://sikhri.org/articles/guru-ka-bagh-morcha",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -2218,7 +2293,8 @@
     {
      "title": "Guru Ka Bagh Morcha: The Indomitable… (Surender Pal Singh)",
      "ref": "sikhri-guru-ka-bagh-morcha",
-     "url": "https://sikhri.org/articles/guru-ka-bagh-morcha"
+     "url": "https://sikhri.org/articles/guru-ka-bagh-morcha",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -2255,7 +2331,8 @@
     {
      "title": "The Forgotten Babbars (Harinder Singh)",
      "ref": "sikhri-forgotten-babbars",
-     "url": "https://sikhri.org/articles/the-forgotten-babbars"
+     "url": "https://sikhri.org/articles/the-forgotten-babbars",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -2292,7 +2369,8 @@
    "sources": [
     {
      "title": "Jagjit Singh: \"Sardar Udham\" Erases Udham Singh's Sikhi (Baaz)",
-     "url": "https://www.baaznews.org/p/sardar-udham-erases-udham-singh-sikhi"
+     "url": "https://www.baaznews.org/p/sardar-udham-erases-udham-singh-sikhi",
+     "outlet": "baaz"
     }
    ],
    "confidence": "high",
@@ -2326,7 +2404,8 @@
    "sources": [
     {
      "title": "Brief on Sikh Rahit Maryada (Sikh Research Institute)",
-     "ref": "sikhri-rahit-maryada-brief"
+     "ref": "sikhri-rahit-maryada-brief",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -2362,11 +2441,13 @@
    "sources": [
     {
      "title": "60 Million Untouchable-Sikhs: A Dangerous Proposal",
-     "url": "https://sikhri.org/articles/60-million-untouchable-sikhs-a-dangerous-proposal"
+     "url": "https://sikhri.org/articles/60-million-untouchable-sikhs-a-dangerous-proposal",
+     "outlet": "sikhri"
     },
     {
      "title": "The Boa and its Petty Enemy: Contempo… (Christine Moliner)",
-     "ref": "moliner-boa-petty-enemy"
+     "ref": "moliner-boa-petty-enemy",
+     "outlet": "scholarship"
     }
    ],
    "confidence": "medium",
@@ -2402,7 +2483,8 @@
    "sources": [
     {
      "title": "Jagjit Singh: \"Sardar Udham\" Erases Udham Singh's Sikhi (Baaz)",
-     "url": "https://www.baaznews.org/p/sardar-udham-erases-udham-singh-sikhi"
+     "url": "https://www.baaznews.org/p/sardar-udham-erases-udham-singh-sikhi",
+     "outlet": "baaz"
     }
    ],
    "confidence": "high",
@@ -2438,7 +2520,8 @@
    "sources": [
     {
      "title": "The Battle of Amritsar and Shaheeds Satwant and Beant Sin…",
-     "ref": "let-them-come"
+     "ref": "let-them-come",
+     "outlet": "scholarship"
     }
    ],
    "confidence": "high",
@@ -2473,15 +2556,18 @@
    "sources": [
     {
      "title": "The Partition Of Panjab: My Family Story",
-     "url": "https://sikhri.org/articles/the-partition-of-panjab-my-family-story"
+     "url": "https://sikhri.org/articles/the-partition-of-panjab-my-family-story",
+     "outlet": "sikhri"
     },
     {
      "title": "Jasjit Singh: Understanding Sidhu Moose Wala's \"SYL\" (Baaz)",
-     "url": "https://www.baaznews.org/p/sidhu-moosewala-syl-understanding"
+     "url": "https://www.baaznews.org/p/sidhu-moosewala-syl-understanding",
+     "outlet": "baaz"
     },
     {
      "title": "Toba Tek Sin… (Saadat Hasan Manto, translated from the Urdu by Frances W. Pritchett)",
-     "ref": "manto-toba-tek-singh"
+     "ref": "manto-toba-tek-singh",
+     "outlet": "scholarship"
     }
    ],
    "confidence": "high",
@@ -2516,12 +2602,14 @@
    "sources": [
     {
      "title": "Sirdar Kapur Singh's Idea of the Sikh Homeland",
-     "url": "https://sikhri.org/articles/sirdar-kapur-singhs-idea-of-the-sikh-homeland"
+     "url": "https://sikhri.org/articles/sirdar-kapur-singhs-idea-of-the-sikh-homeland",
+     "outlet": "sikhri"
     },
     {
      "title": "Sirdar Kapur Singh's Idea of the Sikh… (Damanpreet Singh)",
      "ref": "sikhri-kapur-singh-homeland",
-     "url": "https://sikhri.org/articles/sirdar-kapur-singhs-idea-of-the-sikh-homeland"
+     "url": "https://sikhri.org/articles/sirdar-kapur-singhs-idea-of-the-sikh-homeland",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "medium",
@@ -2556,7 +2644,8 @@
     {
      "title": "The Attack on Political Sikhi (Santbir Singh)",
      "ref": "sikhri-attack-on-political-sikhi",
-     "url": "https://sikhri.org/articles/the-attack-on-political-sikhi"
+     "url": "https://sikhri.org/articles/the-attack-on-political-sikhi",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -2590,12 +2679,14 @@
    "sources": [
     {
      "title": "Jasjit Singh: Understanding Sidhu Moose Wala's \"SYL\" (Baaz)",
-     "url": "https://www.baaznews.org/p/sidhu-moosewala-syl-understanding"
+     "url": "https://www.baaznews.org/p/sidhu-moosewala-syl-understanding",
+     "outlet": "baaz"
     },
     {
      "title": "Electoral Politics in Indian Punjab: A N… (Ashutosh Kumar)",
      "ref": "ashutosh-kumar-electoral-politics-2017",
-     "url": "https://doi.org/10.1177/0262728016675528"
+     "url": "https://doi.org/10.1177/0262728016675528",
+     "outlet": "scholarship"
     }
    ],
    "confidence": "high",
@@ -2630,7 +2721,8 @@
     {
      "title": "Electoral Politics in Indian Punjab: A N… (Ashutosh Kumar)",
      "ref": "ashutosh-kumar-electoral-politics-2017",
-     "url": "https://doi.org/10.1177/0262728016675528"
+     "url": "https://doi.org/10.1177/0262728016675528",
+     "outlet": "scholarship"
     }
    ],
    "confidence": "high",
@@ -2666,11 +2758,13 @@
    "sources": [
     {
      "title": "The Emergency & The Sikhs (SikhRI)",
-     "url": "https://sikhri.org/articles/the-emergency-the-sikhs"
+     "url": "https://sikhri.org/articles/the-emergency-the-sikhs",
+     "outlet": "sikhri"
     },
     {
      "title": "Jodh Singh: With Struggles Come Sikh Valour And Victory (Baaz)",
-     "url": "https://www.baaznews.org/p/jodh-singh-with-struggles-come-sikh"
+     "url": "https://www.baaznews.org/p/jodh-singh-with-struggles-come-sikh",
+     "outlet": "baaz"
     }
    ],
    "confidence": "high",
@@ -2704,7 +2798,8 @@
    "sources": [
     {
      "title": "Jasveer Singh: Understanding The Rishmeet Singh Tragedy (Baaz)",
-     "url": "https://www.baaznews.org/p/understanding-rishmeet-singh-tragedy"
+     "url": "https://www.baaznews.org/p/understanding-rishmeet-singh-tragedy",
+     "outlet": "baaz"
     }
    ],
    "confidence": "high",
@@ -2738,12 +2833,14 @@
    "sources": [
     {
      "title": "They Massacre Sikhs: A White Paper b… (Sirdar Kapur Singh)",
-     "ref": "kapur-singh-white-paper-1978"
+     "ref": "kapur-singh-white-paper-1978",
+     "outlet": "scholarship"
     },
     {
      "title": "Sirdar Kapur Singh's Idea of the Sikh… (Damanpreet Singh)",
      "ref": "sikhri-kapur-singh-homeland",
-     "url": "https://sikhri.org/articles/sirdar-kapur-singhs-idea-of-the-sikh-homeland"
+     "url": "https://sikhri.org/articles/sirdar-kapur-singhs-idea-of-the-sikh-homeland",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -2780,21 +2877,25 @@
    "sources": [
     {
      "title": "Jagjit Singh: Parkash Badal's Marred Legacy (Baaz)",
-     "url": "https://www.baaznews.org/p/parkash-badal-marred-legacy-sikhs"
+     "url": "https://www.baaznews.org/p/parkash-badal-marred-legacy-sikhs",
+     "outlet": "baaz"
     },
     {
      "title": "Fighting for Faith and Nation: Dialogues with Sikh Militants",
      "url": "https://www.pennpress.org/9780812215922/fighting-for-faith-and-nation/",
-     "ref": "mahmood-1996"
+     "ref": "mahmood-1996",
+     "outlet": "scholarship"
     },
     {
      "title": "Soft Target: How the Indian Intelligence Service Penetrated Canada",
      "url": "https://archive.org/details/SoftTarget",
-     "ref": "softtarget-1989"
+     "ref": "softtarget-1989",
+     "outlet": "scholarship"
     },
     {
      "title": "They Massacre Sikhs: A White Paper b… (Sirdar Kapur Singh)",
-     "ref": "kapur-singh-white-paper-1978"
+     "ref": "kapur-singh-white-paper-1978",
+     "outlet": "scholarship"
     }
    ],
    "confidence": "high",
@@ -2829,7 +2930,8 @@
     {
      "title": "Fighting for Faith and Nation: Dialogues with Sikh Militants",
      "url": "https://www.pennpress.org/9780812215922/fighting-for-faith-and-nation/",
-     "ref": "mahmood-1996"
+     "ref": "mahmood-1996",
+     "outlet": "scholarship"
     }
    ],
    "confidence": "high",
@@ -2869,7 +2971,8 @@
     {
      "title": "Soft Target: How the Indian Intelligence Service Penetrated Canada",
      "url": "https://archive.org/details/SoftTarget",
-     "ref": "softtarget-1989"
+     "ref": "softtarget-1989",
+     "outlet": "scholarship"
     }
    ],
    "confidence": "high",
@@ -2904,7 +3007,8 @@
     {
      "title": "Soft Target: How the Indian Intelligence Service Penetrated Canada",
      "url": "https://archive.org/details/SoftTarget",
-     "ref": "softtarget-1989"
+     "ref": "softtarget-1989",
+     "outlet": "scholarship"
     }
    ],
    "confidence": "medium",
@@ -2940,7 +3044,8 @@
     {
      "title": "Soft Target: How the Indian Intelligence Service Penetrated Canada",
      "url": "https://archive.org/details/SoftTarget",
-     "ref": "softtarget-1989"
+     "ref": "softtarget-1989",
+     "outlet": "scholarship"
     }
    ],
    "confidence": "high",
@@ -2976,7 +3081,8 @@
    "sources": [
     {
      "title": "Teer Kaur: No Police Or FBI Recruitment At Gurudware (Baaz)",
-     "url": "https://www.baaznews.org/p/police-fbi-gurdwara-sikhs"
+     "url": "https://www.baaznews.org/p/police-fbi-gurdwara-sikhs",
+     "outlet": "baaz"
     }
    ],
    "confidence": "high",
@@ -3013,7 +3119,8 @@
     {
      "title": "Fighting for Faith and Nation: Dialogues with Sikh Militants",
      "url": "https://www.pennpress.org/9780812215922/fighting-for-faith-and-nation/",
-     "ref": "mahmood-1996"
+     "ref": "mahmood-1996",
+     "outlet": "scholarship"
     }
    ],
    "confidence": "high",
@@ -3050,7 +3157,8 @@
     {
      "title": "Soft Target: How the Indian Intelligence Service Penetrated Canada",
      "url": "https://archive.org/details/SoftTarget",
-     "ref": "softtarget-1989"
+     "ref": "softtarget-1989",
+     "outlet": "scholarship"
     }
    ],
    "confidence": "high",
@@ -3085,12 +3193,14 @@
    "sources": [
     {
      "title": "Why Was Bhindranwale There? (SikhRI)",
-     "url": "https://sikhri.org/articles/why-was-bhindranwale-there"
+     "url": "https://sikhri.org/articles/why-was-bhindranwale-there",
+     "outlet": "sikhri"
     },
     {
      "title": "Fighting for Faith and Nation: Dialogues with Sikh Militants",
      "url": "https://www.pennpress.org/9780812215922/fighting-for-faith-and-nation/",
-     "ref": "mahmood-1996"
+     "ref": "mahmood-1996",
+     "outlet": "scholarship"
     }
    ],
    "confidence": "medium",
@@ -3126,7 +3236,8 @@
     {
      "title": "Soft Target: How the Indian Intelligence Service Penetrated Canada",
      "url": "https://archive.org/details/SoftTarget",
-     "ref": "softtarget-1989"
+     "ref": "softtarget-1989",
+     "outlet": "scholarship"
     }
    ],
    "confidence": "high",
@@ -3162,35 +3273,42 @@
    "sources": [
     {
      "title": "1984 Woke Me Up From A Deep Slumber (SikhRI)",
-     "url": "https://sikhri.org/articles/1984-woke-me-up-from-a-deep-slumber"
+     "url": "https://sikhri.org/articles/1984-woke-me-up-from-a-deep-slumber",
+     "outlet": "sikhri"
     },
     {
      "title": "Kiran Gill: Why Sikh Americans Are Protesting Modi's Visit (Baaz)",
-     "url": "https://www.baaznews.org/p/modi-state-visit-joint-congress-sikh-protest"
+     "url": "https://www.baaznews.org/p/modi-state-visit-joint-congress-sikh-protest",
+     "outlet": "baaz"
     },
     {
      "title": "Fighting for Faith and Nation: Dialogues with Sikh Militants",
      "url": "https://www.pennpress.org/9780812215922/fighting-for-faith-and-nation/",
-     "ref": "mahmood-1996"
+     "ref": "mahmood-1996",
+     "outlet": "scholarship"
     },
     {
      "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
-     "ref": "sikhri-special-report-2023"
+     "ref": "sikhri-special-report-2023",
+     "outlet": "sikhri"
     },
     {
      "title": "Soft Target: How the Indian Intelligence Service Penetrated Canada",
      "url": "https://archive.org/details/SoftTarget",
-     "ref": "softtarget-1989"
+     "ref": "softtarget-1989",
+     "outlet": "scholarship"
     },
     {
      "title": "The Battle of Amritsar and Shaheeds Satwant and Beant Sin…",
-     "ref": "let-them-come"
+     "ref": "let-them-come",
+     "outlet": "scholarship"
     },
     {
      "title": "The Attack on Political Sikhi (Santbir Singh)",
      "ref": "sikhri-attack-on-political-sikhi",
-     "url": "https://sikhri.org/articles/the-attack-on-political-sikhi"
+     "url": "https://sikhri.org/articles/the-attack-on-political-sikhi",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -3226,7 +3344,8 @@
     {
      "title": "Sikhs, Panjab, India & the Diaspora: Locat… (Jasleen Kaur)",
      "ref": "sikhri-special-report-2023",
-     "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis"
+     "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -3262,17 +3381,20 @@
    "sources": [
     {
      "title": "Jasjit Singh: Understanding Sidhu Moose Wala's \"SYL\" (Baaz)",
-     "url": "https://www.baaznews.org/p/sidhu-moosewala-syl-understanding"
+     "url": "https://www.baaznews.org/p/sidhu-moosewala-syl-understanding",
+     "outlet": "baaz"
     },
     {
      "title": "Fighting for Faith and Nation: Dialogues with Sikh Militants",
      "url": "https://www.pennpress.org/9780812215922/fighting-for-faith-and-nation/",
-     "ref": "mahmood-1996"
+     "ref": "mahmood-1996",
+     "outlet": "scholarship"
     },
     {
      "title": "Soft Target: How the Indian Intelligence Service Penetrated Canada",
      "url": "https://archive.org/details/SoftTarget",
-     "ref": "softtarget-1989"
+     "ref": "softtarget-1989",
+     "outlet": "scholarship"
     }
    ],
    "confidence": "high",
@@ -3307,25 +3429,30 @@
    "sources": [
     {
      "title": "The Attack on Political Sikhi (SikhRI)",
-     "url": "https://sikhri.org/articles/the-attack-on-political-sikhi"
+     "url": "https://sikhri.org/articles/the-attack-on-political-sikhi",
+     "outlet": "sikhri"
     },
     {
      "title": "How Various Indian Commissions On November 1984 Failed Sikhs (Baaz)",
-     "url": "https://www.baaznews.org/p/indian-commissions-on-1984-failed-sikhs"
+     "url": "https://www.baaznews.org/p/indian-commissions-on-1984-failed-sikhs",
+     "outlet": "baaz"
     },
     {
      "title": "Fighting for Faith and Nation: Dialogues with Sikh Militants",
      "url": "https://www.pennpress.org/9780812215922/fighting-for-faith-and-nation/",
-     "ref": "mahmood-1996"
+     "ref": "mahmood-1996",
+     "outlet": "scholarship"
     },
     {
      "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
-     "ref": "sikhri-special-report-2023"
+     "ref": "sikhri-special-report-2023",
+     "outlet": "sikhri"
     },
     {
      "title": "The Sikh Genocide of November 1984 - Delhi and Beyond (Ch…",
-     "ref": "let-them-come"
+     "ref": "let-them-come",
+     "outlet": "scholarship"
     }
    ],
    "confidence": "high",
@@ -3361,7 +3488,8 @@
     {
      "title": "Soft Target: How the Indian Intelligence Service Penetrated Canada",
      "url": "https://archive.org/details/SoftTarget",
-     "ref": "softtarget-1989"
+     "ref": "softtarget-1989",
+     "outlet": "scholarship"
     }
    ],
    "confidence": "high",
@@ -3396,7 +3524,8 @@
     {
      "title": "Soft Target: How the Indian Intelligence Service Penetrated Canada",
      "url": "https://archive.org/details/SoftTarget",
-     "ref": "softtarget-1989"
+     "ref": "softtarget-1989",
+     "outlet": "scholarship"
     }
    ],
    "confidence": "high",
@@ -3431,7 +3560,8 @@
    "sources": [
     {
      "title": "The Sikh Genocide of November 1984 - Delhi and Beyond (Ch…",
-     "ref": "let-them-come"
+     "ref": "let-them-come",
+     "outlet": "scholarship"
     }
    ],
    "confidence": "high",
@@ -3469,7 +3599,8 @@
     {
      "title": "Soft Target: How the Indian Intelligence Service Penetrated Canada",
      "url": "https://archive.org/details/SoftTarget",
-     "ref": "softtarget-1989"
+     "ref": "softtarget-1989",
+     "outlet": "scholarship"
     }
    ],
    "confidence": "high",
@@ -3506,22 +3637,26 @@
    "sources": [
     {
      "title": "Jaskaran Sandhu: The Problematic Media Coverage Concerning Ripudaman Singh Malik's Death (Baaz)",
-     "url": "https://www.baaznews.org/p/ripudaman-singh-malik-death-media"
+     "url": "https://www.baaznews.org/p/ripudaman-singh-malik-death-media",
+     "outlet": "baaz"
     },
     {
      "title": "Fighting for Faith and Nation: Dialogues with Sikh Militants",
      "url": "https://www.pennpress.org/9780812215922/fighting-for-faith-and-nation/",
-     "ref": "mahmood-1996"
+     "ref": "mahmood-1996",
+     "outlet": "scholarship"
     },
     {
      "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
-     "ref": "sikhri-special-report-2023"
+     "ref": "sikhri-special-report-2023",
+     "outlet": "sikhri"
     },
     {
      "title": "Soft Target: How the Indian Intelligence Service Penetrated Canada",
      "url": "https://archive.org/details/SoftTarget",
-     "ref": "softtarget-1989"
+     "ref": "softtarget-1989",
+     "outlet": "scholarship"
     }
    ],
    "confidence": "high",
@@ -3558,7 +3693,8 @@
     {
      "title": "Soft Target: How the Indian Intelligence Service Penetrated Canada",
      "url": "https://archive.org/details/SoftTarget",
-     "ref": "softtarget-1989"
+     "ref": "softtarget-1989",
+     "outlet": "scholarship"
     }
    ],
    "confidence": "high",
@@ -3595,7 +3731,8 @@
    "sources": [
     {
      "title": "The Punjab crisis since 1984: a reasses… (Gurharpal Singh)",
-     "ref": "gurharpal-singh-punjab-crisis-1995"
+     "ref": "gurharpal-singh-punjab-crisis-1995",
+     "outlet": "scholarship"
     }
    ],
    "confidence": "high",
@@ -3631,7 +3768,8 @@
     {
      "title": "Soft Target: How the Indian Intelligence Service Penetrated Canada",
      "url": "https://archive.org/details/SoftTarget",
-     "ref": "softtarget-1989"
+     "ref": "softtarget-1989",
+     "outlet": "scholarship"
     }
    ],
    "confidence": "high",
@@ -3666,7 +3804,8 @@
     {
      "title": "Soft Target: How the Indian Intelligence Service Penetrated Canada",
      "url": "https://archive.org/details/SoftTarget",
-     "ref": "softtarget-1989"
+     "ref": "softtarget-1989",
+     "outlet": "scholarship"
     }
    ],
    "confidence": "medium",
@@ -3702,7 +3841,8 @@
     {
      "title": "Soft Target: How the Indian Intelligence Service Penetrated Canada",
      "url": "https://archive.org/details/SoftTarget",
-     "ref": "softtarget-1989"
+     "ref": "softtarget-1989",
+     "outlet": "scholarship"
     }
    ],
    "confidence": "medium",
@@ -3739,7 +3879,8 @@
    "sources": [
     {
      "title": "Jatinder Hayer: Never Forget Saka Nakodar 1986 (Baaz)",
-     "url": "https://www.baaznews.org/p/jatinder-hayer-never-forget-sakanakodar"
+     "url": "https://www.baaznews.org/p/jatinder-hayer-never-forget-sakanakodar",
+     "outlet": "baaz"
     }
    ],
    "confidence": "high",
@@ -3776,7 +3917,8 @@
     {
      "title": "Soft Target: How the Indian Intelligence Service Penetrated Canada",
      "url": "https://archive.org/details/SoftTarget",
-     "ref": "softtarget-1989"
+     "ref": "softtarget-1989",
+     "outlet": "scholarship"
     }
    ],
    "confidence": "high",
@@ -3814,7 +3956,8 @@
     {
      "title": "Fighting for Faith and Nation: Dialogues with Sikh Militants",
      "url": "https://www.pennpress.org/9780812215922/fighting-for-faith-and-nation/",
-     "ref": "mahmood-1996"
+     "ref": "mahmood-1996",
+     "outlet": "scholarship"
     }
    ],
    "confidence": "high",
@@ -3849,7 +3992,8 @@
     {
      "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
-     "ref": "sikhri-special-report-2023"
+     "ref": "sikhri-special-report-2023",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -3888,7 +4032,8 @@
     {
      "title": "Fighting for Faith and Nation: Dialogues with Sikh Militants",
      "url": "https://www.pennpress.org/9780812215922/fighting-for-faith-and-nation/",
-     "ref": "mahmood-1996"
+     "ref": "mahmood-1996",
+     "outlet": "scholarship"
     }
    ],
    "confidence": "high",
@@ -3925,7 +4070,8 @@
     {
      "title": "Soft Target: How the Indian Intelligence Service Penetrated Canada",
      "url": "https://archive.org/details/SoftTarget",
-     "ref": "softtarget-1989"
+     "ref": "softtarget-1989",
+     "outlet": "scholarship"
     }
    ],
    "confidence": "high",
@@ -3960,7 +4106,8 @@
     {
      "title": "Soft Target: How the Indian Intelligence Service Penetrated Canada",
      "url": "https://archive.org/details/SoftTarget",
-     "ref": "softtarget-1989"
+     "ref": "softtarget-1989",
+     "outlet": "scholarship"
     }
    ],
    "confidence": "high",
@@ -3996,7 +4143,8 @@
    "sources": [
     {
      "title": "The Battle of Amritsar and Shaheeds Satwant and Beant Sin…",
-     "ref": "let-them-come"
+     "ref": "let-them-come",
+     "outlet": "scholarship"
     }
    ],
    "confidence": "high",
@@ -4033,17 +4181,20 @@
     {
      "title": "Fighting for Faith and Nation: Dialogues with Sikh Militants",
      "url": "https://www.pennpress.org/9780812215922/fighting-for-faith-and-nation/",
-     "ref": "mahmood-1996"
+     "ref": "mahmood-1996",
+     "outlet": "scholarship"
     },
     {
      "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
-     "ref": "sikhri-special-report-2023"
+     "ref": "sikhri-special-report-2023",
+     "outlet": "sikhri"
     },
     {
      "title": "Jaswant Singh Khalra: The Game Of… (Jaswant Singh Khalra)",
      "ref": "baaz-khalra-game-of-elections",
-     "url": "https://www.baaznews.org/p/khalra-game-of-elections-khalistan"
+     "url": "https://www.baaznews.org/p/khalra-game-of-elections-khalistan",
+     "outlet": "baaz"
     }
    ],
    "confidence": "high",
@@ -4079,7 +4230,8 @@
     {
      "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
-     "ref": "sikhri-special-report-2023"
+     "ref": "sikhri-special-report-2023",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -4117,25 +4269,30 @@
    "sources": [
     {
      "title": "Jagjit Singh: Parkash Badal's Marred Legacy (Baaz)",
-     "url": "https://www.baaznews.org/p/parkash-badal-marred-legacy-sikhs"
+     "url": "https://www.baaznews.org/p/parkash-badal-marred-legacy-sikhs",
+     "outlet": "baaz"
     },
     {
      "title": "Fighting for Faith and Nation: Dialogues with Sikh Militants",
      "url": "https://www.pennpress.org/9780812215922/fighting-for-faith-and-nation/",
-     "ref": "mahmood-1996"
+     "ref": "mahmood-1996",
+     "outlet": "scholarship"
     },
     {
      "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
-     "ref": "sikhri-special-report-2023"
+     "ref": "sikhri-special-report-2023",
+     "outlet": "sikhri"
     },
     {
      "title": "The Punjab crisis since 1984: a reasses… (Gurharpal Singh)",
-     "ref": "gurharpal-singh-punjab-crisis-1995"
+     "ref": "gurharpal-singh-punjab-crisis-1995",
+     "outlet": "scholarship"
     },
     {
      "title": "Trials by Fire: Dynamics of Ter… (Cynthia Keppley Mahmood)",
-     "ref": "mahmood-trials-by-fire"
+     "ref": "mahmood-trials-by-fire",
+     "outlet": "scholarship"
     }
    ],
    "confidence": "medium",
@@ -4171,7 +4328,8 @@
     {
      "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
-     "ref": "sikhri-special-report-2023"
+     "ref": "sikhri-special-report-2023",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -4206,7 +4364,8 @@
     {
      "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
-     "ref": "sikhri-special-report-2023"
+     "ref": "sikhri-special-report-2023",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -4241,7 +4400,8 @@
     {
      "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
-     "ref": "sikhri-special-report-2023"
+     "ref": "sikhri-special-report-2023",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -4277,7 +4437,8 @@
     {
      "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
-     "ref": "sikhri-special-report-2023"
+     "ref": "sikhri-special-report-2023",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -4314,17 +4475,20 @@
    "sources": [
     {
      "title": "Sandeep Singh: Who Are Some Of The Faces Behind The Kaumi Insaaf Morcha? (Baaz)",
-     "url": "https://www.baaznews.org/p/kaumi-insaaf-morcha-faces"
+     "url": "https://www.baaznews.org/p/kaumi-insaaf-morcha-faces",
+     "outlet": "baaz"
     },
     {
      "title": "Fighting for Faith and Nation: Dialogues with Sikh Militants",
      "url": "https://www.pennpress.org/9780812215922/fighting-for-faith-and-nation/",
-     "ref": "mahmood-1996"
+     "ref": "mahmood-1996",
+     "outlet": "scholarship"
     },
     {
      "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
-     "ref": "sikhri-special-report-2023"
+     "ref": "sikhri-special-report-2023",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "medium",
@@ -4360,16 +4524,19 @@
    "sources": [
     {
      "title": "Shamsher Singh: Can Diljit Dosanjh Portray Shaheed Bhai Jaswant Singh Khalra? (Baaz)",
-     "url": "https://www.baaznews.org/p/diljit-dosanjh-khalra-movie"
+     "url": "https://www.baaznews.org/p/diljit-dosanjh-khalra-movie",
+     "outlet": "baaz"
     },
     {
      "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
-     "ref": "sikhri-special-report-2023"
+     "ref": "sikhri-special-report-2023",
+     "outlet": "sikhri"
     },
     {
      "title": "Trials by Fire: Dynamics of Ter… (Cynthia Keppley Mahmood)",
-     "ref": "mahmood-trials-by-fire"
+     "ref": "mahmood-trials-by-fire",
+     "outlet": "scholarship"
     }
    ],
    "confidence": "high",
@@ -4404,7 +4571,8 @@
     {
      "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
-     "ref": "sikhri-special-report-2023"
+     "ref": "sikhri-special-report-2023",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -4439,7 +4607,8 @@
    "sources": [
     {
      "title": "Sidak: A SikhRI Initiative",
-     "url": "https://sikhri.org/articles/sidak-a-sikhri-initiative"
+     "url": "https://sikhri.org/articles/sidak-a-sikhri-initiative",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -4473,7 +4642,8 @@
    "sources": [
     {
      "title": "The Battle of Amritsar and Shaheeds Satwant and Beant Sin…",
-     "ref": "let-them-come"
+     "ref": "let-them-come",
+     "outlet": "scholarship"
     }
    ],
    "confidence": "high",
@@ -4509,12 +4679,14 @@
     {
      "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
-     "ref": "sikhri-special-report-2023"
+     "ref": "sikhri-special-report-2023",
+     "outlet": "sikhri"
     },
     {
      "title": "Soft Target: How the Indian Intelligence Service Penetrated Canada",
      "url": "https://archive.org/details/SoftTarget",
-     "ref": "softtarget-1989"
+     "ref": "softtarget-1989",
+     "outlet": "scholarship"
     }
    ],
    "confidence": "high",
@@ -4549,7 +4721,8 @@
    "sources": [
     {
      "title": "The Sikh Genocide of November 1984 - Delhi and Beyond (Ch…",
-     "ref": "let-them-come"
+     "ref": "let-them-come",
+     "outlet": "scholarship"
     }
    ],
    "confidence": "high",
@@ -4585,12 +4758,14 @@
     {
      "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
-     "ref": "sikhri-special-report-2023"
+     "ref": "sikhri-special-report-2023",
+     "outlet": "sikhri"
     },
     {
      "title": "Soft Target: How the Indian Intelligence Service Penetrated Canada",
      "url": "https://archive.org/details/SoftTarget",
-     "ref": "softtarget-1989"
+     "ref": "softtarget-1989",
+     "outlet": "scholarship"
     }
    ],
    "confidence": "high",
@@ -4656,7 +4831,8 @@
    "sources": [
     {
      "title": "The Sikh Genocide of November 1984 - Delhi and Beyond (Ch…",
-     "ref": "let-them-come"
+     "ref": "let-them-come",
+     "outlet": "scholarship"
     }
    ],
    "confidence": "high",
@@ -4693,7 +4869,8 @@
    "sources": [
     {
      "title": "Jungfateh Singh: Beyond Remembrance (Baaz)",
-     "url": "https://www.baaznews.org/p/oak-creek-white-supremacy-sikhs"
+     "url": "https://www.baaznews.org/p/oak-creek-white-supremacy-sikhs",
+     "outlet": "baaz"
     }
    ],
    "confidence": "high",
@@ -4728,7 +4905,8 @@
     {
      "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
-     "ref": "sikhri-special-report-2023"
+     "ref": "sikhri-special-report-2023",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -4763,7 +4941,8 @@
    "sources": [
     {
      "title": "What Khalistan means for the Sikhs of P… (Amandeep Sandhu)",
-     "ref": "frontline-what-khalistan-means-2023"
+     "ref": "frontline-what-khalistan-means-2023",
+     "outlet": "press"
     }
    ],
    "confidence": "high",
@@ -4799,7 +4978,8 @@
    "sources": [
     {
      "title": "The Boundaries between “Home” and “Diaspor… (Diditi Mitra)",
-     "ref": "mitra-home-and-diaspora"
+     "ref": "mitra-home-and-diaspora",
+     "outlet": "scholarship"
     }
    ],
    "confidence": "high",
@@ -4836,7 +5016,8 @@
     {
      "title": "No More Blue Stars: Reclaiming the Narrat… (Santbir Singh)",
      "ref": "sikhri-no-more-blue-stars",
-     "url": "https://sikhri.org/articles/no-more-blue-stars"
+     "url": "https://sikhri.org/articles/no-more-blue-stars",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -4872,7 +5053,8 @@
    "sources": [
     {
      "title": "Globe & Mail's Reporting Has Repeatedly Fueled Anti-Sikh Rhetoric (Baaz)",
-     "url": "https://www.baaznews.org/p/globe-and-mail-sikh-reporting"
+     "url": "https://www.baaznews.org/p/globe-and-mail-sikh-reporting",
+     "outlet": "baaz"
     }
    ],
    "confidence": "medium",
@@ -4909,7 +5091,8 @@
     {
      "title": "No More Blue Stars: Reclaiming the Narrat… (Santbir Singh)",
      "ref": "sikhri-no-more-blue-stars",
-     "url": "https://sikhri.org/articles/no-more-blue-stars"
+     "url": "https://sikhri.org/articles/no-more-blue-stars",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -4944,7 +5127,8 @@
    "sources": [
     {
      "title": "Guru Nanak Sahib & The Sidhs (SikhRI)",
-     "url": "https://sikhri.org/articles/guru-nanak-sahib-the-sidhs-inni-kaur"
+     "url": "https://sikhri.org/articles/guru-nanak-sahib-the-sidhs-inni-kaur",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -4979,7 +5163,8 @@
     {
      "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
-     "ref": "sikhri-special-report-2023"
+     "ref": "sikhri-special-report-2023",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -5015,7 +5200,8 @@
     {
      "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
-     "ref": "sikhri-special-report-2023"
+     "ref": "sikhri-special-report-2023",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -5050,7 +5236,8 @@
    "sources": [
     {
      "title": "What happened at Kartarpur Sahib? (SikhRI)",
-     "url": "https://sikhri.org/articles/what-happened-at-kartarpur-sahib"
+     "url": "https://sikhri.org/articles/what-happened-at-kartarpur-sahib",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "medium",
@@ -5085,7 +5272,8 @@
     {
      "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
-     "ref": "sikhri-special-report-2023"
+     "ref": "sikhri-special-report-2023",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -5121,7 +5309,8 @@
     {
      "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
-     "ref": "sikhri-special-report-2023"
+     "ref": "sikhri-special-report-2023",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -5158,7 +5347,8 @@
     {
      "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
-     "ref": "sikhri-special-report-2023"
+     "ref": "sikhri-special-report-2023",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -5194,12 +5384,14 @@
    "sources": [
     {
      "title": "Sandeep Singh: Tikait Revives The Farmers Protest (Baaz)",
-     "url": "https://www.baaznews.org/p/sandeep-singh-tikait-revives-the"
+     "url": "https://www.baaznews.org/p/sandeep-singh-tikait-revives-the",
+     "outlet": "baaz"
     },
     {
      "title": "Hindutva in Punjab… (Routledge Handbook of Punjab Studies)",
      "ref": "hindutva-in-punjab-handbook",
-     "url": "https://doi.org/10.4324/9780429277580-8"
+     "url": "https://doi.org/10.4324/9780429277580-8",
+     "outlet": "scholarship"
     }
    ],
    "confidence": "high",
@@ -5235,7 +5427,8 @@
    "sources": [
     {
      "title": "Pieter Friedrich: Sikh Caucus (Baaz)",
-     "url": "https://www.baaznews.org/p/pieter-friedrich-sikh-caucus-excerpt"
+     "url": "https://www.baaznews.org/p/pieter-friedrich-sikh-caucus-excerpt",
+     "outlet": "baaz"
     }
    ],
    "confidence": "high",
@@ -5272,7 +5465,8 @@
     {
      "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
-     "ref": "sikhri-special-report-2023"
+     "ref": "sikhri-special-report-2023",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -5308,7 +5502,8 @@
    "sources": [
     {
      "title": "Dr. Sharandeep Singh: How Glasgow Protestors Defeated The UK Government (Baaz)",
-     "url": "https://www.baaznews.org/p/glasgow-protest-saves-sikhs-uk-immigration"
+     "url": "https://www.baaznews.org/p/glasgow-protest-saves-sikhs-uk-immigration",
+     "outlet": "baaz"
     }
    ],
    "confidence": "high",
@@ -5344,7 +5539,8 @@
    "sources": [
     {
      "title": "Amaan Bali: Making Sense of Lakhimpur Kheri (Baaz)",
-     "url": "https://www.baaznews.org/p/lakhimpur-kheri-farmers-misha"
+     "url": "https://www.baaznews.org/p/lakhimpur-kheri-farmers-misha",
+     "outlet": "baaz"
     }
    ],
    "confidence": "high",
@@ -5381,7 +5577,8 @@
    "sources": [
     {
      "title": "Baaz's Newsmakers of the Year 2021",
-     "url": "https://www.baaznews.org/p/sikh-punjabi-2021-newsmakers-of-the-year"
+     "url": "https://www.baaznews.org/p/sikh-punjabi-2021-newsmakers-of-the-year",
+     "outlet": "baaz"
     }
    ],
    "confidence": "high",
@@ -5418,7 +5615,8 @@
    "sources": [
     {
      "title": "Sukhmeet Grewal: Debunking Attacks On Melbourne's Deep Sidhu Rally (Baaz)",
-     "url": "https://www.baaznews.org/p/deep-sidhu-craigieburn-gurdwara"
+     "url": "https://www.baaznews.org/p/deep-sidhu-craigieburn-gurdwara",
+     "outlet": "baaz"
     }
    ],
    "confidence": "high",
@@ -5455,7 +5653,8 @@
    "sources": [
     {
      "title": "Baaz's Newsmakers of 2022",
-     "url": "https://www.baaznews.org/p/sikh-punjabi-2022-newsmakers-of-the-year"
+     "url": "https://www.baaznews.org/p/sikh-punjabi-2022-newsmakers-of-the-year",
+     "outlet": "baaz"
     }
    ],
    "confidence": "high",
@@ -5490,15 +5689,18 @@
    "sources": [
     {
      "title": "Baaz's Newsmakers of 2022",
-     "url": "https://www.baaznews.org/p/sikh-punjabi-2022-newsmakers-of-the-year"
+     "url": "https://www.baaznews.org/p/sikh-punjabi-2022-newsmakers-of-the-year",
+     "outlet": "baaz"
     },
     {
      "title": "Sukhmeet Grewal: Hindutva Extremists' Anti-Sikh Hate In Australia (Baaz)",
-     "url": "https://www.baaznews.org/p/australia-hindutva-extremists-anti-sikh"
+     "url": "https://www.baaznews.org/p/australia-hindutva-extremists-anti-sikh",
+     "outlet": "baaz"
     },
     {
      "title": "What Khalistan means for the Sikhs of P… (Amandeep Sandhu)",
-     "ref": "frontline-what-khalistan-means-2023"
+     "ref": "frontline-what-khalistan-means-2023",
+     "outlet": "press"
     }
    ],
    "confidence": "high",
@@ -5536,11 +5738,13 @@
    "sources": [
     {
      "title": "Deslippe & Stukin: How Yogi Bhajan Created An Empire (Baaz)",
-     "url": "https://www.baaznews.org/p/yogi-bhajan-siri-singh-sahib-expose"
+     "url": "https://www.baaznews.org/p/yogi-bhajan-siri-singh-sahib-expose",
+     "outlet": "baaz"
     },
     {
      "title": "3HO's Boarding Schools Were A Living Hell (Baaz)",
-     "url": "https://www.baaznews.org/p/3hos-boarding-schools-abuse-yogi-bhajan"
+     "url": "https://www.baaznews.org/p/3hos-boarding-schools-abuse-yogi-bhajan",
+     "outlet": "baaz"
     }
    ],
    "confidence": "high",
@@ -5576,12 +5780,14 @@
    "sources": [
     {
      "title": "Sandeep Singh: In Conversation with WPD's new leader, Amritpal Singh Sandhu (Baaz)",
-     "url": "https://www.baaznews.org/p/amritpal-deep-sidhu-wpd"
+     "url": "https://www.baaznews.org/p/amritpal-deep-sidhu-wpd",
+     "outlet": "baaz"
     },
     {
      "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
-     "ref": "sikhri-special-report-2023"
+     "ref": "sikhri-special-report-2023",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "medium",
@@ -5616,7 +5822,8 @@
    "sources": [
     {
      "title": "Sandeep Singh: From The Farmers' Protest To The Kaumi Insaaf Morcha (Baaz)",
-     "url": "https://www.baaznews.org/p/quami-insaaf-morcha-farmers-protest"
+     "url": "https://www.baaznews.org/p/quami-insaaf-morcha-farmers-protest",
+     "outlet": "baaz"
     }
    ],
    "confidence": "medium",
@@ -5652,7 +5859,8 @@
    "sources": [
     {
      "title": "Ranfateh Chattha: Bhai Amritpal Singh And Resurging Sikh Politics (Baaz)",
-     "url": "https://www.baaznews.org/p/amritpal-singh-resurging-sikh-politics"
+     "url": "https://www.baaznews.org/p/amritpal-singh-resurging-sikh-politics",
+     "outlet": "baaz"
     }
    ],
    "confidence": "high",
@@ -5688,7 +5896,8 @@
    "sources": [
     {
      "title": "Balpreet Singh: Sikhs Denounce India's Draconian Operation Against Amritpal Singh (Baaz)",
-     "url": "https://www.baaznews.org/p/amritpal-singh-wpd-arrest-draconian"
+     "url": "https://www.baaznews.org/p/amritpal-singh-wpd-arrest-draconian",
+     "outlet": "baaz"
     }
    ],
    "confidence": "high",
@@ -5725,7 +5934,8 @@
    "sources": [
     {
      "title": "Baaz News: Amritpal Singh's Courting Arrest Address Translated To English (Baaz)",
-     "url": "https://www.baaznews.org/p/amritpal-singh-courting-arrest-translation"
+     "url": "https://www.baaznews.org/p/amritpal-singh-courting-arrest-translation",
+     "outlet": "baaz"
     }
    ],
    "confidence": "high",
@@ -5762,7 +5972,8 @@
    "sources": [
     {
      "title": "With India Trade Deal Starmer Takes Free Trade Over Freedom From Foreign Interference (Baaz)",
-     "url": "https://www.baaznews.org/p/uk-india-trade-deal-foreign-interference"
+     "url": "https://www.baaznews.org/p/uk-india-trade-deal-foreign-interference",
+     "outlet": "baaz"
     }
    ],
    "confidence": "medium",
@@ -5798,7 +6009,8 @@
     {
      "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
-     "ref": "sikhri-special-report-2023"
+     "ref": "sikhri-special-report-2023",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "medium",
@@ -5834,7 +6046,8 @@
     {
      "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
-     "ref": "sikhri-special-report-2023"
+     "ref": "sikhri-special-report-2023",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -5870,7 +6083,8 @@
     {
      "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
-     "ref": "sikhri-special-report-2023"
+     "ref": "sikhri-special-report-2023",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -5906,12 +6120,14 @@
    "sources": [
     {
      "title": "Unravelling The Enigma Of Bhai Avtar Singh Khanda's Death (Baaz)",
-     "url": "https://www.baaznews.org/p/avtar-singh-khanda-death-report"
+     "url": "https://www.baaznews.org/p/avtar-singh-khanda-death-report",
+     "outlet": "baaz"
     },
     {
      "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
-     "ref": "sikhri-special-report-2023"
+     "ref": "sikhri-special-report-2023",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "medium",
@@ -5947,12 +6163,14 @@
    "sources": [
     {
      "title": "US Indictment Also Exposes Indian Assassination Program in Canada (Baaz)",
-     "url": "https://www.baaznews.org/p/us-indictment-india-assassination-canada-nijjar"
+     "url": "https://www.baaznews.org/p/us-indictment-india-assassination-canada-nijjar",
+     "outlet": "baaz"
     },
     {
      "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
-     "ref": "sikhri-special-report-2023"
+     "ref": "sikhri-special-report-2023",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -5988,7 +6206,8 @@
    "sources": [
     {
      "title": "US Dept of Justice Charges Indian National For Assassination Attempt on Pannun (Baaz)",
-     "url": "https://www.baaznews.org/p/us-dept-of-justice-gupta-pannun-assassination"
+     "url": "https://www.baaznews.org/p/us-dept-of-justice-gupta-pannun-assassination",
+     "outlet": "baaz"
     }
    ],
    "confidence": "high",
@@ -6025,7 +6244,8 @@
     {
      "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
-     "ref": "sikhri-special-report-2023"
+     "ref": "sikhri-special-report-2023",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -6062,7 +6282,8 @@
     {
      "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
-     "ref": "sikhri-special-report-2023"
+     "ref": "sikhri-special-report-2023",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -6099,7 +6320,8 @@
     {
      "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
-     "ref": "sikhri-special-report-2023"
+     "ref": "sikhri-special-report-2023",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -6135,7 +6357,8 @@
     {
      "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
-     "ref": "sikhri-special-report-2023"
+     "ref": "sikhri-special-report-2023",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -6171,7 +6394,8 @@
     {
      "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
-     "ref": "sikhri-special-report-2023"
+     "ref": "sikhri-special-report-2023",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -6207,7 +6431,8 @@
     {
      "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
-     "ref": "sikhri-special-report-2023"
+     "ref": "sikhri-special-report-2023",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -6244,7 +6469,8 @@
     {
      "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
-     "ref": "sikhri-special-report-2023"
+     "ref": "sikhri-special-report-2023",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -6281,12 +6507,14 @@
    "sources": [
     {
      "title": "How Indian Agents Are Operating Out Of Indian Consulates To Target Sikhs In The West (Baaz)",
-     "url": "https://www.baaznews.org/p/indian-consulates-indian-intelligence-nexus"
+     "url": "https://www.baaznews.org/p/indian-consulates-indian-intelligence-nexus",
+     "outlet": "baaz"
     },
     {
      "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
-     "ref": "sikhri-special-report-2023"
+     "ref": "sikhri-special-report-2023",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -6324,7 +6552,8 @@
     {
      "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
-     "ref": "sikhri-special-report-2023"
+     "ref": "sikhri-special-report-2023",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -6361,7 +6590,8 @@
     {
      "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
-     "ref": "sikhri-special-report-2023"
+     "ref": "sikhri-special-report-2023",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -6398,7 +6628,8 @@
     {
      "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
-     "ref": "sikhri-special-report-2023"
+     "ref": "sikhri-special-report-2023",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -6436,7 +6667,8 @@
     {
      "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
-     "ref": "sikhri-special-report-2023"
+     "ref": "sikhri-special-report-2023",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -6474,7 +6706,8 @@
     {
      "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
-     "ref": "sikhri-special-report-2023"
+     "ref": "sikhri-special-report-2023",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -6511,12 +6744,14 @@
    "sources": [
     {
      "title": "US Dept of Justice Charges Indian National For Assassination Attempt on Pannun (Baaz)",
-     "url": "https://www.baaznews.org/p/us-dept-of-justice-gupta-pannun-assassination"
+     "url": "https://www.baaznews.org/p/us-dept-of-justice-gupta-pannun-assassination",
+     "outlet": "baaz"
     },
     {
      "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
-     "ref": "sikhri-special-report-2023"
+     "ref": "sikhri-special-report-2023",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -6553,7 +6788,8 @@
     {
      "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
-     "ref": "sikhri-special-report-2023"
+     "ref": "sikhri-special-report-2023",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -6590,7 +6826,8 @@
     {
      "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
-     "ref": "sikhri-special-report-2023"
+     "ref": "sikhri-special-report-2023",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -6628,7 +6865,8 @@
     {
      "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
-     "ref": "sikhri-special-report-2023"
+     "ref": "sikhri-special-report-2023",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -6664,7 +6902,8 @@
     {
      "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
-     "ref": "sikhri-special-report-2023"
+     "ref": "sikhri-special-report-2023",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "medium",
@@ -6701,11 +6940,13 @@
    "sources": [
     {
      "title": "Bhai Amritpal Singh’s Stunning Electoral Victory Shatters Indian Narratives (Baaz)",
-     "url": "https://www.baaznews.org/p/amritpal-singh-stunning-electoral-victory"
+     "url": "https://www.baaznews.org/p/amritpal-singh-stunning-electoral-victory",
+     "outlet": "baaz"
     },
     {
      "title": "Why splinter outfits fail to make an impact on Punj… (TNN)",
-     "ref": "toi-splinter-outfits-2024"
+     "ref": "toi-splinter-outfits-2024",
+     "outlet": "press"
     }
    ],
    "confidence": "high",
@@ -6742,16 +6983,19 @@
    "sources": [
     {
      "title": "In Memory & Resolve (SikhRI)",
-     "url": "https://sikhri.org/articles/in-memory-resolve"
+     "url": "https://sikhri.org/articles/in-memory-resolve",
+     "outlet": "sikhri"
     },
     {
      "title": "The Sikh Manifesto For Upcoming UK General Elections (Baaz)",
-     "url": "https://www.baaznews.org/p/sikh-manifesto-uk-election-2024"
+     "url": "https://www.baaznews.org/p/sikh-manifesto-uk-election-2024",
+     "outlet": "baaz"
     },
     {
      "title": "No More Blue Stars: Reclaiming the Narrat… (Santbir Singh)",
      "ref": "sikhri-no-more-blue-stars",
-     "url": "https://sikhri.org/articles/no-more-blue-stars"
+     "url": "https://sikhri.org/articles/no-more-blue-stars",
+     "outlet": "sikhri"
     }
    ],
    "confidence": "high",
@@ -6788,7 +7032,8 @@
    "sources": [
     {
      "title": "Preet Kaur Gill: What The Election Of 12 UK Sikh MPs Represents (Baaz)",
-     "url": "https://www.baaznews.org/p/preet-kaur-gill-sikh-uk-elections-2024"
+     "url": "https://www.baaznews.org/p/preet-kaur-gill-sikh-uk-elections-2024",
+     "outlet": "baaz"
     }
    ],
    "confidence": "high",
@@ -6824,7 +7069,8 @@
    "sources": [
     {
      "title": "Justice Department charges former Indian intelligence official (NPR)",
-     "url": "https://www.npr.org/2024/10/17/g-s1-28835/justice-department-charges-sikh-separatist-assassination-plot"
+     "url": "https://www.npr.org/2024/10/17/g-s1-28835/justice-department-charges-sikh-separatist-assassination-plot",
+     "outlet": "press"
     }
    ],
    "confidence": "high",
@@ -6860,7 +7106,8 @@
    "sources": [
     {
      "title": "Kapil Sharma Cafe Shooting (Baaz)",
-     "url": "https://www.baaznews.org/p/kapil-sharma-cafe-shooting-kaps-cafe"
+     "url": "https://www.baaznews.org/p/kapil-sharma-cafe-shooting-kaps-cafe",
+     "outlet": "baaz"
     }
    ],
    "confidence": "high",
@@ -6895,7 +7142,8 @@
    "sources": [
     {
      "title": "Kapil Sharma Cafe Shooting (Baaz)",
-     "url": "https://www.baaznews.org/p/kapil-sharma-cafe-shooting-kaps-cafe"
+     "url": "https://www.baaznews.org/p/kapil-sharma-cafe-shooting-kaps-cafe",
+     "outlet": "baaz"
     }
    ],
    "confidence": "high",
@@ -6930,7 +7178,8 @@
    "sources": [
     {
      "title": "The Floods Should Radicalize Punjab (Baaz)",
-     "url": "https://www.baaznews.org/p/the-floods-should-radicalize-punjab"
+     "url": "https://www.baaznews.org/p/the-floods-should-radicalize-punjab",
+     "outlet": "baaz"
     }
    ],
    "confidence": "medium",
@@ -6966,7 +7215,8 @@
    "sources": [
     {
      "title": "Bishnoi Gang Terrorist Designation A Partial Victory (Baaz)",
-     "url": "https://www.baaznews.org/p/bishnoi-gang-terrorist-gang-terrorist-designation"
+     "url": "https://www.baaznews.org/p/bishnoi-gang-terrorist-gang-terrorist-designation",
+     "outlet": "baaz"
     }
    ],
    "confidence": "high",
@@ -7001,7 +7251,8 @@
    "sources": [
     {
      "title": "Jagtar Singh Johal: The British Citizen That Britain Has Forgotten (Baaz)",
-     "url": "https://www.baaznews.org/p/jagtar-singh-johal-british-citizen-forgotten"
+     "url": "https://www.baaznews.org/p/jagtar-singh-johal-british-citizen-forgotten",
+     "outlet": "baaz"
     }
    ],
    "confidence": "medium",
@@ -7037,7 +7288,8 @@
    "sources": [
     {
      "title": "The Model Minority Trap: Sikhs Can't Assimilate Our Way Out of Hate (Baaz)",
-     "url": "https://www.baaznews.org/p/anti-sikh-hate"
+     "url": "https://www.baaznews.org/p/anti-sikh-hate",
+     "outlet": "baaz"
     }
    ],
    "confidence": "high",
@@ -7072,11 +7324,13 @@
    "sources": [
     {
      "title": "Senior RCMP officer's 'no evidence' comment seems to contradict past statements (CBC)",
-     "url": "https://www.cbc.ca/news/politics/operation-hardball-rcmp-india-modi-nijjar-9.7272978"
+     "url": "https://www.cbc.ca/news/politics/operation-hardball-rcmp-india-modi-nijjar-9.7272978",
+     "outlet": "press"
     },
     {
      "title": "Sikh Canadians ask what happened to the evidence of Indian government involvement (The Pointer)",
-     "url": "https://thepointer.com/article/2026-07-15/after-sweeping-us-charges-linked-to-nijjar-assassination-sikh-canadians-ask-what-happened-to-evidence-of-indian-government-involvement"
+     "url": "https://thepointer.com/article/2026-07-15/after-sweeping-us-charges-linked-to-nijjar-assassination-sikh-canadians-ask-what-happened-to-evidence-of-indian-government-involvement",
+     "outlet": "press"
     }
    ],
    "confidence": "high",
@@ -8660,7 +8914,8 @@
     {
      "title": "Kapil Sharma Cafe Shooting: How a Wave Of Extortions & Violence From India Is Shaking B.C.’s Punjabi Community",
      "url": "https://www.baaznews.org/p/kapil-sharma-cafe-shooting-kaps-cafe",
-     "date": "2025-07-10"
+     "date": "2025-07-10",
+     "outlet": "baaz"
     }
    ]
   },
@@ -8676,7 +8931,8 @@
     {
      "title": "Kapil Sharma Cafe Shooting: How a Wave Of Extortions & Violence From India Is Shaking B.C.’s Punjabi Community",
      "url": "https://www.baaznews.org/p/kapil-sharma-cafe-shooting-kaps-cafe",
-     "date": "2025-07-10"
+     "date": "2025-07-10",
+     "outlet": "baaz"
     }
    ]
   },
@@ -8692,7 +8948,8 @@
     {
      "title": "Jaskaran Sandhu: Pro-India Disinfo Network At Centre Of Fake Taliban Ultimatum Report",
      "url": "https://www.baaznews.org/p/proindia-disinfo-afghan-sikhs-taliban-ultimatum",
-     "date": "2021-10-25"
+     "date": "2021-10-25",
+     "outlet": "baaz"
     }
    ],
    "refs": [
@@ -8711,7 +8968,8 @@
     {
      "title": "Shamsher Singh: Condemning Khalistan In An Age Of Disinformation",
      "url": "https://www.baaznews.org/p/real-sikhs-khalistan-disinformation",
-     "date": "2021-11-24"
+     "date": "2021-11-24",
+     "outlet": "baaz"
     }
    ]
   },
@@ -8727,7 +8985,8 @@
     {
      "title": "The National Post Gave A Platform To Indian Disinfo",
      "url": "https://www.baaznews.org/p/national-post-ujjal-dosanjh-indian-disinfo-sikhs",
-     "date": "2025-06-26"
+     "date": "2025-06-26",
+     "outlet": "baaz"
     }
    ]
   },
@@ -8743,7 +9002,8 @@
     {
      "title": "Globe & Mail's Reporting Has Repeatedly Fueled Anti-Sikh Rhetoric",
      "url": "https://www.baaznews.org/p/globe-and-mail-sikh-reporting",
-     "date": "2024-07-16"
+     "date": "2024-07-16",
+     "outlet": "baaz"
     }
    ]
   },
@@ -8759,7 +9019,8 @@
     {
      "title": "How Indian Agents Are Operating Out Of Indian Consulates To Target Sikhs In The West",
      "url": "https://www.baaznews.org/p/indian-consulates-indian-intelligence-nexus",
-     "date": "2023-12-11"
+     "date": "2023-12-11",
+     "outlet": "baaz"
     }
    ],
    "refs": [
@@ -8778,12 +9039,14 @@
     {
      "title": "Kapil Sharma Cafe Shooting: How a Wave Of Extortions & Violence From India Is Shaking B.C.’s Punjabi Community",
      "url": "https://www.baaznews.org/p/kapil-sharma-cafe-shooting-kaps-cafe",
-     "date": "2025-07-10"
+     "date": "2025-07-10",
+     "outlet": "baaz"
     },
     {
      "title": "Explosive NSICOP Report Exposes Depth Of Indian Foreign Interference In Canada",
      "url": "https://www.baaznews.org/p/nsicop-report-india-foreign-interference-sikhs",
-     "date": "2024-06-05"
+     "date": "2024-06-05",
+     "outlet": "baaz"
     }
    ]
   },
@@ -8799,7 +9062,8 @@
     {
      "title": "How Indian Operatives Attempted To Remove Baaz Article Revealing The Indian Consulates-Intelligence Nexus",
      "url": "https://www.baaznews.org/p/india-fails-to-silence-baaz-investigation",
-     "date": "2024-04-10"
+     "date": "2024-04-10",
+     "outlet": "baaz"
     }
    ]
   },
@@ -8815,7 +9079,8 @@
     {
      "title": "Amaan Bali: Censored For Supporting The Sikh Nation & Questioning The Indian State",
      "url": "https://www.baaznews.org/p/amaan-bali-twitter-withheld-sikh",
-     "date": "2022-06-30"
+     "date": "2022-06-30",
+     "outlet": "baaz"
     }
    ]
   }
@@ -8837,8 +9102,35 @@
    {
     "title": "Explosive NSICOP Report Exposes Depth Of Indian Foreign Interference In Canada",
     "url": "https://www.baaznews.org/p/nsicop-report-india-foreign-interference-sikhs",
-    "date": "2024-06-05"
+    "date": "2024-06-05",
+    "outlet": "baaz"
    }
   ]
- }
+ },
+ "outlets": [
+  {
+   "id": "sikhri",
+   "name": "SikhRI",
+   "note": "The Sikh Research Institute: articles, briefs and reports written from inside the tradition.",
+   "count": 116
+  },
+  {
+   "id": "baaz",
+   "name": "Baaz News",
+   "note": "Independent Sikh and Panjabi diaspora reporting, including its own investigations.",
+   "count": 65
+  },
+  {
+   "id": "scholarship",
+   "name": "Books & scholarship",
+   "note": "Academic books, journal articles and published histories, including works with no copy online.",
+   "count": 67
+  },
+  {
+   "id": "press",
+   "name": "Press & official",
+   "note": "Mainstream news reporting and statements by governments, courts and inquiries.",
+   "count": 6
+  }
+ ]
 }

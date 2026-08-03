@@ -13,7 +13,7 @@
 <!-- ASSET VERSION: bump this token in BOTH places below (the stylesheet href and
      the timeline-data.json fetch) whenever timeline.css or timeline-data.json
      changes, otherwise browsers keep serving the previously cached copy. -->
-<link rel="stylesheet" href="timeline.css?v=20260803d">
+<link rel="stylesheet" href="timeline.css?v=20260803e">
 </head>
 <body>
 <div class="hud-sweep" aria-hidden="true"></div>
@@ -72,9 +72,19 @@
             <button type="button" data-density="major" aria-pressed="false">Major only</button>
             <button type="button" data-density="all" class="on" aria-pressed="true">Everything</button>
           </div>
-          <button type="button" class="tog" id="cite-toggle" aria-pressed="true">
-            <span class="dot" aria-hidden="true"></span>Citations
-          </button>
+          <div class="srcpick">
+            <button type="button" class="tog" id="src-toggle" aria-expanded="false" aria-controls="src-panel">
+              <span class="dot" aria-hidden="true"></span><span id="src-label">Sources</span>
+            </button>
+            <div class="src-panel" id="src-panel" hidden>
+              <div class="sp-head">Whose account do you want to read?</div>
+              <div id="src-list"></div>
+              <div class="sp-foot">
+                <button type="button" data-all="1">Show all</button>
+                <button type="button" data-all="0">Hide all</button>
+              </div>
+            </div>
+          </div>
         </div>
         <span class="hint">click a marker &middot; &#8592;/&#8594; keys navigate &middot; Home/End jump</span>
       </div>
@@ -227,7 +237,7 @@
 
   let DATA;
   try {
-    const res = await fetch('timeline-data.json?v=20260803d');
+    const res = await fetch('timeline-data.json?v=20260803e');
     if (!res.ok) throw new Error('HTTP ' + res.status);
     DATA = await res.json();
   } catch (err) {
@@ -383,10 +393,16 @@
   // Two dials, both defaulting to the fullest view so nothing is hidden from a
   // first-time reader: how much of the record is in play, and whether each
   // entry shows its citations inline.
-  const PREFS = 'virasat.prefs.v1';
-  const prefs = Object.assign({ density: 'all', citations: true }, (() => {
+  const PREFS = 'virasat.prefs.v2';
+  const outlets = DATA.outlets || [];
+  const allOn = () => { const o = {}; outlets.forEach(x => o[x.id] = true); return o; };
+  const prefs = Object.assign({ density: 'all', outlets: allOn() }, (() => {
     try { return JSON.parse(localStorage.getItem(PREFS)) || {}; } catch (e) { return {}; }
   })());
+  // a source set added after someone's last visit defaults to on rather than
+  // silently disappearing from their view
+  outlets.forEach(o => { if (!(o.id in prefs.outlets)) prefs.outlets[o.id] = true; });
+  const outletOn = s => prefs.outlets[s.outlet] !== false;
   const savePrefs = () => { try { localStorage.setItem(PREFS, JSON.stringify(prefs)); } catch (e) {} };
 
   const idxOf = {};
@@ -488,20 +504,61 @@
   });
   paintDensity();
 
-  // ---- citations: shown inline, or folded behind a per-entry button ----
-  const citeBtn = $('cite-toggle');
-  let citeOpen = false;                 // per-entry override, reset on navigation
-  const paintCite = () => {
-    citeBtn.classList.toggle('on', prefs.citations);
-    citeBtn.setAttribute('aria-pressed', prefs.citations ? 'true' : 'false');
-    citeBtn.title = prefs.citations ? 'Hide citations under a button' : 'Show citations with every entry';
-  };
-  citeBtn.addEventListener('click', () => {
-    prefs.citations = !prefs.citations;
-    citeOpen = false;
-    savePrefs(); paintCite(); render(false);
+  // ---- sources: choose which outlets to read ----
+  // Nearly half the record rests on SikhRI and a quarter on Baaz, so "show the
+  // sources" is really a question about whose account you are reading. The
+  // switches are per outlet, and an entry always says when something is hidden.
+  const srcBtn = $('src-toggle'), srcPanel = $('src-panel'), srcList = $('src-list');
+  let citeOpen = false;                 // per-entry reveal, reset on navigation
+
+  outlets.forEach(o => {
+    const row = document.createElement('button');
+    row.type = 'button'; row.className = 'sp-row'; row.dataset.outlet = o.id;
+    row.innerHTML = '<span class="box" aria-hidden="true"></span>'
+      + '<span class="sp-txt"><b>' + esc(o.name) + '</b>'
+      + '<small>' + esc(o.note) + '</small></span>'
+      + '<span class="sp-n">' + o.count + '</span>';
+    row.addEventListener('click', () => {
+      prefs.outlets[o.id] = !outletOn({ outlet: o.id });
+      citeOpen = false; savePrefs(); paintSrc(); render(false);
+    });
+    srcList.appendChild(row);
   });
-  paintCite();
+  srcPanel.querySelectorAll('.sp-foot button').forEach(b => {
+    b.addEventListener('click', () => {
+      const on = b.dataset.all === '1';
+      outlets.forEach(o => prefs.outlets[o.id] = on);
+      citeOpen = false; savePrefs(); paintSrc(); render(false);
+    });
+  });
+
+  function paintSrc(){
+    const on = outlets.filter(o => outletOn({ outlet: o.id }));
+    srcList.querySelectorAll('.sp-row').forEach(r => {
+      const yes = outletOn({ outlet: r.dataset.outlet });
+      r.classList.toggle('on', yes);
+      r.setAttribute('aria-pressed', yes ? 'true' : 'false');
+    });
+    srcBtn.classList.toggle('on', on.length > 0);
+    srcBtn.classList.toggle('partial', on.length > 0 && on.length < outlets.length);
+    $('src-label').textContent =
+        on.length === outlets.length ? 'All sources'
+      : on.length === 0              ? 'Sources hidden'
+      : on.length === 1              ? on[0].name
+      :                                on.length + ' of ' + outlets.length + ' sources';
+  }
+  const openSrc = v => {
+    srcPanel.hidden = !v;
+    srcBtn.setAttribute('aria-expanded', v ? 'true' : 'false');
+  };
+  srcBtn.addEventListener('click', () => openSrc(srcPanel.hidden));
+  document.addEventListener('click', e => {
+    if (!srcPanel.hidden && !e.target.closest('.srcpick')) openSrc(false);
+  });
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape' && !srcPanel.hidden){ openSrc(false); srcBtn.focus(); }
+  });
+  paintSrc();
 
   const listBody = $('list-body');
   function buildIndex(){
@@ -597,17 +654,12 @@
     src.innerHTML = '';
     const list = ev.sources || [];
     if (list.length){
-      const show = prefs.citations || citeOpen;
-      if (!show){
-        const b = document.createElement('button');
-        b.type = 'button'; b.className = 'cite-peek';
-        b.textContent = 'Show ' + list.length + (list.length === 1 ? ' source' : ' sources');
-        b.addEventListener('click', () => { citeOpen = true; render(false); });
-        src.appendChild(b);
-      } else {
+      const shown  = citeOpen ? list : list.filter(outletOn);
+      const hidden = list.length - shown.length;
+      if (shown.length){
         const lbl = document.createElement('div'); lbl.className = 'lbl'; lbl.textContent = 'Sources';
         src.appendChild(lbl);
-        list.forEach(s => {
+        shown.forEach(s => {
           // A print work with no online copy is still a citation - it just is
           // not a link. Rendering it as one would promise a page that is not there.
           const a = document.createElement(s.url ? 'a' : 'span');
@@ -617,6 +669,15 @@
           if (s.ref) attachRef(a, s.ref);
           src.appendChild(a);
         });
+      }
+      // Never let a filter make an entry look better-sourced, or less sourced,
+      // than it is: say what is being held back and offer it in one click.
+      if (hidden){
+        const b = document.createElement('button');
+        b.type = 'button'; b.className = 'cite-peek';
+        b.textContent = hidden + (hidden === 1 ? ' source' : ' sources') + ' hidden by your filter — show';
+        b.addEventListener('click', () => { citeOpen = true; render(false); });
+        src.appendChild(b);
       }
     }
 
