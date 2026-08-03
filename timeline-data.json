@@ -127,7 +127,8 @@
     "region": "Pakistan",
     "lat": 31.45,
     "lon": 73.7
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "guru-nanak-kartarpur-angad-1539",
@@ -164,7 +165,8 @@
     "region": "Pakistan",
     "lat": 32.03,
     "lon": 75.02
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "guru-amar-das-1552",
@@ -197,7 +199,8 @@
     "region": "Punjab/India",
     "lat": 31.36,
     "lon": 75.15
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "guru-ram-das-1574",
@@ -230,7 +233,8 @@
     "region": "Punjab/India",
     "lat": 31.63,
     "lon": 74.87
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "guru-arjan-becomes-guru-1581",
@@ -263,7 +267,8 @@
     "region": "Punjab/India",
     "lat": 31.63,
     "lon": 74.87
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "harimandar-sahib-foundation-1589",
@@ -296,7 +301,8 @@
     "region": "Punjab/India",
     "lat": 31.62,
     "lon": 74.876
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "guru-arjan-langar-lahore-famine-1595",
@@ -329,7 +335,9 @@
     "region": "Pakistan",
     "lat": 31.55,
     "lon": 74.35
-   }
+   },
+   "tier": "detail",
+   "parent": "guru-arjan-becomes-guru-1581"
   },
   {
    "unique_id": "adi-granth-compiled-1604",
@@ -362,7 +370,8 @@
     "region": "Punjab/India",
     "lat": 31.62,
     "lon": 74.876
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "martyrdom-guru-arjan-1606",
@@ -401,7 +410,8 @@
     "region": "Pakistan",
     "lat": 31.55,
     "lon": 74.35
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "akal-takht-hargobind-1606",
@@ -435,7 +445,8 @@
     "region": "Punjab/India",
     "lat": 31.62,
     "lon": 74.876
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "guru-har-rai-1644",
@@ -468,7 +479,8 @@
     "region": "Punjab/India",
     "lat": 31.18,
     "lon": 76.58
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "guru-harikrishan-1661",
@@ -501,7 +513,8 @@
     "region": "Punjab/India",
     "lat": 31.18,
     "lon": 76.58
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "guru-tegh-bahadur-becomes-guru-1664",
@@ -534,7 +547,8 @@
     "region": "Punjab/India",
     "lat": 31.56,
     "lon": 75.3
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "anandpur-founded-1665",
@@ -567,7 +581,8 @@
     "region": "Punjab/India",
     "lat": 31.24,
     "lon": 76.5
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "guru-gobind-singh-birth-1666",
@@ -600,7 +615,8 @@
     "region": "Punjab/India",
     "lat": 25.59,
     "lon": 85.2
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "martyrdom-guru-tegh-bahadur-1675",
@@ -637,7 +653,8 @@
     "region": "Punjab/India",
     "lat": 28.656,
     "lon": 77.23
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "khalsa-created-1699",
@@ -675,7 +692,8 @@
     "region": "Punjab/India",
     "lat": 31.24,
     "lon": 76.5
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "sarbat-khalsa-gurmata-1699",
@@ -712,7 +730,9 @@
     "region": "Punjab/India",
     "lat": 31.62,
     "lon": 74.876
-   }
+   },
+   "tier": "detail",
+   "parent": "khalsa-created-1699"
   },
   {
    "unique_id": "chamkaur-elder-sahibzade-1704",
@@ -746,7 +766,8 @@
     "region": "Punjab/India",
     "lat": 30.9,
     "lon": 76.41
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "sirhind-younger-sahibzade-1704",
@@ -780,7 +801,8 @@
     "region": "Punjab/India",
     "lat": 30.645,
     "lon": 76.39
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "guru-granth-sahib-eternal-guru-1708",
@@ -813,7 +835,8 @@
     "region": "Punjab/India",
     "lat": 19.15,
     "lon": 77.32
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "banda-singh-commissioned-1708",
@@ -846,7 +869,8 @@
     "region": "Punjab/India",
     "lat": 19.15,
     "lon": 77.32
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "banda-khalsa-raj-1710",
@@ -879,7 +903,8 @@
     "region": "Punjab/India",
     "lat": 30.68,
     "lon": 76.65
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "banda-singh-martyrdom-1716",
@@ -912,7 +937,8 @@
     "region": "Punjab/India",
     "lat": 28.65,
     "lon": 77.23
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "bhai-tara-singh-van-1726",
@@ -945,7 +971,8 @@
     "region": "Punjab/India",
     "lat": 31.6,
     "lon": 74.95
-   }
+   },
+   "tier": "detail"
   },
   {
    "unique_id": "nadir-shah-captives-freed-1739",
@@ -978,7 +1005,8 @@
     "region": "Punjab/India",
     "lat": 30.9,
     "lon": 76.2
-   }
+   },
+   "tier": "detail"
   },
   {
    "unique_id": "chhota-ghallughara-1746",
@@ -1011,7 +1039,8 @@
     "region": "Punjab/India",
     "lat": 32.05,
     "lon": 75.28
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "vadda-ghallughara-1762",
@@ -1044,7 +1073,8 @@
     "region": "Punjab/India",
     "lat": 30.53,
     "lon": 75.88
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "jassa-singh-ahluwalia-death-1783",
@@ -1077,7 +1107,8 @@
     "region": "Punjab/India",
     "lat": 31.63,
     "lon": 74.87
-   }
+   },
+   "tier": "detail"
   },
   {
    "unique_id": "ranjit-singh-lahore-1799",
@@ -1117,7 +1148,8 @@
     "region": "Pakistan",
     "lat": 31.55,
     "lon": 74.35
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "hari-singh-nalua-jamrud-1837",
@@ -1150,7 +1182,8 @@
     "region": "Pakistan",
     "lat": 34.02,
     "lon": 71.38
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "ranjit-singh-death-1839",
@@ -1183,7 +1216,8 @@
     "region": "Pakistan",
     "lat": 31.55,
     "lon": 74.35
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "jind-kaur-regent-1843",
@@ -1216,7 +1250,8 @@
     "region": "Pakistan",
     "lat": 31.55,
     "lon": 74.35
-   }
+   },
+   "tier": "detail"
   },
   {
    "unique_id": "anglo-sikh-wars-annexation-1849",
@@ -1256,7 +1291,8 @@
     "region": "Punjab/India",
     "lat": 30.95,
     "lon": 74.61
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "bhai-maharaj-singh-exile-1850",
@@ -1291,7 +1327,8 @@
     "region": "Other/Global",
     "lat": 1.35,
     "lon": 103.82
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "singh-sabha-movement-1873",
@@ -1324,7 +1361,8 @@
     "region": "Punjab/India",
     "lat": 31.63,
     "lon": 74.87
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "fraser-valley-gur-sikh-temple-1905",
@@ -1357,7 +1395,8 @@
     "region": "Canada",
     "lat": 49.05,
     "lon": -122.28
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "ghadar-movement-1913",
@@ -1393,7 +1432,8 @@
     "region": "USA",
     "lat": 37.77,
     "lon": -122.42
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "komagata-maru-1914",
@@ -1426,7 +1466,8 @@
     "region": "Canada",
     "lat": 49.28,
     "lon": -123.12
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "mewa-singh-execution-1915",
@@ -1461,7 +1502,8 @@
     "region": "Canada",
     "lat": 49.21,
     "lon": -122.91
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "jallianwala-bagh-1919",
@@ -1496,7 +1538,8 @@
     "region": "Punjab/India",
     "lat": 31.62,
     "lon": 74.88
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "buckam-singh-1919",
@@ -1530,7 +1573,8 @@
     "region": "Canada",
     "lat": 43.45,
     "lon": -80.49
-   }
+   },
+   "tier": "detail"
   },
   {
    "unique_id": "sgpc-formation-1920",
@@ -1563,7 +1607,8 @@
     "region": "Punjab/India",
     "lat": 31.63,
     "lon": 74.87
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "saka-nankana-sahib-1921",
@@ -1598,7 +1643,9 @@
     "region": "Pakistan",
     "lat": 31.45,
     "lon": 73.7
-   }
+   },
+   "tier": "detail",
+   "parent": "sgpc-formation-1920"
   },
   {
    "unique_id": "babbar-akali-movement-1921",
@@ -1635,7 +1682,9 @@
     "region": "Punjab/India",
     "lat": 31.33,
     "lon": 75.58
-   }
+   },
+   "tier": "detail",
+   "parent": "sgpc-formation-1920"
   },
   {
    "unique_id": "guru-ka-bagh-morcha-1922",
@@ -1668,7 +1717,9 @@
     "region": "Punjab/India",
     "lat": 31.8,
     "lon": 74.76
-   }
+   },
+   "tier": "detail",
+   "parent": "sgpc-formation-1920"
   },
   {
    "unique_id": "bhagat-singh-execution-1931",
@@ -1703,7 +1754,8 @@
     "region": "Pakistan",
     "lat": 31.55,
     "lon": 74.35
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "gandhi-dangerous-proposal-1936",
@@ -1738,7 +1790,8 @@
     "region": "Punjab/India",
     "lat": 28.61,
     "lon": 77.21
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "udham-singh-odwyer-1940",
@@ -1773,7 +1826,8 @@
     "region": "UK",
     "lat": 51.499,
     "lon": -0.133
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "partition-1947",
@@ -1811,7 +1865,8 @@
     "region": "Punjab/India",
     "lat": 31.6,
     "lon": 74.57
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "kapur-singh-homeland-1947",
@@ -1845,7 +1900,8 @@
     "region": "Punjab/India",
     "lat": 30.9,
     "lon": 75.85
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "punjabi-suba-1966",
@@ -1878,7 +1934,8 @@
     "region": "Punjab/India",
     "lat": 30.73,
     "lon": 76.78
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "emergency-1975",
@@ -1917,7 +1974,8 @@
     "region": "Punjab/India",
     "lat": 28.61,
     "lon": 77.21
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "chaggar-southall-murder-1976",
@@ -1950,7 +2008,8 @@
     "region": "UK",
     "lat": 51.51,
     "lon": -0.375
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "nirankari-clash-1978",
@@ -1995,7 +2054,8 @@
     "region": "Punjab/India",
     "lat": 31.63,
     "lon": 74.87
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "nirankari-retaliation-1980-1981",
@@ -2032,7 +2092,8 @@
    },
    "end_date": {
     "year": 1981
-   }
+   },
+   "tier": "detail"
   },
   {
    "unique_id": "zail-singh-expatriate-campaign-1981",
@@ -2068,7 +2129,8 @@
     "region": "Punjab/India",
     "lat": 28.61,
     "lon": 77.21
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "india-diplomatic-cover-spies-1982",
@@ -2102,7 +2164,8 @@
     "region": "Canada",
     "lat": 43.65,
     "lon": -79.38
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "osgoode-hall-shootings-1982",
@@ -2137,7 +2200,8 @@
     "region": "Canada",
     "lat": 43.65,
     "lon": -79.38
-   }
+   },
+   "tier": "detail"
   },
   {
    "unique_id": "bhindranwale-bombay-speech-1982",
@@ -2172,7 +2236,9 @@
     "region": "Punjab/India",
     "lat": 19.08,
     "lon": 72.88
-   }
+   },
+   "tier": "detail",
+   "parent": "dharm-yudh-morcha-1982"
   },
   {
    "unique_id": "dharm-yudh-morcha-1982",
@@ -2207,7 +2273,8 @@
     "region": "Punjab/India",
     "lat": 28.61,
     "lon": 77.21
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "metro-police-warning-rcmp-1982",
@@ -2243,7 +2310,9 @@
     "region": "Canada",
     "lat": 43.65,
     "lon": -79.38
-   }
+   },
+   "tier": "detail",
+   "parent": "india-diplomatic-cover-spies-1982"
   },
   {
    "unique_id": "bhindranwale-darbar-sahib-1984",
@@ -2281,7 +2350,9 @@
     "region": "Punjab/India",
     "lat": 31.62,
     "lon": 74.876
-   }
+   },
+   "tier": "detail",
+   "parent": "operation-blue-star-1984"
   },
   {
    "unique_id": "csis-sikh-investigation-1984",
@@ -2315,7 +2386,9 @@
     "region": "Canada",
     "lat": 45.42,
     "lon": -75.7
-   }
+   },
+   "tier": "detail",
+   "parent": "india-diplomatic-cover-spies-1982"
   },
   {
    "unique_id": "operation-blue-star-1984",
@@ -2368,7 +2441,8 @@
     "region": "Punjab/India",
     "lat": 31.62,
     "lon": 74.876
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "indira-gandhi-assassination-1984",
@@ -2413,7 +2487,8 @@
     "region": "Punjab/India",
     "lat": 28.6,
     "lon": 77.2
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "anti-sikh-pogroms-nov-1984",
@@ -2461,7 +2536,8 @@
     "region": "Punjab/India",
     "lat": 28.61,
     "lon": 77.21
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "camper-mercenary-affair-1984",
@@ -2496,7 +2572,8 @@
     "region": "USA",
     "lat": 33.52,
     "lon": -86.81
-   }
+   },
+   "tier": "detail"
   },
   {
    "unique_id": "ahluwalia-leaves-canada-1985",
@@ -2530,7 +2607,9 @@
     "region": "Canada",
     "lat": 43.65,
     "lon": -79.38
-   }
+   },
+   "tier": "detail",
+   "parent": "india-diplomatic-cover-spies-1982"
   },
   {
    "unique_id": "duncan-woods-test-1985",
@@ -2566,7 +2645,9 @@
     "region": "Canada",
     "lat": 48.78,
     "lon": -123.7
-   }
+   },
+   "tier": "detail",
+   "parent": "air-india-182-1985"
   },
   {
    "unique_id": "air-india-182-1985",
@@ -2616,7 +2697,8 @@
     "region": "Other/Global",
     "lat": 51.0,
     "lon": -12.4
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "narita-airport-bombing-1985",
@@ -2652,7 +2734,9 @@
     "region": "Other/Global",
     "lat": 35.76,
     "lon": 140.39
-   }
+   },
+   "tier": "detail",
+   "parent": "air-india-182-1985"
   },
   {
    "unique_id": "khalsa-credit-union-founded-1985",
@@ -2687,7 +2771,8 @@
     "region": "Canada",
     "lat": 49.28,
     "lon": -123.12
-   }
+   },
+   "tier": "detail"
   },
   {
    "unique_id": "external-affairs-consulate-documents-1986",
@@ -2721,7 +2806,9 @@
     "region": "Canada",
     "lat": 45.42,
     "lon": -75.7
-   }
+   },
+   "tier": "detail",
+   "parent": "india-diplomatic-cover-spies-1982"
   },
   {
    "unique_id": "csis-identifies-indian-operative-1986",
@@ -2755,7 +2842,9 @@
     "region": "Canada",
     "lat": 43.65,
     "lon": -79.38
-   }
+   },
+   "tier": "detail",
+   "parent": "india-diplomatic-cover-spies-1982"
   },
   {
    "unique_id": "saka-nakodar-1986",
@@ -2790,7 +2879,8 @@
     "region": "Punjab/India",
     "lat": 31.13,
     "lon": 75.47
-   }
+   },
+   "tier": "detail"
   },
   {
    "unique_id": "parmar-babbar-khalsa-acquitted-1986",
@@ -2826,7 +2916,9 @@
     "region": "Canada",
     "lat": 43.26,
     "lon": -79.87
-   }
+   },
+   "tier": "detail",
+   "parent": "air-india-182-1985"
   },
   {
    "unique_id": "khalistan-declaration-1986",
@@ -2862,7 +2954,8 @@
     "region": "Punjab/India",
     "lat": 31.63,
     "lon": 74.87
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "kps-gill-first-term-1988",
@@ -2899,7 +2992,8 @@
    },
    "end_date": {
     "year": 1990
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "operation-black-thunder-1988",
@@ -2934,7 +3028,8 @@
     "region": "Punjab/India",
     "lat": 31.63,
     "lon": 74.87
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "balkar-singh-returns-1988",
@@ -2970,7 +3065,8 @@
     "region": "Punjab/India",
     "lat": 31.15,
     "lon": 75.34
-   }
+   },
+   "tier": "detail"
   },
   {
    "unique_id": "soft-target-published-1989",
@@ -3004,7 +3100,8 @@
     "region": "Canada",
     "lat": 43.65,
     "lon": -79.38
-   }
+   },
+   "tier": "detail"
   },
   {
    "unique_id": "punjab-elections-1989",
@@ -3044,7 +3141,9 @@
     "region": "Punjab/India",
     "lat": 31.15,
     "lon": 75.34
-   }
+   },
+   "tier": "detail",
+   "parent": "kps-gill-first-term-1988"
   },
   {
    "unique_id": "kps-gill-second-term-1991",
@@ -3081,7 +3180,9 @@
    },
    "end_date": {
     "year": 1995
-   }
+   },
+   "tier": "detail",
+   "parent": "kps-gill-first-term-1988"
   },
   {
    "unique_id": "punjab-counterinsurgency-1992",
@@ -3124,7 +3225,9 @@
     "region": "Punjab/India",
     "lat": 30.9,
     "lon": 75.85
-   }
+   },
+   "tier": "detail",
+   "parent": "kps-gill-first-term-1988"
   },
   {
    "unique_id": "badal-un-memorandum-1992",
@@ -3158,7 +3261,8 @@
     "region": "Punjab/India",
     "lat": 28.61,
     "lon": 77.21
-   }
+   },
+   "tier": "detail"
   },
   {
    "unique_id": "amritsar-declaration-1994",
@@ -3192,7 +3296,8 @@
     "region": "Punjab/India",
     "lat": 31.63,
     "lon": 74.87
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "supreme-court-khalistan-slogans-1995",
@@ -3226,7 +3331,8 @@
     "region": "Punjab/India",
     "lat": 28.61,
     "lon": 77.21
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "khalra-last-speech-1995",
@@ -3261,7 +3367,9 @@
     "region": "Canada",
     "lat": 43.65,
     "lon": -79.38
-   }
+   },
+   "tier": "detail",
+   "parent": "khalra-murder-1995"
   },
   {
    "unique_id": "beant-singh-assassination-1995",
@@ -3306,7 +3414,8 @@
     "region": "Punjab/India",
     "lat": 30.74,
     "lon": 76.79
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "khalra-murder-1995",
@@ -3346,7 +3455,8 @@
     "region": "Punjab/India",
     "lat": 31.63,
     "lon": 74.87
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "cbi-khalra-prosecution-1996",
@@ -3380,7 +3490,9 @@
     "region": "Punjab/India",
     "lat": 31.45,
     "lon": 74.93
-   }
+   },
+   "tier": "detail",
+   "parent": "khalra-murder-1995"
   },
   {
    "unique_id": "sikhri-established-2003",
@@ -3413,7 +3525,8 @@
     "region": "USA",
     "lat": 29.42,
     "lon": -98.49
-   }
+   },
+   "tier": "detail"
   },
   {
    "unique_id": "air-india-acquittals-2005",
@@ -3452,7 +3565,9 @@
     "region": "Canada",
     "lat": 49.19,
     "lon": -122.85
-   }
+   },
+   "tier": "detail",
+   "parent": "air-india-182-1985"
   },
   {
    "unique_id": "nest-of-spies-2009",
@@ -3491,7 +3606,9 @@
     "region": "Canada",
     "lat": 45.42,
     "lon": -75.7
-   }
+   },
+   "tier": "detail",
+   "parent": "india-diplomatic-cover-spies-1982"
   },
   {
    "unique_id": "air-india-inquiry-report-2010",
@@ -3520,7 +3637,9 @@
     "region": "Canada",
     "lat": 45.42,
     "lon": -75.7
-   }
+   },
+   "tier": "detail",
+   "parent": "air-india-182-1985"
   },
   {
    "unique_id": "oak-creek-massacre-2012",
@@ -3555,7 +3674,8 @@
     "region": "USA",
     "lat": 42.89,
     "lon": -87.9
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "germany-espionage-2014",
@@ -3589,7 +3709,8 @@
     "region": "Other/Global",
     "lat": 50.11,
     "lon": 8.68
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "trudeau-india-tour-2018",
@@ -3623,7 +3744,8 @@
     "region": "Punjab/India",
     "lat": 28.61,
     "lon": 77.21
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "nanak-550-2019",
@@ -3656,7 +3778,8 @@
     "region": "Punjab/India",
     "lat": 31.22,
     "lon": 75.2
-   }
+   },
+   "tier": "detail"
   },
   {
    "unique_id": "germany-raw-agents-2019",
@@ -3690,7 +3813,9 @@
     "region": "Other/Global",
     "lat": 52.52,
     "lon": 13.4
-   }
+   },
+   "tier": "detail",
+   "parent": "germany-espionage-2014"
   },
   {
    "unique_id": "panjab-literature-arrests-2019",
@@ -3724,7 +3849,8 @@
     "region": "Punjab/India",
     "lat": 31.15,
     "lon": 75.34
-   }
+   },
+   "tier": "detail"
   },
   {
    "unique_id": "kartarpur-corridor-2019",
@@ -3758,7 +3884,8 @@
     "region": "Pakistan",
     "lat": 32.03,
     "lon": 75.02
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "germany-balvir-trial-2020",
@@ -3792,7 +3919,9 @@
     "region": "Other/Global",
     "lat": 50.11,
     "lon": 8.68
-   }
+   },
+   "tier": "detail",
+   "parent": "germany-espionage-2014"
   },
   {
    "unique_id": "dgp-saini-fugitive-2020",
@@ -3826,7 +3955,9 @@
     "region": "Punjab/India",
     "lat": 30.73,
     "lon": 76.78
-   }
+   },
+   "tier": "detail",
+   "parent": "kps-gill-first-term-1988"
   },
   {
    "unique_id": "wso-social-media-report-2020",
@@ -3861,7 +3992,8 @@
     "region": "Canada",
     "lat": 45.42,
     "lon": -75.7
-   }
+   },
+   "tier": "detail"
   },
   {
    "unique_id": "farmers-protest-begins-2020",
@@ -3896,7 +4028,8 @@
     "region": "Punjab/India",
     "lat": 28.83,
     "lon": 77.1
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "republic-day-tractor-rally-2021",
@@ -3931,7 +4064,9 @@
     "region": "Punjab/India",
     "lat": 28.656,
     "lon": 77.241
-   }
+   },
+   "tier": "detail",
+   "parent": "farmers-protest-begins-2020"
   },
   {
    "unique_id": "wso-disinformation-report-2021",
@@ -3966,7 +4101,8 @@
     "region": "Canada",
     "lat": 45.42,
     "lon": -75.7
-   }
+   },
+   "tier": "detail"
   },
   {
    "unique_id": "kenmure-street-glasgow-2021",
@@ -4001,7 +4137,8 @@
     "region": "UK",
     "lat": 55.84,
     "lon": -4.28
-   }
+   },
+   "tier": "detail"
   },
   {
    "unique_id": "lakhimpur-kheri-2021",
@@ -4036,7 +4173,9 @@
     "region": "Punjab/India",
     "lat": 27.95,
     "lon": 80.78
-   }
+   },
+   "tier": "detail",
+   "parent": "farmers-protest-begins-2020"
   },
   {
    "unique_id": "farm-laws-repealed-2021",
@@ -4071,7 +4210,9 @@
     "region": "Punjab/India",
     "lat": 28.61,
     "lon": 77.21
-   }
+   },
+   "tier": "detail",
+   "parent": "farmers-protest-begins-2020"
   },
   {
    "unique_id": "deep-sidhu-death-2022",
@@ -4106,7 +4247,9 @@
     "region": "Punjab/India",
     "lat": 28.88,
     "lon": 76.91
-   }
+   },
+   "tier": "detail",
+   "parent": "farmers-protest-begins-2020"
   },
   {
    "unique_id": "moose-wala-assassination-2022",
@@ -4141,7 +4284,8 @@
     "region": "Punjab/India",
     "lat": 29.98,
     "lon": 75.4
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "khalistan-referendum-begins-2022",
@@ -4179,7 +4323,8 @@
     "region": "Other/Global",
     "lat": -37.81,
     "lon": 144.96
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "yogi-bhajan-3ho-reckoning-2022",
@@ -4220,7 +4365,8 @@
     "region": "USA",
     "lat": 36.0,
     "lon": -106.08
-   }
+   },
+   "tier": "detail"
   },
   {
    "unique_id": "amritpal-singh-wpd-head-2022",
@@ -4260,7 +4406,8 @@
     "region": "Punjab/India",
     "lat": 30.68,
     "lon": 75.1
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "kaumi-insaaf-morcha-2023",
@@ -4294,7 +4441,8 @@
     "region": "Punjab/India",
     "lat": 30.7,
     "lon": 76.72
-   }
+   },
+   "tier": "detail"
   },
   {
    "unique_id": "ajnala-standoff-2023",
@@ -4329,7 +4477,9 @@
     "region": "Punjab/India",
     "lat": 31.84,
     "lon": 74.76
-   }
+   },
+   "tier": "detail",
+   "parent": "amritpal-singh-wpd-head-2022"
   },
   {
    "unique_id": "amritpal-manhunt-2023",
@@ -4363,7 +4513,9 @@
     "region": "Punjab/India",
     "lat": 30.9,
     "lon": 75.85
-   }
+   },
+   "tier": "detail",
+   "parent": "amritpal-singh-wpd-head-2022"
   },
   {
    "unique_id": "amritpal-arrested-2023",
@@ -4398,7 +4550,9 @@
     "region": "Punjab/India",
     "lat": 30.8,
     "lon": 75.12
-   }
+   },
+   "tier": "detail",
+   "parent": "amritpal-singh-wpd-head-2022"
   },
   {
    "unique_id": "panjwar-assassination-2023",
@@ -4433,7 +4587,8 @@
     "region": "Pakistan",
     "lat": 31.55,
     "lon": 74.35
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "orf-khalistan-report-2023",
@@ -4468,7 +4623,8 @@
     "region": "Punjab/India",
     "lat": 28.61,
     "lon": 77.21
-   }
+   },
+   "tier": "detail"
   },
   {
    "unique_id": "uapa-sikhs-charged-2023",
@@ -4503,7 +4659,8 @@
     "region": "Punjab/India",
     "lat": 31.15,
     "lon": 75.34
-   }
+   },
+   "tier": "detail"
   },
   {
    "unique_id": "raw-chief-goel-retires-2023",
@@ -4538,7 +4695,8 @@
     "region": "Punjab/India",
     "lat": 28.61,
     "lon": 77.21
-   }
+   },
+   "tier": "detail"
   },
   {
    "unique_id": "khanda-death-2023",
@@ -4578,7 +4736,8 @@
     "region": "UK",
     "lat": 52.48,
     "lon": -1.9
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "nijjar-assassination-2023",
@@ -4618,7 +4777,8 @@
     "region": "Canada",
     "lat": 49.19,
     "lon": -122.85
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "nikhil-gupta-arrest-2023",
@@ -4653,7 +4813,9 @@
     "region": "Other/Global",
     "lat": 50.08,
     "lon": 14.44
-   }
+   },
+   "tier": "detail",
+   "parent": "us-doj-pannun-indictment-2023"
   },
   {
    "unique_id": "khalistan-referendum-toronto-2023",
@@ -4688,7 +4850,9 @@
     "region": "Canada",
     "lat": 43.65,
     "lon": -79.38
-   }
+   },
+   "tier": "detail",
+   "parent": "khalistan-referendum-begins-2022"
   },
   {
    "unique_id": "us-politician-warning-2023",
@@ -4723,7 +4887,9 @@
     "region": "USA",
     "lat": 38.9,
     "lon": -77.04
-   }
+   },
+   "tier": "detail",
+   "parent": "us-doj-pannun-indictment-2023"
   },
   {
    "unique_id": "nia-raids-uk-sikh-families-2023",
@@ -4758,7 +4924,8 @@
     "region": "Punjab/India",
     "lat": 31.15,
     "lon": 75.34
-   }
+   },
+   "tier": "detail"
   },
   {
    "unique_id": "dhesi-detained-amritsar-2023",
@@ -4793,7 +4960,8 @@
     "region": "Punjab/India",
     "lat": 31.63,
     "lon": 74.87
-   }
+   },
+   "tier": "detail"
   },
   {
    "unique_id": "g20-biden-modi-2023",
@@ -4828,7 +4996,8 @@
     "region": "Punjab/India",
     "lat": 28.61,
     "lon": 77.21
-   }
+   },
+   "tier": "detail"
   },
   {
    "unique_id": "khalistan-referendum-surrey-2023",
@@ -4863,7 +5032,9 @@
     "region": "Canada",
     "lat": 49.19,
     "lon": -122.85
-   }
+   },
+   "tier": "detail",
+   "parent": "khalistan-referendum-begins-2022"
   },
   {
    "unique_id": "khanda-inquest-call-2023",
@@ -4898,7 +5069,9 @@
     "region": "UK",
     "lat": 52.48,
     "lon": -1.9
-   }
+   },
+   "tier": "detail",
+   "parent": "khanda-death-2023"
   },
   {
    "unique_id": "trudeau-parliament-nijjar-2023",
@@ -4938,7 +5111,9 @@
     "region": "Canada",
     "lat": 45.42,
     "lon": -75.7
-   }
+   },
+   "tier": "detail",
+   "parent": "nijjar-assassination-2023"
   },
   {
    "unique_id": "nijjar-murder-footage-2023",
@@ -4974,7 +5149,9 @@
     "region": "Canada",
     "lat": 49.19,
     "lon": -122.85
-   }
+   },
+   "tier": "detail",
+   "parent": "nijjar-assassination-2023"
   },
   {
    "unique_id": "kamaljit-ram-irb-2023",
@@ -5009,7 +5186,8 @@
     "region": "Canada",
     "lat": 45.42,
     "lon": -75.7
-   }
+   },
+   "tier": "detail"
   },
   {
    "unique_id": "india-demands-diplomat-withdrawal-2023",
@@ -5045,7 +5223,9 @@
     "region": "Punjab/India",
     "lat": 28.61,
     "lon": 77.21
-   }
+   },
+   "tier": "detail",
+   "parent": "nijjar-assassination-2023"
   },
   {
    "unique_id": "diplomat-deadline-visa-delays-2023",
@@ -5081,7 +5261,9 @@
     "region": "Canada",
     "lat": 45.42,
     "lon": -75.7
-   }
+   },
+   "tier": "detail",
+   "parent": "nijjar-assassination-2023"
   },
   {
    "unique_id": "india-accuses-canadian-visas-2023",
@@ -5117,7 +5299,9 @@
     "region": "Punjab/India",
     "lat": 28.61,
     "lon": 77.21
-   }
+   },
+   "tier": "detail",
+   "parent": "nijjar-assassination-2023"
   },
   {
    "unique_id": "us-doj-pannun-indictment-2023",
@@ -5157,7 +5341,8 @@
     "region": "USA",
     "lat": 40.71,
     "lon": -74.01
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "australia-parliament-sikh-safety-2023",
@@ -5193,7 +5378,8 @@
     "region": "Australia",
     "lat": -35.28,
     "lon": 149.13
-   }
+   },
+   "tier": "detail"
   },
   {
    "unique_id": "cardin-statement-2023",
@@ -5229,7 +5415,9 @@
     "region": "USA",
     "lat": 38.9,
     "lon": -77.04
-   }
+   },
+   "tier": "detail",
+   "parent": "us-doj-pannun-indictment-2023"
   },
   {
    "unique_id": "sikhri-special-report-2023",
@@ -5265,7 +5453,8 @@
     "region": "Canada",
     "lat": 43.65,
     "lon": -79.38
-   }
+   },
+   "tier": "detail"
   },
   {
    "unique_id": "california-referendum-2024",
@@ -5300,7 +5489,9 @@
     "region": "USA",
     "lat": 36.78,
     "lon": -119.42
-   }
+   },
+   "tier": "detail",
+   "parent": "khalistan-referendum-begins-2022"
   },
   {
    "unique_id": "amritpal-electoral-win-2024",
@@ -5335,7 +5526,9 @@
     "region": "Punjab/India",
     "lat": 31.42,
     "lon": 74.94
-   }
+   },
+   "tier": "detail",
+   "parent": "amritpal-singh-wpd-head-2022"
   },
   {
    "unique_id": "1984-40th-anniversary-2024",
@@ -5374,7 +5567,9 @@
     "region": "Punjab/India",
     "lat": 31.62,
     "lon": 74.88
-   }
+   },
+   "tier": "detail",
+   "parent": "anti-sikh-pogroms-nov-1984"
   },
   {
    "unique_id": "twelve-sikh-mps-uk-2024",
@@ -5409,7 +5604,8 @@
     "region": "UK",
     "lat": 51.5,
     "lon": -0.125
-   }
+   },
+   "tier": "detail"
   },
   {
    "unique_id": "yadav-indictment-2024",
@@ -5444,7 +5640,9 @@
     "region": "USA",
     "lat": 40.71,
     "lon": -74.01
-   }
+   },
+   "tier": "detail",
+   "parent": "us-doj-pannun-indictment-2023"
   },
   {
    "unique_id": "canada-foreign-interference-commission-2025",
@@ -5478,7 +5676,8 @@
     "region": "Canada",
     "lat": 45.42,
     "lon": -75.7
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "bc-extortion-wave-2025",
@@ -5512,7 +5711,8 @@
     "region": "Canada",
     "lat": 49.19,
     "lon": -122.85
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "punjab-floods-2025",
@@ -5546,7 +5746,8 @@
     "region": "Punjab/India",
     "lat": 31.0,
     "lon": 75.3
-   }
+   },
+   "tier": "detail"
   },
   {
    "unique_id": "canada-bishnoi-terror-designation-2025",
@@ -5581,7 +5782,8 @@
     "region": "Canada",
     "lat": 45.42,
     "lon": -75.7
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "jagtar-singh-johal-case-2025",
@@ -5615,7 +5817,8 @@
     "region": "Punjab/India",
     "lat": 31.33,
     "lon": 75.58
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "wso-hate-report-chaggar-50th-2026",
@@ -5650,7 +5853,8 @@
     "region": "UK",
     "lat": 51.51,
     "lon": -0.375
-   }
+   },
+   "tier": "major"
   },
   {
    "unique_id": "rcmp-no-evidence-hardball-2026",
@@ -5688,7 +5892,9 @@
     "region": "Canada",
     "lat": 45.42,
     "lon": -75.7
-   }
+   },
+   "tier": "detail",
+   "parent": "nijjar-assassination-2023"
   }
  ],
  "persons": [

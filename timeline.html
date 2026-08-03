@@ -13,7 +13,7 @@
 <!-- ASSET VERSION: bump this token in BOTH places below (the stylesheet href and
      the timeline-data.json fetch) whenever timeline.css or timeline-data.json
      changes, otherwise browsers keep serving the previously cached copy. -->
-<link rel="stylesheet" href="timeline.css?v=20260803a">
+<link rel="stylesheet" href="timeline.css?v=20260803b">
 </head>
 <body>
 <div class="hud-sweep" aria-hidden="true"></div>
@@ -65,7 +65,19 @@
   <!-- ============ TIMELINE VIEW ============ -->
   <section class="view active" id="view-timeline">
     <div class="band" id="band">
-      <div class="lbl"><span>Memory Stream</span><span class="hint">click a marker &middot; &#8592;/&#8594; keys navigate &middot; Home/End jump</span></div>
+      <div class="lbl">
+        <span>Memory Stream</span>
+        <div class="stream-opts">
+          <div class="seg" id="density" role="group" aria-label="How much of the record to show">
+            <button type="button" data-density="major" aria-pressed="false">Major only</button>
+            <button type="button" data-density="all" class="on" aria-pressed="true">Everything</button>
+          </div>
+          <button type="button" class="tog" id="cite-toggle" aria-pressed="true">
+            <span class="dot" aria-hidden="true"></span>Citations
+          </button>
+        </div>
+        <span class="hint">click a marker &middot; &#8592;/&#8594; keys navigate &middot; Home/End jump</span>
+      </div>
       <div class="band-scroll" id="band-scroll"><div class="band-track" id="band-track"></div></div>
     </div>
 
@@ -86,7 +98,9 @@
           <div class="slide-body anim-item">
             <div class="slide-text">
               <div class="slide-place" id="s-place" hidden><span class="pin">&#9670;</span><span id="s-place-text"></span></div>
+              <button type="button" class="parent-crumb" id="s-parent" hidden></button>
               <p id="s-text"></p>
+              <div class="subevents" id="s-subs" hidden></div>
               <div class="related-people" id="s-people"></div>
               <div class="sources" id="s-sources"></div>
             </div>
@@ -213,7 +227,7 @@
 
   let DATA;
   try {
-    const res = await fetch('timeline-data.json?v=20260803a');
+    const res = await fetch('timeline-data.json?v=20260803b');
     if (!res.ok) throw new Error('HTTP ' + res.status);
     DATA = await res.json();
   } catch (err) {
@@ -363,7 +377,33 @@
   let cur = 0;
   let activeCats = new Set();
   const cats = [...new Set(events.map(e => e.category))].sort();
-  const visible = () => events.map((e,i)=>i).filter(i => !activeCats.size || activeCats.has(events[i].category));
+
+  // ---- reading preferences, remembered between visits ----
+  // Two dials, both defaulting to the fullest view so nothing is hidden from a
+  // first-time reader: how much of the record is in play, and whether each
+  // entry shows its citations inline.
+  const PREFS = 'virasat.prefs.v1';
+  const prefs = Object.assign({ density: 'all', citations: true }, (() => {
+    try { return JSON.parse(localStorage.getItem(PREFS)) || {}; } catch (e) { return {}; }
+  })());
+  const savePrefs = () => { try { localStorage.setItem(PREFS, JSON.stringify(prefs)); } catch (e) {} };
+
+  const idxOf = {};
+  events.forEach((e,i) => { idxOf[e.unique_id] = i; });
+  const isMajor = e => e.tier !== 'detail';
+  const childrenOf = {};
+  events.forEach(e => { if (e.parent) (childrenOf[e.parent] = childrenOf[e.parent] || []).push(e.unique_id); });
+
+  // The event being read is always in the visible set. Filtering someone off
+  // the entry they are looking at - by arriving on a deep link, or by flipping
+  // a switch - is disorienting, so the filters narrow what is around it
+  // instead of moving them.
+  const passes = i => (!activeCats.size || activeCats.has(events[i].category))
+                   && (prefs.density === 'all' || isMajor(events[i]));
+  const visible = () => {
+    const v = events.map((e,i)=>i).filter(i => passes(i) || i === cur);
+    return v.length ? v : events.map((e,i)=>i);
+  };
 
   const rail = $('rail');
   eras.forEach(er => {
@@ -396,7 +436,8 @@
     idxs.forEach(i => {
       const ev = events[i];
       const t = document.createElement('button');
-      t.className = 'tick'; t.type = 'button';
+      t.className = 'tick' + (isMajor(ev) ? ' major' : '');
+      t.type = 'button';
       t.dataset.idx = i;
       t.dataset.tip = ev.display_date + ' — ' + ev.text.headline;
       t.setAttribute('aria-label', ev.display_date + ': ' + ev.text.headline);
@@ -422,11 +463,44 @@
     chipsBox.appendChild(chip);
   });
   function applyFilter(){
-    const vis = visible();
-    events.forEach((e,i) => { if (tickEls[i]) tickEls[i].classList.toggle('dim', !vis.includes(i)); });
+    const vis = new Set(visible());
+    events.forEach((e,i) => { if (tickEls[i]) tickEls[i].classList.toggle('dim', !vis.has(i)); });
     buildIndex();
-    if (!vis.includes(cur) && vis.length) go(vis[0]);
+    if (!vis.has(cur) && vis.size) go(visible()[0]);
+    else render(false);
   }
+
+  // ---- density: major events only, or the whole record ----
+  const densityBox = $('density');
+  const paintDensity = () => {
+    densityBox.querySelectorAll('button').forEach(b => {
+      const on = b.dataset.density === prefs.density;
+      b.classList.toggle('on', on);
+      b.setAttribute('aria-pressed', on ? 'true' : 'false');
+    });
+  };
+  densityBox.addEventListener('click', e => {
+    const b = e.target.closest('button[data-density]');
+    if (!b || b.dataset.density === prefs.density) return;
+    prefs.density = b.dataset.density;
+    savePrefs(); paintDensity(); applyFilter();
+  });
+  paintDensity();
+
+  // ---- citations: shown inline, or folded behind a per-entry button ----
+  const citeBtn = $('cite-toggle');
+  let citeOpen = false;                 // per-entry override, reset on navigation
+  const paintCite = () => {
+    citeBtn.classList.toggle('on', prefs.citations);
+    citeBtn.setAttribute('aria-pressed', prefs.citations ? 'true' : 'false');
+    citeBtn.title = prefs.citations ? 'Hide citations under a button' : 'Show citations with every entry';
+  };
+  citeBtn.addEventListener('click', () => {
+    prefs.citations = !prefs.citations;
+    citeOpen = false;
+    savePrefs(); paintCite(); render(false);
+  });
+  paintCite();
 
   const listBody = $('list-body');
   function buildIndex(){
@@ -436,7 +510,15 @@
       const ev = events[i];
       const tr = document.createElement('tr');
       tr.tabIndex = 0;
-      tr.innerHTML = '<td class="yr">' + esc(ev.display_date) + '</td><td class="hl">' + esc(ev.text.headline) + '</td><td class="er">' + esc(ev.group.replace(/\s*\(.*\)/,'')) + '</td>';
+      // a sub-event is indented under the event it belongs to, so the table
+      // reads as a hierarchy rather than 157 equal rows
+      const sub = ev.parent && vis.includes(idxOf[ev.parent]);
+      tr.className = isMajor(ev) ? 'row-major' : 'row-detail';
+      tr.innerHTML = '<td class="yr">' + esc(ev.display_date) + '</td>'
+        + '<td class="hl' + (sub ? ' nested' : '') + '">'
+        + (sub ? '<span class="branch" aria-hidden="true">&#8627;</span>' : '')
+        + esc(ev.text.headline) + '</td>'
+        + '<td class="er">' + esc(ev.group.replace(/\s*\(.*\)/,'')) + '</td>';
       const open = () => goTo(i);
       tr.addEventListener('click', open);
       tr.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(); } });
@@ -481,18 +563,57 @@
       peopleBox.appendChild(tag);
     });
 
+    // ---- where this entry sits in the record ----
+    const crumb = $('s-parent');
+    const par = ev.parent && events[idxOf[ev.parent]];
+    if (par){
+      crumb.hidden = false;
+      crumb.innerHTML = '<span class="arw" aria-hidden="true">&#8598;</span>Part of <b>' + esc(par.text.headline) + '</b>';
+      crumb.onclick = () => goTo(idxOf[ev.parent]);
+    } else { crumb.hidden = true; crumb.onclick = null; }
+
+    const subs = $('s-subs');
+    subs.innerHTML = '';
+    const kids = (childrenOf[ev.unique_id] || []).filter(id => id in idxOf);
+    if (kids.length){
+      subs.hidden = false;
+      const l = document.createElement('div');
+      l.className = 'lbl';
+      l.textContent = 'Also in this thread — ' + kids.length + (kids.length === 1 ? ' entry' : ' entries');
+      subs.appendChild(l);
+      kids.forEach(id => {
+        const k = events[idxOf[id]];
+        const b = document.createElement('button');
+        b.type = 'button'; b.className = 'subtag';
+        b.innerHTML = '<span class="d">' + esc(k.display_date) + '</span>' + esc(k.text.headline);
+        b.addEventListener('click', () => goTo(idxOf[id]));
+        subs.appendChild(b);
+      });
+    } else { subs.hidden = true; }
+
+    // ---- citations ----
     const src = $('s-sources');
     src.innerHTML = '';
-    if (ev.sources && ev.sources.length){
-      const lbl = document.createElement('div'); lbl.className = 'lbl'; lbl.textContent = 'Sources';
-      src.appendChild(lbl);
-      ev.sources.forEach(s => {
-        const a = document.createElement('a');
-        a.href = s.url; a.target = '_blank'; a.rel = 'noopener';
-        a.textContent = s.title.length > 60 ? s.title.slice(0,57) + '…' : s.title;
-        if (s.ref) attachRef(a, s.ref);
-        src.appendChild(a);
-      });
+    const list = ev.sources || [];
+    if (list.length){
+      const show = prefs.citations || citeOpen;
+      if (!show){
+        const b = document.createElement('button');
+        b.type = 'button'; b.className = 'cite-peek';
+        b.textContent = 'Show ' + list.length + (list.length === 1 ? ' source' : ' sources');
+        b.addEventListener('click', () => { citeOpen = true; render(false); });
+        src.appendChild(b);
+      } else {
+        const lbl = document.createElement('div'); lbl.className = 'lbl'; lbl.textContent = 'Sources';
+        src.appendChild(lbl);
+        list.forEach(s => {
+          const a = document.createElement('a');
+          a.href = s.url; a.target = '_blank'; a.rel = 'noopener';
+          a.textContent = s.title.length > 60 ? s.title.slice(0,57) + '…' : s.title;
+          if (s.ref) attachRef(a, s.ref);
+          src.appendChild(a);
+        });
+      }
     }
 
     const wrap = $('s-imgwrap'), cap = $('s-figcap');
@@ -534,7 +655,9 @@
   const placeholder = () => '<div class="placeholder"><span class="khanda">&#9772;</span>No archival image<br>for this memory</div>';
 
   function go(i, withTransition){
-    cur = i; render(withTransition !== false);
+    cur = i;
+    citeOpen = false;              // a per-entry reveal does not follow you
+    render(withTransition !== false);
   }
   $('btn-prev').addEventListener('click', () => { const v = visible(), vi = v.indexOf(cur); if (vi > 0) go(v[vi-1]); });
   $('btn-next').addEventListener('click', () => { const v = visible(), vi = v.indexOf(cur); if (vi < v.length-1) go(v[vi+1]); });
