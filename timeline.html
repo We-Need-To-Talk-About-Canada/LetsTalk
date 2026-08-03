@@ -13,7 +13,7 @@
 <!-- ASSET VERSION: bump this token in BOTH places below (the stylesheet href and
      the timeline-data.json fetch) whenever timeline.css or timeline-data.json
      changes, otherwise browsers keep serving the previously cached copy. -->
-<link rel="stylesheet" href="timeline.css?v=20260803b">
+<link rel="stylesheet" href="timeline.css?v=20260803d">
 </head>
 <body>
 <div class="hud-sweep" aria-hidden="true"></div>
@@ -227,7 +227,7 @@
 
   let DATA;
   try {
-    const res = await fetch('timeline-data.json?v=20260803b');
+    const res = await fetch('timeline-data.json?v=20260803d');
     if (!res.ok) throw new Error('HTTP ' + res.status);
     DATA = await res.json();
   } catch (err) {
@@ -295,7 +295,8 @@
       +   (meta ? '<div class="rc-meta">' + esc(meta) + '</div>' : '')
       +   (r.detail ? '<div class="rc-meta">' + esc(r.detail) + '</div>' : '')
       +   (r.note ? '<div class="rc-note">' + esc(r.note) + '</div>' : '')
-      +   '<div class="rc-go">Click to open &#8599;</div>'
+      +   (r.url ? '<div class="rc-go">Click to open &#8599;</div>'
+                  : '<div class="rc-go off">No online copy &mdash; cited in print</div>')
       + '</div>';
     if (r.cover || r.cover_fallback){
       const box = refCard.querySelector('.rc-cover');
@@ -607,8 +608,11 @@
         const lbl = document.createElement('div'); lbl.className = 'lbl'; lbl.textContent = 'Sources';
         src.appendChild(lbl);
         list.forEach(s => {
-          const a = document.createElement('a');
-          a.href = s.url; a.target = '_blank'; a.rel = 'noopener';
+          // A print work with no online copy is still a citation - it just is
+          // not a link. Rendering it as one would promise a page that is not there.
+          const a = document.createElement(s.url ? 'a' : 'span');
+          if (s.url){ a.href = s.url; a.target = '_blank'; a.rel = 'noopener'; }
+          else a.className = 'offline';
           a.textContent = s.title.length > 60 ? s.title.slice(0,57) + '…' : s.title;
           if (s.ref) attachRef(a, s.ref);
           src.appendChild(a);

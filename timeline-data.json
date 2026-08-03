@@ -293,6 +293,11 @@
     {
      "title": "The Golden Temple: Its Theo-Political Status",
      "url": "https://sikhri.org/articles/the-golden-temple-its-theo-political-status"
+    },
+    {
+     "title": "The Golden Temple: Its Theo-Politica… (Sirdar Kapur Singh)",
+     "ref": "kapur-singh-golden-temple",
+     "url": "https://sikhri.org/articles/the-golden-temple-its-theo-political-status"
     }
    ],
    "confidence": "medium",
@@ -684,6 +689,11 @@
     {
      "title": "Sikhs Are Not Hindus, Sikhs Are A Distinct People (Baaz)",
      "url": "https://www.baaznews.org/p/sikhs-are-not-hindus-sikhs-are-a-distinct-people"
+    },
+    {
+     "title": "Nash Doctrine: Five Freedoms of Vaisakhi… (Harinder Singh)",
+     "ref": "sikhri-nash-doctrine",
+     "url": "https://sikhri.org/articles/nash-doctrine-five-freedoms-of-vaisakhi-1699"
     }
    ],
    "confidence": "high",
@@ -722,6 +732,11 @@
     {
      "title": "Are You Ready to Be a Decision-maker for Sikhs?",
      "url": "https://sikhri.org/articles/are-you-ready-to-be-a-decision-maker-for-sikhs"
+    },
+    {
+     "title": "Sovereignty in Motion: Sikh Governance Mo… (Santbir Singh)",
+     "ref": "sikhri-sovereignty-in-motion",
+     "url": "https://sikhri.org/articles/sovereignty-in-motion-sikh-governance-models"
     }
    ],
    "confidence": "medium",
@@ -975,6 +990,41 @@
    "tier": "detail"
   },
   {
+   "unique_id": "bhai-mani-singh-martyrdom-1734",
+   "start_date": {
+    "year": 1734,
+    "month": 6
+   },
+   "display_date": "June 1734",
+   "text": {
+    "headline": "Martyrdom of Bhai Mani Singh at Lahore",
+    "text": "Bhai Mani Singh had held the Sikh institutions together after the fall of Banda Singh Bahadur, keeping Harimandar Sahib functioning and Sikh scholarship alive under a government that had put a price on Sikh heads. He was ordered cut to pieces limb by limb, and the sentence was carried out in June 1734 at the Nakhas horse market outside Delhi Gate, Lahore, where Gurdwara Shahid Ganj now stands."
+   },
+   "group": "Banda Singh & Misl Era (1708-1799)",
+   "category": "Martyrdom",
+   "media": {
+    "caption": "Zakariya Khan Bahadur, Subahdar of Lahore — representative image of the government under which the execution was ordered, not of the martyrdom.",
+    "credit": "Wikimedia Commons",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Zakariya_Khan_Bahadur%2C_Subahdar_%28governor%29_of_Lahore_subah_%28province%29_resting%2C_detail_from_a_19th_century_Sikh_drawing.jpg/1024px-Zakariya_Khan_Bahadur%2C_Subahdar_%28governor%29_of_Lahore_subah_%28province%29_resting%2C_detail_from_a_19th_century_Sikh_drawing.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Zakariya_Khan_Bahadur%2C_Subahdar_%28governor%29_of_Lahore_subah_%28province%29_resting%2C_detail_from_a_19th_century_Sikh_drawing.jpg/480px-Zakariya_Khan_Bahadur%2C_Subahdar_%28governor%29_of_Lahore_subah_%28province%29_resting%2C_detail_from_a_19th_century_Sikh_drawing.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Zakariya_Khan_Bahadur%2C_Subahdar_%28governor%29_of_Lahore_subah_%28province%29_resting%2C_detail_from_a_19th_century_Sikh_drawing.jpg?width=1024"
+   },
+   "sources": [
+    {
+     "title": "Excerpts from The Sikhs in History (Sangat Singh)",
+     "ref": "sangat-singh-sikhs-in-history"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Lahore, Panjab",
+    "region": "Pakistan",
+    "lat": 31.55,
+    "lon": 74.34
+   },
+   "tier": "major"
+  },
+  {
    "unique_id": "nadir-shah-captives-freed-1739",
    "start_date": {
     "year": 1739
@@ -1007,6 +1057,78 @@
     "lon": 76.2
    },
    "tier": "detail"
+  },
+  {
+   "unique_id": "massa-rangar-1740",
+   "start_date": {
+    "year": 1740,
+    "month": 8
+   },
+   "display_date": "August 1740",
+   "text": {
+    "headline": "Massa Rangar killed for desecrating Harimandar Sahib",
+    "text": "The occupying official Massa Rangar had turned Harimandar Sahib into a dancing hall. Two Sikhs travelled from Jaipur, entered during morning office hours and beheaded him at his post, carrying the head back to the Sikh assembly. Kapur Singh treats the episode as an assertion that the shrine's status was not the state's to dispose of."
+   },
+   "group": "Banda Singh & Misl Era (1708-1799)",
+   "category": "Battles",
+   "media": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Painting_of_Guru_Arjan_overseeing_the_construction_of_the_original_Golden_Temple_%28Harmandir_Sahib%29%2C_circa_1890-95.jpg/1024px-Painting_of_Guru_Arjan_overseeing_the_construction_of_the_original_Golden_Temple_%28Harmandir_Sahib%29%2C_circa_1890-95.jpg",
+    "caption": "Guru Arjan Sahib overseeing the construction of Harimandar Sahib — representative image of the shrine at issue, not of the events of 1740.",
+    "credit": "Wikimedia Commons / public domain",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Painting_of_Guru_Arjan_overseeing_the_construction_of_the_original_Golden_Temple_%28Harmandir_Sahib%29%2C_circa_1890-95.jpg/480px-Painting_of_Guru_Arjan_overseeing_the_construction_of_the_original_Golden_Temple_%28Harmandir_Sahib%29%2C_circa_1890-95.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Painting_of_Guru_Arjan_overseeing_the_construction_of_the_original_Golden_Temple_%28Harmandir_Sahib%29%2C_circa_1890-95.jpg?width=1024"
+   },
+   "sources": [
+    {
+     "title": "The Golden Temple: Its Theo-Politica… (Sirdar Kapur Singh)",
+     "ref": "kapur-singh-golden-temple",
+     "url": "https://sikhri.org/articles/the-golden-temple-its-theo-political-status"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Amritsar, Panjab",
+    "region": "India",
+    "lat": 31.62,
+    "lon": 74.88
+   },
+   "tier": "detail"
+  },
+  {
+   "unique_id": "bhai-taru-singh-martyrdom-1745",
+   "start_date": {
+    "year": 1745,
+    "month": 7,
+    "day": 1
+   },
+   "display_date": "July 1, 1745",
+   "text": {
+    "headline": "Martyrdom of Bhai Taru Singh",
+    "text": "Arrested on a complaint that he supplied rations to Sikhs in hiding, Bhai Taru Singh refused to give up his kes and had his scalp removed on the orders of Nawab Zakaria Khan. Zakaria Khan fell fatally ill and died on 1 July 1745; on hearing of it, Taru Singh left his mortal remains the same day."
+   },
+   "group": "Banda Singh & Misl Era (1708-1799)",
+   "category": "Martyrdom",
+   "media": {
+    "caption": "Representative image of the persecution of Sikhs in this period, not of the martyrdom itself.",
+    "credit": "Wikimedia Commons",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Illustration_of_Sikh_women_and_children_toiling_away_grinding_flour_at_Mir_Mannu%27s_death_camp%2C_by_Gian_Singh_Naqqash%2C_ca.1930.jpg/1024px-Illustration_of_Sikh_women_and_children_toiling_away_grinding_flour_at_Mir_Mannu%27s_death_camp%2C_by_Gian_Singh_Naqqash%2C_ca.1930.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Illustration_of_Sikh_women_and_children_toiling_away_grinding_flour_at_Mir_Mannu%27s_death_camp%2C_by_Gian_Singh_Naqqash%2C_ca.1930.jpg/480px-Illustration_of_Sikh_women_and_children_toiling_away_grinding_flour_at_Mir_Mannu%27s_death_camp%2C_by_Gian_Singh_Naqqash%2C_ca.1930.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Illustration_of_Sikh_women_and_children_toiling_away_grinding_flour_at_Mir_Mannu%27s_death_camp%2C_by_Gian_Singh_Naqqash%2C_ca.1930.jpg?width=1024"
+   },
+   "sources": [
+    {
+     "title": "Excerpts from The Sikhs in History (Sangat Singh)",
+     "ref": "sangat-singh-sikhs-in-history"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Lahore, Panjab",
+    "region": "Pakistan",
+    "lat": 31.55,
+    "lon": 74.34
+   },
+   "tier": "major"
   },
   {
    "unique_id": "chhota-ghallughara-1746",
@@ -1043,6 +1165,77 @@
    "tier": "major"
   },
   {
+   "unique_id": "dal-khalsa-misls-1748",
+   "start_date": {
+    "year": 1748,
+    "month": 3,
+    "day": 29
+   },
+   "display_date": "Vaisakhi, March 29, 1748",
+   "text": {
+    "headline": "The Sikhs form the Dal Khalsa and organise into eleven misls",
+    "text": "By gurmatta at Vaisakhi 1748, more than sixty armed jathas were reorganised into eleven misls under the overall leadership of Jassa Singh Ahluwalia. It is the structure that carried Sikh power through the second half of the eighteenth century, and the political form the Sikh Empire was later built on."
+   },
+   "group": "Banda Singh & Misl Era (1708-1799)",
+   "category": "Institutions",
+   "media": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Equestrian_painting_of_Jassa_Singh_Ahluwalia%2C_Punjab_Plains%2C_circa_1859.jpg/1024px-Equestrian_painting_of_Jassa_Singh_Ahluwalia%2C_Punjab_Plains%2C_circa_1859.jpg",
+    "caption": "Equestrian painting of Jassa Singh Ahluwalia, who led the Dal Khalsa — a later depiction, not a contemporary record of 1748.",
+    "credit": "Wikimedia Commons / public domain",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Equestrian_painting_of_Jassa_Singh_Ahluwalia%2C_Punjab_Plains%2C_circa_1859.jpg/480px-Equestrian_painting_of_Jassa_Singh_Ahluwalia%2C_Punjab_Plains%2C_circa_1859.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Equestrian_painting_of_Jassa_Singh_Ahluwalia%2C_Punjab_Plains%2C_circa_1859.jpg?width=1024"
+   },
+   "sources": [
+    {
+     "title": "Excerpts from The Sikhs in History (Sangat Singh)",
+     "ref": "sangat-singh-sikhs-in-history"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Amritsar, Panjab",
+    "region": "India",
+    "lat": 31.62,
+    "lon": 74.88
+   },
+   "tier": "major"
+  },
+  {
+   "unique_id": "abdali-demolishes-harimandar-1757",
+   "start_date": {
+    "year": 1757
+   },
+   "display_date": "1757",
+   "text": {
+    "headline": "Ahmad Shah Abdali demolishes Harimandar Sahib",
+    "text": "On his fourth invasion, Ahmad Shah Abdali found the Sikhs the people of India who resented his incursions most openly. He had Harimandar Sahib demolished, its adjuncts destroyed and the sarovar filled in. The shrine was rebuilt, and destroyed again in 1762 during the Vadda Ghallughara."
+   },
+   "group": "Banda Singh & Misl Era (1708-1799)",
+   "category": "Battles",
+   "media": {
+    "caption": "Ahmad Shah Abdali with his grand wazir — a later painting of the invader, not a record of the demolition.",
+    "credit": "Wikimedia Commons",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Painting_of_Ahmad_Shah_Abdali_and_his_grand_wazir_Shah_Wali_Khan%2C_ca.1760%27s.jpg/1024px-Painting_of_Ahmad_Shah_Abdali_and_his_grand_wazir_Shah_Wali_Khan%2C_ca.1760%27s.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Painting_of_Ahmad_Shah_Abdali_and_his_grand_wazir_Shah_Wali_Khan%2C_ca.1760%27s.jpg/480px-Painting_of_Ahmad_Shah_Abdali_and_his_grand_wazir_Shah_Wali_Khan%2C_ca.1760%27s.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Painting_of_Ahmad_Shah_Abdali_and_his_grand_wazir_Shah_Wali_Khan%2C_ca.1760%27s.jpg?width=1024"
+   },
+   "sources": [
+    {
+     "title": "The Golden Temple: Its Theo-Politica… (Sirdar Kapur Singh)",
+     "ref": "kapur-singh-golden-temple",
+     "url": "https://sikhri.org/articles/the-golden-temple-its-theo-political-status"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Amritsar, Panjab",
+    "region": "India",
+    "lat": 31.62,
+    "lon": 74.88
+   },
+   "tier": "detail"
+  },
+  {
    "unique_id": "vadda-ghallughara-1762",
    "start_date": {
     "year": 1762
@@ -1073,6 +1266,40 @@
     "region": "Punjab/India",
     "lat": 30.53,
     "lon": 75.88
+   },
+   "tier": "major"
+  },
+  {
+   "unique_id": "sikhs-occupy-lahore-1765",
+   "start_date": {
+    "year": 1765
+   },
+   "display_date": "1765",
+   "text": {
+    "headline": "The Sikhs take Lahore and strike coins in their own name",
+    "text": "Lahore was parcelled out between Gujjar Singh and Lehna Singh Bhangi and Sobha Singh of the Kanahaya misl. They forbade plunder, established a non-sectarian administration, and struck coins as a mark of sovereignty — thirty-four years before Ranjit Singh took the city."
+   },
+   "group": "Banda Singh & Misl Era (1708-1799)",
+   "category": "Institutions",
+   "media": {
+    "caption": "Equestrian painting of Jassa Singh Ahluwalia — representative image of the misl period, not of the occupation of Lahore.",
+    "credit": "Wikimedia Commons",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Equestrian_painting_of_Jassa_Singh_Ahluwalia_on_horseback_in-front_of_his_haveli_with_a_fly-whisk_attendant%2C_circa_late_18th_century_%28better_colours%29.jpg/1024px-Equestrian_painting_of_Jassa_Singh_Ahluwalia_on_horseback_in-front_of_his_haveli_with_a_fly-whisk_attendant%2C_circa_late_18th_century_%28better_colours%29.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Equestrian_painting_of_Jassa_Singh_Ahluwalia_on_horseback_in-front_of_his_haveli_with_a_fly-whisk_attendant%2C_circa_late_18th_century_%28better_colours%29.jpg/480px-Equestrian_painting_of_Jassa_Singh_Ahluwalia_on_horseback_in-front_of_his_haveli_with_a_fly-whisk_attendant%2C_circa_late_18th_century_%28better_colours%29.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Equestrian_painting_of_Jassa_Singh_Ahluwalia_on_horseback_in-front_of_his_haveli_with_a_fly-whisk_attendant%2C_circa_late_18th_century_%28better_colours%29.jpg?width=1024"
+   },
+   "sources": [
+    {
+     "title": "Excerpts from The Sikhs in History (Sangat Singh)",
+     "ref": "sangat-singh-sikhs-in-history"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Lahore, Panjab",
+    "region": "Pakistan",
+    "lat": 31.55,
+    "lon": 74.34
    },
    "tier": "major"
   },
@@ -1140,6 +1367,10 @@
     {
      "title": "Pieter Friedrich: Sikh Caucus (Baaz)",
      "url": "https://www.baaznews.org/p/pieter-friedrich-sikh-caucus-excerpt"
+    },
+    {
+     "title": "Excerpts from Empire of the Sikhs (Patwant Singh)",
+     "ref": "empire-of-the-sikhs-2008"
     }
    ],
    "confidence": "high",
@@ -1283,6 +1514,10 @@
     {
      "title": "Khalsa Values Must Guide Sikh Political Engagement In The West (Baaz)",
      "url": "https://www.baaznews.org/p/khalsa-values-sikh-political-engagement"
+    },
+    {
+     "title": "Sikhs Under British R… (Religion and History of the Sikhs)",
+     "ref": "sikhs-under-british-rule"
     }
    ],
    "confidence": "high",
@@ -1353,6 +1588,14 @@
     {
      "title": "Fakiri Surat – The Fragrance of Bhai Vir Singh",
      "url": "https://sikhri.org/articles/fakiri-surat-the-fragrance-of-bhai-vir-singh"
+    },
+    {
+     "title": "Singh Sabha Movement - A Reviv… (Gurdarshan Singh Dhillon)",
+     "ref": "dhillon-singh-sabha-revival"
+    },
+    {
+     "title": "The Singh Sabha Movement (Teja Singh)",
+     "ref": "teja-singh-singh-sabha"
     }
    ],
    "confidence": "high",
@@ -1363,6 +1606,114 @@
     "lon": 74.87
    },
    "tier": "major"
+  },
+  {
+   "unique_id": "akal-takht-hukamnama-gurmukh-singh-1887",
+   "start_date": {
+    "year": 1887,
+    "month": 3,
+    "day": 18
+   },
+   "display_date": "March 18, 1887",
+   "text": {
+    "headline": "A hukamnama from the Akal Takht against Professor Gurmukh Singh",
+    "text": "The Singh Sabha had split between the Amritsar and Lahore wings. A hukamnama was issued from the Akal Takht against Professor Gurmukh Singh, the leading figure of the Lahore Singh Sabha, over his initiating Muslims and low-caste converts in Singh Sabha gurdwaras — a dispute about who the Panth was open to, settled by excommunication."
+   },
+   "group": "Colonial Era (1849-1947)",
+   "category": "Institutions",
+   "media": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Photograph_of_the_Akal_Takht_in_Amritsar%2C_circa_1850%27s.jpg/1024px-Photograph_of_the_Akal_Takht_in_Amritsar%2C_circa_1850%27s.jpg",
+    "caption": "The Akal Takht at Amritsar, photographed around the 1850s — the institution the hukamnama was issued from, in an image predating it.",
+    "credit": "Wikimedia Commons / public domain",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Photograph_of_the_Akal_Takht_in_Amritsar%2C_circa_1850%27s.jpg/480px-Photograph_of_the_Akal_Takht_in_Amritsar%2C_circa_1850%27s.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Photograph_of_the_Akal_Takht_in_Amritsar%2C_circa_1850%27s.jpg?width=1024"
+   },
+   "sources": [
+    {
+     "title": "Sikhs Under British R… (Religion and History of the Sikhs)",
+     "ref": "sikhs-under-british-rule"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Amritsar, Panjab",
+    "region": "India",
+    "lat": 31.62,
+    "lon": 74.88
+   },
+   "tier": "detail",
+   "parent": "singh-sabha-movement-1873"
+  },
+  {
+   "unique_id": "ham-hindu-nahin-1899",
+   "start_date": {
+    "year": 1899
+   },
+   "display_date": "1899",
+   "text": {
+    "headline": "Bhai Kahn Singh Nabha publishes Ham Hindu Nahin",
+    "text": "Ham Hindu Nahin — “We Are Not Hindus” — set out the case that Sikhi is a distinct faith, against Arya Samaj and Brahmanical claims that Sikhs were a Hindu sect. It became the foundational text of that argument, and the argument itself has never gone away: it is still being made, and still being contested, more than a century later."
+   },
+   "group": "Colonial Era (1849-1947)",
+   "category": "Scripture",
+   "media": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Singh_Sabha_movement_figures.jpg/1024px-Singh_Sabha_movement_figures.jpg",
+    "caption": "Figures of the Singh Sabha movement — representative image of the movement Kahn Singh Nabha wrote from within, not of the tract.",
+    "credit": "Wikimedia Commons",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Singh_Sabha_movement_figures.jpg/480px-Singh_Sabha_movement_figures.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Singh_Sabha_movement_figures.jpg?width=1024"
+   },
+   "sources": [
+    {
+     "title": "Sikhs Under British R… (Religion and History of the Sikhs)",
+     "ref": "sikhs-under-british-rule"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Panjab",
+    "region": "India",
+    "lat": 31.15,
+    "lon": 75.34
+   },
+   "tier": "major"
+  },
+  {
+   "unique_id": "chief-khalsa-diwan-1902",
+   "start_date": {
+    "year": 1902,
+    "month": 10,
+    "day": 30
+   },
+   "display_date": "October 30, 1902",
+   "text": {
+    "headline": "The Chief Khalsa Diwan holds its first meeting",
+    "text": "Held in the Malvai Bunga beside Harimandar Sahib, with the inaugural prayer offered by Babu Teja Singh of Bhasaur. The Diwan drew the scattered Singh Sabhas under a single umbrella and became the body through which Sikh educational and political work was organised until the Gurdwara reform movement overtook it."
+   },
+   "group": "Colonial Era (1849-1947)",
+   "category": "Institutions",
+   "media": {
+    "caption": "Postcards of Amritsar and Lahore, Europe, circa 1910 — representative image of the period, not of the meeting.",
+    "credit": "Wikimedia Commons",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/A_collection_of_postcards_of_Amritsar_and_Lahore._Europe%2C_circa_1910._Comprising_five_of_the_Golden_Temple%2C_Amritsar%3B_the_Ihansi_Fort%2C_Amritsar%2C_the_Shish_Mahal%2C_Lahore%3B_Shalamar_Garden%2C_Lahore%3B_and_two_Lahore_street_views.jpg/1024px-A_collection_of_postcards_of_Amritsar_and_Lahore._Europe%2C_circa_1910._Comprising_five_of_the_Golden_Temple%2C_Amritsar%3B_the_Ihansi_Fort%2C_Amritsar%2C_the_Shish_Mahal%2C_Lahore%3B_Shalamar_Garden%2C_Lahore%3B_and_two_Lahore_street_views.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/A_collection_of_postcards_of_Amritsar_and_Lahore._Europe%2C_circa_1910._Comprising_five_of_the_Golden_Temple%2C_Amritsar%3B_the_Ihansi_Fort%2C_Amritsar%2C_the_Shish_Mahal%2C_Lahore%3B_Shalamar_Garden%2C_Lahore%3B_and_two_Lahore_street_views.jpg/480px-A_collection_of_postcards_of_Amritsar_and_Lahore._Europe%2C_circa_1910._Comprising_five_of_the_Golden_Temple%2C_Amritsar%3B_the_Ihansi_Fort%2C_Amritsar%2C_the_Shish_Mahal%2C_Lahore%3B_Shalamar_Garden%2C_Lahore%3B_and_two_Lahore_street_views.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/A_collection_of_postcards_of_Amritsar_and_Lahore._Europe%2C_circa_1910._Comprising_five_of_the_Golden_Temple%2C_Amritsar%3B_the_Ihansi_Fort%2C_Amritsar%2C_the_Shish_Mahal%2C_Lahore%3B_Shalamar_Garden%2C_Lahore%3B_and_two_Lahore_street_views.jpg?width=1024"
+   },
+   "sources": [
+    {
+     "title": "The Singh Sabha Movement (Teja Singh)",
+     "ref": "teja-singh-singh-sabha"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Amritsar, Panjab",
+    "region": "India",
+    "lat": 31.62,
+    "lon": 74.88
+   },
+   "tier": "detail",
+   "parent": "singh-sabha-movement-1873"
   },
   {
    "unique_id": "fraser-valley-gur-sikh-temple-1905",
@@ -1397,6 +1748,41 @@
     "lon": -122.28
    },
    "tier": "major"
+  },
+  {
+   "unique_id": "anand-marriage-act-1909",
+   "start_date": {
+    "year": 1909
+   },
+   "display_date": "1909",
+   "text": {
+    "headline": "The Anand Marriage Act recognises the Sikh marriage rite",
+    "text": "The Anand Marriage Act gave legal standing to the Anand Karaj, the Sikh form of marriage, which had until then been performed without recognition in Indian law. Gurdarshan Singh Dhillon counts it among the Singh Sabha movement's substantive achievements, alongside the 1921 Census of India's finding that Sikhi had 'attained a position of independence' and was 'fully entitled to rank as a separate religion.'"
+   },
+   "group": "Colonial Era (1849-1947)",
+   "category": "Institutions",
+   "media": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Singh_Sabha_movement_figures.jpg/1024px-Singh_Sabha_movement_figures.jpg",
+    "caption": "Figures of the Singh Sabha movement — representative image of the movement whose campaigning produced the Act, not of its passage.",
+    "credit": "Wikimedia Commons",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Singh_Sabha_movement_figures.jpg/480px-Singh_Sabha_movement_figures.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Singh_Sabha_movement_figures.jpg?width=1024"
+   },
+   "sources": [
+    {
+     "title": "Singh Sabha Movement - A Reviv… (Gurdarshan Singh Dhillon)",
+     "ref": "dhillon-singh-sabha-revival"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Panjab, British India",
+    "region": "India",
+    "lat": 31.15,
+    "lon": 75.34
+   },
+   "tier": "detail",
+   "parent": "singh-sabha-movement-1873"
   },
   {
    "unique_id": "ghadar-movement-1913",
@@ -1599,6 +1985,11 @@
     {
      "title": "Can the next SGPC President be of the Panth?",
      "url": "https://sikhri.org/articles/can-the-next-sgpc-president-be-of-the-panth"
+    },
+    {
+     "title": "Guru Ka Bagh Morcha: The Indomitable… (Surender Pal Singh)",
+     "ref": "sikhri-guru-ka-bagh-morcha",
+     "url": "https://sikhri.org/articles/guru-ka-bagh-morcha"
     }
    ],
    "confidence": "high",
@@ -1609,6 +2000,44 @@
     "lon": 74.87
    },
    "tier": "major"
+  },
+  {
+   "unique_id": "shiromani-akali-dal-1920",
+   "start_date": {
+    "year": 1920,
+    "month": 12,
+    "day": 14
+   },
+   "display_date": "December 14, 1920",
+   "text": {
+    "headline": "The Shiromani Akali Dal is founded",
+    "text": "A 175-member SGPC meeting in Amritsar on 15 November 1920 resolved to create a political arm; the Shiromani Akali Dal came into existence a month later. Ashutosh Kumar notes it is the oldest state party in India. For most of the century that followed, Panjab's electoral politics ran through it."
+   },
+   "group": "Colonial Era (1849-1947)",
+   "category": "Politics",
+   "media": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Photograph_of_the_Khalsa_Biradari_Society_occupying_the_premises_of_the_Akal_Takht_after_purging_the_Pujari_caretakers%2C_marking_the_beginning_of_the_Akali_movement%2C_12_October_1920.jpg/1024px-Photograph_of_the_Khalsa_Biradari_Society_occupying_the_premises_of_the_Akal_Takht_after_purging_the_Pujari_caretakers%2C_marking_the_beginning_of_the_Akali_movement%2C_12_October_1920.jpg",
+    "caption": "The Khalsa Biradari Society occupying the Akal Takht premises — representative image of the SGPC's founding period, not of the Akali Dal's formation.",
+    "credit": "Wikimedia Commons",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Photograph_of_the_Khalsa_Biradari_Society_occupying_the_premises_of_the_Akal_Takht_after_purging_the_Pujari_caretakers%2C_marking_the_beginning_of_the_Akali_movement%2C_12_October_1920.jpg/480px-Photograph_of_the_Khalsa_Biradari_Society_occupying_the_premises_of_the_Akal_Takht_after_purging_the_Pujari_caretakers%2C_marking_the_beginning_of_the_Akali_movement%2C_12_October_1920.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Photograph_of_the_Khalsa_Biradari_Society_occupying_the_premises_of_the_Akal_Takht_after_purging_the_Pujari_caretakers%2C_marking_the_beginning_of_the_Akali_movement%2C_12_October_1920.jpg?width=1024"
+   },
+   "sources": [
+    {
+     "title": "Electoral Politics in Indian Punjab: A N… (Ashutosh Kumar)",
+     "ref": "ashutosh-kumar-electoral-politics-2017",
+     "url": "https://doi.org/10.1177/0262728016675528"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Amritsar, Panjab",
+    "region": "India",
+    "lat": 31.62,
+    "lon": 74.88
+   },
+   "tier": "detail",
+   "parent": "sgpc-formation-1920"
   },
   {
    "unique_id": "saka-nankana-sahib-1921",
@@ -1644,8 +2073,7 @@
     "lat": 31.45,
     "lon": 73.7
    },
-   "tier": "detail",
-   "parent": "sgpc-formation-1920"
+   "tier": "major"
   },
   {
    "unique_id": "babbar-akali-movement-1921",
@@ -1674,6 +2102,11 @@
     {
      "title": "The Forgotten Babbars",
      "url": "https://sikhri.org/articles/the-forgotten-babbars"
+    },
+    {
+     "title": "The Forgotten Babbars (Harinder Singh)",
+     "ref": "sikhri-forgotten-babbars",
+     "url": "https://sikhri.org/articles/the-forgotten-babbars"
     }
    ],
    "confidence": "high",
@@ -1683,8 +2116,7 @@
     "lat": 31.33,
     "lon": 75.58
    },
-   "tier": "detail",
-   "parent": "sgpc-formation-1920"
+   "tier": "major"
   },
   {
    "unique_id": "guru-ka-bagh-morcha-1922",
@@ -1709,6 +2141,11 @@
     {
      "title": "Guru Ka Bagh Morcha",
      "url": "https://sikhri.org/articles/guru-ka-bagh-morcha"
+    },
+    {
+     "title": "Guru Ka Bagh Morcha: The Indomitable… (Surender Pal Singh)",
+     "ref": "sikhri-guru-ka-bagh-morcha",
+     "url": "https://sikhri.org/articles/guru-ka-bagh-morcha"
     }
    ],
    "confidence": "high",
@@ -1718,8 +2155,118 @@
     "lat": 31.8,
     "lon": 74.76
    },
+   "tier": "major"
+  },
+  {
+   "unique_id": "guru-ka-bagh-resolution-1923",
+   "start_date": {
+    "year": 1923,
+    "month": 4,
+    "day": 27
+   },
+   "display_date": "April 27, 1923",
+   "text": {
+    "headline": "Guru Ka Bagh Morcha ends with the release of Sikh prisoners",
+    "text": "The morcha had begun on 9 August 1922, when police sympathetic to the mahant arrested five Sikhs for collecting firewood from the Guru Ka Bagh, and continued through weeks of jathas being beaten and arrested as they arrived without resisting. Sir Edward Maclagan, Lieutenant Governor of Panjab, visited on 13 September 1922; a lease over the land was secured from Mahant Sundar Das on 17 November 1922; and the Panjab Government ordered the release of the Sikh prisoners on 27 April 1923, formally ending the morcha."
+   },
+   "group": "Colonial Era (1849-1947)",
+   "category": "Movements",
+   "media": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Jatha_of_Akali_volunteers_marching_to_Guru-ka-Bagh_on_25_Oct_1922.jpg/1024px-Jatha_of_Akali_volunteers_marching_to_Guru-ka-Bagh_on_25_Oct_1922.jpg",
+    "caption": "Akali Sikhs occupying the Akal Takht premises during the Gurdwara reform movement — representative image of the morchas of this period, not of the Guru Ka Bagh release.",
+    "credit": "Wikimedia Commons / public domain",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Jatha_of_Akali_volunteers_marching_to_Guru-ka-Bagh_on_25_Oct_1922.jpg/480px-Jatha_of_Akali_volunteers_marching_to_Guru-ka-Bagh_on_25_Oct_1922.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Jatha_of_Akali_volunteers_marching_to_Guru-ka-Bagh_on_25_Oct_1922.jpg?width=1024"
+   },
+   "sources": [
+    {
+     "title": "Guru Ka Bagh Morcha: The Indomitable… (Surender Pal Singh)",
+     "ref": "sikhri-guru-ka-bagh-morcha",
+     "url": "https://sikhri.org/articles/guru-ka-bagh-morcha"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Ghukevali, near Amritsar, Panjab",
+    "region": "India",
+    "lat": 31.79,
+    "lon": 74.68
+   },
+   "tier": "detail",
+   "parent": "guru-ka-bagh-morcha-1922"
+  },
+  {
+   "unique_id": "sikh-gurdwaras-act-1925",
+   "start_date": {
+    "year": 1925
+   },
+   "display_date": "1925",
+   "text": {
+    "headline": "The Sikh Gurdwaras Act transfers the gurdwaras to elected Sikh control",
+    "text": "Five years of morchas ended in legislation. The Sikh Gurdwaras Act expropriated the mahants who had held historic gurdwaras as hereditary property and vested control in a statutory elected body, the Shiromani Gurdwara Parbandhak Committee. It remains the legal basis of SGPC control over the historic gurdwaras of Panjab."
+   },
+   "group": "Colonial Era (1849-1947)",
+   "category": "Institutions",
+   "media": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Photograph_of_the_Khalsa_Biradari_Society_occupying_the_premises_of_the_Akal_Takht_after_purging_the_Pujari_caretakers%2C_marking_the_beginning_of_the_Akali_movement%2C_12_October_1920.jpg/1024px-Photograph_of_the_Khalsa_Biradari_Society_occupying_the_premises_of_the_Akal_Takht_after_purging_the_Pujari_caretakers%2C_marking_the_beginning_of_the_Akali_movement%2C_12_October_1920.jpg",
+    "caption": "The Akal Takht and Darbar Sahib complex — representative image of the institutions the Act placed under elected Sikh control, not of the legislation.",
+    "credit": "Wikimedia Commons",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Photograph_of_the_Khalsa_Biradari_Society_occupying_the_premises_of_the_Akal_Takht_after_purging_the_Pujari_caretakers%2C_marking_the_beginning_of_the_Akali_movement%2C_12_October_1920.jpg/480px-Photograph_of_the_Khalsa_Biradari_Society_occupying_the_premises_of_the_Akal_Takht_after_purging_the_Pujari_caretakers%2C_marking_the_beginning_of_the_Akali_movement%2C_12_October_1920.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Photograph_of_the_Khalsa_Biradari_Society_occupying_the_premises_of_the_Akal_Takht_after_purging_the_Pujari_caretakers%2C_marking_the_beginning_of_the_Akali_movement%2C_12_October_1920.jpg?width=1024"
+   },
+   "sources": [
+    {
+     "title": "Guru Ka Bagh Morcha: The Indomitable… (Surender Pal Singh)",
+     "ref": "sikhri-guru-ka-bagh-morcha",
+     "url": "https://sikhri.org/articles/guru-ka-bagh-morcha"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Panjab, British India",
+    "region": "India",
+    "lat": 31.15,
+    "lon": 75.34
+   },
    "tier": "detail",
    "parent": "sgpc-formation-1920"
+  },
+  {
+   "unique_id": "babbar-akali-hangings-1926",
+   "start_date": {
+    "year": 1926,
+    "month": 2
+   },
+   "display_date": "February 1926",
+   "text": {
+    "headline": "Six Babbar Akalis hanged at Lahore Central Jail",
+    "text": "The colonial state answered the Babbar Akali movement with mass trials. In the first Babbar case 133 Sikhs were tried and six were hanged in February 1926; in the second, 37 were tried and six went to the gallows in February 1927. Writing in Partap Hindi Weekly on 15 March 1926 as “A Panjabi Youth,” Bhagat Singh described the first hangings: “On the day of Holi, 27 February 1926, when we were getting high on our enjoyment, a terrible thing was happening in a corner of this great province.”"
+   },
+   "group": "Colonial Era (1849-1947)",
+   "category": "Martyrdom",
+   "media": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Photograph_of_the_six_%27shaheeds%27_%28martyrs%29_of_the_Babbar_Akali_Jatha_from_27_February_1926.jpg/1024px-Photograph_of_the_six_%27shaheeds%27_%28martyrs%29_of_the_Babbar_Akali_Jatha_from_27_February_1926.jpg",
+    "caption": "Representative image of the Babbar Akali period, not a photograph of the executions.",
+    "credit": "Wikimedia Commons",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Photograph_of_the_six_%27shaheeds%27_%28martyrs%29_of_the_Babbar_Akali_Jatha_from_27_February_1926.jpg/480px-Photograph_of_the_six_%27shaheeds%27_%28martyrs%29_of_the_Babbar_Akali_Jatha_from_27_February_1926.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Photograph_of_the_six_%27shaheeds%27_%28martyrs%29_of_the_Babbar_Akali_Jatha_from_27_February_1926.jpg?width=1024"
+   },
+   "sources": [
+    {
+     "title": "The Forgotten Babbars (Harinder Singh)",
+     "ref": "sikhri-forgotten-babbars",
+     "url": "https://sikhri.org/articles/the-forgotten-babbars"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Lahore Central Jail, Panjab",
+    "region": "Pakistan",
+    "lat": 31.55,
+    "lon": 74.34
+   },
+   "tier": "detail",
+   "parent": "babbar-akali-movement-1921"
   },
   {
    "unique_id": "bhagat-singh-execution-1931",
@@ -1758,6 +2305,40 @@
    "tier": "major"
   },
   {
+   "unique_id": "sikh-rahit-maryada-1936",
+   "start_date": {
+    "year": 1936
+   },
+   "display_date": "1936",
+   "text": {
+    "headline": "The Sikh Rahit Maryada is settled after eleven years of consultation",
+    "text": "A draft code of conduct prepared by Sikh scholars in 1925 was circulated to sangats worldwide — Canada, the United States, Kenya, Malaysia — and argued over for eleven years. The version agreed in 1936 is the one most Sikhs still hold to. No authority, including the Jathedar of the Akal Takht, has the power to amend it unilaterally."
+   },
+   "group": "Colonial Era (1849-1947)",
+   "category": "Scripture",
+   "media": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Fresco_from_the_original_Akal_Takht_building_depicting_preparation_of_Amrit_for_an_Amrit_Sanchar_ceremony_by_Guru_Gobind_Singh_and_Mata_Jito_for_the_Panj_Piare.jpg/1024px-Fresco_from_the_original_Akal_Takht_building_depicting_preparation_of_Amrit_for_an_Amrit_Sanchar_ceremony_by_Guru_Gobind_Singh_and_Mata_Jito_for_the_Panj_Piare.jpg",
+    "caption": "A fresco from the original Akal Takht depicting the preparation of Amrit — representative image of the rahit's subject, not of its drafting.",
+    "credit": "Wikimedia Commons / public domain",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Fresco_from_the_original_Akal_Takht_building_depicting_preparation_of_Amrit_for_an_Amrit_Sanchar_ceremony_by_Guru_Gobind_Singh_and_Mata_Jito_for_the_Panj_Piare.jpg/480px-Fresco_from_the_original_Akal_Takht_building_depicting_preparation_of_Amrit_for_an_Amrit_Sanchar_ceremony_by_Guru_Gobind_Singh_and_Mata_Jito_for_the_Panj_Piare.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Fresco_from_the_original_Akal_Takht_building_depicting_preparation_of_Amrit_for_an_Amrit_Sanchar_ceremony_by_Guru_Gobind_Singh_and_Mata_Jito_for_the_Panj_Piare.jpg?width=1024"
+   },
+   "sources": [
+    {
+     "title": "Brief on Sikh Rahit Maryada (Sikh Research Institute)",
+     "ref": "sikhri-rahit-maryada-brief"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Amritsar, Panjab",
+    "region": "India",
+    "lat": 31.62,
+    "lon": 74.88
+   },
+   "tier": "major"
+  },
+  {
    "unique_id": "gandhi-dangerous-proposal-1936",
    "start_date": {
     "year": 1936,
@@ -1782,6 +2363,10 @@
     {
      "title": "60 Million Untouchable-Sikhs: A Dangerous Proposal",
      "url": "https://sikhri.org/articles/60-million-untouchable-sikhs-a-dangerous-proposal"
+    },
+    {
+     "title": "The Boa and its Petty Enemy: Contempo… (Christine Moliner)",
+     "ref": "moliner-boa-petty-enemy"
     }
    ],
    "confidence": "medium",
@@ -1830,6 +2415,42 @@
    "tier": "major"
   },
   {
+   "unique_id": "aissf-founded-1944",
+   "start_date": {
+    "year": 1944,
+    "month": 9,
+    "day": 13
+   },
+   "display_date": "September 13, 1944",
+   "text": {
+    "headline": "Thirteen Sikhs found the All India Sikh Students Federation",
+    "text": "The All India Sikh Students Federation was started by thirteen Sikhs in 1944. Four decades later it was the principal student organisation of the Dharm Yudh Morcha, and its presidents Bhai Amrik Singh and Bibi Upkar Kaur were among those who joined Jarnail Singh Bhindranwale inside the Darbar Sahib complex in June 1984."
+   },
+   "group": "Colonial Era (1849-1947)",
+   "category": "Institutions",
+   "media": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Painting_of_Guru_Hargobind_and_his_army%2C_the_Akal_Sena%2C_at_the_Golden_Temple_complex_in_Amritsar%2C_circa_19th_century.jpg/1024px-Painting_of_Guru_Hargobind_and_his_army%2C_the_Akal_Sena%2C_at_the_Golden_Temple_complex_in_Amritsar%2C_circa_19th_century.jpg",
+    "caption": "The Akal Takht at Amritsar — representative image of the seat of Sikh political authority the Federation later organised around, not of its founding.",
+    "credit": "Wikimedia Commons / public domain",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Painting_of_Guru_Hargobind_and_his_army%2C_the_Akal_Sena%2C_at_the_Golden_Temple_complex_in_Amritsar%2C_circa_19th_century.jpg/480px-Painting_of_Guru_Hargobind_and_his_army%2C_the_Akal_Sena%2C_at_the_Golden_Temple_complex_in_Amritsar%2C_circa_19th_century.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Painting_of_Guru_Hargobind_and_his_army%2C_the_Akal_Sena%2C_at_the_Golden_Temple_complex_in_Amritsar%2C_circa_19th_century.jpg?width=1024"
+   },
+   "sources": [
+    {
+     "title": "The Battle of Amritsar and Shaheeds Satwant and Beant Sin…",
+     "ref": "let-them-come"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Amritsar, Panjab",
+    "region": "India",
+    "lat": 31.62,
+    "lon": 74.88
+   },
+   "tier": "detail"
+  },
+  {
    "unique_id": "partition-1947",
    "start_date": {
     "year": 1947,
@@ -1857,6 +2478,10 @@
     {
      "title": "Jasjit Singh: Understanding Sidhu Moose Wala's \"SYL\" (Baaz)",
      "url": "https://www.baaznews.org/p/sidhu-moosewala-syl-understanding"
+    },
+    {
+     "title": "Toba Tek Sin… (Saadat Hasan Manto, translated from the Urdu by Frances W. Pritchett)",
+     "ref": "manto-toba-tek-singh"
     }
    ],
    "confidence": "high",
@@ -1892,6 +2517,11 @@
     {
      "title": "Sirdar Kapur Singh's Idea of the Sikh Homeland",
      "url": "https://sikhri.org/articles/sirdar-kapur-singhs-idea-of-the-sikh-homeland"
+    },
+    {
+     "title": "Sirdar Kapur Singh's Idea of the Sikh… (Damanpreet Singh)",
+     "ref": "sikhri-kapur-singh-homeland",
+     "url": "https://sikhri.org/articles/sirdar-kapur-singhs-idea-of-the-sikh-homeland"
     }
    ],
    "confidence": "medium",
@@ -1900,6 +2530,41 @@
     "region": "Punjab/India",
     "lat": 30.9,
     "lon": 75.85
+   },
+   "tier": "major"
+  },
+  {
+   "unique_id": "harimandar-stormed-1955",
+   "start_date": {
+    "year": 1955
+   },
+   "display_date": "1955",
+   "text": {
+    "headline": "Panjab Police storm the Harimandar Sahib complex",
+    "text": "During the campaign for a Panjabi-speaking state, the Harimandar Sahib complex was stormed by the Panjab Police. Santbir Singh records that Sikhs were routinely beaten and that Sikhs as young as twelve were killed in the crackdown. It is the first armed entry into the complex by the Indian state — twenty-nine years before 1984."
+   },
+   "group": "Partition & Post-Independence (1947-1983)",
+   "category": "Human Rights",
+   "media": {
+    "caption": "Representative image of the Panjabi Suba campaign this took place during, not of the police operation.",
+    "credit": "Wikimedia Commons",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Master_Tara_Singh_%28second_from_the_left_in_the_row_of_chairs%29_with_some_Akali_leaders_after_their_release_from_jail_in_September_1926.jpg/1024px-Master_Tara_Singh_%28second_from_the_left_in_the_row_of_chairs%29_with_some_Akali_leaders_after_their_release_from_jail_in_September_1926.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Master_Tara_Singh_%28second_from_the_left_in_the_row_of_chairs%29_with_some_Akali_leaders_after_their_release_from_jail_in_September_1926.jpg/480px-Master_Tara_Singh_%28second_from_the_left_in_the_row_of_chairs%29_with_some_Akali_leaders_after_their_release_from_jail_in_September_1926.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Master_Tara_Singh_%28second_from_the_left_in_the_row_of_chairs%29_with_some_Akali_leaders_after_their_release_from_jail_in_September_1926.jpg?width=1024"
+   },
+   "sources": [
+    {
+     "title": "The Attack on Political Sikhi (Santbir Singh)",
+     "ref": "sikhri-attack-on-political-sikhi",
+     "url": "https://sikhri.org/articles/the-attack-on-political-sikhi"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Amritsar, Panjab",
+    "region": "India",
+    "lat": 31.62,
+    "lon": 74.88
    },
    "tier": "major"
   },
@@ -1926,6 +2591,11 @@
     {
      "title": "Jasjit Singh: Understanding Sidhu Moose Wala's \"SYL\" (Baaz)",
      "url": "https://www.baaznews.org/p/sidhu-moosewala-syl-understanding"
+    },
+    {
+     "title": "Electoral Politics in Indian Punjab: A N… (Ashutosh Kumar)",
+     "ref": "ashutosh-kumar-electoral-politics-2017",
+     "url": "https://doi.org/10.1177/0262728016675528"
     }
    ],
    "confidence": "high",
@@ -1934,6 +2604,41 @@
     "region": "Punjab/India",
     "lat": 30.73,
     "lon": 76.78
+   },
+   "tier": "major"
+  },
+  {
+   "unique_id": "anandpur-sahib-resolution-1973",
+   "start_date": {
+    "year": 1973
+   },
+   "display_date": "1973",
+   "text": {
+    "headline": "The Akali Dal adopts the Anandpur Sahib Resolution",
+    "text": "The Resolution set out seven objectives covering the political, economic and social relationship between the centre and Panjab — state autonomy, river waters, Chandigarh, Panjabi-speaking areas. It became the reference point for every subsequent negotiation, and the document the Indian state most often characterised as secessionist. It is the first item in the Rajiv–Longowal Accord twelve years later, referred to a commission rather than settled."
+   },
+   "group": "Partition & Post-Independence (1947-1983)",
+   "category": "Politics",
+   "media": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Guru_Tegh_Bahadar_and_a_young_Gobind_Rai_at_the_Anandpur_Darbar.jpg/1024px-Guru_Tegh_Bahadar_and_a_young_Gobind_Rai_at_the_Anandpur_Darbar.jpg",
+    "caption": "Anandpur Sahib — representative image of the town the Resolution is named for, not of its adoption.",
+    "credit": "Wikimedia Commons / public domain",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Guru_Tegh_Bahadar_and_a_young_Gobind_Rai_at_the_Anandpur_Darbar.jpg/480px-Guru_Tegh_Bahadar_and_a_young_Gobind_Rai_at_the_Anandpur_Darbar.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Guru_Tegh_Bahadar_and_a_young_Gobind_Rai_at_the_Anandpur_Darbar.jpg?width=1024"
+   },
+   "sources": [
+    {
+     "title": "Electoral Politics in Indian Punjab: A N… (Ashutosh Kumar)",
+     "ref": "ashutosh-kumar-electoral-politics-2017",
+     "url": "https://doi.org/10.1177/0262728016675528"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Anandpur Sahib, Panjab",
+    "region": "India",
+    "lat": 31.24,
+    "lon": 76.5
    },
    "tier": "major"
   },
@@ -2012,6 +2717,46 @@
    "tier": "major"
   },
   {
+   "unique_id": "sgpc-white-paper-1978",
+   "start_date": {
+    "year": 1978
+   },
+   "display_date": "1978",
+   "text": {
+    "headline": "The SGPC publishes a white paper on the Amritsar killings",
+    "text": "Sirdar Kapur Singh wrote They Massacre Sikhs: A White Paper by the Sikh Religious Parliament, issued by the Shiromani Gurdwara Parbandhak Committee. It set the killing of thirteen Sikhs at Amritsar on Vaisakhi 1978 against the Jallianwala Bagh massacre of 1919 — the same day of the year, the same city — and argued the Sant Nirankari movement had been cultivated as a rival to Sikhi. It is the document through which the Sikh institutional account of 1978 entered the record."
+   },
+   "group": "Partition & Post-Independence (1947-1983)",
+   "category": "Human Rights",
+   "media": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Baba_Dyal_Singh_Nirankari.jpg/1024px-Baba_Dyal_Singh_Nirankari.jpg",
+    "caption": "Representative image of the 1978 Amritsar killings the white paper documented, not of the document.",
+    "credit": "Wikimedia Commons",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Baba_Dyal_Singh_Nirankari.jpg/480px-Baba_Dyal_Singh_Nirankari.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Baba_Dyal_Singh_Nirankari.jpg?width=1024"
+   },
+   "sources": [
+    {
+     "title": "They Massacre Sikhs: A White Paper b… (Sirdar Kapur Singh)",
+     "ref": "kapur-singh-white-paper-1978"
+    },
+    {
+     "title": "Sirdar Kapur Singh's Idea of the Sikh… (Damanpreet Singh)",
+     "ref": "sikhri-kapur-singh-homeland",
+     "url": "https://sikhri.org/articles/sirdar-kapur-singhs-idea-of-the-sikh-homeland"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Amritsar, Panjab",
+    "region": "India",
+    "lat": 31.62,
+    "lon": 74.88
+   },
+   "tier": "detail",
+   "parent": "nirankari-clash-1978"
+  },
+  {
    "unique_id": "nirankari-clash-1978",
    "start_date": {
     "year": 1978,
@@ -2046,6 +2791,10 @@
      "title": "Soft Target: How the Indian Intelligence Service Penetrated Canada",
      "url": "https://archive.org/details/SoftTarget",
      "ref": "softtarget-1989"
+    },
+    {
+     "title": "They Massacre Sikhs: A White Paper b… (Sirdar Kapur Singh)",
+     "ref": "kapur-singh-white-paper-1978"
     }
    ],
    "confidence": "high",
@@ -2433,6 +3182,15 @@
      "title": "Soft Target: How the Indian Intelligence Service Penetrated Canada",
      "url": "https://archive.org/details/SoftTarget",
      "ref": "softtarget-1989"
+    },
+    {
+     "title": "The Battle of Amritsar and Shaheeds Satwant and Beant Sin…",
+     "ref": "let-them-come"
+    },
+    {
+     "title": "The Attack on Political Sikhi (Santbir Singh)",
+     "ref": "sikhri-attack-on-political-sikhi",
+     "url": "https://sikhri.org/articles/the-attack-on-political-sikhi"
     }
    ],
    "confidence": "high",
@@ -2441,6 +3199,42 @@
     "region": "Punjab/India",
     "lat": 31.62,
     "lon": 74.876
+   },
+   "tier": "major"
+  },
+  {
+   "unique_id": "wso-founded-1984",
+   "start_date": {
+    "year": 1984,
+    "month": 7
+   },
+   "display_date": "July 1984",
+   "text": {
+    "headline": "The World Sikh Organization is founded",
+    "text": "Weeks after the assault on Darbar Sahib, the World Sikh Organization was founded with members from Canada, the United States and the United Kingdom in equal numbers. It became the diaspora body that has since carried Sikh human-rights advocacy into Canadian courts, commissions and parliamentary hearings — including on foreign interference."
+   },
+   "group": "1984 & Aftermath (1984-1999)",
+   "category": "Institutions",
+   "media": {
+    "caption": "Guru Nanak Gurdwara, Delta-Surrey — representative image of the diaspora institutions of this period, not of the WSO's founding.",
+    "credit": "Wikimedia Commons",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Guru_Nanak_Gurdwara_Delta-Surrey_%282010%29.jpg/1024px-Guru_Nanak_Gurdwara_Delta-Surrey_%282010%29.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Guru_Nanak_Gurdwara_Delta-Surrey_%282010%29.jpg/480px-Guru_Nanak_Gurdwara_Delta-Surrey_%282010%29.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Guru_Nanak_Gurdwara_Delta-Surrey_%282010%29.jpg?width=1024"
+   },
+   "sources": [
+    {
+     "title": "Sikhs, Panjab, India & the Diaspora: Locat… (Jasleen Kaur)",
+     "ref": "sikhri-special-report-2023",
+     "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Ottawa, Ontario, Canada",
+    "region": "Canada",
+    "lat": 45.42,
+    "lon": -75.7
    },
    "tier": "major"
   },
@@ -2528,6 +3322,10 @@
      "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
      "ref": "sikhri-special-report-2023"
+    },
+    {
+     "title": "The Sikh Genocide of November 1984 - Delhi and Beyond (Ch…",
+     "ref": "let-them-come"
     }
    ],
    "confidence": "high",
@@ -2610,6 +3408,41 @@
    },
    "tier": "detail",
    "parent": "india-diplomatic-cover-spies-1982"
+  },
+  {
+   "unique_id": "who-are-the-guilty-1985",
+   "start_date": {
+    "year": 1985
+   },
+   "display_date": "1985",
+   "text": {
+    "headline": "India bans 'Who are the Guilty?', the first civil-liberties report on the pogroms",
+    "text": "The People's Union for Democratic Rights and the People's Union for Civil Liberties jointly investigated the November 1984 killings and published Who are the Guilty? The government banned it. The same year the Misra Inquiry was appointed; the account in Let Them Come treats that inquiry as part of the cover-up rather than a reckoning with it."
+   },
+   "group": "1984 & Aftermath (1984-1999)",
+   "category": "Human Rights",
+   "media": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Indira_Gandhi_official_portrait.png/1024px-Indira_Gandhi_official_portrait.png",
+    "caption": "Representative image of the Indian state's censorship powers, not of the banned report.",
+    "credit": "Wikimedia Commons",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Indira_Gandhi_official_portrait.png/480px-Indira_Gandhi_official_portrait.png",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Indira_Gandhi_official_portrait.png?width=1024"
+   },
+   "sources": [
+    {
+     "title": "The Sikh Genocide of November 1984 - Delhi and Beyond (Ch…",
+     "ref": "let-them-come"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "New Delhi, India",
+    "region": "India",
+    "lat": 28.61,
+    "lon": 77.21
+   },
+   "tier": "detail",
+   "parent": "anti-sikh-pogroms-nov-1984"
   },
   {
    "unique_id": "duncan-woods-test-1985",
@@ -2737,6 +3570,42 @@
    },
    "tier": "detail",
    "parent": "air-india-182-1985"
+  },
+  {
+   "unique_id": "rajiv-longowal-accord-1985",
+   "start_date": {
+    "year": 1985,
+    "month": 7,
+    "day": 24
+   },
+   "display_date": "July 24, 1985",
+   "text": {
+    "headline": "The Rajiv–Longowal Accord is signed, then left unimplemented",
+    "text": "Prime Minister Rajiv Gandhi and Akali Dal president Harchand Singh Longowal signed a settlement covering the grievances that had driven the Sikh agitation before 1984: Chandigarh, river waters, the Anandpur Sahib Resolution, army deserters and political detainees. Gurharpal Singh records that the transfer of Chandigarh, scheduled for 26 January 1986, was delayed, then postponed, and finally suspended indefinitely, and that the centre's failure to implement the Accord undermined the moderate Akali leadership it was meant to strengthen. Longowal was assassinated weeks after signing it."
+   },
+   "group": "1984 & Aftermath (1984-1999)",
+   "category": "Politics",
+   "media": {
+    "caption": "Representative image of the Indian government context in which the Accord was signed, not of the signing.",
+    "credit": "Wikimedia Commons",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Master_Tara_Singh_%28second_from_the_left_in_the_row_of_chairs%29_with_some_Akali_leaders_after_their_release_from_jail_in_September_1926.jpg/1024px-Master_Tara_Singh_%28second_from_the_left_in_the_row_of_chairs%29_with_some_Akali_leaders_after_their_release_from_jail_in_September_1926.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Master_Tara_Singh_%28second_from_the_left_in_the_row_of_chairs%29_with_some_Akali_leaders_after_their_release_from_jail_in_September_1926.jpg/480px-Master_Tara_Singh_%28second_from_the_left_in_the_row_of_chairs%29_with_some_Akali_leaders_after_their_release_from_jail_in_September_1926.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Master_Tara_Singh_%28second_from_the_left_in_the_row_of_chairs%29_with_some_Akali_leaders_after_their_release_from_jail_in_September_1926.jpg?width=1024"
+   },
+   "sources": [
+    {
+     "title": "The Punjab crisis since 1984: a reasses… (Gurharpal Singh)",
+     "ref": "gurharpal-singh-punjab-crisis-1995"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "New Delhi, India",
+    "region": "India",
+    "lat": 28.61,
+    "lon": 77.21
+   },
+   "tier": "major"
   },
   {
    "unique_id": "khalsa-credit-union-founded-1985",
@@ -3104,6 +3973,43 @@
    "tier": "detail"
   },
   {
+   "unique_id": "satwant-kehar-hanged-1989",
+   "start_date": {
+    "year": 1989,
+    "month": 1,
+    "day": 6
+   },
+   "display_date": "January 6, 1989",
+   "text": {
+    "headline": "Satwant Singh and Kehar Singh are hanged",
+    "text": "Satwant Singh, one of the two bodyguards who shot Indira Gandhi, and Kehar Singh, convicted as a conspirator, were hanged at Tihar Jail. Kehar Singh's conviction rested on conversations rather than any act, and remains among the most contested capital cases in Indian legal history. Both are remembered as shaheeds in Sikh accounts of 1984."
+   },
+   "group": "1984 & Aftermath (1984-1999)",
+   "category": "Martyrdom",
+   "media": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/IndiraGandhi-SareeAtTimeOfDeath.JPG/1024px-IndiraGandhi-SareeAtTimeOfDeath.JPG",
+    "caption": "Representative image connected to the assassination case, not a photograph of the executions.",
+    "credit": "Wikimedia Commons",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/IndiraGandhi-SareeAtTimeOfDeath.JPG/480px-IndiraGandhi-SareeAtTimeOfDeath.JPG",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/IndiraGandhi-SareeAtTimeOfDeath.JPG?width=1024"
+   },
+   "sources": [
+    {
+     "title": "The Battle of Amritsar and Shaheeds Satwant and Beant Sin…",
+     "ref": "let-them-come"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Tihar Jail, New Delhi, India",
+    "region": "India",
+    "lat": 28.61,
+    "lon": 77.21
+   },
+   "tier": "detail",
+   "parent": "indira-gandhi-assassination-1984"
+  },
+  {
    "unique_id": "punjab-elections-1989",
    "start_date": {
     "year": 1989,
@@ -3133,6 +4039,11 @@
      "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
      "ref": "sikhri-special-report-2023"
+    },
+    {
+     "title": "Jaswant Singh Khalra: The Game Of… (Jaswant Singh Khalra)",
+     "ref": "baaz-khalra-game-of-elections",
+     "url": "https://www.baaznews.org/p/khalra-game-of-elections-khalistan"
     }
    ],
    "confidence": "high",
@@ -3217,6 +4128,14 @@
      "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
      "ref": "sikhri-special-report-2023"
+    },
+    {
+     "title": "The Punjab crisis since 1984: a reasses… (Gurharpal Singh)",
+     "ref": "gurharpal-singh-punjab-crisis-1995"
+    },
+    {
+     "title": "Trials by Fire: Dynamics of Ter… (Cynthia Keppley Mahmood)",
+     "ref": "mahmood-trials-by-fire"
     }
    ],
    "confidence": "medium",
@@ -3447,6 +4366,10 @@
      "title": "Sikhs, Panjab, India & the Diaspora: Locating the Current Crisis",
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
      "ref": "sikhri-special-report-2023"
+    },
+    {
+     "title": "Trials by Fire: Dynamics of Ter… (Cynthia Keppley Mahmood)",
+     "ref": "mahmood-trials-by-fire"
     }
    ],
    "confidence": "high",
@@ -3529,6 +4452,41 @@
    "tier": "detail"
   },
   {
+   "unique_id": "sikh-reference-library-2003",
+   "start_date": {
+    "year": 2003
+   },
+   "display_date": "2003",
+   "text": {
+    "headline": "India admits it still holds the Sikh Reference Library, and destroyed 117 items",
+    "text": "The Sikh Reference Library at the Darbar Sahib complex — manuscripts, hukamnamas and rare records — was removed by the army in June 1984 and its fate denied for years. The account in Let Them Come records that as late as 2003 the Indian Government confirmed it still held most of the material, having destroyed 117 historical items as “seditious,” among them hukamnamas of Guru Gobind Singh."
+   },
+   "group": "Contemporary & Diaspora (2000-2026)",
+   "category": "Commemoration",
+   "media": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Kartarpur_Bir_%28manuscript_or_codex%29_of_the_Guru_Granth_Sahib.jpg/1024px-Kartarpur_Bir_%28manuscript_or_codex%29_of_the_Guru_Granth_Sahib.jpg",
+    "caption": "A historical manuscript of the Guru Granth Sahib — representative image of the kind of material held in the Sikh Reference Library, not of the library itself.",
+    "credit": "Wikimedia Commons",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Kartarpur_Bir_%28manuscript_or_codex%29_of_the_Guru_Granth_Sahib.jpg/480px-Kartarpur_Bir_%28manuscript_or_codex%29_of_the_Guru_Granth_Sahib.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Kartarpur_Bir_%28manuscript_or_codex%29_of_the_Guru_Granth_Sahib.jpg?width=1024"
+   },
+   "sources": [
+    {
+     "title": "The Battle of Amritsar and Shaheeds Satwant and Beant Sin…",
+     "ref": "let-them-come"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Amritsar, Panjab",
+    "region": "India",
+    "lat": 31.62,
+    "lon": 74.88
+   },
+   "tier": "detail",
+   "parent": "operation-blue-star-1984"
+  },
+  {
    "unique_id": "air-india-acquittals-2005",
    "start_date": {
     "year": 2005
@@ -3568,6 +4526,41 @@
    },
    "tier": "detail",
    "parent": "air-india-182-1985"
+  },
+  {
+   "unique_id": "nanavati-commission-2005",
+   "start_date": {
+    "year": 2005
+   },
+   "display_date": "2005",
+   "text": {
+    "headline": "The Nanavati Commission reports, twenty-one years on",
+    "text": "The Nanavati Commission indicted politicians over the massacre at Trilokpuri but qualified its findings, and did not reach the senior leadership. By 2014 more than ten commissions and committees had been instituted into the November 1984 killings. The account in Let Them Come reads the sequence as a thirty-year cover-up, beginning with the government's description of the massacres as a “communal riot.”"
+   },
+   "group": "Contemporary & Diaspora (2000-2026)",
+   "category": "Justice",
+   "media": {
+    "caption": "The Supreme Court of India — representative image of the Indian judicial inquiries into November 1984, not of the Nanavati Commission.",
+    "credit": "Wikimedia Commons, photo by Pinakpani",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Building_of_The_Supreme_Court_of_India.jpg/1024px-Building_of_The_Supreme_Court_of_India.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Building_of_The_Supreme_Court_of_India.jpg/480px-Building_of_The_Supreme_Court_of_India.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Building_of_The_Supreme_Court_of_India.jpg?width=1024"
+   },
+   "sources": [
+    {
+     "title": "The Sikh Genocide of November 1984 - Delhi and Beyond (Ch…",
+     "ref": "let-them-come"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "New Delhi, India",
+    "region": "India",
+    "lat": 28.61,
+    "lon": 77.21
+   },
+   "tier": "detail",
+   "parent": "anti-sikh-pogroms-nov-1984"
   },
   {
    "unique_id": "nest-of-spies-2009",
@@ -3642,6 +4635,41 @@
    "parent": "air-india-182-1985"
   },
   {
+   "unique_id": "hondh-chillar-mass-graves-2011",
+   "start_date": {
+    "year": 2011
+   },
+   "display_date": "2011",
+   "text": {
+    "headline": "Two mass grave sites from 1984 are found in Haryana",
+    "text": "Twenty-seven years after the pogroms, the sites at Hondh Chillar and Pataudi near Gurgaon were discovered — physical evidence that the killings of November 1984 reached well beyond Delhi, and that they had never been fully counted."
+   },
+   "group": "Contemporary & Diaspora (2000-2026)",
+   "category": "Human Rights",
+   "media": {
+    "caption": "Representative image of the November 1984 pogroms, not a photograph of the grave sites.",
+    "credit": "Wikimedia Commons",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/The_memorial_of_1984_Sikh_massacre_at_Gurdwara_Rakab_Ganj_Sahib_premises_%E2%80%9CWall_of_Truth%E2%80%9D.jpg/1024px-The_memorial_of_1984_Sikh_massacre_at_Gurdwara_Rakab_Ganj_Sahib_premises_%E2%80%9CWall_of_Truth%E2%80%9D.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/The_memorial_of_1984_Sikh_massacre_at_Gurdwara_Rakab_Ganj_Sahib_premises_%E2%80%9CWall_of_Truth%E2%80%9D.jpg/480px-The_memorial_of_1984_Sikh_massacre_at_Gurdwara_Rakab_Ganj_Sahib_premises_%E2%80%9CWall_of_Truth%E2%80%9D.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/The_memorial_of_1984_Sikh_massacre_at_Gurdwara_Rakab_Ganj_Sahib_premises_%E2%80%9CWall_of_Truth%E2%80%9D.jpg?width=1024"
+   },
+   "sources": [
+    {
+     "title": "The Sikh Genocide of November 1984 - Delhi and Beyond (Ch…",
+     "ref": "let-them-come"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Hondh Chillar, Haryana, India",
+    "region": "India",
+    "lat": 28.46,
+    "lon": 76.62
+   },
+   "tier": "detail",
+   "parent": "anti-sikh-pogroms-nov-1984"
+  },
+  {
    "unique_id": "oak-creek-massacre-2012",
    "start_date": {
     "year": 2012,
@@ -3713,6 +4741,115 @@
    "tier": "major"
   },
   {
+   "unique_id": "bargari-kotkapura-2015",
+   "start_date": {
+    "year": 2015,
+    "month": 10
+   },
+   "display_date": "October 2015",
+   "text": {
+    "headline": "Sacrilege at Bargari, and police fire on protesters at Kotkapura",
+    "text": "Amandeep Sandhu records that during a farmers' agitation over whitefly-damaged cotton, an act of sacrilege against the Guru Granth Sahib took place at Bargari village; police then fired on a gathering at Kotkapura, killing two unarmed protesters. Scriptures were torn for more than a fortnight afterwards. The cases remain unresolved, and Bargari has stood ever since for a state that will not investigate itself."
+   },
+   "group": "Contemporary & Diaspora (2000-2026)",
+   "category": "Human Rights",
+   "media": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Illuminated_folio_of_a_historical_Guru_Granth_Sahib_manuscript_with_a_wide%2C_patterned%2C_and_decorated_border%2C_dating_to_1859_C.E.jpg/1024px-Illuminated_folio_of_a_historical_Guru_Granth_Sahib_manuscript_with_a_wide%2C_patterned%2C_and_decorated_border%2C_dating_to_1859_C.E.jpg",
+    "caption": "An illuminated folio of a historical Guru Granth Sahib manuscript — representative image of the scripture that was desecrated, not of the events at Bargari.",
+    "credit": "Wikimedia Commons / public domain",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Illuminated_folio_of_a_historical_Guru_Granth_Sahib_manuscript_with_a_wide%2C_patterned%2C_and_decorated_border%2C_dating_to_1859_C.E.jpg/480px-Illuminated_folio_of_a_historical_Guru_Granth_Sahib_manuscript_with_a_wide%2C_patterned%2C_and_decorated_border%2C_dating_to_1859_C.E.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Illuminated_folio_of_a_historical_Guru_Granth_Sahib_manuscript_with_a_wide%2C_patterned%2C_and_decorated_border%2C_dating_to_1859_C.E.jpg?width=1024"
+   },
+   "sources": [
+    {
+     "title": "What Khalistan means for the Sikhs of P… (Amandeep Sandhu)",
+     "ref": "frontline-what-khalistan-means-2023"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Bargari and Kotkapura, Faridkot, Panjab",
+    "region": "India",
+    "lat": 30.59,
+    "lon": 74.83
+   },
+   "tier": "major"
+  },
+  {
+   "unique_id": "sarbat-khalsa-2015",
+   "start_date": {
+    "year": 2015,
+    "month": 11,
+    "day": 10
+   },
+   "display_date": "November 10, 2015",
+   "text": {
+    "headline": "A Sarbat Khalsa is convened at Amritsar",
+    "text": "Called over dissatisfaction with the Sikh high priests' pardon of the Dera Sacha Sauda chief and the unanswered sacrileges, a Sarbat Khalsa — the historic plenary assembly of the Panth — met at Amritsar. Diditi Mitra records that a five-member North American delegation, approved by the Pacific Coast Khalsa Diwan Society, attended: an eighteenth-century institution reconvened, with the diaspora in the room."
+   },
+   "group": "Contemporary & Diaspora (2000-2026)",
+   "category": "Institutions",
+   "media": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Photograph_of_the_Akal_Takht_in_Amritsar%2C_circa_1850%27s.jpg/1024px-Photograph_of_the_Akal_Takht_in_Amritsar%2C_circa_1850%27s.jpg",
+    "caption": "The Akal Takht at Amritsar, photographed around the 1850s — representative image of the institution a Sarbat Khalsa is convened before, not of the 2015 assembly.",
+    "credit": "Wikimedia Commons / public domain",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Photograph_of_the_Akal_Takht_in_Amritsar%2C_circa_1850%27s.jpg/480px-Photograph_of_the_Akal_Takht_in_Amritsar%2C_circa_1850%27s.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Photograph_of_the_Akal_Takht_in_Amritsar%2C_circa_1850%27s.jpg?width=1024"
+   },
+   "sources": [
+    {
+     "title": "The Boundaries between “Home” and “Diaspor… (Diditi Mitra)",
+     "ref": "mitra-home-and-diaspora"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Amritsar, Panjab",
+    "region": "India",
+    "lat": 31.62,
+    "lon": 74.88
+   },
+   "tier": "detail",
+   "parent": "bargari-kotkapura-2015"
+  },
+  {
+   "unique_id": "ontario-1984-genocide-motion-2017",
+   "start_date": {
+    "year": 2017,
+    "month": 4
+   },
+   "display_date": "2017",
+   "text": {
+    "headline": "Ontario's legislature calls November 1984 a genocide",
+    "text": "A motion passed in the Ontario provincial legislature declaring the events of November 1984 a genocide — among the earliest formal uses of the term by any government. Santbir Singh treats it as part of a wider shift in which diaspora Sikhs stopped using the Indian state's vocabulary for what happened to them."
+   },
+   "group": "Contemporary & Diaspora (2000-2026)",
+   "category": "Commemoration",
+   "media": {
+    "caption": "The Toronto Star Building — representative image of the Ontario setting, not of the legislature's motion.",
+    "credit": "Wikimedia Commons",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Toronto_Star_Building.JPG/1024px-Toronto_Star_Building.JPG",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Toronto_Star_Building.JPG/480px-Toronto_Star_Building.JPG",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Toronto_Star_Building.JPG?width=1024"
+   },
+   "sources": [
+    {
+     "title": "No More Blue Stars: Reclaiming the Narrat… (Santbir Singh)",
+     "ref": "sikhri-no-more-blue-stars",
+     "url": "https://sikhri.org/articles/no-more-blue-stars"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Toronto, Ontario, Canada",
+    "region": "Canada",
+    "lat": 43.65,
+    "lon": -79.38
+   },
+   "tier": "detail",
+   "parent": "anti-sikh-pogroms-nov-1984"
+  },
+  {
    "unique_id": "trudeau-india-tour-2018",
    "start_date": {
     "year": 2018,
@@ -3746,6 +4883,44 @@
     "lon": 77.21
    },
    "tier": "major"
+  },
+  {
+   "unique_id": "delhi-hc-1984-genocide-2018",
+   "start_date": {
+    "year": 2018,
+    "month": 11,
+    "day": 28
+   },
+   "display_date": "November 28, 2018",
+   "text": {
+    "headline": "An Indian court uses the word genocide for November 1984",
+    "text": "The Delhi High Court held that “the large scale rioting, mob violence, arson, plunder, genocide, and looting has been duly proved and established.” Thirty-four years after the killings, and after decades of litigation, an Indian court had said it in those terms."
+   },
+   "group": "Contemporary & Diaspora (2000-2026)",
+   "category": "Justice",
+   "media": {
+    "caption": "The Supreme Court of India — representative image of the Indian judiciary, not of the Delhi High Court or its ruling.",
+    "credit": "Wikimedia Commons, photo by Pinakpani",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Building_of_The_Supreme_Court_of_India.jpg/1024px-Building_of_The_Supreme_Court_of_India.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Building_of_The_Supreme_Court_of_India.jpg/480px-Building_of_The_Supreme_Court_of_India.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Building_of_The_Supreme_Court_of_India.jpg?width=1024"
+   },
+   "sources": [
+    {
+     "title": "No More Blue Stars: Reclaiming the Narrat… (Santbir Singh)",
+     "ref": "sikhri-no-more-blue-stars",
+     "url": "https://sikhri.org/articles/no-more-blue-stars"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "New Delhi, India",
+    "region": "India",
+    "lat": 28.61,
+    "lon": 77.21
+   },
+   "tier": "detail",
+   "parent": "anti-sikh-pogroms-nov-1984"
   },
   {
    "unique_id": "nanak-550-2019",
@@ -4020,6 +5195,11 @@
     {
      "title": "Sandeep Singh: Tikait Revives The Farmers Protest (Baaz)",
      "url": "https://www.baaznews.org/p/sandeep-singh-tikait-revives-the"
+    },
+    {
+     "title": "Hindutva in Punjab… (Routledge Handbook of Punjab Studies)",
+     "ref": "hindutva-in-punjab-handbook",
+     "url": "https://doi.org/10.4324/9780429277580-8"
     }
    ],
    "confidence": "high",
@@ -4315,6 +5495,10 @@
     {
      "title": "Sukhmeet Grewal: Hindutva Extremists' Anti-Sikh Hate In Australia (Baaz)",
      "url": "https://www.baaznews.org/p/australia-hindutva-extremists-anti-sikh"
+    },
+    {
+     "title": "What Khalistan means for the Sikhs of P… (Amandeep Sandhu)",
+     "ref": "frontline-what-khalistan-means-2023"
     }
    ],
    "confidence": "high",
@@ -5518,6 +6702,10 @@
     {
      "title": "Bhai Amritpal Singh’s Stunning Electoral Victory Shatters Indian Narratives (Baaz)",
      "url": "https://www.baaznews.org/p/amritpal-singh-stunning-electoral-victory"
+    },
+    {
+     "title": "Why splinter outfits fail to make an impact on Punj… (TNN)",
+     "ref": "toi-splinter-outfits-2024"
     }
    ],
    "confidence": "high",
@@ -5559,6 +6747,11 @@
     {
      "title": "The Sikh Manifesto For Upcoming UK General Elections (Baaz)",
      "url": "https://www.baaznews.org/p/sikh-manifesto-uk-election-2024"
+    },
+    {
+     "title": "No More Blue Stars: Reclaiming the Narrat… (Santbir Singh)",
+     "ref": "sikhri-no-more-blue-stars",
+     "url": "https://sikhri.org/articles/no-more-blue-stars"
     }
    ],
    "confidence": "high",
@@ -7245,6 +8438,213 @@
    "note": "Two Canadian journalists — Kashmeri of the Globe and Mail, McAndrew of the Toronto Star — investigate Indian intelligence activity inside Canada in the 1980s, and argue that Ottawa's security services and External Affairs consistently discounted warnings about it while deferring to New Delhi.",
    "url": "https://archive.org/details/SoftTarget",
    "pdf": "https://archive.org/download/SoftTarget/SoftTarget.pdf"
+  },
+  "empire-of-the-sikhs-2008": {
+   "type": "Book",
+   "title": "Excerpts from Empire of the Sikhs",
+   "author": "Patwant Singh and Jyoti M. Rai",
+   "publisher": "Peter Owen",
+   "year": "2008",
+   "detail": "Empire of the Sikhs: The Life and Times of Maharaja Ranjit Singh",
+   "note": "Named on the excerpt's first line (as 'Patwant Singh and Joty Rai')."
+  },
+  "sikhri-sovereignty-in-motion": {
+   "type": "Article",
+   "title": "Sovereignty in Motion: Sikh Governance Models",
+   "author": "Santbir Singh",
+   "publisher": "SikhRI",
+   "detail": "Sikh Research Institute",
+   "note": "Exact title and author match in the SikhRI archive.",
+   "url": "https://sikhri.org/articles/sovereignty-in-motion-sikh-governance-models"
+  },
+  "sikhri-nash-doctrine": {
+   "type": "Article",
+   "title": "Nash Doctrine: Five Freedoms of Vaisakhi 1699",
+   "author": "Harinder Singh",
+   "publisher": "SikhRI",
+   "detail": "Sikh Research Institute",
+   "note": "Exact title and author match in the SikhRI archive.",
+   "url": "https://sikhri.org/articles/nash-doctrine-five-freedoms-of-vaisakhi-1699"
+  },
+  "kapur-singh-golden-temple": {
+   "type": "Article",
+   "title": "The Golden Temple: Its Theo-Political Status",
+   "author": "Sirdar Kapur Singh",
+   "publisher": "SikhRI",
+   "detail": "Sikh Research Institute",
+   "note": "The SikhRI article's opening sentence appears verbatim at the top of the excerpt.",
+   "url": "https://sikhri.org/articles/the-golden-temple-its-theo-political-status"
+  },
+  "sikhri-kapur-singh-homeland": {
+   "type": "Article",
+   "title": "Sirdar Kapur Singh's Idea of the Sikh Homeland",
+   "author": "Damanpreet Singh",
+   "publisher": "SikhRI",
+   "detail": "Sikh Research Institute",
+   "note": "Exact title and author match in the SikhRI archive.",
+   "url": "https://sikhri.org/articles/sirdar-kapur-singhs-idea-of-the-sikh-homeland"
+  },
+  "sikhs-under-british-rule": {
+   "type": "Book chapter",
+   "title": "Sikhs Under British Rule, 1849-1947 (Chapter IX)",
+   "detail": "Religion and History of the Sikhs · pp. 345 onwards",
+   "note": "The container title appears in the excerpt's running head; the chapter number, chapter title and printed pagination are on the page. No author is named."
+  },
+  "sikhri-forgotten-babbars": {
+   "type": "Article",
+   "title": "The Forgotten Babbars",
+   "author": "Harinder Singh",
+   "publisher": "SikhRI",
+   "detail": "Sikh Research Institute",
+   "note": "Exact title and author match in the SikhRI archive; the excerpt's subtitle 'Babbar Akali (Babbars) movement (1921-1925)' opens the archive entry.",
+   "url": "https://sikhri.org/articles/the-forgotten-babbars"
+  },
+  "sikhri-guru-ka-bagh-morcha": {
+   "type": "Article",
+   "title": "Guru Ka Bagh Morcha: The Indomitable Spirit of the Akali Sikhs",
+   "author": "Surender Pal Singh",
+   "publisher": "SikhRI",
+   "detail": "Sikh Research Institute",
+   "note": "The SikhRI article's opening appears verbatim in the excerpt.",
+   "url": "https://sikhri.org/articles/guru-ka-bagh-morcha"
+  },
+  "teja-singh-singh-sabha": {
+   "type": "Essay",
+   "title": "The Singh Sabha Movement",
+   "author": "Teja Singh",
+   "note": "Author named at the head of the excerpt; container not stated."
+  },
+  "dhillon-singh-sabha-revival": {
+   "type": "Essay",
+   "title": "Singh Sabha Movement - A Revival",
+   "author": "Gurdarshan Singh Dhillon",
+   "note": "Author named at the head of the excerpt; container not stated."
+  },
+  "manto-toba-tek-singh": {
+   "type": "Short story",
+   "title": "Toba Tek Singh",
+   "author": "Saadat Hasan Manto, translated from the Urdu by Frances W. Pritchett",
+   "note": "Author and translator named at the head of the excerpt."
+  },
+  "kapur-singh-white-paper-1978": {
+   "type": "White paper",
+   "title": "They Massacre Sikhs: A White Paper by the Sikh Religious Parliament",
+   "author": "Sirdar Kapur Singh",
+   "publisher": "Shiromani Gurdwara Parbandhak Committee",
+   "year": "1978",
+   "note": "Cited in full, with publisher and year, in the bibliography of reading 5.3c."
+  },
+  "sikhri-attack-on-political-sikhi": {
+   "type": "Article",
+   "title": "The Attack on Political Sikhi",
+   "author": "Santbir Singh",
+   "publisher": "SikhRI",
+   "year": "2024",
+   "detail": "Sikh Research Institute",
+   "note": "The SikhRI article's summary appears verbatim in the excerpt, which also carries the publication date 13 February 2024.",
+   "url": "https://sikhri.org/articles/the-attack-on-political-sikhi"
+  },
+  "let-them-come": {
+   "type": "Book",
+   "title": "The Battle of Amritsar and Shaheeds Satwant and Beant Singh (Chapter 2)",
+   "note": "Chapters 2 and 3 of a book whose running head reads “Let Them Come: The Battle of Amritsar (1984) and Beyond”. The excerpts do not name an author."
+  },
+  "sikhri-no-more-blue-stars": {
+   "type": "Article",
+   "title": "No More Blue Stars: Reclaiming the Narrative of 1984",
+   "author": "Santbir Singh",
+   "publisher": "SikhRI",
+   "detail": "Sikh Research Institute",
+   "note": "The SikhRI article's summary appears verbatim in the excerpt.",
+   "url": "https://sikhri.org/articles/no-more-blue-stars"
+  },
+  "gurharpal-singh-punjab-crisis-1995": {
+   "type": "Journal article",
+   "title": "The Punjab crisis since 1984: a reassessment",
+   "author": "Gurharpal Singh",
+   "publisher": "Routledge",
+   "year": "1995",
+   "detail": "Ethnic and Racial Studies",
+   "note": "Journal named in the excerpt's running head. Scanned; recovered by OCR."
+  },
+  "baaz-khalra-game-of-elections": {
+   "type": "Article",
+   "title": "Jaswant Singh Khalra: The Game Of Elections - Should It Be Played Or Not?",
+   "author": "Jaswant Singh Khalra",
+   "publisher": "Baaz",
+   "detail": "Baaz News (first published in Liberation Khalistan)",
+   "note": "The excerpt is a print-out of the Baaz page and carries that URL in its footer.",
+   "url": "https://www.baaznews.org/p/khalra-game-of-elections-khalistan"
+  },
+  "mahmood-trials-by-fire": {
+   "type": "Book chapter",
+   "title": "Trials by Fire: Dynamics of Terror in Punjab and Kashmir (Chapter 2)",
+   "author": "Cynthia Keppley Mahmood",
+   "detail": "Death Squad: The Anthropology of State Terror",
+   "note": "Book title, chapter number, chapter title and author all printed at the head of the excerpt."
+  },
+  "hindutva-in-punjab-handbook": {
+   "type": "Book chapter",
+   "title": "Hindutva in Punjab: Appropriation and Resistance",
+   "publisher": "Routledge",
+   "detail": "Routledge Handbook of Punjab Studies",
+   "note": "The chapter DOI 10.4324/9780429277580-8 is printed at the top of the excerpt; the book DOI resolves to the Routledge Handbook of Punjab Studies. The excerpt does not name the chapter's author.",
+   "url": "https://doi.org/10.4324/9780429277580-8"
+  },
+  "moliner-boa-petty-enemy": {
+   "type": "Book chapter",
+   "title": "The Boa and its Petty Enemy: Contemporary Relationships between Hindu Nationalists and the Sikhs",
+   "author": "Christine Moliner",
+   "note": "Title and author printed at the head of the excerpt; container not stated."
+  },
+  "ashutosh-kumar-electoral-politics-2017": {
+   "type": "Journal article",
+   "title": "Electoral Politics in Indian Punjab: A New Phase?",
+   "author": "Ashutosh Kumar",
+   "publisher": "SAGE Publications",
+   "year": "2017",
+   "detail": "South Asia Research, Vol. 37, No. 1 · pp. 37-57",
+   "note": "Journal, volume, issue, page range, copyright year and DOI all printed on the excerpt's first page.",
+   "url": "https://doi.org/10.1177/0262728016675528"
+  },
+  "toi-splinter-outfits-2024": {
+   "type": "News report",
+   "title": "Why splinter outfits fail to make an impact on Punjab electorate",
+   "author": "TNN",
+   "year": "2024",
+   "detail": "The Times of India",
+   "note": "Byline and date line '15 May 2024, 01.05 PM IST' printed on the excerpt."
+  },
+  "frontline-what-khalistan-means-2023": {
+   "type": "Magazine article",
+   "title": "What Khalistan means for the Sikhs of Punjab",
+   "author": "Amandeep Sandhu",
+   "publisher": "The Hindu",
+   "year": "2023",
+   "detail": "Frontline",
+   "note": "Byline and publication line 'Published : Mar 23, 2023' printed on the excerpt, which is a Wayback Machine capture of a Frontline article whose URL begins frontline.thehindu.com/the-nation/understanding-the-k-word-what-khalistan-means-for-the-sikhs-of-punjab-a... . The capture truncates the slug, so no link is recorded rather than a guessed one."
+  },
+  "sangat-singh-sikhs-in-history": {
+   "type": "Book",
+   "title": "Excerpts from The Sikhs in History",
+   "author": "Sangat Singh",
+   "detail": "The Sikhs in History",
+   "note": "Named on the excerpt's first line."
+  },
+  "sikhri-rahit-maryada-brief": {
+   "type": "Brief",
+   "title": "Brief on Sikh Rahit Maryada",
+   "publisher": "SikhRI",
+   "detail": "Sikh Research Institute",
+   "note": "A SikhRI brief by house style and voice; no exact archive title match, so no URL is given."
+  },
+  "mitra-home-and-diaspora": {
+   "type": "Journal article",
+   "title": "The Boundaries between “Home” and “Diaspora”: American Sikhs and the Construction of Place",
+   "author": "Diditi Mitra",
+   "publisher": "Brookdale Community College (author affiliation)",
+   "detail": "pp. 319",
+   "note": "Author, affiliation, title and printed page 319 all appear at the head of the excerpt; the journal is not named on the pages supplied."
   }
  },
  "playbook": [
