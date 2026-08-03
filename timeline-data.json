@@ -930,11 +930,12 @@
    "group": "Banda Singh & Misl Era (1708-1799)",
    "category": "Battles",
    "media": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Banda_Singh_Bahadur_mural_fresco.jpg/1024px-Banda_Singh_Bahadur_mural_fresco.jpg",
-    "caption": "Mural fresco depicting Banda Singh Bahadur, founder of the first Khalsa Raj.",
-    "credit": "Wikimedia Commons / public domain",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Banda_Singh_Bahadur_mural_fresco.jpg/480px-Banda_Singh_Bahadur_mural_fresco.jpg",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Banda_Singh_Bahadur_mural_fresco.jpg?width=1024"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Battle_of_Sirhind_%281710%29.png/1024px-Battle_of_Sirhind_%281710%29.png",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Battle_of_Sirhind_%281710%29.png/480px-Battle_of_Sirhind_%281710%29.png",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Battle_of_Sirhind_%281710%29.png?width=1024",
+    "caption": "A Mughal-era painting (from the 'Tawarikh-i Jahandar Shah', Awadh/Lucknow, circa 1770) depicting the Battle of Sirhind/Chappar Chiri of 1710, the battle in which Banda Singh Bahadur's forces defeated Wazir Khan and established the first Khalsa Raj.",
+    "credit": "Wikimedia Commons",
+    "kind": "painting"
    },
    "sources": [
     {
@@ -965,11 +966,12 @@
    "group": "Banda Singh & Misl Era (1708-1799)",
    "category": "Martyrdom",
    "media": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Banda_Singh_Bahadur_mural_fresco.jpg/1024px-Banda_Singh_Bahadur_mural_fresco.jpg",
-    "caption": "Banda Singh Bahadur mural fresco",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Baba_Banda_Singh_Bahadur_%C3%A0_Delhi_%281%29.jpg/1024px-Baba_Banda_Singh_Bahadur_%C3%A0_Delhi_%281%29.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Baba_Banda_Singh_Bahadur_%C3%A0_Delhi_%281%29.jpg/480px-Baba_Banda_Singh_Bahadur_%C3%A0_Delhi_%281%29.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Baba_Banda_Singh_Bahadur_%C3%A0_Delhi_%281%29.jpg?width=1024",
+    "caption": "A modern memorial/statue to Banda Singh Bahadur in Delhi, the city where he was executed in 1716 — not a period depiction of the execution itself, but marking the place associated with his martyrdom.",
     "credit": "Wikimedia Commons",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Banda_Singh_Bahadur_mural_fresco.jpg/480px-Banda_Singh_Bahadur_mural_fresco.jpg",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Banda_Singh_Bahadur_mural_fresco.jpg?width=1024"
+    "kind": "place"
    },
    "sources": [
     {
@@ -1036,11 +1038,12 @@
    "group": "Banda Singh & Misl Era (1708-1799)",
    "category": "Martyrdom",
    "media": {
-    "caption": "Zakariya Khan Bahadur, Subahdar of Lahore — representative image of the government under which the execution was ordered, not of the martyrdom.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Manuscript_of_the_%27Guru_Sakhian%27%2C_by_Bhai_Mani_Singh%2C_handwritten_in_the_18th_century.jpg/1024px-Manuscript_of_the_%27Guru_Sakhian%27%2C_by_Bhai_Mani_Singh%2C_handwritten_in_the_18th_century.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Manuscript_of_the_%27Guru_Sakhian%27%2C_by_Bhai_Mani_Singh%2C_handwritten_in_the_18th_century.jpg/480px-Manuscript_of_the_%27Guru_Sakhian%27%2C_by_Bhai_Mani_Singh%2C_handwritten_in_the_18th_century.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Manuscript_of_the_%27Guru_Sakhian%27%2C_by_Bhai_Mani_Singh%2C_handwritten_in_the_18th_century.jpg?width=1024",
+    "caption": "A genuine 18th-century manuscript of the Guru Sakhian, written by Bhai Mani Singh himself — a document by the man, not a depiction of his 1734 martyrdom.",
     "credit": "Wikimedia Commons",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Zakariya_Khan_Bahadur%2C_Subahdar_%28governor%29_of_Lahore_subah_%28province%29_resting%2C_detail_from_a_19th_century_Sikh_drawing.jpg/1024px-Zakariya_Khan_Bahadur%2C_Subahdar_%28governor%29_of_Lahore_subah_%28province%29_resting%2C_detail_from_a_19th_century_Sikh_drawing.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Zakariya_Khan_Bahadur%2C_Subahdar_%28governor%29_of_Lahore_subah_%28province%29_resting%2C_detail_from_a_19th_century_Sikh_drawing.jpg/480px-Zakariya_Khan_Bahadur%2C_Subahdar_%28governor%29_of_Lahore_subah_%28province%29_resting%2C_detail_from_a_19th_century_Sikh_drawing.jpg",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Zakariya_Khan_Bahadur%2C_Subahdar_%28governor%29_of_Lahore_subah_%28province%29_resting%2C_detail_from_a_19th_century_Sikh_drawing.jpg?width=1024"
+    "kind": "document"
    },
    "sources": [
     {
@@ -1071,11 +1074,12 @@
    "group": "Banda Singh & Misl Era (1708-1799)",
    "category": "Battles",
    "media": {
-    "caption": "An equestrian portrait of Jassa Singh Ahluwalia, circa late 18th century — a later portrait of the Sikh leader who led the raids freeing Nadir Shah's captives in 1739, not a depiction of the raids themselves.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Nader_Shah_Afshar_and_his_court%2C_India_or_Iran%2C_18th_century.jpg/1024px-Nader_Shah_Afshar_and_his_court%2C_India_or_Iran%2C_18th_century.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Nader_Shah_Afshar_and_his_court%2C_India_or_Iran%2C_18th_century.jpg/480px-Nader_Shah_Afshar_and_his_court%2C_India_or_Iran%2C_18th_century.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Nader_Shah_Afshar_and_his_court%2C_India_or_Iran%2C_18th_century.jpg?width=1024",
+    "caption": "An 18th-century painting of Nadir Shah and his court — a period-appropriate depiction of the invader, not a depiction of the Sikh raids that freed his captives during his 1739 retreat.",
     "credit": "Wikimedia Commons",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Equestrian_painting_of_Jassa_Singh_Ahluwalia_on_horseback_in-front_of_his_haveli_with_a_fly-whisk_attendant%2C_circa_late_18th_century_%28better_colours%29.jpg/1024px-Equestrian_painting_of_Jassa_Singh_Ahluwalia_on_horseback_in-front_of_his_haveli_with_a_fly-whisk_attendant%2C_circa_late_18th_century_%28better_colours%29.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Equestrian_painting_of_Jassa_Singh_Ahluwalia_on_horseback_in-front_of_his_haveli_with_a_fly-whisk_attendant%2C_circa_late_18th_century_%28better_colours%29.jpg/480px-Equestrian_painting_of_Jassa_Singh_Ahluwalia_on_horseback_in-front_of_his_haveli_with_a_fly-whisk_attendant%2C_circa_late_18th_century_%28better_colours%29.jpg",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Equestrian_painting_of_Jassa_Singh_Ahluwalia_on_horseback_in-front_of_his_haveli_with_a_fly-whisk_attendant%2C_circa_late_18th_century_%28better_colours%29.jpg?width=1024"
+    "kind": "painting"
    },
    "sources": [
     {
@@ -1107,11 +1111,12 @@
    "group": "Banda Singh & Misl Era (1708-1799)",
    "category": "Battles",
    "media": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Painting_of_Guru_Arjan_overseeing_the_construction_of_the_original_Golden_Temple_%28Harmandir_Sahib%29%2C_circa_1890-95.jpg/1024px-Painting_of_Guru_Arjan_overseeing_the_construction_of_the_original_Golden_Temple_%28Harmandir_Sahib%29%2C_circa_1890-95.jpg",
-    "caption": "Guru Arjan Sahib overseeing the construction of Harimandar Sahib — representative image of the shrine at issue, not of the events of 1740.",
-    "credit": "Wikimedia Commons / public domain",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Painting_of_Guru_Arjan_overseeing_the_construction_of_the_original_Golden_Temple_%28Harmandir_Sahib%29%2C_circa_1890-95.jpg/480px-Painting_of_Guru_Arjan_overseeing_the_construction_of_the_original_Golden_Temple_%28Harmandir_Sahib%29%2C_circa_1890-95.jpg",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Painting_of_Guru_Arjan_overseeing_the_construction_of_the_original_Golden_Temple_%28Harmandir_Sahib%29%2C_circa_1890-95.jpg?width=1024"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Bhai_Sukha_and_Bhai_Mehtab_Singh_confront_Massa_Ranghar.jpg/1024px-Bhai_Sukha_and_Bhai_Mehtab_Singh_confront_Massa_Ranghar.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Bhai_Sukha_and_Bhai_Mehtab_Singh_confront_Massa_Ranghar.jpg/480px-Bhai_Sukha_and_Bhai_Mehtab_Singh_confront_Massa_Ranghar.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Bhai_Sukha_and_Bhai_Mehtab_Singh_confront_Massa_Ranghar.jpg?width=1024",
+    "caption": "A Sikh-school painting depicting Bhai Sukha Singh and Bhai Mehtab Singh confronting Massa Ranghar at Harimandar Sahib in 1740 — a genuine depiction of the event itself.",
+    "credit": "Wikimedia Commons",
+    "kind": "painting"
    },
    "sources": [
     {
@@ -1180,11 +1185,12 @@
    "group": "Banda Singh & Misl Era (1708-1799)",
    "category": "Martyrdom",
    "media": {
-    "caption": "A circa-1930 commemorative illustration by Gian Singh Naqqash depicting Sikh women and children held at Mir Mannu's death camp during the mid-18th-century persecution of the Panth — a later artistic depiction of the same era of massacres as the 1746 Chhota Ghallughara, not a contemporary image of that specific massacre.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Moin-ul-Mulk_%28also_known_as_Mir_Mannu%29%2C_Subahdar_of_Lahore_%28in_green%29_in_his_darbar_smoking_a_hookah._Painted_by_Nainsukh_of_Guler%2C_circa_18th_century.jpg/1024px-Moin-ul-Mulk_%28also_known_as_Mir_Mannu%29%2C_Subahdar_of_Lahore_%28in_green%29_in_his_darbar_smoking_a_hookah._Painted_by_Nainsukh_of_Guler%2C_circa_18th_century.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Moin-ul-Mulk_%28also_known_as_Mir_Mannu%29%2C_Subahdar_of_Lahore_%28in_green%29_in_his_darbar_smoking_a_hookah._Painted_by_Nainsukh_of_Guler%2C_circa_18th_century.jpg/480px-Moin-ul-Mulk_%28also_known_as_Mir_Mannu%29%2C_Subahdar_of_Lahore_%28in_green%29_in_his_darbar_smoking_a_hookah._Painted_by_Nainsukh_of_Guler%2C_circa_18th_century.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Moin-ul-Mulk_%28also_known_as_Mir_Mannu%29%2C_Subahdar_of_Lahore_%28in_green%29_in_his_darbar_smoking_a_hookah._Painted_by_Nainsukh_of_Guler%2C_circa_18th_century.jpg?width=1024",
+    "caption": "A genuine 18th-century Guler-school painting of Mir Mannu, the Mughal governor who ordered the Chhota Ghallughara, shown in his darbar — a period portrait of the perpetrator, not a depiction of the massacre itself.",
     "credit": "Wikimedia Commons",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Illustration_of_Sikh_women_and_children_toiling_away_grinding_flour_at_Mir_Mannu%27s_death_camp%2C_by_Gian_Singh_Naqqash%2C_ca.1930.jpg/1024px-Illustration_of_Sikh_women_and_children_toiling_away_grinding_flour_at_Mir_Mannu%27s_death_camp%2C_by_Gian_Singh_Naqqash%2C_ca.1930.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Illustration_of_Sikh_women_and_children_toiling_away_grinding_flour_at_Mir_Mannu%27s_death_camp%2C_by_Gian_Singh_Naqqash%2C_ca.1930.jpg/480px-Illustration_of_Sikh_women_and_children_toiling_away_grinding_flour_at_Mir_Mannu%27s_death_camp%2C_by_Gian_Singh_Naqqash%2C_ca.1930.jpg",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Illustration_of_Sikh_women_and_children_toiling_away_grinding_flour_at_Mir_Mannu%27s_death_camp%2C_by_Gian_Singh_Naqqash%2C_ca.1930.jpg?width=1024"
+    "kind": "painting"
    },
    "sources": [
     {
@@ -1217,11 +1223,12 @@
    "group": "Banda Singh & Misl Era (1708-1799)",
    "category": "Institutions",
    "media": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Equestrian_painting_of_Jassa_Singh_Ahluwalia%2C_Punjab_Plains%2C_circa_1859.jpg/1024px-Equestrian_painting_of_Jassa_Singh_Ahluwalia%2C_Punjab_Plains%2C_circa_1859.jpg",
-    "caption": "Equestrian painting of Jassa Singh Ahluwalia, who led the Dal Khalsa — a later depiction, not a contemporary record of 1748.",
-    "credit": "Wikimedia Commons / public domain",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Equestrian_painting_of_Jassa_Singh_Ahluwalia%2C_Punjab_Plains%2C_circa_1859.jpg/480px-Equestrian_painting_of_Jassa_Singh_Ahluwalia%2C_Punjab_Plains%2C_circa_1859.jpg",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Equestrian_painting_of_Jassa_Singh_Ahluwalia%2C_Punjab_Plains%2C_circa_1859.jpg?width=1024"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Detail_of_Karam_Singh_Sidhu_of_the_Shaheedan_Misl_from_a_painting_three_seated_Sikh_sardars%2C_circa_late_18th_century.jpg/1024px-Detail_of_Karam_Singh_Sidhu_of_the_Shaheedan_Misl_from_a_painting_three_seated_Sikh_sardars%2C_circa_late_18th_century.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Detail_of_Karam_Singh_Sidhu_of_the_Shaheedan_Misl_from_a_painting_three_seated_Sikh_sardars%2C_circa_late_18th_century.jpg/480px-Detail_of_Karam_Singh_Sidhu_of_the_Shaheedan_Misl_from_a_painting_three_seated_Sikh_sardars%2C_circa_late_18th_century.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Detail_of_Karam_Singh_Sidhu_of_the_Shaheedan_Misl_from_a_painting_three_seated_Sikh_sardars%2C_circa_late_18th_century.jpg?width=1024",
+    "caption": "A late-18th-century Sikh-school painting of Karam Singh Sidhu, a sardar of the Shaheedan Misl — a genuine period depiction of a misl leader from the era the Dal Khalsa organised into eleven misls, not a depiction of the 1748 Vaisakhi gathering itself.",
+    "credit": "Wikimedia Commons",
+    "kind": "painting"
    },
    "sources": [
     {
@@ -1288,11 +1295,12 @@
    "group": "Banda Singh & Misl Era (1708-1799)",
    "category": "Martyrdom",
    "media": {
-    "caption": "A painting of Ahmad Shah Abdali and his grand wazir Shah Wali Khan, circa 1760s — a near-contemporary portrait of the Afghan ruler whose 1762 campaign carried out the Vadda Ghallughara, not a depiction of the massacre itself.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/A_watercolour_painting_depicting_a_headless_Baba_Deep_Singh_and_fellow_Sikh_warriors_shown_fighting_the_hostile_Afghan_forces_at_the_Battle_of_Amritsar_%281757%29%2C_circa_1880%27s.jpg/1024px-A_watercolour_painting_depicting_a_headless_Baba_Deep_Singh_and_fellow_Sikh_warriors_shown_fighting_the_hostile_Afghan_forces_at_the_Battle_of_Amritsar_%281757%29%2C_circa_1880%27s.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/A_watercolour_painting_depicting_a_headless_Baba_Deep_Singh_and_fellow_Sikh_warriors_shown_fighting_the_hostile_Afghan_forces_at_the_Battle_of_Amritsar_%281757%29%2C_circa_1880%27s.jpg/480px-A_watercolour_painting_depicting_a_headless_Baba_Deep_Singh_and_fellow_Sikh_warriors_shown_fighting_the_hostile_Afghan_forces_at_the_Battle_of_Amritsar_%281757%29%2C_circa_1880%27s.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/A_watercolour_painting_depicting_a_headless_Baba_Deep_Singh_and_fellow_Sikh_warriors_shown_fighting_the_hostile_Afghan_forces_at_the_Battle_of_Amritsar_%281757%29%2C_circa_1880%27s.jpg?width=1024",
+    "caption": "An 1880s watercolour of Sikh warriors fighting Ahmad Shah Durrani's Afghan forces at the Battle of Amritsar (1757) — a period-appropriate depiction of the same Sikh-Afghan wars, not a depiction of the 1762 Vadda Ghallughara itself.",
     "credit": "Wikimedia Commons",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Painting_of_Ahmad_Shah_Abdali_and_his_grand_wazir_Shah_Wali_Khan%2C_ca.1760%27s.jpg/1024px-Painting_of_Ahmad_Shah_Abdali_and_his_grand_wazir_Shah_Wali_Khan%2C_ca.1760%27s.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Painting_of_Ahmad_Shah_Abdali_and_his_grand_wazir_Shah_Wali_Khan%2C_ca.1760%27s.jpg/480px-Painting_of_Ahmad_Shah_Abdali_and_his_grand_wazir_Shah_Wali_Khan%2C_ca.1760%27s.jpg",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Painting_of_Ahmad_Shah_Abdali_and_his_grand_wazir_Shah_Wali_Khan%2C_ca.1760%27s.jpg?width=1024"
+    "kind": "painting"
    },
    "sources": [
     {
@@ -1323,11 +1331,12 @@
    "group": "Banda Singh & Misl Era (1708-1799)",
    "category": "Institutions",
    "media": {
-    "caption": "Equestrian painting of Jassa Singh Ahluwalia — representative image of the misl period, not of the occupation of Lahore.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Detail_of_Lehna_Singh_Kahlon_of_the_Bhangi_Misl_from_a_painting_three_seated_Sikh_sardars%2C_circa_late_18th_century.jpg/1024px-Detail_of_Lehna_Singh_Kahlon_of_the_Bhangi_Misl_from_a_painting_three_seated_Sikh_sardars%2C_circa_late_18th_century.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Detail_of_Lehna_Singh_Kahlon_of_the_Bhangi_Misl_from_a_painting_three_seated_Sikh_sardars%2C_circa_late_18th_century.jpg/480px-Detail_of_Lehna_Singh_Kahlon_of_the_Bhangi_Misl_from_a_painting_three_seated_Sikh_sardars%2C_circa_late_18th_century.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Detail_of_Lehna_Singh_Kahlon_of_the_Bhangi_Misl_from_a_painting_three_seated_Sikh_sardars%2C_circa_late_18th_century.jpg?width=1024",
+    "caption": "A late-18th-century Sikh-school painting of Lehna Singh Kahlon of the Bhangi Misl, the misl that took Lahore in 1765 — a genuine period portrait of a leader of the occupying misl.",
     "credit": "Wikimedia Commons",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Equestrian_painting_of_Jassa_Singh_Ahluwalia_on_horseback_in-front_of_his_haveli_with_a_fly-whisk_attendant%2C_circa_late_18th_century_%28better_colours%29.jpg/1024px-Equestrian_painting_of_Jassa_Singh_Ahluwalia_on_horseback_in-front_of_his_haveli_with_a_fly-whisk_attendant%2C_circa_late_18th_century_%28better_colours%29.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Equestrian_painting_of_Jassa_Singh_Ahluwalia_on_horseback_in-front_of_his_haveli_with_a_fly-whisk_attendant%2C_circa_late_18th_century_%28better_colours%29.jpg/480px-Equestrian_painting_of_Jassa_Singh_Ahluwalia_on_horseback_in-front_of_his_haveli_with_a_fly-whisk_attendant%2C_circa_late_18th_century_%28better_colours%29.jpg",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Equestrian_painting_of_Jassa_Singh_Ahluwalia_on_horseback_in-front_of_his_haveli_with_a_fly-whisk_attendant%2C_circa_late_18th_century_%28better_colours%29.jpg?width=1024"
+    "kind": "painting"
    },
    "sources": [
     {
@@ -1358,11 +1367,12 @@
    "group": "Banda Singh & Misl Era (1708-1799)",
    "category": "Movements",
    "media": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Equestrian_painting_of_Jassa_Singh_Ahluwalia%2C_Punjab_Plains%2C_circa_1859.jpg/1024px-Equestrian_painting_of_Jassa_Singh_Ahluwalia%2C_Punjab_Plains%2C_circa_1859.jpg",
-    "caption": "Equestrian painting of misl leader Jassa Singh Ahluwalia, Punjab Plains, circa 1859.",
-    "credit": "Wikimedia Commons / public domain",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Equestrian_painting_of_Jassa_Singh_Ahluwalia%2C_Punjab_Plains%2C_circa_1859.jpg/480px-Equestrian_painting_of_Jassa_Singh_Ahluwalia%2C_Punjab_Plains%2C_circa_1859.jpg",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Equestrian_painting_of_Jassa_Singh_Ahluwalia%2C_Punjab_Plains%2C_circa_1859.jpg?width=1024"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Equestrian_painting_of_Jassa_Singh_Ahluwalia_on_horseback_in-front_of_his_haveli_with_a_fly-whisk_attendant%2C_circa_late_18th_century_%28detail%29.jpg/1024px-Equestrian_painting_of_Jassa_Singh_Ahluwalia_on_horseback_in-front_of_his_haveli_with_a_fly-whisk_attendant%2C_circa_late_18th_century_%28detail%29.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Equestrian_painting_of_Jassa_Singh_Ahluwalia_on_horseback_in-front_of_his_haveli_with_a_fly-whisk_attendant%2C_circa_late_18th_century_%28detail%29.jpg/480px-Equestrian_painting_of_Jassa_Singh_Ahluwalia_on_horseback_in-front_of_his_haveli_with_a_fly-whisk_attendant%2C_circa_late_18th_century_%28detail%29.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Equestrian_painting_of_Jassa_Singh_Ahluwalia_on_horseback_in-front_of_his_haveli_with_a_fly-whisk_attendant%2C_circa_late_18th_century_%28detail%29.jpg?width=1024",
+    "caption": "A detail of a late-18th-century equestrian painting of Jassa Singh Ahluwalia in front of his haveli — a genuine period portrait of the misl leader whose 1783 death this entry marks.",
+    "credit": "Wikimedia Commons",
+    "kind": "painting"
    },
    "sources": [
     {
@@ -1441,11 +1451,12 @@
    "group": "Sikh Empire (1799-1849)",
    "category": "Battles",
    "media": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Oil_painting_of_Hari_Singh_Nalwa_displayed_in_the_Lahore_Museum.jpg/1024px-Oil_painting_of_Hari_Singh_Nalwa_displayed_in_the_Lahore_Museum.jpg",
-    "caption": "Oil painting of General Hari Singh Nalua, displayed in the Lahore Museum.",
-    "credit": "Wikimedia Commons / public domain",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Oil_painting_of_Hari_Singh_Nalwa_displayed_in_the_Lahore_Museum.jpg/480px-Oil_painting_of_Hari_Singh_Nalwa_displayed_in_the_Lahore_Museum.jpg",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Oil_painting_of_Hari_Singh_Nalwa_displayed_in_the_Lahore_Museum.jpg?width=1024"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Painting_of_General_Hari_Singh_Nalwa_in_full_battle_regalia%E2%80%94the_inscription_of_the_Sardar%E2%80%99s_name_in_English_seems_to_suggest_that_the_portrait_was_commissioned_following_the_British_annexation_of_Punjab.jpg/1024px-Painting_of_General_Hari_Singh_Nalwa_in_full_battle_regalia%E2%80%94the_inscription_of_the_Sardar%E2%80%99s_name_in_English_seems_to_suggest_that_the_portrait_was_commissioned_following_the_British_annexation_of_Punjab.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Painting_of_General_Hari_Singh_Nalwa_in_full_battle_regalia%E2%80%94the_inscription_of_the_Sardar%E2%80%99s_name_in_English_seems_to_suggest_that_the_portrait_was_commissioned_following_the_British_annexation_of_Punjab.jpg/480px-Painting_of_General_Hari_Singh_Nalwa_in_full_battle_regalia%E2%80%94the_inscription_of_the_Sardar%E2%80%99s_name_in_English_seems_to_suggest_that_the_portrait_was_commissioned_following_the_British_annexation_of_Punjab.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Painting_of_General_Hari_Singh_Nalwa_in_full_battle_regalia%E2%80%94the_inscription_of_the_Sardar%E2%80%99s_name_in_English_seems_to_suggest_that_the_portrait_was_commissioned_following_the_British_annexation_of_Punjab.jpg?width=1024",
+    "caption": "A painting of General Hari Singh Nalwa in full battle regalia — a genuine portrait of the general whose 1837 death at Jamrud this entry marks, not a depiction of the battle itself.",
+    "credit": "Wikimedia Commons",
+    "kind": "painting"
    },
    "sources": [
     {
@@ -1596,11 +1607,12 @@
    "group": "Colonial Era (1849-1947)",
    "category": "Martyrdom",
    "media": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Painting_of_the_Sikh_warrior%2C_Bhai_Maharaj_Singh%2C_holding_court_in_his_darbar.jpg/1024px-Painting_of_the_Sikh_warrior%2C_Bhai_Maharaj_Singh%2C_holding_court_in_his_darbar.jpg",
-    "caption": "Painting of Bhai Maharaj Singh holding court in his darbar.",
-    "credit": "Wikimedia Commons / public domain",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Painting_of_the_Sikh_warrior%2C_Bhai_Maharaj_Singh%2C_holding_court_in_his_darbar.jpg/480px-Painting_of_the_Sikh_warrior%2C_Bhai_Maharaj_Singh%2C_holding_court_in_his_darbar.jpg",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Painting_of_the_Sikh_warrior%2C_Bhai_Maharaj_Singh%2C_holding_court_in_his_darbar.jpg?width=1024"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Detail_of_a_painting_of_Bhai_Maharaj_Singh_holding_durbar_%28court%29.jpg/1024px-Detail_of_a_painting_of_Bhai_Maharaj_Singh_holding_durbar_%28court%29.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Detail_of_a_painting_of_Bhai_Maharaj_Singh_holding_durbar_%28court%29.jpg/480px-Detail_of_a_painting_of_Bhai_Maharaj_Singh_holding_durbar_%28court%29.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Detail_of_a_painting_of_Bhai_Maharaj_Singh_holding_durbar_%28court%29.jpg?width=1024",
+    "caption": "A detail from a period painting of Bhai Maharaj Singh holding court — a genuine depiction of the Sant-Sipahi figure exiled to Singapore in 1850.",
+    "credit": "Wikimedia Commons",
+    "kind": "painting"
    },
    "sources": [
     {
@@ -1678,11 +1690,12 @@
    "group": "Colonial Era (1849-1947)",
    "category": "Institutions",
    "media": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Photograph_of_the_Akal_Takht_in_Amritsar%2C_circa_1850%27s.jpg/1024px-Photograph_of_the_Akal_Takht_in_Amritsar%2C_circa_1850%27s.jpg",
-    "caption": "The Akal Takht at Amritsar, photographed around the 1850s — the institution the hukamnama was issued from, in an image predating it.",
-    "credit": "Wikimedia Commons / public domain",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Photograph_of_the_Akal_Takht_in_Amritsar%2C_circa_1850%27s.jpg/480px-Photograph_of_the_Akal_Takht_in_Amritsar%2C_circa_1850%27s.jpg",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Photograph_of_the_Akal_Takht_in_Amritsar%2C_circa_1850%27s.jpg?width=1024"
+    "url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/Photograph_of_Prof._Gurmukh_Singh%2C_founder_of_the_Khalsa_Akhbar_Lahore_and_one_of_the_founders_of_the_Singh_Sabha_movement.jpg/1024px-Photograph_of_Prof._Gurmukh_Singh%2C_founder_of_the_Khalsa_Akhbar_Lahore_and_one_of_the_founders_of_the_Singh_Sabha_movement.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/Photograph_of_Prof._Gurmukh_Singh%2C_founder_of_the_Khalsa_Akhbar_Lahore_and_one_of_the_founders_of_the_Singh_Sabha_movement.jpg/480px-Photograph_of_Prof._Gurmukh_Singh%2C_founder_of_the_Khalsa_Akhbar_Lahore_and_one_of_the_founders_of_the_Singh_Sabha_movement.jpg",
+    "fallback": "https://en.wikipedia.org/wiki/Special:FilePath/Photograph_of_Prof._Gurmukh_Singh%2C_founder_of_the_Khalsa_Akhbar_Lahore_and_one_of_the_founders_of_the_Singh_Sabha_movement.jpg?width=1024",
+    "caption": "A genuine photograph of Professor Gurmukh Singh, the Singh Sabha reformer against whom the Akal Takht issued the 1887 hukamnama.",
+    "credit": "Wikimedia Commons",
+    "kind": "portrait"
    },
    "sources": [
     {
@@ -1714,11 +1727,12 @@
    "group": "Colonial Era (1849-1947)",
    "category": "Scripture",
    "media": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Singh_Sabha_movement_figures.jpg/1024px-Singh_Sabha_movement_figures.jpg",
-    "caption": "Figures of the Singh Sabha movement — representative image of the movement Kahn Singh Nabha wrote from within, not of the tract.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Photograph_of_Kahn_Singh_of_Nabha.jpg/1024px-Photograph_of_Kahn_Singh_of_Nabha.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Photograph_of_Kahn_Singh_of_Nabha.jpg/480px-Photograph_of_Kahn_Singh_of_Nabha.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Photograph_of_Kahn_Singh_of_Nabha.jpg?width=1024",
+    "caption": "A genuine photograph of Bhai Kahn Singh Nabha, author of Ham Hindu Nahin (1899).",
     "credit": "Wikimedia Commons",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Singh_Sabha_movement_figures.jpg/480px-Singh_Sabha_movement_figures.jpg",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Singh_Sabha_movement_figures.jpg?width=1024"
+    "kind": "portrait"
    },
    "sources": [
     {
@@ -1933,11 +1947,12 @@
    "group": "Colonial Era (1849-1947)",
    "category": "Martyrdom",
    "media": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Portrait_Painting_of_Mewa_Singh.jpg/1024px-Portrait_Painting_of_Mewa_Singh.jpg",
-    "caption": "Portrait painting of Bhai Mewa Singh, executed in British Columbia in 1915.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Painting_of_Mewa_Singh_in_the_Langar_Hall_of_the_Khalsa_Diwan_Society_Ross_Sikh_Temple.jpg/1024px-Painting_of_Mewa_Singh_in_the_Langar_Hall_of_the_Khalsa_Diwan_Society_Ross_Sikh_Temple.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Painting_of_Mewa_Singh_in_the_Langar_Hall_of_the_Khalsa_Diwan_Society_Ross_Sikh_Temple.jpg/480px-Painting_of_Mewa_Singh_in_the_Langar_Hall_of_the_Khalsa_Diwan_Society_Ross_Sikh_Temple.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Painting_of_Mewa_Singh_in_the_Langar_Hall_of_the_Khalsa_Diwan_Society_Ross_Sikh_Temple.jpg?width=1024",
+    "caption": "A memorial painting of Bhai Mewa Singh in the langar hall of Vancouver's Ross Street gurdwara — a devotional depiction of the man executed in 1915, not a period photograph of the execution.",
     "credit": "Wikimedia Commons",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Portrait_Painting_of_Mewa_Singh.jpg/480px-Portrait_Painting_of_Mewa_Singh.jpg",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_Painting_of_Mewa_Singh.jpg?width=1024"
+    "kind": "painting"
    },
    "sources": [
     {
@@ -2006,11 +2021,12 @@
    "group": "Colonial Era (1849-1947)",
    "category": "Movements",
    "media": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Photograph_of_Sikh-Canadian_soldier_Buckam_Singh_with_a_group_of_Sikh_men%2C_ca.1907%E2%80%931915.png/1024px-Photograph_of_Sikh-Canadian_soldier_Buckam_Singh_with_a_group_of_Sikh_men%2C_ca.1907%E2%80%931915.png",
-    "caption": "Photograph of Sikh-Canadian soldier Buckam Singh with a group of Sikh men, ca.1907–1915",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Group_photograph_of_Sikh_men_and_boys_gathered_at_the_2nd_Avenue_Sikh_Temple_in_Vancouver%2C_possibly_including_the_Hundal_boys%2C_ca.1917.jpg/1024px-Group_photograph_of_Sikh_men_and_boys_gathered_at_the_2nd_Avenue_Sikh_Temple_in_Vancouver%2C_possibly_including_the_Hundal_boys%2C_ca.1917.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Group_photograph_of_Sikh_men_and_boys_gathered_at_the_2nd_Avenue_Sikh_Temple_in_Vancouver%2C_possibly_including_the_Hundal_boys%2C_ca.1917.jpg/480px-Group_photograph_of_Sikh_men_and_boys_gathered_at_the_2nd_Avenue_Sikh_Temple_in_Vancouver%2C_possibly_including_the_Hundal_boys%2C_ca.1917.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Group_photograph_of_Sikh_men_and_boys_gathered_at_the_2nd_Avenue_Sikh_Temple_in_Vancouver%2C_possibly_including_the_Hundal_boys%2C_ca.1917.jpg?width=1024",
+    "caption": "A period photograph (ca.1917) of Sikh Canadians gathered at Vancouver's 2nd Avenue Sikh Temple — representative of the Sikh-Canadian community Buckam Singh belonged to, not a photograph of him specifically.",
     "credit": "Wikimedia Commons",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Photograph_of_Sikh-Canadian_soldier_Buckam_Singh_with_a_group_of_Sikh_men%2C_ca.1907%E2%80%931915.png/480px-Photograph_of_Sikh-Canadian_soldier_Buckam_Singh_with_a_group_of_Sikh_men%2C_ca.1907%E2%80%931915.png",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Photograph_of_Sikh-Canadian_soldier_Buckam_Singh_with_a_group_of_Sikh_men%2C_ca.1907%E2%80%931915.png?width=1024"
+    "kind": "photograph"
    },
    "sources": [
     {
@@ -2084,11 +2100,12 @@
    "group": "Colonial Era (1849-1947)",
    "category": "Politics",
    "media": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Photograph_of_the_Khalsa_Biradari_Society_occupying_the_premises_of_the_Akal_Takht_after_purging_the_Pujari_caretakers%2C_marking_the_beginning_of_the_Akali_movement%2C_12_October_1920.jpg/1024px-Photograph_of_the_Khalsa_Biradari_Society_occupying_the_premises_of_the_Akal_Takht_after_purging_the_Pujari_caretakers%2C_marking_the_beginning_of_the_Akali_movement%2C_12_October_1920.jpg",
-    "caption": "The Khalsa Biradari Society occupying the Akal Takht premises — representative image of the SGPC's founding period, not of the Akali Dal's formation.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Master_Tara_Singh.png/1024px-Master_Tara_Singh.png",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Master_Tara_Singh.png/480px-Master_Tara_Singh.png",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Master_Tara_Singh.png?width=1024",
+    "caption": "A photograph of Master Tara Singh, who became a leading figure of the Shiromani Akali Dal — not a photograph of the party's December 1920 founding itself.",
     "credit": "Wikimedia Commons",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Photograph_of_the_Khalsa_Biradari_Society_occupying_the_premises_of_the_Akal_Takht_after_purging_the_Pujari_caretakers%2C_marking_the_beginning_of_the_Akali_movement%2C_12_October_1920.jpg/480px-Photograph_of_the_Khalsa_Biradari_Society_occupying_the_premises_of_the_Akal_Takht_after_purging_the_Pujari_caretakers%2C_marking_the_beginning_of_the_Akali_movement%2C_12_October_1920.jpg",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Photograph_of_the_Khalsa_Biradari_Society_occupying_the_premises_of_the_Akal_Takht_after_purging_the_Pujari_caretakers%2C_marking_the_beginning_of_the_Akali_movement%2C_12_October_1920.jpg?width=1024"
+    "kind": "portrait"
    },
    "sources": [
     {
@@ -2246,11 +2263,12 @@
    "group": "Colonial Era (1849-1947)",
    "category": "Movements",
    "media": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Jatha_of_Akali_volunteers_marching_to_Guru-ka-Bagh_on_25_Oct_1922.jpg/1024px-Jatha_of_Akali_volunteers_marching_to_Guru-ka-Bagh_on_25_Oct_1922.jpg",
-    "caption": "Akali Sikhs occupying the Akal Takht premises during the Gurdwara reform movement — representative image of the morchas of this period, not of the Guru Ka Bagh release.",
-    "credit": "Wikimedia Commons / public domain",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Jatha_of_Akali_volunteers_marching_to_Guru-ka-Bagh_on_25_Oct_1922.jpg/480px-Jatha_of_Akali_volunteers_marching_to_Guru-ka-Bagh_on_25_Oct_1922.jpg",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Jatha_of_Akali_volunteers_marching_to_Guru-ka-Bagh_on_25_Oct_1922.jpg?width=1024"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Group_of_non-violent_Sikh_marchers_during_the_Guru-Ka-Bagh_Morcha%2C_1922.jpg/1024px-Group_of_non-violent_Sikh_marchers_during_the_Guru-Ka-Bagh_Morcha%2C_1922.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Group_of_non-violent_Sikh_marchers_during_the_Guru-Ka-Bagh_Morcha%2C_1922.jpg/480px-Group_of_non-violent_Sikh_marchers_during_the_Guru-Ka-Bagh_Morcha%2C_1922.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Group_of_non-violent_Sikh_marchers_during_the_Guru-Ka-Bagh_Morcha%2C_1922.jpg?width=1024",
+    "caption": "A period photograph of non-violent Sikh marchers during the Guru-Ka-Bagh Morcha, the agitation whose 1923 resolution this entry marks.",
+    "credit": "Wikimedia Commons",
+    "kind": "photograph"
    },
    "sources": [
     {
@@ -2283,11 +2301,12 @@
    "group": "Colonial Era (1849-1947)",
    "category": "Institutions",
    "media": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Photograph_of_the_Khalsa_Biradari_Society_occupying_the_premises_of_the_Akal_Takht_after_purging_the_Pujari_caretakers%2C_marking_the_beginning_of_the_Akali_movement%2C_12_October_1920.jpg/1024px-Photograph_of_the_Khalsa_Biradari_Society_occupying_the_premises_of_the_Akal_Takht_after_purging_the_Pujari_caretakers%2C_marking_the_beginning_of_the_Akali_movement%2C_12_October_1920.jpg",
-    "caption": "The Akal Takht and Darbar Sahib complex — representative image of the institutions the Act placed under elected Sikh control, not of the legislation.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Teja_Singh_Samundri_in_discussion_during_Akali_movement.png/1024px-Teja_Singh_Samundri_in_discussion_during_Akali_movement.png",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Teja_Singh_Samundri_in_discussion_during_Akali_movement.png/480px-Teja_Singh_Samundri_in_discussion_during_Akali_movement.png",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Teja_Singh_Samundri_in_discussion_during_Akali_movement.png?width=1024",
+    "caption": "A photograph of Teja Singh Samundri, a founding SGPC leader, during the Akali movement that led to the 1925 Sikh Gurdwaras Act — not a photograph of the Act's passage itself.",
     "credit": "Wikimedia Commons",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Photograph_of_the_Khalsa_Biradari_Society_occupying_the_premises_of_the_Akal_Takht_after_purging_the_Pujari_caretakers%2C_marking_the_beginning_of_the_Akali_movement%2C_12_October_1920.jpg/480px-Photograph_of_the_Khalsa_Biradari_Society_occupying_the_premises_of_the_Akal_Takht_after_purging_the_Pujari_caretakers%2C_marking_the_beginning_of_the_Akali_movement%2C_12_October_1920.jpg",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Photograph_of_the_Khalsa_Biradari_Society_occupying_the_premises_of_the_Akal_Takht_after_purging_the_Pujari_caretakers%2C_marking_the_beginning_of_the_Akali_movement%2C_12_October_1920.jpg?width=1024"
+    "kind": "photograph"
    },
    "sources": [
     {
@@ -2321,11 +2340,12 @@
    "group": "Colonial Era (1849-1947)",
    "category": "Martyrdom",
    "media": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Photograph_of_the_six_%27shaheeds%27_%28martyrs%29_of_the_Babbar_Akali_Jatha_from_27_February_1926.jpg/1024px-Photograph_of_the_six_%27shaheeds%27_%28martyrs%29_of_the_Babbar_Akali_Jatha_from_27_February_1926.jpg",
-    "caption": "Representative image of the Babbar Akali period, not a photograph of the executions.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Front_page_of_an_issue_of_%27Babar_Sher%27%2C_a_bi-weekly_Sikh_newspaper%2C_12_March_1926_issue.jpg/1024px-Front_page_of_an_issue_of_%27Babar_Sher%27%2C_a_bi-weekly_Sikh_newspaper%2C_12_March_1926_issue.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Front_page_of_an_issue_of_%27Babar_Sher%27%2C_a_bi-weekly_Sikh_newspaper%2C_12_March_1926_issue.jpg/480px-Front_page_of_an_issue_of_%27Babar_Sher%27%2C_a_bi-weekly_Sikh_newspaper%2C_12_March_1926_issue.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Front_page_of_an_issue_of_%27Babar_Sher%27%2C_a_bi-weekly_Sikh_newspaper%2C_12_March_1926_issue.jpg?width=1024",
+    "caption": "The front page of 'Babar Sher', the Babbar Akali movement's own newspaper, from March 1926 — a genuine period document from the movement whose six martyrs were hanged that February.",
     "credit": "Wikimedia Commons",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Photograph_of_the_six_%27shaheeds%27_%28martyrs%29_of_the_Babbar_Akali_Jatha_from_27_February_1926.jpg/480px-Photograph_of_the_six_%27shaheeds%27_%28martyrs%29_of_the_Babbar_Akali_Jatha_from_27_February_1926.jpg",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Photograph_of_the_six_%27shaheeds%27_%28martyrs%29_of_the_Babbar_Akali_Jatha_from_27_February_1926.jpg?width=1024"
+    "kind": "document"
    },
    "sources": [
     {
@@ -2395,11 +2415,12 @@
    "group": "Colonial Era (1849-1947)",
    "category": "Scripture",
    "media": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Fresco_from_the_original_Akal_Takht_building_depicting_preparation_of_Amrit_for_an_Amrit_Sanchar_ceremony_by_Guru_Gobind_Singh_and_Mata_Jito_for_the_Panj_Piare.jpg/1024px-Fresco_from_the_original_Akal_Takht_building_depicting_preparation_of_Amrit_for_an_Amrit_Sanchar_ceremony_by_Guru_Gobind_Singh_and_Mata_Jito_for_the_Panj_Piare.jpg",
-    "caption": "A fresco from the original Akal Takht depicting the preparation of Amrit — representative image of the rahit's subject, not of its drafting.",
-    "credit": "Wikimedia Commons / public domain",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Fresco_from_the_original_Akal_Takht_building_depicting_preparation_of_Amrit_for_an_Amrit_Sanchar_ceremony_by_Guru_Gobind_Singh_and_Mata_Jito_for_the_Panj_Piare.jpg/480px-Fresco_from_the_original_Akal_Takht_building_depicting_preparation_of_Amrit_for_an_Amrit_Sanchar_ceremony_by_Guru_Gobind_Singh_and_Mata_Jito_for_the_Panj_Piare.jpg",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Fresco_from_the_original_Akal_Takht_building_depicting_preparation_of_Amrit_for_an_Amrit_Sanchar_ceremony_by_Guru_Gobind_Singh_and_Mata_Jito_for_the_Panj_Piare.jpg?width=1024"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Full_view_of_a_fresco_from_the_original_Akal_Takht_building_depicting_preparation_of_Amrit_for_an_Amrit_Sanchar_ceremony_by_Guru_Gobind_Singh_and_Mata_Jito_for_the_Panj_Piare.jpg/1024px-Full_view_of_a_fresco_from_the_original_Akal_Takht_building_depicting_preparation_of_Amrit_for_an_Amrit_Sanchar_ceremony_by_Guru_Gobind_Singh_and_Mata_Jito_for_the_Panj_Piare.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Full_view_of_a_fresco_from_the_original_Akal_Takht_building_depicting_preparation_of_Amrit_for_an_Amrit_Sanchar_ceremony_by_Guru_Gobind_Singh_and_Mata_Jito_for_the_Panj_Piare.jpg/480px-Full_view_of_a_fresco_from_the_original_Akal_Takht_building_depicting_preparation_of_Amrit_for_an_Amrit_Sanchar_ceremony_by_Guru_Gobind_Singh_and_Mata_Jito_for_the_Panj_Piare.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Full_view_of_a_fresco_from_the_original_Akal_Takht_building_depicting_preparation_of_Amrit_for_an_Amrit_Sanchar_ceremony_by_Guru_Gobind_Singh_and_Mata_Jito_for_the_Panj_Piare.jpg?width=1024",
+    "caption": "A fresco from the original Akal Takht depicting the Amrit Sanchar for the Panj Piare — representative of the Khalsa code of conduct the Sikh Rahit Maryada codified in 1936, not a depiction of the 1936 drafting itself.",
+    "credit": "Wikimedia Commons",
+    "kind": "painting"
    },
    "sources": [
     {
@@ -2432,11 +2453,12 @@
    "group": "Colonial Era (1849-1947)",
    "category": "Movements",
    "media": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Mahatma-Gandhi%2C_studio%2C_1931.jpg/1024px-Mahatma-Gandhi%2C_studio%2C_1931.jpg",
-    "caption": "Studio photograph of Mahatma Gandhi, London, 1931.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Gandhi_giving_a_speech.jpg/1024px-Gandhi_giving_a_speech.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Gandhi_giving_a_speech.jpg/480px-Gandhi_giving_a_speech.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Gandhi_giving_a_speech.jpg?width=1024",
+    "caption": "A representative photograph of Gandhi giving a speech — not a photograph of his specific August 1936 remarks on Sikh conversion.",
     "credit": "Wikimedia Commons",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Mahatma-Gandhi%2C_studio%2C_1931.jpg/480px-Mahatma-Gandhi%2C_studio%2C_1931.jpg",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Mahatma-Gandhi%2C_studio%2C_1931.jpg?width=1024"
+    "kind": "photograph"
    },
    "sources": [
     {
@@ -2511,11 +2533,12 @@
    "group": "Colonial Era (1849-1947)",
    "category": "Institutions",
    "media": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Painting_of_Guru_Hargobind_and_his_army%2C_the_Akal_Sena%2C_at_the_Golden_Temple_complex_in_Amritsar%2C_circa_19th_century.jpg/1024px-Painting_of_Guru_Hargobind_and_his_army%2C_the_Akal_Sena%2C_at_the_Golden_Temple_complex_in_Amritsar%2C_circa_19th_century.jpg",
-    "caption": "The Akal Takht at Amritsar — representative image of the seat of Sikh political authority the Federation later organised around, not of its founding.",
-    "credit": "Wikimedia Commons / public domain",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Painting_of_Guru_Hargobind_and_his_army%2C_the_Akal_Sena%2C_at_the_Golden_Temple_complex_in_Amritsar%2C_circa_19th_century.jpg/480px-Painting_of_Guru_Hargobind_and_his_army%2C_the_Akal_Sena%2C_at_the_Golden_Temple_complex_in_Amritsar%2C_circa_19th_century.jpg",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Painting_of_Guru_Hargobind_and_his_army%2C_the_Akal_Sena%2C_at_the_Golden_Temple_complex_in_Amritsar%2C_circa_19th_century.jpg?width=1024"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Photograph_of_Bhai_Randhir_Singh_seated_alongside_other_prominent_Sikh_figures_of_the_time_period_in_a_group_photograph.jpg/1024px-Photograph_of_Bhai_Randhir_Singh_seated_alongside_other_prominent_Sikh_figures_of_the_time_period_in_a_group_photograph.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Photograph_of_Bhai_Randhir_Singh_seated_alongside_other_prominent_Sikh_figures_of_the_time_period_in_a_group_photograph.jpg/480px-Photograph_of_Bhai_Randhir_Singh_seated_alongside_other_prominent_Sikh_figures_of_the_time_period_in_a_group_photograph.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Photograph_of_Bhai_Randhir_Singh_seated_alongside_other_prominent_Sikh_figures_of_the_time_period_in_a_group_photograph.jpg?width=1024",
+    "caption": "A period group photograph of prominent Sikh figures of the mid-20th century, including Bhai Randhir Singh — representative of the Sikh milieu that produced the AISSF in 1944, not a photograph of its founding itself.",
+    "credit": "Wikimedia Commons",
+    "kind": "photograph"
    },
    "sources": [
     {
@@ -2670,11 +2693,12 @@
    "group": "Partition & Post-Independence (1947-1983)",
    "category": "Movements",
    "media": {
-    "caption": "Master Tara Singh (second from left) with fellow Akali leaders after their release from jail, September 1926. Tara Singh was the long-time face of the decades-long Akali campaign for a Panjabi-speaking state; this photo predates the 1966 reorganization by four decades and is used here as a representative image of that leadership, not a depiction of 1966 itself.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Punjab_1951-66.svg/1024px-Punjab_1951-66.svg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Punjab_1951-66.svg/480px-Punjab_1951-66.svg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Punjab_1951-66.svg?width=1024",
+    "caption": "A map of Punjab state as it existed from 1951 to 1966, immediately before the Punjabi Suba reorganisation split it into Punjab, Haryana, and Himachal Pradesh.",
     "credit": "Wikimedia Commons",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Master_Tara_Singh_%28second_from_the_left_in_the_row_of_chairs%29_with_some_Akali_leaders_after_their_release_from_jail_in_September_1926.jpg/1024px-Master_Tara_Singh_%28second_from_the_left_in_the_row_of_chairs%29_with_some_Akali_leaders_after_their_release_from_jail_in_September_1926.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Master_Tara_Singh_%28second_from_the_left_in_the_row_of_chairs%29_with_some_Akali_leaders_after_their_release_from_jail_in_September_1926.jpg/480px-Master_Tara_Singh_%28second_from_the_left_in_the_row_of_chairs%29_with_some_Akali_leaders_after_their_release_from_jail_in_September_1926.jpg",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Master_Tara_Singh_%28second_from_the_left_in_the_row_of_chairs%29_with_some_Akali_leaders_after_their_release_from_jail_in_September_1926.jpg?width=1024"
+    "kind": "document"
    },
    "sources": [
     {
@@ -2711,11 +2735,12 @@
    "group": "Partition & Post-Independence (1947-1983)",
    "category": "Politics",
    "media": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Guru_Tegh_Bahadar_and_a_young_Gobind_Rai_at_the_Anandpur_Darbar.jpg/1024px-Guru_Tegh_Bahadar_and_a_young_Gobind_Rai_at_the_Anandpur_Darbar.jpg",
-    "caption": "Anandpur Sahib — representative image of the town the Resolution is named for, not of its adoption.",
-    "credit": "Wikimedia Commons / public domain",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Guru_Tegh_Bahadar_and_a_young_Gobind_Rai_at_the_Anandpur_Darbar.jpg/480px-Guru_Tegh_Bahadar_and_a_young_Gobind_Rai_at_the_Anandpur_Darbar.jpg",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Guru_Tegh_Bahadar_and_a_young_Gobind_Rai_at_the_Anandpur_Darbar.jpg?width=1024"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Photograph_of_Takht_Kesgarh_Sahib%2C_Anandpur_Sahib%2C_Punjab%2C_India%2C_ca.1952_02.jpg/1024px-Photograph_of_Takht_Kesgarh_Sahib%2C_Anandpur_Sahib%2C_Punjab%2C_India%2C_ca.1952_02.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Photograph_of_Takht_Kesgarh_Sahib%2C_Anandpur_Sahib%2C_Punjab%2C_India%2C_ca.1952_02.jpg/480px-Photograph_of_Takht_Kesgarh_Sahib%2C_Anandpur_Sahib%2C_Punjab%2C_India%2C_ca.1952_02.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Photograph_of_Takht_Kesgarh_Sahib%2C_Anandpur_Sahib%2C_Punjab%2C_India%2C_ca.1952_02.jpg?width=1024",
+    "caption": "A mid-20th-century photograph of Takht Kesgarh Sahib in Anandpur Sahib, the town where the Akali Dal adopted its 1973 resolution — a photograph of the place, not the 1973 meeting itself.",
+    "credit": "Wikimedia Commons",
+    "kind": "place"
    },
    "sources": [
     {
@@ -2868,11 +2893,12 @@
    "group": "Partition & Post-Independence (1947-1983)",
    "category": "Human Rights",
    "media": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Baba_Dyal_Singh_Nirankari.jpg/1024px-Baba_Dyal_Singh_Nirankari.jpg",
-    "caption": "Baba Dyal Singh Nirankari",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Sant_Nirankari_Samagam.jpg/1024px-Sant_Nirankari_Samagam.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Sant_Nirankari_Samagam.jpg/480px-Sant_Nirankari_Samagam.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Sant_Nirankari_Samagam.jpg?width=1024",
+    "caption": "A photograph of a Sant Nirankari Mission samagam (gathering) — representative of the kind of convention that triggered the 1978 Amritsar clash, not a photograph of that specific event.",
     "credit": "Wikimedia Commons",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Baba_Dyal_Singh_Nirankari.jpg/480px-Baba_Dyal_Singh_Nirankari.jpg",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Baba_Dyal_Singh_Nirankari.jpg?width=1024"
+    "kind": "photograph"
    },
    "sources": [
     {
@@ -3072,11 +3098,12 @@
    "group": "Partition & Post-Independence (1947-1983)",
    "category": "Movements",
    "media": {
-    "url": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e7/Jarnail_Singh_Bhindranwale.jpg/1024px-Jarnail_Singh_Bhindranwale.jpg",
-    "caption": "Sant Jarnail Singh Bhindranwale, who delivered the 1982 Bombay address on Sikh sovereignty.",
-    "credit": "Non-free fair-use image, English Wikipedia",
-    "thumb": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e7/Jarnail_Singh_Bhindranwale.jpg/480px-Jarnail_Singh_Bhindranwale.jpg",
-    "fallback": "https://en.wikipedia.org/wiki/Special:FilePath/Jarnail_Singh_Bhindranwale.jpg?width=1024"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Damdami_Taksal_Head_%26_Dal_Baba_Bidhi_Chand_Head_%28Nihang_Singh%29_at_Holla_Mohalla_Anandpur_Sahib.jpg/1024px-Damdami_Taksal_Head_%26_Dal_Baba_Bidhi_Chand_Head_%28Nihang_Singh%29_at_Holla_Mohalla_Anandpur_Sahib.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Damdami_Taksal_Head_%26_Dal_Baba_Bidhi_Chand_Head_%28Nihang_Singh%29_at_Holla_Mohalla_Anandpur_Sahib.jpg/480px-Damdami_Taksal_Head_%26_Dal_Baba_Bidhi_Chand_Head_%28Nihang_Singh%29_at_Holla_Mohalla_Anandpur_Sahib.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Damdami_Taksal_Head_%26_Dal_Baba_Bidhi_Chand_Head_%28Nihang_Singh%29_at_Holla_Mohalla_Anandpur_Sahib.jpg?width=1024",
+    "caption": "The head of the Damdami Taksal at Hola Mohalla, Anandpur Sahib — a later photograph of the institution Jarnail Singh Bhindranwale led, not of the 1982 speech.",
+    "credit": "Wikimedia Commons",
+    "kind": "photograph"
    },
    "sources": [
     {
@@ -3264,11 +3291,12 @@
    "group": "1984 & Aftermath (1984-1999)",
    "category": "Battles",
    "media": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Handwritten_Guru_Granth_Sahib_manuscript_which_was_hit_by_a_bullet_during_Operation_Blue_Star_in_1984.jpg/1024px-Handwritten_Guru_Granth_Sahib_manuscript_which_was_hit_by_a_bullet_during_Operation_Blue_Star_in_1984.jpg",
-    "caption": "Handwritten Guru Granth Sahib manuscript which was hit by a bullet during Operation Blue Star in 1984",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Photograph_of_the_Akal_Takht_in_Amritsar_from_circa_1870.jpg/1024px-Photograph_of_the_Akal_Takht_in_Amritsar_from_circa_1870.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Photograph_of_the_Akal_Takht_in_Amritsar_from_circa_1870.jpg/480px-Photograph_of_the_Akal_Takht_in_Amritsar_from_circa_1870.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Photograph_of_the_Akal_Takht_in_Amritsar_from_circa_1870.jpg?width=1024",
+    "caption": "An 1870s photograph of the historic Akal Takht building later destroyed during Operation Blue Star in June 1984 — a photograph of the building before the assault, not of the operation itself.",
     "credit": "Wikimedia Commons",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Handwritten_Guru_Granth_Sahib_manuscript_which_was_hit_by_a_bullet_during_Operation_Blue_Star_in_1984.jpg/480px-Handwritten_Guru_Granth_Sahib_manuscript_which_was_hit_by_a_bullet_during_Operation_Blue_Star_in_1984.jpg",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Handwritten_Guru_Granth_Sahib_manuscript_which_was_hit_by_a_bullet_during_Operation_Blue_Star_in_1984.jpg?width=1024"
+    "kind": "place"
    },
    "sources": [
     {
@@ -3722,11 +3750,12 @@
    "group": "1984 & Aftermath (1984-1999)",
    "category": "Politics",
    "media": {
-    "caption": "Representative image of the Indian government context in which the Accord was signed, not of the signing.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Rajiv_Gandhi%2C_the_6th_PM_of_India.jpg/1024px-Rajiv_Gandhi%2C_the_6th_PM_of_India.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Rajiv_Gandhi%2C_the_6th_PM_of_India.jpg/480px-Rajiv_Gandhi%2C_the_6th_PM_of_India.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Rajiv_Gandhi%2C_the_6th_PM_of_India.jpg?width=1024",
+    "caption": "A photograph of Rajiv Gandhi, who signed the 1985 Rajiv–Longowal Accord — not a photograph of the signing itself.",
     "credit": "Wikimedia Commons",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Master_Tara_Singh_%28second_from_the_left_in_the_row_of_chairs%29_with_some_Akali_leaders_after_their_release_from_jail_in_September_1926.jpg/1024px-Master_Tara_Singh_%28second_from_the_left_in_the_row_of_chairs%29_with_some_Akali_leaders_after_their_release_from_jail_in_September_1926.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Master_Tara_Singh_%28second_from_the_left_in_the_row_of_chairs%29_with_some_Akali_leaders_after_their_release_from_jail_in_September_1926.jpg/480px-Master_Tara_Singh_%28second_from_the_left_in_the_row_of_chairs%29_with_some_Akali_leaders_after_their_release_from_jail_in_September_1926.jpg",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Master_Tara_Singh_%28second_from_the_left_in_the_row_of_chairs%29_with_some_Akali_leaders_after_their_release_from_jail_in_September_1926.jpg?width=1024"
+    "kind": "portrait"
    },
    "sources": [
     {
@@ -3758,11 +3787,12 @@
    "group": "1984 & Aftermath (1984-1999)",
    "category": "Institutions",
    "media": {
-    "caption": "The Guru Nanak Sikh Gurdwara in Surrey/Delta, British Columbia — representative image of a Sikh community institution in the region where Khalsa Credit Union was founded in 1985; this is not a photo of the credit union itself.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Group_photo_at_the_opening_ceremony_of_the_Topaz_Street_Sikh_Gurdwara_in_Victoria%2C_British_Columbia%2C_Canada%2C_6_October_1912.jpg/1024px-Group_photo_at_the_opening_ceremony_of_the_Topaz_Street_Sikh_Gurdwara_in_Victoria%2C_British_Columbia%2C_Canada%2C_6_October_1912.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Group_photo_at_the_opening_ceremony_of_the_Topaz_Street_Sikh_Gurdwara_in_Victoria%2C_British_Columbia%2C_Canada%2C_6_October_1912.jpg/480px-Group_photo_at_the_opening_ceremony_of_the_Topaz_Street_Sikh_Gurdwara_in_Victoria%2C_British_Columbia%2C_Canada%2C_6_October_1912.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Group_photo_at_the_opening_ceremony_of_the_Topaz_Street_Sikh_Gurdwara_in_Victoria%2C_British_Columbia%2C_Canada%2C_6_October_1912.jpg?width=1024",
+    "caption": "A 1912 photograph of British Columbia Sikhs opening a community institution (the Topaz Street gurdwara in Victoria) — representative of the province's long tradition of Sikh institution-building, not a photograph of the 1985 Khalsa Credit Union founding.",
     "credit": "Wikimedia Commons",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Guru_Nanak_Gurdwara_Delta-Surrey_%282010%29.jpg/1024px-Guru_Nanak_Gurdwara_Delta-Surrey_%282010%29.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Guru_Nanak_Gurdwara_Delta-Surrey_%282010%29.jpg/480px-Guru_Nanak_Gurdwara_Delta-Surrey_%282010%29.jpg",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Guru_Nanak_Gurdwara_Delta-Surrey_%282010%29.jpg?width=1024"
+    "kind": "photograph"
    },
    "sources": [
     {
@@ -3831,11 +3861,12 @@
    "group": "1984 & Aftermath (1984-1999)",
    "category": "Transnational Repression",
    "media": {
-    "caption": "A Canadian Security Intelligence Service building in Ottawa — representative image of the agency involved in identifying the operative in 1986, not a photo of the individual or the identification process.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/CSIS_badge.jpg/1024px-CSIS_badge.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/CSIS_badge.jpg/480px-CSIS_badge.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/CSIS_badge.jpg?width=1024",
+    "caption": "The badge of the Canadian Security Intelligence Service — a generic institutional emblem, not documentation of the specific 1986 identification of an Indian operative.",
     "credit": "Wikimedia Commons",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/CSIS_Ottawa_Building_Ogilvie_Canadian_Security_Intelligence_Service_%2850182903412%29.png/1024px-CSIS_Ottawa_Building_Ogilvie_Canadian_Security_Intelligence_Service_%2850182903412%29.png",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/CSIS_Ottawa_Building_Ogilvie_Canadian_Security_Intelligence_Service_%2850182903412%29.png/480px-CSIS_Ottawa_Building_Ogilvie_Canadian_Security_Intelligence_Service_%2850182903412%29.png",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/CSIS_Ottawa_Building_Ogilvie_Canadian_Security_Intelligence_Service_%2850182903412%29.png?width=1024"
+    "kind": "object"
    },
    "sources": [
     {
@@ -3946,11 +3977,12 @@
    "group": "1984 & Aftermath (1984-1999)",
    "category": "Movements",
    "media": {
-    "caption": "Early 20th-century postcards of the Golden Temple complex at Amritsar, where the Panthic Committee declared Khalistan at a press conference on 29 April 1986. A representative image of the site, not a photograph of the declaration itself.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Golden_temple_pano.jpg/1024px-Golden_temple_pano.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Golden_temple_pano.jpg/480px-Golden_temple_pano.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Golden_temple_pano.jpg?width=1024",
+    "caption": "A photograph of the Golden Temple complex, where the Panthic Committee declared Khalistan in April 1986 — a photograph of the place, not of the 1986 Sarbat Khalsa declaration itself.",
     "credit": "Wikimedia Commons",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/A_collection_of_postcards_of_Amritsar_and_Lahore._Europe%2C_circa_1910._Comprising_five_of_the_Golden_Temple%2C_Amritsar%3B_the_Ihansi_Fort%2C_Amritsar%2C_the_Shish_Mahal%2C_Lahore%3B_Shalamar_Garden%2C_Lahore%3B_and_two_Lahore_street_views.jpg/1024px-A_collection_of_postcards_of_Amritsar_and_Lahore._Europe%2C_circa_1910._Comprising_five_of_the_Golden_Temple%2C_Amritsar%3B_the_Ihansi_Fort%2C_Amritsar%2C_the_Shish_Mahal%2C_Lahore%3B_Shalamar_Garden%2C_Lahore%3B_and_two_Lahore_street_views.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/A_collection_of_postcards_of_Amritsar_and_Lahore._Europe%2C_circa_1910._Comprising_five_of_the_Golden_Temple%2C_Amritsar%3B_the_Ihansi_Fort%2C_Amritsar%2C_the_Shish_Mahal%2C_Lahore%3B_Shalamar_Garden%2C_Lahore%3B_and_two_Lahore_street_views.jpg/480px-A_collection_of_postcards_of_Amritsar_and_Lahore._Europe%2C_circa_1910._Comprising_five_of_the_Golden_Temple%2C_Amritsar%3B_the_Ihansi_Fort%2C_Amritsar%2C_the_Shish_Mahal%2C_Lahore%3B_Shalamar_Garden%2C_Lahore%3B_and_two_Lahore_street_views.jpg",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/A_collection_of_postcards_of_Amritsar_and_Lahore._Europe%2C_circa_1910._Comprising_five_of_the_Golden_Temple%2C_Amritsar%3B_the_Ihansi_Fort%2C_Amritsar%2C_the_Shish_Mahal%2C_Lahore%3B_Shalamar_Garden%2C_Lahore%3B_and_two_Lahore_street_views.jpg?width=1024"
+    "kind": "place"
    },
    "sources": [
     {
@@ -4060,11 +4092,12 @@
    "group": "1984 & Aftermath (1984-1999)",
    "category": "Human Rights",
    "media": {
-    "caption": "Terminal 1, Toronto Pearson International Airport — representative image of the airport where the Canadian returned in 1988 after being jailed in Amritsar, not a photo of his arrival.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/International_airport_toronto_pearson.jpg/1024px-International_airport_toronto_pearson.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/International_airport_toronto_pearson.jpg/480px-International_airport_toronto_pearson.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/International_airport_toronto_pearson.jpg?width=1024",
+    "caption": "A photograph of Toronto Pearson International Airport, where Balkar Singh returned in October 1988 — a representative photograph of the airport, not of his specific return.",
     "credit": "Wikimedia Commons",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Terminal_1%2C_Toronto_Pearson_International_Airport%2C_angled_view.jpg/1024px-Terminal_1%2C_Toronto_Pearson_International_Airport%2C_angled_view.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Terminal_1%2C_Toronto_Pearson_International_Airport%2C_angled_view.jpg/480px-Terminal_1%2C_Toronto_Pearson_International_Airport%2C_angled_view.jpg",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Terminal_1%2C_Toronto_Pearson_International_Airport%2C_angled_view.jpg?width=1024"
+    "kind": "place"
    },
    "sources": [
     {
@@ -4134,11 +4167,12 @@
    "group": "1984 & Aftermath (1984-1999)",
    "category": "Martyrdom",
    "media": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/IndiraGandhi-SareeAtTimeOfDeath.JPG/1024px-IndiraGandhi-SareeAtTimeOfDeath.JPG",
-    "caption": "Representative image connected to the assassination case, not a photograph of the executions.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Indira_Gandhi_-_The_location_where_Indira_Gandhi_was_shot.jpg/1024px-Indira_Gandhi_-_The_location_where_Indira_Gandhi_was_shot.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Indira_Gandhi_-_The_location_where_Indira_Gandhi_was_shot.jpg/480px-Indira_Gandhi_-_The_location_where_Indira_Gandhi_was_shot.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Indira_Gandhi_-_The_location_where_Indira_Gandhi_was_shot.jpg?width=1024",
+    "caption": "A photograph of the site where Indira Gandhi was shot by her bodyguards Satwant Singh and Beant Singh in 1984 — the men whose 1989 hanging this entry marks; a photograph of the place, not of the hanging.",
     "credit": "Wikimedia Commons",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/IndiraGandhi-SareeAtTimeOfDeath.JPG/480px-IndiraGandhi-SareeAtTimeOfDeath.JPG",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/IndiraGandhi-SareeAtTimeOfDeath.JPG?width=1024"
+    "kind": "place"
    },
    "sources": [
     {
@@ -4220,11 +4254,12 @@
    "group": "1984 & Aftermath (1984-1999)",
    "category": "Human Rights",
    "media": {
-    "caption": "Portrait of K.P.S. Gill, who returned as Director General of Panjab Police for a second term from 1991 to 1995, spanning the most intense years of the counter-insurgency.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Punjab_and_Haryana_High_Court_%2C_Chandigarh.jpg/1024px-Punjab_and_Haryana_High_Court_%2C_Chandigarh.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Punjab_and_Haryana_High_Court_%2C_Chandigarh.jpg/480px-Punjab_and_Haryana_High_Court_%2C_Chandigarh.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Punjab_and_Haryana_High_Court_%2C_Chandigarh.jpg?width=1024",
+    "caption": "The Punjab and Haryana High Court at Chandigarh — representative image of the courts before which the killings of this period were later litigated, not of Gill's second term.",
     "credit": "Wikimedia Commons",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/K._P._S._Gill.png/1024px-K._P._S._Gill.png",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/K._P._S._Gill.png/480px-K._P._S._Gill.png",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/K._P._S._Gill.png?width=1024"
+    "kind": "place"
    },
    "sources": [
     {
@@ -4466,11 +4501,12 @@
    "group": "1984 & Aftermath (1984-1999)",
    "category": "Justice",
    "media": {
-    "caption": "A 2013 Indian commemorative postage stamp depicting Chief Minister Beant Singh, who was killed in a suicide bombing at the Punjab Civil Secretariat in Chandigarh on 31 August 1995. A commemorative stamp portrait, not a photograph of the assassination.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Secretariat_Chandigarh.jpg/1024px-Secretariat_Chandigarh.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Secretariat_Chandigarh.jpg/480px-Secretariat_Chandigarh.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Secretariat_Chandigarh.jpg?width=1024",
+    "caption": "The Secretariat at Chandigarh — the seat of the Panjab government, outside which the car bomb killed Chief Minister Beant Singh in August 1995; not a photograph of the attack.",
     "credit": "Wikimedia Commons",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Beant_Singh_2013_stamp_of_India_%28cropped%29.png/1024px-Beant_Singh_2013_stamp_of_India_%28cropped%29.png",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Beant_Singh_2013_stamp_of_India_%28cropped%29.png/480px-Beant_Singh_2013_stamp_of_India_%28cropped%29.png",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Beant_Singh_2013_stamp_of_India_%28cropped%29.png?width=1024"
+    "kind": "place"
    },
    "sources": [
     {
@@ -4633,11 +4669,12 @@
    "group": "Contemporary & Diaspora (2000-2026)",
    "category": "Commemoration",
    "media": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Kartarpur_Bir_%28manuscript_or_codex%29_of_the_Guru_Granth_Sahib.jpg/1024px-Kartarpur_Bir_%28manuscript_or_codex%29_of_the_Guru_Granth_Sahib.jpg",
-    "caption": "A historical manuscript of the Guru Granth Sahib — representative image of the kind of material held in the Sikh Reference Library, not of the library itself.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Kartarpur_Bir_%28manuscript_or_codex%29_of_the_Guru_Granth_Sahib_02.jpg/1024px-Kartarpur_Bir_%28manuscript_or_codex%29_of_the_Guru_Granth_Sahib_02.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Kartarpur_Bir_%28manuscript_or_codex%29_of_the_Guru_Granth_Sahib_02.jpg/480px-Kartarpur_Bir_%28manuscript_or_codex%29_of_the_Guru_Granth_Sahib_02.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Kartarpur_Bir_%28manuscript_or_codex%29_of_the_Guru_Granth_Sahib_02.jpg?width=1024",
+    "caption": "A photograph of the Kartarpur Bir, an original Guru Granth Sahib manuscript — representative of the kind of irreplaceable Sikh manuscripts held (and partly destroyed) in the Sikh Reference Library, not the library's own items.",
     "credit": "Wikimedia Commons",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Kartarpur_Bir_%28manuscript_or_codex%29_of_the_Guru_Granth_Sahib.jpg/480px-Kartarpur_Bir_%28manuscript_or_codex%29_of_the_Guru_Granth_Sahib.jpg",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Kartarpur_Bir_%28manuscript_or_codex%29_of_the_Guru_Granth_Sahib.jpg?width=1024"
+    "kind": "document"
    },
    "sources": [
     {
@@ -4712,11 +4749,12 @@
    "group": "Contemporary & Diaspora (2000-2026)",
    "category": "Justice",
    "media": {
-    "caption": "The Supreme Court of India — representative image of the Indian judicial inquiries into November 1984, not of the Nanavati Commission.",
-    "credit": "Wikimedia Commons, photo by Pinakpani",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Building_of_The_Supreme_Court_of_India.jpg/1024px-Building_of_The_Supreme_Court_of_India.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Building_of_The_Supreme_Court_of_India.jpg/480px-Building_of_The_Supreme_Court_of_India.jpg",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Building_of_The_Supreme_Court_of_India.jpg?width=1024"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/D_gate_Entrance_of_the_Supreme_Court%2C_New_Delhi.jpg/1024px-D_gate_Entrance_of_the_Supreme_Court%2C_New_Delhi.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/D_gate_Entrance_of_the_Supreme_Court%2C_New_Delhi.jpg/480px-D_gate_Entrance_of_the_Supreme_Court%2C_New_Delhi.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/D_gate_Entrance_of_the_Supreme_Court%2C_New_Delhi.jpg?width=1024",
+    "caption": "A photograph of an entrance to India's Supreme Court in New Delhi — a generic image of the country's apex judicial institution, used here to represent the judicial process around the 2005 Nanavati Commission report, not the Commission itself.",
+    "credit": "Wikimedia Commons",
+    "kind": "place"
    },
    "sources": [
     {
@@ -4748,11 +4786,12 @@
    "group": "Contemporary & Diaspora (2000-2026)",
    "category": "Transnational Repression",
    "media": {
-    "caption": "The CSIS headquarters building in Ottawa — representative image of the service Juneau-Katsuya served in, not of the book or its publication.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/CSIS_HQ.jpg/1024px-CSIS_HQ.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/CSIS_HQ.jpg/480px-CSIS_HQ.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/CSIS_HQ.jpg?width=1024",
+    "caption": "A photograph of a Canadian Security Intelligence Service building — representative of the agency at the centre of the 2009 book 'Nest of Spies', not a photograph of the book's publication.",
     "credit": "Wikimedia Commons",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/CSIS_Ottawa_Building_Ogilvie_Canadian_Security_Intelligence_Service_%2850182903412%29.png/1024px-CSIS_Ottawa_Building_Ogilvie_Canadian_Security_Intelligence_Service_%2850182903412%29.png",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/CSIS_Ottawa_Building_Ogilvie_Canadian_Security_Intelligence_Service_%2850182903412%29.png/480px-CSIS_Ottawa_Building_Ogilvie_Canadian_Security_Intelligence_Service_%2850182903412%29.png",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/CSIS_Ottawa_Building_Ogilvie_Canadian_Security_Intelligence_Service_%2850182903412%29.png?width=1024"
+    "kind": "place"
    },
    "sources": [
     {
@@ -4953,11 +4992,12 @@
    "group": "Contemporary & Diaspora (2000-2026)",
    "category": "Human Rights",
    "media": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Illuminated_folio_of_a_historical_Guru_Granth_Sahib_manuscript_with_a_wide%2C_patterned%2C_and_decorated_border%2C_dating_to_1859_C.E.jpg/1024px-Illuminated_folio_of_a_historical_Guru_Granth_Sahib_manuscript_with_a_wide%2C_patterned%2C_and_decorated_border%2C_dating_to_1859_C.E.jpg",
-    "caption": "An illuminated folio of a historical Guru Granth Sahib manuscript — representative image of the scripture that was desecrated, not of the events at Bargari.",
-    "credit": "Wikimedia Commons / public domain",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Illuminated_folio_of_a_historical_Guru_Granth_Sahib_manuscript_with_a_wide%2C_patterned%2C_and_decorated_border%2C_dating_to_1859_C.E.jpg/480px-Illuminated_folio_of_a_historical_Guru_Granth_Sahib_manuscript_with_a_wide%2C_patterned%2C_and_decorated_border%2C_dating_to_1859_C.E.jpg",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Illuminated_folio_of_a_historical_Guru_Granth_Sahib_manuscript_with_a_wide%2C_patterned%2C_and_decorated_border%2C_dating_to_1859_C.E.jpg?width=1024"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Guru_Granth_Sahib.jpg/1024px-Guru_Granth_Sahib.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Guru_Granth_Sahib.jpg/480px-Guru_Granth_Sahib.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Guru_Granth_Sahib.jpg?width=1024",
+    "caption": "A representative photograph of the Guru Granth Sahib — not a photograph of the specific torn volume found at Bargari in October 2015.",
+    "credit": "Wikimedia Commons",
+    "kind": "object"
    },
    "sources": [
     {
@@ -4990,11 +5030,12 @@
    "group": "Contemporary & Diaspora (2000-2026)",
    "category": "Institutions",
    "media": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Photograph_of_the_Akal_Takht_in_Amritsar%2C_circa_1850%27s.jpg/1024px-Photograph_of_the_Akal_Takht_in_Amritsar%2C_circa_1850%27s.jpg",
-    "caption": "The Akal Takht at Amritsar, photographed around the 1850s — representative image of the institution a Sarbat Khalsa is convened before, not of the 2015 assembly.",
-    "credit": "Wikimedia Commons / public domain",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Photograph_of_the_Akal_Takht_in_Amritsar%2C_circa_1850%27s.jpg/480px-Photograph_of_the_Akal_Takht_in_Amritsar%2C_circa_1850%27s.jpg",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Photograph_of_the_Akal_Takht_in_Amritsar%2C_circa_1850%27s.jpg?width=1024"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Akal_takht.jpg/1024px-Akal_takht.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Akal_takht.jpg/480px-Akal_takht.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Akal_takht.jpg?width=1024",
+    "caption": "A photograph of the Akal Takht in Amritsar — a generic image of the seat of Sikh temporal authority, used to represent the November 2015 Sarbat Khalsa convened at Amritsar.",
+    "credit": "Wikimedia Commons",
+    "kind": "place"
    },
    "sources": [
     {
@@ -5027,11 +5068,12 @@
    "group": "Contemporary & Diaspora (2000-2026)",
    "category": "Commemoration",
    "media": {
-    "caption": "The Toronto Star Building — representative image of the Ontario setting, not of the legislature's motion.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Toronto_Star_Building_1929.JPG/1024px-Toronto_Star_Building_1929.JPG",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Toronto_Star_Building_1929.JPG/480px-Toronto_Star_Building_1929.JPG",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Toronto_Star_Building_1929.JPG?width=1024",
+    "caption": "A 1929 photograph of the old Toronto Star Building — a period Toronto landmark used here as a generic Ontario/Toronto image, not connected to the 2017 genocide motion itself.",
     "credit": "Wikimedia Commons",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Toronto_Star_Building.JPG/1024px-Toronto_Star_Building.JPG",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Toronto_Star_Building.JPG/480px-Toronto_Star_Building.JPG",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Toronto_Star_Building.JPG?width=1024"
+    "kind": "place"
    },
    "sources": [
     {
@@ -5174,11 +5216,12 @@
    "group": "Contemporary & Diaspora (2000-2026)",
    "category": "Transnational Repression",
    "media": {
-    "caption": "Entrance of Germany's Federal Court of Justice (Bundesgerichtshof) in Karlsruhe — representative image of the German judicial system, not the specific trial court.",
-    "credit": "Wikimedia Commons, CC BY 3.0",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Karlsruhe_BGH_Eingangsbereich.jpg/1024px-Karlsruhe_BGH_Eingangsbereich.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Karlsruhe_BGH_Eingangsbereich.jpg/480px-Karlsruhe_BGH_Eingangsbereich.jpg",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Karlsruhe_BGH_Eingangsbereich.jpg?width=1024"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/BGH_-_Bibliothek_-_Au%C3%9Fenansicht_1.JPG/1024px-BGH_-_Bibliothek_-_Au%C3%9Fenansicht_1.JPG",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/BGH_-_Bibliothek_-_Au%C3%9Fenansicht_1.JPG/480px-BGH_-_Bibliothek_-_Au%C3%9Fenansicht_1.JPG",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/BGH_-_Bibliothek_-_Au%C3%9Fenansicht_1.JPG?width=1024",
+    "caption": "A photograph of the German Federal Court of Justice (Bundesgerichtshof) complex in Karlsruhe — a generic image of the German judiciary, not a photograph of the 2019 sentencing itself.",
+    "credit": "Wikimedia Commons",
+    "kind": "place"
    },
    "sources": [
     {
@@ -5288,11 +5331,12 @@
    "group": "Contemporary & Diaspora (2000-2026)",
    "category": "Transnational Repression",
    "media": {
-    "caption": "Entrance of Germany's Federal Court of Justice (Bundesgerichtshof) in Karlsruhe — representative image of the German judicial system, not the specific trial court.",
-    "credit": "Wikimedia Commons, CC BY 3.0",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Karlsruhe_BGH_Eingangsbereich.jpg/1024px-Karlsruhe_BGH_Eingangsbereich.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Karlsruhe_BGH_Eingangsbereich.jpg/480px-Karlsruhe_BGH_Eingangsbereich.jpg",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Karlsruhe_BGH_Eingangsbereich.jpg?width=1024"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Landgericht_Frankfurt_am_Main.png/1024px-Landgericht_Frankfurt_am_Main.png",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Landgericht_Frankfurt_am_Main.png/480px-Landgericht_Frankfurt_am_Main.png",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Landgericht_Frankfurt_am_Main.png?width=1024",
+    "caption": "A photograph of the Regional Court (Landgericht) building in Frankfurt am Main, the city where Balvir S. was tried in 2020 — a photograph of the place, not of the trial itself.",
+    "credit": "Wikimedia Commons",
+    "kind": "place"
    },
    "sources": [
     {
@@ -5481,11 +5525,12 @@
    "group": "Contemporary & Diaspora (2000-2026)",
    "category": "Transnational Repression",
    "media": {
-    "caption": "Centre Block on Parliament Hill, Ottawa — representative image of the city where the World Sikh Organization of Canada is based, not the report itself.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Parliament-Ottawa.jpg/1024px-Parliament-Ottawa.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Parliament-Ottawa.jpg/480px-Parliament-Ottawa.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Parliament-Ottawa.jpg?width=1024",
+    "caption": "A photograph of Canada's Parliament buildings in Ottawa — a generic image of the seat of government, not a photograph of the 2021 WSO report itself.",
     "credit": "Wikimedia Commons",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Centre_Block_-_Parliament_Hill.jpg/1024px-Centre_Block_-_Parliament_Hill.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Centre_Block_-_Parliament_Hill.jpg/480px-Centre_Block_-_Parliament_Hill.jpg",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Centre_Block_-_Parliament_Hill.jpg?width=1024"
+    "kind": "place"
    },
    "sources": [
     {
@@ -5556,11 +5601,12 @@
    "group": "Contemporary & Diaspora (2000-2026)",
    "category": "Farmers Protest",
    "media": {
-    "caption": "Farmers' protest at the Tikri border during the 2020-2021 agitation — representative image of the farmers' movement, not a photograph of the Lakhimpur Kheri incident.",
-    "credit": "Wikimedia Commons, CC BY-SA 4.0",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Farmers%27_Protest_at_Tikri_Border_-_23.jpg/1024px-Farmers%27_Protest_at_Tikri_Border_-_23.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Farmers%27_Protest_at_Tikri_Border_-_23.jpg/480px-Farmers%27_Protest_at_Tikri_Border_-_23.jpg",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Farmers%27_Protest_at_Tikri_Border_-_23.jpg?width=1024"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Farmers%27_Protest_at_Tikri_Border_-_11.jpg/1024px-Farmers%27_Protest_at_Tikri_Border_-_11.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Farmers%27_Protest_at_Tikri_Border_-_11.jpg/480px-Farmers%27_Protest_at_Tikri_Border_-_11.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Farmers%27_Protest_at_Tikri_Border_-_11.jpg?width=1024",
+    "caption": "A photograph from the 2020–2021 Indian farmers' protest at the Tikri border — representative of the farmers' movement, not a photograph of the October 2021 Lakhimpur Kheri killings.",
+    "credit": "Wikimedia Commons",
+    "kind": "photograph"
    },
    "sources": [
     {
@@ -5604,11 +5650,12 @@
    "group": "Contemporary & Diaspora (2000-2026)",
    "category": "Farmers Protest",
    "media": {
-    "caption": "Farmers' protest at the Tikri border during the year-long 2020-2021 agitation that led to the repeal of the three farm laws — representative image.",
-    "credit": "Wikimedia Commons, CC BY-SA 4.0",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Farmers%27_Protest_at_Tikri_Border_-_23.jpg/1024px-Farmers%27_Protest_at_Tikri_Border_-_23.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Farmers%27_Protest_at_Tikri_Border_-_23.jpg/480px-Farmers%27_Protest_at_Tikri_Border_-_23.jpg",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Farmers%27_Protest_at_Tikri_Border_-_23.jpg?width=1024"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Farmers%27_Protest_at_Tikri_Border_-_12.jpg/1024px-Farmers%27_Protest_at_Tikri_Border_-_12.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Farmers%27_Protest_at_Tikri_Border_-_12.jpg/480px-Farmers%27_Protest_at_Tikri_Border_-_12.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Farmers%27_Protest_at_Tikri_Border_-_12.jpg?width=1024",
+    "caption": "A photograph from the 2020–2021 Indian farmers' protest at the Tikri border — representative of the movement whose three farm laws were repealed in November 2021.",
+    "credit": "Wikimedia Commons",
+    "kind": "photograph"
    },
    "sources": [
     {
@@ -5652,11 +5699,12 @@
    "group": "Contemporary & Diaspora (2000-2026)",
    "category": "Politics",
    "media": {
-    "url": "https://upload.wikimedia.org/wikipedia/en/thumb/1/14/Photograph_of_Deep_Sidhu_%28born_Sandeep_Singh_Sidhu%29%2C_late_actor_and_founder_of_Waris_Panjab_De.jpg/1024px-Photograph_of_Deep_Sidhu_%28born_Sandeep_Singh_Sidhu%29%2C_late_actor_and_founder_of_Waris_Panjab_De.jpg",
-    "caption": "Deep Sidhu, the actor-turned-activist and founder of Waris Punjab De, who died in February 2022.",
-    "credit": "Non-free fair-use image, English Wikipedia",
-    "thumb": "https://upload.wikimedia.org/wikipedia/en/thumb/1/14/Photograph_of_Deep_Sidhu_%28born_Sandeep_Singh_Sidhu%29%2C_late_actor_and_founder_of_Waris_Panjab_De.jpg/480px-Photograph_of_Deep_Sidhu_%28born_Sandeep_Singh_Sidhu%29%2C_late_actor_and_founder_of_Waris_Panjab_De.jpg",
-    "fallback": "https://en.wikipedia.org/wiki/Special:FilePath/Photograph_of_Deep_Sidhu_%28born_Sandeep_Singh_Sidhu%29%2C_late_actor_and_founder_of_Waris_Panjab_De.jpg?width=1024"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/2020_Indian_farmers%27_protest_-_men_holding_flags.jpg/1024px-2020_Indian_farmers%27_protest_-_men_holding_flags.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/2020_Indian_farmers%27_protest_-_men_holding_flags.jpg/480px-2020_Indian_farmers%27_protest_-_men_holding_flags.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/2020_Indian_farmers%27_protest_-_men_holding_flags.jpg?width=1024",
+    "caption": "A photograph from the 2020 Indian farmers' protest movement that Deep Sidhu was closely associated with — not a photograph of Sidhu himself or of his 2022 death.",
+    "credit": "Wikimedia Commons",
+    "kind": "photograph"
    },
    "sources": [
     {
@@ -5690,11 +5738,12 @@
    "group": "Contemporary & Diaspora (2000-2026)",
    "category": "Culture",
    "media": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Sidhu_Moose_Wala.jpg/1024px-Sidhu_Moose_Wala.jpg",
-    "caption": "Panjabi singer Sidhu Moose Wala, assassinated in May 2022.",
-    "credit": "Wikimedia Commons / CC BY-SA 4.0",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Sidhu_Moose_Wala.jpg/480px-Sidhu_Moose_Wala.jpg",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Sidhu_Moose_Wala.jpg?width=1024"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Sidhu_Moose_Wala_at_Moosa_01.jpg/1024px-Sidhu_Moose_Wala_at_Moosa_01.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Sidhu_Moose_Wala_at_Moosa_01.jpg/480px-Sidhu_Moose_Wala_at_Moosa_01.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Sidhu_Moose_Wala_at_Moosa_01.jpg?width=1024",
+    "caption": "A genuine photograph of Punjabi singer Sidhu Moose Wala, assassinated in May 2022.",
+    "credit": "Wikimedia Commons",
+    "kind": "photograph"
    },
    "sources": [
     {
@@ -5785,11 +5834,12 @@
    "group": "Contemporary & Diaspora (2000-2026)",
    "category": "Justice",
    "media": {
-    "caption": "Yogi Bhajan (Harbhajan Singh Khalsa), founder of the 3HO movement, photographed in 1985.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Harbhajan_Singh_Yogi_at_Khalsa_Women%27s_Training_Camp%2C_New_Mexico.jpg/1024px-Harbhajan_Singh_Yogi_at_Khalsa_Women%27s_Training_Camp%2C_New_Mexico.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Harbhajan_Singh_Yogi_at_Khalsa_Women%27s_Training_Camp%2C_New_Mexico.jpg/480px-Harbhajan_Singh_Yogi_at_Khalsa_Women%27s_Training_Camp%2C_New_Mexico.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Harbhajan_Singh_Yogi_at_Khalsa_Women%27s_Training_Camp%2C_New_Mexico.jpg?width=1024",
+    "caption": "A genuine photograph of Yogi Bhajan (Harbhajan Singh Khalsa) at a 3HO training camp in New Mexico, the state where the reckoning over abuse allegations centred.",
     "credit": "Wikimedia Commons",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Yogi_Bhajan_1985.jpg/1024px-Yogi_Bhajan_1985.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Yogi_Bhajan_1985.jpg/480px-Yogi_Bhajan_1985.jpg",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Yogi_Bhajan_1985.jpg?width=1024"
+    "kind": "photograph"
    },
    "sources": [
     {
@@ -5827,11 +5877,12 @@
    "group": "Contemporary & Diaspora (2000-2026)",
    "category": "Politics",
    "media": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Amritpal_Singh_Jallupur.jpg/1024px-Amritpal_Singh_Jallupur.jpg",
-    "caption": "Amritpal Singh Sandhu, appointed leader of Waris Punjab De in September 2022.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/AmritpalSinghKhalsa.jpg/1024px-AmritpalSinghKhalsa.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/AmritpalSinghKhalsa.jpg/480px-AmritpalSinghKhalsa.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/AmritpalSinghKhalsa.jpg?width=1024",
+    "caption": "A genuine photograph of Amritpal Singh, named head of Waris Punjab De in September 2022.",
     "credit": "Wikimedia Commons",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Amritpal_Singh_Jallupur.jpg/480px-Amritpal_Singh_Jallupur.jpg",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Amritpal_Singh_Jallupur.jpg?width=1024"
+    "kind": "photograph"
    },
    "sources": [
     {
@@ -5869,11 +5920,12 @@
    "group": "Contemporary & Diaspora (2000-2026)",
    "category": "Justice",
    "media": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Farmers%27_Protest_at_Tikri_Border_-_03.jpg/1024px-Farmers%27_Protest_at_Tikri_Border_-_03.jpg",
-    "caption": "A protest encampment at the Tikri border during the 2020-2021 farmers' agitation — representative image of the mass-protest tradition the Kaumi Insaaf Morcha drew on, not a photograph of the Morcha itself.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Farmers%27_Protest_at_Tikri_Border_-_18.jpg/1024px-Farmers%27_Protest_at_Tikri_Border_-_18.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Farmers%27_Protest_at_Tikri_Border_-_18.jpg/480px-Farmers%27_Protest_at_Tikri_Border_-_18.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Farmers%27_Protest_at_Tikri_Border_-_18.jpg?width=1024",
+    "caption": "A photograph from the 2020–2021 Indian farmers' protest — representative of large Punjab-based protest gatherings, not a photograph of the 2023 Kaumi Insaaf Morcha at Mohali.",
     "credit": "Wikimedia Commons",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Farmers%27_Protest_at_Tikri_Border_-_03.jpg/480px-Farmers%27_Protest_at_Tikri_Border_-_03.jpg",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Farmers%27_Protest_at_Tikri_Border_-_03.jpg?width=1024"
+    "kind": "photograph"
    },
    "sources": [
     {
@@ -5943,11 +5995,12 @@
    "group": "Contemporary & Diaspora (2000-2026)",
    "category": "Human Rights",
    "media": {
-    "caption": "Rank insignia of Punjab Police — representative image of the force that ran the statewide operation, not a photograph of the manhunt.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/AMRITPAL_SINGH_SUKHANAND.jpg/1024px-AMRITPAL_SINGH_SUKHANAND.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/AMRITPAL_SINGH_SUKHANAND.jpg/480px-AMRITPAL_SINGH_SUKHANAND.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/AMRITPAL_SINGH_SUKHANAND.jpg?width=1024",
+    "caption": "A genuine photograph of Amritpal Singh, the subject of the March 2023 manhunt and internet shutdown in Punjab.",
     "credit": "Wikimedia Commons",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Punjab_Police_DIG.png/1024px-Punjab_Police_DIG.png",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Punjab_Police_DIG.png/480px-Punjab_Police_DIG.png",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Punjab_Police_DIG.png?width=1024"
+    "kind": "photograph"
    },
    "sources": [
     {
@@ -5986,11 +6039,12 @@
    "group": "Contemporary & Diaspora (2000-2026)",
    "category": "Justice",
    "media": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Amritpal_Singh_Jallupur.jpg/1024px-Amritpal_Singh_Jallupur.jpg",
-    "caption": "Amritpal Singh Sandhu, arrested in April 2023 and held under the National Security Act.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Amritpal_Singh.jpg/1024px-Amritpal_Singh.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Amritpal_Singh.jpg/480px-Amritpal_Singh.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Amritpal_Singh.jpg?width=1024",
+    "caption": "A genuine photograph of Amritpal Singh, arrested and detained under the National Security Act in April 2023.",
     "credit": "Wikimedia Commons",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Amritpal_Singh_Jallupur.jpg/480px-Amritpal_Singh_Jallupur.jpg",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Amritpal_Singh_Jallupur.jpg?width=1024"
+    "kind": "photograph"
    },
    "sources": [
     {
@@ -6107,11 +6161,12 @@
    "group": "Contemporary & Diaspora (2000-2026)",
    "category": "Human Rights",
    "media": {
-    "caption": "The Supreme Court of India, New Delhi — representative image of the Indian judiciary and the UAPA legal framework, not a photograph of the case.",
-    "credit": "Wikimedia Commons, CC BY-SA 4.0",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Supreme_Court_of_India_01.jpg/1024px-Supreme_Court_of_India_01.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Supreme_Court_of_India_01.jpg/480px-Supreme_Court_of_India_01.jpg",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Supreme_Court_of_India_01.jpg?width=1024"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Supreme_Court_of_India%2C_inside_bulidings_01.jpg/1024px-Supreme_Court_of_India%2C_inside_bulidings_01.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Supreme_Court_of_India%2C_inside_bulidings_01.jpg/480px-Supreme_Court_of_India%2C_inside_bulidings_01.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Supreme_Court_of_India%2C_inside_bulidings_01.jpg?width=1024",
+    "caption": "A photograph inside the Supreme Court of India — a generic image of the Indian judicial system, not a photograph of the 2023 UAPA charges themselves.",
+    "credit": "Wikimedia Commons",
+    "kind": "place"
    },
    "sources": [
     {
@@ -6144,11 +6199,12 @@
    "group": "Contemporary & Diaspora (2000-2026)",
    "category": "Transnational Repression",
    "media": {
-    "caption": "North Block of the Secretariat in New Delhi — representative image of the Indian government complex, not a photograph of RAW headquarters or of Samant Kumar Goel.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Vikram_Sood_Ex_Intelligence_Chief_RAW_India.jpg/1024px-Vikram_Sood_Ex_Intelligence_Chief_RAW_India.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Vikram_Sood_Ex_Intelligence_Chief_RAW_India.jpg/480px-Vikram_Sood_Ex_Intelligence_Chief_RAW_India.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Vikram_Sood_Ex_Intelligence_Chief_RAW_India.jpg?width=1024",
+    "caption": "A photograph of Vikram Sood, a former chief of India's Research and Analysis Wing — used to represent the RAW leadership; not a photograph of Samant Kumar Goel, the chief who retired in 2023.",
     "credit": "Wikimedia Commons",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/North_Block_of_the_Secretariat_buildings%2C_New_Delhi.jpg/1024px-North_Block_of_the_Secretariat_buildings%2C_New_Delhi.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/North_Block_of_the_Secretariat_buildings%2C_New_Delhi.jpg/480px-North_Block_of_the_Secretariat_buildings%2C_New_Delhi.jpg",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/North_Block_of_the_Secretariat_buildings%2C_New_Delhi.jpg?width=1024"
+    "kind": "portrait"
    },
    "sources": [
     {
@@ -6492,11 +6548,12 @@
    "group": "Contemporary & Diaspora (2000-2026)",
    "category": "Politics",
    "media": {
-    "caption": "The Guru Nanak Sikh Gurdwara in Surrey, British Columbia, near which the September 2023 Khalistan Referendum vote was held and where Hardeep Singh Nijjar was killed months earlier.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Gurdwara_Darbar_Shri_Guru_Granth_Sahib_ji.jpg/1024px-Gurdwara_Darbar_Shri_Guru_Granth_Sahib_ji.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Gurdwara_Darbar_Shri_Guru_Granth_Sahib_ji.jpg/480px-Gurdwara_Darbar_Shri_Guru_Granth_Sahib_ji.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Gurdwara_Darbar_Shri_Guru_Granth_Sahib_ji.jpg?width=1024",
+    "caption": "A photograph of a gurdwara in Surrey, British Columbia — representative of the city's Sikh community where the 2023 Khalistan referendum vote took place.",
     "credit": "Wikimedia Commons",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Guru_Nanak_Sikh_Gurdwara_Delta-Surrey.jpg/1024px-Guru_Nanak_Sikh_Gurdwara_Delta-Surrey.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Guru_Nanak_Sikh_Gurdwara_Delta-Surrey.jpg/480px-Guru_Nanak_Sikh_Gurdwara_Delta-Surrey.jpg",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Guru_Nanak_Sikh_Gurdwara_Delta-Surrey.jpg?width=1024"
+    "kind": "place"
    },
    "sources": [
     {
@@ -6530,11 +6587,12 @@
    "group": "Contemporary & Diaspora (2000-2026)",
    "category": "Justice",
    "media": {
-    "url": "https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Photograph_Sikh_militant_Avtar_Singh_Khanda.jpg/1024px-Photograph_Sikh_militant_Avtar_Singh_Khanda.jpg",
-    "caption": "Avtar Singh Khanda, whose death a UK barrister urged the chief coroner to formally investigate.",
-    "credit": "Non-free fair-use image, English Wikipedia",
-    "thumb": "https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Photograph_Sikh_militant_Avtar_Singh_Khanda.jpg/480px-Photograph_Sikh_militant_Avtar_Singh_Khanda.jpg",
-    "fallback": "https://en.wikipedia.org/wiki/Special:FilePath/Photograph_Sikh_militant_Avtar_Singh_Khanda.jpg?width=1024"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Birmingham_Coroner%27s_Court_-_geograph.org.uk_-_2454760.jpg/1024px-Birmingham_Coroner%27s_Court_-_geograph.org.uk_-_2454760.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Birmingham_Coroner%27s_Court_-_geograph.org.uk_-_2454760.jpg/480px-Birmingham_Coroner%27s_Court_-_geograph.org.uk_-_2454760.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Birmingham_Coroner%27s_Court_-_geograph.org.uk_-_2454760.jpg?width=1024",
+    "caption": "Birmingham Coroner's Court — the kind of proceeding the barrister called for after Avtar Singh Khanda died in Birmingham; no inquest photograph exists because no inquest was held.",
+    "credit": "Wikimedia Commons",
+    "kind": "place"
    },
    "sources": [
     {
@@ -6569,11 +6627,12 @@
    "group": "Contemporary & Diaspora (2000-2026)",
    "category": "Transnational Repression",
    "media": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Justin_Trudeau_2021_%28cropped%29.jpg/1024px-Justin_Trudeau_2021_%28cropped%29.jpg",
-    "caption": "Canadian Prime Minister Justin Trudeau, who told Parliament of credible allegations against India.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Justin_Trudeau_in_2023.png/1024px-Justin_Trudeau_in_2023.png",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Justin_Trudeau_in_2023.png/480px-Justin_Trudeau_in_2023.png",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Justin_Trudeau_in_2023.png?width=1024",
+    "caption": "A 2023 photograph of Justin Trudeau, who told Parliament of 'credible allegations' against India over Nijjar's killing that September.",
     "credit": "Wikimedia Commons",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Justin_Trudeau_2021_%28cropped%29.jpg/480px-Justin_Trudeau_2021_%28cropped%29.jpg",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Justin_Trudeau_2021_%28cropped%29.jpg?width=1024"
+    "kind": "portrait"
    },
    "sources": [
     {
@@ -6618,11 +6677,12 @@
    "group": "Contemporary & Diaspora (2000-2026)",
    "category": "Transnational Repression",
    "media": {
-    "caption": "The Guru Nanak Sikh Gurdwara in Surrey, British Columbia, outside which Hardeep Singh Nijjar was shot dead in June 2023.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Brookside_Sahib_Gurdwara.jpg/1024px-Brookside_Sahib_Gurdwara.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Brookside_Sahib_Gurdwara.jpg/480px-Brookside_Sahib_Gurdwara.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Brookside_Sahib_Gurdwara.jpg?width=1024",
+    "caption": "A photograph of a gurdwara in Surrey, British Columbia — representative of the community Hardeep Singh Nijjar served, not the specific site of his September 2023 killing.",
     "credit": "Wikimedia Commons",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Guru_Nanak_Sikh_Gurdwara_Delta-Surrey.jpg/1024px-Guru_Nanak_Sikh_Gurdwara_Delta-Surrey.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Guru_Nanak_Sikh_Gurdwara_Delta-Surrey.jpg/480px-Guru_Nanak_Sikh_Gurdwara_Delta-Surrey.jpg",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Guru_Nanak_Sikh_Gurdwara_Delta-Surrey.jpg?width=1024"
+    "kind": "place"
    },
    "sources": [
     {
@@ -6656,11 +6716,12 @@
    "group": "Contemporary & Diaspora (2000-2026)",
    "category": "Justice",
    "media": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Supreme_Court_of_Canada_2.jpg/1024px-Supreme_Court_of_Canada_2.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Supreme_Court_of_Canada_2.jpg/480px-Supreme_Court_of_Canada_2.jpg",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Supreme_Court_of_Canada_2.jpg?width=1024",
-    "caption": "The Supreme Court of Canada in Ottawa — representative image of Canada's federal adjudicative institutions, not of the Immigration and Refugee Board or its hearing.",
-    "credit": "Wikimedia Commons"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Supreme_Court_of_Canada%2C_Wellington_Street%2C_Ottawa.jpg/1024px-Supreme_Court_of_Canada%2C_Wellington_Street%2C_Ottawa.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Supreme_Court_of_Canada%2C_Wellington_Street%2C_Ottawa.jpg/480px-Supreme_Court_of_Canada%2C_Wellington_Street%2C_Ottawa.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Supreme_Court_of_Canada%2C_Wellington_Street%2C_Ottawa.jpg?width=1024",
+    "caption": "A photograph of the Supreme Court of Canada building in Ottawa — a generic image of the Canadian judicial system, used to represent the 2023 tribunal ruling in Kamaljit Ram's case, not the Immigration and Refugee Board itself.",
+    "credit": "Wikimedia Commons",
+    "kind": "place"
    },
    "sources": [
     {
@@ -6694,11 +6755,12 @@
    "group": "Contemporary & Diaspora (2000-2026)",
    "category": "Politics",
    "media": {
-    "caption": "South Block, New Delhi — representative image of the Indian government building housing key ministries, not a photograph of the diplomatic announcement.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/New_Delhi_government_block_03-2016_img5.jpg/1024px-New_Delhi_government_block_03-2016_img5.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/New_Delhi_government_block_03-2016_img5.jpg/480px-New_Delhi_government_block_03-2016_img5.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/New_Delhi_government_block_03-2016_img5.jpg?width=1024",
+    "caption": "A photograph of the North and South Block government buildings in New Delhi, where India's foreign ministry is based — a generic image of the seat of government, not a photograph of the October 2023 diplomatic order itself.",
     "credit": "Wikimedia Commons",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/South_Block_at_New_Delhi.jpg/1024px-South_Block_at_New_Delhi.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/South_Block_at_New_Delhi.jpg/480px-South_Block_at_New_Delhi.jpg",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/South_Block_at_New_Delhi.jpg?width=1024"
+    "kind": "place"
    },
    "sources": [
     {
@@ -6738,11 +6800,12 @@
    "group": "Contemporary & Diaspora (2000-2026)",
    "category": "Politics",
    "media": {
-    "caption": "Terminal 1 at Toronto Pearson International Airport — representative image of the student travel affected by the visa backlog, not a photograph of the diplomatic withdrawal.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Toronto_Pearson_International_Airport_-_panoramio.jpg/1024px-Toronto_Pearson_International_Airport_-_panoramio.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Toronto_Pearson_International_Airport_-_panoramio.jpg/480px-Toronto_Pearson_International_Airport_-_panoramio.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Toronto_Pearson_International_Airport_-_panoramio.jpg?width=1024",
+    "caption": "A photograph of Toronto Pearson International Airport — representative of the travel disruption caused by the 2023 diplomatic standoff and visa delays, not a photograph of the delays themselves.",
     "credit": "Wikimedia Commons",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Terminal_1%2C_Toronto_Pearson_International_Airport%2C_angled_view.jpg/1024px-Terminal_1%2C_Toronto_Pearson_International_Airport%2C_angled_view.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Terminal_1%2C_Toronto_Pearson_International_Airport%2C_angled_view.jpg/480px-Terminal_1%2C_Toronto_Pearson_International_Airport%2C_angled_view.jpg",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Terminal_1%2C_Toronto_Pearson_International_Airport%2C_angled_view.jpg?width=1024"
+    "kind": "place"
    },
    "sources": [
     {
@@ -6782,11 +6845,12 @@
    "group": "Contemporary & Diaspora (2000-2026)",
    "category": "Politics",
    "media": {
-    "caption": "South Block, New Delhi — representative image of the Indian government context, not a photograph of the specific allegation.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/North_%26_South_Block%2C_New_Delhi_%2829473956940%29.jpg/1024px-North_%26_South_Block%2C_New_Delhi_%2829473956940%29.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/North_%26_South_Block%2C_New_Delhi_%2829473956940%29.jpg/480px-North_%26_South_Block%2C_New_Delhi_%2829473956940%29.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/North_%26_South_Block%2C_New_Delhi_%2829473956940%29.jpg?width=1024",
+    "caption": "A photograph of the North and South Block government buildings in New Delhi — a generic image of the Indian government, not a photograph of the October 2023 visa-misuse allegations.",
     "credit": "Wikimedia Commons",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/South_Block_at_New_Delhi.jpg/1024px-South_Block_at_New_Delhi.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/South_Block_at_New_Delhi.jpg/480px-South_Block_at_New_Delhi.jpg",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/South_Block_at_New_Delhi.jpg?width=1024"
+    "kind": "place"
    },
    "sources": [
     {
@@ -6902,11 +6966,12 @@
    "group": "Contemporary & Diaspora (2000-2026)",
    "category": "Transnational Repression",
    "media": {
-    "caption": "The United States Capitol, Washington, D.C. — representative image of the US Senate context of Senator Cardin's statement.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Ben_Cardin%2C_official_Senate_photo_portrait.jpg/1024px-Ben_Cardin%2C_official_Senate_photo_portrait.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Ben_Cardin%2C_official_Senate_photo_portrait.jpg/480px-Ben_Cardin%2C_official_Senate_photo_portrait.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Ben_Cardin%2C_official_Senate_photo_portrait.jpg?width=1024",
+    "caption": "The official Senate portrait of Senator Ben Cardin, who in December 2023 called the Pannun plot an act of transnational repression.",
     "credit": "Wikimedia Commons",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/United_States_Capitol_Building.jpg/1024px-United_States_Capitol_Building.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/United_States_Capitol_Building.jpg/480px-United_States_Capitol_Building.jpg",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/United_States_Capitol_Building.jpg?width=1024"
+    "kind": "portrait"
    },
    "sources": [
     {
@@ -6941,11 +7006,12 @@
    "group": "Contemporary & Diaspora (2000-2026)",
    "category": "Commemoration",
    "media": {
-    "caption": "Skyline of Toronto — representative image of the city associated with this report's publication, not the report itself.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Toronto_Skyline.jpg/1024px-Toronto_Skyline.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Toronto_Skyline.jpg/480px-Toronto_Skyline.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Toronto_Skyline.jpg?width=1024",
+    "caption": "A photograph of the Toronto skyline — a generic image of the city where SikhRI's December 2023 report was published, not a photograph of the report itself.",
     "credit": "Wikimedia Commons",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Toronto_skyline_%282012%29.jpg/1024px-Toronto_skyline_%282012%29.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Toronto_skyline_%282012%29.jpg/480px-Toronto_skyline_%282012%29.jpg",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Toronto_skyline_%282012%29.jpg?width=1024"
+    "kind": "place"
    },
    "sources": [
     {
@@ -7146,11 +7212,12 @@
    "group": "Contemporary & Diaspora (2000-2026)",
    "category": "Transnational Repression",
    "media": {
-    "caption": "The Robert F. Kennedy Department of Justice Building, Washington, D.C. — representative image of the department that unsealed the indictment, not of the proceedings.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Daniel_Patrick_Moynihan_U.S._Courthouse%2C_Manhattan%2C_New_York_%287237347688%29.jpg/1024px-Daniel_Patrick_Moynihan_U.S._Courthouse%2C_Manhattan%2C_New_York_%287237347688%29.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Daniel_Patrick_Moynihan_U.S._Courthouse%2C_Manhattan%2C_New_York_%287237347688%29.jpg/480px-Daniel_Patrick_Moynihan_U.S._Courthouse%2C_Manhattan%2C_New_York_%287237347688%29.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Daniel_Patrick_Moynihan_U.S._Courthouse%2C_Manhattan%2C_New_York_%287237347688%29.jpg?width=1024",
+    "caption": "The Daniel Patrick Moynihan Courthouse in Manhattan, seat of the Southern District of New York where the superseding indictment was unsealed — Vikash Yadav has never appeared there.",
     "credit": "Wikimedia Commons",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Robert_F._Kennedy_Department_of_Justice_Building%2C_Washington%2C_D.C.jpg/1024px-Robert_F._Kennedy_Department_of_Justice_Building%2C_Washington%2C_D.C.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Robert_F._Kennedy_Department_of_Justice_Building%2C_Washington%2C_D.C.jpg/480px-Robert_F._Kennedy_Department_of_Justice_Building%2C_Washington%2C_D.C.jpg",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Robert_F._Kennedy_Department_of_Justice_Building%2C_Washington%2C_D.C.jpg?width=1024"
+    "kind": "place"
    },
    "sources": [
     {
@@ -7183,11 +7250,12 @@
    "group": "Contemporary & Diaspora (2000-2026)",
    "category": "Transnational Repression",
    "media": {
-    "caption": "Centre Block on Parliament Hill, Ottawa — representative image of the Canadian government context of the Foreign Interference Commission's report.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Centre_Block%2C_Parliament_Hill%2C_Ottawa%2C_Ontario%2C_Canada_%2829775118360%29.jpg/1024px-Centre_Block%2C_Parliament_Hill%2C_Ottawa%2C_Ontario%2C_Canada_%2829775118360%29.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Centre_Block%2C_Parliament_Hill%2C_Ottawa%2C_Ontario%2C_Canada_%2829775118360%29.jpg/480px-Centre_Block%2C_Parliament_Hill%2C_Ottawa%2C_Ontario%2C_Canada_%2829775118360%29.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Centre_Block%2C_Parliament_Hill%2C_Ottawa%2C_Ontario%2C_Canada_%2829775118360%29.jpg?width=1024",
+    "caption": "A photograph of the Centre Block on Parliament Hill in Ottawa — a generic image of the Canadian government, not a photograph of the 2025 Foreign Interference Commission report itself.",
     "credit": "Wikimedia Commons",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Centre_Block_-_Parliament_Hill.jpg/1024px-Centre_Block_-_Parliament_Hill.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Centre_Block_-_Parliament_Hill.jpg/480px-Centre_Block_-_Parliament_Hill.jpg",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Centre_Block_-_Parliament_Hill.jpg?width=1024"
+    "kind": "place"
    },
    "sources": [
     {
@@ -7297,11 +7365,12 @@
    "group": "Contemporary & Diaspora (2000-2026)",
    "category": "Transnational Repression",
    "media": {
-    "caption": "Badge of the Royal Canadian Mounted Police, the agency that described the Bishnoi network as a proxy for transnational repression — representative image, not a photograph of the designation announcement.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/RCMP_Commissioner_Bob_Paulson.jpg/1024px-RCMP_Commissioner_Bob_Paulson.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/RCMP_Commissioner_Bob_Paulson.jpg/480px-RCMP_Commissioner_Bob_Paulson.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/RCMP_Commissioner_Bob_Paulson.jpg?width=1024",
+    "caption": "A photograph of a former RCMP Commissioner — representative of the Canadian federal police force that enforces the 2025 terrorist designation of the Bishnoi gang, not a photograph of the designation itself or of the gang.",
     "credit": "Wikimedia Commons",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Badge_of_the_Royal_Canadian_Mounted_Police.png/1024px-Badge_of_the_Royal_Canadian_Mounted_Police.png",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Badge_of_the_Royal_Canadian_Mounted_Police.png/480px-Badge_of_the_Royal_Canadian_Mounted_Police.png",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Badge_of_the_Royal_Canadian_Mounted_Police.png?width=1024"
+    "kind": "portrait"
    },
    "sources": [
     {
@@ -7426,11 +7495,12 @@
    "group": "Contemporary & Diaspora (2000-2026)",
    "category": "Transnational Repression",
    "media": {
-    "caption": "Badge of the Royal Canadian Mounted Police — representative image of the force whose deputy commissioner made the statement, not of the announcement.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/RCMP_regular_uniform_and_truck.jpg/1024px-RCMP_regular_uniform_and_truck.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/RCMP_regular_uniform_and_truck.jpg/480px-RCMP_regular_uniform_and_truck.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/RCMP_regular_uniform_and_truck.jpg?width=1024",
+    "caption": "A photograph of RCMP officers in regular uniform — a generic image of the force, not a photograph connected specifically to the 2026 statement on the Nijjar investigation.",
     "credit": "Wikimedia Commons",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Badge_of_the_Royal_Canadian_Mounted_Police.png/1024px-Badge_of_the_Royal_Canadian_Mounted_Police.png",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Badge_of_the_Royal_Canadian_Mounted_Police.png/480px-Badge_of_the_Royal_Canadian_Mounted_Police.png",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Badge_of_the_Royal_Canadian_Mounted_Police.png?width=1024"
+    "kind": "photograph"
    },
    "sources": [
     {
