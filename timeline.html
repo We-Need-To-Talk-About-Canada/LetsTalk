@@ -13,7 +13,7 @@
 <!-- ASSET VERSION: bump this token in BOTH places below (the stylesheet href and
      the timeline-data.json fetch) whenever timeline.css or timeline-data.json
      changes, otherwise browsers keep serving the previously cached copy. -->
-<link rel="stylesheet" href="timeline.css?v=20260726j">
+<link rel="stylesheet" href="timeline.css?v=20260803a">
 </head>
 <body>
 <div class="hud-sweep" aria-hidden="true"></div>
@@ -45,7 +45,7 @@
     <button class="tab" data-view="codex" role="tab"><span class="tnum">03</span>Codex</button>
     <button class="tab" data-view="index" role="tab"><span class="tnum">04</span>Index</button>
     <button class="tab" data-view="dossier" role="tab"><span class="tnum">05</span>Dossier</button>
-    <button class="tab" data-view="playbook" role="tab"><span class="tnum">06</span>Playbook</button>
+    <a class="tab tab-out" href="fake-news.html"><span class="tnum">06</span>Fake News<span class="tout">&#8599;</span></a>
     <div class="tab-indicator" id="tab-indicator"></div>
   </div>
 
@@ -150,19 +150,6 @@
     <div id="dossier-body"></div>
   </section>
 
-  <!-- ============ PLAYBOOK VIEW ============ -->
-  <section class="view" id="view-playbook">
-    <div class="pb-intro">
-      <h2>How the story gets shaped</h2>
-      <p>Ten techniques used to spread disinformation about Sikhs abroad, each with a documented case and the
-         reporting it comes from. Nothing here is inferred: every claim is attributed to the outlet,
-         investigator or official body that made it. Each section has its own link &mdash; click the
-         <span class="pb-hash">#</span> beside a heading to copy it.</p>
-    </div>
-    <div class="pb-nav" id="pb-nav"></div>
-    <div id="pb-body"></div>
-  </section>
-
   <!-- ============ INDEX VIEW ============ -->
   <section class="view" id="view-index">
     <div class="indexview">
@@ -226,7 +213,7 @@
 
   let DATA;
   try {
-    const res = await fetch('timeline-data.json?v=20260726j');
+    const res = await fetch('timeline-data.json?v=20260803a');
     if (!res.ok) throw new Error('HTTP ' + res.status);
     DATA = await res.json();
   } catch (err) {
@@ -364,11 +351,11 @@
     }
     if (name === 'codex' && !codexBuilt) buildCodex();
     if (name === 'dossier' && !dossierBuilt) buildDossier();
-    if (name === 'playbook' && !playbookBuilt) buildPlaybook();
   }
   tabbar.addEventListener('click', e => {
     const btn = e.target.closest('.tab');
-    if (btn) setView(btn.dataset.view);
+    // .tab-out is a real link to another page and carries no data-view
+    if (btn && btn.dataset.view) setView(btn.dataset.view);
   });
   window.addEventListener('resize', () => { const b = document.querySelector('.tab.active'); if (b) placeIndicator(b); });
 
@@ -990,122 +977,6 @@
   // ================= PLAYBOOK =================
   // Each technique is stated plainly, then evidenced. Sources are rendered with
   // their publication date so a reader can see when the claim was made.
-  let playbookBuilt = false;
-  function buildPlaybook(){
-    playbookBuilt = true;
-    const items = DATA.playbook || [];
-    const nav = $('pb-nav'), body = $('pb-body');
-    nav.innerHTML = ''; body.innerHTML = '';
-    if (!items.length){ body.innerHTML = '<div class="q-empty">Nothing recorded yet.</div>'; return; }
-
-    // Icons are inlined (not <img>) so they inherit the accent colour and add
-    // no extra requests. The markup is vendored Lucide - see assets/icons/.
-    const icon = t => t.icon
-      ? '<svg class="pb-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" '
-        + 'stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" '
-        + 'aria-hidden="true" focusable="false">' + t.icon + '</svg>'
-      : '';
-
-    // Every card is addressable as #pb-<id>. The nav entries are real links so
-    // they can be right-clicked and copied, and the "#" beside each heading
-    // puts the full URL on the clipboard.
-    const srcChips = t => {
-      let h = '';
-      (t.sources || []).forEach(s => {
-        h += '<a href="' + esc(s.url) + '" target="_blank" rel="noopener">'
-           + (s.date ? '<span class="pbd">' + esc(s.date) + '</span>' : '')
-           + '<span class="pbt">' + esc(s.title) + '</span></a>';
-      });
-      (t.refs || []).forEach(id => {
-        const r = references[id];
-        if (r) h += '<span class="pb-book">' + esc(r.title.split(':')[0])
-                  + (r.year ? ' (' + esc(r.year) + ')' : '') + '</span>';
-      });
-      return h;
-    };
-    const anchorLink = t =>
-      '<a class="pb-anchor" href="#pb-' + esc(t.id) + '" data-anchor="pb-' + esc(t.id) + '" '
-      + 'title="Copy a link to this section" aria-label="Copy a link to ' + esc(t.name) + '">#</a>';
-
-    const closing = DATA.playbook_closing;
-    const navItems = closing ? items.concat([closing]) : items;
-
-    navItems.forEach(t => {
-      const jump = document.createElement('a');
-      jump.href = '#pb-' + t.id;
-      jump.innerHTML = icon(t)
-        + '<span class="pbn">' + (t.n ? String(t.n).padStart(2, '0') : '&#9670;') + '</span>'
-        + esc(t.name);
-      jump.addEventListener('click', e => { e.preventDefault(); jumpToPb(t.id); });
-      nav.appendChild(jump);
-    });
-
-    items.forEach(t => {
-      const card = document.createElement('article');
-      card.className = 'pb-card';
-      card.id = 'pb-' + t.id;
-      const srcHTML = srcChips(t);
-
-      card.innerHTML =
-          '<div class="pb-head">'
-        +   '<span class="pb-badge">' + icon(t) + '</span>'
-        +   '<div><span class="pb-num">Technique ' + String(t.n).padStart(2, '0')
-        +     anchorLink(t) + '</span>'
-        +   '<h3>' + esc(t.name) + '</h3></div>'
-        + '</div>'
-        + '<div class="pb-what">' + esc(t.what) + '</div>'
-        + '<div class="pb-lbl">How it works</div>'
-        + '<p class="pb-how">' + esc(t.how) + '</p>'
-        + '<div class="pb-case"><div class="pb-lbl">Documented case</div><p>' + esc(t.case) + '</p>'
-        +   (srcHTML ? '<div class="pb-src">' + srcHTML + '</div>' : '')
-        + '</div>';
-      body.appendChild(card);
-    });
-
-    // Not a technique - what bodies with access to classified intelligence have
-    // said. It sat as card 10 and read as one of the methods, which it is not.
-    if (closing) {
-      const card = document.createElement('aside');
-      card.className = 'pb-card pb-closing';
-      card.id = 'pb-' + closing.id;
-      const srcHTML = srcChips(closing);
-      card.innerHTML =
-          '<div class="pb-head">'
-        +   '<span class="pb-badge">' + icon(closing) + '</span>'
-        +   '<div><span class="pb-num">On the record' + anchorLink(closing) + '</span>'
-        +   '<h3>' + esc(closing.name) + '</h3></div>'
-        + '</div>'
-        + '<p class="pb-how">' + esc(closing.text) + '</p>'
-        + (srcHTML ? '<div class="pb-src">' + srcHTML + '</div>' : '');
-      body.appendChild(card);
-    }
-
-    body.addEventListener('click', e => {
-      const a = e.target.closest('.pb-anchor');
-      if (!a) return;
-      e.preventDefault();
-      jumpToPb(a.dataset.anchor.slice(3));
-      const url = location.href.split('#')[0] + '#' + a.dataset.anchor;
-      const done = () => { a.classList.add('copied'); setTimeout(() => a.classList.remove('copied'), 1400); };
-      if (navigator.clipboard && navigator.clipboard.writeText) {
-        navigator.clipboard.writeText(url).then(done, () => {});
-      }
-    });
-  }
-
-  // Show the Playbook and bring one card into view, leaving a shareable URL
-  // in the address bar. Safe to call before the tab has ever been opened.
-  function jumpToPb(id){
-    setView('playbook');
-    const el = document.getElementById('pb-' + id);
-    if (!el) return false;
-    window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY - 12, behavior: 'smooth' });
-    el.classList.remove('pb-flash');
-    void el.offsetWidth;                       // restart the highlight
-    el.classList.add('pb-flash');
-    if (history.replaceState) history.replaceState(null, '', '#pb-' + id);
-    return true;
-  }
 
   // ================= SEARCH =================
   // Bring the current event into view after jumping to it from elsewhere.
@@ -1264,16 +1135,9 @@
   initSwipe();
   const hash = decodeURIComponent(location.hash.slice(1));
   const hi = hash ? events.findIndex(e => e.unique_id === hash) : -1;
-  // go() rewrites the hash to the current event, so a #pb- link has to be
-  // honoured after it, not before.
   go(hi >= 0 ? hi : 0, false);
-  if (hash.indexOf('pb-') === 0) requestAnimationFrame(() => jumpToPb(hash.slice(3)));
-
-  // Someone pasting a #pb- link while already on the page.
-  window.addEventListener('hashchange', () => {
-    const h = decodeURIComponent(location.hash.slice(1));
-    if (h.indexOf('pb-') === 0) jumpToPb(h.slice(3));
-  });
+  // Playbook anchors moved to fake-news.html; forward any old shared link.
+  if (hash.indexOf('pb-') === 0) location.replace('fake-news.html#' + hash);
   requestAnimationFrame(() => placeIndicator(document.querySelector('.tab.active')));
 })();
 </script>

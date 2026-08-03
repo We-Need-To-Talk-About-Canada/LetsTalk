@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How Does Fake News Work? — Project Aananta</title>
+<meta name="description" content="Ten techniques used to spread disinformation about Sikhs abroad, each with a documented case and the reporting it comes from.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Space+Mono&display=swap" rel="stylesheet">
+<!-- ASSET VERSION: bump this token in BOTH places below (the stylesheet href and
+     the timeline-data.json fetch) whenever timeline.css or timeline-data.json
+     changes, otherwise browsers keep serving the previously cached copy. -->
+<link rel="stylesheet" href="timeline.css?v=20260803a">
+</head>
+<body>
+<div class="hud-sweep" aria-hidden="true"></div>
+<div class="frame">
+
+  <div class="chrome">
+    <div class="brand">
+      <div class="glyph" aria-hidden="true">&#9772;</div>
+      <div>
+        <span class="name">How Fake News Works</span><br>
+        <span class="sub">Project Aananta &middot; A Field Guide</span>
+      </div>
+    </div>
+    <nav class="chrome-right">
+      <a href="index.html">&#8592; Home</a>
+      <a href="timeline.html">The Chronicle</a>
+      <a href="directory.html">The Standard</a>
+    </nav>
+  </div>
+
+  <div class="masthead">
+    <div class="eyebrow">Field Guide</div>
+    <h1>How Does Fake News Work?</h1>
+    <p id="pb-lede">Ten techniques used to spread disinformation about Sikhs abroad &mdash; each one named,
+       explained in a sentence, and matched to a case somebody actually documented.</p>
+  </div>
+
+  <section class="view active" id="view-playbook">
+    <div class="pb-intro">
+      <h2>How the story gets shaped</h2>
+      <p>Nothing here is inferred: every claim is attributed to the outlet, investigator or official body that
+         made it, and every source is one click away. Each section has its own link &mdash; click the
+         <span class="pb-hash">#</span> beside a heading to copy it.</p>
+    </div>
+    <div class="pb-nav" id="pb-nav"></div>
+    <div id="pb-body"></div>
+    <div class="pb-outro">
+      <p>These techniques did not appear from nowhere, and they are not new. The chronicle traces the same
+         pattern across five centuries, event by event.</p>
+      <a class="pb-cta" href="timeline.html">Explore the Sikh History Chronicle &#8594;</a>
+    </div>
+  </section>
+
+</div>
+
+<script>
+(async function(){
+  "use strict";
+  const $ = id => document.getElementById(id);
+  const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+  let DATA;
+  try {
+    const res = await fetch('timeline-data.json?v=20260803a');
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    DATA = await res.json();
+  } catch (err) {
+    const local = location.protocol === 'file:';
+    $('pb-lede').innerHTML = local
+      ? 'This page loads its data from <code>timeline-data.json</code>, which browsers block over <code>file://</code>. '
+        + 'Serve the folder over HTTP instead &mdash; e.g. <code>python3 -m http.server</code>.'
+      : 'Could not load <code>timeline-data.json</code> (' + String(err.message || err) + '). Please reload the page.';
+    $('pb-lede').style.color = '#E9A13B';
+    return;
+  }
+
+  const references = DATA.references || {};
+  const items = DATA.playbook || [];
+  const closing = DATA.playbook_closing;
+  const nav = $('pb-nav'), body = $('pb-body');
+
+  // Icons are inlined (not <img>) so they inherit the accent colour and add
+  // no extra requests. The markup is vendored Lucide - see assets/icons/.
+  const icon = t => t.icon
+    ? '<svg class="pb-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" '
+      + 'stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" '
+      + 'aria-hidden="true" focusable="false">' + t.icon + '</svg>'
+    : '';
+
+  const srcChips = t => {
+    let h = '';
+    (t.sources || []).forEach(s => {
+      h += '<a href="' + esc(s.url) + '" target="_blank" rel="noopener">'
+         + (s.date ? '<span class="pbd">' + esc(s.date) + '</span>' : '')
+         + '<span class="pbt">' + esc(s.title) + '</span></a>';
+    });
+    (t.refs || []).forEach(id => {
+      const r = references[id];
+      if (r) h += '<span class="pb-book">' + esc(r.title.split(':')[0])
+                + (r.year ? ' (' + esc(r.year) + ')' : '') + '</span>';
+    });
+    return h;
+  };
+  const anchorLink = t =>
+    '<a class="pb-anchor" href="#pb-' + esc(t.id) + '" data-anchor="pb-' + esc(t.id) + '" '
+    + 'title="Copy a link to this section" aria-label="Copy a link to ' + esc(t.name) + '">#</a>';
+
+  if (!items.length){ body.innerHTML = '<div class="q-empty">Nothing recorded yet.</div>'; return; }
+
+  (closing ? items.concat([closing]) : items).forEach(t => {
+    const jump = document.createElement('a');
+    jump.href = '#pb-' + t.id;
+    jump.innerHTML = icon(t)
+      + '<span class="pbn">' + (t.n ? String(t.n).padStart(2, '0') : '&#9670;') + '</span>'
+      + esc(t.name);
+    jump.addEventListener('click', e => { e.preventDefault(); jumpToPb(t.id); });
+    nav.appendChild(jump);
+  });
+
+  items.forEach(t => {
+    const card = document.createElement('article');
+    card.className = 'pb-card';
+    card.id = 'pb-' + t.id;
+    const srcHTML = srcChips(t);
+    card.innerHTML =
+        '<div class="pb-head">'
+      +   '<span class="pb-badge">' + icon(t) + '</span>'
+      +   '<div><span class="pb-num">Technique ' + String(t.n).padStart(2, '0') + anchorLink(t) + '</span>'
+      +   '<h3>' + esc(t.name) + '</h3></div>'
+      + '</div>'
+      + '<div class="pb-what">' + esc(t.what) + '</div>'
+      + '<div class="pb-lbl">How it works</div>'
+      + '<p class="pb-how">' + esc(t.how) + '</p>'
+      + '<div class="pb-case"><div class="pb-lbl">Documented case</div><p>' + esc(t.case) + '</p>'
+      +   (srcHTML ? '<div class="pb-src">' + srcHTML + '</div>' : '')
+      + '</div>';
+    body.appendChild(card);
+  });
+
+  // Not a technique - what bodies with access to classified intelligence have
+  // said. Kept visually distinct so it does not read as one of the methods.
+  if (closing) {
+    const card = document.createElement('aside');
+    card.className = 'pb-card pb-closing';
+    card.id = 'pb-' + closing.id;
+    const srcHTML = srcChips(closing);
+    card.innerHTML =
+        '<div class="pb-head">'
+      +   '<span class="pb-badge">' + icon(closing) + '</span>'
+      +   '<div><span class="pb-num">On the record' + anchorLink(closing) + '</span>'
+      +   '<h3>' + esc(closing.name) + '</h3></div>'
+      + '</div>'
+      + '<p class="pb-how">' + esc(closing.text) + '</p>'
+      + (srcHTML ? '<div class="pb-src">' + srcHTML + '</div>' : '');
+    body.appendChild(card);
+  }
+
+  body.addEventListener('click', e => {
+    const a = e.target.closest('.pb-anchor');
+    if (!a) return;
+    e.preventDefault();
+    jumpToPb(a.dataset.anchor.slice(3));
+    const url = location.href.split('#')[0] + '#' + a.dataset.anchor;
+    const done = () => { a.classList.add('copied'); setTimeout(() => a.classList.remove('copied'), 1400); };
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(url).then(done, () => {});
+    }
+  });
+
+  function jumpToPb(id){
+    const el = document.getElementById('pb-' + id);
+    if (!el) return false;
+    window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY - 12, behavior: 'smooth' });
+    el.classList.remove('pb-flash');
+    void el.offsetWidth;                       // restart the highlight
+    el.classList.add('pb-flash');
+    if (history.replaceState) history.replaceState(null, '', '#pb-' + id);
+    return true;
+  }
+
+  const land = () => {
+    const h = decodeURIComponent(location.hash.slice(1));
+    if (h.indexOf('pb-') === 0) jumpToPb(h.slice(3));
+  };
+  requestAnimationFrame(land);
+  window.addEventListener('hashchange', land);
+})();
+</script>
+</body>
+</html>
