@@ -203,6 +203,10 @@
     border:1px solid var(--line-dim); padding:5px 10px; margin:3px 6px 0 0; transition:border-color .2s, color .2s;
   }
   .sources a:hover{border-color:var(--accent-dim); color:var(--accent);}
+  /* points at a Perma.cc capture rather than the live page */
+  .sources a.archived::after, .pb-src a.archived::after{
+    content:"\00a0\25C8"; font-size:8px; color:var(--accent); opacity:.8; vertical-align:1px;
+  }
   /* a print work with no online copy: a citation, not a dead link */
   .sources .offline{
     display:inline-block; font-family:var(--sans); font-size:11.5px; color:var(--ink-3);

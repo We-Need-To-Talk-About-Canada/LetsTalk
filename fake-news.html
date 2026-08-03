@@ -11,7 +11,7 @@
 <!-- ASSET VERSION: bump this token in BOTH places below (the stylesheet href and
      the timeline-data.json fetch) whenever timeline.css or timeline-data.json
      changes, otherwise browsers keep serving the previously cached copy. -->
-<link rel="stylesheet" href="timeline.css?v=20260803e">
+<link rel="stylesheet" href="timeline.css?v=20260803f">
 </head>
 <body>
 <div class="hud-sweep" aria-hidden="true"></div>
@@ -65,7 +65,7 @@
 
   let DATA;
   try {
-    const res = await fetch('timeline-data.json?v=20260803e');
+    const res = await fetch('timeline-data.json?v=20260803f');
     if (!res.ok) throw new Error('HTTP ' + res.status);
     DATA = await res.json();
   } catch (err) {
@@ -94,7 +94,10 @@
   const srcChips = t => {
     let h = '';
     (t.sources || []).forEach(s => {
-      h += '<a href="' + esc(s.url) + '" target="_blank" rel="noopener">'
+      // the Perma.cc capture when there is one; the live URL stays in the tooltip
+      h += '<a href="' + esc(s.perma || s.url) + '" target="_blank" rel="noopener"'
+         + (s.perma ? ' class="archived" title="Archived copy &middot; original: ' + esc(s.url) + '"' : '')
+         + '>'
          + (s.date ? '<span class="pbd">' + esc(s.date) + '</span>' : '')
          + '<span class="pbt">' + esc(s.title) + '</span></a>';
     });

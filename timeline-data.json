@@ -4798,7 +4798,18 @@
     "caption": "The Supreme Court of Canada in Ottawa — representative image; the inquiry was chaired by former Supreme Court Justice John Major but was not a proceeding of the court.",
     "credit": "Wikimedia Commons"
    },
-   "sources": [],
+   "sources": [
+    {
+     "title": "Final report of the Air India Commission tabled (Government of Canada)",
+     "url": "https://www.canada.ca/en/news/archive/2010/06/final-report-commission-inquiry-into-investigation-bombing-air-india-flight-tabled.html",
+     "outlet": "press"
+    },
+    {
+     "title": "Air India case marred by 'inexcusable' errors (CBC)",
+     "url": "https://www.cbc.ca/news/canada/air-india-case-marred-by-inexcusable-errors-1.869072",
+     "outlet": "press"
+    }
+   ],
    "confidence": "high",
    "location": {
     "place": "Ottawa, Ontario, Canada",
@@ -4871,6 +4882,16 @@
      "title": "Jungfateh Singh: Beyond Remembrance (Baaz)",
      "url": "https://www.baaznews.org/p/oak-creek-white-supremacy-sikhs",
      "outlet": "baaz"
+    },
+    {
+     "title": "Oak Creek Sikh Temple shooting: investigation conclusion (FBI)",
+     "url": "https://archives.fbi.gov/archives/milwaukee/press-releases/2012/oak-creek-sikh-temple-shooting-investigation-conclusion",
+     "outlet": "press"
+    },
+    {
+     "title": "Remembering the Oak Creek killings (NPR)",
+     "url": "https://www.npr.org/2022/08/05/1115931555/remembering-the-oak-creek-killings-a-harbinger-of-white-supremacist-violence",
+     "outlet": "press"
     }
    ],
    "confidence": "high",
@@ -5238,6 +5259,11 @@
      "title": "What happened at Kartarpur Sahib? (SikhRI)",
      "url": "https://sikhri.org/articles/what-happened-at-kartarpur-sahib",
      "outlet": "sikhri"
+    },
+    {
+     "title": "Historic Kartarpur 'peace corridor' between India and Pakistan opens (CNN)",
+     "url": "https://www.cnn.com/travel/article/india-pakistan-kartarpur-corridor-opens-intl-hnk/index.html",
+     "outlet": "press"
     }
    ],
    "confidence": "medium",
@@ -5541,6 +5567,16 @@
      "title": "Amaan Bali: Making Sense of Lakhimpur Kheri (Baaz)",
      "url": "https://www.baaznews.org/p/lakhimpur-kheri-farmers-misha",
      "outlet": "baaz"
+    },
+    {
+     "title": "Police arrest politician's son in killing of 4 protesting farmers (CBC)",
+     "url": "https://www.cbc.ca/news/world/india-politician-son-farmers-protests-killing-1.6206524",
+     "outlet": "press"
+    },
+    {
+     "title": "New video shows SUV running over farmers walking on the road (Scroll.in)",
+     "url": "https://scroll.in/latest/1007111/lakhimpur-kheri-new-video-shows-suv-running-over-farmers-peacefully-walking-on-road",
+     "outlet": "press"
     }
    ],
    "confidence": "high",
@@ -5579,6 +5615,16 @@
      "title": "Baaz's Newsmakers of the Year 2021",
      "url": "https://www.baaznews.org/p/sikh-punjabi-2021-newsmakers-of-the-year",
      "outlet": "baaz"
+    },
+    {
+     "title": "After a year of massive protests, India will repeal the farm laws (NPR)",
+     "url": "https://www.npr.org/2021/11/19/1057133007/after-a-year-of-massive-protests-india-will-repeal-controversial-farm-laws",
+     "outlet": "press"
+    },
+    {
+     "title": "India formally repeals the three farm laws (CNN)",
+     "url": "https://edition.cnn.com/2021/12/02/india/india-farm-law-repeal-intl-hnk/index.html",
+     "outlet": "press"
     }
    ],
    "confidence": "high",
@@ -5655,6 +5701,16 @@
      "title": "Baaz's Newsmakers of 2022",
      "url": "https://www.baaznews.org/p/sikh-punjabi-2022-newsmakers-of-the-year",
      "outlet": "baaz"
+    },
+    {
+     "title": "Indian rapper Sidhu Moose Wala shot dead at 28 (NPR)",
+     "url": "https://www.npr.org/2022/05/30/1102089698/indian-rapper-sidhu-moose-wala-hot-dead-28",
+     "outlet": "press"
+    },
+    {
+     "title": "Bishnoi admits to masterminding the Moose Wala killing, police say (The Wire)",
+     "url": "https://thewire.in/government/lawrence-bishnoi-admits-to-masterminding-moosewala-killing-claim-punjab-police",
+     "outlet": "press"
     }
    ],
    "confidence": "high",
@@ -5898,6 +5954,11 @@
      "title": "Balpreet Singh: Sikhs Denounce India's Draconian Operation Against Amritpal Singh (Baaz)",
      "url": "https://www.baaznews.org/p/amritpal-singh-wpd-arrest-draconian",
      "outlet": "baaz"
+    },
+    {
+     "title": "Search for Amritpal Singh enters day 4, as does the statewide internet shutdown (The Wire)",
+     "url": "https://thewire.in/government/punjab-amritpal-singh-internet",
+     "outlet": "press"
     }
    ],
    "confidence": "high",
@@ -5936,6 +5997,16 @@
      "title": "Baaz News: Amritpal Singh's Courting Arrest Address Translated To English (Baaz)",
      "url": "https://www.baaznews.org/p/amritpal-singh-courting-arrest-translation",
      "outlet": "baaz"
+    },
+    {
+     "title": "Indian police have arrested a Sikh separatist leader who had been on the run (NPR)",
+     "url": "https://www.npr.org/2023/04/23/1171491378/indian-police-have-arrested-a-sikh-separatist-leader-who-had-been-on-the-run",
+     "outlet": "press"
+    },
+    {
+     "title": "India arrests Sikh leader on the run since last month (CBC)",
+     "url": "https://www.cbc.ca/news/world/india-arrest-1.6819741",
+     "outlet": "press"
     }
    ],
    "confidence": "high",
@@ -6515,6 +6586,11 @@
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
      "ref": "sikhri-special-report-2023",
      "outlet": "sikhri"
+    },
+    {
+     "title": "Canada expels Indian diplomat over 'credible allegations' (CNN)",
+     "url": "https://www.cnn.com/2023/09/18/americas/canada-hardeep-singh-nijjar-india-intl/index.html",
+     "outlet": "press"
     }
    ],
    "confidence": "high",
@@ -6630,6 +6706,11 @@
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
      "ref": "sikhri-special-report-2023",
      "outlet": "sikhri"
+    },
+    {
+     "title": "Statement on the expulsion of Canadian diplomats by the Government of India (Global Affairs Canada)",
+     "url": "https://www.canada.ca/en/global-affairs/news/2023/10/statement-on-expulsion-of-canadian-diplomats-by-the-government-of-india.html",
+     "outlet": "press"
     }
    ],
    "confidence": "high",
@@ -6669,6 +6750,11 @@
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
      "ref": "sikhri-special-report-2023",
      "outlet": "sikhri"
+    },
+    {
+     "title": "Trudeau 'not looking to escalate' as India tells 41 Canadian diplomats to leave (CBC)",
+     "url": "https://www.cbc.ca/news/politics/india-canada-expel-diplomats-escalate-1.6984817",
+     "outlet": "press"
     }
    ],
    "confidence": "high",
@@ -7144,6 +7230,11 @@
      "title": "Kapil Sharma Cafe Shooting (Baaz)",
      "url": "https://www.baaznews.org/p/kapil-sharma-cafe-shooting-kaps-cafe",
      "outlet": "baaz"
+    },
+    {
+     "title": "Special bulletin on money laundering associated with extortion directed at Canada's South Asian diaspora (FINTRAC)",
+     "url": "https://fintrac-canafe.canada.ca/intel/bulletins/csad-dsac-eng",
+     "outlet": "press"
     }
    ],
    "confidence": "high",
@@ -7217,6 +7308,16 @@
      "title": "Bishnoi Gang Terrorist Designation A Partial Victory (Baaz)",
      "url": "https://www.baaznews.org/p/bishnoi-gang-terrorist-gang-terrorist-designation",
      "outlet": "baaz"
+    },
+    {
+     "title": "Government of Canada lists the Bishnoi Gang as a terrorist entity (Public Safety Canada)",
+     "url": "https://www.canada.ca/en/public-safety-canada/news/2025/09/government-of-canada-lists-the-bishnoi-gang-as-a-terrorist-entity.html",
+     "outlet": "press"
+    },
+    {
+     "title": "Federal government lists Bishnoi Gang as terrorist entity (CBC)",
+     "url": "https://www.cbc.ca/news/politics/bishnoi-gang-listed-as-terrorist-entity-1.7646153",
+     "outlet": "press"
     }
    ],
    "confidence": "high",
@@ -7253,6 +7354,16 @@
      "title": "Jagtar Singh Johal: The British Citizen That Britain Has Forgotten (Baaz)",
      "url": "https://www.baaznews.org/p/jagtar-singh-johal-british-citizen-forgotten",
      "outlet": "baaz"
+    },
+    {
+     "title": "UN experts warn Johal's prolonged detention amounts to psychological torture (OHCHR)",
+     "url": "https://www.ohchr.org/en/press-releases/2026/04/india-un-experts-warn-jagtar-singh-johals-prolonged-detention-amounts",
+     "outlet": "press"
+    },
+    {
+     "title": "The imprisonment of Jagtar Singh Johal (House of Commons Library)",
+     "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2023-0010/",
+     "outlet": "press"
     }
    ],
    "confidence": "medium",
@@ -9118,7 +9229,7 @@
    "id": "baaz",
    "name": "Baaz News",
    "note": "Independent Sikh and Panjabi diaspora reporting, including its own investigations.",
-   "count": 65
+   "count": 77
   },
   {
    "id": "scholarship",
@@ -9130,7 +9241,7 @@
    "id": "press",
    "name": "Press & official",
    "note": "Mainstream news reporting and statements by governments, courts and inquiries.",
-   "count": 6
+   "count": 28
   }
  ]
 }

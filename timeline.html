@@ -13,7 +13,7 @@
 <!-- ASSET VERSION: bump this token in BOTH places below (the stylesheet href and
      the timeline-data.json fetch) whenever timeline.css or timeline-data.json
      changes, otherwise browsers keep serving the previously cached copy. -->
-<link rel="stylesheet" href="timeline.css?v=20260803e">
+<link rel="stylesheet" href="timeline.css?v=20260803f">
 </head>
 <body>
 <div class="hud-sweep" aria-hidden="true"></div>
@@ -237,7 +237,7 @@
 
   let DATA;
   try {
-    const res = await fetch('timeline-data.json?v=20260803e');
+    const res = await fetch('timeline-data.json?v=20260803f');
     if (!res.ok) throw new Error('HTTP ' + res.status);
     DATA = await res.json();
   } catch (err) {
@@ -663,7 +663,16 @@
           // A print work with no online copy is still a citation - it just is
           // not a link. Rendering it as one would promise a page that is not there.
           const a = document.createElement(s.url ? 'a' : 'span');
-          if (s.url){ a.href = s.url; a.target = '_blank'; a.rel = 'noopener'; }
+          if (s.url){
+            // Prefer the Perma.cc capture. Small outlets go down, and one of the
+            // ones this chronicle leans on has been the target of a documented
+            // campaign to get its reporting deleted. The live URL stays visible
+            // in the tooltip so the original is never hidden.
+            a.href = s.perma || s.url;
+            a.target = '_blank'; a.rel = 'noopener';
+            a.dataset.live = s.url;
+            if (s.perma){ a.classList.add('archived'); a.title = 'Archived copy · original: ' + s.url; }
+          }
           else a.className = 'offline';
           a.textContent = s.title.length > 60 ? s.title.slice(0,57) + '…' : s.title;
           if (s.ref) attachRef(a, s.ref);
