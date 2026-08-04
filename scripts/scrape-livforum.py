@@ -14,6 +14,15 @@ time, a real delay between them, and it stops the moment the site says no.
     python3 scripts/scrape-livforum.py --render        # for client-rendered pages
     python3 scripts/scrape-livforum.py --limit 10 --delay 3
 
+    The file needs nothing beside it: the 106 known digest URLs are built in,
+    so downloading this one script on its own and running it works. A
+    livforum-urls.txt next to it, or --urls FILE, overrides the built-in list.
+
+    On macOS, a python.org build has no CA bundle and every request fails with
+    CERTIFICATE_VERIFY_FAILED. The script looks for a bundle (certifi, then the
+    system ones) before giving up, and tells you how to fix it if it cannot
+    find one. --insecure skips verification when nothing else is available.
+
     Output
     ------
     scripts/livforum-corpus.jsonl - one record per digest:
@@ -48,7 +57,7 @@ time, a real delay between them, and it stops the moment the site says no.
     Anything still thin after that is reported at the end by URL, so nothing
     fails quietly.
 """
-import argparse, html, json, os, re, sys, time
+import argparse, html, json, os, re, ssl, sys, time
 import urllib.error, urllib.parse, urllib.request
 from datetime import datetime, timezone
 from html.parser import HTMLParser
@@ -78,6 +87,50 @@ MONTHS = ('january february march april may june july august september '
 
 
 # ------------------------------------------------------------------ fetching
+# A python.org build of Python on macOS ships with no CA bundle of its own and
+# does not read the system keychain, so every https request fails with
+# CERTIFICATE_VERIFY_FAILED until somebody runs Install Certificates.command.
+# Rather than make that a prerequisite, look for a bundle in the usual places.
+def ssl_context(insecure=False):
+    if insecure:
+        ctx = ssl.create_default_context()
+        ctx.check_hostname = False
+        ctx.verify_mode = ssl.CERT_NONE
+        return ctx
+    try:
+        import certifi                                  # optional dependency
+        return ssl.create_default_context(cafile=certifi.where())
+    except Exception:
+        pass
+    for path in ('/etc/ssl/cert.pem',                   # macOS system bundle
+                 '/opt/homebrew/etc/ca-certificates/cert.pem',
+                 '/usr/local/etc/openssl@3/cert.pem',
+                 '/usr/local/etc/openssl@1.1/cert.pem',
+                 '/etc/ssl/certs/ca-certificates.crt',  # debian/ubuntu
+                 '/etc/pki/tls/certs/ca-bundle.crt'):   # fedora/rhel
+        if os.path.exists(path):
+            try:
+                return ssl.create_default_context(cafile=path)
+            except Exception:
+                continue
+    return ssl.create_default_context()                 # whatever python has
+
+
+CTX = None                                              # set once in main()
+
+CERT_HELP = """
+  TLS certificate verification failed, which usually means this Python has no
+  CA bundle rather than anything being wrong with the site. Pick one:
+
+      pip3 install certifi                 # simplest; the script finds it
+      "/Applications/Python 3.x/Install Certificates.command"   # macOS installer
+      python3 scripts/scrape-livforum.py --insecure             # last resort
+
+  --insecure skips verification entirely. Only reasonable here because the
+  digests are public pages whose text is checked against other sources anyway.
+"""
+
+
 def get(url, timeout=30, tries=4):
     """One GET, with backoff. Returns (status, text). Never raises on 4xx/5xx."""
     req = urllib.request.Request(url, headers={
@@ -88,7 +141,7 @@ def get(url, timeout=30, tries=4):
     delay = 2
     for attempt in range(tries):
         try:
-            with urllib.request.urlopen(req, timeout=timeout) as r:
+            with urllib.request.urlopen(req, timeout=timeout, context=CTX) as r:
                 raw = r.read()
                 enc = r.headers.get_content_charset() or 'utf-8'
                 return r.status, raw.decode(enc, 'replace')
@@ -98,11 +151,19 @@ def get(url, timeout=30, tries=4):
                 time.sleep(delay); delay *= 2; continue
             return e.code, ''
         except Exception as e:                       # DNS, TLS, timeout, reset
+            # a missing CA bundle will not fix itself on the next try, and
+            # retrying it four times per URL just hides the real problem
+            if 'CERTIFICATE_VERIFY_FAILED' in str(e):
+                raise CertError(str(e))
             if attempt < tries - 1:
                 time.sleep(delay); delay *= 2; continue
             print(f'    ! {type(e).__name__}: {e}', file=sys.stderr)
             return 0, ''
     return 0, ''
+
+
+class CertError(Exception):
+    """Raised instead of retrying when the machine has no usable CA bundle."""
 
 
 class Renderer:
@@ -325,16 +386,146 @@ def page_date(doc):
 
 
 # ----------------------------------------------------------------- discovery
-def seeds():
-    out = {}
-    if os.path.exists(SEED):
-        for line in open(SEED):
+# The 106 digests known as of July 2026, as "date slug". Embedded so the
+# script works on its own when downloaded without livforum-urls.txt beside
+# it; the file, if present, wins, and the crawler finds anything newer.
+EMBEDDED_SEEDS = """\
+2024-09-04 digest/akal-takht-declares-sukhbir-singh-badal-guilty-of-religious-misconduct
+2024-09-11 digest/panjabs-fiscal-health-deteriorates-in-22-23-law-passed-against-illegal-colonies
+2024-09-18 digest/rahul-gandhi-visits-us-remark-on-sikhs-kicks-up-furore
+2024-09-25 digest/cm-mann-reshuffles-cabinet-amid-protests-haryana-election-campaign
+2024-10-02 digest/panjab-cm-recovers-panchayat-elections-announced
+2024-10-09 digest/paddy-procurement-woes
+2024-10-16 digest/diplomatic-fracas-as-canada-names-verma-person-of-interest-in-nijjar-killing
+2024-10-23 digest/india-claims-arrest-of-ex-raw-officer-hindu-group-lobbying-in-us
+2024-10-30 digest/india-china-opt-for-border-conflict-resolution-us-raises-concern-on-pannun-plot
+2024-11-06 digest/canada-accuses-indias-home-minister-of-targeting-sikhs
+2024-11-13 digest/trudeau-condemns-brampton-hindu-sikh-clashes-arrests-made
+2024-11-20 digest/panjab-leaders-unite-against-chandigarh-land-allocation-to-haryana
+2024-11-27 digest/panjab-by-polls-aap-wins-3-inc-wins-1
+2024-12-04 digest/badal-publicly-confesses-mistakes-late-cm-badals-faqr-e-qaum-revoked
+2024-12-11 digest/dallewals-health-worsens-haryana-police-thwart-2-attempts-to-march-to-delhi
+2024-12-18 digest/police-thwarts-3rd-attempt-by-farmers-to-delhi-dallewal-critical
+2024-12-25 digest/sad-misses-akal-takht-deadline-sgpc-suspends-giani-harpreet-singh
+2025-01-01 digest/former-indian-pm-manmohan-singh-dies-leaves-behind-a-mixed-legacy
+2025-01-08 digest/two-massive-mahapanchayats-signs-of-solidarity-between-farmers-unions
+2025-01-14 reports/panjab-agrarian-crisis-2025
+2025-01-15 digest/uapa-on-amritpal-his-father-launches-political-party
+2025-01-22 digest/independents-are-key-winners-in-haryana-gurdwara-elections
+2025-01-29 digest/panjab-ranks-18th-among-indian-states-on-fiscal-health-index
+2025-02-05 digest/indian-media-misreads-canadian-report-absolves-india-in-nijjar-killing-case
+2025-02-12 digest/sgpc-removes-takht-damdama-sahib-jathedar-giani-harpreet-singh
+2025-02-19 digest/delhi-court-convicts-sajjan-kumar-for-1984-sikh-killings
+2025-02-26 digest/delhi-court-sentences-sajjan-kumar-to-double-life-imprisonment
+2025-03-04 digest/panjab-govt-rejects-draft-npfam-skm-lauds-move
+2025-03-12 digest/sgpc-removes-takht-jathedars-sikh-community-outraged
+2025-03-18 digest/dhami-withdraws-resignation-damdami-taksal-opposes-jathedar-removal
+2025-03-25 digest/cm-mann-betrays-farmers-leaders-police-evicts-protesters
+2025-03-26 reports/panjab-cordon-search-operations-in-last-3-years
+2025-04-01 digest/panjabs-budget-presented-total-liabilities-estimated-at-usd-44-2b
+2025-04-08 digest/trump-imposes-reciprocal-tariff-panjab-basmati-farmers-hit
+2025-04-15 digest/badal-returns-as-sad-president
+2025-04-22 digest/panjab-extends-mp-amritpal-singhs-nsa-detention-by-1-year
+2025-04-29 digest/kashmir-pahalgam-attack-reminds-sikhs-of-chittisinghpora-massacre
+2025-05-06 digest/panjab-assembly-guards-waters-but-resolutions-leave-much-desired
+2025-05-13 digest/trump-announces-indo-pak-ceasefire-pre-empts-modis-address
+2025-05-20 digest/india-to-send-multi-nation-delegations-us-to-tax-nri-remittances
+2025-05-27 digest/akal-takht-pardons-dhadrianwale-takhts-challenge-each-others-authority
+2025-06-03 digest/bjp-offers-tribute-to-operation-blue-star-martyrs-later-deletes-post
+2025-06-10 digest/blue-star-anniversary-peaceful-giani-gargajj-refrains-from-making-speech
+2025-06-17 digest/canada-modi-attends-g7-summit-jagmeet-faced-threats
+2025-06-24 digest/arora-wins-panjabs-ludhiana-west-sad-does-not-gain-voter-confidence
+2025-07-01 digest/sad-leader-majithia-arrested-opposition-cries-foul
+2025-07-03 reports/panjab-river-waters-2025
+2025-07-08 digest/akal-takht-reverses-patna-takht-decision-badal-detained
+2025-07-15 digest/cm-mann-proposes-chenab-water-for-panjab
+2025-07-23 digest/sad-announces-tarn-taran-by-poll-candidate
+2025-07-30 digest/direct-affront-to-sikhi-says-dhami-on-guru-teghbahadars-anniversary-event
+2025-08-06 digest/trump-says-india-will-face-25-tariff-plus-penalty-for-trading-with-russia
+2025-08-12 digest/farmers-win-panjab-withdraws-land-pooling-policy
+2025-08-20 digest/sisodias-remarks-trigger-political-storm-in-panjab
+2025-08-26 digest/flood-situation-grim-in-panjab-red-alert-sounded
+2025-09-02 digest/panjab-flood-toll-29-lives-lost-16k-people-evacuated-300k-acres-crops-destroyed
+2025-09-09 digest/panjab-flood-toll-51-lives-lost-387k-people-displaced-528k-acres-crops-destroyed
+2025-09-16 digest/india-bars-sikhs-from-visiting-nanakana-sahib-akal-takht-website-for-flood-relief
+2025-09-22 reports/2025-panjab-floods-relief-rebuilding
+2025-09-23 digest/indian-supreme-court-asks-states-to-frame-rules-for-anand-marriage-act
+2025-09-30 digest/panjab-passes-resolution-blasting-india-over-floods
+2025-10-07 digest/india-allows-sikhs-to-visit-nankana-sahib-with-caveats
+2025-10-14 digest/veteran-inc-leader-chidambaram-says-operation-blue-star-was-wrong
+2025-10-21 digest/dig-bhullar-arrest-shatters-aaps-anti-corruption-image
+2025-10-28 digest/sikh-groups-ratify-jathedar-gargajj-dsgmc-sacks-former-presidents
+2025-11-04 digest/bjp-celebrates-patels-birthday-as-unity-day-on-sikh-genocide-anniversary
+2025-11-11 digest/pu-senate-election-demand-spirals-into-panjab-staking-claim-on-chandigarh
+2025-11-18 digest/aap-wins-tarn-taran-sad-gets-another-chance
+2025-11-25 digest/on-guru-teghbahadars-350th-martyrdom-day-panjab-declares-holy-cities
+2025-12-02 digest/panjab-university-students-win-senate-elections-notified
+2025-12-09 digest/panjab-district-block-polls-on-14-dec
+2025-12-16 digest/ngt-issues-notice-on-panjab-floods-ed-attaches-malbros-properties
+2025-12-23 digest/vb-g-ram-g-act-replaces-mgnrega-opposition-cries-foul
+2025-12-30 digest/sikhs-observe-sahibzade-shahidi-sabha-guru-gobind-singh-parkash-purab
+2026-01-06 digest/akal-takht-summons-panjab-cm-mann
+2026-01-13 digest/sad-aap-bjp-to-flex-muscle-on-maghi-mela
+2026-01-20 digest/panjab-cm-appears-at-akal-takht
+2026-01-27 digest/delhi-court-acquits-sajjan-kumar-in-4th-1984-sikh-genocide-case
+2026-02-03 digest/pm-modi-visits-dera-sachkhand-ballan-bjp-wins-chandigarh-mayoral-elections
+2026-02-10 digest/trump-dictates-us-india-trade-deal-panjab-will-be-hugely-impacted
+2026-02-17 digest/gupta-pleads-guilty-punctures-indias-foreign-home-ministrys-long-denial
+2026-02-24 digest/34-encounters-in-3-months-in-panjab-policemen-found-dead
+2026-03-03 digest/israel-us-launch-operation-epic-fury-khamenei-dead-iran-bombs-us-bases
+2026-03-10 digest/iran-effectively-closes-strait-of-hormuz-panjab-affected
+2026-03-17 digest/india-walks-a-tight-rope-with-iran-panjab-stops-urea-production
+2026-03-24 digest/irans-leader-visits-delhi-gurdwara-war-impacts-students-farmers
+2026-03-27 reports/indias-federal-agency-courts-judgements-1992-1995-extrajudicial-killings-in-panjab
+2026-03-31 digest/iran-allows-india-crude-supply-gas-scarcity-pauses-industry-in-panjab
+2026-04-07 digest/war-causes-migrant-labor-exodus-siropa-shortage
+2026-04-14 digest/panjab-assembly-passes-anti-sacrilege-bill-governor-nod-awaited
+2026-04-21 digest/opposition-defeats-bjps-plan-to-amend-womens-bill-bring-in-delimitation
+2026-04-28 digest/seven-aap-mps-including-pathak-and-chadha-defect-to-bjp
+2026-05-05 digest/panjab-opposition-targets-cm-for-appearing-drunk-in-assembly
+2026-05-12 digest/twin-blasts-rock-panjab-cm-mann-blames-bjp
+2026-05-19 digest/sir-begins-in-panjab-civic-polls-announced
+2026-05-26 digest/panjab-civic-polls-through-ballot-paper-amid-sporadic-violence
+2026-06-02 digest/aap-wins-48-wards-in-civic-polls
+2026-06-09 digest/operation-blue-star-marked-peacefully-at-akal-takht-bjp-leader-at-taksal-hq
+2026-06-16 digest/akal-takht-declares-cm-mann-gurus-betrayer-anti-khalsa-panth
+2026-06-23 digest/opposition-presents-evidence-against-cm-mann-demands-resignation
+2026-06-25 reports/india-eu-free-trade-agreement-how-can-panjab-leverage-it
+2026-06-30 digest/akal-takht-lays-bare-gaps-in-how-anti-sacrilege-law-was-passed
+2026-07-07 digest/satluj-earlier-punjab-95-abruptly-withdrawn-from-ott-after-2-day-run
+2026-07-14 digest/movie-satluj-floods-panjabs-villages-indian-cities-diaspora
+2026-07-21 digest/modi-visits-panjab-criticizes-opposition-farmers-to-protest-indo-us-fta
+2026-07-28 digest/gen-z-protest-education-minister-pradhan-resigns-sikhs-earn-praise
+"""
+
+
+def seeds(path=None):
+    """The URL list, from --urls, from the file beside the script, or built in.
+
+    Returns ({url: iso_date}, where_it_came_from).
+    """
+    src = path or SEED
+    if os.path.exists(src):
+        out = {}
+        for line in open(src):
             line = line.strip()
             if not line or line.startswith('#'):
                 continue
+            # the file is "url<TAB>date"; a bare list of URLs works too
             url, _, date = line.partition('\t')
-            out[url.rstrip('/')] = date.strip()
-    return out
+            if url.startswith(('http://', 'https://')):
+                out[url.rstrip('/')] = date.strip()
+        if out:
+            return out, os.path.basename(src)
+        print(f'{src} held no URLs; using the built-in list instead')
+    elif path:
+        sys.exit(f'no such file: {path}')
+
+    out = {}
+    for line in EMBEDDED_SEEDS.strip().splitlines():
+        date, _, rel = line.partition(' ')
+        out[f'https://{HOST}/{rel}'] = date
+    return out, 'the built-in list'
 
 
 def looks_like_article(u):
@@ -404,10 +595,21 @@ def main():
     ap.add_argument('--thin-only', action='store_true', help='retry only the thin ones')
     ap.add_argument('--no-crawl', action='store_true', help='use the seed list alone')
     ap.add_argument('--max-crawl', type=int, default=40, help='listing pages to walk')
+    ap.add_argument('--urls', help='a file of URLs to use instead of the built-in list')
+    ap.add_argument('--out', help='where to write the corpus (default: beside this script)')
+    ap.add_argument('--insecure', action='store_true',
+                    help='skip TLS verification (only if certs cannot be fixed)')
     args = ap.parse_args()
 
-    seed = seeds()
-    print(f'{len(seed)} seed URLs from {os.path.basename(SEED)}')
+    global CTX, OUT
+    CTX = ssl_context(args.insecure)
+    if args.insecure:
+        print('! TLS verification is OFF for this run')
+    if args.out:
+        OUT = os.path.abspath(args.out)
+
+    seed, where = seeds(args.urls)
+    print(f'{len(seed)} seed URLs from {where}')
 
     renderer = Renderer() if args.render else None
     fetch = (lambda u: renderer.get(u)) if renderer else (lambda u: get(u))
@@ -418,7 +620,10 @@ def main():
             print('(--dry-run skips the crawl; run without it to discover more)')
     else:
         print('crawling for digests not in the seed list ...')
-        urls = crawl(seed.keys(), args.max_crawl, args.delay, fetch)
+        try:
+            urls = crawl(seed.keys(), args.max_crawl, args.delay, fetch)
+        except CertError as e:
+            sys.exit(f'\n  {e}\n{CERT_HELP}')
         new = [u for u in urls if u not in seed]
         print(f'  {len(urls)} total, {len(new)} newly discovered')
 
@@ -442,7 +647,12 @@ def main():
     fresh = []
     for i, u in enumerate(todo, 1):
         print(f'[{i}/{len(todo)}] {u}')
-        status, doc = fetch(u)
+        try:
+            status, doc = fetch(u)
+        except CertError as e:
+            if renderer:
+                renderer.close()
+            sys.exit(f'\n  {e}\n{CERT_HELP}')
         if status != 200 or not doc:
             print(f'    ! HTTP {status}')
             if status in (401, 403, 429):
@@ -478,6 +688,12 @@ def main():
 
     # --- boilerplate, removed by frequency rather than by pattern -----------
     all_recs = list(done.values()) + fresh
+    if not all_recs:
+        # nothing was fetched and nothing was saved before: write no file at
+        # all rather than leaving an empty one that looks like a finished run
+        sys.exit('\nnothing was fetched, so no corpus was written.\n'
+                 'Check the errors above; --dry-run lists the targets without '
+                 'touching the network.')
     counts = {}
     for r in all_recs:
         for p in set(r.get('paragraphs') or []):

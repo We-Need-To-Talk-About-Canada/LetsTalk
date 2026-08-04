@@ -21,9 +21,19 @@ python3 scripts/scrape-livforum.py --delay 2     # fetch; resumable
 python3 scripts/scrape-livforum.py --render --thin-only   # for JS-rendered pages
 ```
 
-Seeds come from `livforum-urls.txt` (106 digests, Sept 2024 – July 2026); the
-crawler also walks the sitemap and the listing pages for anything newer. Output
-is `livforum-corpus.jsonl`, one record per digest, with a `quality` field so
+The script is self-contained: the 106 known digest URLs (Sept 2024 – July 2026)
+are built into it, so downloading the single `.py` and running it from anywhere
+works. `livforum-urls.txt` beside it, or `--urls FILE`, overrides that list, and
+the crawler walks the sitemap and listing pages for anything newer.
+
+On macOS a python.org build ships no CA bundle and every https request dies
+with `CERTIFICATE_VERIFY_FAILED`. The script looks for one — `certifi` first,
+then the system bundles — and if it finds none it stops with the fix rather
+than retrying: `pip3 install certifi`, or the `Install Certificates.command`
+that came with the Python installer, or `--insecure` as a last resort.
+
+Output is `livforum-corpus.jsonl` (`--out` to move it), one record per digest,
+with a `quality` field so
 that a page which failed to give up its body is reported rather than silently
 saved empty. The site's subscribe blurb is removed by frequency — any paragraph
 appearing on more than 40% of pages is furniture — so no hand-written selector
