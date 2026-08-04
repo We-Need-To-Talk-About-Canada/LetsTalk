@@ -1847,6 +1847,11 @@
      "title": "Singh Sabha Movement - A Reviv… (Gurdarshan Singh Dhillon)",
      "ref": "dhillon-singh-sabha-revival",
      "outlet": "scholarship"
+    },
+    {
+     "title": "Indian Supreme Court Asks States to Frame Rules for Anand Marriage Act",
+     "url": "https://livforum.org/digest/indian-supreme-court-asks-states-to-frame-rules-for-anand-marriage-act",
+     "outlet": "liv"
     }
    ],
    "confidence": "high",
@@ -3367,6 +3372,11 @@
      "ref": "sikhri-attack-on-political-sikhi",
      "url": "https://sikhri.org/articles/the-attack-on-political-sikhi",
      "outlet": "sikhri"
+    },
+    {
+     "title": "Veteran INC Leader Chidambaram says 'Operation Blue Star' was Wrong",
+     "url": "https://livforum.org/digest/veteran-inc-leader-chidambaram-says-operation-blue-star-was-wrong",
+     "outlet": "liv"
     }
    ],
    "confidence": "high",
@@ -4473,6 +4483,11 @@
      "title": "Protecting the Killers: A Policy of Impunity in Punjab, India (Human Rights Watch, 2007)",
      "url": "https://www.hrw.org/report/2007/10/17/protecting-killers/policy-impunity-punjab-india",
      "outlet": "press"
+    },
+    {
+     "title": "India's Federal Agency Court's Judgements: 1992-1995 Extrajudicial Killings in Panjab",
+     "url": "https://livforum.org/reports/indias-federal-agency-courts-judgements-1992-1995-extrajudicial-killings-in-panjab",
+     "outlet": "liv"
     }
    ],
    "confidence": "medium",
@@ -5204,6 +5219,11 @@
      "title": "2015 Guru Granth Sahib Desecration Controversy (Encyclopedia MDPI)",
      "url": "https://encyclopedia.pub/entry/37381",
      "outlet": "press"
+    },
+    {
+     "title": "Panjab Assembly Passes Anti-Sacrilege Bill, Governor Nod Awaited",
+     "url": "https://livforum.org/digest/panjab-assembly-passes-anti-sacrilege-bill-governor-nod-awaited",
+     "outlet": "liv"
     }
    ],
    "confidence": "high",
@@ -6356,6 +6376,11 @@
      "title": "India arrests Sikh leader on the run since last month (CBC)",
      "url": "https://www.cbc.ca/news/world/india-arrest-1.6819741",
      "outlet": "press"
+    },
+    {
+     "title": "Panjab Extends MP Amritpal Singh's NSA Detention by 1 Year",
+     "url": "https://livforum.org/digest/panjab-extends-mp-amritpal-singhs-nsa-detention-by-1-year",
+     "outlet": "liv"
     }
    ],
    "confidence": "high",
@@ -6608,6 +6633,11 @@
      "url": "https://sikhri.org/articles/sikhs-panjab-india-the-diaspora-locating-the-current-crisis",
      "ref": "sikhri-special-report-2023",
      "outlet": "sikhri"
+    },
+    {
+     "title": "Diplomatic Fracas as Canada Names Verma 'Person of Interest' in Nijjar Killing",
+     "url": "https://livforum.org/digest/diplomatic-fracas-as-canada-names-verma-person-of-interest-in-nijjar-killing",
+     "outlet": "liv"
     }
    ],
    "confidence": "high",
@@ -7694,6 +7724,59 @@
    "tier": "major"
   },
   {
+   "unique_id": "sajjan-kumar-convicted-2025",
+   "start_date": {
+    "year": 2025,
+    "month": 2,
+    "day": 25
+   },
+   "display_date": "February 25, 2025",
+   "text": {
+    "headline": "Sajjan Kumar is sentenced to life for two killings in November 1984",
+    "text": "A Rouse Avenue court convicted the former Congress MP on 12 February and sentenced him on 25 February for the murders of Jaswant Singh and his son Tarundeep Singh at Saraswati Vihar in Delhi on 1 November 1984. The court declined the death penalty, citing his conduct in jail, his ill health, his roots in society and the possibility of reform. He had already been serving life since surrendering on 31 December 2018 over the killing of five Sikhs at Raj Nagar. Survivors and relatives told reporters they welcomed the verdict but had wanted a death sentence. Forty years and four months after the killings, it is one of the few convictions the pogroms have produced."
+   },
+   "group": "Contemporary & Diaspora (2000-2026)",
+   "category": "Justice",
+   "media": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Tihar_Jail%2C_Delhi.jpg/1024px-Tihar_Jail%2C_Delhi.jpg",
+    "caption": "Tihar Jail, Delhi, where Sajjan Kumar has been held since surrendering in December 2018 — a photograph of the prison, not of him or of the proceedings.",
+    "credit": "Wikimedia Commons",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Tihar_Jail%2C_Delhi.jpg/480px-Tihar_Jail%2C_Delhi.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Tihar_Jail%2C_Delhi.jpg?width=1024"
+   },
+   "sources": [
+    {
+     "title": "Delhi court closes dark chapter with life sentence for Sajjan Kumar (The Print)",
+     "url": "https://theprint.in/judiciary/delhi-court-closes-dark-chapter-with-life-sentence-for-sajjan-kumar-in-1984-anti-sikh-riots-case/2510987/",
+     "outlet": "press"
+    },
+    {
+     "title": "Sajjan Kumar gets life imprisonment in murder case (The Tribune)",
+     "url": "https://www.tribuneindia.com/news/punjab/1984-anti-sikh-riots-sajjan-kumar-gets-life-imprisonment-in-murder-case/",
+     "outlet": "press"
+    },
+    {
+     "title": "'Welcome verdict, but want death sentence': survivors and kin on the life term (The Tribune)",
+     "url": "https://www.tribuneindia.com/news/india/welcome-verdict-but-want-death-sentence-1984-anti-sikh-riots-survivors-kin-on-sajjan-kumars-life-term/",
+     "outlet": "press"
+    },
+    {
+     "title": "Delhi Court Sentences Sajjan Kumar to Double Life Imprisonment",
+     "url": "https://livforum.org/digest/delhi-court-sentences-sajjan-kumar-to-double-life-imprisonment",
+     "outlet": "liv"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "New Delhi, India",
+    "region": "India",
+    "lat": 28.61,
+    "lon": 77.21
+   },
+   "tier": "detail",
+   "parent": "anti-sikh-pogroms-nov-1984"
+  },
+  {
    "unique_id": "bc-extortion-wave-2025",
    "start_date": {
     "year": 2025,
@@ -7764,6 +7847,16 @@
      "title": "UK Punjabi diaspora rallies behind flood-hit Punjab (The Tribune)",
      "url": "https://www.tribuneindia.com/news/punjab/uk-punjabi-diaspora-rallies-behind-flood-hit-punjab-with-grassroots-initiatives",
      "outlet": "press"
+    },
+    {
+     "title": "Panjab Flood Toll: 51 Lives Lost, 387K People Displaced & 528K Acres Crops Destroyed",
+     "url": "https://livforum.org/digest/panjab-flood-toll-51-lives-lost-387k-people-displaced-528k-acres-crops-destroyed",
+     "outlet": "liv"
+    },
+    {
+     "title": "Panjab Passes Resolution Blasting India over Floods",
+     "url": "https://livforum.org/digest/panjab-passes-resolution-blasting-india-over-floods",
+     "outlet": "liv"
     }
    ],
    "confidence": "medium",
@@ -7870,6 +7963,94 @@
    "tier": "major"
   },
   {
+   "unique_id": "sajjan-kumar-acquitted-2026",
+   "start_date": {
+    "year": 2026,
+    "month": 1,
+    "day": 27
+   },
+   "display_date": "January 2026",
+   "text": {
+    "headline": "The same courts acquit Sajjan Kumar in a fourth 1984 case",
+    "text": "Eleven months after the life sentence, a Delhi court acquitted Sajjan Kumar in the Janakpuri violence case. The two outcomes sit together as the record of what four decades of prosecution have produced: convictions in some cases, acquittals in others, and for most families no finding at all."
+   },
+   "group": "Contemporary & Diaspora (2000-2026)",
+   "category": "Justice",
+   "media": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Supreme_Court_of_India%2C_inside_bulidings_01.jpg/1024px-Supreme_Court_of_India%2C_inside_bulidings_01.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Supreme_Court_of_India%2C_inside_bulidings_01.jpg/480px-Supreme_Court_of_India%2C_inside_bulidings_01.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Supreme_Court_of_India%2C_inside_bulidings_01.jpg?width=1024",
+    "caption": "Inside the Supreme Court of India — representative image of the Indian courts, not of the Delhi court that returned this acquittal.",
+    "credit": "Wikimedia Commons",
+    "kind": "place"
+   },
+   "sources": [
+    {
+     "title": "Delhi court acquits Sajjan Kumar in the Janakpuri violence case (The Print)",
+     "url": "https://theprint.in/india/1984-anti-sikh-riots-delhi-court-acquits-sajjan-kumar-in-janakpuri-violence-case/2833671/",
+     "outlet": "press"
+    },
+    {
+     "title": "Delhi Court Acquits Sajjan Kumar in 4th 1984 Sikh Genocide Case",
+     "url": "https://livforum.org/digest/delhi-court-acquits-sajjan-kumar-in-4th-1984-sikh-genocide-case",
+     "outlet": "liv"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "New Delhi, India",
+    "region": "India",
+    "lat": 28.61,
+    "lon": 77.21
+   },
+   "tier": "detail",
+   "parent": "anti-sikh-pogroms-nov-1984"
+  },
+  {
+   "unique_id": "gupta-guilty-plea-2026",
+   "start_date": {
+    "year": 2026,
+    "month": 2,
+    "day": 17
+   },
+   "display_date": "February 2026",
+   "text": {
+    "headline": "Nikhil Gupta pleads guilty to plotting the assassination",
+    "text": "Extradited from the Czech Republic to New York, Gupta pleaded guilty to plotting to kill the Sikh American attorney Gurpatwant Singh Pannun. The plea is an admission inside a US court of the plot India's foreign and home ministries had denied, and it sits alongside the separate charges against Vikash Yadav, the Cabinet Secretariat officer the Justice Department says directed it."
+   },
+   "group": "Contemporary & Diaspora (2000-2026)",
+   "category": "Transnational Repression",
+   "media": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Daniel_Patrick_Moynihan_U.S._Courthouse%2C_Manhattan%2C_New_York_%287237347688%29.jpg/1024px-Daniel_Patrick_Moynihan_U.S._Courthouse%2C_Manhattan%2C_New_York_%287237347688%29.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Daniel_Patrick_Moynihan_U.S._Courthouse%2C_Manhattan%2C_New_York_%287237347688%29.jpg/480px-Daniel_Patrick_Moynihan_U.S._Courthouse%2C_Manhattan%2C_New_York_%287237347688%29.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Daniel_Patrick_Moynihan_U.S._Courthouse%2C_Manhattan%2C_New_York_%287237347688%29.jpg?width=1024",
+    "caption": "The Daniel Patrick Moynihan Courthouse in Manhattan, seat of the Southern District of New York where the plea was entered — not a photograph of the hearing.",
+    "credit": "Wikimedia Commons",
+    "kind": "place"
+   },
+   "sources": [
+    {
+     "title": "Indian national pleads guilty to plotting to assassinate a US citizen (US DOJ, SDNY)",
+     "url": "https://www.justice.gov/usao-sdny/pr/indian-national-pleads-guilty-plotting-assassinate-us-citizen-new-york-city",
+     "outlet": "press"
+    },
+    {
+     "title": "Gupta Pleads Guilty, Punctures India’s Foreign & Home Ministry’s Long Denial",
+     "url": "https://livforum.org/digest/gupta-pleads-guilty-punctures-indias-foreign-home-ministrys-long-denial",
+     "outlet": "liv"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "New York City, United States",
+    "region": "USA",
+    "lat": 40.71,
+    "lon": -74.01
+   },
+   "tier": "detail",
+   "parent": "us-doj-pannun-indictment-2023"
+  },
+  {
    "unique_id": "wso-hate-report-chaggar-50th-2026",
    "start_date": {
     "year": 2026,
@@ -7958,6 +8139,58 @@
    },
    "tier": "detail",
    "parent": "nijjar-assassination-2023"
+  },
+  {
+   "unique_id": "satluj-film-withdrawn-2026",
+   "start_date": {
+    "year": 2026,
+    "month": 7,
+    "day": 7
+   },
+   "display_date": "July 2026",
+   "text": {
+    "headline": "A film about Jaswant Singh Khalra is pulled from streaming after two days",
+    "text": "Satluj, made as Punjab '95, follows Jaswant Singh Khalra's documentation of secret cremations and his abduction and murder in 1995. Its director Honey Trehan and its star Diljit Dosanjh had refused to release it with the 127 cuts the Central Board of Film Certification demanded, and it had been pulled from the Toronto International Film Festival line-up in 2023 without explanation. It went up uncut on ZEE5 and was taken down on the Sunday night, two days later; the government justified the removal by saying the film could be exploited to draw support for the Khalistan movement before Panjab's elections. The Punjab and Haryana High Court dismissed a petition seeking its restoration. Volunteers then began showing it in village squares and gurdwara courtyards instead."
+   },
+   "group": "Contemporary & Diaspora (2000-2026)",
+   "category": "Culture",
+   "media": {
+    "caption": "A map of Amritsar district, where Khalra documented the cremations the film is about — not an image from the film.",
+    "credit": "Wikimedia Commons",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Map_of_Amritsar_District_%28F.6-10%29.jpg/1024px-Map_of_Amritsar_District_%28F.6-10%29.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Map_of_Amritsar_District_%28F.6-10%29.jpg/480px-Map_of_Amritsar_District_%28F.6-10%29.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_of_Amritsar_District_%28F.6-10%29.jpg?width=1024"
+   },
+   "sources": [
+    {
+     "title": "'Satluj' dropped from OTT: parties and SGPC slam 'censorship' (The Print)",
+     "url": "https://theprint.in/feature/satluj-dropped-from-ott-parties-and-sgpc-slam-censorship-dosanjh-says-bound-to-happen/2978913/",
+     "outlet": "press"
+    },
+    {
+     "title": "Removal of 'Satluj' triggers debate on Panjab's 'dark past' (The Tribune)",
+     "url": "https://www.tribuneindia.com/news/punjab/who-fears-punjabs-past-leaders-slam-removal-of-diljit-dosanjh-starrer-satluj/",
+     "outlet": "press"
+    },
+    {
+     "title": "High Court dismisses the plea seeking restoration of 'Satluj' on ZEE5 (The Tribune)",
+     "url": "https://www.tribuneindia.com/news/punjab/punjab-haryana-hc-dismisses-petition-seeking-restoration-of-diljit-dosanjh-starrer-satluj-on-zee5/",
+     "outlet": "press"
+    },
+    {
+     "title": "‘Satluj’, Earlier ‘Punjab ‘95’, Abruptly Withdrawn from OTT After 2-day Run",
+     "url": "https://livforum.org/digest/satluj-earlier-punjab-95-abruptly-withdrawn-from-ott-after-2-day-run",
+     "outlet": "liv"
+    }
+   ],
+   "confidence": "high",
+   "location": {
+    "place": "Panjab, India",
+    "region": "India",
+    "lat": 31.15,
+    "lon": 75.34
+   },
+   "tier": "major"
   }
  ],
  "persons": [
@@ -9792,7 +10025,13 @@
    "id": "press",
    "name": "Press & official",
    "note": "Mainstream news reporting and statements by governments, courts and inquiries.",
-   "count": 115
+   "count": 123
+  },
+  {
+   "id": "liv",
+   "name": "Liv Forum",
+   "note": "A weekly digest of analysis on Panjab and the global Sikh community.",
+   "count": 12
   }
  ],
  "person_categories": [
