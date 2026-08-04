@@ -13,7 +13,7 @@
 <!-- ASSET VERSION: bump this token in BOTH places below (the stylesheet href and
      the timeline-data.json fetch) whenever timeline.css or timeline-data.json
      changes, otherwise browsers keep serving the previously cached copy. -->
-<link rel="stylesheet" href="timeline.css?v=20260803g">
+<link rel="stylesheet" href="timeline.css?v=20260803h">
 </head>
 <body>
 <div class="hud-sweep" aria-hidden="true"></div>
@@ -158,7 +158,17 @@
 
   <!-- ============ CODEX VIEW ============ -->
   <section class="view" id="view-codex">
+    <div class="codex-bar">
+      <div class="cx-cats" id="cx-cats" role="group" aria-label="Filter profiles by category"></div>
+      <div class="cx-find">
+        <input id="cx-q" type="search" autocomplete="off" spellcheck="false"
+               placeholder="Filter by name or role&hellip;" aria-label="Filter profiles">
+        <button type="button" id="cx-clear" aria-label="Clear filter" hidden>&#10005;</button>
+      </div>
+    </div>
+    <p class="cx-note" id="cx-note"></p>
     <div class="codex-grid" id="codex-grid"></div>
+    <div class="q-empty" id="cx-empty" hidden>No profile matches that.</div>
   </section>
 
   <!-- ============ DOSSIER VIEW ============ -->
@@ -198,10 +208,14 @@
 
 <!-- person bio modal -->
 <div class="codex-modal" id="codex-modal">
-  <div class="codex-card-detail" id="codex-detail">
+  <div class="codex-card-detail" id="codex-detail" role="dialog" aria-modal="true" aria-labelledby="cd-name">
     <button class="cd-close" id="cd-close" aria-label="Close">&#10005;</button>
     <div class="cd-portrait" id="cd-portrait"></div>
     <div class="cd-body">
+      <div class="cd-head">
+        <span class="cd-cat" id="cd-cat"></span>
+        <a class="cd-anchor" id="cd-anchor" href="#" title="Copy a link to this profile">#</a>
+      </div>
       <div class="cd-name" id="cd-name"></div>
       <div class="cd-field" id="cd-years"></div>
       <div class="cd-field" id="cd-profession"></div>
@@ -210,6 +224,11 @@
         <div class="lbl">Appears In</div>
         <div class="related-people" id="cd-related"></div>
       </div>
+    </div>
+    <div class="cd-nav">
+      <button type="button" id="cd-prev">&#8592; <span></span></button>
+      <div class="cd-pos" id="cd-pos"></div>
+      <button type="button" id="cd-next"><span></span> &#8594;</button>
     </div>
   </div>
 </div>
@@ -237,7 +256,7 @@
 
   let DATA;
   try {
-    const res = await fetch('timeline-data.json?v=20260803g');
+    const res = await fetch('timeline-data.json?v=20260803h');
     if (!res.ok) throw new Error('HTTP ' + res.status);
     DATA = await res.json();
   } catch (err) {
@@ -872,18 +891,72 @@
     if (p.portrait && p.portrait.url) return [p.portrait];
     return [];
   }
+  // ---- codex browsing state ----
+  // Deliberately NOT persisted: a filter that survives a reload leaves someone
+  // wondering where half the profiles went. Within a session the active chip
+  // and the count line say exactly what is being shown.
+  const personCats = DATA.person_categories || [];
+  const catName = id => (personCats.find(c => c.id === id) || {}).name || '';
+  const slug = n => n.toLowerCase().replace(/\(.*?\)/g, '').replace(/[^a-z0-9]+/g, '-')
+                     .replace(/^-|-$/g, '');
+  let cxCat = 'all', cxQ = '';
+  const cxMatches = p => (cxCat === 'all' || p.category === cxCat)
+    && (!cxQ || (p.name + ' ' + (p.profession || '') + ' ' + (p.years || ''))
+                  .toLowerCase().includes(cxQ));
+  const cxList = () => persons.filter(cxMatches);
+
   function buildCodex(){
     codexBuilt = true;
+    const cats = $('cx-cats');
+    cats.innerHTML = '';
+    [{ id: 'all', name: 'All', count: persons.length, note: 'Everyone in the chronicle.' }]
+      .concat(personCats).forEach(c => {
+        const b = document.createElement('button');
+        b.type = 'button'; b.className = 'cx-cat'; b.dataset.cat = c.id;
+        b.title = c.note || '';
+        b.innerHTML = esc(c.name) + '<span class="n">' + c.count + '</span>';
+        b.addEventListener('click', () => { cxCat = c.id; renderCodex(); });
+        cats.appendChild(b);
+      });
+
+    const q = $('cx-q'), clear = $('cx-clear');
+    q.addEventListener('input', () => { cxQ = q.value.trim().toLowerCase(); renderCodex(); });
+    q.addEventListener('keydown', e => {
+      if (e.key === 'Escape'){ q.value = ''; cxQ = ''; renderCodex(); }
+    });
+    clear.addEventListener('click', () => { q.value = ''; cxQ = ''; q.focus(); renderCodex(); });
+    renderCodex();
+  }
+
+  function renderCodex(){
     const grid = $('codex-grid');
+    const list = cxList();
     grid.innerHTML = '';
-    persons.forEach(p => {
+    $('cx-cats').querySelectorAll('.cx-cat').forEach(b => {
+      const on = b.dataset.cat === cxCat;
+      b.classList.toggle('on', on);
+      b.setAttribute('aria-pressed', on ? 'true' : 'false');
+    });
+    $('cx-clear').hidden = !cxQ;
+    $('cx-empty').hidden = list.length > 0;
+    const cat = personCats.find(c => c.id === cxCat);
+    $('cx-note').textContent = list.length === persons.length
+      ? persons.length + ' profiles. Choose a group, or filter by name.'
+      : 'Showing ' + list.length + ' of ' + persons.length
+        + (cat ? ' — ' + cat.note : '') + (cxQ ? ' Matching “' + cxQ + '”.' : '');
+
+    list.forEach(p => {
       const gallery = personGallery(p);
-      const card = document.createElement('div');
+      const card = document.createElement('button');
+      card.type = 'button';
       card.className = 'codex-card';
       card.innerHTML = '<div class="portrait">'
           + '<div class="noimg fallback">&#9772;</div>'
           + (gallery.length > 1 ? '<span class="gcount">&#9635; ' + gallery.length + '</span>' : '')
-        + '</div><div class="cinfo"><div class="cname">' + esc(p.name) + '</div><div class="cyears">' + esc(p.years||'') + '</div></div>';
+          + '<span class="ccat">' + esc(catName(p.category)) + '</span>'
+        + '</div><div class="cinfo"><div class="cname">' + esc(p.name) + '</div>'
+        + '<div class="cyears">' + esc(p.years || '') + '</div>'
+        + '<div class="crole">' + esc(p.profession || '') + '</div></div>';
       const portrait = card.querySelector('.portrait');
       if (gallery.length){
         portrait.insertBefore(
@@ -892,14 +965,34 @@
       } else {
         portrait.classList.add('imgfail');
       }
-      card.addEventListener('click', () => openPerson(p.name));
+      card.addEventListener('click', () => openPerson(p.name, card));
       grid.appendChild(card);
     });
   }
 
-  function openPerson(name){
+  let cdReturn = null;             // the card to send focus back to on close
+  function openPerson(name, fromEl){
     const p = findPerson(name);
     if (!p) return;
+    if (fromEl !== undefined) cdReturn = fromEl;
+    // Walk within whatever the reader is currently looking at. If they opened a
+    // profile from an event rather than the grid, fall back to the whole list so
+    // prev/next still works.
+    const list = cxList().includes(p) ? cxList() : persons;
+    const at = list.indexOf(p);
+    $('cd-cat').textContent = catName(p.category);
+    $('cd-cat').className = 'cd-cat cat-' + p.category;
+    $('cd-pos').textContent = (at + 1) + ' / ' + list.length;
+    const setStep = (btn, target) => {
+      btn.disabled = !target;
+      btn.querySelector('span').textContent = target ? target.name : '';
+      btn.onclick = target ? () => openPerson(target.name) : null;
+    };
+    setStep($('cd-prev'), at > 0 ? list[at - 1] : null);
+    setStep($('cd-next'), at >= 0 && at < list.length - 1 ? list[at + 1] : null);
+    cdCurrent = p;
+    const anchor = $('cd-anchor');
+    anchor.setAttribute('href', '#who-' + slug(p.name));
     $('cd-name').textContent = p.name;
     $('cd-years').innerHTML = '<b>' + (p.years ? esc(p.years) : '') + '</b>';
     $('cd-profession').textContent = p.profession || '';
@@ -936,10 +1029,42 @@
       });
     } else { relWrap.hidden = true; }
     $('codex-modal').classList.add('show');
+    // the body is a class, not an id - reaching for $('cd-body') threw here and
+    // silently killed everything after it, including the hash update
+    const body = document.querySelector('#codex-detail .cd-body');
+    if (body) body.scrollTop = 0;
+    $('codex-detail').scrollTop = 0;
+    if (history.replaceState) history.replaceState(null, '', '#who-' + slug(p.name));
+    $('cd-close').focus();
   }
-  function closeModal(){ $('codex-modal').classList.remove('show'); }
+  let cdCurrent = null;
+  function closeModal(){
+    $('codex-modal').classList.remove('show');
+    cdCurrent = null;
+    if (cdReturn && document.contains(cdReturn)) cdReturn.focus();
+    cdReturn = null;
+  }
   $('cd-close').addEventListener('click', closeModal);
   $('codex-modal').addEventListener('click', e => { if (e.target.id === 'codex-modal') closeModal(); });
+  $('cd-anchor').addEventListener('click', e => {
+    e.preventDefault();
+    if (!cdCurrent) return;
+    const url = location.href.split('#')[0] + '#who-' + slug(cdCurrent.name);
+    const a = e.currentTarget;
+    if (navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(url).then(() => {
+        a.classList.add('copied');
+        setTimeout(() => a.classList.remove('copied'), 1400);
+      }, () => {});
+    }
+  });
+  // arrow keys walk the codex while a profile is open
+  document.addEventListener('keydown', e => {
+    if (!cdCurrent || !$('codex-modal').classList.contains('show')) return;
+    if ($('lightbox').classList.contains('show')) return;
+    if (e.key === 'ArrowRight' && !$('cd-next').disabled){ e.preventDefault(); $('cd-next').click(); }
+    if (e.key === 'ArrowLeft'  && !$('cd-prev').disabled){ e.preventDefault(); $('cd-prev').click(); }
+  });
 
   // ================= GALLERY LIGHTBOX =================
   let lbImages = [], lbIndex = 0, lbSubject = '';
@@ -1335,6 +1460,12 @@
   go(hi >= 0 ? hi : 0, false);
   // Playbook anchors moved to fake-news.html; forward any old shared link.
   if (hash.indexOf('pb-') === 0) location.replace('fake-news.html#' + hash);
+  // a shared profile link opens the codex on that person
+  if (hash.indexOf('who-') === 0){
+    const want = hash.slice(4);
+    const p = persons.find(x => slug(x.name) === want);
+    if (p) requestAnimationFrame(() => { setView('codex'); openPerson(p.name); });
+  }
   requestAnimationFrame(() => placeIndicator(document.querySelector('.tab.active')));
 })();
 </script>

@@ -468,6 +468,40 @@
   .map-region .revent .ry{font-family:var(--mono); color:var(--accent); margin-right:6px; font-size:11px;}
 
   /* ---------- codex (persons) view ---------- */
+  /* ---------- codex: browse bar ---------- */
+  .codex-bar{
+    display:flex; flex-wrap:wrap; gap:12px; align-items:center; justify-content:space-between;
+    margin-bottom:12px;
+  }
+  .cx-cats{display:flex; flex-wrap:wrap; gap:7px;}
+  .cx-cat{
+    display:inline-flex; align-items:center; gap:8px;
+    font-family:var(--sans); font-size:10.5px; font-weight:600; letter-spacing:.14em;
+    text-transform:uppercase; background:var(--panel); border:1px solid var(--line-dim);
+    color:var(--ink-3); padding:8px 12px; cursor:pointer; transition:all .18s;
+  }
+  .cx-cat .n{font-family:var(--mono); font-size:9.5px; color:var(--accent); opacity:.7;}
+  .cx-cat:hover{border-color:var(--accent-dim); color:var(--ink-2);}
+  .cx-cat.on{background:var(--accent-glow); border-color:var(--accent-dim); color:var(--accent);}
+  .cx-cat.on .n{opacity:1;}
+  .cx-find{position:relative; flex:0 1 260px; min-width:180px;}
+  .cx-find input{
+    width:100%; background:var(--panel); border:1px solid var(--line-dim); color:var(--ink);
+    font-family:var(--sans); font-size:12.5px; padding:9px 30px 9px 12px; outline:none;
+    transition:border-color .18s;
+  }
+  .cx-find input:focus{border-color:var(--accent-dim);}
+  .cx-find input::placeholder{color:var(--ink-3);}
+  .cx-find input::-webkit-search-cancel-button{display:none;}
+  .cx-find button{
+    position:absolute; right:6px; top:50%; transform:translateY(-50%);
+    background:none; border:none; color:var(--ink-3); cursor:pointer; font-size:12px; padding:4px;
+  }
+  .cx-find button:hover{color:var(--accent);}
+  .cx-note{
+    font-family:var(--sans); font-size:11.5px; color:var(--ink-3); margin-bottom:16px; max-width:80ch;
+  }
+
   .codex-grid{display:grid; grid-template-columns:repeat(auto-fill, minmax(150px,1fr)); gap:14px;}
   .codex-card{
     border:1px solid var(--line-dim); background:var(--panel); cursor:pointer; overflow:hidden; position:relative;
@@ -483,6 +517,19 @@
   .codex-card .portrait .gcount{
     position:absolute; right:5px; bottom:5px; font-family:var(--sans); font-size:9.5px; letter-spacing:.05em;
     background:rgba(6,8,12,0.8); color:var(--ink-2); border:1px solid var(--line-dim); padding:2px 6px; pointer-events:none;
+  }
+  .codex-card{text-align:left; font:inherit; color:inherit; width:100%; padding:0;}
+  .codex-card:focus-visible{outline:2px solid var(--accent); outline-offset:2px;}
+  .codex-card .portrait .ccat{
+    position:absolute; left:0; top:0; font-family:var(--sans); font-size:8.5px; font-weight:600;
+    letter-spacing:.14em; text-transform:uppercase; color:var(--ink-2);
+    background:rgba(6,8,12,.82); padding:4px 7px; opacity:0; transition:opacity .2s;
+  }
+  .codex-card:hover .ccat, .codex-card:focus-visible .ccat{opacity:1;}
+  .codex-card .crole{
+    font-family:var(--sans); font-size:10px; line-height:1.35; color:var(--ink-3);
+    margin-top:4px; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical;
+    overflow:hidden;
   }
   .codex-card .cinfo{padding:9px 10px;}
   .codex-card .cname{font-family:var(--sans); font-weight:700; font-size:12px; letter-spacing:.02em; line-height:1.25;}
@@ -511,7 +558,43 @@
     transition:border-color .2s, color .2s;
   }
   .cd-portrait:hover .gbadge{border-color:var(--accent-dim); color:var(--accent);}
-  .cd-body{padding:26px 28px;}
+  .cd-body{padding:26px 28px 78px;}
+  /* the close button is absolutely positioned over this row, so leave it room */
+  .cd-head{
+    display:flex; align-items:center; justify-content:space-between; gap:10px;
+    margin-bottom:10px; padding-right:42px;
+  }
+  .cd-cat{
+    font-family:var(--sans); font-size:9.5px; font-weight:700; letter-spacing:.2em;
+    text-transform:uppercase; color:var(--ink-3);
+    border:1px solid var(--line-dim); padding:4px 9px;
+  }
+  .cd-cat.cat-gurus{color:var(--accent); border-color:var(--accent-dim);}
+  .cd-cat.cat-opponents{color:var(--accent-2); border-color:rgba(192,57,43,.45);}
+  .cd-anchor{
+    font-family:var(--mono); font-size:12px; line-height:1; color:var(--ink-3);
+    text-decoration:none; padding:3px 6px; border:1px solid transparent; transition:all .18s;
+  }
+  .cd-anchor:hover, .cd-anchor:focus-visible{color:var(--accent); border-color:var(--accent-dim);}
+  .cd-anchor.copied{color:var(--accent); border-color:var(--accent-dim);}
+  .cd-anchor.copied::after{content:" link copied"; font-size:9.5px; letter-spacing:.1em;}
+
+  /* walk the codex without going back to the grid */
+  .cd-nav{
+    position:absolute; left:260px; right:0; bottom:0; display:grid;
+    grid-template-columns:1fr auto 1fr; align-items:center; gap:8px;
+    padding:10px 14px; border-top:1px solid var(--line-dim);
+    background:linear-gradient(180deg, rgba(11,15,22,0), var(--bg1) 40%);
+  }
+  .cd-nav button{
+    background:none; border:1px solid var(--line-dim); color:var(--ink-3); cursor:pointer;
+    font-family:var(--sans); font-size:10.5px; padding:7px 10px; text-align:left;
+    overflow:hidden; text-overflow:ellipsis; white-space:nowrap; transition:all .18s;
+  }
+  .cd-nav button:last-child{text-align:right;}
+  .cd-nav button:hover:not(:disabled){border-color:var(--accent-dim); color:var(--accent);}
+  .cd-nav button:disabled{opacity:.25; cursor:default;}
+  .cd-pos{font-family:var(--mono); font-size:10px; letter-spacing:.12em; color:var(--ink-3); white-space:nowrap;}
   .cd-name{
     display:inline-block; font-family:var(--sans); font-weight:700; font-size:17px; letter-spacing:.1em; text-transform:uppercase;
     background:var(--accent-2); color:#fff; padding:8px 14px; margin-bottom:16px;
@@ -590,6 +673,10 @@
     .tabbar{overflow-x:auto;}
     .cd-portrait{min-height:200px;}
     .codex-card-detail{grid-template-columns:1fr;}
+    .cd-nav{left:0;}
+    .cx-find{flex:1 1 100%;}
+    .cx-cat{font-size:9.5px; padding:7px 10px; letter-spacing:.1em;}
+    .codex-card .crole{-webkit-line-clamp:3;}
   }
 
   /* ---------- cited-work hover card ---------- */

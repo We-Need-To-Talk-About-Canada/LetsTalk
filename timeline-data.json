@@ -7560,7 +7560,8 @@
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/%27Imaginary_Meeting_of_Guru_Nanak%2C_Mardana_Sahab%2C_and_Other_Sikh_Gurus%27%2C_earliest_known_painting_depicting_all_ten_Sikh_gurus_together_with_golden_nastaliq_identifying_inscriptions%2C_probably_from_Hyderabad%2C_ca.1780.jpg/480px-%27Imaginary_Meeting_of_Guru_Nanak%2C_Mardana_Sahab%2C_and_Other_Sikh_Gurus%27%2C_earliest_known_painting_depicting_all_ten_Sikh_gurus_together_with_golden_nastaliq_identifying_inscriptions%2C_probably_from_Hyderabad%2C_ca.1780.jpg",
      "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/%27Imaginary_Meeting_of_Guru_Nanak%2C_Mardana_Sahab%2C_and_Other_Sikh_Gurus%27%2C_earliest_known_painting_depicting_all_ten_Sikh_gurus_together_with_golden_nastaliq_identifying_inscriptions%2C_probably_from_Hyderabad%2C_ca.1780.jpg?width=1024"
     }
-   ]
+   ],
+   "category": "gurus"
   },
   {
    "name": "Guru Angad Sahib",
@@ -7592,7 +7593,8 @@
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Fresco_depicting_Guru_Angad_from_Udasi_Chitta_Akhara_in_Amritsar.jpg/480px-Fresco_depicting_Guru_Angad_from_Udasi_Chitta_Akhara_in_Amritsar.jpg",
      "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Fresco_depicting_Guru_Angad_from_Udasi_Chitta_Akhara_in_Amritsar.jpg?width=1024"
     }
-   ]
+   ],
+   "category": "gurus"
   },
   {
    "name": "Guru Amar Das Sahib",
@@ -7624,7 +7626,8 @@
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Fresco_depicting_Guru_Amar_Das_from_Udasi_Chitta_Akhara_in_Amritsar.jpg/480px-Fresco_depicting_Guru_Amar_Das_from_Udasi_Chitta_Akhara_in_Amritsar.jpg",
      "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Fresco_depicting_Guru_Amar_Das_from_Udasi_Chitta_Akhara_in_Amritsar.jpg?width=1024"
     }
-   ]
+   ],
+   "category": "gurus"
   },
   {
    "name": "Guru Ram Das Sahib",
@@ -7656,7 +7659,8 @@
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Depiction_of_Guru_Ram_Das_from_a_Guru_Granth_Sahib_manuscript_on_Kashmiri_paper%2C_Patiala.jpg/480px-Depiction_of_Guru_Ram_Das_from_a_Guru_Granth_Sahib_manuscript_on_Kashmiri_paper%2C_Patiala.jpg",
      "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Depiction_of_Guru_Ram_Das_from_a_Guru_Granth_Sahib_manuscript_on_Kashmiri_paper%2C_Patiala.jpg?width=1024"
     }
-   ]
+   ],
+   "category": "gurus"
   },
   {
    "name": "Guru Arjan Sahib",
@@ -7692,7 +7696,8 @@
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Contributors_of_the_Guru_Granth_Sahib_depicted_with_Guru_Arjan_while_Bhai_Gurdas_scribes_the_Granth_Sahib.jpg/480px-Contributors_of_the_Guru_Granth_Sahib_depicted_with_Guru_Arjan_while_Bhai_Gurdas_scribes_the_Granth_Sahib.jpg",
      "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Contributors_of_the_Guru_Granth_Sahib_depicted_with_Guru_Arjan_while_Bhai_Gurdas_scribes_the_Granth_Sahib.jpg?width=1024"
     }
-   ]
+   ],
+   "category": "gurus"
   },
   {
    "name": "Guru Hargobind Sahib",
@@ -7724,7 +7729,8 @@
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Contemporary_equestrian_painting_of_Guru_Hargobind_with_an_orange-coloured_backdrop%2C_held_in_the_collection_of_the_Sodhi_family_of_Kartarpur%2C_circa_mid-17th_century.jpg/480px-Contemporary_equestrian_painting_of_Guru_Hargobind_with_an_orange-coloured_backdrop%2C_held_in_the_collection_of_the_Sodhi_family_of_Kartarpur%2C_circa_mid-17th_century.jpg",
      "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Contemporary_equestrian_painting_of_Guru_Hargobind_with_an_orange-coloured_backdrop%2C_held_in_the_collection_of_the_Sodhi_family_of_Kartarpur%2C_circa_mid-17th_century.jpg?width=1024"
     }
-   ]
+   ],
+   "category": "gurus"
   },
   {
    "name": "Guru Har Rai Sahib",
@@ -7756,7 +7762,8 @@
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Equestrian_painting_of_Guru_Har_Rai_with_two_angelic_figures_above%2C_Pahari_style%2C_artwork_preserved_by_the_family_of_Bidhi_Chand_Chhina.jpg/480px-Equestrian_painting_of_Guru_Har_Rai_with_two_angelic_figures_above%2C_Pahari_style%2C_artwork_preserved_by_the_family_of_Bidhi_Chand_Chhina.jpg",
      "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Equestrian_painting_of_Guru_Har_Rai_with_two_angelic_figures_above%2C_Pahari_style%2C_artwork_preserved_by_the_family_of_Bidhi_Chand_Chhina.jpg?width=1024"
     }
-   ]
+   ],
+   "category": "gurus"
   },
   {
    "name": "Guru Harikrishan Sahib",
@@ -7788,7 +7795,8 @@
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Guru_Har_Krishan_being_worshipped_by_his_followers.jpg/480px-Guru_Har_Krishan_being_worshipped_by_his_followers.jpg",
      "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Guru_Har_Krishan_being_worshipped_by_his_followers.jpg?width=1024"
     }
-   ]
+   ],
+   "category": "gurus"
   },
   {
    "name": "Guru Tegh Bahadur Sahib",
@@ -7822,7 +7830,8 @@
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Guru_Tegh_Bahadur_%28the_ninth_Sikh_Guru%29%2C_from_a_series_of_painting_of_the_first_nine_Sikh_gurus%2C_circa_1800%E2%80%931840.jpg/480px-Guru_Tegh_Bahadur_%28the_ninth_Sikh_Guru%29%2C_from_a_series_of_painting_of_the_first_nine_Sikh_gurus%2C_circa_1800%E2%80%931840.jpg",
      "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Guru_Tegh_Bahadur_%28the_ninth_Sikh_Guru%29%2C_from_a_series_of_painting_of_the_first_nine_Sikh_gurus%2C_circa_1800%E2%80%931840.jpg?width=1024"
     }
-   ]
+   ],
+   "category": "gurus"
   },
   {
    "name": "Guru Gobind Singh Sahib",
@@ -7861,7 +7870,8 @@
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/An_Equestrian_Portrait_of_Guru_Gobind_Singh.jpg/480px-An_Equestrian_Portrait_of_Guru_Gobind_Singh.jpg",
      "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/An_Equestrian_Portrait_of_Guru_Gobind_Singh.jpg?width=1024"
     }
-   ]
+   ],
+   "category": "gurus"
   },
   {
    "name": "Banda Singh Bahadur",
@@ -7895,7 +7905,61 @@
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/INDIA%2C_Independent_States._Sikhs_%28Khalsa_Fauj%29._Baba_Banda_Singh_Bahadur._1670-1716._AR_Rupee_%2825mm%2C_11.98_g%2C_6h%29._Amritsar_mint._Dated_Year_2_%28AD_1711%29._VF._%28840_1%29.jpg/480px-INDIA%2C_Independent_States._Sikhs_%28Khalsa_Fauj%29._Baba_Banda_Singh_Bahadur._1670-1716._AR_Rupee_%2825mm%2C_11.98_g%2C_6h%29._Amritsar_mint._Dated_Year_2_%28AD_1711%29._VF._%28840_1%29.jpg",
      "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/INDIA%2C_Independent_States._Sikhs_%28Khalsa_Fauj%29._Baba_Banda_Singh_Bahadur._1670-1716._AR_Rupee_%2825mm%2C_11.98_g%2C_6h%29._Amritsar_mint._Dated_Year_2_%28AD_1711%29._VF._%28840_1%29.jpg?width=1024"
     }
-   ]
+   ],
+   "category": "panth"
+  },
+  {
+   "name": "Bhai Maharaj Singh",
+   "years": "circa 1780 – 1856",
+   "profession": "Anti-Colonial Freedom Fighter and Martyr",
+   "bio": "Bhai Maharaj Singh was a Sikh leader who organized armed resistance against the British annexation of Panjab during and after the Anglo-Sikh Wars. Regarded as one of the earliest organizers of anti-colonial revolt in the region, he attempted to rally forces to restore Sikh sovereignty before being captured by the British in 1849.\n\nDeemed too dangerous to hold in Panjab, he was deported: on 15 May 1850 the ship Mohammad Shah carried him and his associate Kharag Singh from Calcutta to Singapore, where he was imprisoned. He died in confinement there in 1856, having lost his sight and health. He is honoured as an early martyr of the anti-colonial struggle, and his memory is preserved by the Sikh community in Singapore.",
+   "related_events": [
+    "bhai-maharaj-singh-exile-1850"
+   ],
+   "gallery": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Painting_of_the_Sikh_warrior%2C_Bhai_Maharaj_Singh%2C_holding_court_in_his_darbar.jpg/1024px-Painting_of_the_Sikh_warrior%2C_Bhai_Maharaj_Singh%2C_holding_court_in_his_darbar.jpg",
+     "caption": "Painting of the Sikh warrior Bhai Maharaj Singh, holding court in his darbar",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Painting_of_the_Sikh_warrior%2C_Bhai_Maharaj_Singh%2C_holding_court_in_his_darbar.jpg/480px-Painting_of_the_Sikh_warrior%2C_Bhai_Maharaj_Singh%2C_holding_court_in_his_darbar.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Painting_of_the_Sikh_warrior%2C_Bhai_Maharaj_Singh%2C_holding_court_in_his_darbar.jpg?width=1024"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Bhai_Maharaj_Singh_and_Companion_%28Khurruck_Singh%29_in_a_Prison_Cell.jpg/1024px-Bhai_Maharaj_Singh_and_Companion_%28Khurruck_Singh%29_in_a_Prison_Cell.jpg",
+     "caption": "Bhai Maharaj Singh and companion Khurruck Singh in a prison cell",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Bhai_Maharaj_Singh_and_Companion_%28Khurruck_Singh%29_in_a_Prison_Cell.jpg/480px-Bhai_Maharaj_Singh_and_Companion_%28Khurruck_Singh%29_in_a_Prison_Cell.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Bhai_Maharaj_Singh_and_Companion_%28Khurruck_Singh%29_in_a_Prison_Cell.jpg?width=1024"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Mural_depicting_Bhai_Maharaj_Singh_and_Baba_Suraj_Singh_from_a_Nirmala_Sikh_temple_%28Gurdwara_Baba_Bir_Singh%29_at_Naurangabad%2C_Punjab.jpg/1024px-Mural_depicting_Bhai_Maharaj_Singh_and_Baba_Suraj_Singh_from_a_Nirmala_Sikh_temple_%28Gurdwara_Baba_Bir_Singh%29_at_Naurangabad%2C_Punjab.jpg",
+     "caption": "Mural depicting Bhai Maharaj Singh and Baba Suraj Singh, from a Nirmala Sikh temple (Gurdwara Baba Bir Singh) at Naurangabad, Punjab",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Mural_depicting_Bhai_Maharaj_Singh_and_Baba_Suraj_Singh_from_a_Nirmala_Sikh_temple_%28Gurdwara_Baba_Bir_Singh%29_at_Naurangabad%2C_Punjab.jpg/480px-Mural_depicting_Bhai_Maharaj_Singh_and_Baba_Suraj_Singh_from_a_Nirmala_Sikh_temple_%28Gurdwara_Baba_Bir_Singh%29_at_Naurangabad%2C_Punjab.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Mural_depicting_Bhai_Maharaj_Singh_and_Baba_Suraj_Singh_from_a_Nirmala_Sikh_temple_%28Gurdwara_Baba_Bir_Singh%29_at_Naurangabad%2C_Punjab.jpg?width=1024"
+    }
+   ],
+   "category": "panth"
+  },
+  {
+   "name": "Bhai Mewa Singh",
+   "years": "1881 – 1915",
+   "profession": "Diaspora Sikh Martyr",
+   "bio": "Bhai Mewa Singh Lopoke was a Sikh immigrant in British Columbia active in the community's struggle against discriminatory Canadian immigration laws around the time of the Komagata Maru affair. Amid intimidation of the Sikh community by informants working for the colonial and Canadian authorities, he shot and killed William Hopkinson, an immigration inspector and intelligence agent, at the Vancouver courthouse in 1914.\n\nHe made no attempt to escape and framed his act as a defence of his community and faith. He was hanged on 11 January 1915. He is honoured as an early shahid (martyr) of the diaspora Sikh community, commemorated annually in British Columbia.",
+   "related_events": [
+    "mewa-singh-execution-1915",
+    "komagata-maru-1914"
+   ],
+   "gallery": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Portrait_Painting_of_Mewa_Singh.jpg/1024px-Portrait_Painting_of_Mewa_Singh.jpg",
+     "caption": "Portrait painting of Bhai Mewa Singh Lopoke, Ghadar-era Sikh martyr in British Columbia",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Portrait_Painting_of_Mewa_Singh.jpg/480px-Portrait_Painting_of_Mewa_Singh.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_Painting_of_Mewa_Singh.jpg?width=1024"
+    }
+   ],
+   "category": "panth"
   },
   {
    "name": "Bhai Tara Singh Van",
@@ -7913,7 +7977,102 @@
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Zakariya_Khan_Bahadur%2C_Subahdar_%28governor%29_of_Lahore_subah_%28province%29_being_hit_by_a_Singh%27s_shoe%2C_detail_from_a_19th_century_Sikh_drawing.jpg/480px-Zakariya_Khan_Bahadur%2C_Subahdar_%28governor%29_of_Lahore_subah_%28province%29_being_hit_by_a_Singh%27s_shoe%2C_detail_from_a_19th_century_Sikh_drawing.jpg",
      "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Zakariya_Khan_Bahadur%2C_Subahdar_%28governor%29_of_Lahore_subah_%28province%29_being_hit_by_a_Singh%27s_shoe%2C_detail_from_a_19th_century_Sikh_drawing.jpg?width=1024"
     }
-   ]
+   ],
+   "category": "panth"
+  },
+  {
+   "name": "Bhai Vir Singh",
+   "years": "1872 – 1957",
+   "profession": "Poet, Scholar, and Leader of the Singh Sabha Movement",
+   "bio": "Bhai Vir Singh was a poet, scholar, theologian, and reformer who became a leading figure of the Singh Sabha movement, the reformist and revivalist current that reshaped Sikh identity, literature, and institutions under colonial rule. He is often called the 'Sixth River of Panjab' for his towering influence on modern Panjabi letters.\n\nThrough novels, epic poetry, exegesis of scripture, and journalism, including the Khalsa Samachar, he worked to renew Sikh consciousness and distinctiveness in the face of Christian missionary and Hindu reformist pressures. He is widely regarded as a founder of modern Panjabi literature. He died in 1957.",
+   "related_events": [
+    "singh-sabha-movement-1873"
+   ],
+   "gallery": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Photograph_of_Sikh_literati_Bhai_Vir_Singh_in_his_younger_days.jpg/1024px-Photograph_of_Sikh_literati_Bhai_Vir_Singh_in_his_younger_days.jpg",
+     "caption": "Photograph of Sikh literati Bhai Vir Singh in his younger days",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Photograph_of_Sikh_literati_Bhai_Vir_Singh_in_his_younger_days.jpg/480px-Photograph_of_Sikh_literati_Bhai_Vir_Singh_in_his_younger_days.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Photograph_of_Sikh_literati_Bhai_Vir_Singh_in_his_younger_days.jpg?width=1024"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Bhai_Vir_Singh_with_his_spouse_and_his_brother_Dr_Balbir_Singh_standing_at_back.jpg/1024px-Bhai_Vir_Singh_with_his_spouse_and_his_brother_Dr_Balbir_Singh_standing_at_back.jpg",
+     "caption": "Bhai Vir Singh with his spouse and his brother Dr Balbir Singh standing at back",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Bhai_Vir_Singh_with_his_spouse_and_his_brother_Dr_Balbir_Singh_standing_at_back.jpg/480px-Bhai_Vir_Singh_with_his_spouse_and_his_brother_Dr_Balbir_Singh_standing_at_back.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Bhai_Vir_Singh_with_his_spouse_and_his_brother_Dr_Balbir_Singh_standing_at_back.jpg?width=1024"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Photograph_of_Sikh_literati_Bhai_Vir_Singh_practicing_yoga.jpg/1024px-Photograph_of_Sikh_literati_Bhai_Vir_Singh_practicing_yoga.jpg",
+     "caption": "Photograph of Sikh literati Bhai Vir Singh practicing yoga",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Photograph_of_Sikh_literati_Bhai_Vir_Singh_practicing_yoga.jpg/480px-Photograph_of_Sikh_literati_Bhai_Vir_Singh_practicing_yoga.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Photograph_of_Sikh_literati_Bhai_Vir_Singh_practicing_yoga.jpg?width=1024"
+    }
+   ],
+   "category": "panth"
+  },
+  {
+   "name": "Gurdip Singh Chaggar",
+   "years": "1957 – 1976",
+   "profession": "Victim of Racist Violence",
+   "bio": "Gurdip Singh Chaggar was an eighteen-year-old Sikh student killed in a racially motivated attack in Southall, west London, in June 1976. His murder became a catalyzing moment for Sikh and South Asian youth in Britain, galvanizing the formation of the Southall Youth Movement and a broader anti-racist mobilization.\n\nHis death is remembered as a landmark in the history of the British South Asian struggle against racist violence. On its fiftieth anniversary in 2026, community organizations reflected on how much anti-Sikh and anti-South Asian hostility persisted.",
+   "related_events": [
+    "chaggar-southall-murder-1976",
+    "wso-hate-report-chaggar-50th-2026"
+   ],
+   "gallery": [
+    {
+     "url": "assets/img/gurdip-singh-chaggar.jpg",
+     "caption": "Photograph of Gurdip Singh Chaggar.",
+     "credit": "Image via Times Now News",
+     "fallback": "https://images.timesnownews.com/thumb/msid-109106062,thumbsize-6724,width-1280,height-720,resizemode-75/109106062.jpg",
+     "thumb": "assets/img/gurdip-singh-chaggar.jpg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Sikh_Gurdwara%2C_Punjab.JPG/1024px-Sikh_Gurdwara%2C_Punjab.JPG",
+     "caption": "Representative image of a Sikh gurdwara — no free-licensed photograph of Gurdip Singh Chaggar could be confirmed on Wikimedia Commons; his 1976 racist murder in Southall, London, is documented mainly through press-agency photographs that are not freely licensed",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Sikh_Gurdwara%2C_Punjab.JPG/480px-Sikh_Gurdwara%2C_Punjab.JPG",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Sikh_Gurdwara%2C_Punjab.JPG?width=1024"
+    }
+   ],
+   "category": "panth"
+  },
+  {
+   "name": "Hari Singh Nalwa",
+   "years": "1791 – 1837",
+   "profession": "Commander-in-Chief of the Sikh Khalsa Army",
+   "bio": "Hari Singh Nalwa was the most celebrated general of Maharaja Ranjit Singh's Khalsa Army and commander-in-chief on the North West Frontier. He led the conquest and administration of frontier regions including Kasur, Multan, Kashmir, and Peshawar, and was renowned for halting the centuries-long pattern of invasions into the subcontinent through the Khyber Pass.\n\nHe built and garrisoned a chain of forts, including Jamrud at the mouth of the Khyber, to hold Afghan forces at bay. In 1837 he was killed at the Battle of Jamrud while defending the fort against a large Afghan army. His death removed one of the empire's most formidable commanders and is regarded as a serious blow to its frontier security.",
+   "related_events": [
+    "ranjit-singh-lahore-1799",
+    "hari-singh-nalua-jamrud-1837"
+   ],
+   "gallery": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Depiction_of_Hari_Singh_Nalwa_telling_beads._Sikh_school%2C_Punjab_Plains%2C_ca.1840%E2%80%931845.jpg/1024px-Depiction_of_Hari_Singh_Nalwa_telling_beads._Sikh_school%2C_Punjab_Plains%2C_ca.1840%E2%80%931845.jpg",
+     "caption": "Depiction of Hari Singh Nalwa telling prayer beads. Sikh school, Punjab Plains, ca.1840–1845",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Depiction_of_Hari_Singh_Nalwa_telling_beads._Sikh_school%2C_Punjab_Plains%2C_ca.1840%E2%80%931845.jpg/480px-Depiction_of_Hari_Singh_Nalwa_telling_beads._Sikh_school%2C_Punjab_Plains%2C_ca.1840%E2%80%931845.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Depiction_of_Hari_Singh_Nalwa_telling_beads._Sikh_school%2C_Punjab_Plains%2C_ca.1840%E2%80%931845.jpg?width=1024"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/General_Hari_Singh_Nalwa_on_an_elephant_with_his_retinue%2C_1825%E2%80%9335.jpg/1024px-General_Hari_Singh_Nalwa_on_an_elephant_with_his_retinue%2C_1825%E2%80%9335.jpg",
+     "caption": "General Hari Singh Nalwa on an elephant with his retinue, 1825–35",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/General_Hari_Singh_Nalwa_on_an_elephant_with_his_retinue%2C_1825%E2%80%9335.jpg/480px-General_Hari_Singh_Nalwa_on_an_elephant_with_his_retinue%2C_1825%E2%80%9335.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/General_Hari_Singh_Nalwa_on_an_elephant_with_his_retinue%2C_1825%E2%80%9335.jpg?width=1024"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Oil_painting_of_Hari_Singh_Nalwa_displayed_in_the_Lahore_Museum.jpg/1024px-Oil_painting_of_Hari_Singh_Nalwa_displayed_in_the_Lahore_Museum.jpg",
+     "caption": "Oil painting of Hari Singh Nalwa displayed in the Lahore Museum",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Oil_painting_of_Hari_Singh_Nalwa_displayed_in_the_Lahore_Museum.jpg/480px-Oil_painting_of_Hari_Singh_Nalwa_displayed_in_the_Lahore_Museum.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Oil_painting_of_Hari_Singh_Nalwa_displayed_in_the_Lahore_Museum.jpg?width=1024"
+    }
+   ],
+   "category": "panth"
   },
   {
    "name": "Jassa Singh Ahluwalia",
@@ -7947,7 +8106,89 @@
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Print_of_a_painting_of_Jassa_Singh_Ahluwalia%2C_as_published_in_the_Mahan_Kosh_%281930%29.jpg/480px-Print_of_a_painting_of_Jassa_Singh_Ahluwalia%2C_as_published_in_the_Mahan_Kosh_%281930%29.jpg",
      "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Print_of_a_painting_of_Jassa_Singh_Ahluwalia%2C_as_published_in_the_Mahan_Kosh_%281930%29.jpg?width=1024"
     }
-   ]
+   ],
+   "category": "panth"
+  },
+  {
+   "name": "Jaswant Singh Khalra",
+   "years": "1952 – 1995",
+   "profession": "Human Rights Defender and Martyr",
+   "bio": "Jaswant Singh Khalra was a human rights defender who exposed the scale of the Indian state's counter-insurgency campaign in Panjab. Investigating municipal cremation records, he documented thousands of secret and illegal police cremations of Sikh youth who had been abducted, extrajudicially killed, and disposed of as 'unidentified' bodies.\n\nAfter publicizing his findings internationally, he was abducted by Panjab police in September 1995 and murdered while in custody. Years later several police officials were convicted in connection with his killing. He is revered as one of the Panth's most respected modern martyrs and a symbol of the struggle for accountability for the disappearances of the 1980s and 1990s.",
+   "related_events": [
+    "punjab-counterinsurgency-1992",
+    "khalra-murder-1995"
+   ],
+   "gallery": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/JaswantSinghKhalra.jpg/1024px-JaswantSinghKhalra.jpg",
+     "caption": "Photograph of Jaswant Singh Khalra, the human rights activist who exposed extrajudicial killings and illegal cremations by Punjab Police",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/JaswantSinghKhalra.jpg/480px-JaswantSinghKhalra.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/JaswantSinghKhalra.jpg?width=1024"
+    }
+   ],
+   "category": "panth"
+  },
+  {
+   "name": "Kartar Singh Sarabha",
+   "years": "1896 – 1915",
+   "profession": "Ghadar Party Revolutionary and Martyr",
+   "bio": "Kartar Singh Sarabha was a young revolutionary who became one of the most prominent figures of the Ghadar Party, founded in 1913 among Panjabi and Sikh immigrants on the west coast of North America to organize armed rebellion against British rule in India. As a student in California he helped edit the party's Ghadar newspaper.\n\nHe returned to India to foment an uprising among Indian soldiers, but the plot was uncovered. Tried in the Lahore Conspiracy Case, he was hanged in 1915 at the age of nineteen. He became an iconic martyr of the anti-colonial movement and a personal inspiration to later revolutionaries, notably Bhagat Singh.",
+   "related_events": [
+    "ghadar-movement-1913",
+    "bhagat-singh-execution-1931"
+   ],
+   "gallery": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Revolutionary_Kartar_Singh_Sarabha.jpg/1024px-Revolutionary_Kartar_Singh_Sarabha.jpg",
+     "caption": "Photograph of Ghadar Party revolutionary Kartar Singh Sarabha",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Revolutionary_Kartar_Singh_Sarabha.jpg/480px-Revolutionary_Kartar_Singh_Sarabha.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Revolutionary_Kartar_Singh_Sarabha.jpg?width=1024"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Kartar_Singh_sarbha.png/1024px-Kartar_Singh_sarbha.png",
+     "caption": "Photograph/print of Kartar Singh Sarabha",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Kartar_Singh_sarbha.png/480px-Kartar_Singh_sarbha.png",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Kartar_Singh_sarbha.png?width=1024"
+    }
+   ],
+   "category": "panth"
+  },
+  {
+   "name": "Maharaja Duleep Singh",
+   "years": "1838 – 1893",
+   "profession": "Last Maharaja of the Sikh Empire",
+   "bio": "Duleep Singh, the youngest son of Maharaja Ranjit Singh, became the last Maharaja of the Sikh Empire as a young child, with his mother Jind Kaur as regent. Following the British annexation of Panjab in 1849, he was deposed at the age of ten, separated from his mother, and made to surrender the Koh-i-Noor diamond to Queen Victoria.\n\nTaken into British guardianship and converted to Christianity, he was exiled to England, where he lived as a country gentleman and became a favourite of Queen Victoria. Later in life he sought to reclaim his heritage and his throne, reconverting to Sikhi and unsuccessfully attempting to return to Panjab and rally support. He died in relative poverty in Paris in 1893, an emblematic figure of colonial dispossession.",
+   "related_events": [
+    "jind-kaur-regent-1843",
+    "anglo-sikh-wars-annexation-1849"
+   ],
+   "gallery": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/A_bust-length_portrait_of_the_Maharaja_Duleep_Singh%2C_depicted_in_profile_to_the_right%2C_by_Franz_Xaver_Winterhalter%2C_dated_to_15_July_1854.jpg/1024px-A_bust-length_portrait_of_the_Maharaja_Duleep_Singh%2C_depicted_in_profile_to_the_right%2C_by_Franz_Xaver_Winterhalter%2C_dated_to_15_July_1854.jpg",
+     "caption": "A bust-length portrait of the Maharaja Duleep Singh, depicted in profile, by Franz Xaver Winterhalter, dated 15 July 1854",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/A_bust-length_portrait_of_the_Maharaja_Duleep_Singh%2C_depicted_in_profile_to_the_right%2C_by_Franz_Xaver_Winterhalter%2C_dated_to_15_July_1854.jpg/480px-A_bust-length_portrait_of_the_Maharaja_Duleep_Singh%2C_depicted_in_profile_to_the_right%2C_by_Franz_Xaver_Winterhalter%2C_dated_to_15_July_1854.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/A_bust-length_portrait_of_the_Maharaja_Duleep_Singh%2C_depicted_in_profile_to_the_right%2C_by_Franz_Xaver_Winterhalter%2C_dated_to_15_July_1854.jpg?width=1024"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/%27Maharaja_Duleep_Singh_and_Attendants%27%2C_by_Helen_Catherine_Douglas_Mackenzie%2C_Lahore%2C_Punjab%2C_30_November_1849.jpg/1024px-%27Maharaja_Duleep_Singh_and_Attendants%27%2C_by_Helen_Catherine_Douglas_Mackenzie%2C_Lahore%2C_Punjab%2C_30_November_1849.jpg",
+     "caption": "'Maharaja Duleep Singh and Attendants', by Helen Catherine Douglas Mackenzie, Lahore, Punjab, 30 November 1849",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/%27Maharaja_Duleep_Singh_and_Attendants%27%2C_by_Helen_Catherine_Douglas_Mackenzie%2C_Lahore%2C_Punjab%2C_30_November_1849.jpg/480px-%27Maharaja_Duleep_Singh_and_Attendants%27%2C_by_Helen_Catherine_Douglas_Mackenzie%2C_Lahore%2C_Punjab%2C_30_November_1849.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/%27Maharaja_Duleep_Singh_and_Attendants%27%2C_by_Helen_Catherine_Douglas_Mackenzie%2C_Lahore%2C_Punjab%2C_30_November_1849.jpg?width=1024"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Cabinet_photograph_of_Duleep_Singh%2C_by_John_Mayall%2C_1859.jpg/1024px-Cabinet_photograph_of_Duleep_Singh%2C_by_John_Mayall%2C_1859.jpg",
+     "caption": "Cabinet photograph of Duleep Singh, by John Mayall, 1859",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Cabinet_photograph_of_Duleep_Singh%2C_by_John_Mayall%2C_1859.jpg/480px-Cabinet_photograph_of_Duleep_Singh%2C_by_John_Mayall%2C_1859.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Cabinet_photograph_of_Duleep_Singh%2C_by_John_Mayall%2C_1859.jpg?width=1024"
+    }
+   ],
+   "category": "panth"
   },
   {
    "name": "Maharaja Ranjit Singh",
@@ -7981,40 +8222,8 @@
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/A_portrait_of_Ranjit_Singh%2C_Maharaja_of_the_Punjab%2C_by_Emily_Eden%2C_London%2C_circa_1844.jpg/480px-A_portrait_of_Ranjit_Singh%2C_Maharaja_of_the_Punjab%2C_by_Emily_Eden%2C_London%2C_circa_1844.jpg",
      "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/A_portrait_of_Ranjit_Singh%2C_Maharaja_of_the_Punjab%2C_by_Emily_Eden%2C_London%2C_circa_1844.jpg?width=1024"
     }
-   ]
-  },
-  {
-   "name": "Hari Singh Nalwa",
-   "years": "1791 – 1837",
-   "profession": "Commander-in-Chief of the Sikh Khalsa Army",
-   "bio": "Hari Singh Nalwa was the most celebrated general of Maharaja Ranjit Singh's Khalsa Army and commander-in-chief on the North West Frontier. He led the conquest and administration of frontier regions including Kasur, Multan, Kashmir, and Peshawar, and was renowned for halting the centuries-long pattern of invasions into the subcontinent through the Khyber Pass.\n\nHe built and garrisoned a chain of forts, including Jamrud at the mouth of the Khyber, to hold Afghan forces at bay. In 1837 he was killed at the Battle of Jamrud while defending the fort against a large Afghan army. His death removed one of the empire's most formidable commanders and is regarded as a serious blow to its frontier security.",
-   "related_events": [
-    "ranjit-singh-lahore-1799",
-    "hari-singh-nalua-jamrud-1837"
    ],
-   "gallery": [
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Depiction_of_Hari_Singh_Nalwa_telling_beads._Sikh_school%2C_Punjab_Plains%2C_ca.1840%E2%80%931845.jpg/1024px-Depiction_of_Hari_Singh_Nalwa_telling_beads._Sikh_school%2C_Punjab_Plains%2C_ca.1840%E2%80%931845.jpg",
-     "caption": "Depiction of Hari Singh Nalwa telling prayer beads. Sikh school, Punjab Plains, ca.1840–1845",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Depiction_of_Hari_Singh_Nalwa_telling_beads._Sikh_school%2C_Punjab_Plains%2C_ca.1840%E2%80%931845.jpg/480px-Depiction_of_Hari_Singh_Nalwa_telling_beads._Sikh_school%2C_Punjab_Plains%2C_ca.1840%E2%80%931845.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Depiction_of_Hari_Singh_Nalwa_telling_beads._Sikh_school%2C_Punjab_Plains%2C_ca.1840%E2%80%931845.jpg?width=1024"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/General_Hari_Singh_Nalwa_on_an_elephant_with_his_retinue%2C_1825%E2%80%9335.jpg/1024px-General_Hari_Singh_Nalwa_on_an_elephant_with_his_retinue%2C_1825%E2%80%9335.jpg",
-     "caption": "General Hari Singh Nalwa on an elephant with his retinue, 1825–35",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/General_Hari_Singh_Nalwa_on_an_elephant_with_his_retinue%2C_1825%E2%80%9335.jpg/480px-General_Hari_Singh_Nalwa_on_an_elephant_with_his_retinue%2C_1825%E2%80%9335.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/General_Hari_Singh_Nalwa_on_an_elephant_with_his_retinue%2C_1825%E2%80%9335.jpg?width=1024"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Oil_painting_of_Hari_Singh_Nalwa_displayed_in_the_Lahore_Museum.jpg/1024px-Oil_painting_of_Hari_Singh_Nalwa_displayed_in_the_Lahore_Museum.jpg",
-     "caption": "Oil painting of Hari Singh Nalwa displayed in the Lahore Museum",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Oil_painting_of_Hari_Singh_Nalwa_displayed_in_the_Lahore_Museum.jpg/480px-Oil_painting_of_Hari_Singh_Nalwa_displayed_in_the_Lahore_Museum.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Oil_painting_of_Hari_Singh_Nalwa_displayed_in_the_Lahore_Museum.jpg?width=1024"
-    }
-   ]
+   "category": "panth"
   },
   {
    "name": "Maharani Jind Kaur",
@@ -8048,149 +8257,8 @@
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Maharani_Jind_Kaur._Watercolour_by_a_Company_artist%2C_Punjab%2C_ca.1865.jpg/480px-Maharani_Jind_Kaur._Watercolour_by_a_Company_artist%2C_Punjab%2C_ca.1865.jpg",
      "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Maharani_Jind_Kaur._Watercolour_by_a_Company_artist%2C_Punjab%2C_ca.1865.jpg?width=1024"
     }
-   ]
-  },
-  {
-   "name": "Maharaja Duleep Singh",
-   "years": "1838 – 1893",
-   "profession": "Last Maharaja of the Sikh Empire",
-   "bio": "Duleep Singh, the youngest son of Maharaja Ranjit Singh, became the last Maharaja of the Sikh Empire as a young child, with his mother Jind Kaur as regent. Following the British annexation of Panjab in 1849, he was deposed at the age of ten, separated from his mother, and made to surrender the Koh-i-Noor diamond to Queen Victoria.\n\nTaken into British guardianship and converted to Christianity, he was exiled to England, where he lived as a country gentleman and became a favourite of Queen Victoria. Later in life he sought to reclaim his heritage and his throne, reconverting to Sikhi and unsuccessfully attempting to return to Panjab and rally support. He died in relative poverty in Paris in 1893, an emblematic figure of colonial dispossession.",
-   "related_events": [
-    "jind-kaur-regent-1843",
-    "anglo-sikh-wars-annexation-1849"
    ],
-   "gallery": [
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/A_bust-length_portrait_of_the_Maharaja_Duleep_Singh%2C_depicted_in_profile_to_the_right%2C_by_Franz_Xaver_Winterhalter%2C_dated_to_15_July_1854.jpg/1024px-A_bust-length_portrait_of_the_Maharaja_Duleep_Singh%2C_depicted_in_profile_to_the_right%2C_by_Franz_Xaver_Winterhalter%2C_dated_to_15_July_1854.jpg",
-     "caption": "A bust-length portrait of the Maharaja Duleep Singh, depicted in profile, by Franz Xaver Winterhalter, dated 15 July 1854",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/A_bust-length_portrait_of_the_Maharaja_Duleep_Singh%2C_depicted_in_profile_to_the_right%2C_by_Franz_Xaver_Winterhalter%2C_dated_to_15_July_1854.jpg/480px-A_bust-length_portrait_of_the_Maharaja_Duleep_Singh%2C_depicted_in_profile_to_the_right%2C_by_Franz_Xaver_Winterhalter%2C_dated_to_15_July_1854.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/A_bust-length_portrait_of_the_Maharaja_Duleep_Singh%2C_depicted_in_profile_to_the_right%2C_by_Franz_Xaver_Winterhalter%2C_dated_to_15_July_1854.jpg?width=1024"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/%27Maharaja_Duleep_Singh_and_Attendants%27%2C_by_Helen_Catherine_Douglas_Mackenzie%2C_Lahore%2C_Punjab%2C_30_November_1849.jpg/1024px-%27Maharaja_Duleep_Singh_and_Attendants%27%2C_by_Helen_Catherine_Douglas_Mackenzie%2C_Lahore%2C_Punjab%2C_30_November_1849.jpg",
-     "caption": "'Maharaja Duleep Singh and Attendants', by Helen Catherine Douglas Mackenzie, Lahore, Punjab, 30 November 1849",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/%27Maharaja_Duleep_Singh_and_Attendants%27%2C_by_Helen_Catherine_Douglas_Mackenzie%2C_Lahore%2C_Punjab%2C_30_November_1849.jpg/480px-%27Maharaja_Duleep_Singh_and_Attendants%27%2C_by_Helen_Catherine_Douglas_Mackenzie%2C_Lahore%2C_Punjab%2C_30_November_1849.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/%27Maharaja_Duleep_Singh_and_Attendants%27%2C_by_Helen_Catherine_Douglas_Mackenzie%2C_Lahore%2C_Punjab%2C_30_November_1849.jpg?width=1024"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Cabinet_photograph_of_Duleep_Singh%2C_by_John_Mayall%2C_1859.jpg/1024px-Cabinet_photograph_of_Duleep_Singh%2C_by_John_Mayall%2C_1859.jpg",
-     "caption": "Cabinet photograph of Duleep Singh, by John Mayall, 1859",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Cabinet_photograph_of_Duleep_Singh%2C_by_John_Mayall%2C_1859.jpg/480px-Cabinet_photograph_of_Duleep_Singh%2C_by_John_Mayall%2C_1859.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Cabinet_photograph_of_Duleep_Singh%2C_by_John_Mayall%2C_1859.jpg?width=1024"
-    }
-   ]
-  },
-  {
-   "name": "Bhai Maharaj Singh",
-   "years": "circa 1780 – 1856",
-   "profession": "Anti-Colonial Freedom Fighter and Martyr",
-   "bio": "Bhai Maharaj Singh was a Sikh leader who organized armed resistance against the British annexation of Panjab during and after the Anglo-Sikh Wars. Regarded as one of the earliest organizers of anti-colonial revolt in the region, he attempted to rally forces to restore Sikh sovereignty before being captured by the British in 1849.\n\nDeemed too dangerous to hold in Panjab, he was deported: on 15 May 1850 the ship Mohammad Shah carried him and his associate Kharag Singh from Calcutta to Singapore, where he was imprisoned. He died in confinement there in 1856, having lost his sight and health. He is honoured as an early martyr of the anti-colonial struggle, and his memory is preserved by the Sikh community in Singapore.",
-   "related_events": [
-    "bhai-maharaj-singh-exile-1850"
-   ],
-   "gallery": [
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Painting_of_the_Sikh_warrior%2C_Bhai_Maharaj_Singh%2C_holding_court_in_his_darbar.jpg/1024px-Painting_of_the_Sikh_warrior%2C_Bhai_Maharaj_Singh%2C_holding_court_in_his_darbar.jpg",
-     "caption": "Painting of the Sikh warrior Bhai Maharaj Singh, holding court in his darbar",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Painting_of_the_Sikh_warrior%2C_Bhai_Maharaj_Singh%2C_holding_court_in_his_darbar.jpg/480px-Painting_of_the_Sikh_warrior%2C_Bhai_Maharaj_Singh%2C_holding_court_in_his_darbar.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Painting_of_the_Sikh_warrior%2C_Bhai_Maharaj_Singh%2C_holding_court_in_his_darbar.jpg?width=1024"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Bhai_Maharaj_Singh_and_Companion_%28Khurruck_Singh%29_in_a_Prison_Cell.jpg/1024px-Bhai_Maharaj_Singh_and_Companion_%28Khurruck_Singh%29_in_a_Prison_Cell.jpg",
-     "caption": "Bhai Maharaj Singh and companion Khurruck Singh in a prison cell",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Bhai_Maharaj_Singh_and_Companion_%28Khurruck_Singh%29_in_a_Prison_Cell.jpg/480px-Bhai_Maharaj_Singh_and_Companion_%28Khurruck_Singh%29_in_a_Prison_Cell.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Bhai_Maharaj_Singh_and_Companion_%28Khurruck_Singh%29_in_a_Prison_Cell.jpg?width=1024"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Mural_depicting_Bhai_Maharaj_Singh_and_Baba_Suraj_Singh_from_a_Nirmala_Sikh_temple_%28Gurdwara_Baba_Bir_Singh%29_at_Naurangabad%2C_Punjab.jpg/1024px-Mural_depicting_Bhai_Maharaj_Singh_and_Baba_Suraj_Singh_from_a_Nirmala_Sikh_temple_%28Gurdwara_Baba_Bir_Singh%29_at_Naurangabad%2C_Punjab.jpg",
-     "caption": "Mural depicting Bhai Maharaj Singh and Baba Suraj Singh, from a Nirmala Sikh temple (Gurdwara Baba Bir Singh) at Naurangabad, Punjab",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Mural_depicting_Bhai_Maharaj_Singh_and_Baba_Suraj_Singh_from_a_Nirmala_Sikh_temple_%28Gurdwara_Baba_Bir_Singh%29_at_Naurangabad%2C_Punjab.jpg/480px-Mural_depicting_Bhai_Maharaj_Singh_and_Baba_Suraj_Singh_from_a_Nirmala_Sikh_temple_%28Gurdwara_Baba_Bir_Singh%29_at_Naurangabad%2C_Punjab.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Mural_depicting_Bhai_Maharaj_Singh_and_Baba_Suraj_Singh_from_a_Nirmala_Sikh_temple_%28Gurdwara_Baba_Bir_Singh%29_at_Naurangabad%2C_Punjab.jpg?width=1024"
-    }
-   ]
-  },
-  {
-   "name": "Bhai Vir Singh",
-   "years": "1872 – 1957",
-   "profession": "Poet, Scholar, and Leader of the Singh Sabha Movement",
-   "bio": "Bhai Vir Singh was a poet, scholar, theologian, and reformer who became a leading figure of the Singh Sabha movement, the reformist and revivalist current that reshaped Sikh identity, literature, and institutions under colonial rule. He is often called the 'Sixth River of Panjab' for his towering influence on modern Panjabi letters.\n\nThrough novels, epic poetry, exegesis of scripture, and journalism, including the Khalsa Samachar, he worked to renew Sikh consciousness and distinctiveness in the face of Christian missionary and Hindu reformist pressures. He is widely regarded as a founder of modern Panjabi literature. He died in 1957.",
-   "related_events": [
-    "singh-sabha-movement-1873"
-   ],
-   "gallery": [
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Photograph_of_Sikh_literati_Bhai_Vir_Singh_in_his_younger_days.jpg/1024px-Photograph_of_Sikh_literati_Bhai_Vir_Singh_in_his_younger_days.jpg",
-     "caption": "Photograph of Sikh literati Bhai Vir Singh in his younger days",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Photograph_of_Sikh_literati_Bhai_Vir_Singh_in_his_younger_days.jpg/480px-Photograph_of_Sikh_literati_Bhai_Vir_Singh_in_his_younger_days.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Photograph_of_Sikh_literati_Bhai_Vir_Singh_in_his_younger_days.jpg?width=1024"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Bhai_Vir_Singh_with_his_spouse_and_his_brother_Dr_Balbir_Singh_standing_at_back.jpg/1024px-Bhai_Vir_Singh_with_his_spouse_and_his_brother_Dr_Balbir_Singh_standing_at_back.jpg",
-     "caption": "Bhai Vir Singh with his spouse and his brother Dr Balbir Singh standing at back",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Bhai_Vir_Singh_with_his_spouse_and_his_brother_Dr_Balbir_Singh_standing_at_back.jpg/480px-Bhai_Vir_Singh_with_his_spouse_and_his_brother_Dr_Balbir_Singh_standing_at_back.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Bhai_Vir_Singh_with_his_spouse_and_his_brother_Dr_Balbir_Singh_standing_at_back.jpg?width=1024"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Photograph_of_Sikh_literati_Bhai_Vir_Singh_practicing_yoga.jpg/1024px-Photograph_of_Sikh_literati_Bhai_Vir_Singh_practicing_yoga.jpg",
-     "caption": "Photograph of Sikh literati Bhai Vir Singh practicing yoga",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Photograph_of_Sikh_literati_Bhai_Vir_Singh_practicing_yoga.jpg/480px-Photograph_of_Sikh_literati_Bhai_Vir_Singh_practicing_yoga.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Photograph_of_Sikh_literati_Bhai_Vir_Singh_practicing_yoga.jpg?width=1024"
-    }
-   ]
-  },
-  {
-   "name": "Kartar Singh Sarabha",
-   "years": "1896 – 1915",
-   "profession": "Ghadar Party Revolutionary and Martyr",
-   "bio": "Kartar Singh Sarabha was a young revolutionary who became one of the most prominent figures of the Ghadar Party, founded in 1913 among Panjabi and Sikh immigrants on the west coast of North America to organize armed rebellion against British rule in India. As a student in California he helped edit the party's Ghadar newspaper.\n\nHe returned to India to foment an uprising among Indian soldiers, but the plot was uncovered. Tried in the Lahore Conspiracy Case, he was hanged in 1915 at the age of nineteen. He became an iconic martyr of the anti-colonial movement and a personal inspiration to later revolutionaries, notably Bhagat Singh.",
-   "related_events": [
-    "ghadar-movement-1913",
-    "bhagat-singh-execution-1931"
-   ],
-   "gallery": [
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Revolutionary_Kartar_Singh_Sarabha.jpg/1024px-Revolutionary_Kartar_Singh_Sarabha.jpg",
-     "caption": "Photograph of Ghadar Party revolutionary Kartar Singh Sarabha",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Revolutionary_Kartar_Singh_Sarabha.jpg/480px-Revolutionary_Kartar_Singh_Sarabha.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Revolutionary_Kartar_Singh_Sarabha.jpg?width=1024"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Kartar_Singh_sarbha.png/1024px-Kartar_Singh_sarbha.png",
-     "caption": "Photograph/print of Kartar Singh Sarabha",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Kartar_Singh_sarbha.png/480px-Kartar_Singh_sarbha.png",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Kartar_Singh_sarbha.png?width=1024"
-    }
-   ]
-  },
-  {
-   "name": "Bhai Mewa Singh",
-   "years": "1881 – 1915",
-   "profession": "Diaspora Sikh Martyr",
-   "bio": "Bhai Mewa Singh Lopoke was a Sikh immigrant in British Columbia active in the community's struggle against discriminatory Canadian immigration laws around the time of the Komagata Maru affair. Amid intimidation of the Sikh community by informants working for the colonial and Canadian authorities, he shot and killed William Hopkinson, an immigration inspector and intelligence agent, at the Vancouver courthouse in 1914.\n\nHe made no attempt to escape and framed his act as a defence of his community and faith. He was hanged on 11 January 1915. He is honoured as an early shahid (martyr) of the diaspora Sikh community, commemorated annually in British Columbia.",
-   "related_events": [
-    "mewa-singh-execution-1915",
-    "komagata-maru-1914"
-   ],
-   "gallery": [
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Portrait_Painting_of_Mewa_Singh.jpg/1024px-Portrait_Painting_of_Mewa_Singh.jpg",
-     "caption": "Portrait painting of Bhai Mewa Singh Lopoke, Ghadar-era Sikh martyr in British Columbia",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Portrait_Painting_of_Mewa_Singh.jpg/480px-Portrait_Painting_of_Mewa_Singh.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_Painting_of_Mewa_Singh.jpg?width=1024"
-    }
-   ]
+   "category": "panth"
   },
   {
    "name": "Private Buckam Singh",
@@ -8222,208 +8290,8 @@
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Newspaper_clipping_photograph_of_Buckam_Singh%2C_Toronto_Telegram%2C_1915.png/480px-Newspaper_clipping_photograph_of_Buckam_Singh%2C_Toronto_Telegram%2C_1915.png",
      "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Newspaper_clipping_photograph_of_Buckam_Singh%2C_Toronto_Telegram%2C_1915.png?width=1024"
     }
-   ]
-  },
-  {
-   "name": "General Reginald Dyer",
-   "years": "1864 – 1927",
-   "profession": "British Army Officer",
-   "bio": "Colonel (acting Brigadier-General) Reginald Dyer was the British Indian Army officer who ordered troops under his command to open fire on an unarmed crowd gathered at Jallianwala Bagh in Amritsar on 13 April 1919, during Vaisakhi. The firing continued until ammunition was nearly exhausted, killing hundreds and wounding many more in an enclosed space with few exits.\n\nThe massacre became one of the defining atrocities of British colonial rule. Dyer was censured by the Hunter Commission and removed from command, though he was lauded by sections of the British public. He died in 1927.",
-   "related_events": [
-    "jallianwala-bagh-1919"
    ],
-   "gallery": [
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/G%C3%A9n%C3%A9ral_Dyer%2C_C.N._Londres_%28clich%C3%A9_Central_News%29_-_btv1b530372528.jpg/1024px-G%C3%A9n%C3%A9ral_Dyer%2C_C.N._Londres_%28clich%C3%A9_Central_News%29_-_btv1b530372528.jpg",
-     "caption": "Press photograph of General Reginald Dyer, distributed by the Central News agency, London, 1919",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/G%C3%A9n%C3%A9ral_Dyer%2C_C.N._Londres_%28clich%C3%A9_Central_News%29_-_btv1b530372528.jpg/480px-G%C3%A9n%C3%A9ral_Dyer%2C_C.N._Londres_%28clich%C3%A9_Central_News%29_-_btv1b530372528.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/G%C3%A9n%C3%A9ral_Dyer%2C_C.N._Londres_%28clich%C3%A9_Central_News%29_-_btv1b530372528.jpg?width=1024"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/The_Jallianwala_Bagh_memorial_in_Amrithsar_.jpg/1024px-The_Jallianwala_Bagh_memorial_in_Amrithsar_.jpg",
-     "caption": "The Jallianwala Bagh memorial in Amritsar, built to commemorate the victims of the 1919 massacre Dyer ordered — a representative image of the site, not a photograph of Dyer himself",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/The_Jallianwala_Bagh_memorial_in_Amrithsar_.jpg/480px-The_Jallianwala_Bagh_memorial_in_Amrithsar_.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Jallianwala_Bagh_memorial_in_Amrithsar_.jpg?width=1024"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Quote_from_General_Dyer_Who_Ordered_1919_Amritsar_Massacre_-_Jallianwala_Bagh_-_Amritsar_-_Punjab_-_India_%2812675265305%29.jpg/1024px-Quote_from_General_Dyer_Who_Ordered_1919_Amritsar_Massacre_-_Jallianwala_Bagh_-_Amritsar_-_Punjab_-_India_%2812675265305%29.jpg",
-     "caption": "Inscribed quote from General Dyer at the Jallianwala Bagh site, Amritsar — a documentary/memorial photograph, not a portrait of Dyer",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Quote_from_General_Dyer_Who_Ordered_1919_Amritsar_Massacre_-_Jallianwala_Bagh_-_Amritsar_-_Punjab_-_India_%2812675265305%29.jpg/480px-Quote_from_General_Dyer_Who_Ordered_1919_Amritsar_Massacre_-_Jallianwala_Bagh_-_Amritsar_-_Punjab_-_India_%2812675265305%29.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Quote_from_General_Dyer_Who_Ordered_1919_Amritsar_Massacre_-_Jallianwala_Bagh_-_Amritsar_-_Punjab_-_India_%2812675265305%29.jpg?width=1024"
-    }
-   ]
-  },
-  {
-   "name": "Michael O'Dwyer",
-   "years": "1864 – 1940",
-   "profession": "Lieutenant-Governor of Panjab",
-   "bio": "Sir Michael O'Dwyer served as Lieutenant-Governor of Panjab from 1913 to 1919 and endorsed General Dyer's actions at the Jallianwala Bagh massacre, presiding over the harsh repression and martial law that followed across the province. He remained an unrepentant defender of the massacre for the rest of his life.\n\nHe was assassinated in London on 13 March 1940 by Udham Singh, who held him responsible for the atrocity. He died at Caxton Hall more than two decades after the events at Amritsar.",
-   "related_events": [
-    "jallianwala-bagh-1919",
-    "udham-singh-odwyer-1940"
-   ],
-   "gallery": [
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Photograph_of_Maharaja_Brij_Indar_Singh_of_Faridkot_State_seated_with_Sir_Michael_O%27Dwyer%2C_the_Lieutenant-Governor_of_Punjab%2C_ca.1916.jpg/1024px-Photograph_of_Maharaja_Brij_Indar_Singh_of_Faridkot_State_seated_with_Sir_Michael_O%27Dwyer%2C_the_Lieutenant-Governor_of_Punjab%2C_ca.1916.jpg",
-     "caption": "Photograph of Maharaja Brij Indar Singh of Faridkot State seated with Sir Michael O'Dwyer, the Lieutenant-Governor of Punjab, ca.1916",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Photograph_of_Maharaja_Brij_Indar_Singh_of_Faridkot_State_seated_with_Sir_Michael_O%27Dwyer%2C_the_Lieutenant-Governor_of_Punjab%2C_ca.1916.jpg/480px-Photograph_of_Maharaja_Brij_Indar_Singh_of_Faridkot_State_seated_with_Sir_Michael_O%27Dwyer%2C_the_Lieutenant-Governor_of_Punjab%2C_ca.1916.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Photograph_of_Maharaja_Brij_Indar_Singh_of_Faridkot_State_seated_with_Sir_Michael_O%27Dwyer%2C_the_Lieutenant-Governor_of_Punjab%2C_ca.1916.jpg?width=1024"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Front-page_headline_from_The_Daily_Telegraph_newspaper_reporting_on_the_assassination_of_Michael_O%27Dwyer_by_Udham_Singh%2C_Thursday%2C_14_March_1940.jpg/1024px-Front-page_headline_from_The_Daily_Telegraph_newspaper_reporting_on_the_assassination_of_Michael_O%27Dwyer_by_Udham_Singh%2C_Thursday%2C_14_March_1940.jpg",
-     "caption": "Front-page headline from The Daily Telegraph reporting on the assassination of Michael O'Dwyer by Udham Singh, 14 March 1940 — a newspaper document, not a photo of O'Dwyer",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Front-page_headline_from_The_Daily_Telegraph_newspaper_reporting_on_the_assassination_of_Michael_O%27Dwyer_by_Udham_Singh%2C_Thursday%2C_14_March_1940.jpg/480px-Front-page_headline_from_The_Daily_Telegraph_newspaper_reporting_on_the_assassination_of_Michael_O%27Dwyer_by_Udham_Singh%2C_Thursday%2C_14_March_1940.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Front-page_headline_from_The_Daily_Telegraph_newspaper_reporting_on_the_assassination_of_Michael_O%27Dwyer_by_Udham_Singh%2C_Thursday%2C_14_March_1940.jpg?width=1024"
-    }
-   ]
-  },
-  {
-   "name": "Shaheed Bhagat Singh",
-   "years": "1907 – 1931",
-   "profession": "Anti-Colonial Revolutionary and Martyr",
-   "bio": "Bhagat Singh, born into a Panjabi Sikh family with a strong nationalist heritage, became one of the most influential revolutionaries of the Indian independence movement. Inspired in part by the Ghadar martyr Kartar Singh Sarabha, he embraced militant and socialist ideas through the Hindustan Socialist Republican Association.\n\nHe took part in the killing of a British police officer in retaliation for the death of the nationalist leader Lala Lajpat Rai, and in the throwing of non-lethal bombs in the Central Legislative Assembly as a symbolic protest, courting arrest to publicize revolutionary ideas. Tried and convicted, he was hanged by British authorities on 23 March 1931 at the age of twenty-three. He is remembered as a martyr claimed across the political spectrum in South Asia and within the lineage of Panjabi anti-colonial resistance.",
-   "related_events": [
-    "bhagat-singh-execution-1931"
-   ],
-   "gallery": [
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Detail_of_Bhagat_Singh%2C_from_a_photograph_of_Bhagat_Singh_in_jail%2C_1927.jpg/1024px-Detail_of_Bhagat_Singh%2C_from_a_photograph_of_Bhagat_Singh_in_jail%2C_1927.jpg",
-     "caption": "Detail of Bhagat Singh, from a photograph of him in jail, 1927",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Detail_of_Bhagat_Singh%2C_from_a_photograph_of_Bhagat_Singh_in_jail%2C_1927.jpg/480px-Detail_of_Bhagat_Singh%2C_from_a_photograph_of_Bhagat_Singh_in_jail%2C_1927.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Detail_of_Bhagat_Singh%2C_from_a_photograph_of_Bhagat_Singh_in_jail%2C_1927.jpg?width=1024"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Portrait_of_Bhagat_Singh_at_the_age_of_seventeen%2C_ca.1924%E2%80%9325.jpg/1024px-Portrait_of_Bhagat_Singh_at_the_age_of_seventeen%2C_ca.1924%E2%80%9325.jpg",
-     "caption": "Portrait of Bhagat Singh at the age of seventeen, ca.1924–25",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Portrait_of_Bhagat_Singh_at_the_age_of_seventeen%2C_ca.1924%E2%80%9325.jpg/480px-Portrait_of_Bhagat_Singh_at_the_age_of_seventeen%2C_ca.1924%E2%80%9325.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_Bhagat_Singh_at_the_age_of_seventeen%2C_ca.1924%E2%80%9325.jpg?width=1024"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Photograph_of_Bhagat_Singh_at_the_age_of_ten%2C_ca.1917%E2%80%9318_%28with_border%29.jpg/1024px-Photograph_of_Bhagat_Singh_at_the_age_of_ten%2C_ca.1917%E2%80%9318_%28with_border%29.jpg",
-     "caption": "Photograph of Bhagat Singh at the age of ten, ca.1917–18",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Photograph_of_Bhagat_Singh_at_the_age_of_ten%2C_ca.1917%E2%80%9318_%28with_border%29.jpg/480px-Photograph_of_Bhagat_Singh_at_the_age_of_ten%2C_ca.1917%E2%80%9318_%28with_border%29.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Photograph_of_Bhagat_Singh_at_the_age_of_ten%2C_ca.1917%E2%80%9318_%28with_border%29.jpg?width=1024"
-    }
-   ]
-  },
-  {
-   "name": "Mohandas Karamchand Gandhi",
-   "years": "1869 – 1948",
-   "profession": "Leader of the Indian Independence Movement",
-   "bio": "Mohandas Gandhi was the pre-eminent leader of the Indian independence movement, known for his philosophy of non-violent resistance (satyagraha). In the context of Sikh history he is a contested figure: in August 1936 he published an article in his journal Harijan labelling a proposed mass conversion of so-called 'untouchables' to Sikhi 'A Dangerous Proposal,' a stance many Sikhs read as revealing anxieties over caste, conversion, and Sikh distinctiveness in late colonial India.\n\nHe was assassinated in 1948. His statements and positions on Sikh questions have remained points of critical discussion in Sikh political and historical writing.",
-   "related_events": [
-    "gandhi-dangerous-proposal-1936"
-   ],
-   "gallery": [
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Portrait_Gandhi.jpg/1024px-Portrait_Gandhi.jpg",
-     "caption": "Portrait photograph of Mohandas K. Gandhi, 1930s",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Portrait_Gandhi.jpg/480px-Portrait_Gandhi.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_Gandhi.jpg?width=1024"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Mahatma-Gandhi%2C_studio%2C_1931.jpg/1024px-Mahatma-Gandhi%2C_studio%2C_1931.jpg",
-     "caption": "Studio photograph of Mahatma Gandhi, London, 1931",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Mahatma-Gandhi%2C_studio%2C_1931.jpg/480px-Mahatma-Gandhi%2C_studio%2C_1931.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Mahatma-Gandhi%2C_studio%2C_1931.jpg?width=1024"
-    }
-   ]
-  },
-  {
-   "name": "Udham Singh",
-   "years": "1899 – 1940",
-   "profession": "Revolutionary and Martyr",
-   "bio": "Udham Singh was a Panjabi revolutionary who assassinated Sir Michael O'Dwyer, the former Lieutenant-Governor of Panjab, at Caxton Hall in London on 13 March 1940, in retribution for O'Dwyer's endorsement of the 1919 Jallianwala Bagh massacre, which Udham Singh is said to have witnessed. He had waited more than two decades to carry out the act.\n\nHe was tried in Britain and hanged in 1940. Associated with the Ghadar tradition and revolutionary networks, he adopted the composite name Ram Mohammad Singh Azad to symbolize religious unity. Sikh writers have criticized later film and media portrayals for erasing his Sikh identity and the religious dimension of his motivations.",
-   "related_events": [
-    "udham-singh-odwyer-1940",
-    "jallianwala-bagh-1919"
-   ],
-   "gallery": [
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Photograph_of_Udham_Singh.jpg/1024px-Photograph_of_Udham_Singh.jpg",
-     "caption": "Photograph of Udham Singh",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Photograph_of_Udham_Singh.jpg/480px-Photograph_of_Udham_Singh.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Photograph_of_Udham_Singh.jpg?width=1024"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Detail_of_Udham_Singh%2C_from_a_group_photograph_of_Sikhs_%28including_Udham_Singh%29_gathered_together_on_the_birthday_anniversay_of_Guru_Nanak_at_Gurdwara_Shepherd%27s_Bush%2C_London%2C_1937_%28detail%29.jpg/1024px-Detail_of_Udham_Singh%2C_from_a_group_photograph_of_Sikhs_%28including_Udham_Singh%29_gathered_together_on_the_birthday_anniversay_of_Guru_Nanak_at_Gurdwara_Shepherd%27s_Bush%2C_London%2C_1937_%28detail%29.jpg",
-     "caption": "Detail of Udham Singh, cropped from a group photograph of Sikhs gathered for Guru Nanak's birth anniversary at Gurdwara Shepherd's Bush, London, 1937",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Detail_of_Udham_Singh%2C_from_a_group_photograph_of_Sikhs_%28including_Udham_Singh%29_gathered_together_on_the_birthday_anniversay_of_Guru_Nanak_at_Gurdwara_Shepherd%27s_Bush%2C_London%2C_1937_%28detail%29.jpg/480px-Detail_of_Udham_Singh%2C_from_a_group_photograph_of_Sikhs_%28including_Udham_Singh%29_gathered_together_on_the_birthday_anniversay_of_Guru_Nanak_at_Gurdwara_Shepherd%27s_Bush%2C_London%2C_1937_%28detail%29.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Detail_of_Udham_Singh%2C_from_a_group_photograph_of_Sikhs_%28including_Udham_Singh%29_gathered_together_on_the_birthday_anniversay_of_Guru_Nanak_at_Gurdwara_Shepherd%27s_Bush%2C_London%2C_1937_%28detail%29.jpg?width=1024"
-    }
-   ]
-  },
-  {
-   "name": "Sirdar Kapur Singh",
-   "years": "1909 – 1986",
-   "profession": "Sikh Scholar, Civil Servant, and Parliamentarian",
-   "bio": "Sirdar Kapur Singh was a scholar, former Indian Civil Service officer, and parliamentarian who became one of the most influential Sikh political theorists of the twentieth century. Dismissed from the civil service in circumstances he attributed to anti-Sikh bias, he turned to writing and Panth politics, earning the honorific 'National Professor of Sikhism.'\n\nIn the aftermath of the 1947 Partition he articulated one of the clearest theoretical cases for a distinct Sikh homeland within postcolonial India, grounding it in Guru Gobind Singh's vision of the Khalsa and in what he described as Sikh grievances against the Indian state, expressed in documents such as the 'Betrayal of the Sikhs.' His writings shaped later debates over Sikh autonomy and the Anandpur Sahib Resolution. He died in 1986.",
-   "related_events": [
-    "kapur-singh-homeland-1947"
-   ],
-   "gallery": [
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Kapoor_Singh_ICS.jpg/1024px-Kapoor_Singh_ICS.jpg",
-     "caption": "Photograph of Sardar Kapur Singh from his time as an Indian Civil Service (ICS) officer",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Kapoor_Singh_ICS.jpg/480px-Kapoor_Singh_ICS.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Kapoor_Singh_ICS.jpg?width=1024"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/SansadBhavan.jpg/1024px-SansadBhavan.jpg",
-     "caption": "Parliament House (Sansad Bhavan), New Delhi, where Kapur Singh served as a parliamentarian — a representative image of the institution, not a photograph of Kapur Singh himself",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/SansadBhavan.jpg/480px-SansadBhavan.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/SansadBhavan.jpg?width=1024"
-    }
-   ]
-  },
-  {
-   "name": "Indira Gandhi",
-   "years": "1917 – 1984",
-   "profession": "Prime Minister of India",
-   "bio": "Indira Gandhi served as Prime Minister of India for most of the period from 1966 to 1984. In 1975 she imposed a nationwide Internal Emergency, suspending civil liberties and jailing opponents; Sikh organizations mounted one of the most sustained resistance campaigns against it, with large numbers courting arrest.\n\nIn June 1984 she ordered Operation Blue Star, the Indian Army assault on the Harimandar Sahib complex in Amritsar, which killed large numbers of pilgrims and severely damaged Sikhism's holiest site, becoming a central trauma of modern Sikh history. On 31 October 1984 she was assassinated by two of her Sikh bodyguards in apparent retaliation for the assault. Her killing was followed within hours by organized anti-Sikh violence across Delhi and northern India.",
-   "related_events": [
-    "emergency-1975",
-    "operation-blue-star-1984",
-    "indira-gandhi-assassination-1984",
-    "anti-sikh-pogroms-nov-1984"
-   ],
-   "gallery": [
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Indira_Gandhi_1966_%28cropped%29.jpg/1024px-Indira_Gandhi_1966_%28cropped%29.jpg",
-     "caption": "Indira Gandhi, cropped portrait photograph, 1966.",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Indira_Gandhi_1966_%28cropped%29.jpg/480px-Indira_Gandhi_1966_%28cropped%29.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Indira_Gandhi_1966_%28cropped%29.jpg?width=1024"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Indira_Gandhi_at_banquet_in_Vancouver_during_a_state-visit%2C_The_Province%2C_1949.jpg/1024px-Indira_Gandhi_at_banquet_in_Vancouver_during_a_state-visit%2C_The_Province%2C_1949.jpg",
-     "caption": "Indira Gandhi at a banquet in Vancouver during a state visit, The Province, 1949",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Indira_Gandhi_at_banquet_in_Vancouver_during_a_state-visit%2C_The_Province%2C_1949.jpg/480px-Indira_Gandhi_at_banquet_in_Vancouver_during_a_state-visit%2C_The_Province%2C_1949.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Indira_Gandhi_at_banquet_in_Vancouver_during_a_state-visit%2C_The_Province%2C_1949.jpg?width=1024"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Nehru_with_Indira_Gandhi_at_the_Sikh_temple_in_Vancouver%2C_The_Province%2C_1949.jpg/1024px-Nehru_with_Indira_Gandhi_at_the_Sikh_temple_in_Vancouver%2C_The_Province%2C_1949.jpg",
-     "caption": "Nehru with Indira Gandhi at the Sikh temple in Vancouver, The Province, 1949",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Nehru_with_Indira_Gandhi_at_the_Sikh_temple_in_Vancouver%2C_The_Province%2C_1949.jpg/480px-Nehru_with_Indira_Gandhi_at_the_Sikh_temple_in_Vancouver%2C_The_Province%2C_1949.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Nehru_with_Indira_Gandhi_at_the_Sikh_temple_in_Vancouver%2C_The_Province%2C_1949.jpg?width=1024"
-    }
-   ]
+   "category": "panth"
   },
   {
    "name": "Sant Jarnail Singh Bhindranwale",
@@ -8459,7 +8327,67 @@
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Golden_Temple-Amritsar.JPG/480px-Golden_Temple-Amritsar.JPG",
      "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Golden_Temple-Amritsar.JPG?width=1024"
     }
-   ]
+   ],
+   "category": "panth"
+  },
+  {
+   "name": "Shaheed Bhagat Singh",
+   "years": "1907 – 1931",
+   "profession": "Anti-Colonial Revolutionary and Martyr",
+   "bio": "Bhagat Singh, born into a Panjabi Sikh family with a strong nationalist heritage, became one of the most influential revolutionaries of the Indian independence movement. Inspired in part by the Ghadar martyr Kartar Singh Sarabha, he embraced militant and socialist ideas through the Hindustan Socialist Republican Association.\n\nHe took part in the killing of a British police officer in retaliation for the death of the nationalist leader Lala Lajpat Rai, and in the throwing of non-lethal bombs in the Central Legislative Assembly as a symbolic protest, courting arrest to publicize revolutionary ideas. Tried and convicted, he was hanged by British authorities on 23 March 1931 at the age of twenty-three. He is remembered as a martyr claimed across the political spectrum in South Asia and within the lineage of Panjabi anti-colonial resistance.",
+   "related_events": [
+    "bhagat-singh-execution-1931"
+   ],
+   "gallery": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Detail_of_Bhagat_Singh%2C_from_a_photograph_of_Bhagat_Singh_in_jail%2C_1927.jpg/1024px-Detail_of_Bhagat_Singh%2C_from_a_photograph_of_Bhagat_Singh_in_jail%2C_1927.jpg",
+     "caption": "Detail of Bhagat Singh, from a photograph of him in jail, 1927",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Detail_of_Bhagat_Singh%2C_from_a_photograph_of_Bhagat_Singh_in_jail%2C_1927.jpg/480px-Detail_of_Bhagat_Singh%2C_from_a_photograph_of_Bhagat_Singh_in_jail%2C_1927.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Detail_of_Bhagat_Singh%2C_from_a_photograph_of_Bhagat_Singh_in_jail%2C_1927.jpg?width=1024"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Portrait_of_Bhagat_Singh_at_the_age_of_seventeen%2C_ca.1924%E2%80%9325.jpg/1024px-Portrait_of_Bhagat_Singh_at_the_age_of_seventeen%2C_ca.1924%E2%80%9325.jpg",
+     "caption": "Portrait of Bhagat Singh at the age of seventeen, ca.1924–25",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Portrait_of_Bhagat_Singh_at_the_age_of_seventeen%2C_ca.1924%E2%80%9325.jpg/480px-Portrait_of_Bhagat_Singh_at_the_age_of_seventeen%2C_ca.1924%E2%80%9325.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_Bhagat_Singh_at_the_age_of_seventeen%2C_ca.1924%E2%80%9325.jpg?width=1024"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Photograph_of_Bhagat_Singh_at_the_age_of_ten%2C_ca.1917%E2%80%9318_%28with_border%29.jpg/1024px-Photograph_of_Bhagat_Singh_at_the_age_of_ten%2C_ca.1917%E2%80%9318_%28with_border%29.jpg",
+     "caption": "Photograph of Bhagat Singh at the age of ten, ca.1917–18",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Photograph_of_Bhagat_Singh_at_the_age_of_ten%2C_ca.1917%E2%80%9318_%28with_border%29.jpg/480px-Photograph_of_Bhagat_Singh_at_the_age_of_ten%2C_ca.1917%E2%80%9318_%28with_border%29.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Photograph_of_Bhagat_Singh_at_the_age_of_ten%2C_ca.1917%E2%80%9318_%28with_border%29.jpg?width=1024"
+    }
+   ],
+   "category": "panth"
+  },
+  {
+   "name": "Sirdar Kapur Singh",
+   "years": "1909 – 1986",
+   "profession": "Sikh Scholar, Civil Servant, and Parliamentarian",
+   "bio": "Sirdar Kapur Singh was a scholar, former Indian Civil Service officer, and parliamentarian who became one of the most influential Sikh political theorists of the twentieth century. Dismissed from the civil service in circumstances he attributed to anti-Sikh bias, he turned to writing and Panth politics, earning the honorific 'National Professor of Sikhism.'\n\nIn the aftermath of the 1947 Partition he articulated one of the clearest theoretical cases for a distinct Sikh homeland within postcolonial India, grounding it in Guru Gobind Singh's vision of the Khalsa and in what he described as Sikh grievances against the Indian state, expressed in documents such as the 'Betrayal of the Sikhs.' His writings shaped later debates over Sikh autonomy and the Anandpur Sahib Resolution. He died in 1986.",
+   "related_events": [
+    "kapur-singh-homeland-1947"
+   ],
+   "gallery": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Kapoor_Singh_ICS.jpg/1024px-Kapoor_Singh_ICS.jpg",
+     "caption": "Photograph of Sardar Kapur Singh from his time as an Indian Civil Service (ICS) officer",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Kapoor_Singh_ICS.jpg/480px-Kapoor_Singh_ICS.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Kapoor_Singh_ICS.jpg?width=1024"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/SansadBhavan.jpg/1024px-SansadBhavan.jpg",
+     "caption": "Parliament House (Sansad Bhavan), New Delhi, where Kapur Singh served as a parliamentarian — a representative image of the institution, not a photograph of Kapur Singh himself",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/SansadBhavan.jpg/480px-SansadBhavan.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/SansadBhavan.jpg?width=1024"
+    }
+   ],
+   "category": "panth"
   },
   {
    "name": "Talwinder Singh Parmar",
@@ -8477,123 +8405,92 @@
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Air_India_182_memorial.jpg/480px-Air_India_182_memorial.jpg",
      "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Air_India_182_memorial.jpg?width=1024"
     }
-   ]
+   ],
+   "category": "panth"
   },
   {
-   "name": "Gurdip Singh Chaggar",
-   "years": "1957 – 1976",
-   "profession": "Victim of Racist Violence",
-   "bio": "Gurdip Singh Chaggar was an eighteen-year-old Sikh student killed in a racially motivated attack in Southall, west London, in June 1976. His murder became a catalyzing moment for Sikh and South Asian youth in Britain, galvanizing the formation of the Southall Youth Movement and a broader anti-racist mobilization.\n\nHis death is remembered as a landmark in the history of the British South Asian struggle against racist violence. On its fiftieth anniversary in 2026, community organizations reflected on how much anti-Sikh and anti-South Asian hostility persisted.",
+   "name": "Udham Singh",
+   "years": "1899 – 1940",
+   "profession": "Revolutionary and Martyr",
+   "bio": "Udham Singh was a Panjabi revolutionary who assassinated Sir Michael O'Dwyer, the former Lieutenant-Governor of Panjab, at Caxton Hall in London on 13 March 1940, in retribution for O'Dwyer's endorsement of the 1919 Jallianwala Bagh massacre, which Udham Singh is said to have witnessed. He had waited more than two decades to carry out the act.\n\nHe was tried in Britain and hanged in 1940. Associated with the Ghadar tradition and revolutionary networks, he adopted the composite name Ram Mohammad Singh Azad to symbolize religious unity. Sikh writers have criticized later film and media portrayals for erasing his Sikh identity and the religious dimension of his motivations.",
    "related_events": [
-    "chaggar-southall-murder-1976",
-    "wso-hate-report-chaggar-50th-2026"
+    "udham-singh-odwyer-1940",
+    "jallianwala-bagh-1919"
    ],
    "gallery": [
     {
-     "url": "assets/img/gurdip-singh-chaggar.jpg",
-     "caption": "Photograph of Gurdip Singh Chaggar.",
-     "credit": "Image via Times Now News",
-     "fallback": "https://images.timesnownews.com/thumb/msid-109106062,thumbsize-6724,width-1280,height-720,resizemode-75/109106062.jpg",
-     "thumb": "assets/img/gurdip-singh-chaggar.jpg"
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Photograph_of_Udham_Singh.jpg/1024px-Photograph_of_Udham_Singh.jpg",
+     "caption": "Photograph of Udham Singh",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Photograph_of_Udham_Singh.jpg/480px-Photograph_of_Udham_Singh.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Photograph_of_Udham_Singh.jpg?width=1024"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Detail_of_Udham_Singh%2C_from_a_group_photograph_of_Sikhs_%28including_Udham_Singh%29_gathered_together_on_the_birthday_anniversay_of_Guru_Nanak_at_Gurdwara_Shepherd%27s_Bush%2C_London%2C_1937_%28detail%29.jpg/1024px-Detail_of_Udham_Singh%2C_from_a_group_photograph_of_Sikhs_%28including_Udham_Singh%29_gathered_together_on_the_birthday_anniversay_of_Guru_Nanak_at_Gurdwara_Shepherd%27s_Bush%2C_London%2C_1937_%28detail%29.jpg",
+     "caption": "Detail of Udham Singh, cropped from a group photograph of Sikhs gathered for Guru Nanak's birth anniversary at Gurdwara Shepherd's Bush, London, 1937",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Detail_of_Udham_Singh%2C_from_a_group_photograph_of_Sikhs_%28including_Udham_Singh%29_gathered_together_on_the_birthday_anniversay_of_Guru_Nanak_at_Gurdwara_Shepherd%27s_Bush%2C_London%2C_1937_%28detail%29.jpg/480px-Detail_of_Udham_Singh%2C_from_a_group_photograph_of_Sikhs_%28including_Udham_Singh%29_gathered_together_on_the_birthday_anniversay_of_Guru_Nanak_at_Gurdwara_Shepherd%27s_Bush%2C_London%2C_1937_%28detail%29.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Detail_of_Udham_Singh%2C_from_a_group_photograph_of_Sikhs_%28including_Udham_Singh%29_gathered_together_on_the_birthday_anniversay_of_Guru_Nanak_at_Gurdwara_Shepherd%27s_Bush%2C_London%2C_1937_%28detail%29.jpg?width=1024"
+    }
+   ],
+   "category": "panth"
+  },
+  {
+   "name": "Amritpal Singh Sandhu",
+   "years": "b. 1993",
+   "profession": "Sikh Preacher, Leader of Waris Punjab De, Member of Parliament",
+   "bio": "Amritpal Singh Sandhu emerged as a Sikh preacher and activist who, following Deep Sidhu's death, was formally appointed leader of Waris Punjab De in a ceremony at Rode village in September 2022. Adopting the style and rhetoric of Sant Jarnail Singh Bhindranwale, he led a rapid Amrit Sanchar and anti-drug revival campaign that drew both large followings and government alarm.\n\nIn February 2023 his supporters stormed the Ajnala police station near Amritsar demanding an associate's release. In March 2023 Panjab police launched a sweeping crackdown, imposing a statewide internet blackout, and after weeks evading capture he was arrested in April 2023 and detained without trial under the National Security Act in Assam's Dibrugarh jail.\n\nWhile still detained, in June 2024 he won the Khadoor Sahib parliamentary seat as an independent with over 400,000 votes, a result Sikh commentators called a striking rebuke to claims that pro-Khalistan sentiment lacks support in Panjab.",
+   "related_events": [
+    "amritpal-singh-wpd-head-2022",
+    "ajnala-standoff-2023",
+    "amritpal-manhunt-2023",
+    "amritpal-arrested-2023",
+    "amritpal-electoral-win-2024",
+    "kaumi-insaaf-morcha-2023"
+   ],
+   "gallery": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Amritpal_Singh_Jallupur.jpg/1024px-Amritpal_Singh_Jallupur.jpg",
+     "caption": "Photograph of Amritpal Singh Sandhu.",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Amritpal_Singh_Jallupur.jpg/480px-Amritpal_Singh_Jallupur.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Amritpal_Singh_Jallupur.jpg?width=1024"
     },
     {
      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Sikh_Gurdwara%2C_Punjab.JPG/1024px-Sikh_Gurdwara%2C_Punjab.JPG",
-     "caption": "Representative image of a Sikh gurdwara — no free-licensed photograph of Gurdip Singh Chaggar could be confirmed on Wikimedia Commons; his 1976 racist murder in Southall, London, is documented mainly through press-agency photographs that are not freely licensed",
+     "caption": "Representative image of a Sikh gurdwara in Punjab — no free-licensed photograph of Amritpal Singh Sandhu could be confirmed on Wikimedia Commons at time of writing",
      "credit": "Wikimedia Commons",
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Sikh_Gurdwara%2C_Punjab.JPG/480px-Sikh_Gurdwara%2C_Punjab.JPG",
      "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Sikh_Gurdwara%2C_Punjab.JPG?width=1024"
     }
-   ]
+   ],
+   "category": "contemporary"
   },
   {
-   "name": "Beant Singh",
-   "years": "1922 – 1995",
-   "profession": "Chief Minister of Panjab",
-   "bio": "Beant Singh was a Congress politician who became Chief Minister of Panjab after the 1992 state election, held amid a widespread Sikh boycott. His government is held by Sikh rights advocates to have overseen a campaign of extrajudicial killings and enforced disappearances of Sikh youth during the counter-insurgency of the early 1990s, later documented by the human rights defender Jaswant Singh Khalra.\n\nHe was killed on 31 August 1995 in a suicide bombing at the Panjab civil secretariat in Chandigarh, carried out by Dilawar Singh, with Balwant Singh Rajoana convicted as a conspirator. Sikh accounts frame the killing as retribution sought for the bloodshed of the counter-insurgency years.",
+   "name": "Avtar Singh Khanda",
+   "years": "1988 – 2023",
+   "profession": "UK-Based Khalistan Activist",
+   "bio": "Avtar Singh Khanda was a prominent UK-based Khalistan activist associated with organizing and advocacy in Britain. He came to wider attention around the 2023 events surrounding Amritpal Singh and Waris Punjab De.\n\nOn 15 June 2023 he died suddenly in Birmingham. His family and Sikh organizations considered the circumstances suspicious, and UK police and coroners were later accused of failing to properly investigate allegations that he had been poisoned. His death, days before the killing of Hardeep Singh Nijjar, is cited in discussions of alleged transnational repression targeting Sikh activists abroad.",
    "related_events": [
-    "punjab-counterinsurgency-1992",
-    "beant-singh-assassination-1995"
+    "khanda-death-2023"
    ],
    "gallery": [
     {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Beant_Singh_2013_stamp_of_India.jpg/1024px-Beant_Singh_2013_stamp_of_India.jpg",
-     "caption": "2013 Indian commemorative postage stamp bearing the likeness of Beant Singh, Chief Minister of Punjab (1992–1995) — a stamp portrait, not a photograph",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Beant_Singh_2013_stamp_of_India.jpg/480px-Beant_Singh_2013_stamp_of_India.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Beant_Singh_2013_stamp_of_India.jpg?width=1024"
-    }
-   ]
-  },
-  {
-   "name": "Jaswant Singh Khalra",
-   "years": "1952 – 1995",
-   "profession": "Human Rights Defender and Martyr",
-   "bio": "Jaswant Singh Khalra was a human rights defender who exposed the scale of the Indian state's counter-insurgency campaign in Panjab. Investigating municipal cremation records, he documented thousands of secret and illegal police cremations of Sikh youth who had been abducted, extrajudicially killed, and disposed of as 'unidentified' bodies.\n\nAfter publicizing his findings internationally, he was abducted by Panjab police in September 1995 and murdered while in custody. Years later several police officials were convicted in connection with his killing. He is revered as one of the Panth's most respected modern martyrs and a symbol of the struggle for accountability for the disappearances of the 1980s and 1990s.",
-   "related_events": [
-    "punjab-counterinsurgency-1992",
-    "khalra-murder-1995"
-   ],
-   "gallery": [
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/JaswantSinghKhalra.jpg/1024px-JaswantSinghKhalra.jpg",
-     "caption": "Photograph of Jaswant Singh Khalra, the human rights activist who exposed extrajudicial killings and illegal cremations by Punjab Police",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/JaswantSinghKhalra.jpg/480px-JaswantSinghKhalra.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/JaswantSinghKhalra.jpg?width=1024"
-    }
-   ]
-  },
-  {
-   "name": "Yogi Bhajan (Harbhajan Singh Puri)",
-   "years": "1929 – 2004",
-   "profession": "Founder of the 3HO Movement",
-   "bio": "Harbhajan Singh Puri, known as Yogi Bhajan, was the founder of the 3HO ('Healthy, Happy, Holy Organization') and Sikh Dharma movement in the United States from 1969, introducing a form of Kundalini yoga and gathering a following of largely white American converts to a version of Sikhi. He built a network of businesses, schools, and institutions.\n\nBeginning in 2022, the Siri Singh Sahib Corporation, successor to his organization, acknowledged decades of abuse and announced a reparations program for survivors, following accounts by former members. Subsequent investigative reporting in 2024 detailed neglect and abuse suffered by American children sent to 3HO boarding schools in India from the 1980s, deepening critical scrutiny of his legacy. He died in 2004.",
-   "related_events": [
-    "yogi-bhajan-3ho-reckoning-2022"
-   ],
-   "gallery": [
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Yogi_Bhajan_1985.jpg/1024px-Yogi_Bhajan_1985.jpg",
-     "caption": "Photograph of Yogi Bhajan (Harbhajan Singh Puri), 1985",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Yogi_Bhajan_1985.jpg/480px-Yogi_Bhajan_1985.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Yogi_Bhajan_1985.jpg?width=1024"
+     "url": "https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Photograph_Sikh_militant_Avtar_Singh_Khanda.jpg/1024px-Photograph_Sikh_militant_Avtar_Singh_Khanda.jpg",
+     "caption": "Photograph of Avtar Singh Khanda.",
+     "credit": "Non-free fair-use image, English Wikipedia",
+     "thumb": "https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Photograph_Sikh_militant_Avtar_Singh_Khanda.jpg/480px-Photograph_Sikh_militant_Avtar_Singh_Khanda.jpg",
+     "fallback": "https://en.wikipedia.org/wiki/Special:FilePath/Photograph_Sikh_militant_Avtar_Singh_Khanda.jpg?width=1024"
     },
     {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Yogi_Bhajan_and_John_Paul_II.jpg/1024px-Yogi_Bhajan_and_John_Paul_II.jpg",
-     "caption": "Photograph of Yogi Bhajan meeting Pope John Paul II",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Guru_Nanak_Gurdwara_Smethwick_1_%283194488146%29.jpg/1024px-Guru_Nanak_Gurdwara_Smethwick_1_%283194488146%29.jpg",
+     "caption": "Guru Nanak Gurdwara Smethwick, near Birmingham — the UK Midlands region where Avtar Singh Khanda was based as a Sikh diaspora activist and where he died in 2023; a representative location image, not a photograph of Khanda himself (no free-licensed photograph of him could be confirmed on Wikimedia Commons)",
      "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Yogi_Bhajan_and_John_Paul_II.jpg/480px-Yogi_Bhajan_and_John_Paul_II.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Yogi_Bhajan_and_John_Paul_II.jpg?width=1024"
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Guru_Nanak_Gurdwara_Smethwick_1_%283194488146%29.jpg/480px-Guru_Nanak_Gurdwara_Smethwick_1_%283194488146%29.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Guru_Nanak_Gurdwara_Smethwick_1_%283194488146%29.jpg?width=1024"
     }
-   ]
-  },
-  {
-   "name": "Justin Trudeau",
-   "years": "b. 1971",
-   "profession": "Prime Minister of Canada",
-   "bio": "Justin Trudeau served as Prime Minister of Canada from 2015 to 2025. His official visit to India in February 2018 became mired in controversy amid media allegations linking Canadian Sikh politicians to 'separatists,' a narrative Sikh commentators traced through years of skewed coverage of Sikh political activity in Canada.\n\nIn September 2023 he announced to the House of Commons that Canadian agencies were pursuing credible allegations linking agents of the Government of India to the June 2023 assassination of Hardeep Singh Nijjar in British Columbia, triggering a major diplomatic rupture between Ottawa and New Delhi, which rejected the allegations. His government's later actions, including the terrorist designation of the Bishnoi network, further shaped Canada-India relations over transnational repression.",
-   "related_events": [
-    "trudeau-india-tour-2018",
-    "trudeau-parliament-nijjar-2023",
-    "nijjar-assassination-2023"
    ],
-   "gallery": [
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Justin_Trudeau_2014-1.jpg/1024px-Justin_Trudeau_2014-1.jpg",
-     "caption": "Photograph of Justin Trudeau, 2014",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Justin_Trudeau_2014-1.jpg/480px-Justin_Trudeau_2014-1.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Justin_Trudeau_2014-1.jpg?width=1024"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Justin_Trudeau_2021_%28cropped%29.jpg/1024px-Justin_Trudeau_2021_%28cropped%29.jpg",
-     "caption": "Photograph of Justin Trudeau, 2021",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Justin_Trudeau_2021_%28cropped%29.jpg/480px-Justin_Trudeau_2021_%28cropped%29.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Justin_Trudeau_2021_%28cropped%29.jpg?width=1024"
-    }
-   ]
+   "category": "contemporary"
   },
   {
    "name": "Deep Sidhu",
@@ -8620,7 +8517,130 @@
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Red_Fort_aka_Lal_Qila%2C_New_Delhi.JPG/480px-Red_Fort_aka_Lal_Qila%2C_New_Delhi.JPG",
      "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Red_Fort_aka_Lal_Qila%2C_New_Delhi.JPG?width=1024"
     }
-   ]
+   ],
+   "category": "contemporary"
+  },
+  {
+   "name": "Gurpatwant Singh Pannun",
+   "years": "b. 1967",
+   "profession": "Attorney and Founder of Sikhs for Justice",
+   "bio": "Gurpatwant Singh Pannun is a Sikh American (and Canadian) attorney and the general counsel and co-founder of Sikhs for Justice (SFJ), the group that organizes the non-binding Khalistan Referendum votes held across the diaspora from 2022. A vocal advocate for an independent Khalistan, he has been designated a terrorist by India, a designation his supporters characterize as an attack on peaceful advocacy.\n\nIn 2023 US federal prosecutors alleged that an Indian government employee had directed a foiled plot to assassinate him on US soil, detailed in the indictment of Nikhil Gupta. The case became a landmark in international scrutiny of alleged Indian transnational repression.",
+   "related_events": [
+    "khalistan-referendum-begins-2022",
+    "nikhil-gupta-arrest-2023",
+    "us-doj-pannun-indictment-2023"
+   ],
+   "gallery": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Khalistan_map_proposal_by_the_Sikhs_for_Justice.png/1024px-Khalistan_map_proposal_by_the_Sikhs_for_Justice.png",
+     "caption": "Map of the proposed state of 'Khalistan' as circulated by Sikhs for Justice, the organization founded and led by Gurpatwant Singh Pannun — a representative document, not a photograph of Pannun himself (no free-licensed photograph of him could be confirmed on Wikimedia Commons)",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Khalistan_map_proposal_by_the_Sikhs_for_Justice.png/480px-Khalistan_map_proposal_by_the_Sikhs_for_Justice.png",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Khalistan_map_proposal_by_the_Sikhs_for_Justice.png?width=1024"
+    }
+   ],
+   "category": "contemporary"
+  },
+  {
+   "name": "Hardeep Singh Nijjar",
+   "years": "1977 – 2023",
+   "profession": "Sikh Separatist Leader and Gurdwara President",
+   "bio": "Hardeep Singh Nijjar was a Canadian Sikh community leader, president of the Guru Nanak Sikh Gurdwara in Surrey, British Columbia, and an advocate for the Khalistan movement, including support for the Sikhs for Justice referendum campaign. India had designated him a terrorist, an accusation his supporters rejected as politically motivated.\n\nOn 18 June 2023 he was shot dead in the parking lot of his Surrey gurdwara. A later US indictment described how an Indian government employee coordinated the killing with an intermediary, and in September 2023 Canada's Prime Minister stated that Canadian agencies had credible evidence linking agents of India to the assassination, which India rejected as absurd. His killing became the central case in international scrutiny of alleged Indian transnational repression of Sikhs.",
+   "related_events": [
+    "nijjar-assassination-2023",
+    "trudeau-parliament-nijjar-2023",
+    "us-doj-pannun-indictment-2023"
+   ],
+   "gallery": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Hardeep_Singh_Nijjar_in_2020.png/1024px-Hardeep_Singh_Nijjar_in_2020.png",
+     "caption": "Photograph of Hardeep Singh Nijjar, 2020",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Hardeep_Singh_Nijjar_in_2020.png/480px-Hardeep_Singh_Nijjar_in_2020.png",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Hardeep_Singh_Nijjar_in_2020.png?width=1024"
+    }
+   ],
+   "category": "contemporary"
+  },
+  {
+   "name": "Jagtar Singh Johal",
+   "years": "b. 1987",
+   "profession": "British Sikh Activist and Detainee",
+   "bio": "Jagtar Singh Johal is a British Sikh citizen from Dumbarton, Scotland, and a blogger and activist who documented Sikh human-rights issues. He was arrested in Panjab in November 2017 while visiting for his wedding and has since been held in prolonged detention in India, facing charges his supporters and human-rights organizations say are unfounded, amid allegations that he was tortured to extract a confession.\n\nBy late 2025 he remained detained years after his arrest, amid allegations that UK intelligence-sharing contributed to his detention. Sikh writers and campaigners describe his unresolved case as an example of Britain failing to protect one of its own citizens abroad, and it has become a prominent cause in UK Sikh advocacy.",
+   "related_events": [
+    "jagtar-singh-johal-case-2025"
+   ],
+   "gallery": [
+    {
+     "url": "assets/img/jagtar-singh-johal.jpg",
+     "caption": "Photograph of Jagtar Singh Johal.",
+     "credit": "Image via Substack",
+     "fallback": "https://substackcdn.com/image/fetch/$s_!tv-g!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3ed1da79-deef-4ff3-b70e-8b4722bd577c_634x356.jpeg",
+     "thumb": "assets/img/jagtar-singh-johal.jpg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Palace_of_Westminster%2C_Houses_of_Parliament%2C_London%2C_UK.jpg/1024px-Palace_of_Westminster%2C_Houses_of_Parliament%2C_London%2C_UK.jpg",
+     "caption": "The Palace of Westminster, London — the UK Parliament has repeatedly debated and raised Jagtar Singh Johal's detention in India; a representative institutional image, not a photograph of Johal himself (no free-licensed photograph of him could be confirmed on Wikimedia Commons)",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Palace_of_Westminster%2C_Houses_of_Parliament%2C_London%2C_UK.jpg/480px-Palace_of_Westminster%2C_Houses_of_Parliament%2C_London%2C_UK.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Palace_of_Westminster%2C_Houses_of_Parliament%2C_London%2C_UK.jpg?width=1024"
+    }
+   ],
+   "category": "contemporary"
+  },
+  {
+   "name": "Justin Trudeau",
+   "years": "b. 1971",
+   "profession": "Prime Minister of Canada",
+   "bio": "Justin Trudeau served as Prime Minister of Canada from 2015 to 2025. His official visit to India in February 2018 became mired in controversy amid media allegations linking Canadian Sikh politicians to 'separatists,' a narrative Sikh commentators traced through years of skewed coverage of Sikh political activity in Canada.\n\nIn September 2023 he announced to the House of Commons that Canadian agencies were pursuing credible allegations linking agents of the Government of India to the June 2023 assassination of Hardeep Singh Nijjar in British Columbia, triggering a major diplomatic rupture between Ottawa and New Delhi, which rejected the allegations. His government's later actions, including the terrorist designation of the Bishnoi network, further shaped Canada-India relations over transnational repression.",
+   "related_events": [
+    "trudeau-india-tour-2018",
+    "trudeau-parliament-nijjar-2023",
+    "nijjar-assassination-2023"
+   ],
+   "gallery": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Justin_Trudeau_2014-1.jpg/1024px-Justin_Trudeau_2014-1.jpg",
+     "caption": "Photograph of Justin Trudeau, 2014",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Justin_Trudeau_2014-1.jpg/480px-Justin_Trudeau_2014-1.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Justin_Trudeau_2014-1.jpg?width=1024"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Justin_Trudeau_2021_%28cropped%29.jpg/1024px-Justin_Trudeau_2021_%28cropped%29.jpg",
+     "caption": "Photograph of Justin Trudeau, 2021",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Justin_Trudeau_2021_%28cropped%29.jpg/480px-Justin_Trudeau_2021_%28cropped%29.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Justin_Trudeau_2021_%28cropped%29.jpg?width=1024"
+    }
+   ],
+   "category": "contemporary"
+  },
+  {
+   "name": "Parmjit Singh Panjwar",
+   "years": "circa 1960 – 2023",
+   "profession": "Khalistan Militant Leader",
+   "bio": "Parmjit Singh Panjwar was a Pakistan-based Sikh activist and chief of a faction of the Khalistan Commando Force, long designated a militant by Indian authorities. He had lived in Pakistan for decades.\n\nOn 6 May 2023 he was shot dead by unidentified gunmen near Lahore. His killing was one of several sudden deaths of Khalistan-linked figures within a few weeks in mid-2023, which Sikh writers described as part of a coordinated global campaign later corroborated by Western investigations into Indian transnational operations.",
+   "related_events": [
+    "panjwar-assassination-2023"
+   ],
+   "gallery": [
+    {
+     "url": "assets/img/parmjit-singh-panjwar.jpg",
+     "caption": "Photograph of Parmjit Singh Panjwar.",
+     "credit": "Image via user-provided source",
+     "fallback": "https://images.squarespace-cdn.com/content/v1/540dd9b6e4b05c669b06779a/bc94d459-debb-40b8-ac81-e67da7f125fd/Fvb5D7wXoAIZEhC.jpeg?format=2500w",
+     "thumb": "assets/img/parmjit-singh-panjwar.jpg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/The_Samadhi_of_Emperor_Ranjit_Singh_in_Lahore%2C_Pakistan..JPG/1024px-The_Samadhi_of_Emperor_Ranjit_Singh_in_Lahore%2C_Pakistan..JPG",
+     "caption": "A landmark in Lahore, Pakistan, the city where Parmjit Singh Panjwar lived for decades in exile and was assassinated in 2023 — a representative location image, not a photograph of Panjwar himself (no free-licensed photograph of him could be confirmed on Wikimedia Commons)",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/The_Samadhi_of_Emperor_Ranjit_Singh_in_Lahore%2C_Pakistan..JPG/480px-The_Samadhi_of_Emperor_Ranjit_Singh_in_Lahore%2C_Pakistan..JPG",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Samadhi_of_Emperor_Ranjit_Singh_in_Lahore%2C_Pakistan..JPG?width=1024"
+    }
+   ],
+   "category": "contemporary"
   },
   {
    "name": "Sidhu Moose Wala (Shubhdeep Singh Sidhu)",
@@ -8652,107 +8672,197 @@
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Sidhu_Moose_Wala_during_the_shooting_of_his_film_Moosa_Jatt.jpg/480px-Sidhu_Moose_Wala_during_the_shooting_of_his_film_Moosa_Jatt.jpg",
      "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Sidhu_Moose_Wala_during_the_shooting_of_his_film_Moosa_Jatt.jpg?width=1024"
     }
-   ]
+   ],
+   "category": "contemporary"
   },
   {
-   "name": "Amritpal Singh Sandhu",
+   "name": "Yogi Bhajan (Harbhajan Singh Puri)",
+   "years": "1929 – 2004",
+   "profession": "Founder of the 3HO Movement",
+   "bio": "Harbhajan Singh Puri, known as Yogi Bhajan, was the founder of the 3HO ('Healthy, Happy, Holy Organization') and Sikh Dharma movement in the United States from 1969, introducing a form of Kundalini yoga and gathering a following of largely white American converts to a version of Sikhi. He built a network of businesses, schools, and institutions.\n\nBeginning in 2022, the Siri Singh Sahib Corporation, successor to his organization, acknowledged decades of abuse and announced a reparations program for survivors, following accounts by former members. Subsequent investigative reporting in 2024 detailed neglect and abuse suffered by American children sent to 3HO boarding schools in India from the 1980s, deepening critical scrutiny of his legacy. He died in 2004.",
+   "related_events": [
+    "yogi-bhajan-3ho-reckoning-2022"
+   ],
+   "gallery": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Yogi_Bhajan_1985.jpg/1024px-Yogi_Bhajan_1985.jpg",
+     "caption": "Photograph of Yogi Bhajan (Harbhajan Singh Puri), 1985",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Yogi_Bhajan_1985.jpg/480px-Yogi_Bhajan_1985.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Yogi_Bhajan_1985.jpg?width=1024"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Yogi_Bhajan_and_John_Paul_II.jpg/1024px-Yogi_Bhajan_and_John_Paul_II.jpg",
+     "caption": "Photograph of Yogi Bhajan meeting Pope John Paul II",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Yogi_Bhajan_and_John_Paul_II.jpg/480px-Yogi_Bhajan_and_John_Paul_II.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Yogi_Bhajan_and_John_Paul_II.jpg?width=1024"
+    }
+   ],
+   "category": "contemporary"
+  },
+  {
+   "name": "Beant Singh",
+   "years": "1922 – 1995",
+   "profession": "Chief Minister of Panjab",
+   "bio": "Beant Singh was a Congress politician who became Chief Minister of Panjab after the 1992 state election, held amid a widespread Sikh boycott. His government is held by Sikh rights advocates to have overseen a campaign of extrajudicial killings and enforced disappearances of Sikh youth during the counter-insurgency of the early 1990s, later documented by the human rights defender Jaswant Singh Khalra.\n\nHe was killed on 31 August 1995 in a suicide bombing at the Panjab civil secretariat in Chandigarh, carried out by Dilawar Singh, with Balwant Singh Rajoana convicted as a conspirator. Sikh accounts frame the killing as retribution sought for the bloodshed of the counter-insurgency years.",
+   "related_events": [
+    "punjab-counterinsurgency-1992",
+    "beant-singh-assassination-1995"
+   ],
+   "gallery": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Beant_Singh_2013_stamp_of_India.jpg/1024px-Beant_Singh_2013_stamp_of_India.jpg",
+     "caption": "2013 Indian commemorative postage stamp bearing the likeness of Beant Singh, Chief Minister of Punjab (1992–1995) — a stamp portrait, not a photograph",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Beant_Singh_2013_stamp_of_India.jpg/480px-Beant_Singh_2013_stamp_of_India.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Beant_Singh_2013_stamp_of_India.jpg?width=1024"
+    }
+   ],
+   "category": "opponents"
+  },
+  {
+   "name": "General Reginald Dyer",
+   "years": "1864 – 1927",
+   "profession": "British Army Officer",
+   "bio": "Colonel (acting Brigadier-General) Reginald Dyer was the British Indian Army officer who ordered troops under his command to open fire on an unarmed crowd gathered at Jallianwala Bagh in Amritsar on 13 April 1919, during Vaisakhi. The firing continued until ammunition was nearly exhausted, killing hundreds and wounding many more in an enclosed space with few exits.\n\nThe massacre became one of the defining atrocities of British colonial rule. Dyer was censured by the Hunter Commission and removed from command, though he was lauded by sections of the British public. He died in 1927.",
+   "related_events": [
+    "jallianwala-bagh-1919"
+   ],
+   "gallery": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/G%C3%A9n%C3%A9ral_Dyer%2C_C.N._Londres_%28clich%C3%A9_Central_News%29_-_btv1b530372528.jpg/1024px-G%C3%A9n%C3%A9ral_Dyer%2C_C.N._Londres_%28clich%C3%A9_Central_News%29_-_btv1b530372528.jpg",
+     "caption": "Press photograph of General Reginald Dyer, distributed by the Central News agency, London, 1919",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/G%C3%A9n%C3%A9ral_Dyer%2C_C.N._Londres_%28clich%C3%A9_Central_News%29_-_btv1b530372528.jpg/480px-G%C3%A9n%C3%A9ral_Dyer%2C_C.N._Londres_%28clich%C3%A9_Central_News%29_-_btv1b530372528.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/G%C3%A9n%C3%A9ral_Dyer%2C_C.N._Londres_%28clich%C3%A9_Central_News%29_-_btv1b530372528.jpg?width=1024"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/The_Jallianwala_Bagh_memorial_in_Amrithsar_.jpg/1024px-The_Jallianwala_Bagh_memorial_in_Amrithsar_.jpg",
+     "caption": "The Jallianwala Bagh memorial in Amritsar, built to commemorate the victims of the 1919 massacre Dyer ordered — a representative image of the site, not a photograph of Dyer himself",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/The_Jallianwala_Bagh_memorial_in_Amrithsar_.jpg/480px-The_Jallianwala_Bagh_memorial_in_Amrithsar_.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Jallianwala_Bagh_memorial_in_Amrithsar_.jpg?width=1024"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Quote_from_General_Dyer_Who_Ordered_1919_Amritsar_Massacre_-_Jallianwala_Bagh_-_Amritsar_-_Punjab_-_India_%2812675265305%29.jpg/1024px-Quote_from_General_Dyer_Who_Ordered_1919_Amritsar_Massacre_-_Jallianwala_Bagh_-_Amritsar_-_Punjab_-_India_%2812675265305%29.jpg",
+     "caption": "Inscribed quote from General Dyer at the Jallianwala Bagh site, Amritsar — a documentary/memorial photograph, not a portrait of Dyer",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Quote_from_General_Dyer_Who_Ordered_1919_Amritsar_Massacre_-_Jallianwala_Bagh_-_Amritsar_-_Punjab_-_India_%2812675265305%29.jpg/480px-Quote_from_General_Dyer_Who_Ordered_1919_Amritsar_Massacre_-_Jallianwala_Bagh_-_Amritsar_-_Punjab_-_India_%2812675265305%29.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Quote_from_General_Dyer_Who_Ordered_1919_Amritsar_Massacre_-_Jallianwala_Bagh_-_Amritsar_-_Punjab_-_India_%2812675265305%29.jpg?width=1024"
+    }
+   ],
+   "category": "opponents"
+  },
+  {
+   "name": "Indira Gandhi",
+   "years": "1917 – 1984",
+   "profession": "Prime Minister of India",
+   "bio": "Indira Gandhi served as Prime Minister of India for most of the period from 1966 to 1984. In 1975 she imposed a nationwide Internal Emergency, suspending civil liberties and jailing opponents; Sikh organizations mounted one of the most sustained resistance campaigns against it, with large numbers courting arrest.\n\nIn June 1984 she ordered Operation Blue Star, the Indian Army assault on the Harimandar Sahib complex in Amritsar, which killed large numbers of pilgrims and severely damaged Sikhism's holiest site, becoming a central trauma of modern Sikh history. On 31 October 1984 she was assassinated by two of her Sikh bodyguards in apparent retaliation for the assault. Her killing was followed within hours by organized anti-Sikh violence across Delhi and northern India.",
+   "related_events": [
+    "emergency-1975",
+    "operation-blue-star-1984",
+    "indira-gandhi-assassination-1984",
+    "anti-sikh-pogroms-nov-1984"
+   ],
+   "gallery": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Indira_Gandhi_1966_%28cropped%29.jpg/1024px-Indira_Gandhi_1966_%28cropped%29.jpg",
+     "caption": "Indira Gandhi, cropped portrait photograph, 1966.",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Indira_Gandhi_1966_%28cropped%29.jpg/480px-Indira_Gandhi_1966_%28cropped%29.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Indira_Gandhi_1966_%28cropped%29.jpg?width=1024"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Indira_Gandhi_at_banquet_in_Vancouver_during_a_state-visit%2C_The_Province%2C_1949.jpg/1024px-Indira_Gandhi_at_banquet_in_Vancouver_during_a_state-visit%2C_The_Province%2C_1949.jpg",
+     "caption": "Indira Gandhi at a banquet in Vancouver during a state visit, The Province, 1949",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Indira_Gandhi_at_banquet_in_Vancouver_during_a_state-visit%2C_The_Province%2C_1949.jpg/480px-Indira_Gandhi_at_banquet_in_Vancouver_during_a_state-visit%2C_The_Province%2C_1949.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Indira_Gandhi_at_banquet_in_Vancouver_during_a_state-visit%2C_The_Province%2C_1949.jpg?width=1024"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Nehru_with_Indira_Gandhi_at_the_Sikh_temple_in_Vancouver%2C_The_Province%2C_1949.jpg/1024px-Nehru_with_Indira_Gandhi_at_the_Sikh_temple_in_Vancouver%2C_The_Province%2C_1949.jpg",
+     "caption": "Nehru with Indira Gandhi at the Sikh temple in Vancouver, The Province, 1949",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Nehru_with_Indira_Gandhi_at_the_Sikh_temple_in_Vancouver%2C_The_Province%2C_1949.jpg/480px-Nehru_with_Indira_Gandhi_at_the_Sikh_temple_in_Vancouver%2C_The_Province%2C_1949.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Nehru_with_Indira_Gandhi_at_the_Sikh_temple_in_Vancouver%2C_The_Province%2C_1949.jpg?width=1024"
+    }
+   ],
+   "category": "opponents"
+  },
+  {
+   "name": "Lawrence Bishnoi",
    "years": "b. 1993",
-   "profession": "Sikh Preacher, Leader of Waris Punjab De, Member of Parliament",
-   "bio": "Amritpal Singh Sandhu emerged as a Sikh preacher and activist who, following Deep Sidhu's death, was formally appointed leader of Waris Punjab De in a ceremony at Rode village in September 2022. Adopting the style and rhetoric of Sant Jarnail Singh Bhindranwale, he led a rapid Amrit Sanchar and anti-drug revival campaign that drew both large followings and government alarm.\n\nIn February 2023 his supporters stormed the Ajnala police station near Amritsar demanding an associate's release. In March 2023 Panjab police launched a sweeping crackdown, imposing a statewide internet blackout, and after weeks evading capture he was arrested in April 2023 and detained without trial under the National Security Act in Assam's Dibrugarh jail.\n\nWhile still detained, in June 2024 he won the Khadoor Sahib parliamentary seat as an independent with over 400,000 votes, a result Sikh commentators called a striking rebuke to claims that pro-Khalistan sentiment lacks support in Panjab.",
+   "profession": "Organized-Crime Network Leader",
+   "bio": "Lawrence Bishnoi is an imprisoned Indian gangster whose organized-crime network has been linked to a wave of violence affecting the Panjabi diaspora. His gang was implicated in the May 2022 killing of the singer Sidhu Moose Wala and, according to Canadian authorities, in a 2025 wave of extortions and shootings in British Columbia.\n\nIn September 2025 the Government of Canada listed the Lawrence Bishnoi gang as a terrorist entity, with the RCMP describing the network as a proxy used by the Government of India to carry out homicides, arsons, and extortion as part of transnational repression against Canadian Sikhs. He has remained in Indian custody throughout, directing operations from prison according to investigators.",
    "related_events": [
-    "amritpal-singh-wpd-head-2022",
-    "ajnala-standoff-2023",
-    "amritpal-manhunt-2023",
-    "amritpal-arrested-2023",
-    "amritpal-electoral-win-2024",
-    "kaumi-insaaf-morcha-2023"
+    "moose-wala-assassination-2022",
+    "bc-extortion-wave-2025",
+    "canada-bishnoi-terror-designation-2025"
    ],
    "gallery": [
     {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Amritpal_Singh_Jallupur.jpg/1024px-Amritpal_Singh_Jallupur.jpg",
-     "caption": "Photograph of Amritpal Singh Sandhu.",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Tihar_Jail%2C_Delhi.jpg/1024px-Tihar_Jail%2C_Delhi.jpg",
+     "caption": "Tihar Jail, Delhi. No free-licensed photograph of Lawrence Bishnoi exists on Wikimedia Commons, so this stands in for the mechanism rather than the man: investigators in India and Canada have said gang leaders like Bishnoi direct extortion and attacks from inside prison. It is not a photograph of him and not necessarily where he is held.",
      "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Amritpal_Singh_Jallupur.jpg/480px-Amritpal_Singh_Jallupur.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Amritpal_Singh_Jallupur.jpg?width=1024"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Sikh_Gurdwara%2C_Punjab.JPG/1024px-Sikh_Gurdwara%2C_Punjab.JPG",
-     "caption": "Representative image of a Sikh gurdwara in Punjab — no free-licensed photograph of Amritpal Singh Sandhu could be confirmed on Wikimedia Commons at time of writing",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Sikh_Gurdwara%2C_Punjab.JPG/480px-Sikh_Gurdwara%2C_Punjab.JPG",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Sikh_Gurdwara%2C_Punjab.JPG?width=1024"
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Tihar_Jail%2C_Delhi.jpg/480px-Tihar_Jail%2C_Delhi.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Tihar_Jail%2C_Delhi.jpg?width=1024"
     }
-   ]
+   ],
+   "category": "opponents"
   },
   {
-   "name": "Parmjit Singh Panjwar",
-   "years": "circa 1960 – 2023",
-   "profession": "Khalistan Militant Leader",
-   "bio": "Parmjit Singh Panjwar was a Pakistan-based Sikh activist and chief of a faction of the Khalistan Commando Force, long designated a militant by Indian authorities. He had lived in Pakistan for decades.\n\nOn 6 May 2023 he was shot dead by unidentified gunmen near Lahore. His killing was one of several sudden deaths of Khalistan-linked figures within a few weeks in mid-2023, which Sikh writers described as part of a coordinated global campaign later corroborated by Western investigations into Indian transnational operations.",
+   "name": "Michael O'Dwyer",
+   "years": "1864 – 1940",
+   "profession": "Lieutenant-Governor of Panjab",
+   "bio": "Sir Michael O'Dwyer served as Lieutenant-Governor of Panjab from 1913 to 1919 and endorsed General Dyer's actions at the Jallianwala Bagh massacre, presiding over the harsh repression and martial law that followed across the province. He remained an unrepentant defender of the massacre for the rest of his life.\n\nHe was assassinated in London on 13 March 1940 by Udham Singh, who held him responsible for the atrocity. He died at Caxton Hall more than two decades after the events at Amritsar.",
    "related_events": [
-    "panjwar-assassination-2023"
+    "jallianwala-bagh-1919",
+    "udham-singh-odwyer-1940"
    ],
    "gallery": [
     {
-     "url": "assets/img/parmjit-singh-panjwar.jpg",
-     "caption": "Photograph of Parmjit Singh Panjwar.",
-     "credit": "Image via user-provided source",
-     "fallback": "https://images.squarespace-cdn.com/content/v1/540dd9b6e4b05c669b06779a/bc94d459-debb-40b8-ac81-e67da7f125fd/Fvb5D7wXoAIZEhC.jpeg?format=2500w",
-     "thumb": "assets/img/parmjit-singh-panjwar.jpg"
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Photograph_of_Maharaja_Brij_Indar_Singh_of_Faridkot_State_seated_with_Sir_Michael_O%27Dwyer%2C_the_Lieutenant-Governor_of_Punjab%2C_ca.1916.jpg/1024px-Photograph_of_Maharaja_Brij_Indar_Singh_of_Faridkot_State_seated_with_Sir_Michael_O%27Dwyer%2C_the_Lieutenant-Governor_of_Punjab%2C_ca.1916.jpg",
+     "caption": "Photograph of Maharaja Brij Indar Singh of Faridkot State seated with Sir Michael O'Dwyer, the Lieutenant-Governor of Punjab, ca.1916",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Photograph_of_Maharaja_Brij_Indar_Singh_of_Faridkot_State_seated_with_Sir_Michael_O%27Dwyer%2C_the_Lieutenant-Governor_of_Punjab%2C_ca.1916.jpg/480px-Photograph_of_Maharaja_Brij_Indar_Singh_of_Faridkot_State_seated_with_Sir_Michael_O%27Dwyer%2C_the_Lieutenant-Governor_of_Punjab%2C_ca.1916.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Photograph_of_Maharaja_Brij_Indar_Singh_of_Faridkot_State_seated_with_Sir_Michael_O%27Dwyer%2C_the_Lieutenant-Governor_of_Punjab%2C_ca.1916.jpg?width=1024"
     },
     {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/The_Samadhi_of_Emperor_Ranjit_Singh_in_Lahore%2C_Pakistan..JPG/1024px-The_Samadhi_of_Emperor_Ranjit_Singh_in_Lahore%2C_Pakistan..JPG",
-     "caption": "A landmark in Lahore, Pakistan, the city where Parmjit Singh Panjwar lived for decades in exile and was assassinated in 2023 — a representative location image, not a photograph of Panjwar himself (no free-licensed photograph of him could be confirmed on Wikimedia Commons)",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Front-page_headline_from_The_Daily_Telegraph_newspaper_reporting_on_the_assassination_of_Michael_O%27Dwyer_by_Udham_Singh%2C_Thursday%2C_14_March_1940.jpg/1024px-Front-page_headline_from_The_Daily_Telegraph_newspaper_reporting_on_the_assassination_of_Michael_O%27Dwyer_by_Udham_Singh%2C_Thursday%2C_14_March_1940.jpg",
+     "caption": "Front-page headline from The Daily Telegraph reporting on the assassination of Michael O'Dwyer by Udham Singh, 14 March 1940 — a newspaper document, not a photo of O'Dwyer",
      "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/The_Samadhi_of_Emperor_Ranjit_Singh_in_Lahore%2C_Pakistan..JPG/480px-The_Samadhi_of_Emperor_Ranjit_Singh_in_Lahore%2C_Pakistan..JPG",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Samadhi_of_Emperor_Ranjit_Singh_in_Lahore%2C_Pakistan..JPG?width=1024"
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Front-page_headline_from_The_Daily_Telegraph_newspaper_reporting_on_the_assassination_of_Michael_O%27Dwyer_by_Udham_Singh%2C_Thursday%2C_14_March_1940.jpg/480px-Front-page_headline_from_The_Daily_Telegraph_newspaper_reporting_on_the_assassination_of_Michael_O%27Dwyer_by_Udham_Singh%2C_Thursday%2C_14_March_1940.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Front-page_headline_from_The_Daily_Telegraph_newspaper_reporting_on_the_assassination_of_Michael_O%27Dwyer_by_Udham_Singh%2C_Thursday%2C_14_March_1940.jpg?width=1024"
     }
-   ]
+   ],
+   "category": "opponents"
   },
   {
-   "name": "Avtar Singh Khanda",
-   "years": "1988 – 2023",
-   "profession": "UK-Based Khalistan Activist",
-   "bio": "Avtar Singh Khanda was a prominent UK-based Khalistan activist associated with organizing and advocacy in Britain. He came to wider attention around the 2023 events surrounding Amritpal Singh and Waris Punjab De.\n\nOn 15 June 2023 he died suddenly in Birmingham. His family and Sikh organizations considered the circumstances suspicious, and UK police and coroners were later accused of failing to properly investigate allegations that he had been poisoned. His death, days before the killing of Hardeep Singh Nijjar, is cited in discussions of alleged transnational repression targeting Sikh activists abroad.",
+   "name": "Mohandas Karamchand Gandhi",
+   "years": "1869 – 1948",
+   "profession": "Leader of the Indian Independence Movement",
+   "bio": "Mohandas Gandhi was the pre-eminent leader of the Indian independence movement, known for his philosophy of non-violent resistance (satyagraha). In the context of Sikh history he is a contested figure: in August 1936 he published an article in his journal Harijan labelling a proposed mass conversion of so-called 'untouchables' to Sikhi 'A Dangerous Proposal,' a stance many Sikhs read as revealing anxieties over caste, conversion, and Sikh distinctiveness in late colonial India.\n\nHe was assassinated in 1948. His statements and positions on Sikh questions have remained points of critical discussion in Sikh political and historical writing.",
    "related_events": [
-    "khanda-death-2023"
+    "gandhi-dangerous-proposal-1936"
    ],
    "gallery": [
     {
-     "url": "https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Photograph_Sikh_militant_Avtar_Singh_Khanda.jpg/1024px-Photograph_Sikh_militant_Avtar_Singh_Khanda.jpg",
-     "caption": "Photograph of Avtar Singh Khanda.",
-     "credit": "Non-free fair-use image, English Wikipedia",
-     "thumb": "https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Photograph_Sikh_militant_Avtar_Singh_Khanda.jpg/480px-Photograph_Sikh_militant_Avtar_Singh_Khanda.jpg",
-     "fallback": "https://en.wikipedia.org/wiki/Special:FilePath/Photograph_Sikh_militant_Avtar_Singh_Khanda.jpg?width=1024"
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Portrait_Gandhi.jpg/1024px-Portrait_Gandhi.jpg",
+     "caption": "Portrait photograph of Mohandas K. Gandhi, 1930s",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Portrait_Gandhi.jpg/480px-Portrait_Gandhi.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_Gandhi.jpg?width=1024"
     },
     {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Guru_Nanak_Gurdwara_Smethwick_1_%283194488146%29.jpg/1024px-Guru_Nanak_Gurdwara_Smethwick_1_%283194488146%29.jpg",
-     "caption": "Guru Nanak Gurdwara Smethwick, near Birmingham — the UK Midlands region where Avtar Singh Khanda was based as a Sikh diaspora activist and where he died in 2023; a representative location image, not a photograph of Khanda himself (no free-licensed photograph of him could be confirmed on Wikimedia Commons)",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Mahatma-Gandhi%2C_studio%2C_1931.jpg/1024px-Mahatma-Gandhi%2C_studio%2C_1931.jpg",
+     "caption": "Studio photograph of Mahatma Gandhi, London, 1931",
      "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Guru_Nanak_Gurdwara_Smethwick_1_%283194488146%29.jpg/480px-Guru_Nanak_Gurdwara_Smethwick_1_%283194488146%29.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Guru_Nanak_Gurdwara_Smethwick_1_%283194488146%29.jpg?width=1024"
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Mahatma-Gandhi%2C_studio%2C_1931.jpg/480px-Mahatma-Gandhi%2C_studio%2C_1931.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Mahatma-Gandhi%2C_studio%2C_1931.jpg?width=1024"
     }
-   ]
-  },
-  {
-   "name": "Hardeep Singh Nijjar",
-   "years": "1977 – 2023",
-   "profession": "Sikh Separatist Leader and Gurdwara President",
-   "bio": "Hardeep Singh Nijjar was a Canadian Sikh community leader, president of the Guru Nanak Sikh Gurdwara in Surrey, British Columbia, and an advocate for the Khalistan movement, including support for the Sikhs for Justice referendum campaign. India had designated him a terrorist, an accusation his supporters rejected as politically motivated.\n\nOn 18 June 2023 he was shot dead in the parking lot of his Surrey gurdwara. A later US indictment described how an Indian government employee coordinated the killing with an intermediary, and in September 2023 Canada's Prime Minister stated that Canadian agencies had credible evidence linking agents of India to the assassination, which India rejected as absurd. His killing became the central case in international scrutiny of alleged Indian transnational repression of Sikhs.",
-   "related_events": [
-    "nijjar-assassination-2023",
-    "trudeau-parliament-nijjar-2023",
-    "us-doj-pannun-indictment-2023"
    ],
-   "gallery": [
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Hardeep_Singh_Nijjar_in_2020.png/1024px-Hardeep_Singh_Nijjar_in_2020.png",
-     "caption": "Photograph of Hardeep Singh Nijjar, 2020",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Hardeep_Singh_Nijjar_in_2020.png/480px-Hardeep_Singh_Nijjar_in_2020.png",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Hardeep_Singh_Nijjar_in_2020.png?width=1024"
-    }
-   ]
+   "category": "opponents"
   },
   {
    "name": "Nikhil Gupta",
@@ -8771,72 +8881,8 @@
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/U.S._Department_of_Justice_%28DOJ%29_%2853840386529%29.jpg/480px-U.S._Department_of_Justice_%28DOJ%29_%2853840386529%29.jpg",
      "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/U.S._Department_of_Justice_%28DOJ%29_%2853840386529%29.jpg?width=1024"
     }
-   ]
-  },
-  {
-   "name": "Gurpatwant Singh Pannun",
-   "years": "b. 1967",
-   "profession": "Attorney and Founder of Sikhs for Justice",
-   "bio": "Gurpatwant Singh Pannun is a Sikh American (and Canadian) attorney and the general counsel and co-founder of Sikhs for Justice (SFJ), the group that organizes the non-binding Khalistan Referendum votes held across the diaspora from 2022. A vocal advocate for an independent Khalistan, he has been designated a terrorist by India, a designation his supporters characterize as an attack on peaceful advocacy.\n\nIn 2023 US federal prosecutors alleged that an Indian government employee had directed a foiled plot to assassinate him on US soil, detailed in the indictment of Nikhil Gupta. The case became a landmark in international scrutiny of alleged Indian transnational repression.",
-   "related_events": [
-    "khalistan-referendum-begins-2022",
-    "nikhil-gupta-arrest-2023",
-    "us-doj-pannun-indictment-2023"
    ],
-   "gallery": [
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Khalistan_map_proposal_by_the_Sikhs_for_Justice.png/1024px-Khalistan_map_proposal_by_the_Sikhs_for_Justice.png",
-     "caption": "Map of the proposed state of 'Khalistan' as circulated by Sikhs for Justice, the organization founded and led by Gurpatwant Singh Pannun — a representative document, not a photograph of Pannun himself (no free-licensed photograph of him could be confirmed on Wikimedia Commons)",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Khalistan_map_proposal_by_the_Sikhs_for_Justice.png/480px-Khalistan_map_proposal_by_the_Sikhs_for_Justice.png",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Khalistan_map_proposal_by_the_Sikhs_for_Justice.png?width=1024"
-    }
-   ]
-  },
-  {
-   "name": "Jagtar Singh Johal",
-   "years": "b. 1987",
-   "profession": "British Sikh Activist and Detainee",
-   "bio": "Jagtar Singh Johal is a British Sikh citizen from Dumbarton, Scotland, and a blogger and activist who documented Sikh human-rights issues. He was arrested in Panjab in November 2017 while visiting for his wedding and has since been held in prolonged detention in India, facing charges his supporters and human-rights organizations say are unfounded, amid allegations that he was tortured to extract a confession.\n\nBy late 2025 he remained detained years after his arrest, amid allegations that UK intelligence-sharing contributed to his detention. Sikh writers and campaigners describe his unresolved case as an example of Britain failing to protect one of its own citizens abroad, and it has become a prominent cause in UK Sikh advocacy.",
-   "related_events": [
-    "jagtar-singh-johal-case-2025"
-   ],
-   "gallery": [
-    {
-     "url": "assets/img/jagtar-singh-johal.jpg",
-     "caption": "Photograph of Jagtar Singh Johal.",
-     "credit": "Image via Substack",
-     "fallback": "https://substackcdn.com/image/fetch/$s_!tv-g!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3ed1da79-deef-4ff3-b70e-8b4722bd577c_634x356.jpeg",
-     "thumb": "assets/img/jagtar-singh-johal.jpg"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Palace_of_Westminster%2C_Houses_of_Parliament%2C_London%2C_UK.jpg/1024px-Palace_of_Westminster%2C_Houses_of_Parliament%2C_London%2C_UK.jpg",
-     "caption": "The Palace of Westminster, London — the UK Parliament has repeatedly debated and raised Jagtar Singh Johal's detention in India; a representative institutional image, not a photograph of Johal himself (no free-licensed photograph of him could be confirmed on Wikimedia Commons)",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Palace_of_Westminster%2C_Houses_of_Parliament%2C_London%2C_UK.jpg/480px-Palace_of_Westminster%2C_Houses_of_Parliament%2C_London%2C_UK.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Palace_of_Westminster%2C_Houses_of_Parliament%2C_London%2C_UK.jpg?width=1024"
-    }
-   ]
-  },
-  {
-   "name": "Lawrence Bishnoi",
-   "years": "b. 1993",
-   "profession": "Organized-Crime Network Leader",
-   "bio": "Lawrence Bishnoi is an imprisoned Indian gangster whose organized-crime network has been linked to a wave of violence affecting the Panjabi diaspora. His gang was implicated in the May 2022 killing of the singer Sidhu Moose Wala and, according to Canadian authorities, in a 2025 wave of extortions and shootings in British Columbia.\n\nIn September 2025 the Government of Canada listed the Lawrence Bishnoi gang as a terrorist entity, with the RCMP describing the network as a proxy used by the Government of India to carry out homicides, arsons, and extortion as part of transnational repression against Canadian Sikhs. He has remained in Indian custody throughout, directing operations from prison according to investigators.",
-   "related_events": [
-    "moose-wala-assassination-2022",
-    "bc-extortion-wave-2025",
-    "canada-bishnoi-terror-designation-2025"
-   ],
-   "gallery": [
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Tihar_Jail%2C_Delhi.jpg/1024px-Tihar_Jail%2C_Delhi.jpg",
-     "caption": "Tihar Jail complex, Delhi — representative image of the Indian prison system in which high-profile gang leaders have been held; not a photograph of Lawrence Bishnoi and not necessarily his specific place of detention (no free-licensed photograph of him could be confirmed on Wikimedia Commons)",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Tihar_Jail%2C_Delhi.jpg/480px-Tihar_Jail%2C_Delhi.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Tihar_Jail%2C_Delhi.jpg?width=1024"
-    }
-   ]
+   "category": "opponents"
   }
  ],
  "references": {
@@ -9312,6 +9358,32 @@
    "name": "Press & official",
    "note": "Mainstream news reporting and statements by governments, courts and inquiries.",
    "count": 28
+  }
+ ],
+ "person_categories": [
+  {
+   "id": "gurus",
+   "name": "Gurus",
+   "note": "The ten Sikh Sovereigns, 1469 to 1708.",
+   "count": 10
+  },
+  {
+   "id": "panth",
+   "name": "Sikhs",
+   "note": "Sikh figures across five centuries: commanders, martyrs, reformers, scholars, soldiers and human-rights defenders.",
+   "count": 19
+  },
+  {
+   "id": "contemporary",
+   "name": "Contemporary Figures",
+   "note": "People at the centre of the record from 2000 onward, Sikh and otherwise.",
+   "count": 10
+  },
+  {
+   "id": "opponents",
+   "name": "Opponents",
+   "note": "People who acted against Sikhs in ways this chronicle documents - by ordering it, presiding over it, or carrying it out.",
+   "count": 7
   }
  ]
 }
