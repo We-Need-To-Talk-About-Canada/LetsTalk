@@ -941,3 +941,147 @@ Also left out: the claim that Harkishan Singh Surjeet coined "Khalistan" in the 
 characterisation of Nirankari funding from secret government funds (sourced to an SGPC
 white paper, i.e. a party to the dispute); and the paper's closing framing, which is
 written from an explicitly Indian-nationalist position and is argument rather than record.
+
+
+## Second pass — what the first pass missed
+
+The first pass took only the Cold War disinformation thread and stopped. A full
+re-read, scanning every dated claim in the body (123 of them), turned up a dozen more
+that belong here. All quotes below were verified verbatim against the extracted text,
+same as above.
+
+### `raw-stations-abroad-1980s` — the Canadian origin point
+
+The single most relevant passage in the paper for a chronicle about Canada, and the
+first pass walked past it:
+
+> In Mid 1980s R&AW established Khalistan and Sikh Militant wing under B. Raman within R&AW to monitor the activities of Sikhs and opened seven new Branches in Central Europe, Canada and the United St ates
+>
+> — p. 1389
+
+> Sidhu also said, "after the establishment of Seven different offices he was ordered to make a proposal which can instigate a mass hysteria among Indians that Khalistan movement is pacing
+>
+> — p. 1389
+
+Attributed to G.B.S. Sidhu, *The Khalistan Conspiracy* (HarperCollins India, 2020),
+now in the Dossier. HarperCollins's own description confirms the book's scope: "the
+narrative moves from Punjab to Canada, the US, Europe and Delhi."
+
+### `planted-canada-training-camps-1984` — the story about Canada, placed
+
+> Hindustan Times: May 12, 1984 - "There is the existence of Khalistan terrorist training
+>
+> — p. 1393
+
+> camps in Canada, with support from Western governments of the USA, U.K., and Canada."
+>
+> — p. 1394
+
+> Times of India: September 14, 1984- "Pakistan is CIA base for recruiting guerrillas."
+>
+> — p. 1394
+
+> The Hindu, Madras edition: November 1984 - "CIA has set up centers in Pakistan for subverting the Afghanistan and Indian governments."
+>
+> — p. 1394
+
+Cited to the CIA assessment that catalogues the placements, not to the paper's
+paraphrase. This is the earliest instance the chronicle now records of the specific
+claim that has followed Canadian Sikhs since — and it was planted.
+
+### `chauhan-khalistan-advertisement-1971`
+
+> Dr. Jagjit Singh Chauhan in October 1971 through an advertisement in The New York Times declared himself the founder of Khalistan.
+>
+> — p. 1389
+
+### `youth-congress-hijacking-1978` and `ic423-hijacking-1981`
+
+> On December 26, 1978, Indira Gandhi was released from jail. Six days before that, Congress workers had hijacked a plane to demand her release.
+>
+> — p. 1398
+
+> On September 29, 1981, an Indian Airlines Boeing 737 IC423 flight hijacked by Tajinderpal Singh and Satnam Singh
+>
+> — p. 1398
+
+The 1978 date, the flight number IC-410, the toy weapons, both names, and the
+assembly tickets that followed were confirmed independently. For 1981 the paper's
+New York Times link could not be verified from here, so the entry cites the
+Washington Post archive and UPI instead, both confirmed. The paper names two
+hijackers; it also says "two of the five men," and independent reporting says five,
+which is what the entry says. **A claim that a passenger was killed was written into
+a draft of that entry and removed**: the contemporaneous reporting says all hostages
+were freed unharmed.
+
+### `congress-props-up-bhindranwale-1978`
+
+> Congress supported candidates backed by Bhindranwale in the 1978 SGPC election
+>
+> — p. 1391
+
+> The Congress CM Zail Singh has financed the separatist organization Dal Khalsa's meetings to capitalize on the surge in Sikh religious revivalism in Punjab.
+>
+> — p. 1391
+
+### `bhindranwale-moves-to-akal-takht-1983`
+
+> On December 15, 1983, the Babbar Khalsa members forced Bhindranwale out of Guru Nanak Niwas with the Akali.
+>
+> — p. 1394
+
+### `bhindranwale-quotes-distorted-1983`
+
+> While Khushwant Singh, who was close to Indira and congress loyalist 44 Wrote that he "exhorted every Sikh to kill thirty -two Hindus," this had been no exhortation but part of a response in February 1983 to threats like that of right-wing Hindu nationalist Bal Thackrey
+>
+> — p. 1396
+
+> do think over who are the communalists: whether they are the turban -wearers or your newspaper owners.
+>
+> — p. 1396
+
+### `sinha-refuses-army-entry-1982` and `amritsar-collector-replaced-1984`
+
+> Sinha replied that the army could not lend tanks to arrest Someone
+>
+> — p. 1397
+
+> when Gurdev Singh refused to sign and approve military action, he was replaced, and Ramesh Inder Singh, an IAS officer, was brought in as Amritsar as D.C. just before the military action.
+>
+> — p. 1406
+
+The Deputy Commissioner's own account is a letter to I.K. Gujral dated 26 January
+1996, published in *Abstract of Sikh Studies*, October–December 1996, pp. 106–111
+(the paper's reference 81). No online copy was found, so it is cited unlinked.
+
+### `haryana-anti-sikh-violence-1984`
+
+> Anti -Sikh mob violence in Haryana from 15 to February 20, mobilized by CM Bhajan Lal at the behest of leaders in De lhi, and the killing of eight Sikhs in Panipat on February 19
+>
+> — p. 1404
+
+> Indira was committed to a military solution to the Punjab crisis but felt that the situation Must be allowed to get worse before she could justify that solution.
+>
+> — p. 1404
+
+### `panjab-farmers-agitation-1984`
+
+> In May 1984, the farmers' Agitation was at its height in Punjab from May 10 to 18 farmers gherao the Governor's house. Since the state was un der President's rule, more than 15-20 thousand farmers were present in Chandigarh during the gherao.
+>
+> — p. 1404
+
+## Works added to the Dossier in this pass
+
+| Work | Link |
+|---|---|
+| G.B.S. Sidhu, *The Khalistan Conspiracy* (2020) | HarperCollins India — verified |
+| Mark Tully and Satish Jacob, *Amritsar: Mrs Gandhi's Last Battle* (1986) | Internet Archive — verified |
+| Ranbir Singh Sandhu (ed.), *Struggle for Justice* (1999) | Internet Archive — verified |
+| B. Raman, *The Kaoboys of R&AW* (2009) | none found — cited unlinked |
+| Vandana Shiva, *The Violence of the Green Revolution* (1989) | none found — cited unlinked |
+
+Two entries carry a source with no link because the work is real but its URL could
+not be confirmed from this environment: the Times of India's "Tale of two hijackers"
+(3 April 2014 — title and date confirmed, URL not) and the India Today interview with
+Jagjit Singh Chauhan (December 1993). They render as plain chips rather than dead
+links, which is the honest state of them.
