@@ -815,3 +815,129 @@ found and nothing is guessed.
 - **Confidence:** med — Author, affiliation, title and printed page 319 all appear at the head of the excerpt; the journal is not named on the pages supplied.
 - **Cited by:** 1 entry in the chronicle
 
+
+
+---
+
+# Addendum — "Khalistan Movement: The Genesis of Soviet Russia" (IJLMH, 2021)
+
+Unlike the course readings above, this one is **open access and is cited and linked**:
+
+- **Citation:** Harjeet Singh, "Khalistan Movement: The Genesis of Soviet Russia",
+  *International Journal of Law Management & Humanities* 4(1) (2021), pp. 1382–1413.
+  ISSN 2581-5369 · DOI 10.1732/IJLMH.25847
+- **Landing page:** <https://ijlmh.com/khalistan-movement-the-genesis-of-soviet-russia/>
+- **PDF:** <https://ijlmh.com/wp-content/uploads/Khalistan-Movement-The-Genesis-of-Soviet-Russia.pdf>
+- **In the chronicle:** Dossier entry `ijlmh-khalistan-soviet-2021`
+
+## What the parse produced
+
+33 pages, a full text layer (no OCR needed), 72 embedded link annotations and
+89 distinct URLs in the footnotes and reference list. Every clickable
+annotation is publisher boilerplate — the DOI, the journal's own pages, two submission
+addresses — so the article's sources are footnote text, not live links, and many of them
+wrap mid-URL across a line break.
+
+**Nothing reconstructed from a wrapped URL was used as a link.** Where a source mattered,
+the underlying document was located independently and that URL was cited instead. The two
+CIA files were found in the reading room by document number, and the Guardian/BBC reporting
+on the SAS advice was replaced by three outlets whose URLs could be confirmed directly.
+
+## What was adopted — five new entries
+
+The paper's own citations were checked before anything was taken from it, and two were
+wrong in ways worth recording:
+
+1. It attributes the KGB material to *The Mitrokhin Archive* (Penguin, 2000). The India
+   and Khalistan operations are in the **second** volume, *The World Was Going Our Way*
+   (Basic Books, 2005). The chronicle cites the second volume.
+2. It dates "The Soviets in India: Moscow's Major Penetration Program" to 1981 in every
+   footnote. The document is dated **December 1985** and was declassified in 2011.
+
+### `kgb-operation-kontakt-1981` — Operation KONTAKT
+
+> In 1981 the soviets launched operation Kontakt, based on a forged document purporting to contain details of the ISI's weapons and money to Sikh militants who wanted to
+>
+> — p. 1392 (PDF p. 12)
+
+> the level of anxiety in the Indian embassy regarding Pakistani support for Sikh separatists indicated that Kontakt was successfully achieving its goals
+>
+> — p. 1393 (PDF p. 13)
+
+Andrew and Mitrokhin add a detail the paper leaves out, and the entry keeps it: the agent
+reported showing the forgery to Indira Gandhi in May 1982, but she did not ask for a copy.
+
+### `andropov-fabricated-isi-documents-1982` — Andropov approves the fabrications
+
+> In Nov 1982, USSR leader Yuri Andropov ordered KGB to fabricate Pakistani intelligence documents detailing ISI plans to foment religious disturbances in Punjab and promote the creation of Khalistan as an independent Sikh stat e.
+>
+> — p. 1393 (PDF p. 13)
+
+### `rajiv-moscow-cia-claim-1983` — Rajiv Gandhi in Moscow
+
+> The soviets persuaded Rajiv Gandhi during a visit to Moscow in 1983 that the CIA was engaged in subversion in Punjab.
+>
+> — p. 1393 (PDF p. 13)
+
+### `cia-soviets-in-india-1985` — 160,000 placements in the Indian press
+
+> Moscow overtly and 25 covertly placed quite 160,000 33 items (original articles plus replays) within the Indian press
+>
+> — p. 1392 (PDF p. 12)
+
+> some Soviet officials have come to call it "Press TASS of India."
+>
+> — p. 1392 (PDF p. 12)
+
+The stray digits inside the first quote (`overtly and 25 covertly`, `160,000 33 items`) are
+footnote markers that the text layer runs into the sentence; they are left as extracted.
+The entry cites the CIA file itself, not the paper's paraphrase of it, and says plainly
+that the file is a document of the same information war written by the other side of it.
+
+### `uk-advice-golden-temple-1984` — Britain advises on the Golden Temple plan
+
+> two MI -5 intelligence liaison officers at the British high commission had scouted the Golden Temple complex in as far as back December 1983. They briefed a senior SAS officer sent by the U.K. to Delhi in Feb 1984 who deemed the special operation feasible.
+>
+> — p. 1402 (PDF p. 22)
+
+> The Indian authorities recently sought British advice over a plan to remove Sikh extremists from the Golden Temple
+>
+> — p. 1402 (PDF p. 22)
+
+This entry is sourced to Al Jazeera, openDemocracy and Declassified UK rather than to the
+paper, because the underlying disclosure is well covered and the paper adds nothing to it.
+
+## Citations added to entries that already existed
+
+- `operation-blue-star-1984` — the eighteen-month rehearsal at Chakrata:
+
+> the army had rehearsed the Attack for this time in the replica of Golden Temple built at a secret location near Chakrata Cantonment
+>
+> — p. 1405 (PDF p. 25)
+
+- `dharm-yudh-morcha-1982` — the scale of the arrests:
+
+> over 200,000 Sikhs courted arrest, about three times the number arrested in the whole of the 'Quit India' movement
+>
+> — p. 1403 (PDF p. 23)
+
+## What was **not** adopted
+
+The paper's central argument is that the Khalistan movement was itself a Soviet
+manufacture. **The chronicle does not adopt that, and it should not.** Three reasons:
+
+1. It outruns its own sources. Mitrokhin documents forged *documents about* Sikh
+   separatism, fed to New Delhi. That is not the same as manufacturing the movement, and
+   Andrew and Mitrokhin do not claim it is.
+2. It is internally inconsistent. The same paper credits the idea of a Sikh homeland to a
+   CPI figure in the 1940s, to Jagjit Singh Chauhan's 1971 advertisement, and to ISI and
+   Bhutto after 1971 — three different origins, none of them the KGB.
+3. It is the move the Playbook is about. Attributing an indigenous political movement to a
+   foreign hand is technique 01; a chronicle that documents that technique cannot adopt an
+   uncorroborated version of it because this one points at a different foreign power.
+
+Also left out: the claim that Harkishan Singh Surjeet coined "Khalistan" in the 1940s
+(sourced to a single 2000 Tribune piece whose URL no longer resolves cleanly); the
+characterisation of Nirankari funding from secret government funds (sourced to an SGPC
+white paper, i.e. a party to the dispute); and the paper's closing framing, which is
+written from an explicitly Indian-nationalist position and is argument rather than record.

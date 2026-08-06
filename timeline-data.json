@@ -3026,6 +3026,50 @@
    "tier": "major"
   },
   {
+   "unique_id": "kgb-operation-kontakt-1981",
+   "start_date": {
+    "year": 1981,
+    "month": 11
+   },
+   "display_date": "Autumn 1981",
+   "text": {
+    "headline": "Operation KONTAKT: the KGB forges a Pakistani hand in Panjab",
+    "text": "In the autumn of 1981 Service A, the KGB’s disinformation directorate, ran an operation codenamed KONTAKT built around a forged document purporting to detail weapons and money supplied by Pakistan’s Inter-Services Intelligence to militants seeking an independent Khalistan. In November the forgery was passed to a senior Indian diplomat in Islamabad, and agent reports claimed that the resulting anxiety inside the Indian embassy showed the operation was working. The agent who handled it reported showing the document to Indira Gandhi in May 1982, though Andrew and Mitrokhin note that she did not ask to keep a copy. What the episode establishes is narrow but important: in this instance the foreign hand behind Sikh separatism was manufactured, by a third country with its own reasons for wanting India and Pakistan at odds."
+   },
+   "group": "Partition & Post-Independence (1947-1983)",
+   "category": "Transnational Repression",
+   "tier": "major",
+   "confidence": "high",
+   "location": {
+    "place": "Moscow, USSR",
+    "region": "Russia",
+    "lat": 55.76,
+    "lon": 37.63
+   },
+   "media": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/KGB_Building_Moscow.jpg/1024px-KGB_Building_Moscow.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/KGB_Building_Moscow.jpg/480px-KGB_Building_Moscow.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/KGB_Building_Moscow.jpg?width=1024",
+    "caption": "The former KGB headquarters on Lubyanka Square, Moscow, from which Service A ran its disinformation operations. A photograph of the building, not of the operation.",
+    "credit": "Wikimedia Commons",
+    "kind": "place"
+   },
+   "sources": [
+    {
+     "title": "The World Was Going Our Way (Andrew & Mitrokhin, 2005)",
+     "ref": "andrew-mitrokhin-2005",
+     "url": "https://www.hachettebookgroup.com/titles/christopher-andrew/the-world-was-going-our-way/9780465003136/",
+     "outlet": "scholarship"
+    },
+    {
+     "title": "Khalistan Movement: The Genesis of Soviet Russia (IJLMH, 2021)",
+     "ref": "ijlmh-khalistan-soviet-2021",
+     "url": "https://ijlmh.com/khalistan-movement-the-genesis-of-soviet-russia/",
+     "outlet": "scholarship"
+    }
+   ]
+  },
+  {
    "unique_id": "india-diplomatic-cover-spies-1982",
    "start_date": {
     "year": 1982
@@ -3168,6 +3212,12 @@
      "url": "https://www.pennpress.org/9780812215922/fighting-for-faith-and-nation/",
      "ref": "mahmood-1996",
      "outlet": "scholarship"
+    },
+    {
+     "title": "Khalistan Movement: The Genesis of Soviet Russia (IJLMH, 2021)",
+     "ref": "ijlmh-khalistan-soviet-2021",
+     "url": "https://ijlmh.com/khalistan-movement-the-genesis-of-soviet-russia/",
+     "outlet": "scholarship"
     }
    ],
    "confidence": "high",
@@ -3178,6 +3228,50 @@
     "lon": 77.21
    },
    "tier": "major"
+  },
+  {
+   "unique_id": "andropov-fabricated-isi-documents-1982",
+   "start_date": {
+    "year": 1982,
+    "month": 11
+   },
+   "display_date": "November 1982",
+   "text": {
+    "headline": "Andropov approves fabricated ISI documents on Panjab",
+    "text": "In November 1982 Yuri Andropov approved a KGB proposal to fabricate Pakistani intelligence documents describing ISI plans to foment religious disturbances in Panjab and to promote the creation of Khalistan as an independent Sikh state. The New Delhi residency ran an agent as the channel for delivering the fabrications into the Indian government. Andrew and Mitrokhin record the KGB’s own assessment that it could go on supplying Indira Gandhi with invented American and Pakistani conspiracies indefinitely. The forgeries were reaching New Delhi in the same months that the Dharm Yudh Morcha was being answered with mass arrests."
+   },
+   "group": "Partition & Post-Independence (1947-1983)",
+   "category": "Transnational Repression",
+   "tier": "detail",
+   "confidence": "high",
+   "location": {
+    "place": "Moscow, USSR",
+    "region": "Russia",
+    "lat": 55.76,
+    "lon": 37.63
+   },
+   "media": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Jurij_Andropov_%28Bundesarchiv%29.JPG/1024px-Jurij_Andropov_%28Bundesarchiv%29.JPG",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Jurij_Andropov_%28Bundesarchiv%29.JPG/480px-Jurij_Andropov_%28Bundesarchiv%29.JPG",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Jurij_Andropov_%28Bundesarchiv%29.JPG?width=1024",
+    "caption": "Yuri Andropov, who approved the fabrication programme as KGB chairman before succeeding Brezhnev the following month.",
+    "credit": "Wikimedia Commons",
+    "kind": "portrait"
+   },
+   "sources": [
+    {
+     "title": "The World Was Going Our Way (Andrew & Mitrokhin, 2005)",
+     "ref": "andrew-mitrokhin-2005",
+     "url": "https://www.hachettebookgroup.com/titles/christopher-andrew/the-world-was-going-our-way/9780465003136/",
+     "outlet": "scholarship"
+    },
+    {
+     "title": "Khalistan Movement: The Genesis of Soviet Russia (IJLMH, 2021)",
+     "ref": "ijlmh-khalistan-soviet-2021",
+     "url": "https://ijlmh.com/khalistan-movement-the-genesis-of-soviet-russia/",
+     "outlet": "scholarship"
+    }
+   ]
   },
   {
    "unique_id": "metro-police-warning-rcmp-1982",
@@ -3222,6 +3316,50 @@
    },
    "tier": "detail",
    "parent": "india-diplomatic-cover-spies-1982"
+  },
+  {
+   "unique_id": "rajiv-moscow-cia-claim-1983",
+   "start_date": {
+    "year": 1983,
+    "month": 7
+   },
+   "display_date": "July 1983",
+   "text": {
+    "headline": "Rajiv Gandhi is told in Moscow that the CIA is subverting Panjab",
+    "text": "On a visit to Moscow in July 1983, Rajiv Gandhi — brought into politics after his brother Sanjay’s death and being groomed for the succession — was persuaded that the CIA was running subversion in Panjab. He repeated the claim publicly on his return, saying there was substantial American interference in the Panjab situation. Within eleven months the Indian Army was inside Darbar Sahib, and the Soviet Union expressed complete understanding of the steps taken. The chronicle records the sequence without asserting that the briefing caused the assault: what it shows is that the government’s picture of who was behind Panjab was being supplied, in part, by a foreign service that was inventing it."
+   },
+   "group": "Partition & Post-Independence (1947-1983)",
+   "category": "Politics",
+   "tier": "detail",
+   "confidence": "high",
+   "location": {
+    "place": "Moscow, USSR",
+    "region": "Russia",
+    "lat": 55.76,
+    "lon": 37.63
+   },
+   "media": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Rajiv_Gandhi_%281987%29.jpg/1024px-Rajiv_Gandhi_%281987%29.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Rajiv_Gandhi_%281987%29.jpg/480px-Rajiv_Gandhi_%281987%29.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Rajiv_Gandhi_%281987%29.jpg?width=1024",
+    "caption": "Rajiv Gandhi photographed in 1987, three years after he succeeded his mother as prime minister — the nearest free-licensed portrait to the period, not a photograph of the 1983 visit.",
+    "credit": "Wikimedia Commons",
+    "kind": "portrait"
+   },
+   "sources": [
+    {
+     "title": "The World Was Going Our Way (Andrew & Mitrokhin, 2005)",
+     "ref": "andrew-mitrokhin-2005",
+     "url": "https://www.hachettebookgroup.com/titles/christopher-andrew/the-world-was-going-our-way/9780465003136/",
+     "outlet": "scholarship"
+    },
+    {
+     "title": "Khalistan Movement: The Genesis of Soviet Russia (IJLMH, 2021)",
+     "ref": "ijlmh-khalistan-soviet-2021",
+     "url": "https://ijlmh.com/khalistan-movement-the-genesis-of-soviet-russia/",
+     "outlet": "scholarship"
+    }
+   ]
   },
   {
    "unique_id": "bhindranwale-darbar-sahib-1984",
@@ -3313,6 +3451,53 @@
    "parent": "india-diplomatic-cover-spies-1982"
   },
   {
+   "unique_id": "uk-advice-golden-temple-1984",
+   "start_date": {
+    "year": 1984,
+    "month": 2
+   },
+   "display_date": "February 1984",
+   "text": {
+    "headline": "Britain advises India on a plan to clear the Golden Temple",
+    "text": "In February 1984, four months before Operation Blue Star, an SAS officer travelled to Delhi with Margaret Thatcher’s approval to advise the Indian government on plans to remove armed Sikhs from the Golden Temple complex. The advice surfaced only in 2014, in a 23 February 1984 letter released under the thirty-year rule, and a Cabinet Office review that year concluded the British input had limited effect on the operation eventually mounted. Sikh organisations and MPs have pressed since for a full independent inquiry and for the remaining files, arguing that the review examined only the papers the government chose to give it."
+   },
+   "group": "1984 & Aftermath (1984-1999)",
+   "category": "Politics",
+   "tier": "major",
+   "confidence": "high",
+   "location": {
+    "place": "London, United Kingdom",
+    "region": "United Kingdom",
+    "lat": 51.5034,
+    "lon": -0.1276
+   },
+   "media": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Margaret_Thatcher_1984.jpg/1024px-Margaret_Thatcher_1984.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Margaret_Thatcher_1984.jpg/480px-Margaret_Thatcher_1984.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Margaret_Thatcher_1984.jpg?width=1024",
+    "caption": "Margaret Thatcher in 1984. Her government approved the SAS officer’s visit to Delhi in February of that year.",
+    "credit": "Wikimedia Commons",
+    "kind": "portrait"
+   },
+   "sources": [
+    {
+     "title": "UK advised India over Golden Temple raid (Al Jazeera)",
+     "url": "https://www.aljazeera.com/news/2014/2/4/uk-advised-india-over-golden-temple-raid",
+     "outlet": "press"
+    },
+    {
+     "title": "British special forces advised 1984 Amritsar raid (openDemocracy)",
+     "url": "https://www.opendemocracy.net/en/shine-a-light/british-special-forces-advised-1984-amritsar-raid/",
+     "outlet": "press"
+    },
+    {
+     "title": "Senior MP demands inquiry into Thatcher’s role (Declassified UK)",
+     "url": "https://www.declassifieduk.org/golden-temple-massacre-senior-mp-demands-inquiry-into-thatchers-role/",
+     "outlet": "press"
+    }
+   ]
+  },
+  {
    "unique_id": "operation-blue-star-1984",
    "start_date": {
     "year": 1984,
@@ -3377,6 +3562,12 @@
      "title": "Veteran INC Leader Chidambaram says 'Operation Blue Star' was Wrong",
      "url": "https://livforum.org/digest/veteran-inc-leader-chidambaram-says-operation-blue-star-was-wrong",
      "outlet": "liv"
+    },
+    {
+     "title": "Khalistan Movement: The Genesis of Soviet Russia (IJLMH, 2021)",
+     "ref": "ijlmh-khalistan-soviet-2021",
+     "url": "https://ijlmh.com/khalistan-movement-the-genesis-of-soviet-russia/",
+     "outlet": "scholarship"
     }
    ],
    "confidence": "high",
@@ -3900,6 +4091,54 @@
     "lon": -123.12
    },
    "tier": "detail"
+  },
+  {
+   "unique_id": "cia-soviets-in-india-1985",
+   "start_date": {
+    "year": 1985,
+    "month": 12
+   },
+   "display_date": "December 1985",
+   "text": {
+    "headline": "A CIA assessment counts 160,000 Soviet placements in the Indian press",
+    "text": "A CIA assessment titled “The Soviets in India: Moscow’s Major Penetration Program”, written in December 1985 and declassified in 2011, estimated that Moscow had placed some 160,000 items — original articles and reprints — in the Indian press, and described access to the Press Trust of India as automatic enough that Soviet officials joked about “Press TASS of India”. A companion assessment set out Soviet contingency planning for military operations against Pakistan. Both are documents of the same information war, written by the service on the other side of it, and are used here for what they corroborate rather than as neutral testimony: that the news Indians read about Panjab in these years was, in measurable part, placed."
+   },
+   "group": "1984 & Aftermath (1984-1999)",
+   "category": "Politics",
+   "tier": "detail",
+   "confidence": "high",
+   "location": {
+    "place": "Langley, Virginia, United States",
+    "region": "United States",
+    "lat": 38.9517,
+    "lon": -77.1467
+   },
+   "media": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Aerial_view_of_CIA_headquarters%2C_Langley%2C_Virginia_14768v.jpg/1024px-Aerial_view_of_CIA_headquarters%2C_Langley%2C_Virginia_14768v.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Aerial_view_of_CIA_headquarters%2C_Langley%2C_Virginia_14768v.jpg/480px-Aerial_view_of_CIA_headquarters%2C_Langley%2C_Virginia_14768v.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Aerial_view_of_CIA_headquarters%2C_Langley%2C_Virginia_14768v.jpg?width=1024",
+    "caption": "CIA headquarters at Langley, Virginia, where the 1985 assessment on Soviet placements in the Indian press was written.",
+    "credit": "Wikimedia Commons",
+    "kind": "place"
+   },
+   "sources": [
+    {
+     "title": "The Soviets in India: Moscow’s Major Penetration Program (CIA, Dec 1985)",
+     "url": "https://www.cia.gov/readingroom/docs/CIA-RDP86T00586R000400490007-7.pdf",
+     "outlet": "press"
+    },
+    {
+     "title": "Soviet Contingency Plans for Military Operations Against Pakistan (CIA)",
+     "url": "https://www.cia.gov/readingroom/docs/CIA-RDP84B00049R000601570006-2.pdf",
+     "outlet": "press"
+    },
+    {
+     "title": "Khalistan Movement: The Genesis of Soviet Russia (IJLMH, 2021)",
+     "ref": "ijlmh-khalistan-soviet-2021",
+     "url": "https://ijlmh.com/khalistan-movement-the-genesis-of-soviet-russia/",
+     "outlet": "scholarship"
+    }
+   ]
   },
   {
    "unique_id": "external-affairs-consulate-documents-1986",
@@ -9794,6 +10033,27 @@
    "publisher": "Brookdale Community College (author affiliation)",
    "detail": "pp. 319",
    "note": "Author, affiliation, title and printed page 319 all appear at the head of the excerpt; the journal is not named on the pages supplied."
+  },
+  "andrew-mitrokhin-2005": {
+   "type": "Book",
+   "title": "The World Was Going Our Way: The KGB and the Battle for the Third World",
+   "author": "Christopher Andrew and Vasili Mitrokhin",
+   "publisher": "Basic Books",
+   "year": "2005",
+   "detail": "The Mitrokhin Archive II · 677 pages · ISBN 978-0-465-00313-6",
+   "note": "The second volume drawn from the notes KGB archivist Vasili Mitrokhin copied out of the First Chief Directorate’s files over twenty years and carried to Britain in 1992. Its India chapters document the Service A operations that forged Pakistani and American sponsorship of Sikh separatism and fed the forgeries to New Delhi.",
+   "url": "https://www.hachettebookgroup.com/titles/christopher-andrew/the-world-was-going-our-way/9780465003136/"
+  },
+  "ijlmh-khalistan-soviet-2021": {
+   "type": "Journal article",
+   "title": "Khalistan Movement: The Genesis of Soviet Russia",
+   "author": "Harjeet Singh",
+   "publisher": "International Journal of Law Management & Humanities 4(1)",
+   "year": "2021",
+   "detail": "Pages 1382–1413 · ISSN 2581-5369 · DOI 10.1732/IJLMH.25847 · open access",
+   "note": "A survey of Soviet active measures in India between 1944 and June 1984, assembled from the Mitrokhin Archive, declassified CIA assessments and the Indian press. Its central argument — that the Khalistan movement was itself a Soviet manufacture — goes further than its sources support, and the chronicle does not adopt it; the documented forgeries it collects are cited here on the archive and the CIA files themselves.",
+   "url": "https://ijlmh.com/khalistan-movement-the-genesis-of-soviet-russia/",
+   "pdf": "https://ijlmh.com/wp-content/uploads/Khalistan-Movement-The-Genesis-of-Soviet-Russia.pdf"
   }
  },
  "playbook": [
