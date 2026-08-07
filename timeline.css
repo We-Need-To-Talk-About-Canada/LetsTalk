@@ -603,7 +603,7 @@
     letter-spacing:.06em; color:var(--ink-2); text-align:right;
     background:linear-gradient(transparent, rgba(5,7,10,.82) 55%);
   }
-  .cd-body{padding:26px 28px 78px;}
+  .cd-body{padding:26px 28px 30px;}
   /* the close button is absolutely positioned over this row, so leave it room */
   .cd-head{
     display:flex; align-items:center; justify-content:space-between; gap:10px;
@@ -625,13 +625,16 @@
   .cd-anchor.copied::after{content:" link copied"; font-size:9.5px; letter-spacing:.1em;}
 
   /* walk the codex without going back to the grid */
+  /* Sticky, not absolute. An absolutely positioned child of a scrolling box is
+     placed against that box's padding edge and then scrolls away with the
+     content, so this bar used to drift up into the middle of the biography and
+     sit on top of a paragraph. As a sticky grid row it owns a line of its own
+     at the end of the card and rides the bottom edge until it gets there,
+     which is what it always looked like it was meant to do. */
   .cd-nav{
-    position:absolute; left:260px; right:0; bottom:0; display:grid;
-    grid-template-columns:1fr auto 1fr; align-items:center; gap:8px;
+    position:sticky; bottom:0; grid-column:1 / -1; z-index:3;
+    display:grid; grid-template-columns:1fr auto 1fr; align-items:center; gap:8px;
     padding:10px 14px; border-top:1px solid var(--line-dim);
-    /* opaque, not a gradient: this bar is pinned to the bottom of a scrolling
-       panel, so a see-through background lets the biography scroll up through
-       it and a paragraph gets sliced in half */
     background:var(--bg1); box-shadow:0 -12px 20px rgba(6,8,12,.6);
   }
   .cd-nav button{
@@ -721,7 +724,6 @@
     .tabbar{overflow-x:auto;}
     .cd-portrait{min-height:200px;}
     .codex-card-detail{grid-template-columns:1fr;}
-    .cd-nav{left:0;}
     .cx-find{flex:1 1 100%;}
     .cx-cat{font-size:9.5px; padding:7px 10px; letter-spacing:.1em;}
     .codex-card .crole{-webkit-line-clamp:3;}
