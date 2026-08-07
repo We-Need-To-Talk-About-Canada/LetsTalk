@@ -9001,355 +9001,107 @@
     "lon": 75.34
    },
    "tier": "major"
+  },
+  {
+   "unique_id": "un-rapporteurs-moninder-singh-2026",
+   "start_date": {
+    "year": 2026,
+    "month": 8,
+    "day": 3
+   },
+   "display_date": "3 August 2026",
+   "text": {
+    "headline": "Five UN rapporteurs ask Canada to act on threats to Moninder Singh",
+    "text": "Five United Nations special rapporteurs wrote to Ottawa expressing serious concerns about the safety of Moninder Singh, the Sikh Federation of Canada leader in Surrey, British Columbia, whom Canadian police have warned four times that his life was at risk. The nine-page joint letter, released by the UN Human Rights Office, said the threats may have been an attempt by India to intimidate him over his advocacy and his cooperation with the UN, and that they “fall within a broader pattern of transnational repression by Indian authorities against Sikh activists in different countries, including Canada.” It asked Canada to answer a list of questions, to protect Singh and his family, to accelerate the investigations and to hold those responsible to account.\n\nWhat drew the rapporteurs was the timing. Several of the plots police detected coincided with Singh’s appearances before UN bodies: the March 2025 warning came shortly after he addressed the Human Rights Council, and the February 2026 warning came two days before he was due to appear again. If true, the letter said, the allegations “may constitute unlawful intimidation and reprisals in direct retaliation for Mr. Moninder Singh’s human rights advocacy and cooperation with United Nations human rights representatives and mechanisms.” No arrests have been made over any of the threats. Global Affairs Canada referred questions to Public Safety Canada, which did not respond. The letter was signed by Ben Saul, Gina Romero, Andrea Bolaños Vargas, George Katrougalos and Nazila Ghanea."
+   },
+   "group": "Contemporary & Diaspora (2000-2026)",
+   "category": "Transnational Repression",
+   "tier": "major",
+   "confidence": "high",
+   "location": {
+    "place": "Surrey, British Columbia, Canada",
+    "region": "Canada",
+    "lat": 49.1913,
+    "lon": -122.849
+   },
+   "media": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/UN_Geneva_Human_Rights_and_Alliance_of_Civilizations_Room.jpg/1024px-UN_Geneva_Human_Rights_and_Alliance_of_Civilizations_Room.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/UN_Geneva_Human_Rights_and_Alliance_of_Civilizations_Room.jpg/480px-UN_Geneva_Human_Rights_and_Alliance_of_Civilizations_Room.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/UN_Geneva_Human_Rights_and_Alliance_of_Civilizations_Room.jpg?width=1024",
+    "caption": "The Human Rights and Alliance of Civilizations Room in Geneva, where the Human Rights Council sits and where Moninder Singh has spoken. A photograph of the chamber, not of the sessions described.",
+    "credit": "Wikimedia Commons",
+    "kind": "place"
+   },
+   "sources": [
+    {
+     "title": "UN rapporteurs concerned India may be behind threats to Canadian activist (Stewart Bell, Global News, 3 Aug 2026)",
+     "url": "https://globalnews.ca/news/12007421/un-rapporteurs-concerned-india-may-be-behind-threats-to-canadian-activist/",
+     "outlet": "press"
+    },
+    {
+     "title": "Joint communication to Canada from five UN special rapporteurs, released by the UN Human Rights Office (9 pages, August 2026)",
+     "outlet": "press"
+    }
+   ]
   }
  ],
  "persons": [
   {
-   "name": "Guru Nanak Sahib",
-   "years": "1469 – 1539",
-   "profession": "First Guru of Sikhi, Founder of the Faith",
-   "bio": "Guru Nanak Sahib was born in 1469 at Talwandi, now Nankana Sahib in present-day Pakistan, and is revered as the founder of Sikhi and the first of the Ten Gurus. Rejecting the ritualism and social hierarchies of the surrounding traditions, he taught the oneness of the Creator (Ik Onkar) and the fundamental equality of all people regardless of caste, creed, or gender. His hymns form the opening of the Sikh scripture, beginning with the Mul Mantar and the Japji Sahib.\n\nHe undertook long journeys, the Udasis, travelling across South Asia and reportedly as far as Mecca and Baghdad, accompanied by his companion the Muslim musician Bhai Mardana. In his final years he settled at Kartarpur on the banks of the Ravi, where he established a working community organized around three principles: Nam Japna (remembrance of the divine), Kirat Karni (honest labour), and Vand Chhakna (sharing with others), and instituted the practice of langar, the communal free kitchen.\n\nBefore his passing in 1539 he chose his devoted disciple Bhai Lehna over his own sons to succeed him, renaming him Guru Angad and establishing the principle that Guruship passed to the most worthy rather than by heredity. His birth anniversary, Gurpurab, is the most widely celebrated date in the Sikh calendar.",
+   "name": "Amritpal Singh Sandhu",
+   "years": "b. 1993",
+   "profession": "Sikh Preacher, Leader of Waris Punjab De, Member of Parliament",
+   "bio": "Amritpal Singh Sandhu emerged as a Sikh preacher and activist who, following Deep Sidhu's death, was formally appointed leader of Waris Punjab De in a ceremony at Rode village in September 2022. Adopting the style and rhetoric of Sant Jarnail Singh Bhindranwale, he led a rapid Amrit Sanchar and anti-drug revival campaign that drew both large followings and government alarm.\n\nIn February 2023 his supporters stormed the Ajnala police station near Amritsar demanding an associate's release. In March 2023 Panjab police launched a sweeping crackdown, imposing a statewide internet blackout, and after weeks evading capture he was arrested in April 2023 and detained without trial under the National Security Act in Assam's Dibrugarh jail.\n\nWhile still detained, in June 2024 he won the Khadoor Sahib parliamentary seat as an independent with over 400,000 votes, a result Sikh commentators called a striking rebuke to claims that pro-Khalistan sentiment lacks support in Panjab.",
    "related_events": [
-    "guru-nanak-birth-1469",
-    "guru-nanak-kartarpur-angad-1539",
-    "nanak-550-2019",
-    "kartarpur-corridor-2019",
-    "saka-nankana-sahib-1921"
+    "amritpal-singh-wpd-head-2022",
+    "ajnala-standoff-2023",
+    "amritpal-manhunt-2023",
+    "amritpal-arrested-2023",
+    "amritpal-electoral-win-2024",
+    "kaumi-insaaf-morcha-2023"
    ],
    "gallery": [
     {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Portrait_of_Guru_Nanak_in_an_oval_frame.jpg/1024px-Portrait_of_Guru_Nanak_in_an_oval_frame.jpg",
-     "caption": "Portrait of Guru Nanak in an oval frame",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Amritpal_Singh_Jallupur.jpg/1024px-Amritpal_Singh_Jallupur.jpg",
+     "caption": "Photograph of Amritpal Singh Sandhu.",
      "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Portrait_of_Guru_Nanak_in_an_oval_frame.jpg/480px-Portrait_of_Guru_Nanak_in_an_oval_frame.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_Guru_Nanak_in_an_oval_frame.jpg?width=1024"
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Amritpal_Singh_Jallupur.jpg/480px-Amritpal_Singh_Jallupur.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Amritpal_Singh_Jallupur.jpg?width=1024"
     },
     {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/%27Bhai_Mardana%2C_Guru_Nanak%2C_Sri_Chand%2C_Bhai_Bala_and_Lakmi_Chand%27%2C_a_Janamsakhi_painting_from_a_Kashmiri_Manuscript%2C_early_nineteenth_century.jpg/1024px-%27Bhai_Mardana%2C_Guru_Nanak%2C_Sri_Chand%2C_Bhai_Bala_and_Lakmi_Chand%27%2C_a_Janamsakhi_painting_from_a_Kashmiri_Manuscript%2C_early_nineteenth_century.jpg",
-     "caption": "'Bhai Mardana, Guru Nanak, Sri Chand, Bhai Bala and Lakmi Chand', a Janamsakhi painting from a Kashmiri manuscript, early 19th century",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Sikh_Gurdwara%2C_Punjab.JPG/1024px-Sikh_Gurdwara%2C_Punjab.JPG",
+     "caption": "Representative image of a Sikh gurdwara in Punjab — no free-licensed photograph of Amritpal Singh Sandhu could be confirmed on Wikimedia Commons at time of writing",
      "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/%27Bhai_Mardana%2C_Guru_Nanak%2C_Sri_Chand%2C_Bhai_Bala_and_Lakmi_Chand%27%2C_a_Janamsakhi_painting_from_a_Kashmiri_Manuscript%2C_early_nineteenth_century.jpg/480px-%27Bhai_Mardana%2C_Guru_Nanak%2C_Sri_Chand%2C_Bhai_Bala_and_Lakmi_Chand%27%2C_a_Janamsakhi_painting_from_a_Kashmiri_Manuscript%2C_early_nineteenth_century.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/%27Bhai_Mardana%2C_Guru_Nanak%2C_Sri_Chand%2C_Bhai_Bala_and_Lakmi_Chand%27%2C_a_Janamsakhi_painting_from_a_Kashmiri_Manuscript%2C_early_nineteenth_century.jpg?width=1024"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/%27Imaginary_Meeting_of_Guru_Nanak%2C_Mardana_Sahab%2C_and_Other_Sikh_Gurus%27%2C_earliest_known_painting_depicting_all_ten_Sikh_gurus_together_with_golden_nastaliq_identifying_inscriptions%2C_probably_from_Hyderabad%2C_ca.1780.jpg/1024px-%27Imaginary_Meeting_of_Guru_Nanak%2C_Mardana_Sahab%2C_and_Other_Sikh_Gurus%27%2C_earliest_known_painting_depicting_all_ten_Sikh_gurus_together_with_golden_nastaliq_identifying_inscriptions%2C_probably_from_Hyderabad%2C_ca.1780.jpg",
-     "caption": "'Imaginary Meeting of Guru Nanak, Mardana Sahab, and Other Sikh Gurus' — the earliest known painting depicting all ten Sikh gurus together, probably from Hyderabad, ca.1780",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/%27Imaginary_Meeting_of_Guru_Nanak%2C_Mardana_Sahab%2C_and_Other_Sikh_Gurus%27%2C_earliest_known_painting_depicting_all_ten_Sikh_gurus_together_with_golden_nastaliq_identifying_inscriptions%2C_probably_from_Hyderabad%2C_ca.1780.jpg/480px-%27Imaginary_Meeting_of_Guru_Nanak%2C_Mardana_Sahab%2C_and_Other_Sikh_Gurus%27%2C_earliest_known_painting_depicting_all_ten_Sikh_gurus_together_with_golden_nastaliq_identifying_inscriptions%2C_probably_from_Hyderabad%2C_ca.1780.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/%27Imaginary_Meeting_of_Guru_Nanak%2C_Mardana_Sahab%2C_and_Other_Sikh_Gurus%27%2C_earliest_known_painting_depicting_all_ten_Sikh_gurus_together_with_golden_nastaliq_identifying_inscriptions%2C_probably_from_Hyderabad%2C_ca.1780.jpg?width=1024"
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Sikh_Gurdwara%2C_Punjab.JPG/480px-Sikh_Gurdwara%2C_Punjab.JPG",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Sikh_Gurdwara%2C_Punjab.JPG?width=1024"
     }
    ],
-   "category": "gurus"
+   "category": "contemporary"
   },
   {
-   "name": "Guru Angad Sahib",
-   "years": "1504 – 1552",
-   "profession": "Second Guru of Sikhi",
-   "bio": "Guru Angad Sahib, born Bhai Lehna in 1504, became the second Sikh Guru in 1539 after Guru Nanak recognized his complete devotion and obedience. He is traditionally credited with popularizing and standardizing the Gurmukhi script, the writing system in which the Sikh scripture is recorded, thereby giving the community a distinct literary identity separate from Sanskrit and Persian learned traditions.\n\nHe collected the compositions of Guru Nanak and continued to develop the institution of langar, emphasizing physical fitness and wrestling among his followers. He established his centre at Khadur Sahib. Before his passing in 1552 he conferred the Guruship on the elderly and devoted Amar Das, again setting aside his own sons.",
+   "name": "Avtar Singh Khanda",
+   "years": "1988 – 2023",
+   "profession": "UK-Based Khalistan Activist",
+   "bio": "Avtar Singh Khanda was a prominent UK-based Khalistan activist associated with organizing and advocacy in Britain. He came to wider attention around the 2023 events surrounding Amritpal Singh and Waris Punjab De.\n\nOn 15 June 2023 he died suddenly in Birmingham. His family and Sikh organizations considered the circumstances suspicious, and UK police and coroners were later accused of failing to properly investigate allegations that he had been poisoned. His death, days before the killing of Hardeep Singh Nijjar, is cited in discussions of alleged transnational repression targeting Sikh activists abroad.",
    "related_events": [
-    "guru-nanak-kartarpur-angad-1539"
+    "khanda-death-2023"
    ],
    "gallery": [
     {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Depiction_of_Guru_Angad_from_a_Guru_Granth_Sahib_manuscript_on_Kashmiri_paper%2C_Patiala.jpg/1024px-Depiction_of_Guru_Angad_from_a_Guru_Granth_Sahib_manuscript_on_Kashmiri_paper%2C_Patiala.jpg",
-     "caption": "Depiction of Guru Angad from a Guru Granth Sahib manuscript on Kashmiri paper, Patiala",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Depiction_of_Guru_Angad_from_a_Guru_Granth_Sahib_manuscript_on_Kashmiri_paper%2C_Patiala.jpg/480px-Depiction_of_Guru_Angad_from_a_Guru_Granth_Sahib_manuscript_on_Kashmiri_paper%2C_Patiala.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Depiction_of_Guru_Angad_from_a_Guru_Granth_Sahib_manuscript_on_Kashmiri_paper%2C_Patiala.jpg?width=1024"
+     "url": "https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Photograph_Sikh_militant_Avtar_Singh_Khanda.jpg/1024px-Photograph_Sikh_militant_Avtar_Singh_Khanda.jpg",
+     "caption": "Photograph of Avtar Singh Khanda.",
+     "credit": "Non-free fair-use image, English Wikipedia",
+     "thumb": "https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Photograph_Sikh_militant_Avtar_Singh_Khanda.jpg/480px-Photograph_Sikh_militant_Avtar_Singh_Khanda.jpg",
+     "fallback": "https://en.wikipedia.org/wiki/Special:FilePath/Photograph_Sikh_militant_Avtar_Singh_Khanda.jpg?width=1024"
     },
     {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Bahi_Lehna_%28later_Guru_Angad%29_and_his_companions_visit_Baba_Nanak.jpg/1024px-Bahi_Lehna_%28later_Guru_Angad%29_and_his_companions_visit_Baba_Nanak.jpg",
-     "caption": "Bahi Lehna (later Guru Angad) and his companions visit Baba Nanak",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Guru_Nanak_Gurdwara_Smethwick_1_%283194488146%29.jpg/1024px-Guru_Nanak_Gurdwara_Smethwick_1_%283194488146%29.jpg",
+     "caption": "Guru Nanak Gurdwara Smethwick, near Birmingham — the UK Midlands region where Avtar Singh Khanda was based as a Sikh diaspora activist and where he died in 2023; a representative location image, not a photograph of Khanda himself (no free-licensed photograph of him could be confirmed on Wikimedia Commons)",
      "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Bahi_Lehna_%28later_Guru_Angad%29_and_his_companions_visit_Baba_Nanak.jpg/480px-Bahi_Lehna_%28later_Guru_Angad%29_and_his_companions_visit_Baba_Nanak.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Bahi_Lehna_%28later_Guru_Angad%29_and_his_companions_visit_Baba_Nanak.jpg?width=1024"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Fresco_depicting_Guru_Angad_from_Udasi_Chitta_Akhara_in_Amritsar.jpg/1024px-Fresco_depicting_Guru_Angad_from_Udasi_Chitta_Akhara_in_Amritsar.jpg",
-     "caption": "Fresco depicting Guru Angad, from Udasi Chitta Akhara in Amritsar",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Fresco_depicting_Guru_Angad_from_Udasi_Chitta_Akhara_in_Amritsar.jpg/480px-Fresco_depicting_Guru_Angad_from_Udasi_Chitta_Akhara_in_Amritsar.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Fresco_depicting_Guru_Angad_from_Udasi_Chitta_Akhara_in_Amritsar.jpg?width=1024"
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Guru_Nanak_Gurdwara_Smethwick_1_%283194488146%29.jpg/480px-Guru_Nanak_Gurdwara_Smethwick_1_%283194488146%29.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Guru_Nanak_Gurdwara_Smethwick_1_%283194488146%29.jpg?width=1024"
     }
    ],
-   "category": "gurus"
-  },
-  {
-   "name": "Guru Amar Das Sahib",
-   "years": "1479 – 1574",
-   "profession": "Third Guru of Sikhi",
-   "bio": "Guru Amar Das Sahib assumed the Guruship in 1552 at an advanced age and led the community for more than two decades. He is remembered for deepening the institutional and social reforms of the early Panth, most famously by insisting that all visitors, including the Mughal Emperor Akbar, first sit and eat together in the langar before meeting him, using the community kitchen as a levelling instrument against caste distinctions.\n\nHe established his seat at Goindwal, where he had a baoli (stepwell) constructed as a place of pilgrimage, and organized the growing community into administrative districts known as manjis. He spoke against the practices of sati and purdah, advocated the remarriage of widows, and composed the Anand Sahib. He appointed his son-in-law Ram Das as his successor.",
-   "related_events": [
-    "guru-amar-das-1552"
-   ],
-   "gallery": [
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/18th_century_painting_of_Guru_Amar_Das.jpg/1024px-18th_century_painting_of_Guru_Amar_Das.jpg",
-     "caption": "18th century painting of Guru Amar Das",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/18th_century_painting_of_Guru_Amar_Das.jpg/480px-18th_century_painting_of_Guru_Amar_Das.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/18th_century_painting_of_Guru_Amar_Das.jpg?width=1024"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Depiction_of_Guru_Amar_Das_from_a_Guru_Granth_Sahib_manuscript_on_Kashmiri_paper%2C_Patiala.jpg/1024px-Depiction_of_Guru_Amar_Das_from_a_Guru_Granth_Sahib_manuscript_on_Kashmiri_paper%2C_Patiala.jpg",
-     "caption": "Depiction of Guru Amar Das from a Guru Granth Sahib manuscript on Kashmiri paper, Patiala",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Depiction_of_Guru_Amar_Das_from_a_Guru_Granth_Sahib_manuscript_on_Kashmiri_paper%2C_Patiala.jpg/480px-Depiction_of_Guru_Amar_Das_from_a_Guru_Granth_Sahib_manuscript_on_Kashmiri_paper%2C_Patiala.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Depiction_of_Guru_Amar_Das_from_a_Guru_Granth_Sahib_manuscript_on_Kashmiri_paper%2C_Patiala.jpg?width=1024"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Fresco_depicting_Guru_Amar_Das_from_Udasi_Chitta_Akhara_in_Amritsar.jpg/1024px-Fresco_depicting_Guru_Amar_Das_from_Udasi_Chitta_Akhara_in_Amritsar.jpg",
-     "caption": "Fresco depicting Guru Amar Das, from Udasi Chitta Akhara in Amritsar",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Fresco_depicting_Guru_Amar_Das_from_Udasi_Chitta_Akhara_in_Amritsar.jpg/480px-Fresco_depicting_Guru_Amar_Das_from_Udasi_Chitta_Akhara_in_Amritsar.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Fresco_depicting_Guru_Amar_Das_from_Udasi_Chitta_Akhara_in_Amritsar.jpg?width=1024"
-    }
-   ],
-   "category": "gurus"
-  },
-  {
-   "name": "Guru Ram Das Sahib",
-   "years": "1534 – 1581",
-   "profession": "Fourth Guru of Sikhi, Founder of Amritsar",
-   "bio": "Guru Ram Das Sahib became the fourth Guru in 1574. He is credited with founding the city that would become Amritsar, excavating the sacred pool (sarovar) around which the Harimandar Sahib would later be built, giving the Sikh world its central sacred geography.\n\nHe composed the Lavan, the four hymns that constitute the Sikh marriage ceremony (Anand Karaj), still recited at Sikh weddings today. Departing from earlier practice, he named his youngest son Arjan as his successor, beginning a hereditary line that would continue through the remaining Gurus.",
-   "related_events": [
-    "guru-ram-das-1574"
-   ],
-   "gallery": [
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Equestrian_painting_of_Guru_Ram_Das%2C_accompanied_by_an_attendant_carrying_a_red-flag%2C_Punjab%2C_circa_early-19th_century.jpg/1024px-Equestrian_painting_of_Guru_Ram_Das%2C_accompanied_by_an_attendant_carrying_a_red-flag%2C_Punjab%2C_circa_early-19th_century.jpg",
-     "caption": "Equestrian painting of Guru Ram Das, accompanied by an attendant carrying a red flag, Punjab, circa early 19th century",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Equestrian_painting_of_Guru_Ram_Das%2C_accompanied_by_an_attendant_carrying_a_red-flag%2C_Punjab%2C_circa_early-19th_century.jpg/480px-Equestrian_painting_of_Guru_Ram_Das%2C_accompanied_by_an_attendant_carrying_a_red-flag%2C_Punjab%2C_circa_early-19th_century.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Equestrian_painting_of_Guru_Ram_Das%2C_accompanied_by_an_attendant_carrying_a_red-flag%2C_Punjab%2C_circa_early-19th_century.jpg?width=1024"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Guru_Ram_Das_%28the_fourth_Sikh_Guru%29%2C_from_a_series_of_painting_of_the_first_nine_Sikh_gurus%2C_circa_1800%E2%80%931840.jpg/1024px-Guru_Ram_Das_%28the_fourth_Sikh_Guru%29%2C_from_a_series_of_painting_of_the_first_nine_Sikh_gurus%2C_circa_1800%E2%80%931840.jpg",
-     "caption": "Guru Ram Das (the fourth Sikh Guru), from a series of paintings of the first nine Sikh gurus, circa 1800–1840",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Guru_Ram_Das_%28the_fourth_Sikh_Guru%29%2C_from_a_series_of_painting_of_the_first_nine_Sikh_gurus%2C_circa_1800%E2%80%931840.jpg/480px-Guru_Ram_Das_%28the_fourth_Sikh_Guru%29%2C_from_a_series_of_painting_of_the_first_nine_Sikh_gurus%2C_circa_1800%E2%80%931840.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Guru_Ram_Das_%28the_fourth_Sikh_Guru%29%2C_from_a_series_of_painting_of_the_first_nine_Sikh_gurus%2C_circa_1800%E2%80%931840.jpg?width=1024"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Depiction_of_Guru_Ram_Das_from_a_Guru_Granth_Sahib_manuscript_on_Kashmiri_paper%2C_Patiala.jpg/1024px-Depiction_of_Guru_Ram_Das_from_a_Guru_Granth_Sahib_manuscript_on_Kashmiri_paper%2C_Patiala.jpg",
-     "caption": "Depiction of Guru Ram Das from a Guru Granth Sahib manuscript on Kashmiri paper, Patiala",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Depiction_of_Guru_Ram_Das_from_a_Guru_Granth_Sahib_manuscript_on_Kashmiri_paper%2C_Patiala.jpg/480px-Depiction_of_Guru_Ram_Das_from_a_Guru_Granth_Sahib_manuscript_on_Kashmiri_paper%2C_Patiala.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Depiction_of_Guru_Ram_Das_from_a_Guru_Granth_Sahib_manuscript_on_Kashmiri_paper%2C_Patiala.jpg?width=1024"
-    }
-   ],
-   "category": "gurus"
-  },
-  {
-   "name": "Guru Arjan Sahib",
-   "years": "1563 – 1606",
-   "profession": "Fifth Guru of Sikhi, First Martyr, Compiler of the Adi Granth",
-   "bio": "Guru Arjan Sahib, the fifth Guru from 1581, was one of the most consequential figures of the Guru period. He completed the construction of Harimandar Sahib at Amritsar, designing it with entrances on all four sides to signify openness to all peoples, and in 1604 he compiled the Adi Granth, the first authoritative volume of Sikh scripture, gathering the hymns of the preceding Gurus together with those of Hindu and Muslim Bhagats such as Kabir, Namdev, Ravidas, and Sheikh Farid.\n\nHe organized systems of community contribution, including the daswandh (a tenth of one's earnings), and during the Lahore famine of 1595 established langar and dug wells as acts of unconditional service. Under his leadership the Sikh community grew into a large and self-conscious body.\n\nIn 1606, on the orders of the Mughal Emperor Jahangir, Guru Arjan was tortured and martyred at Lahore, becoming the first of the Sikh Gurus to be martyred. His death is regarded as a turning point that set the community on the path toward taking up arms in defence of conscience.",
-   "related_events": [
-    "guru-arjan-becomes-guru-1581",
-    "harimandar-sahib-foundation-1589",
-    "guru-arjan-langar-lahore-famine-1595",
-    "adi-granth-compiled-1604",
-    "martyrdom-guru-arjan-1606"
-   ],
-   "gallery": [
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Depiction_of_Guru_Arjan_from_a_Guru_Granth_Sahib_manuscript_on_Kashmiri_paper%2C_Patiala.jpg/1024px-Depiction_of_Guru_Arjan_from_a_Guru_Granth_Sahib_manuscript_on_Kashmiri_paper%2C_Patiala.jpg",
-     "caption": "Depiction of Guru Arjan from a Guru Granth Sahib manuscript on Kashmiri paper, Patiala",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Depiction_of_Guru_Arjan_from_a_Guru_Granth_Sahib_manuscript_on_Kashmiri_paper%2C_Patiala.jpg/480px-Depiction_of_Guru_Arjan_from_a_Guru_Granth_Sahib_manuscript_on_Kashmiri_paper%2C_Patiala.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Depiction_of_Guru_Arjan_from_a_Guru_Granth_Sahib_manuscript_on_Kashmiri_paper%2C_Patiala.jpg?width=1024"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/A_Sikh_Guru_%28Perhaps_Guru_Arjan_Dev%29_Seated_in_the_Golden_Temple_at_Amritsar%2C_Guler%2C_circa_1830.jpg/1024px-A_Sikh_Guru_%28Perhaps_Guru_Arjan_Dev%29_Seated_in_the_Golden_Temple_at_Amritsar%2C_Guler%2C_circa_1830.jpg",
-     "caption": "'A Sikh Guru (Perhaps Guru Arjan Dev) Seated in the Golden Temple at Amritsar', Guler school painting, circa 1830 (traditionally identified as Guru Arjan, though attribution uncertain)",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/A_Sikh_Guru_%28Perhaps_Guru_Arjan_Dev%29_Seated_in_the_Golden_Temple_at_Amritsar%2C_Guler%2C_circa_1830.jpg/480px-A_Sikh_Guru_%28Perhaps_Guru_Arjan_Dev%29_Seated_in_the_Golden_Temple_at_Amritsar%2C_Guler%2C_circa_1830.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/A_Sikh_Guru_%28Perhaps_Guru_Arjan_Dev%29_Seated_in_the_Golden_Temple_at_Amritsar%2C_Guler%2C_circa_1830.jpg?width=1024"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Contributors_of_the_Guru_Granth_Sahib_depicted_with_Guru_Arjan_while_Bhai_Gurdas_scribes_the_Granth_Sahib.jpg/1024px-Contributors_of_the_Guru_Granth_Sahib_depicted_with_Guru_Arjan_while_Bhai_Gurdas_scribes_the_Granth_Sahib.jpg",
-     "caption": "Contributors of the Guru Granth Sahib depicted with Guru Arjan while Bhai Gurdas scribes the Granth Sahib",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Contributors_of_the_Guru_Granth_Sahib_depicted_with_Guru_Arjan_while_Bhai_Gurdas_scribes_the_Granth_Sahib.jpg/480px-Contributors_of_the_Guru_Granth_Sahib_depicted_with_Guru_Arjan_while_Bhai_Gurdas_scribes_the_Granth_Sahib.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Contributors_of_the_Guru_Granth_Sahib_depicted_with_Guru_Arjan_while_Bhai_Gurdas_scribes_the_Granth_Sahib.jpg?width=1024"
-    }
-   ],
-   "category": "gurus"
-  },
-  {
-   "name": "Guru Hargobind Sahib",
-   "years": "1595 – 1644",
-   "profession": "Sixth Guru of Sikhi, Architect of Miri-Piri",
-   "bio": "Guru Hargobind Sahib became the sixth Guru in 1606 following the martyrdom of his father, Guru Arjan. In response, he formally combined spiritual and temporal authority by donning two swords representing Miri (temporal power) and Piri (spiritual authority), and by establishing the Akal Takht Sahib, the Timeless Throne, facing the Harimandar Sahib at Amritsar as a seat of Sikh sovereignty.\n\nHe raised a standing armed force, the Akal Sena, and fought several defensive battles against Mughal forces. Imprisoned for a time in the fort at Gwalior, he is remembered in tradition for securing the release of fellow princely captives, an event commemorated as Bandi Chhor Divas. His transformation of the community into one prepared to defend itself with arms laid the groundwork for the militant Khalsa that followed.",
-   "related_events": [
-    "akal-takht-hargobind-1606"
-   ],
-   "gallery": [
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Contemporary_or_near-contemporary_portrait_of_Guru_Hargobind_on_horseback.jpg/1024px-Contemporary_or_near-contemporary_portrait_of_Guru_Hargobind_on_horseback.jpg",
-     "caption": "Contemporary or near-contemporary portrait of Guru Hargobind on horseback",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Contemporary_or_near-contemporary_portrait_of_Guru_Hargobind_on_horseback.jpg/480px-Contemporary_or_near-contemporary_portrait_of_Guru_Hargobind_on_horseback.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Contemporary_or_near-contemporary_portrait_of_Guru_Hargobind_on_horseback.jpg?width=1024"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/A_miniature_painting_of_Guru_Hargobind.jpg/1024px-A_miniature_painting_of_Guru_Hargobind.jpg",
-     "caption": "A miniature painting of Guru Hargobind",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/A_miniature_painting_of_Guru_Hargobind.jpg/480px-A_miniature_painting_of_Guru_Hargobind.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/A_miniature_painting_of_Guru_Hargobind.jpg?width=1024"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Contemporary_equestrian_painting_of_Guru_Hargobind_with_an_orange-coloured_backdrop%2C_held_in_the_collection_of_the_Sodhi_family_of_Kartarpur%2C_circa_mid-17th_century.jpg/1024px-Contemporary_equestrian_painting_of_Guru_Hargobind_with_an_orange-coloured_backdrop%2C_held_in_the_collection_of_the_Sodhi_family_of_Kartarpur%2C_circa_mid-17th_century.jpg",
-     "caption": "Contemporary equestrian painting of Guru Hargobind, held in the collection of the Sodhi family of Kartarpur, circa mid-17th century",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Contemporary_equestrian_painting_of_Guru_Hargobind_with_an_orange-coloured_backdrop%2C_held_in_the_collection_of_the_Sodhi_family_of_Kartarpur%2C_circa_mid-17th_century.jpg/480px-Contemporary_equestrian_painting_of_Guru_Hargobind_with_an_orange-coloured_backdrop%2C_held_in_the_collection_of_the_Sodhi_family_of_Kartarpur%2C_circa_mid-17th_century.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Contemporary_equestrian_painting_of_Guru_Hargobind_with_an_orange-coloured_backdrop%2C_held_in_the_collection_of_the_Sodhi_family_of_Kartarpur%2C_circa_mid-17th_century.jpg?width=1024"
-    }
-   ],
-   "category": "gurus"
-  },
-  {
-   "name": "Guru Har Rai Sahib",
-   "years": "1630 – 1661",
-   "profession": "Seventh Guru of Sikhi",
-   "bio": "Guru Har Rai Sahib, a grandson of Guru Hargobind, became the seventh Guru in 1644. He is remembered for his gentleness and compassion, maintaining a large cavalry force as a deterrent while avoiding direct conflict, and for his interest in medicine and healing, establishing gardens and a dispensary.\n\nHe navigated the tense politics of the Mughal succession struggle between Aurangzeb and Dara Shikoh with caution. When his elder son Ram Rai altered a line of scripture to appease the Mughal court, the Guru disowned him and instead named his younger son, Harikrishan, as his successor.",
-   "related_events": [
-    "guru-har-rai-1644"
-   ],
-   "gallery": [
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Guru_Har_Rai_%28the_seventh_Sikh_Guru%29%2C_from_a_series_of_painting_of_the_first_nine_Sikh_gurus%2C_circa_1800%E2%80%931840.jpg/1024px-Guru_Har_Rai_%28the_seventh_Sikh_Guru%29%2C_from_a_series_of_painting_of_the_first_nine_Sikh_gurus%2C_circa_1800%E2%80%931840.jpg",
-     "caption": "Guru Har Rai (the seventh Sikh Guru), from a series of paintings of the first nine Sikh gurus, circa 1800–1840",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Guru_Har_Rai_%28the_seventh_Sikh_Guru%29%2C_from_a_series_of_painting_of_the_first_nine_Sikh_gurus%2C_circa_1800%E2%80%931840.jpg/480px-Guru_Har_Rai_%28the_seventh_Sikh_Guru%29%2C_from_a_series_of_painting_of_the_first_nine_Sikh_gurus%2C_circa_1800%E2%80%931840.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Guru_Har_Rai_%28the_seventh_Sikh_Guru%29%2C_from_a_series_of_painting_of_the_first_nine_Sikh_gurus%2C_circa_1800%E2%80%931840.jpg?width=1024"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Court_of_Guru_Har_Rai.webp/1024px-Court_of_Guru_Har_Rai.webp",
-     "caption": "Court of Guru Har Rai",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Court_of_Guru_Har_Rai.webp/480px-Court_of_Guru_Har_Rai.webp",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Court_of_Guru_Har_Rai.webp?width=1024"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Equestrian_painting_of_Guru_Har_Rai_with_two_angelic_figures_above%2C_Pahari_style%2C_artwork_preserved_by_the_family_of_Bidhi_Chand_Chhina.jpg/1024px-Equestrian_painting_of_Guru_Har_Rai_with_two_angelic_figures_above%2C_Pahari_style%2C_artwork_preserved_by_the_family_of_Bidhi_Chand_Chhina.jpg",
-     "caption": "Equestrian painting of Guru Har Rai with two angelic figures above, Pahari style",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Equestrian_painting_of_Guru_Har_Rai_with_two_angelic_figures_above%2C_Pahari_style%2C_artwork_preserved_by_the_family_of_Bidhi_Chand_Chhina.jpg/480px-Equestrian_painting_of_Guru_Har_Rai_with_two_angelic_figures_above%2C_Pahari_style%2C_artwork_preserved_by_the_family_of_Bidhi_Chand_Chhina.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Equestrian_painting_of_Guru_Har_Rai_with_two_angelic_figures_above%2C_Pahari_style%2C_artwork_preserved_by_the_family_of_Bidhi_Chand_Chhina.jpg?width=1024"
-    }
-   ],
-   "category": "gurus"
-  },
-  {
-   "name": "Guru Harikrishan Sahib",
-   "years": "1656 – 1664",
-   "profession": "Eighth Guru of Sikhi",
-   "bio": "Guru Harikrishan Sahib became the eighth Guru in 1661 at the age of five, the youngest to hold the office. Despite his youth he faced opposition from his elder brother Ram Rai and the pressures of the court of Emperor Aurangzeb, who summoned him to Delhi.\n\nWhile in Delhi he is revered for tending to victims of a smallpox and cholera epidemic, ultimately contracting the disease himself and passing away in 1664 at the age of eight. The Gurdwara Bangla Sahib in Delhi marks the site associated with his service. Before his death he indicated his successor with the words 'Baba Bakala,' pointing to Guru Tegh Bahadur.",
-   "related_events": [
-    "guru-harikrishan-1661"
-   ],
-   "gallery": [
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Guru_Har_Krishan_%28the_eighth_Sikh_Guru%29%2C_from_a_series_of_painting_of_the_first_nine_Sikh_gurus%2C_circa_1800%E2%80%931840.jpg/1024px-Guru_Har_Krishan_%28the_eighth_Sikh_Guru%29%2C_from_a_series_of_painting_of_the_first_nine_Sikh_gurus%2C_circa_1800%E2%80%931840.jpg",
-     "caption": "Guru Har Krishan (the eighth Sikh Guru), from a series of paintings of the first nine Sikh gurus, circa 1800–1840",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Guru_Har_Krishan_%28the_eighth_Sikh_Guru%29%2C_from_a_series_of_painting_of_the_first_nine_Sikh_gurus%2C_circa_1800%E2%80%931840.jpg/480px-Guru_Har_Krishan_%28the_eighth_Sikh_Guru%29%2C_from_a_series_of_painting_of_the_first_nine_Sikh_gurus%2C_circa_1800%E2%80%931840.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Guru_Har_Krishan_%28the_eighth_Sikh_Guru%29%2C_from_a_series_of_painting_of_the_first_nine_Sikh_gurus%2C_circa_1800%E2%80%931840.jpg?width=1024"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Detail_of_Guru_Har_Krishan_from_a_miniature_painting_depicting_him_conversing_with_a_Hill_Raja%2C_with_attendants_standing_by%2C_circa_early_19th_century.jpg/1024px-Detail_of_Guru_Har_Krishan_from_a_miniature_painting_depicting_him_conversing_with_a_Hill_Raja%2C_with_attendants_standing_by%2C_circa_early_19th_century.jpg",
-     "caption": "Detail of Guru Har Krishan from a miniature painting depicting him conversing with a Hill Raja, circa early 19th century",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Detail_of_Guru_Har_Krishan_from_a_miniature_painting_depicting_him_conversing_with_a_Hill_Raja%2C_with_attendants_standing_by%2C_circa_early_19th_century.jpg/480px-Detail_of_Guru_Har_Krishan_from_a_miniature_painting_depicting_him_conversing_with_a_Hill_Raja%2C_with_attendants_standing_by%2C_circa_early_19th_century.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Detail_of_Guru_Har_Krishan_from_a_miniature_painting_depicting_him_conversing_with_a_Hill_Raja%2C_with_attendants_standing_by%2C_circa_early_19th_century.jpg?width=1024"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Guru_Har_Krishan_being_worshipped_by_his_followers.jpg/1024px-Guru_Har_Krishan_being_worshipped_by_his_followers.jpg",
-     "caption": "Guru Har Krishan being worshipped by his followers",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Guru_Har_Krishan_being_worshipped_by_his_followers.jpg/480px-Guru_Har_Krishan_being_worshipped_by_his_followers.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Guru_Har_Krishan_being_worshipped_by_his_followers.jpg?width=1024"
-    }
-   ],
-   "category": "gurus"
-  },
-  {
-   "name": "Guru Tegh Bahadur Sahib",
-   "years": "1621 – 1675",
-   "profession": "Ninth Guru of Sikhi, Martyr for Freedom of Conscience",
-   "bio": "Guru Tegh Bahadur Sahib, the youngest son of Guru Hargobind, became the ninth Guru in 1664. He travelled extensively across northern and eastern India spreading Sikh teachings and founded the town of Anandpur Sahib in the Shivalik foothills in 1665. His compositions were later incorporated into the Guru Granth Sahib.\n\nHe is most revered for his martyrdom: when a delegation of Kashmiri Pandits sought his help against forced conversion under Aurangzeb, he took up their cause in defence of the freedom of conscience of a community not his own. He was arrested and beheaded in Delhi in 1675 after refusing to convert to Islam. The Gurdwaras Sis Ganj (Delhi) and Rakab Ganj mark the sites of his execution and cremation. His sacrifice in defence of another faith's right to worship is widely held to be without parallel.",
-   "related_events": [
-    "guru-tegh-bahadur-becomes-guru-1664",
-    "anandpur-founded-1665",
-    "martyrdom-guru-tegh-bahadur-1675"
-   ],
-   "gallery": [
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Contemporary_painting_of_Guru_Tegh_Bahadur_by_Ahsan%2C_ca.1667%E2%80%9368_%28detail%29.jpg/1024px-Contemporary_painting_of_Guru_Tegh_Bahadur_by_Ahsan%2C_ca.1667%E2%80%9368_%28detail%29.jpg",
-     "caption": "Contemporary painting of Guru Tegh Bahadur by Ahsan, ca.1667–68 (detail)",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Contemporary_painting_of_Guru_Tegh_Bahadur_by_Ahsan%2C_ca.1667%E2%80%9368_%28detail%29.jpg/480px-Contemporary_painting_of_Guru_Tegh_Bahadur_by_Ahsan%2C_ca.1667%E2%80%9368_%28detail%29.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Contemporary_painting_of_Guru_Tegh_Bahadur_by_Ahsan%2C_ca.1667%E2%80%9368_%28detail%29.jpg?width=1024"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/A_19th_century_painting_depicting_Guru_Tegh_Bahadur.jpg/1024px-A_19th_century_painting_depicting_Guru_Tegh_Bahadur.jpg",
-     "caption": "A 19th century painting depicting Guru Tegh Bahadur",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/A_19th_century_painting_depicting_Guru_Tegh_Bahadur.jpg/480px-A_19th_century_painting_depicting_Guru_Tegh_Bahadur.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/A_19th_century_painting_depicting_Guru_Tegh_Bahadur.jpg?width=1024"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Guru_Tegh_Bahadur_%28the_ninth_Sikh_Guru%29%2C_from_a_series_of_painting_of_the_first_nine_Sikh_gurus%2C_circa_1800%E2%80%931840.jpg/1024px-Guru_Tegh_Bahadur_%28the_ninth_Sikh_Guru%29%2C_from_a_series_of_painting_of_the_first_nine_Sikh_gurus%2C_circa_1800%E2%80%931840.jpg",
-     "caption": "Guru Tegh Bahadur (the ninth Sikh Guru), from a series of paintings of the first nine Sikh gurus, circa 1800–1840",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Guru_Tegh_Bahadur_%28the_ninth_Sikh_Guru%29%2C_from_a_series_of_painting_of_the_first_nine_Sikh_gurus%2C_circa_1800%E2%80%931840.jpg/480px-Guru_Tegh_Bahadur_%28the_ninth_Sikh_Guru%29%2C_from_a_series_of_painting_of_the_first_nine_Sikh_gurus%2C_circa_1800%E2%80%931840.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Guru_Tegh_Bahadur_%28the_ninth_Sikh_Guru%29%2C_from_a_series_of_painting_of_the_first_nine_Sikh_gurus%2C_circa_1800%E2%80%931840.jpg?width=1024"
-    }
-   ],
-   "category": "gurus"
-  },
-  {
-   "name": "Guru Gobind Singh Sahib",
-   "years": "1666 – 1708",
-   "profession": "Tenth Guru of Sikhi, Creator of the Khalsa",
-   "bio": "Guru Gobind Singh Sahib, born at Patna in 1666, became the tenth and final human Guru in 1675 after the martyrdom of his father, Guru Tegh Bahadur. In 1699, at Anandpur Sahib on Vaisakhi, he created the Khalsa, initiating the first Panj Piare (Five Beloved) through the Khande di Pahul ceremony and giving initiated Sikhs the shared names Singh and Kaur along with the discipline of the Five Ks.\n\nA poet, scholar, and warrior, he fought numerous battles against Mughal and hill-state forces. In the campaigns of 1704 he lost all four of his sons: the two elder Sahibzade, Ajit Singh and Jujhar Singh, fell at Chamkaur, while the two younger, Zorawar Singh and Fateh Singh, were bricked alive at Sirhind. His mother, Mata Gujri, also died in captivity.\n\nHe compiled the final recension of the Sikh scripture and, before his passing at Nanded in 1708 from wounds inflicted by an assassin, he ended the line of human Gurus by conferring eternal Guruship upon the Guru Granth Sahib. He also commissioned Banda Singh Bahadur to carry the Khalsa's struggle into Panjab.",
-   "related_events": [
-    "guru-gobind-singh-birth-1666",
-    "martyrdom-guru-tegh-bahadur-1675",
-    "khalsa-created-1699",
-    "chamkaur-elder-sahibzade-1704",
-    "sirhind-younger-sahibzade-1704",
-    "guru-granth-sahib-eternal-guru-1708",
-    "banda-singh-commissioned-1708",
-    "kapur-singh-homeland-1947"
-   ],
-   "gallery": [
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Portrait_of_Guru_Gobind_Singh_seated_on_a_square_armless_chair%2C_leaning_against_a_red_bolster.jpg/1024px-Portrait_of_Guru_Gobind_Singh_seated_on_a_square_armless_chair%2C_leaning_against_a_red_bolster.jpg",
-     "caption": "Portrait of Guru Gobind Singh seated on a square armless chair, leaning against a red bolster",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Portrait_of_Guru_Gobind_Singh_seated_on_a_square_armless_chair%2C_leaning_against_a_red_bolster.jpg/480px-Portrait_of_Guru_Gobind_Singh_seated_on_a_square_armless_chair%2C_leaning_against_a_red_bolster.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_Guru_Gobind_Singh_seated_on_a_square_armless_chair%2C_leaning_against_a_red_bolster.jpg?width=1024"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/%27Guru_Gobind_Singh_on_Horseback%27%2C_artist_of_Guler-Kangra_schools%2C_early_nineteenth_century.jpg/1024px-%27Guru_Gobind_Singh_on_Horseback%27%2C_artist_of_Guler-Kangra_schools%2C_early_nineteenth_century.jpg",
-     "caption": "'Guru Gobind Singh on Horseback', artist of the Guler-Kangra schools, early 19th century",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/%27Guru_Gobind_Singh_on_Horseback%27%2C_artist_of_Guler-Kangra_schools%2C_early_nineteenth_century.jpg/480px-%27Guru_Gobind_Singh_on_Horseback%27%2C_artist_of_Guler-Kangra_schools%2C_early_nineteenth_century.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/%27Guru_Gobind_Singh_on_Horseback%27%2C_artist_of_Guler-Kangra_schools%2C_early_nineteenth_century.jpg?width=1024"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/An_Equestrian_Portrait_of_Guru_Gobind_Singh.jpg/1024px-An_Equestrian_Portrait_of_Guru_Gobind_Singh.jpg",
-     "caption": "An Equestrian Portrait of Guru Gobind Singh",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/An_Equestrian_Portrait_of_Guru_Gobind_Singh.jpg/480px-An_Equestrian_Portrait_of_Guru_Gobind_Singh.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/An_Equestrian_Portrait_of_Guru_Gobind_Singh.jpg?width=1024"
-    }
-   ],
-   "category": "gurus"
+   "category": "contemporary"
   },
   {
    "name": "Banda Singh Bahadur",
@@ -9385,6 +9137,26 @@
     }
    ],
    "category": "panth"
+  },
+  {
+   "name": "Beant Singh",
+   "years": "1922 – 1995",
+   "profession": "Chief Minister of Panjab",
+   "bio": "Beant Singh was a Congress politician who became Chief Minister of Panjab after the 1992 state election, held amid a widespread Sikh boycott. His government is held by Sikh rights advocates to have overseen a campaign of extrajudicial killings and enforced disappearances of Sikh youth during the counter-insurgency of the early 1990s, later documented by the human rights defender Jaswant Singh Khalra.\n\nHe was killed on 31 August 1995 in a suicide bombing at the Panjab civil secretariat in Chandigarh, carried out by Dilawar Singh, with Balwant Singh Rajoana convicted as a conspirator. Sikh accounts frame the killing as retribution sought for the bloodshed of the counter-insurgency years.",
+   "related_events": [
+    "punjab-counterinsurgency-1992",
+    "beant-singh-assassination-1995"
+   ],
+   "gallery": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Beant_Singh_2013_stamp_of_India.jpg/1024px-Beant_Singh_2013_stamp_of_India.jpg",
+     "caption": "2013 Indian commemorative postage stamp bearing the likeness of Beant Singh, Chief Minister of Punjab (1992–1995) — a stamp portrait, not a photograph",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Beant_Singh_2013_stamp_of_India.jpg/480px-Beant_Singh_2013_stamp_of_India.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Beant_Singh_2013_stamp_of_India.jpg?width=1024"
+    }
+   ],
+   "category": "opponents"
   },
   {
    "name": "Bhai Maharaj Singh",
@@ -9492,6 +9264,67 @@
    "category": "panth"
   },
   {
+   "name": "Deep Sidhu",
+   "years": "1984 – 2022",
+   "profession": "Actor and Activist, Founder of Waris Punjab De",
+   "bio": "Deep Sidhu was a Panjabi actor who became a prominent activist voice during the 2020-2021 Farmers' Protest. He was among those accused in connection with the January 2021 Republic Day incident at the Red Fort in Delhi, where a Nishan Sahib was raised, an episode that drew intense controversy.\n\nHe founded the organization Waris Punjab De to champion Panjab's rights and identity. On 15 February 2022 he died in a car crash on a highway near Delhi, a death many Sikhs regarded as suspicious. His funeral drew a large gathering with prominent displays of support for Khalistan, and leadership of his organization later passed to Amritpal Singh.",
+   "related_events": [
+    "republic-day-tractor-rally-2021",
+    "deep-sidhu-death-2022",
+    "amritpal-singh-wpd-head-2022"
+   ],
+   "gallery": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/en/thumb/1/14/Photograph_of_Deep_Sidhu_%28born_Sandeep_Singh_Sidhu%29%2C_late_actor_and_founder_of_Waris_Panjab_De.jpg/1024px-Photograph_of_Deep_Sidhu_%28born_Sandeep_Singh_Sidhu%29%2C_late_actor_and_founder_of_Waris_Panjab_De.jpg",
+     "caption": "Photograph of Deep Sidhu (born Sandeep Singh Sidhu), actor and founder of Waris Punjab De.",
+     "credit": "Non-free fair-use image, English Wikipedia",
+     "thumb": "https://upload.wikimedia.org/wikipedia/en/thumb/1/14/Photograph_of_Deep_Sidhu_%28born_Sandeep_Singh_Sidhu%29%2C_late_actor_and_founder_of_Waris_Panjab_De.jpg/480px-Photograph_of_Deep_Sidhu_%28born_Sandeep_Singh_Sidhu%29%2C_late_actor_and_founder_of_Waris_Panjab_De.jpg",
+     "fallback": "https://en.wikipedia.org/wiki/Special:FilePath/Photograph_of_Deep_Sidhu_%28born_Sandeep_Singh_Sidhu%29%2C_late_actor_and_founder_of_Waris_Panjab_De.jpg?width=1024"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Red_Fort_aka_Lal_Qila%2C_New_Delhi.JPG/1024px-Red_Fort_aka_Lal_Qila%2C_New_Delhi.JPG",
+     "caption": "The Red Fort (Lal Qila), Delhi — site of the 26 January 2021 Republic Day tractor rally incident in which Deep Sidhu was implicated; a representative location image, not a photograph of Sidhu himself",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Red_Fort_aka_Lal_Qila%2C_New_Delhi.JPG/480px-Red_Fort_aka_Lal_Qila%2C_New_Delhi.JPG",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Red_Fort_aka_Lal_Qila%2C_New_Delhi.JPG?width=1024"
+    }
+   ],
+   "category": "contemporary"
+  },
+  {
+   "name": "General Reginald Dyer",
+   "years": "1864 – 1927",
+   "profession": "British Army Officer",
+   "bio": "Colonel (acting Brigadier-General) Reginald Dyer was the British Indian Army officer who ordered troops under his command to open fire on an unarmed crowd gathered at Jallianwala Bagh in Amritsar on 13 April 1919, during Vaisakhi. The firing continued until ammunition was nearly exhausted, killing hundreds and wounding many more in an enclosed space with few exits.\n\nThe massacre became one of the defining atrocities of British colonial rule. Dyer was censured by the Hunter Commission and removed from command, though he was lauded by sections of the British public. He died in 1927.",
+   "related_events": [
+    "jallianwala-bagh-1919"
+   ],
+   "gallery": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/G%C3%A9n%C3%A9ral_Dyer%2C_C.N._Londres_%28clich%C3%A9_Central_News%29_-_btv1b530372528.jpg/1024px-G%C3%A9n%C3%A9ral_Dyer%2C_C.N._Londres_%28clich%C3%A9_Central_News%29_-_btv1b530372528.jpg",
+     "caption": "Press photograph of General Reginald Dyer, distributed by the Central News agency, London, 1919",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/G%C3%A9n%C3%A9ral_Dyer%2C_C.N._Londres_%28clich%C3%A9_Central_News%29_-_btv1b530372528.jpg/480px-G%C3%A9n%C3%A9ral_Dyer%2C_C.N._Londres_%28clich%C3%A9_Central_News%29_-_btv1b530372528.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/G%C3%A9n%C3%A9ral_Dyer%2C_C.N._Londres_%28clich%C3%A9_Central_News%29_-_btv1b530372528.jpg?width=1024"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/The_Jallianwala_Bagh_memorial_in_Amrithsar_.jpg/1024px-The_Jallianwala_Bagh_memorial_in_Amrithsar_.jpg",
+     "caption": "The Jallianwala Bagh memorial in Amritsar, built to commemorate the victims of the 1919 massacre Dyer ordered — a representative image of the site, not a photograph of Dyer himself",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/The_Jallianwala_Bagh_memorial_in_Amrithsar_.jpg/480px-The_Jallianwala_Bagh_memorial_in_Amrithsar_.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Jallianwala_Bagh_memorial_in_Amrithsar_.jpg?width=1024"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Quote_from_General_Dyer_Who_Ordered_1919_Amritsar_Massacre_-_Jallianwala_Bagh_-_Amritsar_-_Punjab_-_India_%2812675265305%29.jpg/1024px-Quote_from_General_Dyer_Who_Ordered_1919_Amritsar_Massacre_-_Jallianwala_Bagh_-_Amritsar_-_Punjab_-_India_%2812675265305%29.jpg",
+     "caption": "Inscribed quote from General Dyer at the Jallianwala Bagh site, Amritsar — a documentary/memorial photograph, not a portrait of Dyer",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Quote_from_General_Dyer_Who_Ordered_1919_Amritsar_Massacre_-_Jallianwala_Bagh_-_Amritsar_-_Punjab_-_India_%2812675265305%29.jpg/480px-Quote_from_General_Dyer_Who_Ordered_1919_Amritsar_Massacre_-_Jallianwala_Bagh_-_Amritsar_-_Punjab_-_India_%2812675265305%29.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Quote_from_General_Dyer_Who_Ordered_1919_Amritsar_Massacre_-_Jallianwala_Bagh_-_Amritsar_-_Punjab_-_India_%2812675265305%29.jpg?width=1024"
+    }
+   ],
+   "category": "opponents"
+  },
+  {
    "name": "Gurdip Singh Chaggar",
    "years": "1957 – 1976",
    "profession": "Victim of Racist Violence",
@@ -9517,6 +9350,395 @@
     }
    ],
    "category": "panth"
+  },
+  {
+   "name": "Gurpatwant Singh Pannun",
+   "years": "b. 1967",
+   "profession": "Attorney and Founder of Sikhs for Justice",
+   "bio": "Gurpatwant Singh Pannun is a Sikh American (and Canadian) attorney and the general counsel and co-founder of Sikhs for Justice (SFJ), the group that organizes the non-binding Khalistan Referendum votes held across the diaspora from 2022. A vocal advocate for an independent Khalistan, he has been designated a terrorist by India, a designation his supporters characterize as an attack on peaceful advocacy.\n\nIn 2023 US federal prosecutors alleged that an Indian government employee had directed a foiled plot to assassinate him on US soil, detailed in the indictment of Nikhil Gupta. The case became a landmark in international scrutiny of alleged Indian transnational repression.",
+   "related_events": [
+    "khalistan-referendum-begins-2022",
+    "nikhil-gupta-arrest-2023",
+    "us-doj-pannun-indictment-2023"
+   ],
+   "gallery": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Khalistan_map_proposal_by_the_Sikhs_for_Justice.png/1024px-Khalistan_map_proposal_by_the_Sikhs_for_Justice.png",
+     "caption": "Map of the proposed state of 'Khalistan' as circulated by Sikhs for Justice, the organization founded and led by Gurpatwant Singh Pannun — a representative document, not a photograph of Pannun himself (no free-licensed photograph of him could be confirmed on Wikimedia Commons)",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Khalistan_map_proposal_by_the_Sikhs_for_Justice.png/480px-Khalistan_map_proposal_by_the_Sikhs_for_Justice.png",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Khalistan_map_proposal_by_the_Sikhs_for_Justice.png?width=1024"
+    }
+   ],
+   "category": "contemporary"
+  },
+  {
+   "name": "Guru Amar Das Sahib",
+   "years": "1479 – 1574",
+   "profession": "Third Guru of Sikhi",
+   "bio": "Guru Amar Das Sahib assumed the Guruship in 1552 at an advanced age and led the community for more than two decades. He is remembered for deepening the institutional and social reforms of the early Panth, most famously by insisting that all visitors, including the Mughal Emperor Akbar, first sit and eat together in the langar before meeting him, using the community kitchen as a levelling instrument against caste distinctions.\n\nHe established his seat at Goindwal, where he had a baoli (stepwell) constructed as a place of pilgrimage, and organized the growing community into administrative districts known as manjis. He spoke against the practices of sati and purdah, advocated the remarriage of widows, and composed the Anand Sahib. He appointed his son-in-law Ram Das as his successor.",
+   "related_events": [
+    "guru-amar-das-1552"
+   ],
+   "gallery": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/18th_century_painting_of_Guru_Amar_Das.jpg/1024px-18th_century_painting_of_Guru_Amar_Das.jpg",
+     "caption": "18th century painting of Guru Amar Das",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/18th_century_painting_of_Guru_Amar_Das.jpg/480px-18th_century_painting_of_Guru_Amar_Das.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/18th_century_painting_of_Guru_Amar_Das.jpg?width=1024"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Depiction_of_Guru_Amar_Das_from_a_Guru_Granth_Sahib_manuscript_on_Kashmiri_paper%2C_Patiala.jpg/1024px-Depiction_of_Guru_Amar_Das_from_a_Guru_Granth_Sahib_manuscript_on_Kashmiri_paper%2C_Patiala.jpg",
+     "caption": "Depiction of Guru Amar Das from a Guru Granth Sahib manuscript on Kashmiri paper, Patiala",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Depiction_of_Guru_Amar_Das_from_a_Guru_Granth_Sahib_manuscript_on_Kashmiri_paper%2C_Patiala.jpg/480px-Depiction_of_Guru_Amar_Das_from_a_Guru_Granth_Sahib_manuscript_on_Kashmiri_paper%2C_Patiala.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Depiction_of_Guru_Amar_Das_from_a_Guru_Granth_Sahib_manuscript_on_Kashmiri_paper%2C_Patiala.jpg?width=1024"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Fresco_depicting_Guru_Amar_Das_from_Udasi_Chitta_Akhara_in_Amritsar.jpg/1024px-Fresco_depicting_Guru_Amar_Das_from_Udasi_Chitta_Akhara_in_Amritsar.jpg",
+     "caption": "Fresco depicting Guru Amar Das, from Udasi Chitta Akhara in Amritsar",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Fresco_depicting_Guru_Amar_Das_from_Udasi_Chitta_Akhara_in_Amritsar.jpg/480px-Fresco_depicting_Guru_Amar_Das_from_Udasi_Chitta_Akhara_in_Amritsar.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Fresco_depicting_Guru_Amar_Das_from_Udasi_Chitta_Akhara_in_Amritsar.jpg?width=1024"
+    }
+   ],
+   "category": "gurus"
+  },
+  {
+   "name": "Guru Angad Sahib",
+   "years": "1504 – 1552",
+   "profession": "Second Guru of Sikhi",
+   "bio": "Guru Angad Sahib, born Bhai Lehna in 1504, became the second Sikh Guru in 1539 after Guru Nanak recognized his complete devotion and obedience. He is traditionally credited with popularizing and standardizing the Gurmukhi script, the writing system in which the Sikh scripture is recorded, thereby giving the community a distinct literary identity separate from Sanskrit and Persian learned traditions.\n\nHe collected the compositions of Guru Nanak and continued to develop the institution of langar, emphasizing physical fitness and wrestling among his followers. He established his centre at Khadur Sahib. Before his passing in 1552 he conferred the Guruship on the elderly and devoted Amar Das, again setting aside his own sons.",
+   "related_events": [
+    "guru-nanak-kartarpur-angad-1539"
+   ],
+   "gallery": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Depiction_of_Guru_Angad_from_a_Guru_Granth_Sahib_manuscript_on_Kashmiri_paper%2C_Patiala.jpg/1024px-Depiction_of_Guru_Angad_from_a_Guru_Granth_Sahib_manuscript_on_Kashmiri_paper%2C_Patiala.jpg",
+     "caption": "Depiction of Guru Angad from a Guru Granth Sahib manuscript on Kashmiri paper, Patiala",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Depiction_of_Guru_Angad_from_a_Guru_Granth_Sahib_manuscript_on_Kashmiri_paper%2C_Patiala.jpg/480px-Depiction_of_Guru_Angad_from_a_Guru_Granth_Sahib_manuscript_on_Kashmiri_paper%2C_Patiala.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Depiction_of_Guru_Angad_from_a_Guru_Granth_Sahib_manuscript_on_Kashmiri_paper%2C_Patiala.jpg?width=1024"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Bahi_Lehna_%28later_Guru_Angad%29_and_his_companions_visit_Baba_Nanak.jpg/1024px-Bahi_Lehna_%28later_Guru_Angad%29_and_his_companions_visit_Baba_Nanak.jpg",
+     "caption": "Bahi Lehna (later Guru Angad) and his companions visit Baba Nanak",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Bahi_Lehna_%28later_Guru_Angad%29_and_his_companions_visit_Baba_Nanak.jpg/480px-Bahi_Lehna_%28later_Guru_Angad%29_and_his_companions_visit_Baba_Nanak.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Bahi_Lehna_%28later_Guru_Angad%29_and_his_companions_visit_Baba_Nanak.jpg?width=1024"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Fresco_depicting_Guru_Angad_from_Udasi_Chitta_Akhara_in_Amritsar.jpg/1024px-Fresco_depicting_Guru_Angad_from_Udasi_Chitta_Akhara_in_Amritsar.jpg",
+     "caption": "Fresco depicting Guru Angad, from Udasi Chitta Akhara in Amritsar",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Fresco_depicting_Guru_Angad_from_Udasi_Chitta_Akhara_in_Amritsar.jpg/480px-Fresco_depicting_Guru_Angad_from_Udasi_Chitta_Akhara_in_Amritsar.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Fresco_depicting_Guru_Angad_from_Udasi_Chitta_Akhara_in_Amritsar.jpg?width=1024"
+    }
+   ],
+   "category": "gurus"
+  },
+  {
+   "name": "Guru Arjan Sahib",
+   "years": "1563 – 1606",
+   "profession": "Fifth Guru of Sikhi, First Martyr, Compiler of the Adi Granth",
+   "bio": "Guru Arjan Sahib, the fifth Guru from 1581, was one of the most consequential figures of the Guru period. He completed the construction of Harimandar Sahib at Amritsar, designing it with entrances on all four sides to signify openness to all peoples, and in 1604 he compiled the Adi Granth, the first authoritative volume of Sikh scripture, gathering the hymns of the preceding Gurus together with those of Hindu and Muslim Bhagats such as Kabir, Namdev, Ravidas, and Sheikh Farid.\n\nHe organized systems of community contribution, including the daswandh (a tenth of one's earnings), and during the Lahore famine of 1595 established langar and dug wells as acts of unconditional service. Under his leadership the Sikh community grew into a large and self-conscious body.\n\nIn 1606, on the orders of the Mughal Emperor Jahangir, Guru Arjan was tortured and martyred at Lahore, becoming the first of the Sikh Gurus to be martyred. His death is regarded as a turning point that set the community on the path toward taking up arms in defence of conscience.",
+   "related_events": [
+    "guru-arjan-becomes-guru-1581",
+    "harimandar-sahib-foundation-1589",
+    "guru-arjan-langar-lahore-famine-1595",
+    "adi-granth-compiled-1604",
+    "martyrdom-guru-arjan-1606"
+   ],
+   "gallery": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Depiction_of_Guru_Arjan_from_a_Guru_Granth_Sahib_manuscript_on_Kashmiri_paper%2C_Patiala.jpg/1024px-Depiction_of_Guru_Arjan_from_a_Guru_Granth_Sahib_manuscript_on_Kashmiri_paper%2C_Patiala.jpg",
+     "caption": "Depiction of Guru Arjan from a Guru Granth Sahib manuscript on Kashmiri paper, Patiala",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Depiction_of_Guru_Arjan_from_a_Guru_Granth_Sahib_manuscript_on_Kashmiri_paper%2C_Patiala.jpg/480px-Depiction_of_Guru_Arjan_from_a_Guru_Granth_Sahib_manuscript_on_Kashmiri_paper%2C_Patiala.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Depiction_of_Guru_Arjan_from_a_Guru_Granth_Sahib_manuscript_on_Kashmiri_paper%2C_Patiala.jpg?width=1024"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/A_Sikh_Guru_%28Perhaps_Guru_Arjan_Dev%29_Seated_in_the_Golden_Temple_at_Amritsar%2C_Guler%2C_circa_1830.jpg/1024px-A_Sikh_Guru_%28Perhaps_Guru_Arjan_Dev%29_Seated_in_the_Golden_Temple_at_Amritsar%2C_Guler%2C_circa_1830.jpg",
+     "caption": "'A Sikh Guru (Perhaps Guru Arjan Dev) Seated in the Golden Temple at Amritsar', Guler school painting, circa 1830 (traditionally identified as Guru Arjan, though attribution uncertain)",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/A_Sikh_Guru_%28Perhaps_Guru_Arjan_Dev%29_Seated_in_the_Golden_Temple_at_Amritsar%2C_Guler%2C_circa_1830.jpg/480px-A_Sikh_Guru_%28Perhaps_Guru_Arjan_Dev%29_Seated_in_the_Golden_Temple_at_Amritsar%2C_Guler%2C_circa_1830.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/A_Sikh_Guru_%28Perhaps_Guru_Arjan_Dev%29_Seated_in_the_Golden_Temple_at_Amritsar%2C_Guler%2C_circa_1830.jpg?width=1024"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Contributors_of_the_Guru_Granth_Sahib_depicted_with_Guru_Arjan_while_Bhai_Gurdas_scribes_the_Granth_Sahib.jpg/1024px-Contributors_of_the_Guru_Granth_Sahib_depicted_with_Guru_Arjan_while_Bhai_Gurdas_scribes_the_Granth_Sahib.jpg",
+     "caption": "Contributors of the Guru Granth Sahib depicted with Guru Arjan while Bhai Gurdas scribes the Granth Sahib",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Contributors_of_the_Guru_Granth_Sahib_depicted_with_Guru_Arjan_while_Bhai_Gurdas_scribes_the_Granth_Sahib.jpg/480px-Contributors_of_the_Guru_Granth_Sahib_depicted_with_Guru_Arjan_while_Bhai_Gurdas_scribes_the_Granth_Sahib.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Contributors_of_the_Guru_Granth_Sahib_depicted_with_Guru_Arjan_while_Bhai_Gurdas_scribes_the_Granth_Sahib.jpg?width=1024"
+    }
+   ],
+   "category": "gurus"
+  },
+  {
+   "name": "Guru Gobind Singh Sahib",
+   "years": "1666 – 1708",
+   "profession": "Tenth Guru of Sikhi, Creator of the Khalsa",
+   "bio": "Guru Gobind Singh Sahib, born at Patna in 1666, became the tenth and final human Guru in 1675 after the martyrdom of his father, Guru Tegh Bahadur. In 1699, at Anandpur Sahib on Vaisakhi, he created the Khalsa, initiating the first Panj Piare (Five Beloved) through the Khande di Pahul ceremony and giving initiated Sikhs the shared names Singh and Kaur along with the discipline of the Five Ks.\n\nA poet, scholar, and warrior, he fought numerous battles against Mughal and hill-state forces. In the campaigns of 1704 he lost all four of his sons: the two elder Sahibzade, Ajit Singh and Jujhar Singh, fell at Chamkaur, while the two younger, Zorawar Singh and Fateh Singh, were bricked alive at Sirhind. His mother, Mata Gujri, also died in captivity.\n\nHe compiled the final recension of the Sikh scripture and, before his passing at Nanded in 1708 from wounds inflicted by an assassin, he ended the line of human Gurus by conferring eternal Guruship upon the Guru Granth Sahib. He also commissioned Banda Singh Bahadur to carry the Khalsa's struggle into Panjab.",
+   "related_events": [
+    "guru-gobind-singh-birth-1666",
+    "martyrdom-guru-tegh-bahadur-1675",
+    "khalsa-created-1699",
+    "chamkaur-elder-sahibzade-1704",
+    "sirhind-younger-sahibzade-1704",
+    "guru-granth-sahib-eternal-guru-1708",
+    "banda-singh-commissioned-1708",
+    "kapur-singh-homeland-1947"
+   ],
+   "gallery": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Portrait_of_Guru_Gobind_Singh_seated_on_a_square_armless_chair%2C_leaning_against_a_red_bolster.jpg/1024px-Portrait_of_Guru_Gobind_Singh_seated_on_a_square_armless_chair%2C_leaning_against_a_red_bolster.jpg",
+     "caption": "Portrait of Guru Gobind Singh seated on a square armless chair, leaning against a red bolster",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Portrait_of_Guru_Gobind_Singh_seated_on_a_square_armless_chair%2C_leaning_against_a_red_bolster.jpg/480px-Portrait_of_Guru_Gobind_Singh_seated_on_a_square_armless_chair%2C_leaning_against_a_red_bolster.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_Guru_Gobind_Singh_seated_on_a_square_armless_chair%2C_leaning_against_a_red_bolster.jpg?width=1024"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/%27Guru_Gobind_Singh_on_Horseback%27%2C_artist_of_Guler-Kangra_schools%2C_early_nineteenth_century.jpg/1024px-%27Guru_Gobind_Singh_on_Horseback%27%2C_artist_of_Guler-Kangra_schools%2C_early_nineteenth_century.jpg",
+     "caption": "'Guru Gobind Singh on Horseback', artist of the Guler-Kangra schools, early 19th century",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/%27Guru_Gobind_Singh_on_Horseback%27%2C_artist_of_Guler-Kangra_schools%2C_early_nineteenth_century.jpg/480px-%27Guru_Gobind_Singh_on_Horseback%27%2C_artist_of_Guler-Kangra_schools%2C_early_nineteenth_century.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/%27Guru_Gobind_Singh_on_Horseback%27%2C_artist_of_Guler-Kangra_schools%2C_early_nineteenth_century.jpg?width=1024"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/An_Equestrian_Portrait_of_Guru_Gobind_Singh.jpg/1024px-An_Equestrian_Portrait_of_Guru_Gobind_Singh.jpg",
+     "caption": "An Equestrian Portrait of Guru Gobind Singh",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/An_Equestrian_Portrait_of_Guru_Gobind_Singh.jpg/480px-An_Equestrian_Portrait_of_Guru_Gobind_Singh.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/An_Equestrian_Portrait_of_Guru_Gobind_Singh.jpg?width=1024"
+    }
+   ],
+   "category": "gurus"
+  },
+  {
+   "name": "Guru Har Rai Sahib",
+   "years": "1630 – 1661",
+   "profession": "Seventh Guru of Sikhi",
+   "bio": "Guru Har Rai Sahib, a grandson of Guru Hargobind, became the seventh Guru in 1644. He is remembered for his gentleness and compassion, maintaining a large cavalry force as a deterrent while avoiding direct conflict, and for his interest in medicine and healing, establishing gardens and a dispensary.\n\nHe navigated the tense politics of the Mughal succession struggle between Aurangzeb and Dara Shikoh with caution. When his elder son Ram Rai altered a line of scripture to appease the Mughal court, the Guru disowned him and instead named his younger son, Harikrishan, as his successor.",
+   "related_events": [
+    "guru-har-rai-1644"
+   ],
+   "gallery": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Guru_Har_Rai_%28the_seventh_Sikh_Guru%29%2C_from_a_series_of_painting_of_the_first_nine_Sikh_gurus%2C_circa_1800%E2%80%931840.jpg/1024px-Guru_Har_Rai_%28the_seventh_Sikh_Guru%29%2C_from_a_series_of_painting_of_the_first_nine_Sikh_gurus%2C_circa_1800%E2%80%931840.jpg",
+     "caption": "Guru Har Rai (the seventh Sikh Guru), from a series of paintings of the first nine Sikh gurus, circa 1800–1840",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Guru_Har_Rai_%28the_seventh_Sikh_Guru%29%2C_from_a_series_of_painting_of_the_first_nine_Sikh_gurus%2C_circa_1800%E2%80%931840.jpg/480px-Guru_Har_Rai_%28the_seventh_Sikh_Guru%29%2C_from_a_series_of_painting_of_the_first_nine_Sikh_gurus%2C_circa_1800%E2%80%931840.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Guru_Har_Rai_%28the_seventh_Sikh_Guru%29%2C_from_a_series_of_painting_of_the_first_nine_Sikh_gurus%2C_circa_1800%E2%80%931840.jpg?width=1024"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Court_of_Guru_Har_Rai.webp/1024px-Court_of_Guru_Har_Rai.webp",
+     "caption": "Court of Guru Har Rai",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Court_of_Guru_Har_Rai.webp/480px-Court_of_Guru_Har_Rai.webp",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Court_of_Guru_Har_Rai.webp?width=1024"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Equestrian_painting_of_Guru_Har_Rai_with_two_angelic_figures_above%2C_Pahari_style%2C_artwork_preserved_by_the_family_of_Bidhi_Chand_Chhina.jpg/1024px-Equestrian_painting_of_Guru_Har_Rai_with_two_angelic_figures_above%2C_Pahari_style%2C_artwork_preserved_by_the_family_of_Bidhi_Chand_Chhina.jpg",
+     "caption": "Equestrian painting of Guru Har Rai with two angelic figures above, Pahari style",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Equestrian_painting_of_Guru_Har_Rai_with_two_angelic_figures_above%2C_Pahari_style%2C_artwork_preserved_by_the_family_of_Bidhi_Chand_Chhina.jpg/480px-Equestrian_painting_of_Guru_Har_Rai_with_two_angelic_figures_above%2C_Pahari_style%2C_artwork_preserved_by_the_family_of_Bidhi_Chand_Chhina.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Equestrian_painting_of_Guru_Har_Rai_with_two_angelic_figures_above%2C_Pahari_style%2C_artwork_preserved_by_the_family_of_Bidhi_Chand_Chhina.jpg?width=1024"
+    }
+   ],
+   "category": "gurus"
+  },
+  {
+   "name": "Guru Hargobind Sahib",
+   "years": "1595 – 1644",
+   "profession": "Sixth Guru of Sikhi, Architect of Miri-Piri",
+   "bio": "Guru Hargobind Sahib became the sixth Guru in 1606 following the martyrdom of his father, Guru Arjan. In response, he formally combined spiritual and temporal authority by donning two swords representing Miri (temporal power) and Piri (spiritual authority), and by establishing the Akal Takht Sahib, the Timeless Throne, facing the Harimandar Sahib at Amritsar as a seat of Sikh sovereignty.\n\nHe raised a standing armed force, the Akal Sena, and fought several defensive battles against Mughal forces. Imprisoned for a time in the fort at Gwalior, he is remembered in tradition for securing the release of fellow princely captives, an event commemorated as Bandi Chhor Divas. His transformation of the community into one prepared to defend itself with arms laid the groundwork for the militant Khalsa that followed.",
+   "related_events": [
+    "akal-takht-hargobind-1606"
+   ],
+   "gallery": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Contemporary_or_near-contemporary_portrait_of_Guru_Hargobind_on_horseback.jpg/1024px-Contemporary_or_near-contemporary_portrait_of_Guru_Hargobind_on_horseback.jpg",
+     "caption": "Contemporary or near-contemporary portrait of Guru Hargobind on horseback",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Contemporary_or_near-contemporary_portrait_of_Guru_Hargobind_on_horseback.jpg/480px-Contemporary_or_near-contemporary_portrait_of_Guru_Hargobind_on_horseback.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Contemporary_or_near-contemporary_portrait_of_Guru_Hargobind_on_horseback.jpg?width=1024"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/A_miniature_painting_of_Guru_Hargobind.jpg/1024px-A_miniature_painting_of_Guru_Hargobind.jpg",
+     "caption": "A miniature painting of Guru Hargobind",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/A_miniature_painting_of_Guru_Hargobind.jpg/480px-A_miniature_painting_of_Guru_Hargobind.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/A_miniature_painting_of_Guru_Hargobind.jpg?width=1024"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Contemporary_equestrian_painting_of_Guru_Hargobind_with_an_orange-coloured_backdrop%2C_held_in_the_collection_of_the_Sodhi_family_of_Kartarpur%2C_circa_mid-17th_century.jpg/1024px-Contemporary_equestrian_painting_of_Guru_Hargobind_with_an_orange-coloured_backdrop%2C_held_in_the_collection_of_the_Sodhi_family_of_Kartarpur%2C_circa_mid-17th_century.jpg",
+     "caption": "Contemporary equestrian painting of Guru Hargobind, held in the collection of the Sodhi family of Kartarpur, circa mid-17th century",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Contemporary_equestrian_painting_of_Guru_Hargobind_with_an_orange-coloured_backdrop%2C_held_in_the_collection_of_the_Sodhi_family_of_Kartarpur%2C_circa_mid-17th_century.jpg/480px-Contemporary_equestrian_painting_of_Guru_Hargobind_with_an_orange-coloured_backdrop%2C_held_in_the_collection_of_the_Sodhi_family_of_Kartarpur%2C_circa_mid-17th_century.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Contemporary_equestrian_painting_of_Guru_Hargobind_with_an_orange-coloured_backdrop%2C_held_in_the_collection_of_the_Sodhi_family_of_Kartarpur%2C_circa_mid-17th_century.jpg?width=1024"
+    }
+   ],
+   "category": "gurus"
+  },
+  {
+   "name": "Guru Harikrishan Sahib",
+   "years": "1656 – 1664",
+   "profession": "Eighth Guru of Sikhi",
+   "bio": "Guru Harikrishan Sahib became the eighth Guru in 1661 at the age of five, the youngest to hold the office. Despite his youth he faced opposition from his elder brother Ram Rai and the pressures of the court of Emperor Aurangzeb, who summoned him to Delhi.\n\nWhile in Delhi he is revered for tending to victims of a smallpox and cholera epidemic, ultimately contracting the disease himself and passing away in 1664 at the age of eight. The Gurdwara Bangla Sahib in Delhi marks the site associated with his service. Before his death he indicated his successor with the words 'Baba Bakala,' pointing to Guru Tegh Bahadur.",
+   "related_events": [
+    "guru-harikrishan-1661"
+   ],
+   "gallery": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Guru_Har_Krishan_%28the_eighth_Sikh_Guru%29%2C_from_a_series_of_painting_of_the_first_nine_Sikh_gurus%2C_circa_1800%E2%80%931840.jpg/1024px-Guru_Har_Krishan_%28the_eighth_Sikh_Guru%29%2C_from_a_series_of_painting_of_the_first_nine_Sikh_gurus%2C_circa_1800%E2%80%931840.jpg",
+     "caption": "Guru Har Krishan (the eighth Sikh Guru), from a series of paintings of the first nine Sikh gurus, circa 1800–1840",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Guru_Har_Krishan_%28the_eighth_Sikh_Guru%29%2C_from_a_series_of_painting_of_the_first_nine_Sikh_gurus%2C_circa_1800%E2%80%931840.jpg/480px-Guru_Har_Krishan_%28the_eighth_Sikh_Guru%29%2C_from_a_series_of_painting_of_the_first_nine_Sikh_gurus%2C_circa_1800%E2%80%931840.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Guru_Har_Krishan_%28the_eighth_Sikh_Guru%29%2C_from_a_series_of_painting_of_the_first_nine_Sikh_gurus%2C_circa_1800%E2%80%931840.jpg?width=1024"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Detail_of_Guru_Har_Krishan_from_a_miniature_painting_depicting_him_conversing_with_a_Hill_Raja%2C_with_attendants_standing_by%2C_circa_early_19th_century.jpg/1024px-Detail_of_Guru_Har_Krishan_from_a_miniature_painting_depicting_him_conversing_with_a_Hill_Raja%2C_with_attendants_standing_by%2C_circa_early_19th_century.jpg",
+     "caption": "Detail of Guru Har Krishan from a miniature painting depicting him conversing with a Hill Raja, circa early 19th century",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Detail_of_Guru_Har_Krishan_from_a_miniature_painting_depicting_him_conversing_with_a_Hill_Raja%2C_with_attendants_standing_by%2C_circa_early_19th_century.jpg/480px-Detail_of_Guru_Har_Krishan_from_a_miniature_painting_depicting_him_conversing_with_a_Hill_Raja%2C_with_attendants_standing_by%2C_circa_early_19th_century.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Detail_of_Guru_Har_Krishan_from_a_miniature_painting_depicting_him_conversing_with_a_Hill_Raja%2C_with_attendants_standing_by%2C_circa_early_19th_century.jpg?width=1024"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Guru_Har_Krishan_being_worshipped_by_his_followers.jpg/1024px-Guru_Har_Krishan_being_worshipped_by_his_followers.jpg",
+     "caption": "Guru Har Krishan being worshipped by his followers",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Guru_Har_Krishan_being_worshipped_by_his_followers.jpg/480px-Guru_Har_Krishan_being_worshipped_by_his_followers.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Guru_Har_Krishan_being_worshipped_by_his_followers.jpg?width=1024"
+    }
+   ],
+   "category": "gurus"
+  },
+  {
+   "name": "Guru Nanak Sahib",
+   "years": "1469 – 1539",
+   "profession": "First Guru of Sikhi, Founder of the Faith",
+   "bio": "Guru Nanak Sahib was born in 1469 at Talwandi, now Nankana Sahib in present-day Pakistan, and is revered as the founder of Sikhi and the first of the Ten Gurus. Rejecting the ritualism and social hierarchies of the surrounding traditions, he taught the oneness of the Creator (Ik Onkar) and the fundamental equality of all people regardless of caste, creed, or gender. His hymns form the opening of the Sikh scripture, beginning with the Mul Mantar and the Japji Sahib.\n\nHe undertook long journeys, the Udasis, travelling across South Asia and reportedly as far as Mecca and Baghdad, accompanied by his companion the Muslim musician Bhai Mardana. In his final years he settled at Kartarpur on the banks of the Ravi, where he established a working community organized around three principles: Nam Japna (remembrance of the divine), Kirat Karni (honest labour), and Vand Chhakna (sharing with others), and instituted the practice of langar, the communal free kitchen.\n\nBefore his passing in 1539 he chose his devoted disciple Bhai Lehna over his own sons to succeed him, renaming him Guru Angad and establishing the principle that Guruship passed to the most worthy rather than by heredity. His birth anniversary, Gurpurab, is the most widely celebrated date in the Sikh calendar.",
+   "related_events": [
+    "guru-nanak-birth-1469",
+    "guru-nanak-kartarpur-angad-1539",
+    "nanak-550-2019",
+    "kartarpur-corridor-2019",
+    "saka-nankana-sahib-1921"
+   ],
+   "gallery": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Portrait_of_Guru_Nanak_in_an_oval_frame.jpg/1024px-Portrait_of_Guru_Nanak_in_an_oval_frame.jpg",
+     "caption": "Portrait of Guru Nanak in an oval frame",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Portrait_of_Guru_Nanak_in_an_oval_frame.jpg/480px-Portrait_of_Guru_Nanak_in_an_oval_frame.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_Guru_Nanak_in_an_oval_frame.jpg?width=1024"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/%27Bhai_Mardana%2C_Guru_Nanak%2C_Sri_Chand%2C_Bhai_Bala_and_Lakmi_Chand%27%2C_a_Janamsakhi_painting_from_a_Kashmiri_Manuscript%2C_early_nineteenth_century.jpg/1024px-%27Bhai_Mardana%2C_Guru_Nanak%2C_Sri_Chand%2C_Bhai_Bala_and_Lakmi_Chand%27%2C_a_Janamsakhi_painting_from_a_Kashmiri_Manuscript%2C_early_nineteenth_century.jpg",
+     "caption": "'Bhai Mardana, Guru Nanak, Sri Chand, Bhai Bala and Lakmi Chand', a Janamsakhi painting from a Kashmiri manuscript, early 19th century",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/%27Bhai_Mardana%2C_Guru_Nanak%2C_Sri_Chand%2C_Bhai_Bala_and_Lakmi_Chand%27%2C_a_Janamsakhi_painting_from_a_Kashmiri_Manuscript%2C_early_nineteenth_century.jpg/480px-%27Bhai_Mardana%2C_Guru_Nanak%2C_Sri_Chand%2C_Bhai_Bala_and_Lakmi_Chand%27%2C_a_Janamsakhi_painting_from_a_Kashmiri_Manuscript%2C_early_nineteenth_century.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/%27Bhai_Mardana%2C_Guru_Nanak%2C_Sri_Chand%2C_Bhai_Bala_and_Lakmi_Chand%27%2C_a_Janamsakhi_painting_from_a_Kashmiri_Manuscript%2C_early_nineteenth_century.jpg?width=1024"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/%27Imaginary_Meeting_of_Guru_Nanak%2C_Mardana_Sahab%2C_and_Other_Sikh_Gurus%27%2C_earliest_known_painting_depicting_all_ten_Sikh_gurus_together_with_golden_nastaliq_identifying_inscriptions%2C_probably_from_Hyderabad%2C_ca.1780.jpg/1024px-%27Imaginary_Meeting_of_Guru_Nanak%2C_Mardana_Sahab%2C_and_Other_Sikh_Gurus%27%2C_earliest_known_painting_depicting_all_ten_Sikh_gurus_together_with_golden_nastaliq_identifying_inscriptions%2C_probably_from_Hyderabad%2C_ca.1780.jpg",
+     "caption": "'Imaginary Meeting of Guru Nanak, Mardana Sahab, and Other Sikh Gurus' — the earliest known painting depicting all ten Sikh gurus together, probably from Hyderabad, ca.1780",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/%27Imaginary_Meeting_of_Guru_Nanak%2C_Mardana_Sahab%2C_and_Other_Sikh_Gurus%27%2C_earliest_known_painting_depicting_all_ten_Sikh_gurus_together_with_golden_nastaliq_identifying_inscriptions%2C_probably_from_Hyderabad%2C_ca.1780.jpg/480px-%27Imaginary_Meeting_of_Guru_Nanak%2C_Mardana_Sahab%2C_and_Other_Sikh_Gurus%27%2C_earliest_known_painting_depicting_all_ten_Sikh_gurus_together_with_golden_nastaliq_identifying_inscriptions%2C_probably_from_Hyderabad%2C_ca.1780.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/%27Imaginary_Meeting_of_Guru_Nanak%2C_Mardana_Sahab%2C_and_Other_Sikh_Gurus%27%2C_earliest_known_painting_depicting_all_ten_Sikh_gurus_together_with_golden_nastaliq_identifying_inscriptions%2C_probably_from_Hyderabad%2C_ca.1780.jpg?width=1024"
+    }
+   ],
+   "category": "gurus"
+  },
+  {
+   "name": "Guru Ram Das Sahib",
+   "years": "1534 – 1581",
+   "profession": "Fourth Guru of Sikhi, Founder of Amritsar",
+   "bio": "Guru Ram Das Sahib became the fourth Guru in 1574. He is credited with founding the city that would become Amritsar, excavating the sacred pool (sarovar) around which the Harimandar Sahib would later be built, giving the Sikh world its central sacred geography.\n\nHe composed the Lavan, the four hymns that constitute the Sikh marriage ceremony (Anand Karaj), still recited at Sikh weddings today. Departing from earlier practice, he named his youngest son Arjan as his successor, beginning a hereditary line that would continue through the remaining Gurus.",
+   "related_events": [
+    "guru-ram-das-1574"
+   ],
+   "gallery": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Equestrian_painting_of_Guru_Ram_Das%2C_accompanied_by_an_attendant_carrying_a_red-flag%2C_Punjab%2C_circa_early-19th_century.jpg/1024px-Equestrian_painting_of_Guru_Ram_Das%2C_accompanied_by_an_attendant_carrying_a_red-flag%2C_Punjab%2C_circa_early-19th_century.jpg",
+     "caption": "Equestrian painting of Guru Ram Das, accompanied by an attendant carrying a red flag, Punjab, circa early 19th century",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Equestrian_painting_of_Guru_Ram_Das%2C_accompanied_by_an_attendant_carrying_a_red-flag%2C_Punjab%2C_circa_early-19th_century.jpg/480px-Equestrian_painting_of_Guru_Ram_Das%2C_accompanied_by_an_attendant_carrying_a_red-flag%2C_Punjab%2C_circa_early-19th_century.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Equestrian_painting_of_Guru_Ram_Das%2C_accompanied_by_an_attendant_carrying_a_red-flag%2C_Punjab%2C_circa_early-19th_century.jpg?width=1024"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Guru_Ram_Das_%28the_fourth_Sikh_Guru%29%2C_from_a_series_of_painting_of_the_first_nine_Sikh_gurus%2C_circa_1800%E2%80%931840.jpg/1024px-Guru_Ram_Das_%28the_fourth_Sikh_Guru%29%2C_from_a_series_of_painting_of_the_first_nine_Sikh_gurus%2C_circa_1800%E2%80%931840.jpg",
+     "caption": "Guru Ram Das (the fourth Sikh Guru), from a series of paintings of the first nine Sikh gurus, circa 1800–1840",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Guru_Ram_Das_%28the_fourth_Sikh_Guru%29%2C_from_a_series_of_painting_of_the_first_nine_Sikh_gurus%2C_circa_1800%E2%80%931840.jpg/480px-Guru_Ram_Das_%28the_fourth_Sikh_Guru%29%2C_from_a_series_of_painting_of_the_first_nine_Sikh_gurus%2C_circa_1800%E2%80%931840.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Guru_Ram_Das_%28the_fourth_Sikh_Guru%29%2C_from_a_series_of_painting_of_the_first_nine_Sikh_gurus%2C_circa_1800%E2%80%931840.jpg?width=1024"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Depiction_of_Guru_Ram_Das_from_a_Guru_Granth_Sahib_manuscript_on_Kashmiri_paper%2C_Patiala.jpg/1024px-Depiction_of_Guru_Ram_Das_from_a_Guru_Granth_Sahib_manuscript_on_Kashmiri_paper%2C_Patiala.jpg",
+     "caption": "Depiction of Guru Ram Das from a Guru Granth Sahib manuscript on Kashmiri paper, Patiala",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Depiction_of_Guru_Ram_Das_from_a_Guru_Granth_Sahib_manuscript_on_Kashmiri_paper%2C_Patiala.jpg/480px-Depiction_of_Guru_Ram_Das_from_a_Guru_Granth_Sahib_manuscript_on_Kashmiri_paper%2C_Patiala.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Depiction_of_Guru_Ram_Das_from_a_Guru_Granth_Sahib_manuscript_on_Kashmiri_paper%2C_Patiala.jpg?width=1024"
+    }
+   ],
+   "category": "gurus"
+  },
+  {
+   "name": "Guru Tegh Bahadur Sahib",
+   "years": "1621 – 1675",
+   "profession": "Ninth Guru of Sikhi, Martyr for Freedom of Conscience",
+   "bio": "Guru Tegh Bahadur Sahib, the youngest son of Guru Hargobind, became the ninth Guru in 1664. He travelled extensively across northern and eastern India spreading Sikh teachings and founded the town of Anandpur Sahib in the Shivalik foothills in 1665. His compositions were later incorporated into the Guru Granth Sahib.\n\nHe is most revered for his martyrdom: when a delegation of Kashmiri Pandits sought his help against forced conversion under Aurangzeb, he took up their cause in defence of the freedom of conscience of a community not his own. He was arrested and beheaded in Delhi in 1675 after refusing to convert to Islam. The Gurdwaras Sis Ganj (Delhi) and Rakab Ganj mark the sites of his execution and cremation. His sacrifice in defence of another faith's right to worship is widely held to be without parallel.",
+   "related_events": [
+    "guru-tegh-bahadur-becomes-guru-1664",
+    "anandpur-founded-1665",
+    "martyrdom-guru-tegh-bahadur-1675"
+   ],
+   "gallery": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Contemporary_painting_of_Guru_Tegh_Bahadur_by_Ahsan%2C_ca.1667%E2%80%9368_%28detail%29.jpg/1024px-Contemporary_painting_of_Guru_Tegh_Bahadur_by_Ahsan%2C_ca.1667%E2%80%9368_%28detail%29.jpg",
+     "caption": "Contemporary painting of Guru Tegh Bahadur by Ahsan, ca.1667–68 (detail)",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Contemporary_painting_of_Guru_Tegh_Bahadur_by_Ahsan%2C_ca.1667%E2%80%9368_%28detail%29.jpg/480px-Contemporary_painting_of_Guru_Tegh_Bahadur_by_Ahsan%2C_ca.1667%E2%80%9368_%28detail%29.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Contemporary_painting_of_Guru_Tegh_Bahadur_by_Ahsan%2C_ca.1667%E2%80%9368_%28detail%29.jpg?width=1024"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/A_19th_century_painting_depicting_Guru_Tegh_Bahadur.jpg/1024px-A_19th_century_painting_depicting_Guru_Tegh_Bahadur.jpg",
+     "caption": "A 19th century painting depicting Guru Tegh Bahadur",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/A_19th_century_painting_depicting_Guru_Tegh_Bahadur.jpg/480px-A_19th_century_painting_depicting_Guru_Tegh_Bahadur.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/A_19th_century_painting_depicting_Guru_Tegh_Bahadur.jpg?width=1024"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Guru_Tegh_Bahadur_%28the_ninth_Sikh_Guru%29%2C_from_a_series_of_painting_of_the_first_nine_Sikh_gurus%2C_circa_1800%E2%80%931840.jpg/1024px-Guru_Tegh_Bahadur_%28the_ninth_Sikh_Guru%29%2C_from_a_series_of_painting_of_the_first_nine_Sikh_gurus%2C_circa_1800%E2%80%931840.jpg",
+     "caption": "Guru Tegh Bahadur (the ninth Sikh Guru), from a series of paintings of the first nine Sikh gurus, circa 1800–1840",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Guru_Tegh_Bahadur_%28the_ninth_Sikh_Guru%29%2C_from_a_series_of_painting_of_the_first_nine_Sikh_gurus%2C_circa_1800%E2%80%931840.jpg/480px-Guru_Tegh_Bahadur_%28the_ninth_Sikh_Guru%29%2C_from_a_series_of_painting_of_the_first_nine_Sikh_gurus%2C_circa_1800%E2%80%931840.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Guru_Tegh_Bahadur_%28the_ninth_Sikh_Guru%29%2C_from_a_series_of_painting_of_the_first_nine_Sikh_gurus%2C_circa_1800%E2%80%931840.jpg?width=1024"
+    }
+   ],
+   "category": "gurus"
+  },
+  {
+   "name": "Hardeep Singh Nijjar",
+   "years": "1977 – 2023",
+   "profession": "Sikh Separatist Leader and Gurdwara President",
+   "bio": "Hardeep Singh Nijjar was a Canadian Sikh community leader, president of the Guru Nanak Sikh Gurdwara in Surrey, British Columbia, and an advocate for the Khalistan movement, including support for the Sikhs for Justice referendum campaign. India had designated him a terrorist, an accusation his supporters rejected as politically motivated.\n\nOn 18 June 2023 he was shot dead in the parking lot of his Surrey gurdwara. A later US indictment described how an Indian government employee coordinated the killing with an intermediary, and in September 2023 Canada's Prime Minister stated that Canadian agencies had credible evidence linking agents of India to the assassination, which India rejected as absurd. His killing became the central case in international scrutiny of alleged Indian transnational repression of Sikhs.",
+   "related_events": [
+    "nijjar-assassination-2023",
+    "trudeau-parliament-nijjar-2023",
+    "us-doj-pannun-indictment-2023"
+   ],
+   "gallery": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Hardeep_Singh_Nijjar_in_2020.png/1024px-Hardeep_Singh_Nijjar_in_2020.png",
+     "caption": "Photograph of Hardeep Singh Nijjar, 2020",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Hardeep_Singh_Nijjar_in_2020.png/480px-Hardeep_Singh_Nijjar_in_2020.png",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Hardeep_Singh_Nijjar_in_2020.png?width=1024"
+    }
+   ],
+   "category": "contemporary"
   },
   {
    "name": "Hari Singh Nalwa",
@@ -9551,6 +9773,68 @@
     }
    ],
    "category": "panth"
+  },
+  {
+   "name": "Indira Gandhi",
+   "years": "1917 – 1984",
+   "profession": "Prime Minister of India",
+   "bio": "Indira Gandhi served as Prime Minister of India for most of the period from 1966 to 1984. In 1975 she imposed a nationwide Internal Emergency, suspending civil liberties and jailing opponents; Sikh organizations mounted one of the most sustained resistance campaigns against it, with large numbers courting arrest.\n\nIn June 1984 she ordered Operation Blue Star, the Indian Army assault on the Harimandar Sahib complex in Amritsar, which killed large numbers of pilgrims and severely damaged Sikhism's holiest site, becoming a central trauma of modern Sikh history. On 31 October 1984 she was assassinated by two of her Sikh bodyguards in apparent retaliation for the assault. Her killing was followed within hours by organized anti-Sikh violence across Delhi and northern India.",
+   "related_events": [
+    "emergency-1975",
+    "operation-blue-star-1984",
+    "indira-gandhi-assassination-1984",
+    "anti-sikh-pogroms-nov-1984"
+   ],
+   "gallery": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Indira_Gandhi_1966_%28cropped%29.jpg/1024px-Indira_Gandhi_1966_%28cropped%29.jpg",
+     "caption": "Indira Gandhi, cropped portrait photograph, 1966.",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Indira_Gandhi_1966_%28cropped%29.jpg/480px-Indira_Gandhi_1966_%28cropped%29.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Indira_Gandhi_1966_%28cropped%29.jpg?width=1024"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Indira_Gandhi_at_banquet_in_Vancouver_during_a_state-visit%2C_The_Province%2C_1949.jpg/1024px-Indira_Gandhi_at_banquet_in_Vancouver_during_a_state-visit%2C_The_Province%2C_1949.jpg",
+     "caption": "Indira Gandhi at a banquet in Vancouver during a state visit, The Province, 1949",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Indira_Gandhi_at_banquet_in_Vancouver_during_a_state-visit%2C_The_Province%2C_1949.jpg/480px-Indira_Gandhi_at_banquet_in_Vancouver_during_a_state-visit%2C_The_Province%2C_1949.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Indira_Gandhi_at_banquet_in_Vancouver_during_a_state-visit%2C_The_Province%2C_1949.jpg?width=1024"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Nehru_with_Indira_Gandhi_at_the_Sikh_temple_in_Vancouver%2C_The_Province%2C_1949.jpg/1024px-Nehru_with_Indira_Gandhi_at_the_Sikh_temple_in_Vancouver%2C_The_Province%2C_1949.jpg",
+     "caption": "Nehru with Indira Gandhi at the Sikh temple in Vancouver, The Province, 1949",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Nehru_with_Indira_Gandhi_at_the_Sikh_temple_in_Vancouver%2C_The_Province%2C_1949.jpg/480px-Nehru_with_Indira_Gandhi_at_the_Sikh_temple_in_Vancouver%2C_The_Province%2C_1949.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Nehru_with_Indira_Gandhi_at_the_Sikh_temple_in_Vancouver%2C_The_Province%2C_1949.jpg?width=1024"
+    }
+   ],
+   "category": "opponents"
+  },
+  {
+   "name": "Jagtar Singh Johal",
+   "years": "b. 1987",
+   "profession": "British Sikh Activist and Detainee",
+   "bio": "Jagtar Singh Johal is a British Sikh citizen from Dumbarton, Scotland, and a blogger and activist who documented Sikh human-rights issues. He was arrested in Panjab in November 2017 while visiting for his wedding and has since been held in prolonged detention in India, facing charges his supporters and human-rights organizations say are unfounded, amid allegations that he was tortured to extract a confession.\n\nBy late 2025 he remained detained years after his arrest, amid allegations that UK intelligence-sharing contributed to his detention. Sikh writers and campaigners describe his unresolved case as an example of Britain failing to protect one of its own citizens abroad, and it has become a prominent cause in UK Sikh advocacy.",
+   "related_events": [
+    "jagtar-singh-johal-case-2025"
+   ],
+   "gallery": [
+    {
+     "url": "assets/img/jagtar-singh-johal.jpg",
+     "caption": "Photograph of Jagtar Singh Johal.",
+     "credit": "Image via Substack",
+     "fallback": "https://substackcdn.com/image/fetch/$s_!tv-g!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3ed1da79-deef-4ff3-b70e-8b4722bd577c_634x356.jpeg",
+     "thumb": "assets/img/jagtar-singh-johal.jpg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Palace_of_Westminster%2C_Houses_of_Parliament%2C_London%2C_UK.jpg/1024px-Palace_of_Westminster%2C_Houses_of_Parliament%2C_London%2C_UK.jpg",
+     "caption": "The Palace of Westminster, London — the UK Parliament has repeatedly debated and raised Jagtar Singh Johal's detention in India; a representative institutional image, not a photograph of Johal himself (no free-licensed photograph of him could be confirmed on Wikimedia Commons)",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Palace_of_Westminster%2C_Houses_of_Parliament%2C_London%2C_UK.jpg/480px-Palace_of_Westminster%2C_Houses_of_Parliament%2C_London%2C_UK.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Palace_of_Westminster%2C_Houses_of_Parliament%2C_London%2C_UK.jpg?width=1024"
+    }
+   ],
+   "category": "contemporary"
   },
   {
    "name": "Jassa Singh Ahluwalia",
@@ -9608,6 +9892,34 @@
    "category": "panth"
   },
   {
+   "name": "Justin Trudeau",
+   "years": "b. 1971",
+   "profession": "Prime Minister of Canada",
+   "bio": "Justin Trudeau served as Prime Minister of Canada from 2015 to 2025. His official visit to India in February 2018 became mired in controversy amid media allegations linking Canadian Sikh politicians to 'separatists,' a narrative Sikh commentators traced through years of skewed coverage of Sikh political activity in Canada.\n\nIn September 2023 he announced to the House of Commons that Canadian agencies were pursuing credible allegations linking agents of the Government of India to the June 2023 assassination of Hardeep Singh Nijjar in British Columbia, triggering a major diplomatic rupture between Ottawa and New Delhi, which rejected the allegations. His government's later actions, including the terrorist designation of the Bishnoi network, further shaped Canada-India relations over transnational repression.",
+   "related_events": [
+    "trudeau-india-tour-2018",
+    "trudeau-parliament-nijjar-2023",
+    "nijjar-assassination-2023"
+   ],
+   "gallery": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Justin_Trudeau_2014-1.jpg/1024px-Justin_Trudeau_2014-1.jpg",
+     "caption": "Photograph of Justin Trudeau, 2014",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Justin_Trudeau_2014-1.jpg/480px-Justin_Trudeau_2014-1.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Justin_Trudeau_2014-1.jpg?width=1024"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Justin_Trudeau_2021_%28cropped%29.jpg/1024px-Justin_Trudeau_2021_%28cropped%29.jpg",
+     "caption": "Photograph of Justin Trudeau, 2021",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Justin_Trudeau_2021_%28cropped%29.jpg/480px-Justin_Trudeau_2021_%28cropped%29.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Justin_Trudeau_2021_%28cropped%29.jpg?width=1024"
+    }
+   ],
+   "category": "contemporary"
+  },
+  {
    "name": "Kartar Singh Sarabha",
    "years": "1896 – 1915",
    "profession": "Ghadar Party Revolutionary and Martyr",
@@ -9633,6 +9945,27 @@
     }
    ],
    "category": "panth"
+  },
+  {
+   "name": "Lawrence Bishnoi",
+   "years": "b. 1993",
+   "profession": "Organized-Crime Network Leader",
+   "bio": "Lawrence Bishnoi is an imprisoned Indian gangster whose organized-crime network has been linked to a wave of violence affecting the Panjabi diaspora. His gang was implicated in the May 2022 killing of the singer Sidhu Moose Wala and, according to Canadian authorities, in a 2025 wave of extortions and shootings in British Columbia.\n\nIn September 2025 the Government of Canada listed the Lawrence Bishnoi gang as a terrorist entity, with the RCMP describing the network as a proxy used by the Government of India to carry out homicides, arsons, and extortion as part of transnational repression against Canadian Sikhs. He has remained in Indian custody throughout, directing operations from prison according to investigators.",
+   "related_events": [
+    "moose-wala-assassination-2022",
+    "bc-extortion-wave-2025",
+    "canada-bishnoi-terror-designation-2025"
+   ],
+   "gallery": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Tihar_Jail%2C_Delhi.jpg/1024px-Tihar_Jail%2C_Delhi.jpg",
+     "caption": "Tihar Jail, Delhi. No free-licensed photograph of Lawrence Bishnoi exists on Wikimedia Commons, so this stands in for the mechanism rather than the man: investigators in India and Canada have said gang leaders like Bishnoi direct extortion and attacks from inside prison. It is not a photograph of him and not necessarily where he is held.",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Tihar_Jail%2C_Delhi.jpg/480px-Tihar_Jail%2C_Delhi.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Tihar_Jail%2C_Delhi.jpg?width=1024"
+    }
+   ],
+   "category": "opponents"
   },
   {
    "name": "Maharaja Duleep Singh",
@@ -9739,6 +10072,136 @@
    "category": "panth"
   },
   {
+   "name": "Michael O'Dwyer",
+   "years": "1864 – 1940",
+   "profession": "Lieutenant-Governor of Panjab",
+   "bio": "Sir Michael O'Dwyer served as Lieutenant-Governor of Panjab from 1913 to 1919 and endorsed General Dyer's actions at the Jallianwala Bagh massacre, presiding over the harsh repression and martial law that followed across the province. He remained an unrepentant defender of the massacre for the rest of his life.\n\nHe was assassinated in London on 13 March 1940 by Udham Singh, who held him responsible for the atrocity. He died at Caxton Hall more than two decades after the events at Amritsar.",
+   "related_events": [
+    "jallianwala-bagh-1919",
+    "udham-singh-odwyer-1940"
+   ],
+   "gallery": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Photograph_of_Maharaja_Brij_Indar_Singh_of_Faridkot_State_seated_with_Sir_Michael_O%27Dwyer%2C_the_Lieutenant-Governor_of_Punjab%2C_ca.1916.jpg/1024px-Photograph_of_Maharaja_Brij_Indar_Singh_of_Faridkot_State_seated_with_Sir_Michael_O%27Dwyer%2C_the_Lieutenant-Governor_of_Punjab%2C_ca.1916.jpg",
+     "caption": "Photograph of Maharaja Brij Indar Singh of Faridkot State seated with Sir Michael O'Dwyer, the Lieutenant-Governor of Punjab, ca.1916",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Photograph_of_Maharaja_Brij_Indar_Singh_of_Faridkot_State_seated_with_Sir_Michael_O%27Dwyer%2C_the_Lieutenant-Governor_of_Punjab%2C_ca.1916.jpg/480px-Photograph_of_Maharaja_Brij_Indar_Singh_of_Faridkot_State_seated_with_Sir_Michael_O%27Dwyer%2C_the_Lieutenant-Governor_of_Punjab%2C_ca.1916.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Photograph_of_Maharaja_Brij_Indar_Singh_of_Faridkot_State_seated_with_Sir_Michael_O%27Dwyer%2C_the_Lieutenant-Governor_of_Punjab%2C_ca.1916.jpg?width=1024"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Front-page_headline_from_The_Daily_Telegraph_newspaper_reporting_on_the_assassination_of_Michael_O%27Dwyer_by_Udham_Singh%2C_Thursday%2C_14_March_1940.jpg/1024px-Front-page_headline_from_The_Daily_Telegraph_newspaper_reporting_on_the_assassination_of_Michael_O%27Dwyer_by_Udham_Singh%2C_Thursday%2C_14_March_1940.jpg",
+     "caption": "Front-page headline from The Daily Telegraph reporting on the assassination of Michael O'Dwyer by Udham Singh, 14 March 1940 — a newspaper document, not a photo of O'Dwyer",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Front-page_headline_from_The_Daily_Telegraph_newspaper_reporting_on_the_assassination_of_Michael_O%27Dwyer_by_Udham_Singh%2C_Thursday%2C_14_March_1940.jpg/480px-Front-page_headline_from_The_Daily_Telegraph_newspaper_reporting_on_the_assassination_of_Michael_O%27Dwyer_by_Udham_Singh%2C_Thursday%2C_14_March_1940.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Front-page_headline_from_The_Daily_Telegraph_newspaper_reporting_on_the_assassination_of_Michael_O%27Dwyer_by_Udham_Singh%2C_Thursday%2C_14_March_1940.jpg?width=1024"
+    }
+   ],
+   "category": "opponents"
+  },
+  {
+   "name": "Mohandas Karamchand Gandhi",
+   "years": "1869 – 1948",
+   "profession": "Leader of the Indian Independence Movement",
+   "bio": "Mohandas Gandhi was the pre-eminent leader of the Indian independence movement, known for his philosophy of non-violent resistance (satyagraha). In the context of Sikh history he is a contested figure: in August 1936 he published an article in his journal Harijan labelling a proposed mass conversion of so-called 'untouchables' to Sikhi 'A Dangerous Proposal,' a stance many Sikhs read as revealing anxieties over caste, conversion, and Sikh distinctiveness in late colonial India.\n\nHe was assassinated in 1948. His statements and positions on Sikh questions have remained points of critical discussion in Sikh political and historical writing.",
+   "related_events": [
+    "gandhi-dangerous-proposal-1936"
+   ],
+   "gallery": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Portrait_Gandhi.jpg/1024px-Portrait_Gandhi.jpg",
+     "caption": "Portrait photograph of Mohandas K. Gandhi, 1930s",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Portrait_Gandhi.jpg/480px-Portrait_Gandhi.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_Gandhi.jpg?width=1024"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Mahatma-Gandhi%2C_studio%2C_1931.jpg/1024px-Mahatma-Gandhi%2C_studio%2C_1931.jpg",
+     "caption": "Studio photograph of Mahatma Gandhi, London, 1931",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Mahatma-Gandhi%2C_studio%2C_1931.jpg/480px-Mahatma-Gandhi%2C_studio%2C_1931.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Mahatma-Gandhi%2C_studio%2C_1931.jpg?width=1024"
+    }
+   ],
+   "category": "opponents"
+  },
+  {
+   "name": "Moninder Singh",
+   "years": "b. 1980s",
+   "profession": "Sikh Federation of Canada leader, human rights advocate",
+   "category": "contemporary",
+   "bio": "Moninder Singh is a Sikh activist in Surrey, British Columbia, and a leader of the Sikh Federation of Canada. An outspoken critic of India’s human rights record and a supporter of Khalistani self-determination, he has become one of the most visible Canadian Sikh voices bringing the question of transnational repression to United Nations bodies — and, on the evidence Canadian police have given him, one of the most exposed.\n\nPolice have told him four times that they had credible information that his life was in danger. The first warning came in July 2022, on the same day officers gave the same warning to his close friend Hardeep Singh Nijjar, who was shot dead outside the Guru Nanak Sikh Gurdwara in Surrey eleven months later. Further warnings followed in August 2023, in March 2025 shortly after he addressed the UN Human Rights Council, and in February 2026, two days before he was to appear before the UN again. No one has been arrested over any of them. When the RCMP set out its allegation that Indian government agents were directing violence in Canada through Lawrence Bishnoi’s crime network, Singh was among more than a dozen people, mostly pro-Khalistan activists, believed to have been targeted.\n\nIn August 2026 five UN special rapporteurs wrote to Ottawa about his case, saying the threats may have been an attempt by India to intimidate him for cooperating with the UN, and asking Canada to accelerate its investigations. He told Global News that he suspected India was unhappy at his appearances before UN agencies: “I think it’s a huge problem for them because they haven’t seen this type of activity for a long time from the Sikh community.” The letter arrived as the Carney government, seeking new trade partners, was working to repair relations with New Delhi.",
+   "related_events": [
+    "un-rapporteurs-moninder-singh-2026",
+    "nijjar-assassination-2023",
+    "us-doj-pannun-indictment-2023",
+    "canada-foreign-interference-commission-2025"
+   ],
+   "gallery": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Guru_Nanak_Gurdwara_Delta-Surrey_%282010%29.jpg/1024px-Guru_Nanak_Gurdwara_Delta-Surrey_%282010%29.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Guru_Nanak_Gurdwara_Delta-Surrey_%282010%29.jpg/480px-Guru_Nanak_Gurdwara_Delta-Surrey_%282010%29.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Guru_Nanak_Gurdwara_Delta-Surrey_%282010%29.jpg?width=1024",
+     "caption": "The Guru Nanak Sikh Gurdwara in Surrey, British Columbia — the centre of the community Moninder Singh speaks for, and where Hardeep Singh Nijjar was killed in 2023. No free-licensed photograph of Moninder Singh was available.",
+     "credit": "Wikimedia Commons",
+     "kind": "place"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/UN_Geneva_Human_Rights_and_Alliance_of_Civilizations_Room.jpg/1024px-UN_Geneva_Human_Rights_and_Alliance_of_Civilizations_Room.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/UN_Geneva_Human_Rights_and_Alliance_of_Civilizations_Room.jpg/480px-UN_Geneva_Human_Rights_and_Alliance_of_Civilizations_Room.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/UN_Geneva_Human_Rights_and_Alliance_of_Civilizations_Room.jpg?width=1024",
+     "caption": "The Human Rights Council chamber in Geneva, where Singh has given evidence on the targeting of Sikh activists abroad.",
+     "credit": "Wikimedia Commons",
+     "kind": "place"
+    }
+   ]
+  },
+  {
+   "name": "Nikhil Gupta",
+   "years": "b. circa 1970s",
+   "profession": "Indian National Charged in Assassination Plot",
+   "bio": "Nikhil Gupta is an Indian national arrested in Prague on 30 June 2023 at the request of United States authorities and later extradited to the US. American prosecutors accused him of directing, on behalf of an Indian government employee, a foiled plot to assassinate the Sikh American activist Gurpatwant Singh Pannun on US soil.\n\nThe US Justice Department publicly detailed the case in an unsealed indictment in November 2023, which also indicated the plot's connection to a target in Canada shortly before Hardeep Singh Nijjar's killing. He has pleaded not guilty, and the case remains a focal point of US scrutiny of alleged Indian transnational repression.",
+   "related_events": [
+    "nikhil-gupta-arrest-2023",
+    "us-doj-pannun-indictment-2023"
+   ],
+   "gallery": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/U.S._Department_of_Justice_%28DOJ%29_%2853840386529%29.jpg/1024px-U.S._Department_of_Justice_%28DOJ%29_%2853840386529%29.jpg",
+     "caption": "The U.S. Department of Justice, which charged and prosecuted Nikhil Gupta over the foiled assassination plot — a representative institutional image, not a photograph of Gupta himself (no free-licensed photograph of him could be confirmed on Wikimedia Commons)",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/U.S._Department_of_Justice_%28DOJ%29_%2853840386529%29.jpg/480px-U.S._Department_of_Justice_%28DOJ%29_%2853840386529%29.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/U.S._Department_of_Justice_%28DOJ%29_%2853840386529%29.jpg?width=1024"
+    }
+   ],
+   "category": "opponents"
+  },
+  {
+   "name": "Parmjit Singh Panjwar",
+   "years": "circa 1960 – 2023",
+   "profession": "Khalistan Militant Leader",
+   "bio": "Parmjit Singh Panjwar was a Pakistan-based Sikh activist and chief of a faction of the Khalistan Commando Force, long designated a militant by Indian authorities. He had lived in Pakistan for decades.\n\nOn 6 May 2023 he was shot dead by unidentified gunmen near Lahore. His killing was one of several sudden deaths of Khalistan-linked figures within a few weeks in mid-2023, which Sikh writers described as part of a coordinated global campaign later corroborated by Western investigations into Indian transnational operations.",
+   "related_events": [
+    "panjwar-assassination-2023"
+   ],
+   "gallery": [
+    {
+     "url": "assets/img/parmjit-singh-panjwar.jpg",
+     "caption": "Photograph of Parmjit Singh Panjwar.",
+     "credit": "Image via user-provided source",
+     "fallback": "https://images.squarespace-cdn.com/content/v1/540dd9b6e4b05c669b06779a/bc94d459-debb-40b8-ac81-e67da7f125fd/Fvb5D7wXoAIZEhC.jpeg?format=2500w",
+     "thumb": "assets/img/parmjit-singh-panjwar.jpg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/The_Samadhi_of_Emperor_Ranjit_Singh_in_Lahore%2C_Pakistan..JPG/1024px-The_Samadhi_of_Emperor_Ranjit_Singh_in_Lahore%2C_Pakistan..JPG",
+     "caption": "A landmark in Lahore, Pakistan, the city where Parmjit Singh Panjwar lived for decades in exile and was assassinated in 2023 — a representative location image, not a photograph of Panjwar himself (no free-licensed photograph of him could be confirmed on Wikimedia Commons)",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/The_Samadhi_of_Emperor_Ranjit_Singh_in_Lahore%2C_Pakistan..JPG/480px-The_Samadhi_of_Emperor_Ranjit_Singh_in_Lahore%2C_Pakistan..JPG",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Samadhi_of_Emperor_Ranjit_Singh_in_Lahore%2C_Pakistan..JPG?width=1024"
+    }
+   ],
+   "category": "contemporary"
+  },
+  {
    "name": "Private Buckam Singh",
    "years": "1893 – 1919",
    "profession": "First World War Soldier",
@@ -9842,6 +10305,39 @@
    "category": "panth"
   },
   {
+   "name": "Sidhu Moose Wala (Shubhdeep Singh Sidhu)",
+   "years": "1993 – 2022",
+   "profession": "Panjabi Musician and Politician",
+   "bio": "Shubhdeep Singh Sidhu, known as Sidhu Moose Wala, was an internationally successful Panjabi singer, rapper, and songwriter who also entered politics as a Congress candidate. His music addressed Panjabi identity, rural life, and social themes, earning him a vast following across Panjab and the diaspora.\n\nOn 29 May 2022 he was shot dead in Panjab, a day after his state-provided security detail was reduced. His killing, later linked to organized-crime networks including the Lawrence Bishnoi gang, shocked the Panjabi diaspora. His posthumously released track 'SYL,' addressing Panjab's river-water dispute, became a protest anthem.",
+   "related_events": [
+    "moose-wala-assassination-2022"
+   ],
+   "gallery": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Sidhu_Moose_Wala.jpg/1024px-Sidhu_Moose_Wala.jpg",
+     "caption": "Photograph of Punjabi musician Sidhu Moose Wala, 2020",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Sidhu_Moose_Wala.jpg/480px-Sidhu_Moose_Wala.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Sidhu_Moose_Wala.jpg?width=1024"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Sidhu_Moose_Wala_Interview_2K19.jpg/1024px-Sidhu_Moose_Wala_Interview_2K19.jpg",
+     "caption": "Photograph of Sidhu Moose Wala during a 2019 interview",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Sidhu_Moose_Wala_Interview_2K19.jpg/480px-Sidhu_Moose_Wala_Interview_2K19.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Sidhu_Moose_Wala_Interview_2K19.jpg?width=1024"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Sidhu_Moose_Wala_during_the_shooting_of_his_film_Moosa_Jatt.jpg/1024px-Sidhu_Moose_Wala_during_the_shooting_of_his_film_Moosa_Jatt.jpg",
+     "caption": "Sidhu Moose Wala during the shooting of his film Moosa Jatt",
+     "credit": "Wikimedia Commons",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Sidhu_Moose_Wala_during_the_shooting_of_his_film_Moosa_Jatt.jpg/480px-Sidhu_Moose_Wala_during_the_shooting_of_his_film_Moosa_Jatt.jpg",
+     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Sidhu_Moose_Wala_during_the_shooting_of_his_film_Moosa_Jatt.jpg?width=1024"
+    }
+   ],
+   "category": "contemporary"
+  },
+  {
    "name": "Sirdar Kapur Singh",
    "years": "1909 – 1986",
    "profession": "Sikh Scholar, Civil Servant, and Parliamentarian",
@@ -9914,246 +10410,6 @@
    "category": "panth"
   },
   {
-   "name": "Amritpal Singh Sandhu",
-   "years": "b. 1993",
-   "profession": "Sikh Preacher, Leader of Waris Punjab De, Member of Parliament",
-   "bio": "Amritpal Singh Sandhu emerged as a Sikh preacher and activist who, following Deep Sidhu's death, was formally appointed leader of Waris Punjab De in a ceremony at Rode village in September 2022. Adopting the style and rhetoric of Sant Jarnail Singh Bhindranwale, he led a rapid Amrit Sanchar and anti-drug revival campaign that drew both large followings and government alarm.\n\nIn February 2023 his supporters stormed the Ajnala police station near Amritsar demanding an associate's release. In March 2023 Panjab police launched a sweeping crackdown, imposing a statewide internet blackout, and after weeks evading capture he was arrested in April 2023 and detained without trial under the National Security Act in Assam's Dibrugarh jail.\n\nWhile still detained, in June 2024 he won the Khadoor Sahib parliamentary seat as an independent with over 400,000 votes, a result Sikh commentators called a striking rebuke to claims that pro-Khalistan sentiment lacks support in Panjab.",
-   "related_events": [
-    "amritpal-singh-wpd-head-2022",
-    "ajnala-standoff-2023",
-    "amritpal-manhunt-2023",
-    "amritpal-arrested-2023",
-    "amritpal-electoral-win-2024",
-    "kaumi-insaaf-morcha-2023"
-   ],
-   "gallery": [
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Amritpal_Singh_Jallupur.jpg/1024px-Amritpal_Singh_Jallupur.jpg",
-     "caption": "Photograph of Amritpal Singh Sandhu.",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Amritpal_Singh_Jallupur.jpg/480px-Amritpal_Singh_Jallupur.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Amritpal_Singh_Jallupur.jpg?width=1024"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Sikh_Gurdwara%2C_Punjab.JPG/1024px-Sikh_Gurdwara%2C_Punjab.JPG",
-     "caption": "Representative image of a Sikh gurdwara in Punjab — no free-licensed photograph of Amritpal Singh Sandhu could be confirmed on Wikimedia Commons at time of writing",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Sikh_Gurdwara%2C_Punjab.JPG/480px-Sikh_Gurdwara%2C_Punjab.JPG",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Sikh_Gurdwara%2C_Punjab.JPG?width=1024"
-    }
-   ],
-   "category": "contemporary"
-  },
-  {
-   "name": "Avtar Singh Khanda",
-   "years": "1988 – 2023",
-   "profession": "UK-Based Khalistan Activist",
-   "bio": "Avtar Singh Khanda was a prominent UK-based Khalistan activist associated with organizing and advocacy in Britain. He came to wider attention around the 2023 events surrounding Amritpal Singh and Waris Punjab De.\n\nOn 15 June 2023 he died suddenly in Birmingham. His family and Sikh organizations considered the circumstances suspicious, and UK police and coroners were later accused of failing to properly investigate allegations that he had been poisoned. His death, days before the killing of Hardeep Singh Nijjar, is cited in discussions of alleged transnational repression targeting Sikh activists abroad.",
-   "related_events": [
-    "khanda-death-2023"
-   ],
-   "gallery": [
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Photograph_Sikh_militant_Avtar_Singh_Khanda.jpg/1024px-Photograph_Sikh_militant_Avtar_Singh_Khanda.jpg",
-     "caption": "Photograph of Avtar Singh Khanda.",
-     "credit": "Non-free fair-use image, English Wikipedia",
-     "thumb": "https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Photograph_Sikh_militant_Avtar_Singh_Khanda.jpg/480px-Photograph_Sikh_militant_Avtar_Singh_Khanda.jpg",
-     "fallback": "https://en.wikipedia.org/wiki/Special:FilePath/Photograph_Sikh_militant_Avtar_Singh_Khanda.jpg?width=1024"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Guru_Nanak_Gurdwara_Smethwick_1_%283194488146%29.jpg/1024px-Guru_Nanak_Gurdwara_Smethwick_1_%283194488146%29.jpg",
-     "caption": "Guru Nanak Gurdwara Smethwick, near Birmingham — the UK Midlands region where Avtar Singh Khanda was based as a Sikh diaspora activist and where he died in 2023; a representative location image, not a photograph of Khanda himself (no free-licensed photograph of him could be confirmed on Wikimedia Commons)",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Guru_Nanak_Gurdwara_Smethwick_1_%283194488146%29.jpg/480px-Guru_Nanak_Gurdwara_Smethwick_1_%283194488146%29.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Guru_Nanak_Gurdwara_Smethwick_1_%283194488146%29.jpg?width=1024"
-    }
-   ],
-   "category": "contemporary"
-  },
-  {
-   "name": "Deep Sidhu",
-   "years": "1984 – 2022",
-   "profession": "Actor and Activist, Founder of Waris Punjab De",
-   "bio": "Deep Sidhu was a Panjabi actor who became a prominent activist voice during the 2020-2021 Farmers' Protest. He was among those accused in connection with the January 2021 Republic Day incident at the Red Fort in Delhi, where a Nishan Sahib was raised, an episode that drew intense controversy.\n\nHe founded the organization Waris Punjab De to champion Panjab's rights and identity. On 15 February 2022 he died in a car crash on a highway near Delhi, a death many Sikhs regarded as suspicious. His funeral drew a large gathering with prominent displays of support for Khalistan, and leadership of his organization later passed to Amritpal Singh.",
-   "related_events": [
-    "republic-day-tractor-rally-2021",
-    "deep-sidhu-death-2022",
-    "amritpal-singh-wpd-head-2022"
-   ],
-   "gallery": [
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/en/thumb/1/14/Photograph_of_Deep_Sidhu_%28born_Sandeep_Singh_Sidhu%29%2C_late_actor_and_founder_of_Waris_Panjab_De.jpg/1024px-Photograph_of_Deep_Sidhu_%28born_Sandeep_Singh_Sidhu%29%2C_late_actor_and_founder_of_Waris_Panjab_De.jpg",
-     "caption": "Photograph of Deep Sidhu (born Sandeep Singh Sidhu), actor and founder of Waris Punjab De.",
-     "credit": "Non-free fair-use image, English Wikipedia",
-     "thumb": "https://upload.wikimedia.org/wikipedia/en/thumb/1/14/Photograph_of_Deep_Sidhu_%28born_Sandeep_Singh_Sidhu%29%2C_late_actor_and_founder_of_Waris_Panjab_De.jpg/480px-Photograph_of_Deep_Sidhu_%28born_Sandeep_Singh_Sidhu%29%2C_late_actor_and_founder_of_Waris_Panjab_De.jpg",
-     "fallback": "https://en.wikipedia.org/wiki/Special:FilePath/Photograph_of_Deep_Sidhu_%28born_Sandeep_Singh_Sidhu%29%2C_late_actor_and_founder_of_Waris_Panjab_De.jpg?width=1024"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Red_Fort_aka_Lal_Qila%2C_New_Delhi.JPG/1024px-Red_Fort_aka_Lal_Qila%2C_New_Delhi.JPG",
-     "caption": "The Red Fort (Lal Qila), Delhi — site of the 26 January 2021 Republic Day tractor rally incident in which Deep Sidhu was implicated; a representative location image, not a photograph of Sidhu himself",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Red_Fort_aka_Lal_Qila%2C_New_Delhi.JPG/480px-Red_Fort_aka_Lal_Qila%2C_New_Delhi.JPG",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Red_Fort_aka_Lal_Qila%2C_New_Delhi.JPG?width=1024"
-    }
-   ],
-   "category": "contemporary"
-  },
-  {
-   "name": "Gurpatwant Singh Pannun",
-   "years": "b. 1967",
-   "profession": "Attorney and Founder of Sikhs for Justice",
-   "bio": "Gurpatwant Singh Pannun is a Sikh American (and Canadian) attorney and the general counsel and co-founder of Sikhs for Justice (SFJ), the group that organizes the non-binding Khalistan Referendum votes held across the diaspora from 2022. A vocal advocate for an independent Khalistan, he has been designated a terrorist by India, a designation his supporters characterize as an attack on peaceful advocacy.\n\nIn 2023 US federal prosecutors alleged that an Indian government employee had directed a foiled plot to assassinate him on US soil, detailed in the indictment of Nikhil Gupta. The case became a landmark in international scrutiny of alleged Indian transnational repression.",
-   "related_events": [
-    "khalistan-referendum-begins-2022",
-    "nikhil-gupta-arrest-2023",
-    "us-doj-pannun-indictment-2023"
-   ],
-   "gallery": [
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Khalistan_map_proposal_by_the_Sikhs_for_Justice.png/1024px-Khalistan_map_proposal_by_the_Sikhs_for_Justice.png",
-     "caption": "Map of the proposed state of 'Khalistan' as circulated by Sikhs for Justice, the organization founded and led by Gurpatwant Singh Pannun — a representative document, not a photograph of Pannun himself (no free-licensed photograph of him could be confirmed on Wikimedia Commons)",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Khalistan_map_proposal_by_the_Sikhs_for_Justice.png/480px-Khalistan_map_proposal_by_the_Sikhs_for_Justice.png",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Khalistan_map_proposal_by_the_Sikhs_for_Justice.png?width=1024"
-    }
-   ],
-   "category": "contemporary"
-  },
-  {
-   "name": "Hardeep Singh Nijjar",
-   "years": "1977 – 2023",
-   "profession": "Sikh Separatist Leader and Gurdwara President",
-   "bio": "Hardeep Singh Nijjar was a Canadian Sikh community leader, president of the Guru Nanak Sikh Gurdwara in Surrey, British Columbia, and an advocate for the Khalistan movement, including support for the Sikhs for Justice referendum campaign. India had designated him a terrorist, an accusation his supporters rejected as politically motivated.\n\nOn 18 June 2023 he was shot dead in the parking lot of his Surrey gurdwara. A later US indictment described how an Indian government employee coordinated the killing with an intermediary, and in September 2023 Canada's Prime Minister stated that Canadian agencies had credible evidence linking agents of India to the assassination, which India rejected as absurd. His killing became the central case in international scrutiny of alleged Indian transnational repression of Sikhs.",
-   "related_events": [
-    "nijjar-assassination-2023",
-    "trudeau-parliament-nijjar-2023",
-    "us-doj-pannun-indictment-2023"
-   ],
-   "gallery": [
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Hardeep_Singh_Nijjar_in_2020.png/1024px-Hardeep_Singh_Nijjar_in_2020.png",
-     "caption": "Photograph of Hardeep Singh Nijjar, 2020",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Hardeep_Singh_Nijjar_in_2020.png/480px-Hardeep_Singh_Nijjar_in_2020.png",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Hardeep_Singh_Nijjar_in_2020.png?width=1024"
-    }
-   ],
-   "category": "contemporary"
-  },
-  {
-   "name": "Jagtar Singh Johal",
-   "years": "b. 1987",
-   "profession": "British Sikh Activist and Detainee",
-   "bio": "Jagtar Singh Johal is a British Sikh citizen from Dumbarton, Scotland, and a blogger and activist who documented Sikh human-rights issues. He was arrested in Panjab in November 2017 while visiting for his wedding and has since been held in prolonged detention in India, facing charges his supporters and human-rights organizations say are unfounded, amid allegations that he was tortured to extract a confession.\n\nBy late 2025 he remained detained years after his arrest, amid allegations that UK intelligence-sharing contributed to his detention. Sikh writers and campaigners describe his unresolved case as an example of Britain failing to protect one of its own citizens abroad, and it has become a prominent cause in UK Sikh advocacy.",
-   "related_events": [
-    "jagtar-singh-johal-case-2025"
-   ],
-   "gallery": [
-    {
-     "url": "assets/img/jagtar-singh-johal.jpg",
-     "caption": "Photograph of Jagtar Singh Johal.",
-     "credit": "Image via Substack",
-     "fallback": "https://substackcdn.com/image/fetch/$s_!tv-g!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3ed1da79-deef-4ff3-b70e-8b4722bd577c_634x356.jpeg",
-     "thumb": "assets/img/jagtar-singh-johal.jpg"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Palace_of_Westminster%2C_Houses_of_Parliament%2C_London%2C_UK.jpg/1024px-Palace_of_Westminster%2C_Houses_of_Parliament%2C_London%2C_UK.jpg",
-     "caption": "The Palace of Westminster, London — the UK Parliament has repeatedly debated and raised Jagtar Singh Johal's detention in India; a representative institutional image, not a photograph of Johal himself (no free-licensed photograph of him could be confirmed on Wikimedia Commons)",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Palace_of_Westminster%2C_Houses_of_Parliament%2C_London%2C_UK.jpg/480px-Palace_of_Westminster%2C_Houses_of_Parliament%2C_London%2C_UK.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Palace_of_Westminster%2C_Houses_of_Parliament%2C_London%2C_UK.jpg?width=1024"
-    }
-   ],
-   "category": "contemporary"
-  },
-  {
-   "name": "Justin Trudeau",
-   "years": "b. 1971",
-   "profession": "Prime Minister of Canada",
-   "bio": "Justin Trudeau served as Prime Minister of Canada from 2015 to 2025. His official visit to India in February 2018 became mired in controversy amid media allegations linking Canadian Sikh politicians to 'separatists,' a narrative Sikh commentators traced through years of skewed coverage of Sikh political activity in Canada.\n\nIn September 2023 he announced to the House of Commons that Canadian agencies were pursuing credible allegations linking agents of the Government of India to the June 2023 assassination of Hardeep Singh Nijjar in British Columbia, triggering a major diplomatic rupture between Ottawa and New Delhi, which rejected the allegations. His government's later actions, including the terrorist designation of the Bishnoi network, further shaped Canada-India relations over transnational repression.",
-   "related_events": [
-    "trudeau-india-tour-2018",
-    "trudeau-parliament-nijjar-2023",
-    "nijjar-assassination-2023"
-   ],
-   "gallery": [
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Justin_Trudeau_2014-1.jpg/1024px-Justin_Trudeau_2014-1.jpg",
-     "caption": "Photograph of Justin Trudeau, 2014",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Justin_Trudeau_2014-1.jpg/480px-Justin_Trudeau_2014-1.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Justin_Trudeau_2014-1.jpg?width=1024"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Justin_Trudeau_2021_%28cropped%29.jpg/1024px-Justin_Trudeau_2021_%28cropped%29.jpg",
-     "caption": "Photograph of Justin Trudeau, 2021",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Justin_Trudeau_2021_%28cropped%29.jpg/480px-Justin_Trudeau_2021_%28cropped%29.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Justin_Trudeau_2021_%28cropped%29.jpg?width=1024"
-    }
-   ],
-   "category": "contemporary"
-  },
-  {
-   "name": "Parmjit Singh Panjwar",
-   "years": "circa 1960 – 2023",
-   "profession": "Khalistan Militant Leader",
-   "bio": "Parmjit Singh Panjwar was a Pakistan-based Sikh activist and chief of a faction of the Khalistan Commando Force, long designated a militant by Indian authorities. He had lived in Pakistan for decades.\n\nOn 6 May 2023 he was shot dead by unidentified gunmen near Lahore. His killing was one of several sudden deaths of Khalistan-linked figures within a few weeks in mid-2023, which Sikh writers described as part of a coordinated global campaign later corroborated by Western investigations into Indian transnational operations.",
-   "related_events": [
-    "panjwar-assassination-2023"
-   ],
-   "gallery": [
-    {
-     "url": "assets/img/parmjit-singh-panjwar.jpg",
-     "caption": "Photograph of Parmjit Singh Panjwar.",
-     "credit": "Image via user-provided source",
-     "fallback": "https://images.squarespace-cdn.com/content/v1/540dd9b6e4b05c669b06779a/bc94d459-debb-40b8-ac81-e67da7f125fd/Fvb5D7wXoAIZEhC.jpeg?format=2500w",
-     "thumb": "assets/img/parmjit-singh-panjwar.jpg"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/The_Samadhi_of_Emperor_Ranjit_Singh_in_Lahore%2C_Pakistan..JPG/1024px-The_Samadhi_of_Emperor_Ranjit_Singh_in_Lahore%2C_Pakistan..JPG",
-     "caption": "A landmark in Lahore, Pakistan, the city where Parmjit Singh Panjwar lived for decades in exile and was assassinated in 2023 — a representative location image, not a photograph of Panjwar himself (no free-licensed photograph of him could be confirmed on Wikimedia Commons)",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/The_Samadhi_of_Emperor_Ranjit_Singh_in_Lahore%2C_Pakistan..JPG/480px-The_Samadhi_of_Emperor_Ranjit_Singh_in_Lahore%2C_Pakistan..JPG",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Samadhi_of_Emperor_Ranjit_Singh_in_Lahore%2C_Pakistan..JPG?width=1024"
-    }
-   ],
-   "category": "contemporary"
-  },
-  {
-   "name": "Sidhu Moose Wala (Shubhdeep Singh Sidhu)",
-   "years": "1993 – 2022",
-   "profession": "Panjabi Musician and Politician",
-   "bio": "Shubhdeep Singh Sidhu, known as Sidhu Moose Wala, was an internationally successful Panjabi singer, rapper, and songwriter who also entered politics as a Congress candidate. His music addressed Panjabi identity, rural life, and social themes, earning him a vast following across Panjab and the diaspora.\n\nOn 29 May 2022 he was shot dead in Panjab, a day after his state-provided security detail was reduced. His killing, later linked to organized-crime networks including the Lawrence Bishnoi gang, shocked the Panjabi diaspora. His posthumously released track 'SYL,' addressing Panjab's river-water dispute, became a protest anthem.",
-   "related_events": [
-    "moose-wala-assassination-2022"
-   ],
-   "gallery": [
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Sidhu_Moose_Wala.jpg/1024px-Sidhu_Moose_Wala.jpg",
-     "caption": "Photograph of Punjabi musician Sidhu Moose Wala, 2020",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Sidhu_Moose_Wala.jpg/480px-Sidhu_Moose_Wala.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Sidhu_Moose_Wala.jpg?width=1024"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Sidhu_Moose_Wala_Interview_2K19.jpg/1024px-Sidhu_Moose_Wala_Interview_2K19.jpg",
-     "caption": "Photograph of Sidhu Moose Wala during a 2019 interview",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Sidhu_Moose_Wala_Interview_2K19.jpg/480px-Sidhu_Moose_Wala_Interview_2K19.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Sidhu_Moose_Wala_Interview_2K19.jpg?width=1024"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Sidhu_Moose_Wala_during_the_shooting_of_his_film_Moosa_Jatt.jpg/1024px-Sidhu_Moose_Wala_during_the_shooting_of_his_film_Moosa_Jatt.jpg",
-     "caption": "Sidhu Moose Wala during the shooting of his film Moosa Jatt",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Sidhu_Moose_Wala_during_the_shooting_of_his_film_Moosa_Jatt.jpg/480px-Sidhu_Moose_Wala_during_the_shooting_of_his_film_Moosa_Jatt.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Sidhu_Moose_Wala_during_the_shooting_of_his_film_Moosa_Jatt.jpg?width=1024"
-    }
-   ],
-   "category": "contemporary"
-  },
-  {
    "name": "Yogi Bhajan (Harbhajan Singh Puri)",
    "years": "1929 – 2004",
    "profession": "Founder of the 3HO Movement",
@@ -10178,189 +10434,6 @@
     }
    ],
    "category": "contemporary"
-  },
-  {
-   "name": "Beant Singh",
-   "years": "1922 – 1995",
-   "profession": "Chief Minister of Panjab",
-   "bio": "Beant Singh was a Congress politician who became Chief Minister of Panjab after the 1992 state election, held amid a widespread Sikh boycott. His government is held by Sikh rights advocates to have overseen a campaign of extrajudicial killings and enforced disappearances of Sikh youth during the counter-insurgency of the early 1990s, later documented by the human rights defender Jaswant Singh Khalra.\n\nHe was killed on 31 August 1995 in a suicide bombing at the Panjab civil secretariat in Chandigarh, carried out by Dilawar Singh, with Balwant Singh Rajoana convicted as a conspirator. Sikh accounts frame the killing as retribution sought for the bloodshed of the counter-insurgency years.",
-   "related_events": [
-    "punjab-counterinsurgency-1992",
-    "beant-singh-assassination-1995"
-   ],
-   "gallery": [
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Beant_Singh_2013_stamp_of_India.jpg/1024px-Beant_Singh_2013_stamp_of_India.jpg",
-     "caption": "2013 Indian commemorative postage stamp bearing the likeness of Beant Singh, Chief Minister of Punjab (1992–1995) — a stamp portrait, not a photograph",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Beant_Singh_2013_stamp_of_India.jpg/480px-Beant_Singh_2013_stamp_of_India.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Beant_Singh_2013_stamp_of_India.jpg?width=1024"
-    }
-   ],
-   "category": "opponents"
-  },
-  {
-   "name": "General Reginald Dyer",
-   "years": "1864 – 1927",
-   "profession": "British Army Officer",
-   "bio": "Colonel (acting Brigadier-General) Reginald Dyer was the British Indian Army officer who ordered troops under his command to open fire on an unarmed crowd gathered at Jallianwala Bagh in Amritsar on 13 April 1919, during Vaisakhi. The firing continued until ammunition was nearly exhausted, killing hundreds and wounding many more in an enclosed space with few exits.\n\nThe massacre became one of the defining atrocities of British colonial rule. Dyer was censured by the Hunter Commission and removed from command, though he was lauded by sections of the British public. He died in 1927.",
-   "related_events": [
-    "jallianwala-bagh-1919"
-   ],
-   "gallery": [
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/G%C3%A9n%C3%A9ral_Dyer%2C_C.N._Londres_%28clich%C3%A9_Central_News%29_-_btv1b530372528.jpg/1024px-G%C3%A9n%C3%A9ral_Dyer%2C_C.N._Londres_%28clich%C3%A9_Central_News%29_-_btv1b530372528.jpg",
-     "caption": "Press photograph of General Reginald Dyer, distributed by the Central News agency, London, 1919",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/G%C3%A9n%C3%A9ral_Dyer%2C_C.N._Londres_%28clich%C3%A9_Central_News%29_-_btv1b530372528.jpg/480px-G%C3%A9n%C3%A9ral_Dyer%2C_C.N._Londres_%28clich%C3%A9_Central_News%29_-_btv1b530372528.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/G%C3%A9n%C3%A9ral_Dyer%2C_C.N._Londres_%28clich%C3%A9_Central_News%29_-_btv1b530372528.jpg?width=1024"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/The_Jallianwala_Bagh_memorial_in_Amrithsar_.jpg/1024px-The_Jallianwala_Bagh_memorial_in_Amrithsar_.jpg",
-     "caption": "The Jallianwala Bagh memorial in Amritsar, built to commemorate the victims of the 1919 massacre Dyer ordered — a representative image of the site, not a photograph of Dyer himself",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/The_Jallianwala_Bagh_memorial_in_Amrithsar_.jpg/480px-The_Jallianwala_Bagh_memorial_in_Amrithsar_.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Jallianwala_Bagh_memorial_in_Amrithsar_.jpg?width=1024"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Quote_from_General_Dyer_Who_Ordered_1919_Amritsar_Massacre_-_Jallianwala_Bagh_-_Amritsar_-_Punjab_-_India_%2812675265305%29.jpg/1024px-Quote_from_General_Dyer_Who_Ordered_1919_Amritsar_Massacre_-_Jallianwala_Bagh_-_Amritsar_-_Punjab_-_India_%2812675265305%29.jpg",
-     "caption": "Inscribed quote from General Dyer at the Jallianwala Bagh site, Amritsar — a documentary/memorial photograph, not a portrait of Dyer",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Quote_from_General_Dyer_Who_Ordered_1919_Amritsar_Massacre_-_Jallianwala_Bagh_-_Amritsar_-_Punjab_-_India_%2812675265305%29.jpg/480px-Quote_from_General_Dyer_Who_Ordered_1919_Amritsar_Massacre_-_Jallianwala_Bagh_-_Amritsar_-_Punjab_-_India_%2812675265305%29.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Quote_from_General_Dyer_Who_Ordered_1919_Amritsar_Massacre_-_Jallianwala_Bagh_-_Amritsar_-_Punjab_-_India_%2812675265305%29.jpg?width=1024"
-    }
-   ],
-   "category": "opponents"
-  },
-  {
-   "name": "Indira Gandhi",
-   "years": "1917 – 1984",
-   "profession": "Prime Minister of India",
-   "bio": "Indira Gandhi served as Prime Minister of India for most of the period from 1966 to 1984. In 1975 she imposed a nationwide Internal Emergency, suspending civil liberties and jailing opponents; Sikh organizations mounted one of the most sustained resistance campaigns against it, with large numbers courting arrest.\n\nIn June 1984 she ordered Operation Blue Star, the Indian Army assault on the Harimandar Sahib complex in Amritsar, which killed large numbers of pilgrims and severely damaged Sikhism's holiest site, becoming a central trauma of modern Sikh history. On 31 October 1984 she was assassinated by two of her Sikh bodyguards in apparent retaliation for the assault. Her killing was followed within hours by organized anti-Sikh violence across Delhi and northern India.",
-   "related_events": [
-    "emergency-1975",
-    "operation-blue-star-1984",
-    "indira-gandhi-assassination-1984",
-    "anti-sikh-pogroms-nov-1984"
-   ],
-   "gallery": [
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Indira_Gandhi_1966_%28cropped%29.jpg/1024px-Indira_Gandhi_1966_%28cropped%29.jpg",
-     "caption": "Indira Gandhi, cropped portrait photograph, 1966.",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Indira_Gandhi_1966_%28cropped%29.jpg/480px-Indira_Gandhi_1966_%28cropped%29.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Indira_Gandhi_1966_%28cropped%29.jpg?width=1024"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Indira_Gandhi_at_banquet_in_Vancouver_during_a_state-visit%2C_The_Province%2C_1949.jpg/1024px-Indira_Gandhi_at_banquet_in_Vancouver_during_a_state-visit%2C_The_Province%2C_1949.jpg",
-     "caption": "Indira Gandhi at a banquet in Vancouver during a state visit, The Province, 1949",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Indira_Gandhi_at_banquet_in_Vancouver_during_a_state-visit%2C_The_Province%2C_1949.jpg/480px-Indira_Gandhi_at_banquet_in_Vancouver_during_a_state-visit%2C_The_Province%2C_1949.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Indira_Gandhi_at_banquet_in_Vancouver_during_a_state-visit%2C_The_Province%2C_1949.jpg?width=1024"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Nehru_with_Indira_Gandhi_at_the_Sikh_temple_in_Vancouver%2C_The_Province%2C_1949.jpg/1024px-Nehru_with_Indira_Gandhi_at_the_Sikh_temple_in_Vancouver%2C_The_Province%2C_1949.jpg",
-     "caption": "Nehru with Indira Gandhi at the Sikh temple in Vancouver, The Province, 1949",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Nehru_with_Indira_Gandhi_at_the_Sikh_temple_in_Vancouver%2C_The_Province%2C_1949.jpg/480px-Nehru_with_Indira_Gandhi_at_the_Sikh_temple_in_Vancouver%2C_The_Province%2C_1949.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Nehru_with_Indira_Gandhi_at_the_Sikh_temple_in_Vancouver%2C_The_Province%2C_1949.jpg?width=1024"
-    }
-   ],
-   "category": "opponents"
-  },
-  {
-   "name": "Lawrence Bishnoi",
-   "years": "b. 1993",
-   "profession": "Organized-Crime Network Leader",
-   "bio": "Lawrence Bishnoi is an imprisoned Indian gangster whose organized-crime network has been linked to a wave of violence affecting the Panjabi diaspora. His gang was implicated in the May 2022 killing of the singer Sidhu Moose Wala and, according to Canadian authorities, in a 2025 wave of extortions and shootings in British Columbia.\n\nIn September 2025 the Government of Canada listed the Lawrence Bishnoi gang as a terrorist entity, with the RCMP describing the network as a proxy used by the Government of India to carry out homicides, arsons, and extortion as part of transnational repression against Canadian Sikhs. He has remained in Indian custody throughout, directing operations from prison according to investigators.",
-   "related_events": [
-    "moose-wala-assassination-2022",
-    "bc-extortion-wave-2025",
-    "canada-bishnoi-terror-designation-2025"
-   ],
-   "gallery": [
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Tihar_Jail%2C_Delhi.jpg/1024px-Tihar_Jail%2C_Delhi.jpg",
-     "caption": "Tihar Jail, Delhi. No free-licensed photograph of Lawrence Bishnoi exists on Wikimedia Commons, so this stands in for the mechanism rather than the man: investigators in India and Canada have said gang leaders like Bishnoi direct extortion and attacks from inside prison. It is not a photograph of him and not necessarily where he is held.",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Tihar_Jail%2C_Delhi.jpg/480px-Tihar_Jail%2C_Delhi.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Tihar_Jail%2C_Delhi.jpg?width=1024"
-    }
-   ],
-   "category": "opponents"
-  },
-  {
-   "name": "Michael O'Dwyer",
-   "years": "1864 – 1940",
-   "profession": "Lieutenant-Governor of Panjab",
-   "bio": "Sir Michael O'Dwyer served as Lieutenant-Governor of Panjab from 1913 to 1919 and endorsed General Dyer's actions at the Jallianwala Bagh massacre, presiding over the harsh repression and martial law that followed across the province. He remained an unrepentant defender of the massacre for the rest of his life.\n\nHe was assassinated in London on 13 March 1940 by Udham Singh, who held him responsible for the atrocity. He died at Caxton Hall more than two decades after the events at Amritsar.",
-   "related_events": [
-    "jallianwala-bagh-1919",
-    "udham-singh-odwyer-1940"
-   ],
-   "gallery": [
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Photograph_of_Maharaja_Brij_Indar_Singh_of_Faridkot_State_seated_with_Sir_Michael_O%27Dwyer%2C_the_Lieutenant-Governor_of_Punjab%2C_ca.1916.jpg/1024px-Photograph_of_Maharaja_Brij_Indar_Singh_of_Faridkot_State_seated_with_Sir_Michael_O%27Dwyer%2C_the_Lieutenant-Governor_of_Punjab%2C_ca.1916.jpg",
-     "caption": "Photograph of Maharaja Brij Indar Singh of Faridkot State seated with Sir Michael O'Dwyer, the Lieutenant-Governor of Punjab, ca.1916",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Photograph_of_Maharaja_Brij_Indar_Singh_of_Faridkot_State_seated_with_Sir_Michael_O%27Dwyer%2C_the_Lieutenant-Governor_of_Punjab%2C_ca.1916.jpg/480px-Photograph_of_Maharaja_Brij_Indar_Singh_of_Faridkot_State_seated_with_Sir_Michael_O%27Dwyer%2C_the_Lieutenant-Governor_of_Punjab%2C_ca.1916.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Photograph_of_Maharaja_Brij_Indar_Singh_of_Faridkot_State_seated_with_Sir_Michael_O%27Dwyer%2C_the_Lieutenant-Governor_of_Punjab%2C_ca.1916.jpg?width=1024"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Front-page_headline_from_The_Daily_Telegraph_newspaper_reporting_on_the_assassination_of_Michael_O%27Dwyer_by_Udham_Singh%2C_Thursday%2C_14_March_1940.jpg/1024px-Front-page_headline_from_The_Daily_Telegraph_newspaper_reporting_on_the_assassination_of_Michael_O%27Dwyer_by_Udham_Singh%2C_Thursday%2C_14_March_1940.jpg",
-     "caption": "Front-page headline from The Daily Telegraph reporting on the assassination of Michael O'Dwyer by Udham Singh, 14 March 1940 — a newspaper document, not a photo of O'Dwyer",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Front-page_headline_from_The_Daily_Telegraph_newspaper_reporting_on_the_assassination_of_Michael_O%27Dwyer_by_Udham_Singh%2C_Thursday%2C_14_March_1940.jpg/480px-Front-page_headline_from_The_Daily_Telegraph_newspaper_reporting_on_the_assassination_of_Michael_O%27Dwyer_by_Udham_Singh%2C_Thursday%2C_14_March_1940.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Front-page_headline_from_The_Daily_Telegraph_newspaper_reporting_on_the_assassination_of_Michael_O%27Dwyer_by_Udham_Singh%2C_Thursday%2C_14_March_1940.jpg?width=1024"
-    }
-   ],
-   "category": "opponents"
-  },
-  {
-   "name": "Mohandas Karamchand Gandhi",
-   "years": "1869 – 1948",
-   "profession": "Leader of the Indian Independence Movement",
-   "bio": "Mohandas Gandhi was the pre-eminent leader of the Indian independence movement, known for his philosophy of non-violent resistance (satyagraha). In the context of Sikh history he is a contested figure: in August 1936 he published an article in his journal Harijan labelling a proposed mass conversion of so-called 'untouchables' to Sikhi 'A Dangerous Proposal,' a stance many Sikhs read as revealing anxieties over caste, conversion, and Sikh distinctiveness in late colonial India.\n\nHe was assassinated in 1948. His statements and positions on Sikh questions have remained points of critical discussion in Sikh political and historical writing.",
-   "related_events": [
-    "gandhi-dangerous-proposal-1936"
-   ],
-   "gallery": [
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Portrait_Gandhi.jpg/1024px-Portrait_Gandhi.jpg",
-     "caption": "Portrait photograph of Mohandas K. Gandhi, 1930s",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Portrait_Gandhi.jpg/480px-Portrait_Gandhi.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_Gandhi.jpg?width=1024"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Mahatma-Gandhi%2C_studio%2C_1931.jpg/1024px-Mahatma-Gandhi%2C_studio%2C_1931.jpg",
-     "caption": "Studio photograph of Mahatma Gandhi, London, 1931",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Mahatma-Gandhi%2C_studio%2C_1931.jpg/480px-Mahatma-Gandhi%2C_studio%2C_1931.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Mahatma-Gandhi%2C_studio%2C_1931.jpg?width=1024"
-    }
-   ],
-   "category": "opponents"
-  },
-  {
-   "name": "Nikhil Gupta",
-   "years": "b. circa 1970s",
-   "profession": "Indian National Charged in Assassination Plot",
-   "bio": "Nikhil Gupta is an Indian national arrested in Prague on 30 June 2023 at the request of United States authorities and later extradited to the US. American prosecutors accused him of directing, on behalf of an Indian government employee, a foiled plot to assassinate the Sikh American activist Gurpatwant Singh Pannun on US soil.\n\nThe US Justice Department publicly detailed the case in an unsealed indictment in November 2023, which also indicated the plot's connection to a target in Canada shortly before Hardeep Singh Nijjar's killing. He has pleaded not guilty, and the case remains a focal point of US scrutiny of alleged Indian transnational repression.",
-   "related_events": [
-    "nikhil-gupta-arrest-2023",
-    "us-doj-pannun-indictment-2023"
-   ],
-   "gallery": [
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/U.S._Department_of_Justice_%28DOJ%29_%2853840386529%29.jpg/1024px-U.S._Department_of_Justice_%28DOJ%29_%2853840386529%29.jpg",
-     "caption": "The U.S. Department of Justice, which charged and prosecuted Nikhil Gupta over the foiled assassination plot — a representative institutional image, not a photograph of Gupta himself (no free-licensed photograph of him could be confirmed on Wikimedia Commons)",
-     "credit": "Wikimedia Commons",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/U.S._Department_of_Justice_%28DOJ%29_%2853840386529%29.jpg/480px-U.S._Department_of_Justice_%28DOJ%29_%2853840386529%29.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/U.S._Department_of_Justice_%28DOJ%29_%2853840386529%29.jpg?width=1024"
-    }
-   ],
-   "category": "opponents"
   }
  ],
  "references": {
@@ -10930,7 +11003,7 @@
    "id": "contemporary",
    "name": "Contemporary Figures",
    "note": "People at the centre of the record from 2000 onward, Sikh and otherwise.",
-   "count": 10
+   "count": 11
   },
   {
    "id": "opponents",
