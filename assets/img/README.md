@@ -20,3 +20,4 @@ URL for each image, so the page still renders correctly — just more slowly.
 | `jagtar-singh-johal.jpg`    | Jagtar Singh Johal |
 | `mahmood-fighting-for-faith-and-nation.jpg` | Book cover — Mahmood, *Fighting for Faith and Nation* (shown in the cited-work hover card) |
 | `moninder-singh-un-human-rights-council.jpg` | Moninder Singh at the UN Human Rights Council (Global News) — committed to the repo, not fetched |
+| `gurbachan-singh-sant-nirankari.png` | Baba Gurbachan Singh, third head of the Sant Nirankari Mission — photographer unknown, published by the Sant Nirankari Mission, used under fair use. Committed to the repo, not fetched |

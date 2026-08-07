@@ -9216,10 +9216,17 @@
    ],
    "gallery": [
     {
+     "url": "assets/img/gurbachan-singh-sant-nirankari.png",
+     "thumb": "assets/img/gurbachan-singh-sant-nirankari.png",
+     "caption": "Baba Gurbachan Singh, third head of the Sant Nirankari Mission, shot dead at the mission’s Delhi headquarters on 24 April 1980.",
+     "credit": "Photographer unknown · published by the Sant Nirankari Mission · used under fair use",
+     "kind": "portrait"
+    },
+    {
      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Sant_Nirankari_Samagam.jpg/1024px-Sant_Nirankari_Samagam.jpg",
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Sant_Nirankari_Samagam.jpg/480px-Sant_Nirankari_Samagam.jpg",
      "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Sant_Nirankari_Samagam.jpg?width=1024",
-     "caption": "A Sant Nirankari samagam — the convention format Gurbachan Singh presided over, including at Amritsar on Vaisakhi 1978. Not a photograph of him.",
+     "caption": "A Sant Nirankari samagam — the convention format Gurbachan Singh presided over, including at Amritsar on Vaisakhi 1978.",
      "credit": "Wikimedia Commons",
      "kind": "place"
     }
