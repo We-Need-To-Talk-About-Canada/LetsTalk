@@ -596,6 +596,13 @@
     transition:border-color .2s, color .2s;
   }
   .cd-portrait:hover .gbadge{border-color:var(--accent-dim); color:var(--accent);}
+  /* attribution under the portrait, legible over any image */
+  .cd-portrait .pcredit{
+    position:absolute; left:0; right:0; bottom:0; z-index:2;
+    padding:14px 12px 8px; font-family:var(--sans); font-size:9.5px; line-height:1.45;
+    letter-spacing:.06em; color:var(--ink-2); text-align:right;
+    background:linear-gradient(transparent, rgba(5,7,10,.82) 55%);
+  }
   .cd-body{padding:26px 28px 78px;}
   /* the close button is absolutely positioned over this row, so leave it room */
   .cd-head{

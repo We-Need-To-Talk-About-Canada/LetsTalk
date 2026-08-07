@@ -13,7 +13,7 @@
 <!-- ASSET VERSION: bump this token in BOTH places below (the stylesheet href and
      the timeline-data.json fetch) whenever timeline.css or timeline-data.json
      changes, otherwise browsers keep serving the previously cached copy. -->
-<link rel="stylesheet" href="timeline.css?v=20260807b">
+<link rel="stylesheet" href="timeline.css?v=20260807c">
 </head>
 <body>
 <div class="hud-sweep" aria-hidden="true"></div>
@@ -257,7 +257,7 @@
 
   let DATA;
   try {
-    const res = await fetch('timeline-data.json?v=20260807b');
+    const res = await fetch('timeline-data.json?v=20260807c');
     if (!res.ok) throw new Error('HTTP ' + res.status);
     DATA = await res.json();
   } catch (err) {
@@ -1016,8 +1016,12 @@
     const portraitBox = $('cd-portrait');
     portraitBox.classList.remove('imgfail');
     if (gallery.length){
+      // the credit belongs under the picture, not behind a click: some of
+      // these are used under fair use and the attribution has to be visible
+      const cr = gallery[0].credit;
       portraitBox.innerHTML = '<div class="noimg fallback">&#9772;</div>'
-        + (gallery.length > 1 ? '<span class="gbadge">&#9635; View Gallery (' + gallery.length + ')</span>' : '');
+        + (gallery.length > 1 ? '<span class="gbadge">&#9635; View Gallery (' + gallery.length + ')</span>' : '')
+        + (cr ? '<span class="pcredit">' + esc(cr) + '</span>' : '');
       portraitBox.insertBefore(
         makeImg(gallery[0], 'thumb', p.name, () => portraitBox.classList.add('imgfail')),
         portraitBox.firstChild);
