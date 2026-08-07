@@ -14,3 +14,11 @@
 *.doc
 *.pptx
 *.epub
+
+# The one exception: documents that are themselves public records, published by
+# the body that issued them - a UN communication, a court filing, a government
+# response. Those belong in the repository, because the point of citing them is
+# that anyone can read them. They live in assets/docs/ and are fetched by
+# scripts/fetch-documents.sh.
+!assets/docs/
+!assets/docs/*.pdf

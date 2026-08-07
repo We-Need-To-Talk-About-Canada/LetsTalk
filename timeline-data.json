@@ -9009,10 +9009,10 @@
     "month": 8,
     "day": 3
    },
-   "display_date": "3 August 2026",
+   "display_date": "June 2026, released 3 August",
    "text": {
     "headline": "Five UN rapporteurs ask Canada to act on threats to Moninder Singh",
-    "text": "Five United Nations special rapporteurs wrote to Ottawa expressing serious concerns about the safety of Moninder Singh, the Sikh Federation of Canada leader in Surrey, British Columbia, whom Canadian police have warned four times that his life was at risk. The nine-page joint letter, released by the UN Human Rights Office, said the threats may have been an attempt by India to intimidate him over his advocacy and his cooperation with the UN, and that they “fall within a broader pattern of transnational repression by Indian authorities against Sikh activists in different countries, including Canada.” It asked Canada to answer a list of questions, to protect Singh and his family, to accelerate the investigations and to hold those responsible to account.\n\nWhat drew the rapporteurs was the timing. Several of the plots police detected coincided with Singh’s appearances before UN bodies: the March 2025 warning came shortly after he addressed the Human Rights Council, and the February 2026 warning came two days before he was due to appear again. If true, the letter said, the allegations “may constitute unlawful intimidation and reprisals in direct retaliation for Mr. Moninder Singh’s human rights advocacy and cooperation with United Nations human rights representatives and mechanisms.” No arrests have been made over any of the threats. Global Affairs Canada referred questions to Public Safety Canada, which did not respond. The letter was signed by Ben Saul, Gina Romero, Andrea Bolaños Vargas, George Katrougalos and Nazila Ghanea."
+    "text": "Five United Nations special rapporteurs wrote to Ottawa in June 2026 about the safety of Moninder Singh, the Sikh Federation of Canada leader in Surrey, British Columbia, urging action to prevent what they called an imminent threat to the lives of Singh and his family. The nine-page joint communication, made public by the UN Human Rights Office at the start of August, said the threats may have been an attempt by India to intimidate him over his advocacy and his cooperation with the UN, and that they “fall within a broader pattern of transnational repression by Indian authorities against Sikh activists in different countries, including Canada.” It asked Canada to answer a list of questions, to protect Singh and his family, to accelerate the investigations and to hold those responsible to account.\n\nSingh has received four “duty to warn” notices from Canadian police — the standard notification given when intelligence indicates a credible threat to someone’s life. The first came in July 2022, on the same day officers warned his friend Hardeep Singh Nijjar. The most recent, in February 2026, was the first to name his wife and two children as well: police assessed intelligence about a plan to kill the family as serious enough to require notice at their home. It arrived two days before he was due to appear before the UN, and an earlier warning in March 2025 came shortly after he addressed the Human Rights Council. That timing is what drew the rapporteurs: if the allegations are true, they wrote, the threats “may constitute unlawful intimidation and reprisals in direct retaliation for Mr. Moninder Singh’s human rights advocacy and cooperation with United Nations human rights representatives and mechanisms.” No arrests have been made. The letter was signed by Ben Saul, Gina Romero, Andrea Bolaños Vargas, George Katrougalos and Nazila Ghanea."
    },
    "group": "Contemporary & Diaspora (2000-2026)",
    "category": "Transnational Repression",
@@ -9038,7 +9038,56 @@
      "outlet": "press"
     },
     {
-     "title": "Joint communication to Canada from five UN special rapporteurs, released by the UN Human Rights Office (9 pages, August 2026)",
+     "title": "Joint communication from five UN special rapporteurs to the Government of Canada (OHCHR, June 2026)",
+     "url": "https://spcommreports.ohchr.org/TMResultsBase/DownLoadPublicCommunicationFile?gId=31021",
+     "outlet": "press"
+    },
+    {
+     "title": "UN investigators urge Canada to step up protection for threatened Sikh activist (CBC News)",
+     "url": "https://www.cbc.ca/news/politics/moninder-singh-khalistani-sikh-separatism-threat-un-9.7296045",
+     "outlet": "press"
+    }
+   ]
+  },
+  {
+   "unique_id": "canada-replies-un-moninder-singh-2026",
+   "start_date": {
+    "year": 2026,
+    "month": 8,
+    "day": 6
+   },
+   "display_date": "6 August 2026",
+   "text": {
+    "headline": "Canada tells the UN it is “taking robust action” on the threats",
+    "text": "Ottawa replied to the rapporteurs in writing, saying it was “deeply concerned by the threats against Moninder Singh, his family and his work” and that it was taking “robust action to detect, disrupt and deter transnational repression” — acting, it said, on all credible threats made by foreign actors against people on Canadian soil. The reply is the first time the government has answered for this case on the record to a UN body, and it came within days of the communication being published, after the rapporteurs had waited since June. What it does not contain is an arrest: no one has been charged over any of the four warnings Singh has been given, and the letter sets out a posture rather than a result. It also lands while the Carney government, looking for trade partners, is working to repair the relationship with New Delhi that the Nijjar killing broke."
+   },
+   "group": "Contemporary & Diaspora (2000-2026)",
+   "category": "Transnational Repression",
+   "tier": "detail",
+   "confidence": "high",
+   "parent": "un-rapporteurs-moninder-singh-2026",
+   "location": {
+    "place": "Ottawa, Ontario, Canada",
+    "region": "Canada",
+    "lat": 45.4215,
+    "lon": -75.6972
+   },
+   "media": {
+    "caption": "Parliament Hill in Ottawa. Canada’s written answer to the rapporteurs came from the federal government in the first week of August 2026.",
+    "credit": "Wikimedia Commons",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Centre_Block_-_Parliament_Hill.jpg/1024px-Centre_Block_-_Parliament_Hill.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Centre_Block_-_Parliament_Hill.jpg/480px-Centre_Block_-_Parliament_Hill.jpg",
+    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Centre_Block_-_Parliament_Hill.jpg?width=1024"
+   },
+   "sources": [
+    {
+     "title": "Canada tells UN it’s “taking robust action” to disrupt threats against Sikh activist (CBC News)",
+     "url": "https://www.cbc.ca/news/politics/canada-writes-un-sikh-threats-9.7298499",
+     "outlet": "press"
+    },
+    {
+     "title": "Joint communication from five UN special rapporteurs to the Government of Canada (OHCHR, June 2026)",
+     "url": "https://spcommreports.ohchr.org/TMResultsBase/DownLoadPublicCommunicationFile?gId=31021",
      "outlet": "press"
     }
    ]
@@ -10128,12 +10177,13 @@
    "years": "b. 1980s",
    "profession": "Sikh Federation of Canada leader, human rights advocate",
    "category": "contemporary",
-   "bio": "Moninder Singh is a Sikh activist in Surrey, British Columbia, and a leader of the Sikh Federation of Canada. An outspoken critic of India’s human rights record and a supporter of Khalistani self-determination, he has become one of the most visible Canadian Sikh voices bringing the question of transnational repression to United Nations bodies — and, on the evidence Canadian police have given him, one of the most exposed.\n\nPolice have told him four times that they had credible information that his life was in danger. The first warning came in July 2022, on the same day officers gave the same warning to his close friend Hardeep Singh Nijjar, who was shot dead outside the Guru Nanak Sikh Gurdwara in Surrey eleven months later. Further warnings followed in August 2023, in March 2025 shortly after he addressed the UN Human Rights Council, and in February 2026, two days before he was to appear before the UN again. No one has been arrested over any of them. When the RCMP set out its allegation that Indian government agents were directing violence in Canada through Lawrence Bishnoi’s crime network, Singh was among more than a dozen people, mostly pro-Khalistan activists, believed to have been targeted.\n\nIn August 2026 five UN special rapporteurs wrote to Ottawa about his case, saying the threats may have been an attempt by India to intimidate him for cooperating with the UN, and asking Canada to accelerate its investigations. He told Global News that he suspected India was unhappy at his appearances before UN agencies: “I think it’s a huge problem for them because they haven’t seen this type of activity for a long time from the Sikh community.” The letter arrived as the Carney government, seeking new trade partners, was working to repair relations with New Delhi.",
+   "bio": "Moninder Singh is a Sikh activist in Surrey, British Columbia, and a leader of the Sikh Federation of Canada. An outspoken critic of India’s human rights record and a supporter of Khalistani self-determination, he has become one of the most visible Canadian Sikh voices bringing the question of transnational repression to United Nations bodies — and, on the evidence Canadian police have given him, one of the most exposed.\n\nPolice have told him four times that they had credible information that his life was in danger. The first warning came in July 2022, on the same day officers gave the same warning to his close friend Hardeep Singh Nijjar, who was shot dead outside the Guru Nanak Sikh Gurdwara in Surrey eleven months later. Further warnings followed in August 2023, in March 2025 shortly after he addressed the UN Human Rights Council, and in February 2026, two days before he was to appear before the UN again. That last notice was the first to name his wife and two children as well, police having assessed intelligence about a plan to kill the family as serious enough to require warning them at home. No one has been arrested over any of them. When the RCMP set out its allegation that Indian government agents were directing violence in Canada through Lawrence Bishnoi’s crime network, Singh was among more than a dozen people, mostly pro-Khalistan activists, believed to have been targeted.\n\nIn August 2026 five UN special rapporteurs wrote to Ottawa about his case, saying the threats may have been an attempt by India to intimidate him for cooperating with the UN, and asking Canada to accelerate its investigations. He told Global News that he suspected India was unhappy at his appearances before UN agencies: “I think it’s a huge problem for them because they haven’t seen this type of activity for a long time from the Sikh community.” Ottawa answered in writing days later, saying it was deeply concerned and taking robust action to detect, disrupt and deter transnational repression — a posture, not yet an arrest. The exchange ran while the Carney government, seeking new trade partners, was working to repair relations with New Delhi.",
    "related_events": [
     "un-rapporteurs-moninder-singh-2026",
     "nijjar-assassination-2023",
     "us-doj-pannun-indictment-2023",
-    "canada-foreign-interference-commission-2025"
+    "canada-foreign-interference-commission-2025",
+    "canada-replies-un-moninder-singh-2026"
    ],
    "gallery": [
     {
