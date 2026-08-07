@@ -4,7 +4,7 @@ Profile photographs that are **not** hosted on Wikimedia live here, so the page
 does not depend on third-party CDNs that are slow, hotlink-protected, or liable
 to disappear.
 
-Populate this folder by running, from the repo root:
+Most of this folder is populated by running, from the repo root:
 
 ```bash
 bash scripts/fetch-external-images.sh
@@ -19,3 +19,4 @@ URL for each image, so the page still renders correctly — just more slowly.
 | `gurdip-singh-chaggar.jpg`  | Gurdip Singh Chaggar |
 | `jagtar-singh-johal.jpg`    | Jagtar Singh Johal |
 | `mahmood-fighting-for-faith-and-nation.jpg` | Book cover — Mahmood, *Fighting for Faith and Nation* (shown in the cited-work hover card) |
+| `moninder-singh-un-human-rights-council.jpg` | Moninder Singh at the UN Human Rights Council (Global News) — committed to the repo, not fetched |

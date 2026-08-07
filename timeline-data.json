@@ -9025,12 +9025,11 @@
     "lon": -122.849
    },
    "media": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/UN_Geneva_Human_Rights_and_Alliance_of_Civilizations_Room.jpg/1024px-UN_Geneva_Human_Rights_and_Alliance_of_Civilizations_Room.jpg",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/UN_Geneva_Human_Rights_and_Alliance_of_Civilizations_Room.jpg/480px-UN_Geneva_Human_Rights_and_Alliance_of_Civilizations_Room.jpg",
-    "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/UN_Geneva_Human_Rights_and_Alliance_of_Civilizations_Room.jpg?width=1024",
-    "caption": "The Human Rights and Alliance of Civilizations Room in Geneva, where the Human Rights Council sits and where Moninder Singh has spoken. A photograph of the chamber, not of the sessions described.",
-    "credit": "Wikimedia Commons",
-    "kind": "place"
+    "url": "assets/img/moninder-singh-un-human-rights-council.jpg",
+    "thumb": "assets/img/moninder-singh-un-human-rights-council.jpg",
+    "caption": "Moninder Singh in the Human Rights and Alliance of Civilizations Room in Geneva, the chamber of the UN Human Rights Council, where he has given evidence on the targeting of Sikh activists abroad.",
+    "credit": "Global News",
+    "kind": "portrait"
    },
    "sources": [
     {
@@ -10138,18 +10137,17 @@
    ],
    "gallery": [
     {
+     "url": "assets/img/moninder-singh-un-human-rights-council.jpg",
+     "thumb": "assets/img/moninder-singh-un-human-rights-council.jpg",
+     "caption": "Moninder Singh at the UN Human Rights Council in Geneva.",
+     "credit": "Global News",
+     "kind": "portrait"
+    },
+    {
      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Guru_Nanak_Gurdwara_Delta-Surrey_%282010%29.jpg/1024px-Guru_Nanak_Gurdwara_Delta-Surrey_%282010%29.jpg",
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Guru_Nanak_Gurdwara_Delta-Surrey_%282010%29.jpg/480px-Guru_Nanak_Gurdwara_Delta-Surrey_%282010%29.jpg",
      "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/Guru_Nanak_Gurdwara_Delta-Surrey_%282010%29.jpg?width=1024",
      "caption": "The Guru Nanak Sikh Gurdwara in Surrey, British Columbia — the centre of the community Moninder Singh speaks for, and where Hardeep Singh Nijjar was killed in 2023. No free-licensed photograph of Moninder Singh was available.",
-     "credit": "Wikimedia Commons",
-     "kind": "place"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/UN_Geneva_Human_Rights_and_Alliance_of_Civilizations_Room.jpg/1024px-UN_Geneva_Human_Rights_and_Alliance_of_Civilizations_Room.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/UN_Geneva_Human_Rights_and_Alliance_of_Civilizations_Room.jpg/480px-UN_Geneva_Human_Rights_and_Alliance_of_Civilizations_Room.jpg",
-     "fallback": "https://commons.wikimedia.org/wiki/Special:FilePath/UN_Geneva_Human_Rights_and_Alliance_of_Civilizations_Room.jpg?width=1024",
-     "caption": "The Human Rights Council chamber in Geneva, where Singh has given evidence on the targeting of Sikh activists abroad.",
      "credit": "Wikimedia Commons",
      "kind": "place"
     }
