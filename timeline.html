@@ -13,7 +13,7 @@
 <!-- ASSET VERSION: bump this token in BOTH places below (the stylesheet href and
      the timeline-data.json fetch) whenever timeline.css or timeline-data.json
      changes, otherwise browsers keep serving the previously cached copy. -->
-<link rel="stylesheet" href="timeline.css?v=20260806a">
+<link rel="stylesheet" href="timeline.css?v=20260807a">
 </head>
 <body>
 <div class="hud-sweep" aria-hidden="true"></div>
@@ -186,6 +186,7 @@
 
   <!-- ============ INDEX VIEW ============ -->
   <section class="view" id="view-index">
+    <div class="ix-meta" id="ix-meta" aria-live="polite"></div>
     <div class="indexview">
       <table>
         <thead><tr><th scope="col">Date</th><th scope="col">Event</th><th scope="col">Era</th></tr></thead>
@@ -256,7 +257,7 @@
 
   let DATA;
   try {
-    const res = await fetch('timeline-data.json?v=20260806a');
+    const res = await fetch('timeline-data.json?v=20260807a');
     if (!res.ok) throw new Error('HTTP ' + res.status);
     DATA = await res.json();
   } catch (err) {
@@ -601,6 +602,19 @@
       tr.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(); } });
       listBody.appendChild(tr);
     });
+
+    // say how many entries are on screen, and never let a filter quietly
+    // shorten the record without saying so
+    const meta = $('ix-meta');
+    if (meta){
+      const hidden = events.length - vis.length;
+      const majors = vis.filter(i => isMajor(events[i])).length;
+      meta.innerHTML = '<span><b>' + vis.length + '</b> '
+        + (vis.length === 1 ? 'entry' : 'entries') + '</span>'
+        + '<span><b>' + majors + '</b> major</span>'
+        + '<span>1469 &ndash; 2026</span>'
+        + (hidden ? '<span class="ix-hid">' + hidden + ' hidden by your filters</span>' : '');
+    }
   }
 
   function render(withTransition){
